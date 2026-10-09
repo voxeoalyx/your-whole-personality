@@ -1,0 +1,204 @@
+{
+  "attempt_counts": {
+    "401": 1,
+    "200": 87,
+    "400": 3,
+    "404": 2,
+    "500": 2
+  },
+  "total_attempts": 95,
+  "dimensions": [
+    {
+      "dimension": "place_tags",
+      "areas": 6,
+      "complete_top20_areas": 6,
+      "target_control_pairs": 8,
+      "rows_min": 20,
+      "rows_max": 20,
+      "median_target_control_jaccard20": 0.3793103448275862,
+      "median_target_target_jaccard20": 0.5,
+      "min_pair_jaccard20": 0.21212121212121213,
+      "max_pair_jaccard20": 0.7391304347826086
+    },
+    {
+      "dimension": "brands",
+      "areas": 6,
+      "complete_top20_areas": 6,
+      "target_control_pairs": 8,
+      "rows_min": 20,
+      "rows_max": 20,
+      "median_target_control_jaccard20": 0.18055555555555555,
+      "median_target_target_jaccard20": 0.6387959866220736,
+      "min_pair_jaccard20": 0.1111111111111111,
+      "max_pair_jaccard20": 0.8181818181818182
+    },
+    {
+      "dimension": "destinations",
+      "areas": 6,
+      "complete_top20_areas": 6,
+      "target_control_pairs": 8,
+      "rows_min": 20,
+      "rows_max": 20,
+      "median_target_control_jaccard20": 0.7786561264822134,
+      "median_target_target_jaccard20": 0.8181818181818182,
+      "min_pair_jaccard20": 0.6666666666666666,
+      "max_pair_jaccard20": 0.9047619047619048
+    },
+    {
+      "dimension": "food_dining",
+      "areas": 6,
+      "complete_top20_areas": 6,
+      "target_control_pairs": 8,
+      "rows_min": 20,
+      "rows_max": 20,
+      "median_target_control_jaccard20": 0.11455108359133127,
+      "median_target_target_jaccard20": 0.6,
+      "min_pair_jaccard20": 0.02564102564102564,
+      "max_pair_jaccard20": 0.6666666666666666
+    },
+    {
+      "dimension": "coffee_cafes",
+      "areas": 6,
+      "complete_top20_areas": 5,
+      "target_control_pairs": 6,
+      "rows_min": 4,
+      "rows_max": 20,
+      "median_target_control_jaccard20": 0.21323529411764708,
+      "median_target_target_jaccard20": 0.7391304347826086,
+      "min_pair_jaccard20": 0.14285714285714285,
+      "max_pair_jaccard20": 0.8181818181818182
+    },
+    {
+      "dimension": "fitness",
+      "areas": 6,
+      "complete_top20_areas": 0,
+      "target_control_pairs": 0,
+      "rows_min": 0,
+      "rows_max": 13,
+      "median_target_control_jaccard20": null,
+      "median_target_target_jaccard20": null,
+      "min_pair_jaccard20": null,
+      "max_pair_jaccard20": null
+    },
+    {
+      "dimension": "museums",
+      "areas": 6,
+      "complete_top20_areas": 0,
+      "target_control_pairs": 0,
+      "rows_min": 6,
+      "rows_max": 9,
+      "median_target_control_jaccard20": null,
+      "median_target_target_jaccard20": null,
+      "min_pair_jaccard20": null,
+      "max_pair_jaccard20": null
+    },
+    {
+      "dimension": "nightlife_bars",
+      "areas": 6,
+      "complete_top20_areas": 5,
+      "target_control_pairs": 6,
+      "rows_min": 8,
+      "rows_max": 20,
+      "median_target_control_jaccard20": 0.3333333333333333,
+      "median_target_target_jaccard20": 0.6666666666666666,
+      "min_pair_jaccard20": 0.25,
+      "max_pair_jaccard20": 0.8181818181818182
+    }
+  ],
+  "heatmaps": [
+    {
+      "dimension": "food_dining",
+      "cells": 1522,
+      "unique_affinity_values": 1493,
+      "unique_geohash_lengths": [
+        6
+      ],
+      "zero_popularity_cells": 4,
+      "source": "runs\\08-diagnostics\\food_dining_heatmap.a1.json"
+    },
+    {
+      "dimension": "coffee_cafes",
+      "cells": 1384,
+      "unique_affinity_values": 1363,
+      "unique_geohash_lengths": [
+        6
+      ],
+      "zero_popularity_cells": 19,
+      "source": "runs\\08-diagnostics\\coffee_cafes_heatmap.a1.json"
+    },
+    {
+      "dimension": "fitness",
+      "cells": 1150,
+      "unique_affinity_values": 1145,
+      "unique_geohash_lengths": [
+        6
+      ],
+      "zero_popularity_cells": 29,
+      "source": "runs\\08-diagnostics\\fitness_heatmap.a1.json"
+    },
+    {
+      "dimension": "museums",
+      "cells": 1307,
+      "unique_affinity_values": 1291,
+      "unique_geohash_lengths": [
+        6
+      ],
+      "zero_popularity_cells": 18,
+      "source": "runs\\08-diagnostics\\museums_heatmap.a1.json"
+    },
+    {
+      "dimension": "nightlife_bars",
+      "cells": 1484,
+      "unique_affinity_values": 1438,
+      "unique_geohash_lengths": [
+        6
+      ],
+      "zero_popularity_cells": 14,
+      "source": "runs\\08-diagnostics\\nightlife_bars_heatmap.a1.json"
+    }
+  ],
+  "sensitivity": [
+    {
+      "area": "Winter Park",
+      "comparison": "500m_vs_1000m_point",
+      "jaccard20": 1.0,
+      "rank_cosine20": 1.0
+    },
+    {
+      "area": "Winter Park",
+      "comparison": "polygon_vs_500m_point",
+      "jaccard20": 0.2903225806451613,
+      "rank_cosine20": 0.8479290917881387
+    },
+    {
+      "area": "Winter Park",
+      "comparison": "polygon_vs_1000m_point",
+      "jaccard20": 0.2903225806451613,
+      "rank_cosine20": 0.8479290917881387
+    },
+    {
+      "area": "College Park",
+      "comparison": "500m_vs_1000m_point",
+      "jaccard20": 0.9047619047619048,
+      "rank_cosine20": 0.9785073925579135
+    },
+    {
+      "area": "College Park",
+      "comparison": "polygon_vs_500m_point",
+      "jaccard20": 0.48148148148148145,
+      "rank_cosine20": 0.9226132243254205
+    },
+    {
+      "area": "College Park",
+      "comparison": "polygon_vs_1000m_point",
+      "jaccard20": 0.48148148148148145,
+      "rank_cosine20": 0.956334095447161
+    },
+    {
+      "area": "Mills 50 point proxy",
+      "comparison": "500m_vs_1000m_point",
+      "jaccard20": 0.7391304347826086,
+      "rank_cosine20": 0.9898008422419222
+    }
+  ]
+}

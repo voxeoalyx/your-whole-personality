@@ -1,0 +1,13 @@
+{
+  "at": 1791471029.542003,
+  "request_hash": "19ed6f52b3bc78c4cf93034b1f70d6707a8e44e54b6800b162065d71fecc0352",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.tags": "urn:tag:genre:media:architecture",
+    "take": "20"
+  },
+  "response_sha256": "3d3e95061cfb6be7ffdd8386cedf348e9a43155fcba2d8ea333067c219565692"
+}

@@ -1,0 +1,192 @@
+{
+  "created_at": "2026-10-07T18:44:20.122973+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Matched 20 km output universe, per-category place affinities; distance remains a confound",
+      "requests": [
+        {
+          "id": "winter_park_food_dining",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "winter_park_coffee_cafes",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "winter_park_fitness",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "winter_park_museums",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "winter_park_nightlife_bars",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "pine_hills_food_dining",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "pine_hills_coffee_cafes",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "pine_hills_fitness",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "pine_hills_museums",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "pine_hills_nightlife_bars",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        }
+      ]
+    },
+    "code_sha256": "b38c3174300dff09fb577c2dae8a1b2e4ae0dbbc250431daea8179dca0bd065f"
+  }
+}

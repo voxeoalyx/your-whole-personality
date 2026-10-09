@@ -1,0 +1,1476 @@
+{
+  "version": 1,
+  "source": "live",
+  "generated_at": "2026-10-08T14:57:28.093025+00:00",
+  "interests": [
+    {
+      "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "name": "Radiohead",
+      "type": "artist",
+      "detail": "Radiohead",
+      "image": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg",
+      "verified": true,
+      "alias": "radiohead"
+    },
+    {
+      "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+      "name": "Blue Bottle Coffee",
+      "type": "brand",
+      "detail": "Blue Bottle Coffee is a specialty coffee roaster and retailer known for fresh, high-quality coffee sourced from partners like Pedro Nel Trujillo.",
+      "image": "https://images.qloo.com/i/22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D-420x-auto.jpg",
+      "verified": true,
+      "alias": "blue_bottle"
+    },
+    {
+      "id": "urn:tag:genre:media:architecture",
+      "name": "Architecture",
+      "type": "tag",
+      "taxonomy": "urn:tag:genre:media",
+      "parent_types": [
+        "author",
+        "book"
+      ],
+      "type_label": "Books genre tag",
+      "label": "Architecture (Books genre tag)",
+      "detail": "Interest in this books category, not proof that you do the activity.",
+      "image": null
+    }
+  ],
+  "domains": [
+    "tv_show",
+    "movie"
+  ],
+  "predictions": [
+    {
+      "id": "DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4",
+      "name": "The Baker and the Beauty",
+      "type": null,
+      "detail": "2020,2020",
+      "image": "https://images.qloo.com/i/DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4-420x-auto.jpg",
+      "score": 0.920252758166786,
+      "domain": "tv_show",
+      "rank": 1
+    },
+    {
+      "id": "D839D18C-BBB2-4E0A-819C-884536285E48",
+      "name": "True Story",
+      "type": null,
+      "detail": "2015, Rupert Goold",
+      "image": "https://images.qloo.com/i/D839D18C-BBB2-4E0A-819C-884536285E48-420x-auto.jpg",
+      "score": 0.8816491570474185,
+      "domain": "movie",
+      "rank": 1
+    },
+    {
+      "id": "18FC2F79-E419-413B-8687-587279DAA109",
+      "name": "The Corner",
+      "type": null,
+      "detail": "2000,2000",
+      "image": "https://images.qloo.com/i/18FC2F79-E419-413B-8687-587279DAA109-420x-auto.jpg",
+      "score": 0.8984923656596973,
+      "domain": "tv_show",
+      "rank": 2
+    },
+    {
+      "id": "9E661A87-6EB9-4138-8795-27284CD8E249",
+      "name": "Marriage Story",
+      "type": null,
+      "detail": "2019, Noah Baumbach",
+      "image": "https://images.qloo.com/i/9E661A87-6EB9-4138-8795-27284CD8E249-420x-auto.jpg",
+      "score": 0.8746723900621902,
+      "domain": "movie",
+      "rank": 2
+    },
+    {
+      "id": "62C9A795-9571-4152-B17F-755320A236B7",
+      "name": "My Dearest",
+      "type": null,
+      "detail": "2023,2023",
+      "image": "https://images.qloo.com/i/62C9A795-9571-4152-B17F-755320A236B7-420x-auto.jpg",
+      "score": 0.8977096698396541,
+      "domain": "tv_show",
+      "rank": 3
+    },
+    {
+      "id": "CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA",
+      "name": "See You Tomorrow",
+      "type": null,
+      "detail": "2016, Jiajia Zhang",
+      "image": "https://images.qloo.com/i/CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA-420x-auto.jpg",
+      "score": 0.8688679915375231,
+      "domain": "movie",
+      "rank": 3
+    }
+  ],
+  "full": {
+    "tv_show": [
+      {
+        "id": "DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4",
+        "name": "The Baker and the Beauty",
+        "type": null,
+        "detail": "2020,2020",
+        "image": "https://images.qloo.com/i/DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4-420x-auto.jpg",
+        "score": 0.920252758166786
+      },
+      {
+        "id": "18FC2F79-E419-413B-8687-587279DAA109",
+        "name": "The Corner",
+        "type": null,
+        "detail": "2000,2000",
+        "image": "https://images.qloo.com/i/18FC2F79-E419-413B-8687-587279DAA109-420x-auto.jpg",
+        "score": 0.8984923656596973
+      },
+      {
+        "id": "62C9A795-9571-4152-B17F-755320A236B7",
+        "name": "My Dearest",
+        "type": null,
+        "detail": "2023,2023",
+        "image": "https://images.qloo.com/i/62C9A795-9571-4152-B17F-755320A236B7-420x-auto.jpg",
+        "score": 0.8977096698396541
+      },
+      {
+        "id": "BFCE2E43-ACCA-4C0B-892F-A29493A621EA",
+        "name": "Imagine",
+        "type": null,
+        "detail": "2003",
+        "image": "https://images.qloo.com/i/BFCE2E43-ACCA-4C0B-892F-A29493A621EA-420x-auto.jpg",
+        "score": 0.8889054600363807
+      },
+      {
+        "id": "609702AF-FECD-4A51-B02A-81EDE584AF1E",
+        "name": "Divorce",
+        "type": null,
+        "detail": "2016,2019",
+        "image": "https://images.qloo.com/i/609702AF-FECD-4A51-B02A-81EDE584AF1E-420x-auto.jpg",
+        "score": 0.8871543516994392
+      },
+      {
+        "id": "D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E",
+        "name": "Physical",
+        "type": null,
+        "detail": "2021,2023",
+        "image": "https://images.qloo.com/i/D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E-420x-auto.jpg",
+        "score": 0.8867866821898643
+      },
+      {
+        "id": "E39995D6-046B-4D18-BD9B-EB386A6C050C",
+        "name": "Dva holma",
+        "type": null,
+        "detail": "2022,2025",
+        "image": "https://images.qloo.com/i/E39995D6-046B-4D18-BD9B-EB386A6C050C-420x-auto.jpg",
+        "score": 0.8866711709070939
+      },
+      {
+        "id": "36782B02-75C2-4170-8340-BE450B0E9B79",
+        "name": "Royal Crackers",
+        "type": null,
+        "detail": "2023,2024",
+        "image": "https://images.qloo.com/i/36782B02-75C2-4170-8340-BE450B0E9B79-420x-auto.jpg",
+        "score": 0.8866624063410693
+      },
+      {
+        "id": "ABE4A30D-DE42-4658-8259-BB593077807D",
+        "name": "Martha & Snoop's Potluck Party Challenge",
+        "type": null,
+        "detail": "2016",
+        "image": "https://images.qloo.com/i/ABE4A30D-DE42-4658-8259-BB593077807D-420x-auto.jpg",
+        "score": 0.885919192820359
+      },
+      {
+        "id": "481FD961-7502-4429-B7AE-07EF9CE80A64",
+        "name": "Broad City",
+        "type": null,
+        "detail": "2010,2011",
+        "image": "https://images.qloo.com/i/481FD961-7502-4429-B7AE-07EF9CE80A64-420x-auto.jpg",
+        "score": 0.885421674773323
+      },
+      {
+        "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+        "name": "Search Party",
+        "type": null,
+        "detail": "2016,2022",
+        "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+        "score": 0.8851917724714978
+      },
+      {
+        "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+        "name": "Master of None",
+        "type": null,
+        "detail": "2015,2021",
+        "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+        "score": 0.884943534935708
+      },
+      {
+        "id": "7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4",
+        "name": "Married",
+        "type": null,
+        "detail": "2014,2015",
+        "image": "https://images.qloo.com/i/7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4-420x-auto.jpg",
+        "score": 0.8811973954975577
+      },
+      {
+        "id": "087F79EF-CF82-4A7B-ABCE-4A29A7672764",
+        "name": "That's My Jam",
+        "type": null,
+        "detail": "2021",
+        "image": "https://images.qloo.com/i/087F79EF-CF82-4A7B-ABCE-4A29A7672764-420x-auto.jpg",
+        "score": 0.8792973012300502
+      },
+      {
+        "id": "EAE22DF3-AD71-43CD-9F14-52E99D5D9196",
+        "name": "Kevin Can F**k Himself",
+        "type": null,
+        "detail": "2021,2022",
+        "image": "https://images.qloo.com/i/EAE22DF3-AD71-43CD-9F14-52E99D5D9196-420x-auto.jpg",
+        "score": 0.8786270709052816
+      },
+      {
+        "id": "D43B2501-5689-4AE0-BDA3-C9156669E214",
+        "name": "Broad City",
+        "type": null,
+        "detail": "2014,2019",
+        "image": "https://images.qloo.com/i/D43B2501-5689-4AE0-BDA3-C9156669E214-420x-auto.jpg",
+        "score": 0.8780049789236424
+      },
+      {
+        "id": "F38B64FE-A01C-41B3-9E5D-81448393451E",
+        "name": "The Thief, His Wife and the Canoe",
+        "type": null,
+        "detail": "2022,2022",
+        "image": "https://images.qloo.com/i/F38B64FE-A01C-41B3-9E5D-81448393451E-420x-auto.jpg",
+        "score": 0.8778028102640927
+      },
+      {
+        "id": "C128E4EE-D2D7-422E-B4E4-DE4BA057C04B",
+        "name": "Containment",
+        "type": null,
+        "detail": "2016,2016",
+        "image": "https://images.qloo.com/i/C128E4EE-D2D7-422E-B4E4-DE4BA057C04B-420x-auto.jpg",
+        "score": 0.8763216575086179
+      },
+      {
+        "id": "24B807EE-D591-4E70-87A5-0CEA76A3D81B",
+        "name": "Wu Assassins",
+        "type": null,
+        "detail": "2019,2019",
+        "image": "https://images.qloo.com/i/24B807EE-D591-4E70-87A5-0CEA76A3D81B-420x-auto.jpg",
+        "score": 0.8755184713624526
+      },
+      {
+        "id": "659DA05C-1BA4-4374-A0BA-CAC358847EAC",
+        "name": "Nathan for You",
+        "type": null,
+        "detail": "2013,2017",
+        "image": "https://images.qloo.com/i/659DA05C-1BA4-4374-A0BA-CAC358847EAC-420x-auto.jpg",
+        "score": 0.8753811327485186
+      }
+    ],
+    "movie": [
+      {
+        "id": "D839D18C-BBB2-4E0A-819C-884536285E48",
+        "name": "True Story",
+        "type": null,
+        "detail": "2015, Rupert Goold",
+        "image": "https://images.qloo.com/i/D839D18C-BBB2-4E0A-819C-884536285E48-420x-auto.jpg",
+        "score": 0.8816491570474185
+      },
+      {
+        "id": "9E661A87-6EB9-4138-8795-27284CD8E249",
+        "name": "Marriage Story",
+        "type": null,
+        "detail": "2019, Noah Baumbach",
+        "image": "https://images.qloo.com/i/9E661A87-6EB9-4138-8795-27284CD8E249-420x-auto.jpg",
+        "score": 0.8746723900621902
+      },
+      {
+        "id": "CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA",
+        "name": "See You Tomorrow",
+        "type": null,
+        "detail": "2016, Jiajia Zhang",
+        "image": "https://images.qloo.com/i/CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA-420x-auto.jpg",
+        "score": 0.8688679915375231
+      },
+      {
+        "id": "85A6DAA1-3121-41B8-9B4D-2A8BF5709B40",
+        "name": "The Revenant",
+        "type": null,
+        "detail": "2015, Alejandro G. Iñárritu",
+        "image": "https://images.qloo.com/i/85A6DAA1-3121-41B8-9B4D-2A8BF5709B40-420x-auto.jpg",
+        "score": 0.8666121815899341
+      },
+      {
+        "id": "7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C",
+        "name": "Project Power",
+        "type": null,
+        "detail": "2020",
+        "image": "https://images.qloo.com/i/7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C-420x-auto.jpg",
+        "score": 0.8608804776254952
+      },
+      {
+        "id": "057A8AD8-0F84-4B7F-A228-A2C28D0C7085",
+        "name": "Motherless Brooklyn",
+        "type": null,
+        "detail": "2019, Edward Norton",
+        "image": "https://images.qloo.com/i/057A8AD8-0F84-4B7F-A228-A2C28D0C7085-420x-auto.jpg",
+        "score": 0.8586325573390579
+      },
+      {
+        "id": "7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7",
+        "name": "The Wife",
+        "type": null,
+        "detail": "2017, Björn Runge",
+        "image": "https://images.qloo.com/i/7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7-420x-auto.jpg",
+        "score": 0.8565930921944864
+      },
+      {
+        "id": "458B9661-E7C0-4C0A-AC07-7C54CF012FFF",
+        "name": "House of Sand and Fog",
+        "type": null,
+        "detail": "2003, Vadim Perelman",
+        "image": "https://images.qloo.com/i/458B9661-E7C0-4C0A-AC07-7C54CF012FFF-420x-auto.jpg",
+        "score": 0.8553267139740844
+      },
+      {
+        "id": "A3A2DD32-AE95-40B9-BDF4-4F654EB46694",
+        "name": "Jumanji: The Next Level",
+        "type": null,
+        "detail": "2019, Jake Kasdan",
+        "image": "https://images.qloo.com/i/A3A2DD32-AE95-40B9-BDF4-4F654EB46694-420x-auto.jpg",
+        "score": 0.8546899166703424
+      },
+      {
+        "id": "2ACB56AE-386A-4F46-BE4D-FD212038C031",
+        "name": "The Immaculate Conception of Little Dizzle",
+        "type": null,
+        "detail": "2009, David Russo",
+        "image": "https://images.qloo.com/i/2ACB56AE-386A-4F46-BE4D-FD212038C031-420x-auto.jpg",
+        "score": 0.8535613971114477
+      },
+      {
+        "id": "BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD",
+        "name": "Magnolia",
+        "type": null,
+        "detail": "1999, Paul Thomas Anderson",
+        "image": "https://images.qloo.com/i/BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD-420x-auto.jpg",
+        "score": 0.8531179941011372
+      },
+      {
+        "id": "26521BFC-B9BD-433A-BCD1-36369EFAD39D",
+        "name": "The Great Gatsby",
+        "type": null,
+        "detail": "2013, Baz Luhrmann",
+        "image": "https://images.qloo.com/i/26521BFC-B9BD-433A-BCD1-36369EFAD39D-420x-auto.jpg",
+        "score": 0.8523500916140004
+      },
+      {
+        "id": "C052EC90-C6B3-4C75-8C07-B2B6825D92D1",
+        "name": "The Royal Tenenbaums",
+        "type": null,
+        "detail": "2001, Wes Anderson",
+        "image": "https://images.qloo.com/i/C052EC90-C6B3-4C75-8C07-B2B6825D92D1-420x-auto.jpg",
+        "score": 0.8514820538854839
+      },
+      {
+        "id": "AF3A01BF-1973-4E41-AB7B-B18D6E1E4068",
+        "name": "Marvelous and the Black Hole",
+        "type": null,
+        "detail": "2021, Kate Tsang",
+        "image": "https://images.qloo.com/i/AF3A01BF-1973-4E41-AB7B-B18D6E1E4068-420x-auto.jpg",
+        "score": 0.8508673883777039
+      },
+      {
+        "id": "11EFB0FC-B91D-4769-949D-8A54FC711214",
+        "name": "Collateral",
+        "type": null,
+        "detail": "2004, Michael Mann",
+        "image": "https://images.qloo.com/i/11EFB0FC-B91D-4769-949D-8A54FC711214-420x-auto.jpg",
+        "score": 0.8506900579886985
+      },
+      {
+        "id": "BA01F29E-BA62-4A98-BCCD-16C79294086F",
+        "name": "Brigsby Bear",
+        "type": null,
+        "detail": "2017, Dave McCary",
+        "image": "https://images.qloo.com/i/BA01F29E-BA62-4A98-BCCD-16C79294086F-420x-auto.jpg",
+        "score": 0.8492764806518358
+      },
+      {
+        "id": "523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B",
+        "name": "The Heaven None Missed",
+        "type": null,
+        "detail": "2015, Kuntz Agus",
+        "image": "https://images.qloo.com/i/523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B-420x-auto.jpg",
+        "score": 0.8488462479173821
+      },
+      {
+        "id": "8C75FF0F-485B-4515-9544-F8F89B807E6A",
+        "name": "The Big Sick",
+        "type": null,
+        "detail": "2017, Michael Showalter",
+        "image": "https://images.qloo.com/i/8C75FF0F-485B-4515-9544-F8F89B807E6A-420x-auto.jpg",
+        "score": 0.8468646702690328
+      },
+      {
+        "id": "9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95",
+        "name": "Suburbicon",
+        "type": null,
+        "detail": "2017, George Clooney",
+        "image": "https://images.qloo.com/i/9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95-420x-auto.jpg",
+        "score": 0.8448595938093538
+      },
+      {
+        "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+        "name": "Begin Again",
+        "type": null,
+        "detail": "2013, John Carney",
+        "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+        "score": 0.8441377218047593
+      }
+    ]
+  },
+  "ablations": {
+    "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C": {
+      "tv_show": [
+        {
+          "id": "DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4",
+          "name": "The Baker and the Beauty",
+          "type": null,
+          "detail": "2020,2020",
+          "image": "https://images.qloo.com/i/DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4-420x-auto.jpg",
+          "score": 0.9256912985136083
+        },
+        {
+          "id": "ABE4A30D-DE42-4658-8259-BB593077807D",
+          "name": "Martha & Snoop's Potluck Party Challenge",
+          "type": null,
+          "detail": "2016",
+          "image": "https://images.qloo.com/i/ABE4A30D-DE42-4658-8259-BB593077807D-420x-auto.jpg",
+          "score": 0.8935825704979162
+        },
+        {
+          "id": "BFCE2E43-ACCA-4C0B-892F-A29493A621EA",
+          "name": "Imagine",
+          "type": null,
+          "detail": "2003",
+          "image": "https://images.qloo.com/i/BFCE2E43-ACCA-4C0B-892F-A29493A621EA-420x-auto.jpg",
+          "score": 0.8915431451878856
+        },
+        {
+          "id": "62C9A795-9571-4152-B17F-755320A236B7",
+          "name": "My Dearest",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/62C9A795-9571-4152-B17F-755320A236B7-420x-auto.jpg",
+          "score": 0.8911972494001359
+        },
+        {
+          "id": "18FC2F79-E419-413B-8687-587279DAA109",
+          "name": "The Corner",
+          "type": null,
+          "detail": "2000,2000",
+          "image": "https://images.qloo.com/i/18FC2F79-E419-413B-8687-587279DAA109-420x-auto.jpg",
+          "score": 0.8906043231522027
+        },
+        {
+          "id": "36782B02-75C2-4170-8340-BE450B0E9B79",
+          "name": "Royal Crackers",
+          "type": null,
+          "detail": "2023,2024",
+          "image": "https://images.qloo.com/i/36782B02-75C2-4170-8340-BE450B0E9B79-420x-auto.jpg",
+          "score": 0.8869955887208946
+        },
+        {
+          "id": "D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E",
+          "name": "Physical",
+          "type": null,
+          "detail": "2021,2023",
+          "image": "https://images.qloo.com/i/D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E-420x-auto.jpg",
+          "score": 0.8863711028039354
+        },
+        {
+          "id": "087F79EF-CF82-4A7B-ABCE-4A29A7672764",
+          "name": "That's My Jam",
+          "type": null,
+          "detail": "2021",
+          "image": "https://images.qloo.com/i/087F79EF-CF82-4A7B-ABCE-4A29A7672764-420x-auto.jpg",
+          "score": 0.8851219658623833
+        },
+        {
+          "id": "481FD961-7502-4429-B7AE-07EF9CE80A64",
+          "name": "Broad City",
+          "type": null,
+          "detail": "2010,2011",
+          "image": "https://images.qloo.com/i/481FD961-7502-4429-B7AE-07EF9CE80A64-420x-auto.jpg",
+          "score": 0.881531546511278
+        },
+        {
+          "id": "609702AF-FECD-4A51-B02A-81EDE584AF1E",
+          "name": "Divorce",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/609702AF-FECD-4A51-B02A-81EDE584AF1E-420x-auto.jpg",
+          "score": 0.8792439169531227
+        },
+        {
+          "id": "E39995D6-046B-4D18-BD9B-EB386A6C050C",
+          "name": "Dva holma",
+          "type": null,
+          "detail": "2022,2025",
+          "image": "https://images.qloo.com/i/E39995D6-046B-4D18-BD9B-EB386A6C050C-420x-auto.jpg",
+          "score": 0.8783050042286455
+        },
+        {
+          "id": "7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4",
+          "name": "Married",
+          "type": null,
+          "detail": "2014,2015",
+          "image": "https://images.qloo.com/i/7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4-420x-auto.jpg",
+          "score": 0.8746953526950736
+        },
+        {
+          "id": "24B807EE-D591-4E70-87A5-0CEA76A3D81B",
+          "name": "Wu Assassins",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/24B807EE-D591-4E70-87A5-0CEA76A3D81B-420x-auto.jpg",
+          "score": 0.8746648292019148
+        },
+        {
+          "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+          "name": "Master of None",
+          "type": null,
+          "detail": "2015,2021",
+          "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+          "score": 0.8736746518051984
+        },
+        {
+          "id": "EAE22DF3-AD71-43CD-9F14-52E99D5D9196",
+          "name": "Kevin Can F**k Himself",
+          "type": null,
+          "detail": "2021,2022",
+          "image": "https://images.qloo.com/i/EAE22DF3-AD71-43CD-9F14-52E99D5D9196-420x-auto.jpg",
+          "score": 0.8721574860204959
+        },
+        {
+          "id": "F38B64FE-A01C-41B3-9E5D-81448393451E",
+          "name": "The Thief, His Wife and the Canoe",
+          "type": null,
+          "detail": "2022,2022",
+          "image": "https://images.qloo.com/i/F38B64FE-A01C-41B3-9E5D-81448393451E-420x-auto.jpg",
+          "score": 0.8707055533517405
+        },
+        {
+          "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+          "name": "Search Party",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+          "score": 0.8702796672694203
+        },
+        {
+          "id": "D43B2501-5689-4AE0-BDA3-C9156669E214",
+          "name": "Broad City",
+          "type": null,
+          "detail": "2014,2019",
+          "image": "https://images.qloo.com/i/D43B2501-5689-4AE0-BDA3-C9156669E214-420x-auto.jpg",
+          "score": 0.8663185733532717
+        },
+        {
+          "id": "659DA05C-1BA4-4374-A0BA-CAC358847EAC",
+          "name": "Nathan for You",
+          "type": null,
+          "detail": "2013,2017",
+          "image": "https://images.qloo.com/i/659DA05C-1BA4-4374-A0BA-CAC358847EAC-420x-auto.jpg",
+          "score": 0.8660377600617789
+        },
+        {
+          "id": "C128E4EE-D2D7-422E-B4E4-DE4BA057C04B",
+          "name": "Containment",
+          "type": null,
+          "detail": "2016,2016",
+          "image": "https://images.qloo.com/i/C128E4EE-D2D7-422E-B4E4-DE4BA057C04B-420x-auto.jpg",
+          "score": 0.8512968924301577
+        }
+      ],
+      "movie": [
+        {
+          "id": "D839D18C-BBB2-4E0A-819C-884536285E48",
+          "name": "True Story",
+          "type": null,
+          "detail": "2015, Rupert Goold",
+          "image": "https://images.qloo.com/i/D839D18C-BBB2-4E0A-819C-884536285E48-420x-auto.jpg",
+          "score": 0.887752252764226
+        },
+        {
+          "id": "9E661A87-6EB9-4138-8795-27284CD8E249",
+          "name": "Marriage Story",
+          "type": null,
+          "detail": "2019, Noah Baumbach",
+          "image": "https://images.qloo.com/i/9E661A87-6EB9-4138-8795-27284CD8E249-420x-auto.jpg",
+          "score": 0.8877271157881063
+        },
+        {
+          "id": "7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7",
+          "name": "The Wife",
+          "type": null,
+          "detail": "2017, Björn Runge",
+          "image": "https://images.qloo.com/i/7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7-420x-auto.jpg",
+          "score": 0.8806047152775844
+        },
+        {
+          "id": "CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA",
+          "name": "See You Tomorrow",
+          "type": null,
+          "detail": "2016, Jiajia Zhang",
+          "image": "https://images.qloo.com/i/CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA-420x-auto.jpg",
+          "score": 0.8774887292567711
+        },
+        {
+          "id": "A3A2DD32-AE95-40B9-BDF4-4F654EB46694",
+          "name": "Jumanji: The Next Level",
+          "type": null,
+          "detail": "2019, Jake Kasdan",
+          "image": "https://images.qloo.com/i/A3A2DD32-AE95-40B9-BDF4-4F654EB46694-420x-auto.jpg",
+          "score": 0.871706160175154
+        },
+        {
+          "id": "057A8AD8-0F84-4B7F-A228-A2C28D0C7085",
+          "name": "Motherless Brooklyn",
+          "type": null,
+          "detail": "2019, Edward Norton",
+          "image": "https://images.qloo.com/i/057A8AD8-0F84-4B7F-A228-A2C28D0C7085-420x-auto.jpg",
+          "score": 0.8659942221637781
+        },
+        {
+          "id": "85A6DAA1-3121-41B8-9B4D-2A8BF5709B40",
+          "name": "The Revenant",
+          "type": null,
+          "detail": "2015, Alejandro G. Iñárritu",
+          "image": "https://images.qloo.com/i/85A6DAA1-3121-41B8-9B4D-2A8BF5709B40-420x-auto.jpg",
+          "score": 0.8634017788372274
+        },
+        {
+          "id": "7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C",
+          "name": "Project Power",
+          "type": null,
+          "detail": "2020",
+          "image": "https://images.qloo.com/i/7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C-420x-auto.jpg",
+          "score": 0.8621660614523214
+        },
+        {
+          "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+          "name": "Begin Again",
+          "type": null,
+          "detail": "2013, John Carney",
+          "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+          "score": 0.8605479977390804
+        },
+        {
+          "id": "523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B",
+          "name": "The Heaven None Missed",
+          "type": null,
+          "detail": "2015, Kuntz Agus",
+          "image": "https://images.qloo.com/i/523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B-420x-auto.jpg",
+          "score": 0.8592938555554794
+        },
+        {
+          "id": "8C75FF0F-485B-4515-9544-F8F89B807E6A",
+          "name": "The Big Sick",
+          "type": null,
+          "detail": "2017, Michael Showalter",
+          "image": "https://images.qloo.com/i/8C75FF0F-485B-4515-9544-F8F89B807E6A-420x-auto.jpg",
+          "score": 0.8587899221115496
+        },
+        {
+          "id": "26521BFC-B9BD-433A-BCD1-36369EFAD39D",
+          "name": "The Great Gatsby",
+          "type": null,
+          "detail": "2013, Baz Luhrmann",
+          "image": "https://images.qloo.com/i/26521BFC-B9BD-433A-BCD1-36369EFAD39D-420x-auto.jpg",
+          "score": 0.8575208000729675
+        },
+        {
+          "id": "AF3A01BF-1973-4E41-AB7B-B18D6E1E4068",
+          "name": "Marvelous and the Black Hole",
+          "type": null,
+          "detail": "2021, Kate Tsang",
+          "image": "https://images.qloo.com/i/AF3A01BF-1973-4E41-AB7B-B18D6E1E4068-420x-auto.jpg",
+          "score": 0.8565377236613152
+        },
+        {
+          "id": "9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95",
+          "name": "Suburbicon",
+          "type": null,
+          "detail": "2017, George Clooney",
+          "image": "https://images.qloo.com/i/9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95-420x-auto.jpg",
+          "score": 0.8423897943234887
+        },
+        {
+          "id": "458B9661-E7C0-4C0A-AC07-7C54CF012FFF",
+          "name": "House of Sand and Fog",
+          "type": null,
+          "detail": "2003, Vadim Perelman",
+          "image": "https://images.qloo.com/i/458B9661-E7C0-4C0A-AC07-7C54CF012FFF-420x-auto.jpg",
+          "score": 0.8355325047199368
+        },
+        {
+          "id": "BA01F29E-BA62-4A98-BCCD-16C79294086F",
+          "name": "Brigsby Bear",
+          "type": null,
+          "detail": "2017, Dave McCary",
+          "image": "https://images.qloo.com/i/BA01F29E-BA62-4A98-BCCD-16C79294086F-420x-auto.jpg",
+          "score": 0.8316458638841091
+        },
+        {
+          "id": "2ACB56AE-386A-4F46-BE4D-FD212038C031",
+          "name": "The Immaculate Conception of Little Dizzle",
+          "type": null,
+          "detail": "2009, David Russo",
+          "image": "https://images.qloo.com/i/2ACB56AE-386A-4F46-BE4D-FD212038C031-420x-auto.jpg",
+          "score": 0.828782804966254
+        },
+        {
+          "id": "11EFB0FC-B91D-4769-949D-8A54FC711214",
+          "name": "Collateral",
+          "type": null,
+          "detail": "2004, Michael Mann",
+          "image": "https://images.qloo.com/i/11EFB0FC-B91D-4769-949D-8A54FC711214-420x-auto.jpg",
+          "score": 0.8227829450352392
+        },
+        {
+          "id": "C052EC90-C6B3-4C75-8C07-B2B6825D92D1",
+          "name": "The Royal Tenenbaums",
+          "type": null,
+          "detail": "2001, Wes Anderson",
+          "image": "https://images.qloo.com/i/C052EC90-C6B3-4C75-8C07-B2B6825D92D1-420x-auto.jpg",
+          "score": 0.8159890500999646
+        },
+        {
+          "id": "BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD",
+          "name": "Magnolia",
+          "type": null,
+          "detail": "1999, Paul Thomas Anderson",
+          "image": "https://images.qloo.com/i/BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD-420x-auto.jpg",
+          "score": 0.8073276865488878
+        }
+      ]
+    },
+    "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D": {
+      "tv_show": [
+        {
+          "id": "DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4",
+          "name": "The Baker and the Beauty",
+          "type": null,
+          "detail": "2020,2020",
+          "image": "https://images.qloo.com/i/DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4-420x-auto.jpg",
+          "score": 0.8946749775043561
+        },
+        {
+          "id": "18FC2F79-E419-413B-8687-587279DAA109",
+          "name": "The Corner",
+          "type": null,
+          "detail": "2000,2000",
+          "image": "https://images.qloo.com/i/18FC2F79-E419-413B-8687-587279DAA109-420x-auto.jpg",
+          "score": 0.8890329315371918
+        },
+        {
+          "id": "62C9A795-9571-4152-B17F-755320A236B7",
+          "name": "My Dearest",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/62C9A795-9571-4152-B17F-755320A236B7-420x-auto.jpg",
+          "score": 0.8825787220968371
+        },
+        {
+          "id": "E39995D6-046B-4D18-BD9B-EB386A6C050C",
+          "name": "Dva holma",
+          "type": null,
+          "detail": "2022,2025",
+          "image": "https://images.qloo.com/i/E39995D6-046B-4D18-BD9B-EB386A6C050C-420x-auto.jpg",
+          "score": 0.8804471665922722
+        },
+        {
+          "id": "C128E4EE-D2D7-422E-B4E4-DE4BA057C04B",
+          "name": "Containment",
+          "type": null,
+          "detail": "2016,2016",
+          "image": "https://images.qloo.com/i/C128E4EE-D2D7-422E-B4E4-DE4BA057C04B-420x-auto.jpg",
+          "score": 0.8802521699529819
+        },
+        {
+          "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+          "name": "Search Party",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+          "score": 0.8775010221701923
+        },
+        {
+          "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+          "name": "Master of None",
+          "type": null,
+          "detail": "2015,2021",
+          "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+          "score": 0.8741139194405518
+        },
+        {
+          "id": "609702AF-FECD-4A51-B02A-81EDE584AF1E",
+          "name": "Divorce",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/609702AF-FECD-4A51-B02A-81EDE584AF1E-420x-auto.jpg",
+          "score": 0.8730935757542169
+        },
+        {
+          "id": "36782B02-75C2-4170-8340-BE450B0E9B79",
+          "name": "Royal Crackers",
+          "type": null,
+          "detail": "2023,2024",
+          "image": "https://images.qloo.com/i/36782B02-75C2-4170-8340-BE450B0E9B79-420x-auto.jpg",
+          "score": 0.8689389172531805
+        },
+        {
+          "id": "481FD961-7502-4429-B7AE-07EF9CE80A64",
+          "name": "Broad City",
+          "type": null,
+          "detail": "2010,2011",
+          "image": "https://images.qloo.com/i/481FD961-7502-4429-B7AE-07EF9CE80A64-420x-auto.jpg",
+          "score": 0.8686904778451833
+        },
+        {
+          "id": "D43B2501-5689-4AE0-BDA3-C9156669E214",
+          "name": "Broad City",
+          "type": null,
+          "detail": "2014,2019",
+          "image": "https://images.qloo.com/i/D43B2501-5689-4AE0-BDA3-C9156669E214-420x-auto.jpg",
+          "score": 0.8679439749327146
+        },
+        {
+          "id": "D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E",
+          "name": "Physical",
+          "type": null,
+          "detail": "2021,2023",
+          "image": "https://images.qloo.com/i/D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E-420x-auto.jpg",
+          "score": 0.8671717270952355
+        },
+        {
+          "id": "F38B64FE-A01C-41B3-9E5D-81448393451E",
+          "name": "The Thief, His Wife and the Canoe",
+          "type": null,
+          "detail": "2022,2022",
+          "image": "https://images.qloo.com/i/F38B64FE-A01C-41B3-9E5D-81448393451E-420x-auto.jpg",
+          "score": 0.8659085380313927
+        },
+        {
+          "id": "7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4",
+          "name": "Married",
+          "type": null,
+          "detail": "2014,2015",
+          "image": "https://images.qloo.com/i/7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4-420x-auto.jpg",
+          "score": 0.8658256755117961
+        },
+        {
+          "id": "659DA05C-1BA4-4374-A0BA-CAC358847EAC",
+          "name": "Nathan for You",
+          "type": null,
+          "detail": "2013,2017",
+          "image": "https://images.qloo.com/i/659DA05C-1BA4-4374-A0BA-CAC358847EAC-420x-auto.jpg",
+          "score": 0.8654639896658614
+        },
+        {
+          "id": "BFCE2E43-ACCA-4C0B-892F-A29493A621EA",
+          "name": "Imagine",
+          "type": null,
+          "detail": "2003",
+          "image": "https://images.qloo.com/i/BFCE2E43-ACCA-4C0B-892F-A29493A621EA-420x-auto.jpg",
+          "score": 0.8650991495116792
+        },
+        {
+          "id": "EAE22DF3-AD71-43CD-9F14-52E99D5D9196",
+          "name": "Kevin Can F**k Himself",
+          "type": null,
+          "detail": "2021,2022",
+          "image": "https://images.qloo.com/i/EAE22DF3-AD71-43CD-9F14-52E99D5D9196-420x-auto.jpg",
+          "score": 0.8648349645404458
+        },
+        {
+          "id": "24B807EE-D591-4E70-87A5-0CEA76A3D81B",
+          "name": "Wu Assassins",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/24B807EE-D591-4E70-87A5-0CEA76A3D81B-420x-auto.jpg",
+          "score": 0.8586660504663245
+        },
+        {
+          "id": "ABE4A30D-DE42-4658-8259-BB593077807D",
+          "name": "Martha & Snoop's Potluck Party Challenge",
+          "type": null,
+          "detail": "2016",
+          "image": "https://images.qloo.com/i/ABE4A30D-DE42-4658-8259-BB593077807D-420x-auto.jpg",
+          "score": 0.8578676029771433
+        },
+        {
+          "id": "087F79EF-CF82-4A7B-ABCE-4A29A7672764",
+          "name": "That's My Jam",
+          "type": null,
+          "detail": "2021",
+          "image": "https://images.qloo.com/i/087F79EF-CF82-4A7B-ABCE-4A29A7672764-420x-auto.jpg",
+          "score": 0.8547561180171661
+        }
+      ],
+      "movie": [
+        {
+          "id": "2ACB56AE-386A-4F46-BE4D-FD212038C031",
+          "name": "The Immaculate Conception of Little Dizzle",
+          "type": null,
+          "detail": "2009, David Russo",
+          "image": "https://images.qloo.com/i/2ACB56AE-386A-4F46-BE4D-FD212038C031-420x-auto.jpg",
+          "score": 0.8772279336460612
+        },
+        {
+          "id": "BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD",
+          "name": "Magnolia",
+          "type": null,
+          "detail": "1999, Paul Thomas Anderson",
+          "image": "https://images.qloo.com/i/BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD-420x-auto.jpg",
+          "score": 0.8689799168946748
+        },
+        {
+          "id": "458B9661-E7C0-4C0A-AC07-7C54CF012FFF",
+          "name": "House of Sand and Fog",
+          "type": null,
+          "detail": "2003, Vadim Perelman",
+          "image": "https://images.qloo.com/i/458B9661-E7C0-4C0A-AC07-7C54CF012FFF-420x-auto.jpg",
+          "score": 0.8682832065272976
+        },
+        {
+          "id": "11EFB0FC-B91D-4769-949D-8A54FC711214",
+          "name": "Collateral",
+          "type": null,
+          "detail": "2004, Michael Mann",
+          "image": "https://images.qloo.com/i/11EFB0FC-B91D-4769-949D-8A54FC711214-420x-auto.jpg",
+          "score": 0.8661258270081302
+        },
+        {
+          "id": "D839D18C-BBB2-4E0A-819C-884536285E48",
+          "name": "True Story",
+          "type": null,
+          "detail": "2015, Rupert Goold",
+          "image": "https://images.qloo.com/i/D839D18C-BBB2-4E0A-819C-884536285E48-420x-auto.jpg",
+          "score": 0.8616530443458091
+        },
+        {
+          "id": "C052EC90-C6B3-4C75-8C07-B2B6825D92D1",
+          "name": "The Royal Tenenbaums",
+          "type": null,
+          "detail": "2001, Wes Anderson",
+          "image": "https://images.qloo.com/i/C052EC90-C6B3-4C75-8C07-B2B6825D92D1-420x-auto.jpg",
+          "score": 0.8556615494518541
+        },
+        {
+          "id": "85A6DAA1-3121-41B8-9B4D-2A8BF5709B40",
+          "name": "The Revenant",
+          "type": null,
+          "detail": "2015, Alejandro G. Iñárritu",
+          "image": "https://images.qloo.com/i/85A6DAA1-3121-41B8-9B4D-2A8BF5709B40-420x-auto.jpg",
+          "score": 0.8551716009356454
+        },
+        {
+          "id": "7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C",
+          "name": "Project Power",
+          "type": null,
+          "detail": "2020",
+          "image": "https://images.qloo.com/i/7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C-420x-auto.jpg",
+          "score": 0.8504057196499554
+        },
+        {
+          "id": "CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA",
+          "name": "See You Tomorrow",
+          "type": null,
+          "detail": "2016, Jiajia Zhang",
+          "image": "https://images.qloo.com/i/CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA-420x-auto.jpg",
+          "score": 0.850071210433591
+        },
+        {
+          "id": "BA01F29E-BA62-4A98-BCCD-16C79294086F",
+          "name": "Brigsby Bear",
+          "type": null,
+          "detail": "2017, Dave McCary",
+          "image": "https://images.qloo.com/i/BA01F29E-BA62-4A98-BCCD-16C79294086F-420x-auto.jpg",
+          "score": 0.8438470692082909
+        },
+        {
+          "id": "AF3A01BF-1973-4E41-AB7B-B18D6E1E4068",
+          "name": "Marvelous and the Black Hole",
+          "type": null,
+          "detail": "2021, Kate Tsang",
+          "image": "https://images.qloo.com/i/AF3A01BF-1973-4E41-AB7B-B18D6E1E4068-420x-auto.jpg",
+          "score": 0.8426163316600512
+        },
+        {
+          "id": "057A8AD8-0F84-4B7F-A228-A2C28D0C7085",
+          "name": "Motherless Brooklyn",
+          "type": null,
+          "detail": "2019, Edward Norton",
+          "image": "https://images.qloo.com/i/057A8AD8-0F84-4B7F-A228-A2C28D0C7085-420x-auto.jpg",
+          "score": 0.8360800257018519
+        },
+        {
+          "id": "26521BFC-B9BD-433A-BCD1-36369EFAD39D",
+          "name": "The Great Gatsby",
+          "type": null,
+          "detail": "2013, Baz Luhrmann",
+          "image": "https://images.qloo.com/i/26521BFC-B9BD-433A-BCD1-36369EFAD39D-420x-auto.jpg",
+          "score": 0.8310507815578215
+        },
+        {
+          "id": "9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95",
+          "name": "Suburbicon",
+          "type": null,
+          "detail": "2017, George Clooney",
+          "image": "https://images.qloo.com/i/9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95-420x-auto.jpg",
+          "score": 0.8304688411049511
+        },
+        {
+          "id": "523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B",
+          "name": "The Heaven None Missed",
+          "type": null,
+          "detail": "2015, Kuntz Agus",
+          "image": "https://images.qloo.com/i/523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B-420x-auto.jpg",
+          "score": 0.8304310918136533
+        },
+        {
+          "id": "9E661A87-6EB9-4138-8795-27284CD8E249",
+          "name": "Marriage Story",
+          "type": null,
+          "detail": "2019, Noah Baumbach",
+          "image": "https://images.qloo.com/i/9E661A87-6EB9-4138-8795-27284CD8E249-420x-auto.jpg",
+          "score": 0.8296604796900146
+        },
+        {
+          "id": "A3A2DD32-AE95-40B9-BDF4-4F654EB46694",
+          "name": "Jumanji: The Next Level",
+          "type": null,
+          "detail": "2019, Jake Kasdan",
+          "image": "https://images.qloo.com/i/A3A2DD32-AE95-40B9-BDF4-4F654EB46694-420x-auto.jpg",
+          "score": 0.824143688643933
+        },
+        {
+          "id": "7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7",
+          "name": "The Wife",
+          "type": null,
+          "detail": "2017, Björn Runge",
+          "image": "https://images.qloo.com/i/7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7-420x-auto.jpg",
+          "score": 0.812287692342603
+        },
+        {
+          "id": "8C75FF0F-485B-4515-9544-F8F89B807E6A",
+          "name": "The Big Sick",
+          "type": null,
+          "detail": "2017, Michael Showalter",
+          "image": "https://images.qloo.com/i/8C75FF0F-485B-4515-9544-F8F89B807E6A-420x-auto.jpg",
+          "score": 0.8066613506028255
+        },
+        {
+          "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+          "name": "Begin Again",
+          "type": null,
+          "detail": "2013, John Carney",
+          "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+          "score": 0.8022390557654077
+        }
+      ]
+    },
+    "urn:tag:genre:media:architecture": {
+      "tv_show": [
+        {
+          "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+          "name": "Search Party",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+          "score": 0.9209911504853671
+        },
+        {
+          "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+          "name": "Master of None",
+          "type": null,
+          "detail": "2015,2021",
+          "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+          "score": 0.9174175462157768
+        },
+        {
+          "id": "609702AF-FECD-4A51-B02A-81EDE584AF1E",
+          "name": "Divorce",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/609702AF-FECD-4A51-B02A-81EDE584AF1E-420x-auto.jpg",
+          "score": 0.9050331757107469
+        },
+        {
+          "id": "62C9A795-9571-4152-B17F-755320A236B7",
+          "name": "My Dearest",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/62C9A795-9571-4152-B17F-755320A236B7-420x-auto.jpg",
+          "score": 0.9030502464488914
+        },
+        {
+          "id": "7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4",
+          "name": "Married",
+          "type": null,
+          "detail": "2014,2015",
+          "image": "https://images.qloo.com/i/7AB461AB-2E0E-4B02-A5D8-A524FE8D3AA4-420x-auto.jpg",
+          "score": 0.9027690349294952
+        },
+        {
+          "id": "D43B2501-5689-4AE0-BDA3-C9156669E214",
+          "name": "Broad City",
+          "type": null,
+          "detail": "2014,2019",
+          "image": "https://images.qloo.com/i/D43B2501-5689-4AE0-BDA3-C9156669E214-420x-auto.jpg",
+          "score": 0.9026926178013196
+        },
+        {
+          "id": "481FD961-7502-4429-B7AE-07EF9CE80A64",
+          "name": "Broad City",
+          "type": null,
+          "detail": "2010,2011",
+          "image": "https://images.qloo.com/i/481FD961-7502-4429-B7AE-07EF9CE80A64-420x-auto.jpg",
+          "score": 0.8965568474057325
+        },
+        {
+          "id": "DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4",
+          "name": "The Baker and the Beauty",
+          "type": null,
+          "detail": "2020,2020",
+          "image": "https://images.qloo.com/i/DE6F1AC7-6AAF-49EF-A84D-FEAE04BF58A4-420x-auto.jpg",
+          "score": 0.8957902702859272
+        },
+        {
+          "id": "C128E4EE-D2D7-422E-B4E4-DE4BA057C04B",
+          "name": "Containment",
+          "type": null,
+          "detail": "2016,2016",
+          "image": "https://images.qloo.com/i/C128E4EE-D2D7-422E-B4E4-DE4BA057C04B-420x-auto.jpg",
+          "score": 0.8920388648118961
+        },
+        {
+          "id": "EAE22DF3-AD71-43CD-9F14-52E99D5D9196",
+          "name": "Kevin Can F**k Himself",
+          "type": null,
+          "detail": "2021,2022",
+          "image": "https://images.qloo.com/i/EAE22DF3-AD71-43CD-9F14-52E99D5D9196-420x-auto.jpg",
+          "score": 0.889317539271692
+        },
+        {
+          "id": "D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E",
+          "name": "Physical",
+          "type": null,
+          "detail": "2021,2023",
+          "image": "https://images.qloo.com/i/D8F220A2-6C4D-426A-8E5D-D4DF05E2CF2E-420x-auto.jpg",
+          "score": 0.886088348275216
+        },
+        {
+          "id": "BFCE2E43-ACCA-4C0B-892F-A29493A621EA",
+          "name": "Imagine",
+          "type": null,
+          "detail": "2003",
+          "image": "https://images.qloo.com/i/BFCE2E43-ACCA-4C0B-892F-A29493A621EA-420x-auto.jpg",
+          "score": 0.8778841538862946
+        },
+        {
+          "id": "F38B64FE-A01C-41B3-9E5D-81448393451E",
+          "name": "The Thief, His Wife and the Canoe",
+          "type": null,
+          "detail": "2022,2022",
+          "image": "https://images.qloo.com/i/F38B64FE-A01C-41B3-9E5D-81448393451E-420x-auto.jpg",
+          "score": 0.8771486310858657
+        },
+        {
+          "id": "ABE4A30D-DE42-4658-8259-BB593077807D",
+          "name": "Martha & Snoop's Potluck Party Challenge",
+          "type": null,
+          "detail": "2016",
+          "image": "https://images.qloo.com/i/ABE4A30D-DE42-4658-8259-BB593077807D-420x-auto.jpg",
+          "score": 0.8732306381374819
+        },
+        {
+          "id": "659DA05C-1BA4-4374-A0BA-CAC358847EAC",
+          "name": "Nathan for You",
+          "type": null,
+          "detail": "2013,2017",
+          "image": "https://images.qloo.com/i/659DA05C-1BA4-4374-A0BA-CAC358847EAC-420x-auto.jpg",
+          "score": 0.8712017542912088
+        },
+        {
+          "id": "18FC2F79-E419-413B-8687-587279DAA109",
+          "name": "The Corner",
+          "type": null,
+          "detail": "2000,2000",
+          "image": "https://images.qloo.com/i/18FC2F79-E419-413B-8687-587279DAA109-420x-auto.jpg",
+          "score": 0.8620043274070376
+        },
+        {
+          "id": "36782B02-75C2-4170-8340-BE450B0E9B79",
+          "name": "Royal Crackers",
+          "type": null,
+          "detail": "2023,2024",
+          "image": "https://images.qloo.com/i/36782B02-75C2-4170-8340-BE450B0E9B79-420x-auto.jpg",
+          "score": 0.8578404047255407
+        },
+        {
+          "id": "087F79EF-CF82-4A7B-ABCE-4A29A7672764",
+          "name": "That's My Jam",
+          "type": null,
+          "detail": "2021",
+          "image": "https://images.qloo.com/i/087F79EF-CF82-4A7B-ABCE-4A29A7672764-420x-auto.jpg",
+          "score": 0.8539462433824685
+        },
+        {
+          "id": "24B807EE-D591-4E70-87A5-0CEA76A3D81B",
+          "name": "Wu Assassins",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/24B807EE-D591-4E70-87A5-0CEA76A3D81B-420x-auto.jpg",
+          "score": 0.8486543822556175
+        },
+        {
+          "id": "E39995D6-046B-4D18-BD9B-EB386A6C050C",
+          "name": "Dva holma",
+          "type": null,
+          "detail": "2022,2025",
+          "image": "https://images.qloo.com/i/E39995D6-046B-4D18-BD9B-EB386A6C050C-420x-auto.jpg",
+          "score": 0.8258695507250634
+        }
+      ],
+      "movie": [
+        {
+          "id": "9E661A87-6EB9-4138-8795-27284CD8E249",
+          "name": "Marriage Story",
+          "type": null,
+          "detail": "2019, Noah Baumbach",
+          "image": "https://images.qloo.com/i/9E661A87-6EB9-4138-8795-27284CD8E249-420x-auto.jpg",
+          "score": 0.8971963335960484
+        },
+        {
+          "id": "BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD",
+          "name": "Magnolia",
+          "type": null,
+          "detail": "1999, Paul Thomas Anderson",
+          "image": "https://images.qloo.com/i/BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD-420x-auto.jpg",
+          "score": 0.8895307459945104
+        },
+        {
+          "id": "C052EC90-C6B3-4C75-8C07-B2B6825D92D1",
+          "name": "The Royal Tenenbaums",
+          "type": null,
+          "detail": "2001, Wes Anderson",
+          "image": "https://images.qloo.com/i/C052EC90-C6B3-4C75-8C07-B2B6825D92D1-420x-auto.jpg",
+          "score": 0.882595130392932
+        },
+        {
+          "id": "8C75FF0F-485B-4515-9544-F8F89B807E6A",
+          "name": "The Big Sick",
+          "type": null,
+          "detail": "2017, Michael Showalter",
+          "image": "https://images.qloo.com/i/8C75FF0F-485B-4515-9544-F8F89B807E6A-420x-auto.jpg",
+          "score": 0.865497635788733
+        },
+        {
+          "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+          "name": "Begin Again",
+          "type": null,
+          "detail": "2013, John Carney",
+          "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+          "score": 0.856690642410638
+        },
+        {
+          "id": "BA01F29E-BA62-4A98-BCCD-16C79294086F",
+          "name": "Brigsby Bear",
+          "type": null,
+          "detail": "2017, Dave McCary",
+          "image": "https://images.qloo.com/i/BA01F29E-BA62-4A98-BCCD-16C79294086F-420x-auto.jpg",
+          "score": 0.8489021836571377
+        },
+        {
+          "id": "7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7",
+          "name": "The Wife",
+          "type": null,
+          "detail": "2017, Björn Runge",
+          "image": "https://images.qloo.com/i/7FBD2DDB-C9D0-4248-B12B-4D615A1C23B7-420x-auto.jpg",
+          "score": 0.8247746222065011
+        },
+        {
+          "id": "26521BFC-B9BD-433A-BCD1-36369EFAD39D",
+          "name": "The Great Gatsby",
+          "type": null,
+          "detail": "2013, Baz Luhrmann",
+          "image": "https://images.qloo.com/i/26521BFC-B9BD-433A-BCD1-36369EFAD39D-420x-auto.jpg",
+          "score": 0.8133502011726614
+        },
+        {
+          "id": "9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95",
+          "name": "Suburbicon",
+          "type": null,
+          "detail": "2017, George Clooney",
+          "image": "https://images.qloo.com/i/9B44C326-EBCE-43F1-8EAC-6BD1D8A09D95-420x-auto.jpg",
+          "score": 0.8057189444925584
+        },
+        {
+          "id": "D839D18C-BBB2-4E0A-819C-884536285E48",
+          "name": "True Story",
+          "type": null,
+          "detail": "2015, Rupert Goold",
+          "image": "https://images.qloo.com/i/D839D18C-BBB2-4E0A-819C-884536285E48-420x-auto.jpg",
+          "score": 0.7985677541993838
+        },
+        {
+          "id": "057A8AD8-0F84-4B7F-A228-A2C28D0C7085",
+          "name": "Motherless Brooklyn",
+          "type": null,
+          "detail": "2019, Edward Norton",
+          "image": "https://images.qloo.com/i/057A8AD8-0F84-4B7F-A228-A2C28D0C7085-420x-auto.jpg",
+          "score": 0.7953083071893121
+        },
+        {
+          "id": "85A6DAA1-3121-41B8-9B4D-2A8BF5709B40",
+          "name": "The Revenant",
+          "type": null,
+          "detail": "2015, Alejandro G. Iñárritu",
+          "image": "https://images.qloo.com/i/85A6DAA1-3121-41B8-9B4D-2A8BF5709B40-420x-auto.jpg",
+          "score": 0.7919838033595314
+        },
+        {
+          "id": "11EFB0FC-B91D-4769-949D-8A54FC711214",
+          "name": "Collateral",
+          "type": null,
+          "detail": "2004, Michael Mann",
+          "image": "https://images.qloo.com/i/11EFB0FC-B91D-4769-949D-8A54FC711214-420x-auto.jpg",
+          "score": 0.7831858128326749
+        },
+        {
+          "id": "A3A2DD32-AE95-40B9-BDF4-4F654EB46694",
+          "name": "Jumanji: The Next Level",
+          "type": null,
+          "detail": "2019, Jake Kasdan",
+          "image": "https://images.qloo.com/i/A3A2DD32-AE95-40B9-BDF4-4F654EB46694-420x-auto.jpg",
+          "score": 0.7825177448471695
+        },
+        {
+          "id": "CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA",
+          "name": "See You Tomorrow",
+          "type": null,
+          "detail": "2016, Jiajia Zhang",
+          "image": "https://images.qloo.com/i/CF78FA98-F7C4-4EBC-B1E3-FC19447E9FBA-420x-auto.jpg",
+          "score": 0.7806999533991522
+        },
+        {
+          "id": "458B9661-E7C0-4C0A-AC07-7C54CF012FFF",
+          "name": "House of Sand and Fog",
+          "type": null,
+          "detail": "2003, Vadim Perelman",
+          "image": "https://images.qloo.com/i/458B9661-E7C0-4C0A-AC07-7C54CF012FFF-420x-auto.jpg",
+          "score": 0.7656298764019474
+        },
+        {
+          "id": "523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B",
+          "name": "The Heaven None Missed",
+          "type": null,
+          "detail": "2015, Kuntz Agus",
+          "image": "https://images.qloo.com/i/523F1FFE-7E6D-4C4D-A78C-097EEF74EF6B-420x-auto.jpg",
+          "score": 0.7588960339396538
+        },
+        {
+          "id": "7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C",
+          "name": "Project Power",
+          "type": null,
+          "detail": "2020",
+          "image": "https://images.qloo.com/i/7BB7ACA7-4C2E-48DF-BADA-3C903E27B51C-420x-auto.jpg",
+          "score": 0.744514716577463
+        },
+        {
+          "id": "AF3A01BF-1973-4E41-AB7B-B18D6E1E4068",
+          "name": "Marvelous and the Black Hole",
+          "type": null,
+          "detail": "2021, Kate Tsang",
+          "image": "https://images.qloo.com/i/AF3A01BF-1973-4E41-AB7B-B18D6E1E4068-420x-auto.jpg",
+          "score": 0.7372084909480258
+        },
+        {
+          "id": "2ACB56AE-386A-4F46-BE4D-FD212038C031",
+          "name": "The Immaculate Conception of Little Dizzle",
+          "type": null,
+          "detail": "2009, David Russo",
+          "image": "https://images.qloo.com/i/2ACB56AE-386A-4F46-BE4D-FD212038C031-420x-auto.jpg",
+          "score": 0.7188432133237231
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "status": "complete",
+    "winner": null,
+    "rows": [
+      {
+        "id": "urn:tag:genre:media:architecture",
+        "name": "Architecture (Books genre tag)",
+        "domains": {
+          "tv_show": 0.4323308270676692,
+          "movie": 0.5714285714285714
+        },
+        "value": 0.5018796992481203,
+        "halves": [
+          0.6515151515151515,
+          0.44545454545454544
+        ]
+      },
+      {
+        "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "name": "Blue Bottle Coffee",
+        "domains": {
+          "tv_show": 0.23533834586466168,
+          "movie": 0.3458646616541353
+        },
+        "value": 0.2906015037593985,
+        "halves": [
+          0.2,
+          0.2818181818181818
+        ]
+      },
+      {
+        "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "domains": {
+          "tv_show": 0.08646616541353386,
+          "movie": 0.19548872180451127
+        },
+        "value": 0.14097744360902256,
+        "halves": [
+          0.1606060606060606,
+          0.22727272727272727
+        ]
+      }
+    ],
+    "domains": [
+      "tv_show",
+      "movie"
+    ],
+    "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+    "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+  },
+  "warnings": [],
+  "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance.",
+  "signal_parameters": {
+    "signals": {
+      "signal.interests.entities": [
+        "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+      ],
+      "signal.interests.tags": [
+        "urn:tag:genre:media:architecture"
+      ]
+    },
+    "weights": "Qloo defaults; no custom family weights"
+  }
+}

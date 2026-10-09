@@ -1,0 +1,1473 @@
+{
+  "version": 1,
+  "source": "live",
+  "generated_at": "2026-10-08T14:57:28.058156+00:00",
+  "interests": [
+    {
+      "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "name": "Radiohead",
+      "type": "artist",
+      "detail": "Radiohead",
+      "image": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg",
+      "verified": true,
+      "alias": "radiohead"
+    },
+    {
+      "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+      "name": "Blue Bottle Coffee",
+      "type": "brand",
+      "detail": "Blue Bottle Coffee is a specialty coffee roaster and retailer known for fresh, high-quality coffee sourced from partners like Pedro Nel Trujillo.",
+      "image": "https://images.qloo.com/i/22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D-420x-auto.jpg",
+      "verified": true,
+      "alias": "blue_bottle"
+    },
+    {
+      "id": "urn:audience:hobbies_and_interests:architecture",
+      "name": "Architecture",
+      "type": "audience",
+      "taxonomy": "urn:audience:hobbies_and_interests",
+      "parent_types": [],
+      "type_label": "hobby audience",
+      "label": "Architecture (hobby audience)",
+      "detail": "Uses the tastes of this hobby group. You choose the group; we do not infer membership.",
+      "image": null
+    }
+  ],
+  "domains": [
+    "tv_show",
+    "movie"
+  ],
+  "predictions": [
+    {
+      "id": "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+      "name": "UnREAL",
+      "type": null,
+      "detail": "2015,2018",
+      "image": "https://images.qloo.com/i/9A27891E-DE13-4E95-8318-F4EB6E6E661E-420x-auto.jpg",
+      "score": 0.9528453630537014,
+      "domain": "tv_show",
+      "rank": 1
+    },
+    {
+      "id": "4BE414CF-375F-4566-AA66-9AC6150A6B7F",
+      "name": "Lady Bird",
+      "type": null,
+      "detail": "2017, Greta Gerwig",
+      "image": "https://images.qloo.com/i/4BE414CF-375F-4566-AA66-9AC6150A6B7F-420x-auto.jpg",
+      "score": 0.9379785485676282,
+      "domain": "movie",
+      "rank": 1
+    },
+    {
+      "id": "00813981-56C8-4117-9DC6-71BE2DB73348",
+      "name": "Easy",
+      "type": null,
+      "detail": "2016,2019",
+      "image": "https://images.qloo.com/i/00813981-56C8-4117-9DC6-71BE2DB73348-420x-auto.jpg",
+      "score": 0.9490572222973412,
+      "domain": "tv_show",
+      "rank": 2
+    },
+    {
+      "id": "33388BBB-6625-4EF5-9BA1-75A78331C77D",
+      "name": "Call Me by Your Name",
+      "type": null,
+      "detail": "2017, Luca Guadagnino",
+      "image": "https://images.qloo.com/i/33388BBB-6625-4EF5-9BA1-75A78331C77D-420x-auto.jpg",
+      "score": 0.9264003271267955,
+      "domain": "movie",
+      "rank": 2
+    },
+    {
+      "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+      "name": "Black Mirror",
+      "type": null,
+      "detail": "2011",
+      "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+      "score": 0.9487007490991997,
+      "domain": "tv_show",
+      "rank": 3
+    },
+    {
+      "id": "2955F3C4-36AB-49F3-A818-3597F35EF46C",
+      "name": "Moonlight",
+      "type": null,
+      "detail": "2016, Barry Jenkins",
+      "image": "https://images.qloo.com/i/2955F3C4-36AB-49F3-A818-3597F35EF46C-420x-auto.jpg",
+      "score": 0.91765523378663,
+      "domain": "movie",
+      "rank": 3
+    }
+  ],
+  "full": {
+    "tv_show": [
+      {
+        "id": "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+        "name": "UnREAL",
+        "type": null,
+        "detail": "2015,2018",
+        "image": "https://images.qloo.com/i/9A27891E-DE13-4E95-8318-F4EB6E6E661E-420x-auto.jpg",
+        "score": 0.9528453630537014
+      },
+      {
+        "id": "00813981-56C8-4117-9DC6-71BE2DB73348",
+        "name": "Easy",
+        "type": null,
+        "detail": "2016,2019",
+        "image": "https://images.qloo.com/i/00813981-56C8-4117-9DC6-71BE2DB73348-420x-auto.jpg",
+        "score": 0.9490572222973412
+      },
+      {
+        "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+        "name": "Black Mirror",
+        "type": null,
+        "detail": "2011",
+        "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+        "score": 0.9487007490991997
+      },
+      {
+        "id": "DD6C52A9-9FAA-429B-8914-8785B856E330",
+        "name": "Queer Eye",
+        "type": null,
+        "detail": "2018,2026",
+        "image": "https://images.qloo.com/i/DD6C52A9-9FAA-429B-8914-8785B856E330-420x-auto.jpg",
+        "score": 0.945775082172606
+      },
+      {
+        "id": "5521C951-41EB-475A-B8BD-034A4B5F8C8A",
+        "name": "Homecoming",
+        "type": null,
+        "detail": "2018,2020",
+        "image": "https://images.qloo.com/i/5521C951-41EB-475A-B8BD-034A4B5F8C8A-420x-auto.jpg",
+        "score": 0.9456923805269565
+      },
+      {
+        "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+        "name": "Search Party",
+        "type": null,
+        "detail": "2016,2022",
+        "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+        "score": 0.9452120569509376
+      },
+      {
+        "id": "3194D810-FE41-4AFD-81E7-12B8D46E2320",
+        "name": "Electric Dreams",
+        "type": null,
+        "detail": "2017,2018",
+        "image": "https://images.qloo.com/i/3194D810-FE41-4AFD-81E7-12B8D46E2320-420x-auto.jpg",
+        "score": 0.9446524307236568
+      },
+      {
+        "id": "624FEB10-698C-4A0F-A61C-D7548B6BB932",
+        "name": "Maniac",
+        "type": null,
+        "detail": "2018,2018",
+        "image": "https://images.qloo.com/i/624FEB10-698C-4A0F-A61C-D7548B6BB932-420x-auto.jpg",
+        "score": 0.9445745129568318
+      },
+      {
+        "id": "4EFAD5E0-1614-4D4E-B9A4-293684311367",
+        "name": "High Maintenance",
+        "type": null,
+        "detail": "2012,2015",
+        "image": "https://images.qloo.com/i/4EFAD5E0-1614-4D4E-B9A4-293684311367-420x-auto.jpg",
+        "score": 0.9443859936944115
+      },
+      {
+        "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+        "name": "A Murder at the End of the World",
+        "type": null,
+        "detail": "2023,2023",
+        "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+        "score": 0.9439584261351973
+      },
+      {
+        "id": "A7C34CD5-C1D3-486F-948F-1631C08E15E4",
+        "name": "Good Behavior",
+        "type": null,
+        "detail": "2016,2017",
+        "image": "https://images.qloo.com/i/A7C34CD5-C1D3-486F-948F-1631C08E15E4-420x-auto.jpg",
+        "score": 0.9436066003777468
+      },
+      {
+        "id": "08306FE7-8C04-447E-BB07-5B819083EBC5",
+        "name": "Mozart in the Jungle",
+        "type": null,
+        "detail": "2014,2018",
+        "image": "https://images.qloo.com/i/08306FE7-8C04-447E-BB07-5B819083EBC5-420x-auto.jpg",
+        "score": 0.9432565312287288
+      },
+      {
+        "id": "427C074F-396A-4218-9809-D67976960A65",
+        "name": "Anthony Bourdain: Parts Unknown",
+        "type": null,
+        "detail": "2013,2018",
+        "image": "https://images.qloo.com/i/427C074F-396A-4218-9809-D67976960A65-420x-auto.jpg",
+        "score": 0.9424841318977785
+      },
+      {
+        "id": "216DCFCE-7F8D-4134-9ED4-CFA27248F7E4",
+        "name": "Queer Eye: We're in Japan!",
+        "type": null,
+        "detail": "2019,2019",
+        "image": "https://images.qloo.com/i/216DCFCE-7F8D-4134-9ED4-CFA27248F7E4-420x-auto.jpg",
+        "score": 0.9421710862862778
+      },
+      {
+        "id": "B737F427-76B5-4631-8063-6BBDABD8DBE5",
+        "name": "Better Things",
+        "type": null,
+        "detail": "2016,2022",
+        "image": "https://images.qloo.com/i/B737F427-76B5-4631-8063-6BBDABD8DBE5-420x-auto.jpg",
+        "score": 0.9421353170306664
+      },
+      {
+        "id": "CA6AD86F-18EF-45B3-BFC4-C890A4094EA9",
+        "name": "Limetown",
+        "type": null,
+        "detail": "2019,2019",
+        "image": "https://images.qloo.com/i/CA6AD86F-18EF-45B3-BFC4-C890A4094EA9-420x-auto.jpg",
+        "score": 0.9411681678045056
+      },
+      {
+        "id": "D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D",
+        "name": "Catastrophe",
+        "type": null,
+        "detail": "2015,2019",
+        "image": "https://images.qloo.com/i/D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D-420x-auto.jpg",
+        "score": 0.9410270959248458
+      },
+      {
+        "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+        "name": "Master of None",
+        "type": null,
+        "detail": "2015,2021",
+        "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+        "score": 0.9409839758371356
+      },
+      {
+        "id": "2FF66937-26D4-4533-AF23-EC0C5BCF4CA0",
+        "name": "Killing Eve",
+        "type": null,
+        "detail": "2018,2022",
+        "image": "https://images.qloo.com/i/2FF66937-26D4-4533-AF23-EC0C5BCF4CA0-420x-auto.jpg",
+        "score": 0.9407178507149153
+      },
+      {
+        "id": "9740A06C-A781-4F30-A3E0-856DAB93E3A8",
+        "name": "Russian Doll",
+        "type": null,
+        "detail": "2019,2022",
+        "image": "https://images.qloo.com/i/9740A06C-A781-4F30-A3E0-856DAB93E3A8-420x-auto.jpg",
+        "score": 0.9402840681848103
+      }
+    ],
+    "movie": [
+      {
+        "id": "4BE414CF-375F-4566-AA66-9AC6150A6B7F",
+        "name": "Lady Bird",
+        "type": null,
+        "detail": "2017, Greta Gerwig",
+        "image": "https://images.qloo.com/i/4BE414CF-375F-4566-AA66-9AC6150A6B7F-420x-auto.jpg",
+        "score": 0.9379785485676282
+      },
+      {
+        "id": "33388BBB-6625-4EF5-9BA1-75A78331C77D",
+        "name": "Call Me by Your Name",
+        "type": null,
+        "detail": "2017, Luca Guadagnino",
+        "image": "https://images.qloo.com/i/33388BBB-6625-4EF5-9BA1-75A78331C77D-420x-auto.jpg",
+        "score": 0.9264003271267955
+      },
+      {
+        "id": "2955F3C4-36AB-49F3-A818-3597F35EF46C",
+        "name": "Moonlight",
+        "type": null,
+        "detail": "2016, Barry Jenkins",
+        "image": "https://images.qloo.com/i/2955F3C4-36AB-49F3-A818-3597F35EF46C-420x-auto.jpg",
+        "score": 0.91765523378663
+      },
+      {
+        "id": "2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9",
+        "name": "The Favourite",
+        "type": null,
+        "detail": "2018, Yorgos Lanthimos",
+        "image": "https://images.qloo.com/i/2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9-420x-auto.jpg",
+        "score": 0.9154937435740907
+      },
+      {
+        "id": "969911E8-7092-43D9-8C7D-C7547EAE3C00",
+        "name": "Little Women",
+        "type": null,
+        "detail": "2019, Greta Gerwig",
+        "image": "https://images.qloo.com/i/969911E8-7092-43D9-8C7D-C7547EAE3C00-420x-auto.jpg",
+        "score": 0.9136752429624098
+      },
+      {
+        "id": "60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25",
+        "name": "Sorry to Bother You",
+        "type": null,
+        "detail": "2018, Boots Riley",
+        "image": "https://images.qloo.com/i/60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25-420x-auto.jpg",
+        "score": 0.9112366815263178
+      },
+      {
+        "id": "4BF6B94B-B7D3-4815-9EFE-16A33697B38C",
+        "name": "Sing Street",
+        "type": null,
+        "detail": "2016, John Carney",
+        "image": "https://images.qloo.com/i/4BF6B94B-B7D3-4815-9EFE-16A33697B38C-420x-auto.jpg",
+        "score": 0.9101353152940033
+      },
+      {
+        "id": "9C0F7C3B-D081-4440-876E-0F742D29C976",
+        "name": "Okja",
+        "type": null,
+        "detail": "2017, Bong Joon Ho",
+        "image": "https://images.qloo.com/i/9C0F7C3B-D081-4440-876E-0F742D29C976-420x-auto.jpg",
+        "score": 0.908457758672361
+      },
+      {
+        "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+        "name": "Once Upon a Time in... Hollywood",
+        "type": null,
+        "detail": "2019, Quentin Tarantino",
+        "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+        "score": 0.9068431300292815
+      },
+      {
+        "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+        "name": "Enemy",
+        "type": null,
+        "detail": "2013, Denis Villeneuve",
+        "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+        "score": 0.9063968948775131
+      },
+      {
+        "id": "4EA8BFC4-41F1-4E1C-B827-EDACA546304F",
+        "name": "Youth",
+        "type": null,
+        "detail": "2015, Paolo Sorrentino",
+        "image": "https://images.qloo.com/i/4EA8BFC4-41F1-4E1C-B827-EDACA546304F-420x-auto.jpg",
+        "score": 0.906365099185031
+      },
+      {
+        "id": "5711127E-4A9A-4440-8234-8E536E8A1564",
+        "name": "Annihilation",
+        "type": null,
+        "detail": "2018, Alex Garland",
+        "image": "https://images.qloo.com/i/5711127E-4A9A-4440-8234-8E536E8A1564-420x-auto.jpg",
+        "score": 0.9063207001741561
+      },
+      {
+        "id": "DE02F90E-EF5E-4860-9D19-18BCFCD47F38",
+        "name": "Pain and Glory",
+        "type": null,
+        "detail": "2019, Pedro Almodóvar",
+        "image": "https://images.qloo.com/i/DE02F90E-EF5E-4860-9D19-18BCFCD47F38-420x-auto.jpg",
+        "score": 0.9061890171333963
+      },
+      {
+        "id": "FB052F84-01CF-48BB-A30A-51C45F183777",
+        "name": "Roma",
+        "type": null,
+        "detail": "2018, Alfonso Cuarón",
+        "image": "https://images.qloo.com/i/FB052F84-01CF-48BB-A30A-51C45F183777-420x-auto.jpg",
+        "score": 0.9052981779166361
+      },
+      {
+        "id": "24A2FD28-FC76-4CCD-AC43-A015B539DBAA",
+        "name": "Uncut Gems",
+        "type": null,
+        "detail": "2019",
+        "image": "https://images.qloo.com/i/24A2FD28-FC76-4CCD-AC43-A015B539DBAA-420x-auto.jpg",
+        "score": 0.9044594422280127
+      },
+      {
+        "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+        "name": "Crazy Rich Asians",
+        "type": null,
+        "detail": "2018, Jon M. Chu",
+        "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+        "score": 0.9037268297899542
+      },
+      {
+        "id": "85C499B8-4E79-49C0-90F0-19C33C1D32D8",
+        "name": "Booksmart",
+        "type": null,
+        "detail": "2019, Olivia Wilde",
+        "image": "https://images.qloo.com/i/85C499B8-4E79-49C0-90F0-19C33C1D32D8-420x-auto.jpg",
+        "score": 0.903253466316902
+      },
+      {
+        "id": "AB64C7F6-60F4-4C15-A0F8-8E2D59174595",
+        "name": "The Irishman",
+        "type": null,
+        "detail": "2019, Martin Scorsese",
+        "image": "https://images.qloo.com/i/AB64C7F6-60F4-4C15-A0F8-8E2D59174595-420x-auto.jpg",
+        "score": 0.9030523848029856
+      },
+      {
+        "id": "4AA56534-89A0-474F-A6C7-ADE835BFC60B",
+        "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "type": null,
+        "detail": "2014, Alejandro G. Iñárritu",
+        "image": "https://images.qloo.com/i/4AA56534-89A0-474F-A6C7-ADE835BFC60B-420x-auto.jpg",
+        "score": 0.9023935619155107
+      },
+      {
+        "id": "FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B",
+        "name": "Nocturnal Animals",
+        "type": null,
+        "detail": "2016, Tom Ford",
+        "image": "https://images.qloo.com/i/FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B-420x-auto.jpg",
+        "score": 0.9011612756065678
+      }
+    ]
+  },
+  "ablations": {
+    "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C": {
+      "tv_show": [
+        {
+          "id": "427C074F-396A-4218-9809-D67976960A65",
+          "name": "Anthony Bourdain: Parts Unknown",
+          "type": null,
+          "detail": "2013,2018",
+          "image": "https://images.qloo.com/i/427C074F-396A-4218-9809-D67976960A65-420x-auto.jpg",
+          "score": 0.9677217307835518
+        },
+        {
+          "id": "216DCFCE-7F8D-4134-9ED4-CFA27248F7E4",
+          "name": "Queer Eye: We're in Japan!",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/216DCFCE-7F8D-4134-9ED4-CFA27248F7E4-420x-auto.jpg",
+          "score": 0.9547984085266596
+        },
+        {
+          "id": "DD6C52A9-9FAA-429B-8914-8785B856E330",
+          "name": "Queer Eye",
+          "type": null,
+          "detail": "2018,2026",
+          "image": "https://images.qloo.com/i/DD6C52A9-9FAA-429B-8914-8785B856E330-420x-auto.jpg",
+          "score": 0.9499919018917872
+        },
+        {
+          "id": "00813981-56C8-4117-9DC6-71BE2DB73348",
+          "name": "Easy",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/00813981-56C8-4117-9DC6-71BE2DB73348-420x-auto.jpg",
+          "score": 0.9418398875759494
+        },
+        {
+          "id": "4EFAD5E0-1614-4D4E-B9A4-293684311367",
+          "name": "High Maintenance",
+          "type": null,
+          "detail": "2012,2015",
+          "image": "https://images.qloo.com/i/4EFAD5E0-1614-4D4E-B9A4-293684311367-420x-auto.jpg",
+          "score": 0.941036883081425
+        },
+        {
+          "id": "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+          "name": "UnREAL",
+          "type": null,
+          "detail": "2015,2018",
+          "image": "https://images.qloo.com/i/9A27891E-DE13-4E95-8318-F4EB6E6E661E-420x-auto.jpg",
+          "score": 0.9368333746839727
+        },
+        {
+          "id": "08306FE7-8C04-447E-BB07-5B819083EBC5",
+          "name": "Mozart in the Jungle",
+          "type": null,
+          "detail": "2014,2018",
+          "image": "https://images.qloo.com/i/08306FE7-8C04-447E-BB07-5B819083EBC5-420x-auto.jpg",
+          "score": 0.9307581063956839
+        },
+        {
+          "id": "D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D",
+          "name": "Catastrophe",
+          "type": null,
+          "detail": "2015,2019",
+          "image": "https://images.qloo.com/i/D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D-420x-auto.jpg",
+          "score": 0.9305997113612213
+        },
+        {
+          "id": "B737F427-76B5-4631-8063-6BBDABD8DBE5",
+          "name": "Better Things",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/B737F427-76B5-4631-8063-6BBDABD8DBE5-420x-auto.jpg",
+          "score": 0.9267904188536331
+        },
+        {
+          "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+          "name": "Master of None",
+          "type": null,
+          "detail": "2015,2021",
+          "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+          "score": 0.9266073036943051
+        },
+        {
+          "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+          "name": "Search Party",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+          "score": 0.9262421579271073
+        },
+        {
+          "id": "CA6AD86F-18EF-45B3-BFC4-C890A4094EA9",
+          "name": "Limetown",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/CA6AD86F-18EF-45B3-BFC4-C890A4094EA9-420x-auto.jpg",
+          "score": 0.9254004570993477
+        },
+        {
+          "id": "A7C34CD5-C1D3-486F-948F-1631C08E15E4",
+          "name": "Good Behavior",
+          "type": null,
+          "detail": "2016,2017",
+          "image": "https://images.qloo.com/i/A7C34CD5-C1D3-486F-948F-1631C08E15E4-420x-auto.jpg",
+          "score": 0.9226658453691068
+        },
+        {
+          "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+          "name": "A Murder at the End of the World",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+          "score": 0.9179693243854141
+        },
+        {
+          "id": "5521C951-41EB-475A-B8BD-034A4B5F8C8A",
+          "name": "Homecoming",
+          "type": null,
+          "detail": "2018,2020",
+          "image": "https://images.qloo.com/i/5521C951-41EB-475A-B8BD-034A4B5F8C8A-420x-auto.jpg",
+          "score": 0.9162844706194659
+        },
+        {
+          "id": "624FEB10-698C-4A0F-A61C-D7548B6BB932",
+          "name": "Maniac",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/624FEB10-698C-4A0F-A61C-D7548B6BB932-420x-auto.jpg",
+          "score": 0.9143044200177931
+        },
+        {
+          "id": "3194D810-FE41-4AFD-81E7-12B8D46E2320",
+          "name": "Electric Dreams",
+          "type": null,
+          "detail": "2017,2018",
+          "image": "https://images.qloo.com/i/3194D810-FE41-4AFD-81E7-12B8D46E2320-420x-auto.jpg",
+          "score": 0.9121135294258581
+        },
+        {
+          "id": "2FF66937-26D4-4533-AF23-EC0C5BCF4CA0",
+          "name": "Killing Eve",
+          "type": null,
+          "detail": "2018,2022",
+          "image": "https://images.qloo.com/i/2FF66937-26D4-4533-AF23-EC0C5BCF4CA0-420x-auto.jpg",
+          "score": 0.9101090650518481
+        },
+        {
+          "id": "9740A06C-A781-4F30-A3E0-856DAB93E3A8",
+          "name": "Russian Doll",
+          "type": null,
+          "detail": "2019,2022",
+          "image": "https://images.qloo.com/i/9740A06C-A781-4F30-A3E0-856DAB93E3A8-420x-auto.jpg",
+          "score": 0.9098596964595773
+        },
+        {
+          "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+          "name": "Black Mirror",
+          "type": null,
+          "detail": "2011",
+          "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+          "score": 0.8915869057484516
+        }
+      ],
+      "movie": [
+        {
+          "id": "969911E8-7092-43D9-8C7D-C7547EAE3C00",
+          "name": "Little Women",
+          "type": null,
+          "detail": "2019, Greta Gerwig",
+          "image": "https://images.qloo.com/i/969911E8-7092-43D9-8C7D-C7547EAE3C00-420x-auto.jpg",
+          "score": 0.9463315910339358
+        },
+        {
+          "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+          "name": "Crazy Rich Asians",
+          "type": null,
+          "detail": "2018, Jon M. Chu",
+          "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+          "score": 0.9435073610617624
+        },
+        {
+          "id": "4BE414CF-375F-4566-AA66-9AC6150A6B7F",
+          "name": "Lady Bird",
+          "type": null,
+          "detail": "2017, Greta Gerwig",
+          "image": "https://images.qloo.com/i/4BE414CF-375F-4566-AA66-9AC6150A6B7F-420x-auto.jpg",
+          "score": 0.9393100942620312
+        },
+        {
+          "id": "33388BBB-6625-4EF5-9BA1-75A78331C77D",
+          "name": "Call Me by Your Name",
+          "type": null,
+          "detail": "2017, Luca Guadagnino",
+          "image": "https://images.qloo.com/i/33388BBB-6625-4EF5-9BA1-75A78331C77D-420x-auto.jpg",
+          "score": 0.9314311060221554
+        },
+        {
+          "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+          "name": "Once Upon a Time in... Hollywood",
+          "type": null,
+          "detail": "2019, Quentin Tarantino",
+          "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+          "score": 0.9208277782496656
+        },
+        {
+          "id": "85C499B8-4E79-49C0-90F0-19C33C1D32D8",
+          "name": "Booksmart",
+          "type": null,
+          "detail": "2019, Olivia Wilde",
+          "image": "https://images.qloo.com/i/85C499B8-4E79-49C0-90F0-19C33C1D32D8-420x-auto.jpg",
+          "score": 0.9200626017971582
+        },
+        {
+          "id": "2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9",
+          "name": "The Favourite",
+          "type": null,
+          "detail": "2018, Yorgos Lanthimos",
+          "image": "https://images.qloo.com/i/2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9-420x-auto.jpg",
+          "score": 0.9182956648055679
+        },
+        {
+          "id": "DE02F90E-EF5E-4860-9D19-18BCFCD47F38",
+          "name": "Pain and Glory",
+          "type": null,
+          "detail": "2019, Pedro Almodóvar",
+          "image": "https://images.qloo.com/i/DE02F90E-EF5E-4860-9D19-18BCFCD47F38-420x-auto.jpg",
+          "score": 0.9178458948131538
+        },
+        {
+          "id": "4BF6B94B-B7D3-4815-9EFE-16A33697B38C",
+          "name": "Sing Street",
+          "type": null,
+          "detail": "2016, John Carney",
+          "image": "https://images.qloo.com/i/4BF6B94B-B7D3-4815-9EFE-16A33697B38C-420x-auto.jpg",
+          "score": 0.9137407027141468
+        },
+        {
+          "id": "AB64C7F6-60F4-4C15-A0F8-8E2D59174595",
+          "name": "The Irishman",
+          "type": null,
+          "detail": "2019, Martin Scorsese",
+          "image": "https://images.qloo.com/i/AB64C7F6-60F4-4C15-A0F8-8E2D59174595-420x-auto.jpg",
+          "score": 0.9105078569725259
+        },
+        {
+          "id": "FB052F84-01CF-48BB-A30A-51C45F183777",
+          "name": "Roma",
+          "type": null,
+          "detail": "2018, Alfonso Cuarón",
+          "image": "https://images.qloo.com/i/FB052F84-01CF-48BB-A30A-51C45F183777-420x-auto.jpg",
+          "score": 0.9103257231176
+        },
+        {
+          "id": "2955F3C4-36AB-49F3-A818-3597F35EF46C",
+          "name": "Moonlight",
+          "type": null,
+          "detail": "2016, Barry Jenkins",
+          "image": "https://images.qloo.com/i/2955F3C4-36AB-49F3-A818-3597F35EF46C-420x-auto.jpg",
+          "score": 0.9100609258707735
+        },
+        {
+          "id": "9C0F7C3B-D081-4440-876E-0F742D29C976",
+          "name": "Okja",
+          "type": null,
+          "detail": "2017, Bong Joon Ho",
+          "image": "https://images.qloo.com/i/9C0F7C3B-D081-4440-876E-0F742D29C976-420x-auto.jpg",
+          "score": 0.9040708805073043
+        },
+        {
+          "id": "4EA8BFC4-41F1-4E1C-B827-EDACA546304F",
+          "name": "Youth",
+          "type": null,
+          "detail": "2015, Paolo Sorrentino",
+          "image": "https://images.qloo.com/i/4EA8BFC4-41F1-4E1C-B827-EDACA546304F-420x-auto.jpg",
+          "score": 0.903398222388816
+        },
+        {
+          "id": "24A2FD28-FC76-4CCD-AC43-A015B539DBAA",
+          "name": "Uncut Gems",
+          "type": null,
+          "detail": "2019",
+          "image": "https://images.qloo.com/i/24A2FD28-FC76-4CCD-AC43-A015B539DBAA-420x-auto.jpg",
+          "score": 0.8968999558379231
+        },
+        {
+          "id": "60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25",
+          "name": "Sorry to Bother You",
+          "type": null,
+          "detail": "2018, Boots Riley",
+          "image": "https://images.qloo.com/i/60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25-420x-auto.jpg",
+          "score": 0.892773047615012
+        },
+        {
+          "id": "FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B",
+          "name": "Nocturnal Animals",
+          "type": null,
+          "detail": "2016, Tom Ford",
+          "image": "https://images.qloo.com/i/FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B-420x-auto.jpg",
+          "score": 0.8911993069722048
+        },
+        {
+          "id": "5711127E-4A9A-4440-8234-8E536E8A1564",
+          "name": "Annihilation",
+          "type": null,
+          "detail": "2018, Alex Garland",
+          "image": "https://images.qloo.com/i/5711127E-4A9A-4440-8234-8E536E8A1564-420x-auto.jpg",
+          "score": 0.8839269717285834
+        },
+        {
+          "id": "4AA56534-89A0-474F-A6C7-ADE835BFC60B",
+          "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "type": null,
+          "detail": "2014, Alejandro G. Iñárritu",
+          "image": "https://images.qloo.com/i/4AA56534-89A0-474F-A6C7-ADE835BFC60B-420x-auto.jpg",
+          "score": 0.8758349449590572
+        },
+        {
+          "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+          "name": "Enemy",
+          "type": null,
+          "detail": "2013, Denis Villeneuve",
+          "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+          "score": 0.8554981719339915
+        }
+      ]
+    },
+    "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D": {
+      "tv_show": [
+        {
+          "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+          "name": "Black Mirror",
+          "type": null,
+          "detail": "2011",
+          "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+          "score": 0.9733269222699502
+        },
+        {
+          "id": "624FEB10-698C-4A0F-A61C-D7548B6BB932",
+          "name": "Maniac",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/624FEB10-698C-4A0F-A61C-D7548B6BB932-420x-auto.jpg",
+          "score": 0.9467585155712102
+        },
+        {
+          "id": "5521C951-41EB-475A-B8BD-034A4B5F8C8A",
+          "name": "Homecoming",
+          "type": null,
+          "detail": "2018,2020",
+          "image": "https://images.qloo.com/i/5521C951-41EB-475A-B8BD-034A4B5F8C8A-420x-auto.jpg",
+          "score": 0.9465610456817314
+        },
+        {
+          "id": "3194D810-FE41-4AFD-81E7-12B8D46E2320",
+          "name": "Electric Dreams",
+          "type": null,
+          "detail": "2017,2018",
+          "image": "https://images.qloo.com/i/3194D810-FE41-4AFD-81E7-12B8D46E2320-420x-auto.jpg",
+          "score": 0.9465179909502622
+        },
+        {
+          "id": "2FF66937-26D4-4533-AF23-EC0C5BCF4CA0",
+          "name": "Killing Eve",
+          "type": null,
+          "detail": "2018,2022",
+          "image": "https://images.qloo.com/i/2FF66937-26D4-4533-AF23-EC0C5BCF4CA0-420x-auto.jpg",
+          "score": 0.9432638478351848
+        },
+        {
+          "id": "9740A06C-A781-4F30-A3E0-856DAB93E3A8",
+          "name": "Russian Doll",
+          "type": null,
+          "detail": "2019,2022",
+          "image": "https://images.qloo.com/i/9740A06C-A781-4F30-A3E0-856DAB93E3A8-420x-auto.jpg",
+          "score": 0.9429673521095971
+        },
+        {
+          "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+          "name": "A Murder at the End of the World",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+          "score": 0.9413023938867894
+        },
+        {
+          "id": "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+          "name": "UnREAL",
+          "type": null,
+          "detail": "2015,2018",
+          "image": "https://images.qloo.com/i/9A27891E-DE13-4E95-8318-F4EB6E6E661E-420x-auto.jpg",
+          "score": 0.9382725634001295
+        },
+        {
+          "id": "A7C34CD5-C1D3-486F-948F-1631C08E15E4",
+          "name": "Good Behavior",
+          "type": null,
+          "detail": "2016,2017",
+          "image": "https://images.qloo.com/i/A7C34CD5-C1D3-486F-948F-1631C08E15E4-420x-auto.jpg",
+          "score": 0.9355443902183406
+        },
+        {
+          "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+          "name": "Search Party",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+          "score": 0.9354425101131786
+        },
+        {
+          "id": "CA6AD86F-18EF-45B3-BFC4-C890A4094EA9",
+          "name": "Limetown",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/CA6AD86F-18EF-45B3-BFC4-C890A4094EA9-420x-auto.jpg",
+          "score": 0.929000179453565
+        },
+        {
+          "id": "B737F427-76B5-4631-8063-6BBDABD8DBE5",
+          "name": "Better Things",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/B737F427-76B5-4631-8063-6BBDABD8DBE5-420x-auto.jpg",
+          "score": 0.9283179651500525
+        },
+        {
+          "id": "00813981-56C8-4117-9DC6-71BE2DB73348",
+          "name": "Easy",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/00813981-56C8-4117-9DC6-71BE2DB73348-420x-auto.jpg",
+          "score": 0.9272181586430732
+        },
+        {
+          "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+          "name": "Master of None",
+          "type": null,
+          "detail": "2015,2021",
+          "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+          "score": 0.9271688836589794
+        },
+        {
+          "id": "08306FE7-8C04-447E-BB07-5B819083EBC5",
+          "name": "Mozart in the Jungle",
+          "type": null,
+          "detail": "2014,2018",
+          "image": "https://images.qloo.com/i/08306FE7-8C04-447E-BB07-5B819083EBC5-420x-auto.jpg",
+          "score": 0.926614838000832
+        },
+        {
+          "id": "D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D",
+          "name": "Catastrophe",
+          "type": null,
+          "detail": "2015,2019",
+          "image": "https://images.qloo.com/i/D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D-420x-auto.jpg",
+          "score": 0.92246505524033
+        },
+        {
+          "id": "4EFAD5E0-1614-4D4E-B9A4-293684311367",
+          "name": "High Maintenance",
+          "type": null,
+          "detail": "2012,2015",
+          "image": "https://images.qloo.com/i/4EFAD5E0-1614-4D4E-B9A4-293684311367-420x-auto.jpg",
+          "score": 0.9190314217413855
+        },
+        {
+          "id": "DD6C52A9-9FAA-429B-8914-8785B856E330",
+          "name": "Queer Eye",
+          "type": null,
+          "detail": "2018,2026",
+          "image": "https://images.qloo.com/i/DD6C52A9-9FAA-429B-8914-8785B856E330-420x-auto.jpg",
+          "score": 0.9119098906673018
+        },
+        {
+          "id": "216DCFCE-7F8D-4134-9ED4-CFA27248F7E4",
+          "name": "Queer Eye: We're in Japan!",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/216DCFCE-7F8D-4134-9ED4-CFA27248F7E4-420x-auto.jpg",
+          "score": 0.9001673769662445
+        },
+        {
+          "id": "427C074F-396A-4218-9809-D67976960A65",
+          "name": "Anthony Bourdain: Parts Unknown",
+          "type": null,
+          "detail": "2013,2018",
+          "image": "https://images.qloo.com/i/427C074F-396A-4218-9809-D67976960A65-420x-auto.jpg",
+          "score": 0.8875184321988474
+        }
+      ],
+      "movie": [
+        {
+          "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+          "name": "Enemy",
+          "type": null,
+          "detail": "2013, Denis Villeneuve",
+          "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+          "score": 0.9201369318893273
+        },
+        {
+          "id": "5711127E-4A9A-4440-8234-8E536E8A1564",
+          "name": "Annihilation",
+          "type": null,
+          "detail": "2018, Alex Garland",
+          "image": "https://images.qloo.com/i/5711127E-4A9A-4440-8234-8E536E8A1564-420x-auto.jpg",
+          "score": 0.8966658557257399
+        },
+        {
+          "id": "4AA56534-89A0-474F-A6C7-ADE835BFC60B",
+          "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "type": null,
+          "detail": "2014, Alejandro G. Iñárritu",
+          "image": "https://images.qloo.com/i/4AA56534-89A0-474F-A6C7-ADE835BFC60B-420x-auto.jpg",
+          "score": 0.8937852434160038
+        },
+        {
+          "id": "4BE414CF-375F-4566-AA66-9AC6150A6B7F",
+          "name": "Lady Bird",
+          "type": null,
+          "detail": "2017, Greta Gerwig",
+          "image": "https://images.qloo.com/i/4BE414CF-375F-4566-AA66-9AC6150A6B7F-420x-auto.jpg",
+          "score": 0.8934785537023975
+        },
+        {
+          "id": "60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25",
+          "name": "Sorry to Bother You",
+          "type": null,
+          "detail": "2018, Boots Riley",
+          "image": "https://images.qloo.com/i/60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25-420x-auto.jpg",
+          "score": 0.8904597184055989
+        },
+        {
+          "id": "2955F3C4-36AB-49F3-A818-3597F35EF46C",
+          "name": "Moonlight",
+          "type": null,
+          "detail": "2016, Barry Jenkins",
+          "image": "https://images.qloo.com/i/2955F3C4-36AB-49F3-A818-3597F35EF46C-420x-auto.jpg",
+          "score": 0.8900676599430567
+        },
+        {
+          "id": "33388BBB-6625-4EF5-9BA1-75A78331C77D",
+          "name": "Call Me by Your Name",
+          "type": null,
+          "detail": "2017, Luca Guadagnino",
+          "image": "https://images.qloo.com/i/33388BBB-6625-4EF5-9BA1-75A78331C77D-420x-auto.jpg",
+          "score": 0.8805020408486385
+        },
+        {
+          "id": "FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B",
+          "name": "Nocturnal Animals",
+          "type": null,
+          "detail": "2016, Tom Ford",
+          "image": "https://images.qloo.com/i/FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B-420x-auto.jpg",
+          "score": 0.880093394319828
+        },
+        {
+          "id": "24A2FD28-FC76-4CCD-AC43-A015B539DBAA",
+          "name": "Uncut Gems",
+          "type": null,
+          "detail": "2019",
+          "image": "https://images.qloo.com/i/24A2FD28-FC76-4CCD-AC43-A015B539DBAA-420x-auto.jpg",
+          "score": 0.8776371737013834
+        },
+        {
+          "id": "9C0F7C3B-D081-4440-876E-0F742D29C976",
+          "name": "Okja",
+          "type": null,
+          "detail": "2017, Bong Joon Ho",
+          "image": "https://images.qloo.com/i/9C0F7C3B-D081-4440-876E-0F742D29C976-420x-auto.jpg",
+          "score": 0.8770946567195034
+        },
+        {
+          "id": "4EA8BFC4-41F1-4E1C-B827-EDACA546304F",
+          "name": "Youth",
+          "type": null,
+          "detail": "2015, Paolo Sorrentino",
+          "image": "https://images.qloo.com/i/4EA8BFC4-41F1-4E1C-B827-EDACA546304F-420x-auto.jpg",
+          "score": 0.8748661280409635
+        },
+        {
+          "id": "2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9",
+          "name": "The Favourite",
+          "type": null,
+          "detail": "2018, Yorgos Lanthimos",
+          "image": "https://images.qloo.com/i/2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9-420x-auto.jpg",
+          "score": 0.8727628231165421
+        },
+        {
+          "id": "4BF6B94B-B7D3-4815-9EFE-16A33697B38C",
+          "name": "Sing Street",
+          "type": null,
+          "detail": "2016, John Carney",
+          "image": "https://images.qloo.com/i/4BF6B94B-B7D3-4815-9EFE-16A33697B38C-420x-auto.jpg",
+          "score": 0.8691748744171652
+        },
+        {
+          "id": "AB64C7F6-60F4-4C15-A0F8-8E2D59174595",
+          "name": "The Irishman",
+          "type": null,
+          "detail": "2019, Martin Scorsese",
+          "image": "https://images.qloo.com/i/AB64C7F6-60F4-4C15-A0F8-8E2D59174595-420x-auto.jpg",
+          "score": 0.8625766336294093
+        },
+        {
+          "id": "FB052F84-01CF-48BB-A30A-51C45F183777",
+          "name": "Roma",
+          "type": null,
+          "detail": "2018, Alfonso Cuarón",
+          "image": "https://images.qloo.com/i/FB052F84-01CF-48BB-A30A-51C45F183777-420x-auto.jpg",
+          "score": 0.8619720831192658
+        },
+        {
+          "id": "DE02F90E-EF5E-4860-9D19-18BCFCD47F38",
+          "name": "Pain and Glory",
+          "type": null,
+          "detail": "2019, Pedro Almodóvar",
+          "image": "https://images.qloo.com/i/DE02F90E-EF5E-4860-9D19-18BCFCD47F38-420x-auto.jpg",
+          "score": 0.8601190378445226
+        },
+        {
+          "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+          "name": "Once Upon a Time in... Hollywood",
+          "type": null,
+          "detail": "2019, Quentin Tarantino",
+          "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+          "score": 0.8578946048618454
+        },
+        {
+          "id": "85C499B8-4E79-49C0-90F0-19C33C1D32D8",
+          "name": "Booksmart",
+          "type": null,
+          "detail": "2019, Olivia Wilde",
+          "image": "https://images.qloo.com/i/85C499B8-4E79-49C0-90F0-19C33C1D32D8-420x-auto.jpg",
+          "score": 0.851763040800157
+        },
+        {
+          "id": "969911E8-7092-43D9-8C7D-C7547EAE3C00",
+          "name": "Little Women",
+          "type": null,
+          "detail": "2019, Greta Gerwig",
+          "image": "https://images.qloo.com/i/969911E8-7092-43D9-8C7D-C7547EAE3C00-420x-auto.jpg",
+          "score": 0.8448565283008331
+        },
+        {
+          "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+          "name": "Crazy Rich Asians",
+          "type": null,
+          "detail": "2018, Jon M. Chu",
+          "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+          "score": 0.8283586061169931
+        }
+      ]
+    },
+    "urn:audience:hobbies_and_interests:architecture": {
+      "tv_show": [
+        {
+          "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+          "name": "Black Mirror",
+          "type": null,
+          "detail": "2011",
+          "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+          "score": 0.9474035334291568
+        },
+        {
+          "id": "3194D810-FE41-4AFD-81E7-12B8D46E2320",
+          "name": "Electric Dreams",
+          "type": null,
+          "detail": "2017,2018",
+          "image": "https://images.qloo.com/i/3194D810-FE41-4AFD-81E7-12B8D46E2320-420x-auto.jpg",
+          "score": 0.9397307709017111
+        },
+        {
+          "id": "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+          "name": "UnREAL",
+          "type": null,
+          "detail": "2015,2018",
+          "image": "https://images.qloo.com/i/9A27891E-DE13-4E95-8318-F4EB6E6E661E-420x-auto.jpg",
+          "score": 0.9340225090046894
+        },
+        {
+          "id": "00813981-56C8-4117-9DC6-71BE2DB73348",
+          "name": "Easy",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/00813981-56C8-4117-9DC6-71BE2DB73348-420x-auto.jpg",
+          "score": 0.9248173288218454
+        },
+        {
+          "id": "DD6C52A9-9FAA-429B-8914-8785B856E330",
+          "name": "Queer Eye",
+          "type": null,
+          "detail": "2018,2026",
+          "image": "https://images.qloo.com/i/DD6C52A9-9FAA-429B-8914-8785B856E330-420x-auto.jpg",
+          "score": 0.9238380634200066
+        },
+        {
+          "id": "331E64A9-740C-4583-8681-91209C0FB25F",
+          "name": "Search Party",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/331E64A9-740C-4583-8681-91209C0FB25F-420x-auto.jpg",
+          "score": 0.9209911504853671
+        },
+        {
+          "id": "B737F427-76B5-4631-8063-6BBDABD8DBE5",
+          "name": "Better Things",
+          "type": null,
+          "detail": "2016,2022",
+          "image": "https://images.qloo.com/i/B737F427-76B5-4631-8063-6BBDABD8DBE5-420x-auto.jpg",
+          "score": 0.9208374936464929
+        },
+        {
+          "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+          "name": "A Murder at the End of the World",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+          "score": 0.92047884673841
+        },
+        {
+          "id": "4EFAD5E0-1614-4D4E-B9A4-293684311367",
+          "name": "High Maintenance",
+          "type": null,
+          "detail": "2012,2015",
+          "image": "https://images.qloo.com/i/4EFAD5E0-1614-4D4E-B9A4-293684311367-420x-auto.jpg",
+          "score": 0.920263819899773
+        },
+        {
+          "id": "216DCFCE-7F8D-4134-9ED4-CFA27248F7E4",
+          "name": "Queer Eye: We're in Japan!",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/216DCFCE-7F8D-4134-9ED4-CFA27248F7E4-420x-auto.jpg",
+          "score": 0.9193176375177544
+        },
+        {
+          "id": "5521C951-41EB-475A-B8BD-034A4B5F8C8A",
+          "name": "Homecoming",
+          "type": null,
+          "detail": "2018,2020",
+          "image": "https://images.qloo.com/i/5521C951-41EB-475A-B8BD-034A4B5F8C8A-420x-auto.jpg",
+          "score": 0.9177896581940096
+        },
+        {
+          "id": "1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D",
+          "name": "Master of None",
+          "type": null,
+          "detail": "2015,2021",
+          "image": "https://images.qloo.com/i/1E54F8A3-4A4D-4D55-8E85-C2DCD9C2E90D-420x-auto.jpg",
+          "score": 0.9174175462157768
+        },
+        {
+          "id": "A7C34CD5-C1D3-486F-948F-1631C08E15E4",
+          "name": "Good Behavior",
+          "type": null,
+          "detail": "2016,2017",
+          "image": "https://images.qloo.com/i/A7C34CD5-C1D3-486F-948F-1631C08E15E4-420x-auto.jpg",
+          "score": 0.9167032932540846
+        },
+        {
+          "id": "624FEB10-698C-4A0F-A61C-D7548B6BB932",
+          "name": "Maniac",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/624FEB10-698C-4A0F-A61C-D7548B6BB932-420x-auto.jpg",
+          "score": 0.9162372175279621
+        },
+        {
+          "id": "08306FE7-8C04-447E-BB07-5B819083EBC5",
+          "name": "Mozart in the Jungle",
+          "type": null,
+          "detail": "2014,2018",
+          "image": "https://images.qloo.com/i/08306FE7-8C04-447E-BB07-5B819083EBC5-420x-auto.jpg",
+          "score": 0.9138770344526459
+        },
+        {
+          "id": "427C074F-396A-4218-9809-D67976960A65",
+          "name": "Anthony Bourdain: Parts Unknown",
+          "type": null,
+          "detail": "2013,2018",
+          "image": "https://images.qloo.com/i/427C074F-396A-4218-9809-D67976960A65-420x-auto.jpg",
+          "score": 0.9135218809119523
+        },
+        {
+          "id": "9740A06C-A781-4F30-A3E0-856DAB93E3A8",
+          "name": "Russian Doll",
+          "type": null,
+          "detail": "2019,2022",
+          "image": "https://images.qloo.com/i/9740A06C-A781-4F30-A3E0-856DAB93E3A8-420x-auto.jpg",
+          "score": 0.9128491710153248
+        },
+        {
+          "id": "2FF66937-26D4-4533-AF23-EC0C5BCF4CA0",
+          "name": "Killing Eve",
+          "type": null,
+          "detail": "2018,2022",
+          "image": "https://images.qloo.com/i/2FF66937-26D4-4533-AF23-EC0C5BCF4CA0-420x-auto.jpg",
+          "score": 0.9113886593563738
+        },
+        {
+          "id": "CA6AD86F-18EF-45B3-BFC4-C890A4094EA9",
+          "name": "Limetown",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/CA6AD86F-18EF-45B3-BFC4-C890A4094EA9-420x-auto.jpg",
+          "score": 0.9112050753318036
+        },
+        {
+          "id": "D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D",
+          "name": "Catastrophe",
+          "type": null,
+          "detail": "2015,2019",
+          "image": "https://images.qloo.com/i/D5AC77DE-D14F-41ED-82D1-05A6F0D5B05D-420x-auto.jpg",
+          "score": 0.9107373972795444
+        }
+      ],
+      "movie": [
+        {
+          "id": "4BE414CF-375F-4566-AA66-9AC6150A6B7F",
+          "name": "Lady Bird",
+          "type": null,
+          "detail": "2017, Greta Gerwig",
+          "image": "https://images.qloo.com/i/4BE414CF-375F-4566-AA66-9AC6150A6B7F-420x-auto.jpg",
+          "score": 0.9070648769398747
+        },
+        {
+          "id": "33388BBB-6625-4EF5-9BA1-75A78331C77D",
+          "name": "Call Me by Your Name",
+          "type": null,
+          "detail": "2017, Luca Guadagnino",
+          "image": "https://images.qloo.com/i/33388BBB-6625-4EF5-9BA1-75A78331C77D-420x-auto.jpg",
+          "score": 0.8887608937567567
+        },
+        {
+          "id": "2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9",
+          "name": "The Favourite",
+          "type": null,
+          "detail": "2018, Yorgos Lanthimos",
+          "image": "https://images.qloo.com/i/2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9-420x-auto.jpg",
+          "score": 0.8873819087294291
+        },
+        {
+          "id": "FB052F84-01CF-48BB-A30A-51C45F183777",
+          "name": "Roma",
+          "type": null,
+          "detail": "2018, Alfonso Cuarón",
+          "image": "https://images.qloo.com/i/FB052F84-01CF-48BB-A30A-51C45F183777-420x-auto.jpg",
+          "score": 0.8825683837216939
+        },
+        {
+          "id": "60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25",
+          "name": "Sorry to Bother You",
+          "type": null,
+          "detail": "2018, Boots Riley",
+          "image": "https://images.qloo.com/i/60CCC3AF-D51F-4EFD-9DE4-01340FDEAB25-420x-auto.jpg",
+          "score": 0.8783391961157838
+        },
+        {
+          "id": "2955F3C4-36AB-49F3-A818-3597F35EF46C",
+          "name": "Moonlight",
+          "type": null,
+          "detail": "2016, Barry Jenkins",
+          "image": "https://images.qloo.com/i/2955F3C4-36AB-49F3-A818-3597F35EF46C-420x-auto.jpg",
+          "score": 0.8767655613994269
+        },
+        {
+          "id": "4BF6B94B-B7D3-4815-9EFE-16A33697B38C",
+          "name": "Sing Street",
+          "type": null,
+          "detail": "2016, John Carney",
+          "image": "https://images.qloo.com/i/4BF6B94B-B7D3-4815-9EFE-16A33697B38C-420x-auto.jpg",
+          "score": 0.8738236510741855
+        },
+        {
+          "id": "4EA8BFC4-41F1-4E1C-B827-EDACA546304F",
+          "name": "Youth",
+          "type": null,
+          "detail": "2015, Paolo Sorrentino",
+          "image": "https://images.qloo.com/i/4EA8BFC4-41F1-4E1C-B827-EDACA546304F-420x-auto.jpg",
+          "score": 0.8719735040813632
+        },
+        {
+          "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+          "name": "Enemy",
+          "type": null,
+          "detail": "2013, Denis Villeneuve",
+          "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+          "score": 0.8699977964680612
+        },
+        {
+          "id": "969911E8-7092-43D9-8C7D-C7547EAE3C00",
+          "name": "Little Women",
+          "type": null,
+          "detail": "2019, Greta Gerwig",
+          "image": "https://images.qloo.com/i/969911E8-7092-43D9-8C7D-C7547EAE3C00-420x-auto.jpg",
+          "score": 0.8692650088084908
+        },
+        {
+          "id": "DE02F90E-EF5E-4860-9D19-18BCFCD47F38",
+          "name": "Pain and Glory",
+          "type": null,
+          "detail": "2019, Pedro Almodóvar",
+          "image": "https://images.qloo.com/i/DE02F90E-EF5E-4860-9D19-18BCFCD47F38-420x-auto.jpg",
+          "score": 0.8681494836000936
+        },
+        {
+          "id": "9C0F7C3B-D081-4440-876E-0F742D29C976",
+          "name": "Okja",
+          "type": null,
+          "detail": "2017, Bong Joon Ho",
+          "image": "https://images.qloo.com/i/9C0F7C3B-D081-4440-876E-0F742D29C976-420x-auto.jpg",
+          "score": 0.8676255594590306
+        },
+        {
+          "id": "24A2FD28-FC76-4CCD-AC43-A015B539DBAA",
+          "name": "Uncut Gems",
+          "type": null,
+          "detail": "2019",
+          "image": "https://images.qloo.com/i/24A2FD28-FC76-4CCD-AC43-A015B539DBAA-420x-auto.jpg",
+          "score": 0.8666474572418643
+        },
+        {
+          "id": "4AA56534-89A0-474F-A6C7-ADE835BFC60B",
+          "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "type": null,
+          "detail": "2014, Alejandro G. Iñárritu",
+          "image": "https://images.qloo.com/i/4AA56534-89A0-474F-A6C7-ADE835BFC60B-420x-auto.jpg",
+          "score": 0.8647679346046936
+        },
+        {
+          "id": "AB64C7F6-60F4-4C15-A0F8-8E2D59174595",
+          "name": "The Irishman",
+          "type": null,
+          "detail": "2019, Martin Scorsese",
+          "image": "https://images.qloo.com/i/AB64C7F6-60F4-4C15-A0F8-8E2D59174595-420x-auto.jpg",
+          "score": 0.8622444472538664
+        },
+        {
+          "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+          "name": "Once Upon a Time in... Hollywood",
+          "type": null,
+          "detail": "2019, Quentin Tarantino",
+          "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+          "score": 0.8613895854686932
+        },
+        {
+          "id": "5711127E-4A9A-4440-8234-8E536E8A1564",
+          "name": "Annihilation",
+          "type": null,
+          "detail": "2018, Alex Garland",
+          "image": "https://images.qloo.com/i/5711127E-4A9A-4440-8234-8E536E8A1564-420x-auto.jpg",
+          "score": 0.860466908376379
+        },
+        {
+          "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+          "name": "Crazy Rich Asians",
+          "type": null,
+          "detail": "2018, Jon M. Chu",
+          "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+          "score": 0.8583707652021245
+        },
+        {
+          "id": "85C499B8-4E79-49C0-90F0-19C33C1D32D8",
+          "name": "Booksmart",
+          "type": null,
+          "detail": "2019, Olivia Wilde",
+          "image": "https://images.qloo.com/i/85C499B8-4E79-49C0-90F0-19C33C1D32D8-420x-auto.jpg",
+          "score": 0.8568802057783776
+        },
+        {
+          "id": "FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B",
+          "name": "Nocturnal Animals",
+          "type": null,
+          "detail": "2016, Tom Ford",
+          "image": "https://images.qloo.com/i/FA8F9289-2B06-4ED3-9E3E-A0DBE295F86B-420x-auto.jpg",
+          "score": 0.849555067140285
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "status": "complete",
+    "winner": null,
+    "rows": [
+      {
+        "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "name": "Blue Bottle Coffee",
+        "domains": {
+          "tv_show": 0.3902255639097744,
+          "movie": 0.40150375939849625
+        },
+        "value": 0.39586466165413536,
+        "halves": [
+          0.5212121212121212,
+          0.27575757575757576
+        ]
+      },
+      {
+        "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "domains": {
+          "tv_show": 0.4345864661654135,
+          "movie": 0.3112781954887218
+        },
+        "value": 0.37293233082706767,
+        "halves": [
+          0.2545454545454545,
+          0.5151515151515151
+        ]
+      },
+      {
+        "id": "urn:audience:hobbies_and_interests:architecture",
+        "name": "Architecture (hobby audience)",
+        "domains": {
+          "tv_show": 0.10526315789473684,
+          "movie": 0.10751879699248118
+        },
+        "value": 0.10639097744360901,
+        "halves": [
+          0.08484848484848484,
+          0.11212121212121212
+        ]
+      }
+    ],
+    "domains": [
+      "tv_show",
+      "movie"
+    ],
+    "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+    "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+  },
+  "warnings": [],
+  "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance.",
+  "signal_parameters": {
+    "signals": {
+      "signal.interests.entities": [
+        "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+      ],
+      "signal.demographics.audiences": [
+        "urn:audience:hobbies_and_interests:architecture"
+      ]
+    },
+    "weights": "Qloo defaults; no custom family weights"
+  }
+}

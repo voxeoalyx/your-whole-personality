@@ -1,0 +1,19 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+winter_park_place_tags,Winter Park,place_tags,profile,winter_park_place_tags.a1.json,ok,200,20,20,20,{}
+winter_park_brands,Winter Park,brands,profile,winter_park_brands.a1.json,ok,200,20,20,20,{}
+winter_park_destinations,Winter Park,destinations,profile,winter_park_destinations.a1.json,ok,200,20,20,20,{}
+pine_hills_place_tags,Pine Hills,place_tags,profile,pine_hills_place_tags.a1.json,ok,200,20,20,20,{}
+pine_hills_brands,Pine Hills,brands,profile,pine_hills_brands.a1.json,ok,200,20,20,20,{}
+pine_hills_destinations,Pine Hills,destinations,profile,pine_hills_destinations.a1.json,ok,200,20,20,20,{}
+college_park_place_tags,College Park,place_tags,profile,college_park_place_tags.a1.json,ok,200,20,20,20,{}
+college_park_brands,College Park,brands,profile,college_park_brands.a1.json,ok,200,20,20,20,{}
+college_park_destinations,College Park,destinations,profile,college_park_destinations.a1.json,ok,200,20,20,20,{}
+orlando_place_tags,Orlando,place_tags,profile,orlando_place_tags.a1.json,ok,200,20,20,20,{}
+orlando_brands,Orlando,brands,profile,orlando_brands.a1.json,ok,200,20,20,20,{}
+orlando_destinations,Orlando,destinations,profile,orlando_destinations.a1.json,ok,200,0,0,0,{}
+no_location_place_tags,No location,place_tags,profile,no_location_place_tags.a1.json,ok,200,20,0,20,{}
+no_location_brands,No location,brands,profile,no_location_brands.a1.json,failed,400,0,0,0,{}
+no_location_destinations,No location,destinations,profile,no_location_destinations.a1.json,failed,400,0,0,0,{}
+winter_park_repeat_place_tags,Winter Park,place_tags,profile,winter_park_repeat_place_tags.a1.json,ok,200,20,20,20,{}
+winter_park_repeat_brands,Winter Park,brands,profile,winter_park_repeat_brands.a1.json,ok,200,20,20,20,{}
+winter_park_repeat_destinations,Winter Park,destinations,profile,winter_park_repeat_destinations.a1.json,ok,200,20,20,20,{}

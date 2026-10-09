@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:01:14.771609+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.344,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.query": "Victorian",
+    "take": "50"
+  },
+  "raw_file": "victorian.a1.json",
+  "request_sha256": "9c7a9cf17fda9af70511507b628ee598db559969193b5a88b85bcc68e097a1d1",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:16 GMT"
+  },
+  "response_sha256": "10de9993887928b2d447e704d2a722cd8374d487f7f914447db4c0792de7b08b",
+  "spec": {
+    "endpoint": "/v2/tags",
+    "id": "victorian",
+    "kind": "discovery",
+    "params": {
+      "filter.query": "Victorian",
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.query=Victorian&take=50"
+}

@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T23:03:35.769866+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.625,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:place",
+    "signal.interests.entities": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+    "take": "10"
+  },
+  "raw_file": "gamble_place.a1.json",
+  "request_sha256": "c26039699a9ddd63045c0665400d4a5dd5afb1bb78757c20d083165fe3a58a83",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:03:37 GMT"
+  },
+  "response_sha256": "7cf16fd215c07eedd733a6b2b9c75eddc3b643a4bf3af03b78810fd4741d784c",
+  "spec": {
+    "domain": "place",
+    "endpoint": "/v2/insights",
+    "id": "gamble_place",
+    "input": "gamble",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:place",
+      "signal.interests.entities": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Aplace&signal.interests.entities=C0754A81-4B4D-446D-A5C1-03D41C3AF7A8&take=10"
+}

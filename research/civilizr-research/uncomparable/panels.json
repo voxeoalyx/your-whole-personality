@@ -1,0 +1,165 @@
+{
+  "frozen_at": "2026-10-07T23:05:02.524Z",
+  "selection": "Exploratory output-selected: all 12 home-goods results for each of Wright and Farnsworth, union sorted by UUID; places union of first five results for Farnsworth, Gamble and Eames. No exclusions by score.",
+  "brands": [
+    {
+      "id": "02610282-EFD6-4962-920F-49312B296A93",
+      "name": "MUUTO"
+    },
+    {
+      "id": "12EA3AB3-21B2-4A20-9F0D-56C96E23FAC8",
+      "name": "Sleep Number"
+    },
+    {
+      "id": "12FC33E1-45BD-40EB-9FDD-9E927CA7EDA0",
+      "name": "Fritz Hansen"
+    },
+    {
+      "id": "15A62EDC-D915-4403-8527-3DAE26FCC4AE",
+      "name": "Philips Hue"
+    },
+    {
+      "id": "1DDDFC7F-5407-4602-A3B4-FFFFC17B2419",
+      "name": "Casper"
+    },
+    {
+      "id": "24508749-4FDB-4496-A991-EB3AED755C3F",
+      "name": "Rachio"
+    },
+    {
+      "id": "2D73F204-0AE7-48E5-AC4C-FB79A3D5409F",
+      "name": "Foscarini"
+    },
+    {
+      "id": "41B39945-7C8E-4266-9911-3E9EA2586D5C",
+      "name": "Hem"
+    },
+    {
+      "id": "50330837-3BAD-4ACB-AC3E-4B8810F48E11",
+      "name": "Tom Dixon"
+    },
+    {
+      "id": "520AD5EE-A663-4DB0-821F-2118E401F7AC",
+      "name": "Herman Miller"
+    },
+    {
+      "id": "7579B79F-9961-4A0F-A7AD-3BF461137110",
+      "name": "Eames Office"
+    },
+    {
+      "id": "81EC484E-33D2-4247-B899-EB76B4439D4D",
+      "name": "Eight Sleep"
+    },
+    {
+      "id": "9FDEDD5B-6D0E-4375-A6E2-F0C933089C82",
+      "name": "Moooi"
+    },
+    {
+      "id": "A22A05D2-B720-4D3F-9CBC-245B55B970E6",
+      "name": "KNOLL"
+    },
+    {
+      "id": "BBE036A6-555F-4094-B78F-FA2302E2D80C",
+      "name": "Whirlpool Corporation"
+    },
+    {
+      "id": "C1BFB5C0-CB34-41CB-9771-43D7D5EF3A6D",
+      "name": "Poltrona Frau"
+    },
+    {
+      "id": "CA45269A-77BE-4F89-A882-F219A7941A13",
+      "name": "VITRA"
+    },
+    {
+      "id": "CEEE576F-EDE2-4456-BB20-690DED5F16CE",
+      "name": "Hoover"
+    },
+    {
+      "id": "D2A0CB9E-F2A7-4F1A-B977-B8658E5862FD",
+      "name": "August Home"
+    },
+    {
+      "id": "D38553FE-71D4-4C1F-AB05-B9DCD1329E8E",
+      "name": "Arper"
+    },
+    {
+      "id": "E7953F4B-B06B-4DC0-948B-FE79E12F2868",
+      "name": "GE Appliances"
+    },
+    {
+      "id": "EA3475FA-2F43-4622-B0AE-ECC8D2684820",
+      "name": "B&B Italia"
+    },
+    {
+      "id": "F29AA197-30CA-431D-A533-BFCFFFCCEB15",
+      "name": "Fab"
+    },
+    {
+      "id": "FCBF3ABA-5C8C-46A5-AD52-FA1B46DB1F37",
+      "name": "Hefty"
+    }
+  ],
+  "places": [
+    {
+      "id": "36DBE6E7-2DCC-46F8-8358-3FAA0EBFC502",
+      "name": "S.R. Crown Hall (IIT)"
+    },
+    {
+      "id": "4367F096-2E61-4438-9700-FE551B7E2636",
+      "name": "ArtCenter College of Design South Campus"
+    },
+    {
+      "id": "476D8BBC-2E0E-4E3A-9825-A5670050A9EE",
+      "name": "David Kordansky Gallery"
+    },
+    {
+      "id": "4C02C569-F653-4252-9FCC-850EADCEFD7F",
+      "name": "Cheim & Read"
+    },
+    {
+      "id": "50B73768-435F-4DB0-B4A0-EA3FDFEDAF97",
+      "name": "Wrightwood 659"
+    },
+    {
+      "id": "5FD69C52-6FE4-4521-80AB-8190C1DA38A7",
+      "name": "McCormick Tribune Campus Center"
+    },
+    {
+      "id": "801EADAD-C33C-44DE-8499-21D6E1CD4C79",
+      "name": "Friedman Benda"
+    },
+    {
+      "id": "86592336-FD51-4FAD-A92B-49F4533EBD56",
+      "name": "303 Gallery"
+    },
+    {
+      "id": "8CD37106-3602-404C-BAD5-E989B7F6CA8A",
+      "name": "Regen Projects"
+    },
+    {
+      "id": "921207FB-C3A2-4F04-8EDC-E5D7774D6045",
+      "name": "The Bunny Museum"
+    },
+    {
+      "id": "B82C8539-99CD-4CF0-B59D-AE46B5A23ADB",
+      "name": "The Huntington Store"
+    },
+    {
+      "id": "BCCA7BF2-7377-435E-9D34-C5CBC1CD6987",
+      "name": "Illinois Institute of Technology"
+    },
+    {
+      "id": "C94B30D2-07E5-47C9-9CEC-EE871D1EEC69",
+      "name": "All Saints Episcopal Church"
+    },
+    {
+      "id": "C9F2C06E-9A4F-4D83-A741-A246B28D339E",
+      "name": "ArtCenter College of Design"
+    },
+    {
+      "id": "E187CCD1-CFE4-41CF-803E-60A8C265BECB",
+      "name": "Museum of Contemporary Photography"
+    }
+  ],
+  "limitations": "Conditioned on discovery outputs; no independent panel validation. Includes smart home and appliances. No claim of representative brand coverage."
+}

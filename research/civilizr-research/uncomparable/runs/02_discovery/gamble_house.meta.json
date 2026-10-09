@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-07T23:01:06.302874+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.5,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Gamble House",
+    "take": "10",
+    "types": "urn:entity:place"
+  },
+  "raw_file": "gamble_house.a1.json",
+  "request_sha256": "59b290a55e73ff99667971f8ddf194a2c75bf8c08e3125e7b8f2aa2bd2f1bf0f",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:07 GMT"
+  },
+  "response_sha256": "c79bead59716c1951dd010c353afe88a74f385032507819e5da46e2ceffad764",
+  "spec": {
+    "endpoint": "/search",
+    "id": "gamble_house",
+    "kind": "discovery",
+    "params": {
+      "query": "Gamble House",
+      "take": 10,
+      "types": "urn:entity:place"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Gamble+House&take=10&types=urn%3Aentity%3Aplace"
+}

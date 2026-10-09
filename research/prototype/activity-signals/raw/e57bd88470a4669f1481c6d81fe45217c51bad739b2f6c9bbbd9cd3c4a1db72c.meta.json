@@ -1,0 +1,13 @@
+{
+  "at": 1791470997.3436668,
+  "request_hash": "e57bd88470a4669f1481c6d81fe45217c51bad739b2f6c9bbbd9cd3c4a1db72c",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.tags": "urn:tag:genre:music:yoga",
+    "take": "20"
+  },
+  "response_sha256": "e7acede8600e35a046a542e13fa9c36054d4785414b478daf91ef1a037074bcf"
+}

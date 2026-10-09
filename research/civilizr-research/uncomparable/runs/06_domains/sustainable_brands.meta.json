@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T23:03:30.597427+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.875,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.tags": "urn:tag:decor:qloo:sustainable_architecture",
+    "take": "10"
+  },
+  "raw_file": "sustainable_brands.a1.json",
+  "request_sha256": "4fea9b629d93945b6da35ef7f04115112d6689ec3abde9dccd3876128515825e",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:03:32 GMT"
+  },
+  "response_sha256": "e0a4c69fd9499c14b3f0dcaabc2b7e4fc52896889538d526bb7f8cd271f7b94c",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "sustainable_brands",
+    "input": "sustainable",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.tags": "urn:tag:decor:qloo:sustainable_architecture",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.tags=urn%3Atag%3Adecor%3Aqloo%3Asustainable_architecture&take=10"
+}

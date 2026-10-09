@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T18:41:40.975202+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.547,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.type": "urn:tag",
+    "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+    "take": "20"
+  },
+  "raw_file": "winter_park_repeat_place_tags.a1.json",
+  "request_sha256": "b6f2ac6ddc5e0e7ecb564d27164461fde6a0261e0fba4f4343a3ab093c415938",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:41:42 GMT"
+  },
+  "response_sha256": "d0eafb0558df3fd8ad4f0705d3607318b2d3680e7128166640aeeaecf1ba9b88",
+  "spec": {
+    "area": "Winter Park",
+    "dimension": "place_tags",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "winter_park_repeat_place_tags",
+    "kind": "profile",
+    "params": {
+      "filter.parents.types": "urn:entity:place",
+      "filter.type": "urn:tag",
+      "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+      "take": 20
+    },
+    "role": "repeat"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.parents.types=urn%3Aentity%3Aplace&filter.type=urn%3Atag&signal.location=2DA566F2-033C-4B97-BC8C-3322221C68DE&take=20"
+}

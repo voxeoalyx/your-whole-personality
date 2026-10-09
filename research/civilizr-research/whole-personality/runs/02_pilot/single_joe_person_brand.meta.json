@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-08T11:06:27.640467+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "C0E17E3C-A232-466D-A741-E18A6E978C88",
+    "take": "10"
+  },
+  "raw_file": "single_joe_person_brand.a1.json",
+  "request_sha256": "16ada91ad41576ed53870f3964a6d95fa510acce835031dd810ade916496a7c4",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:06:27 GMT"
+  },
+  "response_sha256": "76f4191b3b457c1ae497b95e44a82ae89f5df6864fb824ca4122450199b2ec08",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "single_joe_person_brand",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": [
+        "C0E17E3C-A232-466D-A741-E18A6E978C88"
+      ],
+      "take": 10
+    },
+    "seed_keys": [
+      "joe_person"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=C0E17E3C-A232-466D-A741-E18A6E978C88&take=10"
+}

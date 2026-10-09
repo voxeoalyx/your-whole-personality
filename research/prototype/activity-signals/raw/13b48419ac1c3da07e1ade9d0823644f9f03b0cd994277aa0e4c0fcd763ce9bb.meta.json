@@ -1,0 +1,13 @@
+{
+  "at": 1791470989.0688043,
+  "request_hash": "13b48419ac1c3da07e1ade9d0823644f9f03b0cd994277aa0e4c0fcd763ce9bb",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.tags": "urn:tag:genre:media:running",
+    "take": "20"
+  },
+  "response_sha256": "2358b54d1d5f09bd9f01b8819b2e6d47030f468f6a5193e744e857a51be984a4"
+}

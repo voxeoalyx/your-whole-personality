@@ -1,0 +1,14 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+mills_50_compact_alias,Mills 50,,lookup,mills_50_compact_alias.a1.json,ok,200,0,0,0,{}
+mills_50_place_anchor,Mills 50,,lookup,mills_50_place_anchor.a1.json,ok,200,5,0,5,{}
+winter_park_explanation_location_only,Winter Park,,explainability,winter_park_explanation_location_only.a1.json,ok,200,20,20,20,{}
+winter_park_explanation_entity_seeded,Winter Park,,explainability_seeded,winter_park_explanation_entity_seeded.a1.json,ok,200,5,5,5,"{""explainability"":{""signal.interests.entities"":{""effect_on_all_recs"":[{""avg_score"":0.5597879464136161,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.44021205358638393,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}],""effect_on_top10_recs"":[{""avg_score"":0.5597879464136161,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.44021205358638393,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}],""effect_on_top3_recs"":[{""avg_score"":0.5665097380841241,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.433490261915876,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}],""effect_on_top5_recs"":[{""avg_score"":0.5597879464136161,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.44021205358638393,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}]}}}"
+brand_trending,,,global_trend,brand_trending.a1.json,failed,404,0,0,0,{}
+rifle_paper_trend,,,global_trend,rifle_paper_trend.a1.json,failed,404,0,0,0,{}
+rifle_paper_trend_v2,,,global_trend,rifle_paper_trend_v2.a1.json,ok,200,0,0,0,{}
+food_dining_heatmap,,food_dining,heatmap,food_dining_heatmap.a1.json,ok,200,1522,1522,1522,{}
+coffee_cafes_heatmap,,coffee_cafes,heatmap,coffee_cafes_heatmap.a1.json,ok,200,1384,1384,1384,{}
+fitness_heatmap,,fitness,heatmap,fitness_heatmap.a1.json,ok,200,1150,1150,1150,{}
+museums_heatmap,,museums,heatmap,museums_heatmap.a1.json,ok,200,1307,1307,1307,{}
+nightlife_bars_heatmap,,nightlife_bars,heatmap,nightlife_bars_heatmap.a1.json,ok,200,1484,1484,1484,{}
+coffee_neighborhood_heatmap,,coffee_cafes,heatmap_boundary_probe,coffee_neighborhood_heatmap.a1.json,failed,400,0,0,0,{}

@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-07T18:36:44.355069+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.391,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.query": "coffee",
+    "page": "1",
+    "take": "20"
+  },
+  "raw_file": "..\\03-discovery\\coffee_taxonomy.a1.json",
+  "request_sha256": "9f27a3097ac07d2fa7603319c90f96bcf600733210196c0720fe2307614ce4a7",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:36:45 GMT"
+  },
+  "response_sha256": "341d58396eb41254b6b5531e512f8123047e340241edefd274cca3d3c03a7afd",
+  "spec": {
+    "id": "r3_coffee_taxonomy",
+    "kind": "taxonomy",
+    "dimension": "coffee",
+    "endpoint": "/v2/tags",
+    "params": {
+      "filter.parents.types": "urn:entity:place",
+      "filter.query": "coffee",
+      "take": 20,
+      "page": 1
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.parents.types=urn%3Aentity%3Aplace&filter.query=coffee&page=1&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\03-discovery\\coffee_taxonomy.meta.json"
+}

@@ -1,0 +1,13 @@
+{
+  "at": 1791471362.435398,
+  "request_hash": "c071a8a7b303ea03cfde2ecf9bd590c759488671c6866c22eb31b1250a204ddf",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:architecture",
+    "take": "20"
+  },
+  "response_sha256": "0aabb88300eacc2ab2c62cc80d2d98b6a47f0165125217f0295a57679ea22b3e"
+}

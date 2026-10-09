@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fallingwater",
+    "url": "https://fallingwater.org/history/about-fallingwater/",
+    "status": 200,
+    "at": "2026-10-07T22:55:10.134Z",
+    "sha256": "d55a1cd9817c168847e66c733d0058f1ab1970e147e0e2c21b2990bfb9f7d339"
+  },
+  {
+    "id": "farnsworth",
+    "url": "https://edithfarnsworthhouse.org/history/",
+    "status": 200,
+    "at": "2026-10-07T22:55:23.184Z",
+    "sha256": "40a8497dc59d5cb84b451125f0ece904d797a5b9cebd0f45f687fe375784ebaa"
+  },
+  {
+    "id": "gamble",
+    "url": "https://gamblehouse.org/history/",
+    "status": 404,
+    "at": "2026-10-07T22:55:24.684Z",
+    "sha256": "7e438374b484a57e7a8db1c4fcc9a331aff468384447d3224b976184bfa632b0"
+  },
+  {
+    "id": "eames",
+    "url": "https://eamesfoundation.org/work/case-study-house-8/",
+    "status": 200,
+    "at": "2026-10-07T22:55:24.864Z",
+    "sha256": "6bf40dd933487c525f67000810496dbca15e023c33c65fb49d663eb09c4a2675"
+  },
+  {
+    "id": "jacobs",
+    "url": "https://www.loc.gov/item/2016631046/",
+    "status": 403,
+    "at": "2026-10-07T22:55:24.988Z",
+    "sha256": "c031d64531dcdf1d9ef07a29e131a5f0e35ced2cca43aa3e11b352d9a46e962a"
+  },
+  {
+    "id": "douglass",
+    "url": "https://www.nps.gov/frdo/learn/historyculture/places.htm",
+    "status": 200,
+    "at": "2026-10-07T22:55:25.132Z",
+    "sha256": "1d86e46fa3b380e5d8eb9fdd7987c4ed7daedcce66f02b9699373bb35c1db7bc"
+  }
+]

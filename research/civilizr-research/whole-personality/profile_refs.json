@@ -1,0 +1,246 @@
+{
+  "p01": {
+    "brand": "03_gate/p01_brand",
+    "tv_show": "03_gate/p01_tv_show"
+  },
+  "p02": {
+    "brand": "03_gate/p02_brand",
+    "tv_show": "03_gate/p02_tv_show"
+  },
+  "demo_person": {
+    "brand": "03_gate/demo_person_brand",
+    "tv_show": "03_gate/demo_person_tv_show"
+  },
+  "base_rb": {
+    "brand": "03_gate/base_rb_brand",
+    "tv_show": "03_gate/base_rb_tv_show"
+  },
+  "single_radiohead": {
+    "brand": "03_gate/single_radiohead_brand",
+    "tv_show": "03_gate/single_radiohead_tv_show"
+  },
+  "single_blue_bottle": {
+    "brand": "03_gate/single_blue_bottle_brand",
+    "tv_show": "03_gate/single_blue_bottle_tv_show"
+  },
+  "single_severance": {
+    "brand": "03_gate/single_severance_brand",
+    "tv_show": "03_gate/single_severance_tv_show"
+  },
+  "single_joe_person": {
+    "brand": "03_gate/single_joe_person_brand",
+    "tv_show": "03_gate/single_joe_person_tv_show"
+  },
+  "single_rogan": {
+    "brand": "03_gate/single_rogan_brand",
+    "tv_show": "03_gate/single_rogan_tv_show"
+  },
+  "p03": {
+    "brand": "04_matrix/p03_brand",
+    "tv_show": "04_matrix/p03_tv_show"
+  },
+  "p04": {
+    "brand": "04_matrix/p04_brand",
+    "tv_show": "04_matrix/p04_tv_show"
+  },
+  "p05": {
+    "brand": "04_matrix/p05_brand",
+    "tv_show": "04_matrix/p05_tv_show"
+  },
+  "p06": {
+    "brand": "04_matrix/p06_brand",
+    "tv_show": "04_matrix/p06_tv_show"
+  },
+  "p07": {
+    "brand": "04_matrix/p07_brand",
+    "tv_show": "04_matrix/p07_tv_show"
+  },
+  "p08": {
+    "brand": "04_matrix/p08_brand",
+    "tv_show": "04_matrix/p08_tv_show"
+  },
+  "p09": {
+    "brand": "04_matrix/p09_brand",
+    "tv_show": "04_matrix/p09_tv_show"
+  },
+  "p10": {
+    "brand": "04_matrix/p10_brand",
+    "tv_show": "04_matrix/p10_tv_show"
+  },
+  "p11": {
+    "brand": "04_matrix/p11_brand",
+    "tv_show": "04_matrix/p11_tv_show"
+  },
+  "p12": {
+    "brand": "04_matrix/p12_brand",
+    "tv_show": "04_matrix/p12_tv_show"
+  },
+  "single_huberman": {
+    "brand": "04_matrix/single_huberman_brand",
+    "tv_show": "04_matrix/single_huberman_tv_show"
+  },
+  "single_taylor": {
+    "brand": "04_matrix/single_taylor_brand",
+    "tv_show": "04_matrix/single_taylor_tv_show"
+  },
+  "single_starbucks": {
+    "brand": "04_matrix/single_starbucks_brand",
+    "tv_show": "04_matrix/single_starbucks_tv_show"
+  },
+  "single_friends": {
+    "brand": "04_matrix/single_friends_brand",
+    "tv_show": "04_matrix/single_friends_tv_show"
+  },
+  "single_metallica": {
+    "brand": "04_matrix/single_metallica_brand",
+    "tv_show": "04_matrix/single_metallica_tv_show"
+  },
+  "single_nike": {
+    "brand": "04_matrix/single_nike_brand",
+    "tv_show": "04_matrix/single_nike_tv_show"
+  },
+  "single_elden_ring": {
+    "brand": "04_matrix/single_elden_ring_brand",
+    "tv_show": "04_matrix/single_elden_ring_tv_show"
+  },
+  "single_animal_crossing": {
+    "brand": "04_matrix/single_animal_crossing_brand",
+    "tv_show": "04_matrix/single_animal_crossing_tv_show"
+  },
+  "single_patagonia": {
+    "brand": "04_matrix/single_patagonia_brand",
+    "tv_show": "04_matrix/single_patagonia_tv_show"
+  },
+  "single_lululemon": {
+    "brand": "04_matrix/single_lululemon_brand",
+    "tv_show": "04_matrix/single_lululemon_tv_show"
+  },
+  "single_monster": {
+    "brand": "04_matrix/single_monster_brand",
+    "tv_show": "04_matrix/single_monster_tv_show"
+  },
+  "single_dune": {
+    "brand": "04_matrix/single_dune_brand",
+    "tv_show": "04_matrix/single_dune_tv_show"
+  },
+  "single_bjork": {
+    "brand": "04_matrix/single_bjork_brand",
+    "tv_show": "04_matrix/single_bjork_tv_show"
+  },
+  "single_apple": {
+    "brand": "04_matrix/single_apple_brand",
+    "tv_show": "04_matrix/single_apple_tv_show"
+  },
+  "brand_blue_bottle__radiohead": {
+    "brand": "03_gate/base_rb_brand",
+    "tv_show": "03_gate/base_rb_tv_show"
+  },
+  "brand_blue_bottle__metallica": {
+    "brand": "04_matrix/brand_blue_bottle__metallica_brand",
+    "tv_show": "04_matrix/brand_blue_bottle__metallica_tv_show"
+  },
+  "brand_nike__elden_ring": {
+    "brand": "04_matrix/brand_nike__elden_ring_brand",
+    "tv_show": "04_matrix/brand_nike__elden_ring_tv_show"
+  },
+  "brand_nike__animal_crossing": {
+    "brand": "04_matrix/brand_nike__animal_crossing_brand",
+    "tv_show": "04_matrix/brand_nike__animal_crossing_tv_show"
+  },
+  "brand_apple__severance": {
+    "brand": "04_matrix/brand_apple__severance_brand",
+    "tv_show": "04_matrix/brand_apple__severance_tv_show"
+  },
+  "brand_apple__friends": {
+    "brand": "04_matrix/brand_apple__friends_brand",
+    "tv_show": "04_matrix/brand_apple__friends_tv_show"
+  },
+  "brand_lululemon__huberman": {
+    "brand": "04_matrix/brand_lululemon__huberman_brand",
+    "tv_show": "04_matrix/brand_lululemon__huberman_tv_show"
+  },
+  "brand_lululemon__rogan": {
+    "brand": "04_matrix/brand_lululemon__rogan_brand",
+    "tv_show": "04_matrix/brand_lululemon__rogan_tv_show"
+  },
+  "brand_patagonia__bjork": {
+    "brand": "04_matrix/brand_patagonia__bjork_brand",
+    "tv_show": "04_matrix/brand_patagonia__bjork_tv_show"
+  },
+  "brand_patagonia__taylor": {
+    "brand": "04_matrix/brand_patagonia__taylor_brand",
+    "tv_show": "04_matrix/brand_patagonia__taylor_tv_show"
+  },
+  "loo_p01__radiohead": {
+    "brand": "04_matrix/loo_p01__radiohead_brand",
+    "tv_show": "04_matrix/loo_p01__radiohead_tv_show"
+  },
+  "loo_p01__blue_bottle": {
+    "brand": "04_matrix/loo_p01__blue_bottle_brand",
+    "tv_show": "04_matrix/loo_p01__blue_bottle_tv_show"
+  },
+  "loo_p01__severance": {
+    "brand": "03_gate/base_rb_brand",
+    "tv_show": "03_gate/base_rb_tv_show"
+  },
+  "loo_p02__radiohead": {
+    "brand": "04_matrix/loo_p02__radiohead_brand",
+    "tv_show": "04_matrix/loo_p02__radiohead_tv_show"
+  },
+  "loo_p02__blue_bottle": {
+    "brand": "04_matrix/loo_p02__blue_bottle_brand",
+    "tv_show": "04_matrix/loo_p02__blue_bottle_tv_show"
+  },
+  "loo_p02__rogan": {
+    "brand": "03_gate/base_rb_brand",
+    "tv_show": "03_gate/base_rb_tv_show"
+  },
+  "loo_p05__taylor": {
+    "brand": "04_matrix/loo_p05__taylor_brand",
+    "tv_show": "04_matrix/loo_p05__taylor_tv_show"
+  },
+  "loo_p05__starbucks": {
+    "brand": "04_matrix/loo_p05__starbucks_brand",
+    "tv_show": "04_matrix/loo_p05__starbucks_tv_show"
+  },
+  "loo_p05__friends": {
+    "brand": "04_matrix/loo_p05__friends_brand",
+    "tv_show": "04_matrix/loo_p05__friends_tv_show"
+  },
+  "loo_p06__taylor": {
+    "brand": "04_matrix/loo_p06__taylor_brand",
+    "tv_show": "04_matrix/loo_p06__taylor_tv_show"
+  },
+  "loo_p06__starbucks": {
+    "brand": "04_matrix/loo_p06__starbucks_brand",
+    "tv_show": "04_matrix/loo_p06__starbucks_tv_show"
+  },
+  "loo_p06__rogan": {
+    "brand": "04_matrix/loo_p05__friends_brand",
+    "tv_show": "04_matrix/loo_p05__friends_tv_show"
+  },
+  "loo_p09__patagonia": {
+    "brand": "04_matrix/loo_p09__patagonia_brand",
+    "tv_show": "04_matrix/loo_p09__patagonia_tv_show"
+  },
+  "loo_p09__lululemon": {
+    "brand": "04_matrix/loo_p09__lululemon_brand",
+    "tv_show": "04_matrix/loo_p09__lululemon_tv_show"
+  },
+  "loo_p09__blue_bottle": {
+    "brand": "04_matrix/loo_p09__blue_bottle_brand",
+    "tv_show": "04_matrix/loo_p09__blue_bottle_tv_show"
+  },
+  "loo_p10__patagonia": {
+    "brand": "04_matrix/loo_p10__patagonia_brand",
+    "tv_show": "04_matrix/loo_p10__patagonia_tv_show"
+  },
+  "loo_p10__lululemon": {
+    "brand": "04_matrix/loo_p10__lululemon_brand",
+    "tv_show": "04_matrix/loo_p10__lululemon_tv_show"
+  },
+  "loo_p10__monster": {
+    "brand": "04_matrix/loo_p09__blue_bottle_brand",
+    "tv_show": "04_matrix/loo_p09__blue_bottle_tv_show"
+  }
+}

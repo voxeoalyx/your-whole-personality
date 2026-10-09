@@ -1,0 +1,13 @@
+{
+  "at": 1791471914.701643,
+  "request_hash": "6fa65f721c41c2b5fdc5e32cbf1ea379c19c8de8baea01d8f4861276a616e72c",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "20"
+  },
+  "response_sha256": "931573c32eaf2541da2851e0fbb9bf8695f0eb6c7ebfe1f0a6a8757212884497"
+}

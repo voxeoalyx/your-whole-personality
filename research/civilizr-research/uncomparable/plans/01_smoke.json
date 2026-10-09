@@ -1,0 +1,41 @@
+{
+  "title": "Uncomparable first lookup smoke test",
+  "requests": [
+    {
+      "id": "wright",
+      "endpoint": "/search",
+      "params": {
+        "query": "Frank Lloyd Wright",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "fallingwater",
+      "endpoint": "/search",
+      "params": {
+        "query": "Fallingwater",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "mies",
+      "endpoint": "/search",
+      "params": {
+        "query": "Ludwig Mies van der Rohe",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "usonian",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "Usonian",
+        "take": 50
+      },
+      "kind": "discovery"
+    }
+  ]
+}

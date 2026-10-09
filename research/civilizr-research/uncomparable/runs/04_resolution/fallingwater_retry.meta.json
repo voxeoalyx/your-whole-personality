@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-07T23:02:07.702248+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.578,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Fallingwater",
+    "take": "100",
+    "types": "urn:entity:place"
+  },
+  "raw_file": "fallingwater_retry.a1.json",
+  "request_sha256": "e7a12b7595bf1b8d7ec4d296e40211e3c32144af1cb065a1dc5e75c676021a18",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:02:09 GMT"
+  },
+  "response_sha256": "cf2cf99f4a3106ff628a3b8eb362a7c3d9a42272e410484e9c47281d2186f0e0",
+  "spec": {
+    "endpoint": "/search",
+    "id": "fallingwater_retry",
+    "kind": "discovery",
+    "params": {
+      "query": "Fallingwater",
+      "take": 100,
+      "types": "urn:entity:place"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Fallingwater&take=100&types=urn%3Aentity%3Aplace"
+}

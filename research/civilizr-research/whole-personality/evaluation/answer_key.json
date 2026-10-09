@@ -1,0 +1,78 @@
+{
+  "withhold_from_evaluators": true,
+  "shuffle_seed": "whole-personality-blind-v1-2026-10-08",
+  "assignments": [
+    {
+      "case": "case_01",
+      "option": "A",
+      "profile": "p05",
+      "method": "LLM-only"
+    },
+    {
+      "case": "case_01",
+      "option": "B",
+      "profile": "p05",
+      "method": "Qloo-grounded"
+    },
+    {
+      "case": "case_02",
+      "option": "A",
+      "profile": "p07",
+      "method": "Qloo-grounded"
+    },
+    {
+      "case": "case_02",
+      "option": "B",
+      "profile": "p07",
+      "method": "LLM-only"
+    },
+    {
+      "case": "case_03",
+      "option": "A",
+      "profile": "p09",
+      "method": "Qloo-grounded"
+    },
+    {
+      "case": "case_03",
+      "option": "B",
+      "profile": "p09",
+      "method": "LLM-only"
+    },
+    {
+      "case": "case_04",
+      "option": "A",
+      "profile": "p02",
+      "method": "Qloo-grounded"
+    },
+    {
+      "case": "case_04",
+      "option": "B",
+      "profile": "p02",
+      "method": "LLM-only"
+    },
+    {
+      "case": "case_05",
+      "option": "A",
+      "profile": "p04",
+      "method": "LLM-only"
+    },
+    {
+      "case": "case_05",
+      "option": "B",
+      "profile": "p04",
+      "method": "Qloo-grounded"
+    },
+    {
+      "case": "case_06",
+      "option": "A",
+      "profile": "p01",
+      "method": "LLM-only"
+    },
+    {
+      "case": "case_06",
+      "option": "B",
+      "profile": "p01",
+      "method": "Qloo-grounded"
+    }
+  ]
+}

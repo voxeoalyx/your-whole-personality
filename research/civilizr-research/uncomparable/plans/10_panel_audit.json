@@ -1,0 +1,15 @@
+{
+  "title": "Post-hoc panel-bias audit: resolve the Arts and Crafts brand predicted in frozen baseline B",
+  "requests": [
+    {
+      "id": "stickley",
+      "endpoint": "/search",
+      "params": {
+        "query": "Stickley",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    }
+  ]
+}

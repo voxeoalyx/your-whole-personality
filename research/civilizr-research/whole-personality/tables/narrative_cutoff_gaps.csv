@@ -1,0 +1,25 @@
+﻿profile,domain,request,faithful_inputs,rank3,rank4,score_gap_3_to_4_within_query
+p01,brand,03_gate/p01_brand,True,The New York Times,Tasty,0.004995580501121588
+p01,tv_show,03_gate/p01_tv_show,True,Electric Dreams,Humans,0.0023314370079448032
+p02,brand,03_gate/p02_brand,True,National Audubon Society,Air Jordan Product Line,0.00825075393829977
+p02,tv_show,03_gate/p02_tv_show,True,Adam Ruins Everything,UnREAL,9.379835826317517e-05
+p03,brand,04_matrix/p03_brand,True,National Audubon Society,West Elm,0.011781037374149594
+p03,tv_show,04_matrix/p03_tv_show,True,UnREAL,Electric Dreams,0.005319705538905373
+p04,brand,04_matrix/p04_brand,True,Chanel,Vans,0.0055619890981696285
+p04,tv_show,04_matrix/p04_tv_show,True,High Maintenance,Forever,0.0003044009525525748
+p05,brand,04_matrix/p05_brand,True,Forever 21,Louis Vuitton,0.004963589133539004
+p05,tv_show,04_matrix/p05_tv_show,True,Forever,Rake,0.00032876519839897256
+p06,brand,04_matrix/p06_brand,True,Instagram,Forever 21,0.002486986392499113
+p06,tv_show,04_matrix/p06_tv_show,True,Lady Dynamite,Rake,0.0009023918259656316
+p07,brand,04_matrix/p07_brand,True,Mercedes-benz,Youtube,0.004574984215600875
+p07,tv_show,04_matrix/p07_tv_show,True,High Maintenance,Lady Dynamite,0.00053941653015388
+p08,brand,04_matrix/p08_brand,True,Air Jordan Product Line,ESPN,0.0021633709859624206
+p08,tv_show,04_matrix/p08_tv_show,True,Baskets,Lady Dynamite,0.0006336367907456841
+p09,brand,04_matrix/p09_brand,True,Kate Spade New York,Alex and Ani,0.014619529734988146
+p09,tv_show,04_matrix/p09_tv_show,True,UnREAL,Comedians in Cars Getting Coffee,0.0017200818879347102
+p10,brand,04_matrix/p10_brand,True,Alex and Ani,Whole Foods Market,0.001588318588179205
+p10,tv_show,04_matrix/p10_tv_show,True,Comedians in Cars Getting Coffee,Rake,0.0009473077593077361
+p11,brand,04_matrix/p11_brand,False,Christian Dior,Vice,0.0026591958594144316
+p11,tv_show,04_matrix/p11_tv_show,False,Silo,Electric Dreams,0.000763592972405136
+p12,brand,04_matrix/p12_brand,False,Calvin Klein,Christian Dior,0.003447573769033929
+p12,tv_show,04_matrix/p12_tv_show,False,Electric Dreams,My Mister,0.0020178258942574745

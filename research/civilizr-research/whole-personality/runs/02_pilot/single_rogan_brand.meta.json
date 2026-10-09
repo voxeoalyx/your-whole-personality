@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-08T11:06:28.404230+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.578,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+    "take": "10"
+  },
+  "raw_file": "single_rogan_brand.a1.json",
+  "request_sha256": "3a2add9200746bfd3631744756f9bd682a9c52360624c2bf708e04d43baf9782",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:06:28 GMT"
+  },
+  "response_sha256": "d8ed455f2c81111743267aaf7c5a9430b77cbaab52bcf13e05a8f992216801ef",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "single_rogan_brand",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": [
+        "2BBC8913-13CA-47A3-BCD0-B48E70D6B005"
+      ],
+      "take": 10
+    },
+    "seed_keys": [
+      "rogan"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=2BBC8913-13CA-47A3-BCD0-B48E70D6B005&take=10"
+}

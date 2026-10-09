@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-07T23:01:07.174038+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.391,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Frederick Douglass National Historic Site",
+    "take": "10",
+    "types": "urn:entity:place"
+  },
+  "raw_file": "douglass_house.a1.json",
+  "request_sha256": "80573903d2d9977ba98414c56b9e4a1771fbbd5194f5fff8d2cc7b454c368138",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:08 GMT"
+  },
+  "response_sha256": "6cd72209ebd107b34e341c4b38e87703b8c43c5fee622a63d40075a917114c36",
+  "spec": {
+    "endpoint": "/search",
+    "id": "douglass_house",
+    "kind": "discovery",
+    "params": {
+      "query": "Frederick Douglass National Historic Site",
+      "take": 10,
+      "types": "urn:entity:place"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Frederick+Douglass+National+Historic+Site&take=10&types=urn%3Aentity%3Aplace"
+}

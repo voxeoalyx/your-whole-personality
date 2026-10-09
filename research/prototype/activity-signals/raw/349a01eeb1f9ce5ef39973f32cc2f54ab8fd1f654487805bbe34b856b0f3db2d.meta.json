@@ -1,0 +1,14 @@
+{
+  "at": 1791471378.050421,
+  "request_hash": "349a01eeb1f9ce5ef39973f32cc2f54ab8fd1f654487805bbe34b856b0f3db2d",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "signal.interests.tags": "urn:tag:genre:media:architecture",
+    "take": "20"
+  },
+  "response_sha256": "9543a2c2eb97d2e9b271036a6007be76e48daa61308fddf4996a2501251146ce"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/audiences.md",
+    "file": "docs__audiences.md",
+    "status": 200,
+    "at": "2026-10-07T22:54:41.726Z",
+    "sha256": "0b4c5fa6d1322e2dcf71fd41017acce6d82232a8d4d6efcc0ff955b3f079a4bf"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-audiences.md",
+    "file": "reference__get-audiences.md",
+    "status": 200,
+    "at": "2026-10-07T22:54:41.906Z",
+    "sha256": "742f2ca47eae131673fc9cd9a450f389532806259dcf4b6d3d310a59521d5df3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-audience-types.md",
+    "file": "reference__get-audience-types.md",
+    "status": 200,
+    "at": "2026-10-07T22:54:42.043Z",
+    "sha256": "fe1bd1c59d8064cdf23c4046e1f0a1adf438b064f2f84898ede05ee5c7cdc957"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/demographics-use-case.md",
+    "file": "reference__demographics-use-case.md",
+    "status": 200,
+    "at": "2026-10-07T22:54:42.166Z",
+    "sha256": "152e1f88c805106a21b125ecde4e551ed2b4b6658e159a2e0409d9934720df0b"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/taste-analysis.md",
+    "file": "reference__taste-analysis.md",
+    "status": 200,
+    "at": "2026-10-07T22:54:42.328Z",
+    "sha256": "d097d68fbd688dc206f96e367037674ec48bb500632e2fbe55e8502b9446a39c"
+  }
+]

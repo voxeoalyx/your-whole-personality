@@ -1,0 +1,107 @@
+[
+  {
+    "request_id": "winter_park_brands_500",
+    "area": "Winter Park",
+    "dimension": "brands_point",
+    "kind": "profile",
+    "raw_file": "winter_park_brands_500.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_brands_1000",
+    "area": "Winter Park",
+    "dimension": "brands_point",
+    "kind": "profile",
+    "raw_file": "winter_park_brands_1000.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "college_park_brands_500",
+    "area": "College Park",
+    "dimension": "brands_point",
+    "kind": "profile",
+    "raw_file": "college_park_brands_500.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 15577543
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "college_park_brands_1000",
+    "area": "College Park",
+    "dimension": "brands_point",
+    "kind": "profile",
+    "raw_file": "college_park_brands_1000.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 16806597
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_point_proxy_brands_500",
+    "area": "Mills 50 point proxy",
+    "dimension": "brands_point",
+    "kind": "profile",
+    "raw_file": "mills_50_point_proxy_brands_500.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 10236039
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_point_proxy_brands_1000",
+    "area": "Mills 50 point proxy",
+    "dimension": "brands_point",
+    "kind": "profile",
+    "raw_file": "mills_50_point_proxy_brands_1000.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 26808243
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "coffee_locality_heatmap",
+    "area": "",
+    "dimension": "coffee_cafes",
+    "kind": "heatmap_boundary_probe",
+    "raw_file": "coffee_locality_heatmap.a2.json",
+    "query": {},
+    "warnings": null
+  }
+]

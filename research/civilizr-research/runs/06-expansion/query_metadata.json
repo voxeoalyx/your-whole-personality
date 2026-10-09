@@ -1,0 +1,83 @@
+[
+  {
+    "request_id": "audubon_park_place_tags",
+    "area": "Audubon Park",
+    "dimension": "place_tags",
+    "kind": "profile",
+    "raw_file": "audubon_park_place_tags.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_brands",
+    "area": "Audubon Park",
+    "dimension": "brands",
+    "kind": "profile",
+    "raw_file": "audubon_park_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_destinations",
+    "area": "Audubon Park",
+    "dimension": "destinations",
+    "kind": "profile",
+    "raw_file": "audubon_park_destinations.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_place_tags",
+    "area": "Baldwin Park",
+    "dimension": "place_tags",
+    "kind": "profile",
+    "raw_file": "baldwin_park_place_tags.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_brands",
+    "area": "Baldwin Park",
+    "dimension": "brands",
+    "kind": "profile",
+    "raw_file": "baldwin_park_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_destinations",
+    "area": "Baldwin Park",
+    "dimension": "destinations",
+    "kind": "profile",
+    "raw_file": "baldwin_park_destinations.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_place_tags",
+    "area": "Azalea Park",
+    "dimension": "place_tags",
+    "kind": "profile",
+    "raw_file": "azalea_park_place_tags.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_brands",
+    "area": "Azalea Park",
+    "dimension": "brands",
+    "kind": "profile",
+    "raw_file": "azalea_park_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_destinations",
+    "area": "Azalea Park",
+    "dimension": "destinations",
+    "kind": "profile",
+    "raw_file": "azalea_park_destinations.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

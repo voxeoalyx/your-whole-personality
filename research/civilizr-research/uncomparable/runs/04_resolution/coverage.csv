@@ -1,0 +1,6 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+fallingwater_retry,,,discovery,fallingwater_retry.a1.json,ok,200,68,0,68,{}
+eames_retry,,,discovery,eames_retry.a1.json,ok,200,50,0,50,{}
+charles_retry,,,discovery,charles_retry.a1.json,ok,200,5,0,5,{}
+greene_retry,,,discovery,greene_retry.a1.json,ok,200,5,0,5,{}
+herman_miller,,,discovery,herman_miller.a1.json,ok,200,3,0,3,{}

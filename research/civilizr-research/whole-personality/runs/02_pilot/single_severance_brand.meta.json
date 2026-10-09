@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-08T11:06:26.939964+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+    "take": "10"
+  },
+  "raw_file": "single_severance_brand.a1.json",
+  "request_sha256": "cd02d49ef0b455df71cacd6f6c3156203d58ea81a33f91dc0cf58d279cc85485",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:06:27 GMT"
+  },
+  "response_sha256": "d66447950415c0faf7f1f32f23ce2d231459d074e45e66b3d9efa22b013b0a7b",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "single_severance_brand",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": [
+        "569F8294-72DA-4935-B9F2-4FC697AB2A1E"
+      ],
+      "take": 10
+    },
+    "seed_keys": [
+      "severance"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=569F8294-72DA-4935-B9F2-4FC697AB2A1E&take=10"
+}

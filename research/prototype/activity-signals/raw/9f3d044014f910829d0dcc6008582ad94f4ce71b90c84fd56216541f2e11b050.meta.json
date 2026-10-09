@@ -1,0 +1,10 @@
+{
+  "at": 1791470810.7857637,
+  "request_hash": "9f3d044014f910829d0dcc6008582ad94f4ce71b90c84fd56216541f2e11b050",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.query": "yoga",
+    "take": "50"
+  },
+  "response_sha256": "8055ceadba1ad524f2786569d2d79d27362f41e024fb274666b15b038ef04469"
+}

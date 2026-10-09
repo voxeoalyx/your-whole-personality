@@ -1,0 +1,182 @@
+[
+  {
+    "request_id": "college_park_food_dining",
+    "area": "College Park",
+    "dimension": "food_dining",
+    "kind": "profile",
+    "raw_file": "college_park_food_dining.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "college_park_coffee_cafes",
+    "area": "College Park",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "raw_file": "college_park_coffee_cafes.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "college_park_fitness",
+    "area": "College Park",
+    "dimension": "fitness",
+    "kind": "profile",
+    "raw_file": "college_park_fitness.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "college_park_museums",
+    "area": "College Park",
+    "dimension": "museums",
+    "kind": "profile",
+    "raw_file": "college_park_museums.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "college_park_nightlife_bars",
+    "area": "College Park",
+    "dimension": "nightlife_bars",
+    "kind": "profile",
+    "raw_file": "college_park_nightlife_bars.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_food_dining",
+    "area": "Audubon Park",
+    "dimension": "food_dining",
+    "kind": "profile",
+    "raw_file": "audubon_park_food_dining.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_coffee_cafes",
+    "area": "Audubon Park",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "raw_file": "audubon_park_coffee_cafes.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_fitness",
+    "area": "Audubon Park",
+    "dimension": "fitness",
+    "kind": "profile",
+    "raw_file": "audubon_park_fitness.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_museums",
+    "area": "Audubon Park",
+    "dimension": "museums",
+    "kind": "profile",
+    "raw_file": "audubon_park_museums.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_nightlife_bars",
+    "area": "Audubon Park",
+    "dimension": "nightlife_bars",
+    "kind": "profile",
+    "raw_file": "audubon_park_nightlife_bars.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_food_dining",
+    "area": "Baldwin Park",
+    "dimension": "food_dining",
+    "kind": "profile",
+    "raw_file": "baldwin_park_food_dining.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_coffee_cafes",
+    "area": "Baldwin Park",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "raw_file": "baldwin_park_coffee_cafes.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_fitness",
+    "area": "Baldwin Park",
+    "dimension": "fitness",
+    "kind": "profile",
+    "raw_file": "baldwin_park_fitness.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_museums",
+    "area": "Baldwin Park",
+    "dimension": "museums",
+    "kind": "profile",
+    "raw_file": "baldwin_park_museums.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_nightlife_bars",
+    "area": "Baldwin Park",
+    "dimension": "nightlife_bars",
+    "kind": "profile",
+    "raw_file": "baldwin_park_nightlife_bars.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_food_dining",
+    "area": "Azalea Park",
+    "dimension": "food_dining",
+    "kind": "profile",
+    "raw_file": "azalea_park_food_dining.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_coffee_cafes",
+    "area": "Azalea Park",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "raw_file": "azalea_park_coffee_cafes.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_fitness",
+    "area": "Azalea Park",
+    "dimension": "fitness",
+    "kind": "profile",
+    "raw_file": "azalea_park_fitness.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_museums",
+    "area": "Azalea Park",
+    "dimension": "museums",
+    "kind": "profile",
+    "raw_file": "azalea_park_museums.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_nightlife_bars",
+    "area": "Azalea Park",
+    "dimension": "nightlife_bars",
+    "kind": "profile",
+    "raw_file": "azalea_park_nightlife_bars.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

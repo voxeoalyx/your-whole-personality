@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-07T18:41:38.996464+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.312,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.type": "urn:tag",
+    "take": "20"
+  },
+  "raw_file": "..\\04-pilot\\no_location_place_tags.a1.json",
+  "request_sha256": "7d551cf13d97a3cc649639ad2c2ae865632c71a8fa5891f33d9e288bb67f9245",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:41:40 GMT"
+  },
+  "response_sha256": "b6f4d19119896c240ae494bdf6a57e69402fb2aec4ec8b6b4e99145024845319",
+  "spec": {
+    "id": "r4_no_location_place_tags",
+    "area": "No location",
+    "role": "baseline",
+    "dimension": "place_tags",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:tag",
+      "filter.parents.types": "urn:entity:place",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.parents.types=urn%3Aentity%3Aplace&filter.type=urn%3Atag&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\04-pilot\\no_location_place_tags.meta.json"
+}

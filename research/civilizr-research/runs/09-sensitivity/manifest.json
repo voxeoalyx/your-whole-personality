@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-07T18:49:23.211320+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Exploratory equal-radius point profiles; Mills 50 proxy explicitly separate from neighborhood profiles; heatmap parameter correction from API error",
+      "requests": [
+        {
+          "id": "winter_park_brands_500",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.34420470166879 28.598801697315782)",
+            "signal.location.radius": 500,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "winter_park_brands_1000",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.34420470166879 28.598801697315782)",
+            "signal.location.radius": 1000,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "college_park_brands_500",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.39012942168766 28.57560528334122)",
+            "signal.location.radius": 500,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "college_park_brands_1000",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.39012942168766 28.57560528334122)",
+            "signal.location.radius": 1000,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "mills_50_point_proxy_brands_500",
+          "area": "Mills 50 point proxy",
+          "role": "proxy",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Qloo place Mills 50 Medispa at 1206 E Colonial Dr, not a neighborhood boundary.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.36410959999999 28.552895699999997)",
+            "signal.location.radius": 500,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "mills_50_point_proxy_brands_1000",
+          "area": "Mills 50 point proxy",
+          "role": "proxy",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Qloo place Mills 50 Medispa at 1206 E Colonial Dr, not a neighborhood boundary.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.36410959999999 28.552895699999997)",
+            "signal.location.radius": 1000,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "coffee_locality_heatmap",
+          "kind": "heatmap_boundary_probe",
+          "dimension": "coffee_cafes",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "output.heatmap.boundary": "urn:entity:locality"
+          }
+        }
+      ]
+    },
+    "code_sha256": "88926b5ff19d9578b0be91249bce28af4fa4ad08289956bda59ef7d9d0db267e"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "title": "Remaining per-category place profiles in the same 20 km output universe",
+  "requests": [
+    {
+      "id": "college_park_food_dining",
+      "area": "College Park",
+      "role": "target",
+      "dimension": "food_dining",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "college_park_coffee_cafes",
+      "area": "College Park",
+      "role": "target",
+      "dimension": "coffee_cafes",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "college_park_fitness",
+      "area": "College Park",
+      "role": "target",
+      "dimension": "fitness",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:fitness_center",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "college_park_museums",
+      "area": "College Park",
+      "role": "target",
+      "dimension": "museums",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:museum",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "college_park_nightlife_bars",
+      "area": "College Park",
+      "role": "target",
+      "dimension": "nightlife_bars",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:bar",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "audubon_park_food_dining",
+      "area": "Audubon Park",
+      "role": "target",
+      "dimension": "food_dining",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "audubon_park_coffee_cafes",
+      "area": "Audubon Park",
+      "role": "target",
+      "dimension": "coffee_cafes",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "audubon_park_fitness",
+      "area": "Audubon Park",
+      "role": "target",
+      "dimension": "fitness",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:fitness_center",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "audubon_park_museums",
+      "area": "Audubon Park",
+      "role": "target",
+      "dimension": "museums",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:museum",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "audubon_park_nightlife_bars",
+      "area": "Audubon Park",
+      "role": "target",
+      "dimension": "nightlife_bars",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:bar",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "baldwin_park_food_dining",
+      "area": "Baldwin Park",
+      "role": "target",
+      "dimension": "food_dining",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "baldwin_park_coffee_cafes",
+      "area": "Baldwin Park",
+      "role": "target",
+      "dimension": "coffee_cafes",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "baldwin_park_fitness",
+      "area": "Baldwin Park",
+      "role": "target",
+      "dimension": "fitness",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:fitness_center",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "baldwin_park_museums",
+      "area": "Baldwin Park",
+      "role": "target",
+      "dimension": "museums",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:museum",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "baldwin_park_nightlife_bars",
+      "area": "Baldwin Park",
+      "role": "target",
+      "dimension": "nightlife_bars",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:bar",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "azalea_park_food_dining",
+      "area": "Azalea Park",
+      "role": "control",
+      "dimension": "food_dining",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "azalea_park_coffee_cafes",
+      "area": "Azalea Park",
+      "role": "control",
+      "dimension": "coffee_cafes",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "azalea_park_fitness",
+      "area": "Azalea Park",
+      "role": "control",
+      "dimension": "fitness",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:fitness_center",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "azalea_park_museums",
+      "area": "Azalea Park",
+      "role": "control",
+      "dimension": "museums",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:museum",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+        "bias.trends": "off",
+        "take": 20
+      }
+    },
+    {
+      "id": "azalea_park_nightlife_bars",
+      "area": "Azalea Park",
+      "role": "control",
+      "dimension": "nightlife_bars",
+      "kind": "profile",
+      "geography_verified": true,
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "filter.tags": "urn:tag:genre:place:restaurant:bar",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+        "bias.trends": "off",
+        "take": 20
+      }
+    }
+  ]
+}

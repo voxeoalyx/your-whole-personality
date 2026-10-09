@@ -1,0 +1,1983 @@
+{
+  "at": "2026-10-08T17:11:57.512750+00:00",
+  "profile": "overthinker",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "candidate_source": "frozen real Qloo panels shared across all modes; A sees names/types only",
+  "limitation": "A has no live Qloo access or scores, but candidate selection is Qloo-derived. Scripted feedback cannot measure relevance or superiority.",
+  "runs": [
+    {
+      "game": {
+        "version": 2,
+        "source": "recorded",
+        "generated_at": "2026-10-08T12:07:57.301077+00:00",
+        "interests": [
+          {
+            "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "name": "Radiohead",
+            "type": "artist",
+            "detail": "Radiohead",
+            "image": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg",
+            "verified": true,
+            "alias": "radiohead"
+          },
+          {
+            "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+            "name": "Blue Bottle Coffee",
+            "type": "brand",
+            "detail": "Blue Bottle Coffee is a specialty coffee roaster and retailer known for fresh, high-quality coffee sourced from partners like Pedro Nel Trujillo.",
+            "image": "https://images.qloo.com/i/22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D-420x-auto.jpg",
+            "verified": true,
+            "alias": "blue_bottle"
+          },
+          {
+            "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+            "name": "Severance",
+            "type": "tv_show",
+            "detail": "2022",
+            "image": "https://images.qloo.com/i/569F8294-72DA-4935-B9F2-4FC697AB2A1E-420x-auto.jpg",
+            "verified": true,
+            "alias": "severance"
+          }
+        ],
+        "domains": [
+          "movie",
+          "videogame"
+        ],
+        "predictions": [
+          {
+            "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+            "name": "Moon",
+            "type": null,
+            "detail": "2009, Duncan Jones",
+            "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+            "score": 0.9214122017257635,
+            "domain": "movie",
+            "rank": 1
+          },
+          {
+            "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+            "name": "Control",
+            "type": null,
+            "detail": "2019-08-27, Remedy Entertainment",
+            "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+            "score": 0.8430831249218221,
+            "domain": "videogame",
+            "rank": 1
+          },
+          {
+            "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+            "name": "Children of Men",
+            "type": null,
+            "detail": "2006, Alfonso Cuarón",
+            "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+            "score": 0.9109698928711949,
+            "domain": "movie",
+            "rank": 2,
+            "evidence": "original fixed panel"
+          },
+          {
+            "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+            "name": "Gattaca",
+            "type": null,
+            "detail": "1997, Andrew Niccol",
+            "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+            "score": 0.909829122524936,
+            "domain": "movie",
+            "rank": 3,
+            "evidence": "original fixed panel"
+          },
+          {
+            "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+            "name": "Primer",
+            "type": null,
+            "detail": "2004, Shane Carruth",
+            "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+            "score": 0.9050818074256968,
+            "domain": "movie",
+            "rank": 4,
+            "evidence": "original fixed panel"
+          }
+        ],
+        "full": {
+          "movie": [
+            {
+              "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+              "name": "Moon",
+              "type": null,
+              "detail": "2009, Duncan Jones",
+              "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+              "score": 0.9214122017257635
+            },
+            {
+              "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+              "name": "Children of Men",
+              "type": null,
+              "detail": "2006, Alfonso Cuarón",
+              "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+              "score": 0.9109698928711949
+            },
+            {
+              "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+              "name": "Gattaca",
+              "type": null,
+              "detail": "1997, Andrew Niccol",
+              "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+              "score": 0.909829122524936
+            },
+            {
+              "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+              "name": "Primer",
+              "type": null,
+              "detail": "2004, Shane Carruth",
+              "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+              "score": 0.9050818074256968
+            },
+            {
+              "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+              "name": "Ex Machina",
+              "type": null,
+              "detail": "2014, Alex Garland",
+              "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+              "score": 0.9021698507634591
+            },
+            {
+              "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+              "name": "Another Earth",
+              "type": null,
+              "detail": "2011, Mike Cahill",
+              "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+              "score": 0.8998968509940891
+            },
+            {
+              "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+              "name": "Mr. Nobody",
+              "type": null,
+              "detail": "2009, Jaco Van Dormael",
+              "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+              "score": 0.8996604622104757
+            },
+            {
+              "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+              "name": "Enemy",
+              "type": null,
+              "detail": "2013, Denis Villeneuve",
+              "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+              "score": 0.8970235099705482
+            },
+            {
+              "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+              "name": "Her",
+              "type": null,
+              "detail": "2013, Spike Jonze",
+              "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+              "score": 0.8964961891245796
+            },
+            {
+              "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+              "name": "I Origins",
+              "type": null,
+              "detail": "2014, Mike Cahill",
+              "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+              "score": 0.8928315302226351
+            },
+            {
+              "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+              "name": "Lost in Translation",
+              "type": null,
+              "detail": "2003, Sofia Coppola",
+              "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+              "score": 0.8908388083818256
+            },
+            {
+              "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+              "name": "Coherence",
+              "type": null,
+              "detail": "2013, James Ward Byrkit",
+              "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+              "score": 0.8895035778225568
+            },
+            {
+              "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+              "name": "Upstream Color",
+              "type": null,
+              "detail": "2013, Shane Carruth",
+              "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+              "score": 0.8889272439656057
+            },
+            {
+              "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+              "name": "The Lobster",
+              "type": null,
+              "detail": "2015, Yorgos Lanthimos",
+              "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+              "score": 0.8881255698682798
+            },
+            {
+              "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+              "name": "Dark City",
+              "type": null,
+              "detail": "1998, Alex Proyas",
+              "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+              "score": 0.8854199498172864
+            },
+            {
+              "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+              "name": "Sunshine",
+              "type": null,
+              "detail": "2007, Danny Boyle",
+              "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+              "score": 0.8854090542717226
+            },
+            {
+              "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+              "name": "Snowpiercer",
+              "type": null,
+              "detail": "2013, Bong Joon Ho",
+              "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+              "score": 0.8851184733708002
+            },
+            {
+              "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+              "name": "The Fountain",
+              "type": null,
+              "detail": "2006, Darren Aronofsky",
+              "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+              "score": 0.8848456298309603
+            },
+            {
+              "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+              "name": "K-PAX",
+              "type": null,
+              "detail": "2001, Iain Softley",
+              "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+              "score": 0.8843028459866211
+            },
+            {
+              "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+              "name": "The Man from Earth",
+              "type": null,
+              "detail": "2007, Richard Schenkman",
+              "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+              "score": 0.8840438701897545
+            }
+          ],
+          "videogame": [
+            {
+              "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+              "name": "Control",
+              "type": null,
+              "detail": "2019-08-27, Remedy Entertainment",
+              "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+              "score": 0.8430831249218221
+            },
+            {
+              "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+              "name": "The Outer Worlds",
+              "type": null,
+              "detail": "2019-10-25, Obsidian Entertainment",
+              "image": null,
+              "score": 0.8333912719713729
+            },
+            {
+              "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+              "name": "Prey",
+              "type": null,
+              "detail": "2017-05-05, Arkane Studios",
+              "image": null,
+              "score": 0.8300854897946056
+            },
+            {
+              "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+              "name": "Kingdom Come: Deliverance",
+              "type": null,
+              "detail": "2018-02-13, Warhorse Studios",
+              "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+              "score": 0.8261846859317639
+            },
+            {
+              "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+              "name": "Outer Wilds",
+              "type": null,
+              "detail": "2019-05-28, Mobius Digital, LLC",
+              "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+              "score": 0.8176157552539315
+            },
+            {
+              "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+              "name": "Children of Morta",
+              "type": null,
+              "detail": "2019-09-03, Dead Mage",
+              "image": null,
+              "score": 0.8131104010020502
+            },
+            {
+              "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+              "name": "Mortal Shell",
+              "type": null,
+              "detail": "2020-08-18, Cold Symmetry",
+              "image": null,
+              "score": 0.810766354849056
+            },
+            {
+              "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+              "name": "Sekiro: Shadows Die Twice",
+              "type": null,
+              "detail": "2019-03-22, From Software",
+              "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+              "score": 0.8072455080312901
+            },
+            {
+              "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+              "name": "Metro Exodus",
+              "type": null,
+              "detail": "2019-02-15, 4A Games",
+              "image": null,
+              "score": 0.8062284407502256
+            },
+            {
+              "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+              "name": "Generation Zero",
+              "type": null,
+              "detail": "2019-03-26, Avalanche Studios",
+              "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+              "score": 0.8057053254447427
+            },
+            {
+              "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+              "name": "Hob",
+              "type": null,
+              "detail": "2017-09-26, Runic Games",
+              "image": null,
+              "score": 0.8054033353368226
+            },
+            {
+              "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+              "name": "The Surge",
+              "type": null,
+              "detail": "2017-05-16, Deck 13",
+              "image": null,
+              "score": 0.8046154905481848
+            },
+            {
+              "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+              "name": "Disco Elysium",
+              "type": null,
+              "detail": "2019-10-15, ZA/UM",
+              "image": null,
+              "score": 0.8037984828532544
+            },
+            {
+              "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+              "name": "CrossCode",
+              "type": null,
+              "detail": "2020-07-09, Radical Fish Games",
+              "image": null,
+              "score": 0.8035553747654132
+            },
+            {
+              "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+              "name": "Hades",
+              "type": null,
+              "detail": "2018-12-06, Supergiant Games",
+              "image": null,
+              "score": 0.80344364201198
+            },
+            {
+              "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+              "name": "Half-Life: Alyx",
+              "type": null,
+              "detail": "2020-03-23, Valve Software",
+              "image": null,
+              "score": 0.802950846813116
+            },
+            {
+              "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+              "name": "Kenshi",
+              "type": null,
+              "detail": "2011-11-21, Lo-Fi Games",
+              "image": null,
+              "score": 0.8010801358300663
+            },
+            {
+              "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+              "name": "RAGE 2",
+              "type": null,
+              "detail": "2019-05-13, Avalanche Studios",
+              "image": null,
+              "score": 0.8007310026806825
+            },
+            {
+              "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+              "name": "Death Stranding",
+              "type": null,
+              "detail": "2019-11-08, Kojima Productions",
+              "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+              "score": 0.7993254839953339
+            },
+            {
+              "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+              "name": "Wasteland 3",
+              "type": null,
+              "detail": "2020-08-28, InXile Entertainment",
+              "image": null,
+              "score": 0.799208573495565
+            }
+          ]
+        },
+        "ablations": {
+          "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C": {
+            "movie": [
+              {
+                "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+                "name": "Ex Machina",
+                "type": null,
+                "detail": "2014, Alex Garland",
+                "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+                "score": 0.8948103698178039
+              },
+              {
+                "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+                "name": "I Origins",
+                "type": null,
+                "detail": "2014, Mike Cahill",
+                "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+                "score": 0.8836325052632091
+              },
+              {
+                "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                "name": "Gattaca",
+                "type": null,
+                "detail": "1997, Andrew Niccol",
+                "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+                "score": 0.8786751925847213
+              },
+              {
+                "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+                "name": "Snowpiercer",
+                "type": null,
+                "detail": "2013, Bong Joon Ho",
+                "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+                "score": 0.8777336946054527
+              },
+              {
+                "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+                "name": "Another Earth",
+                "type": null,
+                "detail": "2011, Mike Cahill",
+                "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+                "score": 0.8765913156733683
+              },
+              {
+                "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+                "name": "Coherence",
+                "type": null,
+                "detail": "2013, James Ward Byrkit",
+                "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+                "score": 0.8727752038694562
+              },
+              {
+                "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+                "name": "Moon",
+                "type": null,
+                "detail": "2009, Duncan Jones",
+                "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+                "score": 0.872715894605294
+              },
+              {
+                "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+                "name": "Her",
+                "type": null,
+                "detail": "2013, Spike Jonze",
+                "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+                "score": 0.8623670973137131
+              },
+              {
+                "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+                "name": "Enemy",
+                "type": null,
+                "detail": "2013, Denis Villeneuve",
+                "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+                "score": 0.8614728343292875
+              },
+              {
+                "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+                "name": "Sunshine",
+                "type": null,
+                "detail": "2007, Danny Boyle",
+                "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+                "score": 0.8603443829502054
+              },
+              {
+                "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+                "name": "K-PAX",
+                "type": null,
+                "detail": "2001, Iain Softley",
+                "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+                "score": 0.8535912193989901
+              },
+              {
+                "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+                "name": "The Lobster",
+                "type": null,
+                "detail": "2015, Yorgos Lanthimos",
+                "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+                "score": 0.8534296045626872
+              },
+              {
+                "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+                "name": "Primer",
+                "type": null,
+                "detail": "2004, Shane Carruth",
+                "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+                "score": 0.8516236546694799
+              },
+              {
+                "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+                "name": "Mr. Nobody",
+                "type": null,
+                "detail": "2009, Jaco Van Dormael",
+                "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+                "score": 0.848555868703201
+              },
+              {
+                "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+                "name": "The Man from Earth",
+                "type": null,
+                "detail": "2007, Richard Schenkman",
+                "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+                "score": 0.8482780656440215
+              },
+              {
+                "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                "name": "Children of Men",
+                "type": null,
+                "detail": "2006, Alfonso Cuarón",
+                "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+                "score": 0.84673771818368
+              },
+              {
+                "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+                "name": "Upstream Color",
+                "type": null,
+                "detail": "2013, Shane Carruth",
+                "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+                "score": 0.8410498115404873
+              },
+              {
+                "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+                "name": "Dark City",
+                "type": null,
+                "detail": "1998, Alex Proyas",
+                "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+                "score": 0.8352097265514108
+              },
+              {
+                "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+                "name": "The Fountain",
+                "type": null,
+                "detail": "2006, Darren Aronofsky",
+                "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+                "score": 0.8303291639704209
+              },
+              {
+                "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+                "name": "Lost in Translation",
+                "type": null,
+                "detail": "2003, Sofia Coppola",
+                "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+                "score": 0.8285422610894682
+              }
+            ],
+            "videogame": [
+              {
+                "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+                "name": "Control",
+                "type": null,
+                "detail": "2019-08-27, Remedy Entertainment",
+                "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+                "score": 0.8805922546112741
+              },
+              {
+                "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+                "name": "Death Stranding",
+                "type": null,
+                "detail": "2019-11-08, Kojima Productions",
+                "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+                "score": 0.8533111257261813
+              },
+              {
+                "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+                "name": "Sekiro: Shadows Die Twice",
+                "type": null,
+                "detail": "2019-03-22, From Software",
+                "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+                "score": 0.8415673623252063
+              },
+              {
+                "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+                "name": "Metro Exodus",
+                "type": null,
+                "detail": "2019-02-15, 4A Games",
+                "image": null,
+                "score": 0.8303699530493742
+              },
+              {
+                "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+                "name": "Kingdom Come: Deliverance",
+                "type": null,
+                "detail": "2018-02-13, Warhorse Studios",
+                "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+                "score": 0.8262681430319285
+              },
+              {
+                "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+                "name": "Generation Zero",
+                "type": null,
+                "detail": "2019-03-26, Avalanche Studios",
+                "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+                "score": 0.8258489089909448
+              },
+              {
+                "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+                "name": "RAGE 2",
+                "type": null,
+                "detail": "2019-05-13, Avalanche Studios",
+                "image": null,
+                "score": 0.824072070289576
+              },
+              {
+                "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+                "name": "Prey",
+                "type": null,
+                "detail": "2017-05-05, Arkane Studios",
+                "image": null,
+                "score": 0.8237013046809468
+              },
+              {
+                "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+                "name": "Mortal Shell",
+                "type": null,
+                "detail": "2020-08-18, Cold Symmetry",
+                "image": null,
+                "score": 0.8236848046975066
+              },
+              {
+                "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+                "name": "Half-Life: Alyx",
+                "type": null,
+                "detail": "2020-03-23, Valve Software",
+                "image": null,
+                "score": 0.8154485883293928
+              },
+              {
+                "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+                "name": "The Surge",
+                "type": null,
+                "detail": "2017-05-16, Deck 13",
+                "image": null,
+                "score": 0.8129223366008672
+              },
+              {
+                "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+                "name": "Outer Wilds",
+                "type": null,
+                "detail": "2019-05-28, Mobius Digital, LLC",
+                "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+                "score": 0.8078605683035671
+              },
+              {
+                "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+                "name": "Children of Morta",
+                "type": null,
+                "detail": "2019-09-03, Dead Mage",
+                "image": null,
+                "score": 0.8055943811753268
+              },
+              {
+                "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+                "name": "The Outer Worlds",
+                "type": null,
+                "detail": "2019-10-25, Obsidian Entertainment",
+                "image": null,
+                "score": 0.803439512429675
+              },
+              {
+                "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+                "name": "CrossCode",
+                "type": null,
+                "detail": "2020-07-09, Radical Fish Games",
+                "image": null,
+                "score": 0.7990391202449966
+              },
+              {
+                "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+                "name": "Hades",
+                "type": null,
+                "detail": "2018-12-06, Supergiant Games",
+                "image": null,
+                "score": 0.7977059916254265
+              },
+              {
+                "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+                "name": "Hob",
+                "type": null,
+                "detail": "2017-09-26, Runic Games",
+                "image": null,
+                "score": 0.7921674225180259
+              },
+              {
+                "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+                "name": "Wasteland 3",
+                "type": null,
+                "detail": "2020-08-28, InXile Entertainment",
+                "image": null,
+                "score": 0.772468753723492
+              },
+              {
+                "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+                "name": "Disco Elysium",
+                "type": null,
+                "detail": "2019-10-15, ZA/UM",
+                "image": null,
+                "score": 0.7658871236492928
+              },
+              {
+                "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+                "name": "Kenshi",
+                "type": null,
+                "detail": "2011-11-21, Lo-Fi Games",
+                "image": null,
+                "score": 0.7554064810417238
+              }
+            ]
+          },
+          "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D": {
+            "movie": [
+              {
+                "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+                "name": "Moon",
+                "type": null,
+                "detail": "2009, Duncan Jones",
+                "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+                "score": 0.9537320459318496
+              },
+              {
+                "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+                "name": "Primer",
+                "type": null,
+                "detail": "2004, Shane Carruth",
+                "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+                "score": 0.9414379744522156
+              },
+              {
+                "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                "name": "Children of Men",
+                "type": null,
+                "detail": "2006, Alfonso Cuarón",
+                "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+                "score": 0.9399675014529963
+              },
+              {
+                "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                "name": "Gattaca",
+                "type": null,
+                "detail": "1997, Andrew Niccol",
+                "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+                "score": 0.9367001924951693
+              },
+              {
+                "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+                "name": "Dark City",
+                "type": null,
+                "detail": "1998, Alex Proyas",
+                "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+                "score": 0.9346505650340764
+              },
+              {
+                "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+                "name": "K-PAX",
+                "type": null,
+                "detail": "2001, Iain Softley",
+                "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+                "score": 0.9267075513475138
+              },
+              {
+                "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+                "name": "Sunshine",
+                "type": null,
+                "detail": "2007, Danny Boyle",
+                "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+                "score": 0.9254991008238967
+              },
+              {
+                "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+                "name": "The Man from Earth",
+                "type": null,
+                "detail": "2007, Richard Schenkman",
+                "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+                "score": 0.9181905639153672
+              },
+              {
+                "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+                "name": "Another Earth",
+                "type": null,
+                "detail": "2011, Mike Cahill",
+                "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+                "score": 0.9136589990708224
+              },
+              {
+                "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+                "name": "Coherence",
+                "type": null,
+                "detail": "2013, James Ward Byrkit",
+                "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+                "score": 0.9130760292947779
+              },
+              {
+                "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+                "name": "The Fountain",
+                "type": null,
+                "detail": "2006, Darren Aronofsky",
+                "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+                "score": 0.9109054884432547
+              },
+              {
+                "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+                "name": "Mr. Nobody",
+                "type": null,
+                "detail": "2009, Jaco Van Dormael",
+                "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+                "score": 0.9042174931918049
+              },
+              {
+                "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+                "name": "Ex Machina",
+                "type": null,
+                "detail": "2014, Alex Garland",
+                "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+                "score": 0.9010870042364031
+              },
+              {
+                "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+                "name": "Enemy",
+                "type": null,
+                "detail": "2013, Denis Villeneuve",
+                "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+                "score": 0.899501981808912
+              },
+              {
+                "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+                "name": "Upstream Color",
+                "type": null,
+                "detail": "2013, Shane Carruth",
+                "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+                "score": 0.8993695793434324
+              },
+              {
+                "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+                "name": "I Origins",
+                "type": null,
+                "detail": "2014, Mike Cahill",
+                "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+                "score": 0.8911021696363572
+              },
+              {
+                "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+                "name": "Snowpiercer",
+                "type": null,
+                "detail": "2013, Bong Joon Ho",
+                "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+                "score": 0.8808033357367221
+              },
+              {
+                "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+                "name": "Lost in Translation",
+                "type": null,
+                "detail": "2003, Sofia Coppola",
+                "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+                "score": 0.8631525645984037
+              },
+              {
+                "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+                "name": "Her",
+                "type": null,
+                "detail": "2013, Spike Jonze",
+                "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+                "score": 0.8600182954296295
+              },
+              {
+                "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+                "name": "The Lobster",
+                "type": null,
+                "detail": "2015, Yorgos Lanthimos",
+                "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+                "score": 0.8574715279707845
+              }
+            ],
+            "videogame": [
+              {
+                "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+                "name": "Control",
+                "type": null,
+                "detail": "2019-08-27, Remedy Entertainment",
+                "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+                "score": 0.8354340811139093
+              },
+              {
+                "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+                "name": "The Outer Worlds",
+                "type": null,
+                "detail": "2019-10-25, Obsidian Entertainment",
+                "image": null,
+                "score": 0.8237907892551048
+              },
+              {
+                "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+                "name": "Disco Elysium",
+                "type": null,
+                "detail": "2019-10-15, ZA/UM",
+                "image": null,
+                "score": 0.8212446336177331
+              },
+              {
+                "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+                "name": "Outer Wilds",
+                "type": null,
+                "detail": "2019-05-28, Mobius Digital, LLC",
+                "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+                "score": 0.8195707088312048
+              },
+              {
+                "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+                "name": "Kingdom Come: Deliverance",
+                "type": null,
+                "detail": "2018-02-13, Warhorse Studios",
+                "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+                "score": 0.7985136546739963
+              },
+              {
+                "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+                "name": "Wasteland 3",
+                "type": null,
+                "detail": "2020-08-28, InXile Entertainment",
+                "image": null,
+                "score": 0.7972681748871653
+              },
+              {
+                "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+                "name": "Prey",
+                "type": null,
+                "detail": "2017-05-05, Arkane Studios",
+                "image": null,
+                "score": 0.7961053096944173
+              },
+              {
+                "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+                "name": "Children of Morta",
+                "type": null,
+                "detail": "2019-09-03, Dead Mage",
+                "image": null,
+                "score": 0.795227310521192
+              },
+              {
+                "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+                "name": "Hob",
+                "type": null,
+                "detail": "2017-09-26, Runic Games",
+                "image": null,
+                "score": 0.7880143622397707
+              },
+              {
+                "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+                "name": "Hades",
+                "type": null,
+                "detail": "2018-12-06, Supergiant Games",
+                "image": null,
+                "score": 0.7760730233184926
+              },
+              {
+                "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+                "name": "Kenshi",
+                "type": null,
+                "detail": "2011-11-21, Lo-Fi Games",
+                "image": null,
+                "score": 0.7631316796673407
+              },
+              {
+                "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+                "name": "Metro Exodus",
+                "type": null,
+                "detail": "2019-02-15, 4A Games",
+                "image": null,
+                "score": 0.7600544448945508
+              },
+              {
+                "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+                "name": "Mortal Shell",
+                "type": null,
+                "detail": "2020-08-18, Cold Symmetry",
+                "image": null,
+                "score": 0.7505786373190896
+              },
+              {
+                "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+                "name": "The Surge",
+                "type": null,
+                "detail": "2017-05-16, Deck 13",
+                "image": null,
+                "score": 0.7488654219003333
+              },
+              {
+                "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+                "name": "Death Stranding",
+                "type": null,
+                "detail": "2019-11-08, Kojima Productions",
+                "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+                "score": 0.748128183693028
+              },
+              {
+                "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+                "name": "Sekiro: Shadows Die Twice",
+                "type": null,
+                "detail": "2019-03-22, From Software",
+                "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+                "score": 0.7427704786656402
+              },
+              {
+                "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+                "name": "Generation Zero",
+                "type": null,
+                "detail": "2019-03-26, Avalanche Studios",
+                "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+                "score": 0.7418280453202741
+              },
+              {
+                "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+                "name": "CrossCode",
+                "type": null,
+                "detail": "2020-07-09, Radical Fish Games",
+                "image": null,
+                "score": 0.7407702806179656
+              },
+              {
+                "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+                "name": "RAGE 2",
+                "type": null,
+                "detail": "2019-05-13, Avalanche Studios",
+                "image": null,
+                "score": 0.7332188469998624
+              },
+              {
+                "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+                "name": "Half-Life: Alyx",
+                "type": null,
+                "detail": "2020-03-23, Valve Software",
+                "image": null,
+                "score": 0.7223376655819347
+              }
+            ]
+          },
+          "569F8294-72DA-4935-B9F2-4FC697AB2A1E": {
+            "movie": [
+              {
+                "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+                "name": "Lost in Translation",
+                "type": null,
+                "detail": "2003, Sofia Coppola",
+                "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+                "score": 0.919267407902576
+              },
+              {
+                "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+                "name": "Her",
+                "type": null,
+                "detail": "2013, Spike Jonze",
+                "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+                "score": 0.9086893607642123
+              },
+              {
+                "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+                "name": "The Lobster",
+                "type": null,
+                "detail": "2015, Yorgos Lanthimos",
+                "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+                "score": 0.897593900807955
+              },
+              {
+                "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+                "name": "Mr. Nobody",
+                "type": null,
+                "detail": "2009, Jaco Van Dormael",
+                "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+                "score": 0.8847819732955118
+              },
+              {
+                "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                "name": "Children of Men",
+                "type": null,
+                "detail": "2006, Alfonso Cuarón",
+                "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+                "score": 0.879600966295333
+              },
+              {
+                "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+                "name": "Upstream Color",
+                "type": null,
+                "detail": "2013, Shane Carruth",
+                "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+                "score": 0.8705022760246789
+              },
+              {
+                "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+                "name": "Moon",
+                "type": null,
+                "detail": "2009, Duncan Jones",
+                "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+                "score": 0.8701587258897873
+              },
+              {
+                "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+                "name": "Enemy",
+                "type": null,
+                "detail": "2013, Denis Villeneuve",
+                "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+                "score": 0.8699977964680612
+              },
+              {
+                "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+                "name": "Primer",
+                "type": null,
+                "detail": "2004, Shane Carruth",
+                "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+                "score": 0.8580282107831975
+              },
+              {
+                "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+                "name": "Ex Machina",
+                "type": null,
+                "detail": "2014, Alex Garland",
+                "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+                "score": 0.8553017938712912
+              },
+              {
+                "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+                "name": "The Fountain",
+                "type": null,
+                "detail": "2006, Darren Aronofsky",
+                "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+                "score": 0.8547136246880179
+              },
+              {
+                "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+                "name": "Another Earth",
+                "type": null,
+                "detail": "2011, Mike Cahill",
+                "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+                "score": 0.8521719147436105
+              },
+              {
+                "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                "name": "Gattaca",
+                "type": null,
+                "detail": "1997, Andrew Niccol",
+                "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+                "score": 0.8519194933890346
+              },
+              {
+                "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+                "name": "I Origins",
+                "type": null,
+                "detail": "2014, Mike Cahill",
+                "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+                "score": 0.8492662412235028
+              },
+              {
+                "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+                "name": "Snowpiercer",
+                "type": null,
+                "detail": "2013, Bong Joon Ho",
+                "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+                "score": 0.8462310018584783
+              },
+              {
+                "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+                "name": "The Man from Earth",
+                "type": null,
+                "detail": "2007, Richard Schenkman",
+                "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+                "score": 0.8286985382580493
+              },
+              {
+                "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+                "name": "Dark City",
+                "type": null,
+                "detail": "1998, Alex Proyas",
+                "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+                "score": 0.8282542840114175
+              },
+              {
+                "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+                "name": "Coherence",
+                "type": null,
+                "detail": "2013, James Ward Byrkit",
+                "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+                "score": 0.8281609446732938
+              },
+              {
+                "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+                "name": "K-PAX",
+                "type": null,
+                "detail": "2001, Iain Softley",
+                "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+                "score": 0.8180619700777755
+              },
+              {
+                "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+                "name": "Sunshine",
+                "type": null,
+                "detail": "2007, Danny Boyle",
+                "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+                "score": 0.8128626776112013
+              }
+            ],
+            "videogame": [
+              {
+                "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+                "name": "Kenshi",
+                "type": null,
+                "detail": "2011-11-21, Lo-Fi Games",
+                "image": null,
+                "score": 0.8198495285272679
+              },
+              {
+                "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+                "name": "CrossCode",
+                "type": null,
+                "detail": "2020-07-09, Radical Fish Games",
+                "image": null,
+                "score": 0.7946901172866313
+              },
+              {
+                "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+                "name": "The Outer Worlds",
+                "type": null,
+                "detail": "2019-10-25, Obsidian Entertainment",
+                "image": null,
+                "score": 0.7765664533726492
+              },
+              {
+                "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+                "name": "Half-Life: Alyx",
+                "type": null,
+                "detail": "2020-03-23, Valve Software",
+                "image": null,
+                "score": 0.7691059961719826
+              },
+              {
+                "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+                "name": "Kingdom Come: Deliverance",
+                "type": null,
+                "detail": "2018-02-13, Warhorse Studios",
+                "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+                "score": 0.7607994633681323
+              },
+              {
+                "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+                "name": "The Surge",
+                "type": null,
+                "detail": "2017-05-16, Deck 13",
+                "image": null,
+                "score": 0.7578104304971509
+              },
+              {
+                "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+                "name": "Mortal Shell",
+                "type": null,
+                "detail": "2020-08-18, Cold Symmetry",
+                "image": null,
+                "score": 0.757216973707156
+              },
+              {
+                "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+                "name": "Hob",
+                "type": null,
+                "detail": "2017-09-26, Runic Games",
+                "image": null,
+                "score": 0.7553984121386703
+              },
+              {
+                "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+                "name": "Prey",
+                "type": null,
+                "detail": "2017-05-05, Arkane Studios",
+                "image": null,
+                "score": 0.754237912942981
+              },
+              {
+                "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+                "name": "Children of Morta",
+                "type": null,
+                "detail": "2019-09-03, Dead Mage",
+                "image": null,
+                "score": 0.751056541214837
+              },
+              {
+                "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+                "name": "Generation Zero",
+                "type": null,
+                "detail": "2019-03-26, Avalanche Studios",
+                "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+                "score": 0.7505448101632393
+              },
+              {
+                "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+                "name": "Wasteland 3",
+                "type": null,
+                "detail": "2020-08-28, InXile Entertainment",
+                "image": null,
+                "score": 0.7484850353869559
+              },
+              {
+                "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+                "name": "Hades",
+                "type": null,
+                "detail": "2018-12-06, Supergiant Games",
+                "image": null,
+                "score": 0.7436684003865729
+              },
+              {
+                "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+                "name": "Disco Elysium",
+                "type": null,
+                "detail": "2019-10-15, ZA/UM",
+                "image": null,
+                "score": 0.7386207363741193
+              },
+              {
+                "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+                "name": "RAGE 2",
+                "type": null,
+                "detail": "2019-05-13, Avalanche Studios",
+                "image": null,
+                "score": 0.7375971105873405
+              },
+              {
+                "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+                "name": "Outer Wilds",
+                "type": null,
+                "detail": "2019-05-28, Mobius Digital, LLC",
+                "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+                "score": 0.7306644529628857
+              },
+              {
+                "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+                "name": "Sekiro: Shadows Die Twice",
+                "type": null,
+                "detail": "2019-03-22, From Software",
+                "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+                "score": 0.7278935779704273
+              },
+              {
+                "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+                "name": "Metro Exodus",
+                "type": null,
+                "detail": "2019-02-15, 4A Games",
+                "image": null,
+                "score": 0.7114815710001952
+              },
+              {
+                "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+                "name": "Control",
+                "type": null,
+                "detail": "2019-08-27, Remedy Entertainment",
+                "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+                "score": 0.6922605371760464
+              },
+              {
+                "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+                "name": "Death Stranding",
+                "type": null,
+                "detail": "2019-11-08, Kojima Productions",
+                "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+                "score": 0.6836552425653218
+              }
+            ]
+          }
+        },
+        "sensitivity": {
+          "status": "complete",
+          "winner": null,
+          "rows": [
+            {
+              "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "name": "Severance",
+              "domains": {
+                "movie": 0.26315789473684215,
+                "videogame": 0.5
+              },
+              "value": 0.3815789473684211,
+              "halves": [
+                0.3515151515151515,
+                0.4727272727272727
+              ]
+            },
+            {
+              "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "name": "Radiohead",
+              "domains": {
+                "movie": 0.3330827067669173,
+                "videogame": 0.32781954887218046
+              },
+              "value": 0.3304511278195489,
+              "halves": [
+                0.37272727272727274,
+                0.26969696969696966
+              ]
+            },
+            {
+              "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "name": "Blue Bottle Coffee",
+              "domains": {
+                "movie": 0.34285714285714286,
+                "videogame": 0.22330827067669173
+              },
+              "value": 0.28308270676691727,
+              "halves": [
+                0.2848484848484848,
+                0.29393939393939394
+              ]
+            }
+          ],
+          "domains": [
+            "movie",
+            "videogame"
+          ],
+          "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves"
+        },
+        "warnings": [],
+        "fixture": "overthinker",
+        "provenance": {
+          "kind": "Qloo live fixture recorded for this prototype",
+          "request_hashes": [
+            "6548160d52af3740085302bdf769c603b2d9bb503b4e1400d0314b0c839d79b9",
+            "9fa994900c242d7d418f209ca935e3172c4b988ef366148f084f0b30c14cd9f2",
+            "0347ebccaee4a56e0267672d2dc11a4f1d92f393a41c256d3ce0697201aca3a3",
+            "96b91d6c60b52bf12b9b8444178dcb16a18b60f7965a52fd5abcaf8b72ceb939",
+            "dd7113844b0fb6d43f492fd29de000837119e5cc7159f345c5c1474822a42d63",
+            "31e55882134364c5b896840347a3a092a426cdc42caad4ed29281db1bb9b0ab4",
+            "1ddb87597b6a1dc9742ecc2e631ad6e313967b5a36fa1d6e81547ab445c439e1",
+            "895ee95dc0e3f430dc70b929725268cabeb3a77bdc64fc5309d5ea4b7df3dd19",
+            "c29e56d61126e2adaa41986aa1ad7cced84ae1a34eb56926fcb78ec5c4033ed6",
+            "3427c751a182d6e057b69976e28917db89946bdef00e7de5d63c233cd0d8bbaa"
+          ]
+        },
+        "investigator": {
+          "mode": "agentic_qloo",
+          "provider": "NVIDIA",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "fallback_reason": null,
+          "observation": "Still gathering data—no clear patterns yet from these sci-fi-adjacent titles.",
+          "hypotheses": [],
+          "question_limit": 5,
+          "questions_remaining": 0,
+          "model_calls": 4,
+          "model_call_limit": 10,
+          "discovery_queries": 0,
+          "finished": true,
+          "stop_reason": "Five-question budget reached.",
+          "unsupported_domains": {},
+          "trace": [
+            {
+              "event": "controlled_prefix",
+              "result": {
+                "presented": "6BBB34F4-9345-4459-82AE-10991FA35CD2"
+              }
+            },
+            {
+              "event": "feedback",
+              "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+              "response": "unknown",
+              "result": {
+                "accuracy": {
+                  "yes": 0,
+                  "no": 0,
+                  "unknown": 1,
+                  "known": 0,
+                  "total": 1,
+                  "rate": null
+                },
+                "meaning": "unfamiliar, not rejection"
+              }
+            },
+            {
+              "event": "controlled_prefix",
+              "result": {
+                "presented": "108570A5-B892-46B4-87B8-B67A0E5C9C09"
+              }
+            },
+            {
+              "event": "feedback",
+              "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+              "response": "unknown",
+              "result": {
+                "accuracy": {
+                  "yes": 0,
+                  "no": 0,
+                  "unknown": 2,
+                  "known": 0,
+                  "total": 2,
+                  "rate": null
+                },
+                "meaning": "unfamiliar, not rejection"
+              }
+            },
+            {
+              "event": "decision",
+              "known": {
+                "feedback": [
+                  {
+                    "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+                    "name": "Moon",
+                    "domain": "movie",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+                    "name": "Control",
+                    "domain": "videogame",
+                    "response": "unknown"
+                  }
+                ],
+                "hypotheses": [],
+                "candidate_ids": [
+                  "08910533-E760-4683-9201-57B9B73A4F7F",
+                  "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+                  "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+                  "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+                  "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+                  "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+                  "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+                  "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+                  "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+                  "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+                  "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+                  "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+                  "62E05907-9AF0-4362-88AF-9F03BC20675E",
+                  "6F7EF896-FEF5-4160-B179-1987620E650D",
+                  "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+                  "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+                  "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+                  "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+                  "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+                  "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+                  "B061B95F-B940-4871-B80A-C12365E7A2A1",
+                  "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+                  "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+                  "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+                  "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+                  "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                  "BC2A8103-D00B-4495-86AC-AF200690699C",
+                  "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+                  "C454A23F-414C-45E7-B485-EDD35832D56C",
+                  "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                  "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+                  "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+                  "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+                  "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+                  "E15DBB1E-79BB-480F-A101-01940778D6F6",
+                  "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+                  "EA0D6B19-199B-439B-809D-B60B4412E405",
+                  "F2D38796-6AEC-489E-A13D-DFEBB8527CB9"
+                ],
+                "questions_remaining": 3
+              },
+              "action": {
+                "action": "TEST_PREDICTION",
+                "domain": "movie",
+                "candidate_id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                "basis": "original",
+                "observation": "Testing a top-ranked movie to see if sci-fi resonance clicks.",
+                "decision_summary": "Starting with the highest-ranked movie candidate (Children of Men) to establish baseline movie affinity given unknown responses so far.",
+                "hypotheses": []
+              },
+              "model": {
+                "provider": "NVIDIA",
+                "model": "nvidia/nemotron-3-super-120b-a12b",
+                "seconds": 5.719,
+                "usage": {
+                  "prompt_tokens": 7272,
+                  "completion_tokens": 153,
+                  "total_tokens": 7425,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cached_tokens": 0
+                  },
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 0,
+                    "rejected_prediction_tokens": null
+                  }
+                }
+              },
+              "result": {
+                "presented": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E"
+              }
+            },
+            {
+              "event": "feedback",
+              "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+              "response": "unknown",
+              "result": {
+                "accuracy": {
+                  "yes": 0,
+                  "no": 0,
+                  "unknown": 3,
+                  "known": 0,
+                  "total": 3,
+                  "rate": null
+                },
+                "meaning": "unfamiliar, not rejection"
+              }
+            },
+            {
+              "event": "decision",
+              "known": {
+                "feedback": [
+                  {
+                    "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+                    "name": "Moon",
+                    "domain": "movie",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+                    "name": "Control",
+                    "domain": "videogame",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                    "name": "Children of Men",
+                    "domain": "movie",
+                    "response": "unknown"
+                  }
+                ],
+                "hypotheses": [],
+                "candidate_ids": [
+                  "08910533-E760-4683-9201-57B9B73A4F7F",
+                  "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+                  "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+                  "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+                  "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+                  "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+                  "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+                  "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+                  "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+                  "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+                  "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+                  "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+                  "62E05907-9AF0-4362-88AF-9F03BC20675E",
+                  "6F7EF896-FEF5-4160-B179-1987620E650D",
+                  "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+                  "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+                  "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+                  "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+                  "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+                  "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+                  "B061B95F-B940-4871-B80A-C12365E7A2A1",
+                  "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+                  "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+                  "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+                  "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+                  "BC2A8103-D00B-4495-86AC-AF200690699C",
+                  "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+                  "C454A23F-414C-45E7-B485-EDD35832D56C",
+                  "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                  "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+                  "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+                  "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+                  "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+                  "E15DBB1E-79BB-480F-A101-01940778D6F6",
+                  "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+                  "EA0D6B19-199B-439B-809D-B60B4412E405",
+                  "F2D38796-6AEC-489E-A13D-DFEBB8527CB9"
+                ],
+                "questions_remaining": 2
+              },
+              "action": {
+                "action": "TEST_PREDICTION",
+                "domain": "movie",
+                "candidate_id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                "basis": "original",
+                "observation": "Testing if cerebral sci-fi like Gattaca clicks beyond unknowns.",
+                "decision_summary": "First movie test after three unknowns; Gattaca ranks high (score 0.91) and shares thematic DNA with prior unknowns (Moon, Children of Men, Control) — isolation, identity, reality.",
+                "hypotheses": []
+              },
+              "model": {
+                "provider": "NVIDIA",
+                "model": "nvidia/nemotron-3-super-120b-a12b",
+                "seconds": 2.375,
+                "usage": {
+                  "prompt_tokens": 7239,
+                  "completion_tokens": 176,
+                  "total_tokens": 7415,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cached_tokens": 0
+                  },
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 0,
+                    "rejected_prediction_tokens": null
+                  }
+                }
+              },
+              "result": {
+                "presented": "CC25B3AF-7540-4695-B926-48C94EF754BB"
+              }
+            },
+            {
+              "event": "feedback",
+              "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+              "response": "unknown",
+              "result": {
+                "accuracy": {
+                  "yes": 0,
+                  "no": 0,
+                  "unknown": 4,
+                  "known": 0,
+                  "total": 4,
+                  "rate": null
+                },
+                "meaning": "unfamiliar, not rejection"
+              }
+            },
+            {
+              "event": "decision",
+              "known": {
+                "feedback": [
+                  {
+                    "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+                    "name": "Moon",
+                    "domain": "movie",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+                    "name": "Control",
+                    "domain": "videogame",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                    "name": "Children of Men",
+                    "domain": "movie",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                    "name": "Gattaca",
+                    "domain": "movie",
+                    "response": "unknown"
+                  }
+                ],
+                "hypotheses": [],
+                "candidate_ids": [
+                  "08910533-E760-4683-9201-57B9B73A4F7F",
+                  "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+                  "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+                  "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+                  "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+                  "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+                  "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+                  "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+                  "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+                  "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+                  "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+                  "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+                  "62E05907-9AF0-4362-88AF-9F03BC20675E",
+                  "6F7EF896-FEF5-4160-B179-1987620E650D",
+                  "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+                  "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+                  "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+                  "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+                  "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+                  "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+                  "B061B95F-B940-4871-B80A-C12365E7A2A1",
+                  "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+                  "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+                  "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+                  "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+                  "BC2A8103-D00B-4495-86AC-AF200690699C",
+                  "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+                  "C454A23F-414C-45E7-B485-EDD35832D56C",
+                  "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+                  "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+                  "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+                  "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+                  "E15DBB1E-79BB-480F-A101-01940778D6F6",
+                  "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+                  "EA0D6B19-199B-439B-809D-B60B4412E405",
+                  "F2D38796-6AEC-489E-A13D-DFEBB8527CB9"
+                ],
+                "questions_remaining": 1
+              },
+              "action": {
+                "action": "TEST_PREDICTION",
+                "domain": "movie",
+                "candidate_id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+                "basis": "original",
+                "observation": "Testing Primer, a cerebral time-travel indie, to see if the user likes smart, low-budget sci-fi.",
+                "decision_summary": "Primer is the highest-ranked unseen movie candidate (rank 4, score 0.905). Testing it explores whether the user's taste extends to complex, narrative-driven films beyond their known interests.",
+                "hypotheses": []
+              },
+              "model": {
+                "provider": "NVIDIA",
+                "model": "nvidia/nemotron-3-super-120b-a12b",
+                "seconds": 1.953,
+                "usage": {
+                  "prompt_tokens": 7208,
+                  "completion_tokens": 182,
+                  "total_tokens": 7390,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cached_tokens": 0
+                  },
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 0,
+                    "rejected_prediction_tokens": null
+                  }
+                }
+              },
+              "result": {
+                "presented": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9"
+              }
+            },
+            {
+              "event": "feedback",
+              "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+              "response": "unknown",
+              "result": {
+                "accuracy": {
+                  "yes": 0,
+                  "no": 0,
+                  "unknown": 5,
+                  "known": 0,
+                  "total": 5,
+                  "rate": null
+                },
+                "meaning": "unfamiliar, not rejection"
+              }
+            },
+            {
+              "event": "decision",
+              "known": {
+                "feedback": [
+                  {
+                    "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+                    "name": "Moon",
+                    "domain": "movie",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+                    "name": "Control",
+                    "domain": "videogame",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+                    "name": "Children of Men",
+                    "domain": "movie",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+                    "name": "Gattaca",
+                    "domain": "movie",
+                    "response": "unknown"
+                  },
+                  {
+                    "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+                    "name": "Primer",
+                    "domain": "movie",
+                    "response": "unknown"
+                  }
+                ],
+                "accuracy": {
+                  "yes": 0,
+                  "no": 0,
+                  "unknown": 5,
+                  "known": 0,
+                  "total": 5,
+                  "rate": null
+                }
+              },
+              "action": {
+                "action": "DELIVER_VERDICT",
+                "domain": "",
+                "candidate_id": "",
+                "basis": "original",
+                "observation": "Still gathering data—no clear patterns yet from these sci-fi-adjacent titles.",
+                "decision_summary": "All tested items were unfamiliar; no evidence to support or reject any domain fit hypotheses.",
+                "hypotheses": []
+              },
+              "model": {
+                "provider": "NVIDIA",
+                "model": "nvidia/nemotron-3-super-120b-a12b",
+                "seconds": 1.64,
+                "usage": {
+                  "prompt_tokens": 7158,
+                  "completion_tokens": 119,
+                  "total_tokens": 7277,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cached_tokens": 0
+                  },
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 0,
+                    "rejected_prediction_tokens": null
+                  }
+                }
+              },
+              "result": {
+                "finished": true
+              }
+            }
+          ],
+          "qloo_requests": []
+        }
+      },
+      "answers": {
+        "6BBB34F4-9345-4459-82AE-10991FA35CD2": "unknown",
+        "108570A5-B892-46B4-87B8-B67A0E5C9C09": "unknown",
+        "BB9AA6CE-8012-44B8-B554-54BE8A374A5E": "unknown",
+        "CC25B3AF-7540-4695-B926-48C94EF754BB": "unknown",
+        "F2D38796-6AEC-489E-A13D-DFEBB8527CB9": "unknown"
+      },
+      "status": "complete",
+      "evaluation": {
+        "mode": "C",
+        "controlled_feedback": true,
+        "forced_prefix": 2,
+        "seconds": 11.7,
+        "accuracy": {
+          "yes": 0,
+          "no": 0,
+          "unknown": 5,
+          "known": 0,
+          "total": 5,
+          "rate": null
+        },
+        "valid_live_agent_run": true,
+        "scenario": "unfamiliar"
+      }
+    }
+  ]
+}

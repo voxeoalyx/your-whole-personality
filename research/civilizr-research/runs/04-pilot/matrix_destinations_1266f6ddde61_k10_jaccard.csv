@@ -1,0 +1,5 @@
+﻿request_id,winter_park_destinations,pine_hills_destinations,college_park_destinations,winter_park_repeat_destinations
+winter_park_destinations,1.0,0.8181818181818182,0.8181818181818182,1.0
+pine_hills_destinations,0.8181818181818182,1.0,0.6666666666666666,0.8181818181818182
+college_park_destinations,0.8181818181818182,0.6666666666666666,1.0,0.8181818181818182
+winter_park_repeat_destinations,1.0,0.8181818181818182,0.8181818181818182,1.0

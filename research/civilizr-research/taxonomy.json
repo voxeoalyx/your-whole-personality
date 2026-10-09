@@ -1,0 +1,32 @@
+[
+  {
+    "dimension": "food_dining",
+    "tag_id": "urn:tag:genre:place:restaurant",
+    "source": "runs/03-discovery/restaurant_taxonomy.a1.json",
+    "interpretation": "Native place category"
+  },
+  {
+    "dimension": "coffee_cafes",
+    "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+    "source": "runs/03-discovery/coffee_taxonomy.a1.json",
+    "interpretation": "Native place category"
+  },
+  {
+    "dimension": "fitness",
+    "tag_id": "urn:tag:genre:place:fitness_center",
+    "source": "runs/03-discovery/fitness_taxonomy.a1.json",
+    "interpretation": "Fitness centers are only a narrow wellness proxy"
+  },
+  {
+    "dimension": "museums",
+    "tag_id": "urn:tag:genre:place:museum",
+    "source": "runs/03-discovery/museum_taxonomy.a1.json",
+    "interpretation": "Museums are only a narrow arts/culture proxy"
+  },
+  {
+    "dimension": "nightlife_bars",
+    "tag_id": "urn:tag:genre:place:restaurant:bar",
+    "source": "runs/03-discovery/bar_taxonomy.a1.json",
+    "interpretation": "Native place category"
+  }
+]

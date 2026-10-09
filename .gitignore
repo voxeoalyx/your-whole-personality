@@ -1,0 +1,36 @@
+# Credentials (only blank examples are versioned)
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+# Local runtimes, caches and new test captures
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+*.log
+# OS and editor files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+# Bulky per-run CSV exports can be rebuilt from archived JSON
+research/civilizr-research/**/runs/**/results.csv

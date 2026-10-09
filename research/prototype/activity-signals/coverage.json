@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "urn:tag:genre:place:pilates_studio",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Mocros",
+            0.7649962877984056
+          ],
+          [
+            "Kublai Khan",
+            0.7649962877984056
+          ],
+          [
+            "Nostalgia Trip Longplays",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "El enemigo",
+            0.7649962877984056
+          ],
+          [
+            "A Nice Neighbor",
+            0.7649962877984056
+          ],
+          [
+            "7:11 PM",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Haribo P!k",
+            0.7649962877984056
+          ],
+          [
+            "Folgers",
+            0.7649962877984056
+          ],
+          [
+            "Aspall Vinegar",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Slider",
+            0.7649962877984056
+          ],
+          [
+            "Yu-Gi-Oh! Destiny Board Traveler",
+            0.7649962877984056
+          ],
+          [
+            "Byte Hack",
+            0.7649962877984056
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:category:place:pilates_studio",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Mocros",
+            0.7649962877984056
+          ],
+          [
+            "Kublai Khan",
+            0.7649962877984056
+          ],
+          [
+            "Nostalgia Trip Longplays",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "El enemigo",
+            0.7649962877984056
+          ],
+          [
+            "A Nice Neighbor",
+            0.7649962877984056
+          ],
+          [
+            "7:11 PM",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Haribo P!k",
+            0.7649962877984056
+          ],
+          [
+            "Folgers",
+            0.7649962877984056
+          ],
+          [
+            "Aspall Vinegar",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Slider",
+            0.7649962877984056
+          ],
+          [
+            "Yu-Gi-Oh! Destiny Board Traveler",
+            0.7649962877984056
+          ],
+          [
+            "Byte Hack",
+            0.7649962877984056
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:occupation:wikidata:pilates",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Mocros",
+            0.7649962877984056
+          ],
+          [
+            "Kublai Khan",
+            0.7649962877984056
+          ],
+          [
+            "Nostalgia Trip Longplays",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "El enemigo",
+            0.7649962877984056
+          ],
+          [
+            "A Nice Neighbor",
+            0.7649962877984056
+          ],
+          [
+            "7:11 PM",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Haribo P!k",
+            0.7649962877984056
+          ],
+          [
+            "Folgers",
+            0.7649962877984056
+          ],
+          [
+            "Aspall Vinegar",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Slider",
+            0.7649962877984056
+          ],
+          [
+            "Yu-Gi-Oh! Destiny Board Traveler",
+            0.7649962877984056
+          ],
+          [
+            "Byte Hack",
+            0.7649962877984056
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:genre:media:running",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Mocros",
+            0.7649962877984056
+          ],
+          [
+            "Kublai Khan",
+            0.7649962877984056
+          ],
+          [
+            "Nostalgia Trip Longplays",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "El enemigo",
+            0.7649962877984056
+          ],
+          [
+            "A Nice Neighbor",
+            0.7649962877984056
+          ],
+          [
+            "7:11 PM",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Haribo P!k",
+            0.7649962877984056
+          ],
+          [
+            "Folgers",
+            0.7649962877984056
+          ],
+          [
+            "Aspall Vinegar",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Slider",
+            0.7649962877984056
+          ],
+          [
+            "Yu-Gi-Oh! Destiny Board Traveler",
+            0.7649962877984056
+          ],
+          [
+            "Byte Hack",
+            0.7649962877984056
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:genre:music:yoga",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 20,
+        "score_range": [
+          0.9387925728281674,
+          0.9724034765367356
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Real Time with Bill Maher",
+            0.9724034765367356
+          ],
+          [
+            "Kaun Banega Crorepati?",
+            0.9695894078069068
+          ],
+          [
+            "RadhaKrishn",
+            0.9642429961317466
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 20,
+        "score_range": [
+          0.973309992741708,
+          1
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "The Good Lie",
+            1
+          ],
+          [
+            "Batman & Robin",
+            0.9879243573012361
+          ],
+          [
+            "Parking",
+            0.982904807515794
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 20,
+        "score_range": [
+          0.988479396237308,
+          0.9944580053022806
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "21 Drops",
+            0.9944580053022806
+          ],
+          [
+            "Well+good",
+            0.9939770529957336
+          ],
+          [
+            "Mantraband",
+            0.9929988989463095
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 4,
+        "score_range": [
+          0.6445691497074124,
+          0.8207124773763896
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Football Manager 2012",
+            0.8207124773763896
+          ],
+          [
+            "Need for Speed Payback",
+            0.7307737045316044
+          ],
+          [
+            "Second Life",
+            0.6445691497074124
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:genre:place:weightlifting_area",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Mocros",
+            0.7649962877984056
+          ],
+          [
+            "Kublai Khan",
+            0.7649962877984056
+          ],
+          [
+            "Nostalgia Trip Longplays",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "El enemigo",
+            0.7649962877984056
+          ],
+          [
+            "A Nice Neighbor",
+            0.7649962877984056
+          ],
+          [
+            "7:11 PM",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Haribo P!k",
+            0.7649962877984056
+          ],
+          [
+            "Folgers",
+            0.7649962877984056
+          ],
+          [
+            "Aspall Vinegar",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Slider",
+            0.7649962877984056
+          ],
+          [
+            "Yu-Gi-Oh! Destiny Board Traveler",
+            0.7649962877984056
+          ],
+          [
+            "Byte Hack",
+            0.7649962877984056
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:category:place:weightlifting_area",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Mocros",
+            0.7649962877984056
+          ],
+          [
+            "Kublai Khan",
+            0.7649962877984056
+          ],
+          [
+            "Nostalgia Trip Longplays",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "El enemigo",
+            0.7649962877984056
+          ],
+          [
+            "A Nice Neighbor",
+            0.7649962877984056
+          ],
+          [
+            "7:11 PM",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Haribo P!k",
+            0.7649962877984056
+          ],
+          [
+            "Folgers",
+            0.7649962877984056
+          ],
+          [
+            "Aspall Vinegar",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Slider",
+            0.7649962877984056
+          ],
+          [
+            "Yu-Gi-Oh! Destiny Board Traveler",
+            0.7649962877984056
+          ],
+          [
+            "Byte Hack",
+            0.7649962877984056
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:occupation:wikidata:weightlifting",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Mocros",
+            0.7649962877984056
+          ],
+          [
+            "Kublai Khan",
+            0.7649962877984056
+          ],
+          [
+            "Nostalgia Trip Longplays",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "El enemigo",
+            0.7649962877984056
+          ],
+          [
+            "A Nice Neighbor",
+            0.7649962877984056
+          ],
+          [
+            "7:11 PM",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Haribo P!k",
+            0.7649962877984056
+          ],
+          [
+            "Folgers",
+            0.7649962877984056
+          ],
+          [
+            "Aspall Vinegar",
+            0.7649962877984056
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 1,
+        "score_range": [
+          0.7649962877984056,
+          0.7649962877984056
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Slider",
+            0.7649962877984056
+          ],
+          [
+            "Yu-Gi-Oh! Destiny Board Traveler",
+            0.7649962877984056
+          ],
+          [
+            "Byte Hack",
+            0.7649962877984056
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:genre:media:architecture",
+    "domains": {
+      "tv_show": {
+        "scored": 20,
+        "distinct_scores": 20,
+        "score_range": [
+          0.8833789915883077,
+          0.9447963488958329
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Dva holma",
+            0.9447963488958329
+          ],
+          [
+            "The Baker and the Beauty",
+            0.9442195248268773
+          ],
+          [
+            "The Corner",
+            0.9339610666727222
+          ]
+        ]
+      },
+      "movie": {
+        "scored": 20,
+        "distinct_scores": 15,
+        "score_range": [
+          0.9246638740933544,
+          0.977031247308623
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "The Immaculate Conception of Little Dizzle",
+            0.977031247308623
+          ],
+          [
+            "Project Power",
+            0.9685543832422033
+          ],
+          [
+            "True Story",
+            0.9598899500345108
+          ]
+        ]
+      },
+      "brand": {
+        "scored": 20,
+        "distinct_scores": 20,
+        "score_range": [
+          0.9578791078631756,
+          0.9888497029154866
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "Snøhetta",
+            0.9888497029154866
+          ],
+          [
+            "Dodge",
+            0.9884654927966087
+          ],
+          [
+            "Kartell",
+            0.9876859670516743
+          ]
+        ]
+      },
+      "videogame": {
+        "scored": 20,
+        "distinct_scores": 20,
+        "score_range": [
+          0.7977662685839191,
+          0.8393583809483118
+        ],
+        "warnings": [
+          {
+            "type": "Could not calculate explainability"
+          }
+        ],
+        "top3": [
+          [
+            "The Witness",
+            0.8393583809483118
+          ],
+          [
+            "Cities: Skylines",
+            0.8378911629273219
+          ],
+          [
+            "ASTRONEER",
+            0.8361452953456566
+          ]
+        ]
+      }
+    }
+  }
+]

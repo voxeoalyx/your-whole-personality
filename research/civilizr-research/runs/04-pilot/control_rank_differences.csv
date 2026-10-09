@@ -1,0 +1,270 @@
+﻿dimension,k,area,control,id,name,area_rank,control_rank,control_minus_area_rank,observation
+place_tags,10,Winter Park,Pine Hills,urn:tag:ambience:qloo:casual,Casual,10,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,6,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:couples,Couples,8,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:families,Families,2,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:foodies,Foodies,3,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,7,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:locals,Locals,5,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:tourists,Tourists,4,,,area_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:luggage_store,Luggage store,,3,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:personal_care,Personal care,,10,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:american,American,,9,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,,8,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:crab_house,Crab house,,6,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:family,Family restaurant,,4,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:seafood,Seafood,,7,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:shopping,Shopping,1,2,1,both
+place_tags,10,Winter Park,Pine Hills,urn:tag:genre:place:shopping_mall,Shopping mall,,1,,control_top_k_only
+place_tags,10,Winter Park,Pine Hills,urn:tag:specialty_dish:place:steak,Steak,9,5,-4,both
+brands,10,Winter Park,Pine Hills,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,2,1,both
+brands,10,Winter Park,Pine Hills,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,5,,control_top_k_only
+brands,10,Winter Park,Pine Hills,48788B56-C419-421E-A016-202781E78C1D,Florida A&M University,,10,,control_top_k_only
+brands,10,Winter Park,Pine Hills,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,5,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,50A73864-984A-446F-8401-9F501EA0457B,Johnny Dang & Co.,,3,,control_top_k_only
+brands,10,Winter Park,Pine Hills,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,2,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,10,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,,6,,control_top_k_only
+brands,10,Winter Park,Pine Hills,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,8,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,BE47753B-0C88-479F-A762-50F9CD401E83,The Cut Life,,7,,control_top_k_only
+brands,10,Winter Park,Pine Hills,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,3,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,9,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,7,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,8,,control_top_k_only
+brands,10,Winter Park,Pine Hills,EF6C68A6-79FA-4356-AC34-E55FD6D28964,Razor Chic,,9,,control_top_k_only
+brands,10,Winter Park,Pine Hills,F7EBC47F-537A-4B6C-9DEC-EDB96FF0AB60,Sniper Gang Apparel,,4,,control_top_k_only
+brands,10,Winter Park,Pine Hills,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,6,,,area_top_k_only
+brands,10,Winter Park,Pine Hills,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,4,1,-3,both
+destinations,10,Winter Park,Pine Hills,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,5,4,-1,both
+destinations,10,Winter Park,Pine Hills,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,2,1,both
+destinations,10,Winter Park,Pine Hills,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,,10,,control_top_k_only
+destinations,10,Winter Park,Pine Hills,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,4,6,2,both
+destinations,10,Winter Park,Pine Hills,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,7,5,-2,both
+destinations,10,Winter Park,Pine Hills,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,8,5,both
+destinations,10,Winter Park,Pine Hills,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,10,9,-1,both
+destinations,10,Winter Park,Pine Hills,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,8,,,area_top_k_only
+destinations,10,Winter Park,Pine Hills,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,9,7,-2,both
+destinations,10,Winter Park,Pine Hills,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,2,1,-1,both
+destinations,10,Winter Park,Pine Hills,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,6,3,-3,both
+place_tags,10,College Park,Pine Hills,urn:tag:customer_identity:qloo:couples,Couples,10,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:customer_identity:qloo:families,Families,4,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:customer_identity:qloo:foodies,Foodies,2,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,7,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:customer_identity:qloo:locals,Locals,6,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:customer_identity:qloo:tourists,Tourists,5,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:event_venue,Event venue,3,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:luggage_store,Luggage store,,3,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:personal_care,Personal care,,10,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:restaurant:american,American,,9,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,,8,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:restaurant:crab_house,Crab house,,6,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:restaurant:family,Family restaurant,,4,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:restaurant:seafood,Seafood,,7,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:shopping,Shopping,1,2,1,both
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:shopping_mall,Shopping mall,,1,,control_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:tourist_attraction,Tourist attraction,8,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:genre:place:wedding_venue,Wedding venue,9,,,area_top_k_only
+place_tags,10,College Park,Pine Hills,urn:tag:specialty_dish:place:steak,Steak,,5,,control_top_k_only
+brands,10,College Park,Pine Hills,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,2,1,both
+brands,10,College Park,Pine Hills,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,5,,control_top_k_only
+brands,10,College Park,Pine Hills,48788B56-C419-421E-A016-202781E78C1D,Florida A&M University,,10,,control_top_k_only
+brands,10,College Park,Pine Hills,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,6,,,area_top_k_only
+brands,10,College Park,Pine Hills,50A73864-984A-446F-8401-9F501EA0457B,Johnny Dang & Co.,,3,,control_top_k_only
+brands,10,College Park,Pine Hills,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,5,,,area_top_k_only
+brands,10,College Park,Pine Hills,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,,6,,control_top_k_only
+brands,10,College Park,Pine Hills,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,9,,,area_top_k_only
+brands,10,College Park,Pine Hills,BE47753B-0C88-479F-A762-50F9CD401E83,The Cut Life,,7,,control_top_k_only
+brands,10,College Park,Pine Hills,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,4,,,area_top_k_only
+brands,10,College Park,Pine Hills,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,8,,,area_top_k_only
+brands,10,College Park,Pine Hills,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,10,,,area_top_k_only
+brands,10,College Park,Pine Hills,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,7,,,area_top_k_only
+brands,10,College Park,Pine Hills,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,8,,control_top_k_only
+brands,10,College Park,Pine Hills,EF6C68A6-79FA-4356-AC34-E55FD6D28964,Razor Chic,,9,,control_top_k_only
+brands,10,College Park,Pine Hills,F7EBC47F-537A-4B6C-9DEC-EDB96FF0AB60,Sniper Gang Apparel,,4,,control_top_k_only
+brands,10,College Park,Pine Hills,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,3,,,area_top_k_only
+brands,10,College Park,Pine Hills,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,2,1,-1,both
+destinations,10,College Park,Pine Hills,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,5,4,-1,both
+destinations,10,College Park,Pine Hills,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,2,1,both
+destinations,10,College Park,Pine Hills,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,,10,,control_top_k_only
+destinations,10,College Park,Pine Hills,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,6,6,0,both
+destinations,10,College Park,Pine Hills,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,4,5,1,both
+destinations,10,College Park,Pine Hills,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,8,5,both
+destinations,10,College Park,Pine Hills,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,8,9,1,both
+destinations,10,College Park,Pine Hills,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,9,,,area_top_k_only
+destinations,10,College Park,Pine Hills,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,10,,,area_top_k_only
+destinations,10,College Park,Pine Hills,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,,7,,control_top_k_only
+destinations,10,College Park,Pine Hills,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,2,1,-1,both
+destinations,10,College Park,Pine Hills,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,7,3,-4,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:activities:place:go_karts,Go karts,,12,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:activities:place:hiking,Hiking,16,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:activities:place:walking,Walking,13,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:ambience:qloo:casual,Casual,10,20,10,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:ambience:qloo:fun,Fun,17,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:ambience:qloo:lively,Lively,11,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:ambience:qloo:social,Social,20,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,6,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:couples,Couples,8,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:families,Families,2,11,9,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:foodies,Foodies,3,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,7,18,11,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:locals,Locals,5,17,12,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:regulars,Regulars,19,16,-3,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:tourists,Tourists,4,19,15,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:customer_identity:qloo:young_professionals,Young Professionals,12,,,area_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place,Place,,13,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:luggage_store,Luggage store,,3,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:park,Park,18,15,-3,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:personal_care,Personal care,,10,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:american,American,15,9,-6,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,,8,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:crab_house,Crab house,,6,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:family,Family restaurant,,4,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:restaurant:seafood,Seafood,,7,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:shopping,Shopping,1,2,1,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:shopping_mall,Shopping mall,,1,,control_top_k_only
+place_tags,20,Winter Park,Pine Hills,urn:tag:genre:place:tourist_attraction,Tourist attraction,14,14,0,both
+place_tags,20,Winter Park,Pine Hills,urn:tag:specialty_dish:place:steak,Steak,9,5,-4,both
+brands,20,Winter Park,Pine Hills,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,18,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,08DFA533-2964-44E8-A6DE-CF66A45C1373,Magnolia,20,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,2,1,both
+brands,20,Winter Park,Pine Hills,134A30B0-CE77-4683-BB08-2273B3A88E0D,The Black Upstart,,13,,control_top_k_only
+brands,20,Winter Park,Pine Hills,18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C,West Elm,15,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,5,,control_top_k_only
+brands,20,Winter Park,Pine Hills,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,11,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,16,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,393CC228-97CF-4BF4-A3A7-A32B9227778F,The Knot,13,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,43FC4F54-2BE6-4579-9D32-4065DD4F1BC2,Luc Belaire,,18,,control_top_k_only
+brands,20,Winter Park,Pine Hills,48788B56-C419-421E-A016-202781E78C1D,Florida A&M University,,10,,control_top_k_only
+brands,20,Winter Park,Pine Hills,4C160FEA-FDB6-4DEC-99FC-13899680A0F4,Foot Locker,,14,,control_top_k_only
+brands,20,Winter Park,Pine Hills,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,5,11,6,both
+brands,20,Winter Park,Pine Hills,50A73864-984A-446F-8401-9F501EA0457B,Johnny Dang & Co.,,3,,control_top_k_only
+brands,20,Winter Park,Pine Hills,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,2,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,628FA7A2-4480-4A92-887E-8CD873C4427A,Flat Tummy Co,,17,,control_top_k_only
+brands,20,Winter Park,Pine Hills,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,10,20,10,both
+brands,20,Winter Park,Pine Hills,6C386104-464E-4FB5-8570-37B88B132875,Kate Spade New York,19,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,7EC9CA17-546C-4C91-B240-FBBFEE9F65BB,Black Girls Rock!,,15,,control_top_k_only
+brands,20,Winter Park,Pine Hills,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,,6,,control_top_k_only
+brands,20,Winter Park,Pine Hills,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,8,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,AF4FE54E-4396-4786-B6C5-1D352E0E0A16,Lilly Pulitzer,14,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,12,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,BE47753B-0C88-479F-A762-50F9CD401E83,The Cut Life,,7,,control_top_k_only
+brands,20,Winter Park,Pine Hills,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,3,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,9,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,17,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,7,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,CCE5BA3B-4F8C-4569-AAA4-823F924EB48A,Bleacher Report,,16,,control_top_k_only
+brands,20,Winter Park,Pine Hills,DCE5EA8F-FD51-4A10-8C51-4B48E4C9D9D5,Miami Heat,,12,,control_top_k_only
+brands,20,Winter Park,Pine Hills,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,8,,control_top_k_only
+brands,20,Winter Park,Pine Hills,EF6C68A6-79FA-4356-AC34-E55FD6D28964,Razor Chic,,9,,control_top_k_only
+brands,20,Winter Park,Pine Hills,EFBF3920-44B5-41FB-8BB0-AB84CB9F0623,Black Wall Street App,,19,,control_top_k_only
+brands,20,Winter Park,Pine Hills,F7EBC47F-537A-4B6C-9DEC-EDB96FF0AB60,Sniper Gang Apparel,,4,,control_top_k_only
+brands,20,Winter Park,Pine Hills,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,6,,,area_top_k_only
+brands,20,Winter Park,Pine Hills,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,4,1,-3,both
+destinations,20,Winter Park,Pine Hills,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,5,4,-1,both
+destinations,20,Winter Park,Pine Hills,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,16,12,-4,both
+destinations,20,Winter Park,Pine Hills,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,2,1,both
+destinations,20,Winter Park,Pine Hills,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,14,10,-4,both
+destinations,20,Winter Park,Pine Hills,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,4,6,2,both
+destinations,20,Winter Park,Pine Hills,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,7,5,-2,both
+destinations,20,Winter Park,Pine Hills,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,8,5,both
+destinations,20,Winter Park,Pine Hills,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,12,16,4,both
+destinations,20,Winter Park,Pine Hills,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,10,9,-1,both
+destinations,20,Winter Park,Pine Hills,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,8,20,12,both
+destinations,20,Winter Park,Pine Hills,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,13,14,1,both
+destinations,20,Winter Park,Pine Hills,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,11,17,6,both
+destinations,20,Winter Park,Pine Hills,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,19,15,-4,both
+destinations,20,Winter Park,Pine Hills,C7EBE0C9-7858-4669-BF84-62083A8133F7,Gainesville,20,18,-2,both
+destinations,20,Winter Park,Pine Hills,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,9,7,-2,both
+destinations,20,Winter Park,Pine Hills,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,15,13,-2,both
+destinations,20,Winter Park,Pine Hills,CF91B109-4896-49E0-AA0F-832FA04C7D00,Sarasota,17,,,area_top_k_only
+destinations,20,Winter Park,Pine Hills,D030593C-B4E8-43C4-B0CE-F705159A10D7,Pompano Beach,,19,,control_top_k_only
+destinations,20,Winter Park,Pine Hills,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,2,1,-1,both
+destinations,20,Winter Park,Pine Hills,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,6,3,-3,both
+destinations,20,Winter Park,Pine Hills,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,18,11,-7,both
+place_tags,20,College Park,Pine Hills,urn:tag:activities:place:go_karts,Go karts,,12,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:activities:place:hiking,Hiking,20,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:activities:place:walking,Walking,12,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:ambience:qloo:casual,Casual,19,20,1,both
+place_tags,20,College Park,Pine Hills,urn:tag:ambience:qloo:fun,Fun,13,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:ambience:qloo:lively,Lively,16,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,15,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:couples,Couples,10,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:families,Families,4,11,7,both
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:foodies,Foodies,2,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,7,18,11,both
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:locals,Locals,6,17,11,both
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:regulars,Regulars,,16,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:customer_identity:qloo:tourists,Tourists,5,19,14,both
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place,Place,,13,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:event_venue,Event venue,3,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:luggage_store,Luggage store,,3,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:park,Park,17,15,-2,both
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:personal_care,Personal care,,10,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:restaurant:american,American,11,9,-2,both
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,14,8,-6,both
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:restaurant:crab_house,Crab house,,6,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:restaurant:family,Family restaurant,,4,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:restaurant:seafood,Seafood,,7,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:shopping,Shopping,1,2,1,both
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:shopping_mall,Shopping mall,,1,,control_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:tourist_attraction,Tourist attraction,8,14,6,both
+place_tags,20,College Park,Pine Hills,urn:tag:genre:place:wedding_venue,Wedding venue,9,,,area_top_k_only
+place_tags,20,College Park,Pine Hills,urn:tag:specialty_dish:place:steak,Steak,18,5,-13,both
+brands,20,College Park,Pine Hills,08DFA533-2964-44E8-A6DE-CF66A45C1373,Magnolia,18,,,area_top_k_only
+brands,20,College Park,Pine Hills,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,2,1,both
+brands,20,College Park,Pine Hills,134A30B0-CE77-4683-BB08-2273B3A88E0D,The Black Upstart,,13,,control_top_k_only
+brands,20,College Park,Pine Hills,18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C,West Elm,14,,,area_top_k_only
+brands,20,College Park,Pine Hills,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,5,,control_top_k_only
+brands,20,College Park,Pine Hills,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,13,,,area_top_k_only
+brands,20,College Park,Pine Hills,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,12,,,area_top_k_only
+brands,20,College Park,Pine Hills,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,15,,,area_top_k_only
+brands,20,College Park,Pine Hills,393CC228-97CF-4BF4-A3A7-A32B9227778F,The Knot,20,,,area_top_k_only
+brands,20,College Park,Pine Hills,43FC4F54-2BE6-4579-9D32-4065DD4F1BC2,Luc Belaire,,18,,control_top_k_only
+brands,20,College Park,Pine Hills,45FE5EFB-FDF1-4497-B93C-2D9472D89324,Winnie Hospital,19,,,area_top_k_only
+brands,20,College Park,Pine Hills,48788B56-C419-421E-A016-202781E78C1D,Florida A&M University,,10,,control_top_k_only
+brands,20,College Park,Pine Hills,4C160FEA-FDB6-4DEC-99FC-13899680A0F4,Foot Locker,,14,,control_top_k_only
+brands,20,College Park,Pine Hills,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,6,11,5,both
+brands,20,College Park,Pine Hills,50A73864-984A-446F-8401-9F501EA0457B,Johnny Dang & Co.,,3,,control_top_k_only
+brands,20,College Park,Pine Hills,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,5,,,area_top_k_only
+brands,20,College Park,Pine Hills,628FA7A2-4480-4A92-887E-8CD873C4427A,Flat Tummy Co,,17,,control_top_k_only
+brands,20,College Park,Pine Hills,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,16,20,4,both
+brands,20,College Park,Pine Hills,761E5412-C14F-4F74-847A-9DB9563EF5D8,University of Florida,17,,,area_top_k_only
+brands,20,College Park,Pine Hills,7EC9CA17-546C-4C91-B240-FBBFEE9F65BB,Black Girls Rock!,,15,,control_top_k_only
+brands,20,College Park,Pine Hills,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,,6,,control_top_k_only
+brands,20,College Park,Pine Hills,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,11,,,area_top_k_only
+brands,20,College Park,Pine Hills,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,9,,,area_top_k_only
+brands,20,College Park,Pine Hills,BE47753B-0C88-479F-A762-50F9CD401E83,The Cut Life,,7,,control_top_k_only
+brands,20,College Park,Pine Hills,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,4,,,area_top_k_only
+brands,20,College Park,Pine Hills,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,8,,,area_top_k_only
+brands,20,College Park,Pine Hills,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,10,,,area_top_k_only
+brands,20,College Park,Pine Hills,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,7,,,area_top_k_only
+brands,20,College Park,Pine Hills,CCE5BA3B-4F8C-4569-AAA4-823F924EB48A,Bleacher Report,,16,,control_top_k_only
+brands,20,College Park,Pine Hills,DCE5EA8F-FD51-4A10-8C51-4B48E4C9D9D5,Miami Heat,,12,,control_top_k_only
+brands,20,College Park,Pine Hills,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,8,,control_top_k_only
+brands,20,College Park,Pine Hills,EF6C68A6-79FA-4356-AC34-E55FD6D28964,Razor Chic,,9,,control_top_k_only
+brands,20,College Park,Pine Hills,EFBF3920-44B5-41FB-8BB0-AB84CB9F0623,Black Wall Street App,,19,,control_top_k_only
+brands,20,College Park,Pine Hills,F7EBC47F-537A-4B6C-9DEC-EDB96FF0AB60,Sniper Gang Apparel,,4,,control_top_k_only
+brands,20,College Park,Pine Hills,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,3,,,area_top_k_only
+brands,20,College Park,Pine Hills,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,2,1,-1,both
+destinations,20,College Park,Pine Hills,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,5,4,-1,both
+destinations,20,College Park,Pine Hills,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,,12,,control_top_k_only
+destinations,20,College Park,Pine Hills,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,2,1,both
+destinations,20,College Park,Pine Hills,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,12,10,-2,both
+destinations,20,College Park,Pine Hills,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,6,6,0,both
+destinations,20,College Park,Pine Hills,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,4,5,1,both
+destinations,20,College Park,Pine Hills,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,8,5,both
+destinations,20,College Park,Pine Hills,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,11,16,5,both
+destinations,20,College Park,Pine Hills,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,8,9,1,both
+destinations,20,College Park,Pine Hills,8B27E3D4-E047-40EA-8E74-379CC4F78CAC,Savannah,18,,,area_top_k_only
+destinations,20,College Park,Pine Hills,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,9,20,11,both
+destinations,20,College Park,Pine Hills,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,17,14,-3,both
+destinations,20,College Park,Pine Hills,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,10,17,7,both
+destinations,20,College Park,Pine Hills,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,20,15,-5,both
+destinations,20,College Park,Pine Hills,C7EBE0C9-7858-4669-BF84-62083A8133F7,Gainesville,19,18,-1,both
+destinations,20,College Park,Pine Hills,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,13,7,-6,both
+destinations,20,College Park,Pine Hills,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,15,13,-2,both
+destinations,20,College Park,Pine Hills,CF91B109-4896-49E0-AA0F-832FA04C7D00,Sarasota,16,,,area_top_k_only
+destinations,20,College Park,Pine Hills,D030593C-B4E8-43C4-B0CE-F705159A10D7,Pompano Beach,,19,,control_top_k_only
+destinations,20,College Park,Pine Hills,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,2,1,-1,both
+destinations,20,College Park,Pine Hills,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,7,3,-4,both
+destinations,20,College Park,Pine Hills,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,14,11,-3,both

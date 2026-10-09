@@ -1,0 +1,13 @@
+{
+  "at": 1791470986.5297136,
+  "request_hash": "53844f8321e16abbff1820d5544a3775abd50bad5e39feef1cc9508bd6f43573",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.tags": "urn:tag:occupation:wikidata:pilates",
+    "take": "20"
+  },
+  "response_sha256": "d1187ea0d0ee98d6747eccce4c914281510b4e81c0e2861a2a234628c3bfa54b"
+}

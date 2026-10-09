@@ -1,0 +1,5 @@
+﻿request_id,college_park_food_dining,audubon_park_food_dining,baldwin_park_food_dining,azalea_park_food_dining
+college_park_food_dining,1.0,0.3333333333333333,0.42857142857142855,0.0
+audubon_park_food_dining,0.3333333333333333,1.0,0.3333333333333333,0.05263157894736842
+baldwin_park_food_dining,0.42857142857142855,0.3333333333333333,1.0,0.1111111111111111
+azalea_park_food_dining,0.0,0.05263157894736842,0.1111111111111111,1.0

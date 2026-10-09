@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T18:39:54.722649+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.985,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:destination",
+    "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+    "take": "20"
+  },
+  "raw_file": "pine_hills_destinations.a1.json",
+  "request_sha256": "10a8b183fb7088ed512bb2582fb23001696af9e4dd7d9ca0f30573659757364d",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:39:56 GMT"
+  },
+  "response_sha256": "02ffdefdefba63422a90ac1b8bb230f9287dda222f5cf2a40dfd09dabf3d3439",
+  "spec": {
+    "area": "Pine Hills",
+    "dimension": "destinations",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "pine_hills_destinations",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.type": "urn:entity:destination",
+      "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+      "take": 20
+    },
+    "role": "control"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Adestination&signal.location=37EB6689-42DA-48A6-8E2E-5767CC5A6E2A&take=20"
+}

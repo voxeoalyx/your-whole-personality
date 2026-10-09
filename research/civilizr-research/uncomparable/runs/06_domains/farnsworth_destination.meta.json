@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T23:03:33.966480+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.313,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:destination",
+    "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+    "take": "10"
+  },
+  "raw_file": "farnsworth_destination.a1.json",
+  "request_sha256": "c6db7b0069cce3005a469acabb21e1ddc9b50692009f33e16614bbad398d5b23",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:03:35 GMT"
+  },
+  "response_sha256": "4ba2ba1192cd0b752f2f1c46b2447ee2553f97fefede6b68de1d97fea491cbdd",
+  "spec": {
+    "domain": "destination",
+    "endpoint": "/v2/insights",
+    "id": "farnsworth_destination",
+    "input": "farnsworth",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:destination",
+      "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Adestination&signal.interests.entities=AF7BB7E1-568A-45A9-BA52-2C91021BC61E&take=10"
+}

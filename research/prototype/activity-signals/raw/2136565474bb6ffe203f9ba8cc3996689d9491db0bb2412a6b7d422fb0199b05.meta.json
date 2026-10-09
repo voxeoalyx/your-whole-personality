@@ -1,0 +1,13 @@
+{
+  "at": 1791470977.6170993,
+  "request_hash": "2136565474bb6ffe203f9ba8cc3996689d9491db0bb2412a6b7d422fb0199b05",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:videogame",
+    "signal.interests.tags": "urn:tag:genre:place:pilates_studio",
+    "take": "20"
+  },
+  "response_sha256": "21c43bb390c823b2dfd901508609a9af012dd5872870ee2363da6fcc1ef43891"
+}

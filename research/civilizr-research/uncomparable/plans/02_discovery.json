@@ -1,0 +1,183 @@
+{
+  "title": "House, author, style and audience coverage",
+  "requests": [
+    {
+      "id": "jacobs_house",
+      "endpoint": "/search",
+      "params": {
+        "query": "Herbert Jacobs House",
+        "types": "urn:entity:place",
+        "take": 10
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "fallingwater_house",
+      "endpoint": "/search",
+      "params": {
+        "query": "Fallingwater",
+        "types": "urn:entity:place",
+        "take": 10
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "farnsworth_house",
+      "endpoint": "/search",
+      "params": {
+        "query": "Farnsworth House",
+        "types": "urn:entity:place",
+        "take": 10
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "eames_house",
+      "endpoint": "/search",
+      "params": {
+        "query": "Eames House",
+        "types": "urn:entity:place",
+        "take": 10
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "gamble_house",
+      "endpoint": "/search",
+      "params": {
+        "query": "Gamble House",
+        "types": "urn:entity:place",
+        "take": 10
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "douglass_house",
+      "endpoint": "/search",
+      "params": {
+        "query": "Frederick Douglass National Historic Site",
+        "types": "urn:entity:place",
+        "take": 10
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "mckinley_house",
+      "endpoint": "/search",
+      "params": {
+        "query": "McKinley Project Garland",
+        "types": "urn:entity:place",
+        "take": 10
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "charles_eames",
+      "endpoint": "/search",
+      "params": {
+        "query": "Charles Eames",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "ray_eames",
+      "endpoint": "/search",
+      "params": {
+        "query": "Ray Eames",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "greene",
+      "endpoint": "/search",
+      "params": {
+        "query": "Charles Greene",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "frederick_douglass",
+      "endpoint": "/search",
+      "params": {
+        "query": "Frederick Douglass",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "bauhaus",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "Bauhaus",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "international",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "International Style",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "midcentury",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "mid century",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "craftsman",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "Craftsman",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "victorian",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "Victorian",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "sustainable",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "sustainable",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "furniture",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.query": "furniture",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "audiences",
+      "endpoint": "/v2/audiences",
+      "params": {
+        "filter.parents.types": "urn:audience:hobbies_and_interests",
+        "take": 50
+      },
+      "kind": "discovery"
+    }
+  ]
+}

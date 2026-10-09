@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-07T23:04:18.809055+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.531,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.tags": "urn:tag:industry:qloo:home_goods",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+    "take": "12"
+  },
+  "raw_file": "wright_design.a1.json",
+  "request_sha256": "13d452ce168482736cb5195d9ee637d7e0d5eceddfe1980a30a5cf9c6b82776e",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:04:20 GMT"
+  },
+  "response_sha256": "2aaaa88da07ee45ff919bd71b4bfb54702703f071d94c5d34a3fc89fef8b56b5",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "wright_design",
+    "input": "wright",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.tags": "urn:tag:industry:qloo:home_goods",
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+      "take": 12
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.tags=urn%3Atag%3Aindustry%3Aqloo%3Ahome_goods&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0&take=12"
+}

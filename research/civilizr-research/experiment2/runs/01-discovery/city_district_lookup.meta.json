@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-07T19:23:09.012987+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.594,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Central Business District, Orlando, Florida",
+    "take": "5",
+    "types": "urn:entity:locality"
+  },
+  "raw_file": "city_district_lookup.a1.json",
+  "request_sha256": "fc42d2664668a096f38a40c04499830cffb98c86091b5f883d3bbb66301ec668",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 19:23:10 GMT"
+  },
+  "response_sha256": "7be4fafd02bf19030788ac5d80ee761c36a38f5d091aa47943f1dc98904324c7",
+  "spec": {
+    "endpoint": "/search",
+    "id": "city_district_lookup",
+    "kind": "discovery",
+    "params": {
+      "query": "Central Business District, Orlando, Florida",
+      "take": 5,
+      "types": "urn:entity:locality"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Central+Business+District%2C+Orlando%2C+Florida&take=5&types=urn%3Aentity%3Alocality"
+}

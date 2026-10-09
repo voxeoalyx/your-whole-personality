@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:47.915228+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.282,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Metallica",
+    "take": "5",
+    "types": "urn:entity:artist"
+  },
+  "raw_file": "metallica.a1.json",
+  "request_sha256": "5b1b3dd0969de70a29f275388b32111a4de07b86b30e532730da5630c62c6873",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:48 GMT"
+  },
+  "response_sha256": "52eaab2c0d9f71d9cd5071f430cc5d7df1cb6a8d671c1e42dc6f2425e2d16a0b",
+  "spec": {
+    "endpoint": "/search",
+    "id": "metallica",
+    "kind": "discovery",
+    "params": {
+      "query": "Metallica",
+      "take": 5,
+      "types": "urn:entity:artist"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Metallica&take=5&types=urn%3Aentity%3Aartist"
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://gis.atlantaga.gov/dpcd/rest/services/AdministrativeArea/GeopoliticalArea/MapServer/1/query?where=NAME+IN+%28%27Midtown%27%2C%27Inman+Park%27%2C%27West+End%27%29&outFields=NAME%2CACRES%2CSQMILES%2CLAST_EDITED_DATE&outSR=4326&f=geojson",
+  "status": 200,
+  "retrieved_at": "2026-10-07T19:18:28.348Z",
+  "sha256": "8d86d67c1c886c9fb05c2711cbbc4be739604dd279f8377c3cc9abb4d5e8ca9b"
+}

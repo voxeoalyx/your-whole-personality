@@ -1,0 +1,10 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+audubon_park_place_tags,Audubon Park,place_tags,profile,audubon_park_place_tags.a1.json,ok,200,20,20,20,{}
+audubon_park_brands,Audubon Park,brands,profile,audubon_park_brands.a1.json,ok,200,20,20,20,{}
+audubon_park_destinations,Audubon Park,destinations,profile,audubon_park_destinations.a1.json,ok,200,20,20,20,{}
+baldwin_park_place_tags,Baldwin Park,place_tags,profile,baldwin_park_place_tags.a1.json,ok,200,20,20,20,{}
+baldwin_park_brands,Baldwin Park,brands,profile,baldwin_park_brands.a1.json,ok,200,20,20,20,{}
+baldwin_park_destinations,Baldwin Park,destinations,profile,baldwin_park_destinations.a1.json,ok,200,20,20,20,{}
+azalea_park_place_tags,Azalea Park,place_tags,profile,azalea_park_place_tags.a1.json,ok,200,20,20,20,{}
+azalea_park_brands,Azalea Park,brands,profile,azalea_park_brands.a1.json,ok,200,20,20,20,{}
+azalea_park_destinations,Azalea Park,destinations,profile,azalea_park_destinations.a1.json,ok,200,20,20,20,{}

@@ -1,0 +1,10 @@
+{
+  "at": 1791470809.9758108,
+  "request_hash": "ab46904ae98932a756a3aecdd28821bccd1dcaf18df29ab6c84ee0ace2cb4f12",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.query": "pilates",
+    "take": "50"
+  },
+  "response_sha256": "53c862e6f685cf455196a2618af4112444d3247433b1c47e7dd1606e0b4937cd"
+}

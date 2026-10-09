@@ -1,0 +1,250 @@
+﻿dimension,k,area,control,id,name,area_rank,control_rank,control_minus_area_rank,observation
+place_tags,10,Audubon Park,Azalea Park,urn:tag:activities:place:go_karts,Go karts,,9,,control_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:activities:place:hiking,Hiking,,7,,control_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:activities:place:mini_golf,Mini golf,,10,,control_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:activities:place:walking,Walking,9,8,-1,both
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place,Place,4,5,1,both
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:art_gallery,Art gallery,7,,,area_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:botanical_garden,Botanical garden,6,,,area_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:church,Church,1,,,area_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:luggage_store,Luggage store,,2,,control_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:museum,Museum,10,,,area_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:park,Park,,6,,control_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:shopping,Shopping,2,1,-1,both
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:shopping_mall,Shopping mall,,3,,control_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:genre:place:tourist_attraction,Tourist attraction,3,4,1,both
+place_tags,10,Audubon Park,Azalea Park,urn:tag:specialty_dish:place:cuban_bowl,Cuban Bowl,8,,,area_top_k_only
+place_tags,10,Audubon Park,Azalea Park,urn:tag:specialty_dish:place:media_noche,Media Noche,5,,,area_top_k_only
+brands,10,Audubon Park,Azalea Park,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1,0,both
+brands,10,Audubon Park,Azalea Park,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,10,,control_top_k_only
+brands,10,Audubon Park,Azalea Park,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,8,,,area_top_k_only
+brands,10,Audubon Park,Azalea Park,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,10,3,-7,both
+brands,10,Audubon Park,Azalea Park,55EC2A63-EC95-4B68-84D6-4D5B7B8D6C8F,JetBlue Airways,,8,,control_top_k_only
+brands,10,Audubon Park,Azalea Park,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,2,7,5,both
+brands,10,Audubon Park,Azalea Park,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,,4,,control_top_k_only
+brands,10,Audubon Park,Azalea Park,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,6,6,0,both
+brands,10,Audubon Park,Azalea Park,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,3,,,area_top_k_only
+brands,10,Audubon Park,Azalea Park,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,9,,,area_top_k_only
+brands,10,Audubon Park,Azalea Park,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,7,,,area_top_k_only
+brands,10,Audubon Park,Azalea Park,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,9,,control_top_k_only
+brands,10,Audubon Park,Azalea Park,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,5,5,0,both
+brands,10,Audubon Park,Azalea Park,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,4,2,-2,both
+destinations,10,Audubon Park,Azalea Park,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,5,5,0,both
+destinations,10,Audubon Park,Azalea Park,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,,8,,control_top_k_only
+destinations,10,Audubon Park,Azalea Park,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1,0,both
+destinations,10,Audubon Park,Azalea Park,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,4,4,0,both
+destinations,10,Audubon Park,Azalea Park,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,6,7,1,both
+destinations,10,Audubon Park,Azalea Park,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,6,3,both
+destinations,10,Audubon Park,Azalea Park,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,10,,,area_top_k_only
+destinations,10,Audubon Park,Azalea Park,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,,10,,control_top_k_only
+destinations,10,Audubon Park,Azalea Park,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,7,9,2,both
+destinations,10,Audubon Park,Azalea Park,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,9,,,area_top_k_only
+destinations,10,Audubon Park,Azalea Park,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,2,2,0,both
+destinations,10,Audubon Park,Azalea Park,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,8,3,-5,both
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:activities:place:go_karts,Go karts,,9,,control_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:activities:place:hiking,Hiking,5,7,2,both
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:activities:place:mini_golf,Mini golf,,10,,control_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:activities:place:walking,Walking,4,8,4,both
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:families,Families,8,,,area_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:foodies,Foodies,6,,,area_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,10,,,area_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:locals,Locals,9,,,area_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:tourists,Tourists,7,,,area_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:genre:place,Place,,5,,control_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:genre:place:luggage_store,Luggage store,,2,,control_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:genre:place:park,Park,3,6,3,both
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:genre:place:shopping,Shopping,1,1,0,both
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:genre:place:shopping_mall,Shopping mall,,3,,control_top_k_only
+place_tags,10,Baldwin Park,Azalea Park,urn:tag:genre:place:tourist_attraction,Tourist attraction,2,4,2,both
+brands,10,Baldwin Park,Azalea Park,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1,0,both
+brands,10,Baldwin Park,Azalea Park,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,10,,control_top_k_only
+brands,10,Baldwin Park,Azalea Park,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,5,3,-2,both
+brands,10,Baldwin Park,Azalea Park,55EC2A63-EC95-4B68-84D6-4D5B7B8D6C8F,JetBlue Airways,,8,,control_top_k_only
+brands,10,Baldwin Park,Azalea Park,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,4,7,3,both
+brands,10,Baldwin Park,Azalea Park,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,7,4,-3,both
+brands,10,Baldwin Park,Azalea Park,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,9,6,-3,both
+brands,10,Baldwin Park,Azalea Park,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,6,,,area_top_k_only
+brands,10,Baldwin Park,Azalea Park,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,10,,,area_top_k_only
+brands,10,Baldwin Park,Azalea Park,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,8,,,area_top_k_only
+brands,10,Baldwin Park,Azalea Park,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,9,,control_top_k_only
+brands,10,Baldwin Park,Azalea Park,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,3,5,2,both
+brands,10,Baldwin Park,Azalea Park,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,2,2,0,both
+destinations,10,Baldwin Park,Azalea Park,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,7,5,-2,both
+destinations,10,Baldwin Park,Azalea Park,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,,8,,control_top_k_only
+destinations,10,Baldwin Park,Azalea Park,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,2,1,-1,both
+destinations,10,Baldwin Park,Azalea Park,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,4,4,0,both
+destinations,10,Baldwin Park,Azalea Park,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,9,7,-2,both
+destinations,10,Baldwin Park,Azalea Park,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,6,3,both
+destinations,10,Baldwin Park,Azalea Park,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,10,10,0,both
+destinations,10,Baldwin Park,Azalea Park,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,5,9,4,both
+destinations,10,Baldwin Park,Azalea Park,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,6,,,area_top_k_only
+destinations,10,Baldwin Park,Azalea Park,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,2,1,both
+destinations,10,Baldwin Park,Azalea Park,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,8,3,-5,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:activities:place:go_karts,Go karts,,9,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:activities:place:hiking,Hiking,12,7,-5,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:activities:place:mini_golf,Mini golf,,10,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:activities:place:walking,Walking,9,8,-1,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:ambience:qloo:casual,Casual,,14,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:ambience:qloo:counter_service,Counter Service,18,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:ambience:qloo:family_friendly,Family Friendly,,15,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:customer_identity:qloo:families,Families,,11,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:customer_identity:qloo:foodies,Foodies,20,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:customer_identity:qloo:locals,Locals,,16,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:customer_identity:qloo:solo_diners,Solo Diners,15,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:customer_identity:qloo:tourists,Tourists,19,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place,Place,4,5,1,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:amusement_park,Amusement park,,12,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:arena,Arena,,18,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:art_gallery,Art gallery,7,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:botanical_garden,Botanical garden,6,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:church,Church,1,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:event_venue,Event venue,16,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:gift_shop,Gift shop,17,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:luggage_store,Luggage store,14,2,-12,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:museum,Museum,10,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:park,Park,11,6,-5,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:restaurant:american,American,,13,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:restaurant:bar,Bar,,19,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,,17,,control_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:shopping,Shopping,2,1,-1,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:shopping_mall,Shopping mall,13,3,-10,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:genre:place:tourist_attraction,Tourist attraction,3,4,1,both
+place_tags,20,Audubon Park,Azalea Park,urn:tag:specialty_dish:place:cuban_bowl,Cuban Bowl,8,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:specialty_dish:place:media_noche,Media Noche,5,,,area_top_k_only
+place_tags,20,Audubon Park,Azalea Park,urn:tag:specialty_dish:place:steak,Steak,,20,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,0FE3028F-4E87-424E-BEB6-C6D2163D3F8C,NYX Professional Makeup,,11,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1,0,both
+brands,20,Audubon Park,Azalea Park,18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C,West Elm,18,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,10,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,13,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,2B93EA05-B8CA-471F-B302-396E0CC4B9CF,National Audubon Society,14,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,,17,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,309122BE-9C37-438E-A17B-59416C7B0C65,The Atlantic,20,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,8,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,427BF742-94B5-44C0-BBA1-8EE74ECC27D6,Virgin Atlantic,,18,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,10,3,-7,both
+brands,20,Audubon Park,Azalea Park,510BB91B-37C8-41A1-AE8D-9A96F0E58F61,Ipsy,,16,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,55EC2A63-EC95-4B68-84D6-4D5B7B8D6C8F,JetBlue Airways,,8,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,2,7,5,both
+brands,20,Audubon Park,Azalea Park,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,12,4,-8,both
+brands,20,Audubon Park,Azalea Park,7370D6A6-9D41-4B94-B579-900D053DB933,Boxycharm,,19,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,8129ADD8-7AE4-443D-B437-34CFEC91AC51,Oceana,19,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,8C3A7FCC-54A8-4D8A-A214-94554D10DDF7,Cycle Brewing,11,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,,14,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,A5707876-D5A1-49F0-ABF9-A793EA7736D2,Vice,16,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,17,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,AC8F9047-F23D-4A54-BBAA-A3CBD2991C02,Vans,15,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,6,6,0,both
+brands,20,Audubon Park,Azalea Park,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,,15,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,3,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,9,,,area_top_k_only
+brands,20,Audubon Park,Azalea Park,C74DBBCA-325E-479A-87B2-76A5F934D8B0,Delta Air Lines,,12,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,7,13,6,both
+brands,20,Audubon Park,Azalea Park,D72865CB-DDB5-4202-96A4-D0415C0ACBF3,Walmart,,20,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,9,,control_top_k_only
+brands,20,Audubon Park,Azalea Park,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,5,5,0,both
+brands,20,Audubon Park,Azalea Park,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,4,2,-2,both
+destinations,20,Audubon Park,Azalea Park,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,5,5,0,both
+destinations,20,Audubon Park,Azalea Park,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,,8,,control_top_k_only
+destinations,20,Audubon Park,Azalea Park,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1,0,both
+destinations,20,Audubon Park,Azalea Park,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,17,13,-4,both
+destinations,20,Audubon Park,Azalea Park,20C7831A-2A06-48EE-BC8C-3557895F4D14,Vero Beach,13,,,area_top_k_only
+destinations,20,Audubon Park,Azalea Park,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,4,4,0,both
+destinations,20,Audubon Park,Azalea Park,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,6,7,1,both
+destinations,20,Audubon Park,Azalea Park,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,6,3,both
+destinations,20,Audubon Park,Azalea Park,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,10,17,7,both
+destinations,20,Audubon Park,Azalea Park,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,11,10,-1,both
+destinations,20,Audubon Park,Azalea Park,8B27E3D4-E047-40EA-8E74-379CC4F78CAC,Savannah,19,,,area_top_k_only
+destinations,20,Audubon Park,Azalea Park,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,7,9,2,both
+destinations,20,Audubon Park,Azalea Park,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,15,12,-3,both
+destinations,20,Audubon Park,Azalea Park,A888626E-4FB4-4260-B948-056C875A65BA,New York,14,16,2,both
+destinations,20,Audubon Park,Azalea Park,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,12,18,6,both
+destinations,20,Audubon Park,Azalea Park,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,,19,,control_top_k_only
+destinations,20,Audubon Park,Azalea Park,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,9,11,2,both
+destinations,20,Audubon Park,Azalea Park,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,18,15,-3,both
+destinations,20,Audubon Park,Azalea Park,CF91B109-4896-49E0-AA0F-832FA04C7D00,Sarasota,16,,,area_top_k_only
+destinations,20,Audubon Park,Azalea Park,D61D2D34-1095-4D6C-A225-280E643CC957,San Juan,,14,,control_top_k_only
+destinations,20,Audubon Park,Azalea Park,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,2,2,0,both
+destinations,20,Audubon Park,Azalea Park,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,8,3,-5,both
+destinations,20,Audubon Park,Azalea Park,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,20,20,0,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:activities:place:go_karts,Go karts,,9,,control_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:activities:place:hiking,Hiking,5,7,2,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:activities:place:mini_golf,Mini golf,,10,,control_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:activities:place:walking,Walking,4,8,4,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:ambience:qloo:casual,Casual,14,14,0,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:ambience:qloo:family_friendly,Family Friendly,,15,,control_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:ambience:qloo:fun,Fun,17,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:ambience:qloo:lively,Lively,12,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:couples,Couples,11,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:families,Families,8,11,3,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:foodies,Foodies,6,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,10,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:locals,Locals,9,16,7,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:regulars,Regulars,18,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:customer_identity:qloo:tourists,Tourists,7,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place,Place,19,5,-14,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:amusement_park,Amusement park,,12,,control_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:arena,Arena,,18,,control_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:event_venue,Event venue,13,,,area_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:luggage_store,Luggage store,,2,,control_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:park,Park,3,6,3,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:restaurant:american,American,20,13,-7,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:restaurant:bar,Bar,16,19,3,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,,17,,control_top_k_only
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:shopping,Shopping,1,1,0,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:shopping_mall,Shopping mall,15,3,-12,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:genre:place:tourist_attraction,Tourist attraction,2,4,2,both
+place_tags,20,Baldwin Park,Azalea Park,urn:tag:specialty_dish:place:steak,Steak,,20,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,18,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,0FE3028F-4E87-424E-BEB6-C6D2163D3F8C,NYX Professional Makeup,,11,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1,0,both
+brands,20,Baldwin Park,Azalea Park,18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C,West Elm,17,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,,10,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,13,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,14,17,3,both
+brands,20,Baldwin Park,Azalea Park,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,12,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,393CC228-97CF-4BF4-A3A7-A32B9227778F,The Knot,20,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,427BF742-94B5-44C0-BBA1-8EE74ECC27D6,Virgin Atlantic,,18,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,45FE5EFB-FDF1-4497-B93C-2D9472D89324,Winnie Hospital,15,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,5,3,-2,both
+brands,20,Baldwin Park,Azalea Park,510BB91B-37C8-41A1-AE8D-9A96F0E58F61,Ipsy,,16,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,55EC2A63-EC95-4B68-84D6-4D5B7B8D6C8F,JetBlue Airways,,8,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,4,7,3,both
+brands,20,Baldwin Park,Azalea Park,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,7,4,-3,both
+brands,20,Baldwin Park,Azalea Park,7370D6A6-9D41-4B94-B579-900D053DB933,Boxycharm,,19,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,,14,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,16,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,9,6,-3,both
+brands,20,Baldwin Park,Azalea Park,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,,15,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,6,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,10,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,C53A11EA-B57B-4E8C-B9C9-A7D3AED6E9FB,Arnold Palmer Hospital,19,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,11,,,area_top_k_only
+brands,20,Baldwin Park,Azalea Park,C74DBBCA-325E-479A-87B2-76A5F934D8B0,Delta Air Lines,,12,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,8,13,5,both
+brands,20,Baldwin Park,Azalea Park,D72865CB-DDB5-4202-96A4-D0415C0ACBF3,Walmart,,20,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,,9,,control_top_k_only
+brands,20,Baldwin Park,Azalea Park,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,3,5,2,both
+brands,20,Baldwin Park,Azalea Park,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,2,2,0,both
+destinations,20,Baldwin Park,Azalea Park,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,7,5,-2,both
+destinations,20,Baldwin Park,Azalea Park,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,17,8,-9,both
+destinations,20,Baldwin Park,Azalea Park,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,2,1,-1,both
+destinations,20,Baldwin Park,Azalea Park,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,13,13,0,both
+destinations,20,Baldwin Park,Azalea Park,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,4,4,0,both
+destinations,20,Baldwin Park,Azalea Park,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,9,7,-2,both
+destinations,20,Baldwin Park,Azalea Park,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,3,6,3,both
+destinations,20,Baldwin Park,Azalea Park,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,16,17,1,both
+destinations,20,Baldwin Park,Azalea Park,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,10,10,0,both
+destinations,20,Baldwin Park,Azalea Park,8B27E3D4-E047-40EA-8E74-379CC4F78CAC,Savannah,12,,,area_top_k_only
+destinations,20,Baldwin Park,Azalea Park,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,5,9,4,both
+destinations,20,Baldwin Park,Azalea Park,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,18,12,-6,both
+destinations,20,Baldwin Park,Azalea Park,A888626E-4FB4-4260-B948-056C875A65BA,New York,11,16,5,both
+destinations,20,Baldwin Park,Azalea Park,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,14,18,4,both
+destinations,20,Baldwin Park,Azalea Park,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,19,19,0,both
+destinations,20,Baldwin Park,Azalea Park,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,6,11,5,both
+destinations,20,Baldwin Park,Azalea Park,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,20,15,-5,both
+destinations,20,Baldwin Park,Azalea Park,CF91B109-4896-49E0-AA0F-832FA04C7D00,Sarasota,15,,,area_top_k_only
+destinations,20,Baldwin Park,Azalea Park,D61D2D34-1095-4D6C-A225-280E643CC957,San Juan,,14,,control_top_k_only
+destinations,20,Baldwin Park,Azalea Park,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,2,1,both
+destinations,20,Baldwin Park,Azalea Park,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,8,3,-5,both
+destinations,20,Baldwin Park,Azalea Park,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,,20,,control_top_k_only

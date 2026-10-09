@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-07T18:36:39.190677+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.75,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.location": "28.5421109,-81.3790304",
+    "filter.radius": "30",
+    "page": "1",
+    "query": "College Park",
+    "take": "5",
+    "types": "urn:entity:locality"
+  },
+  "raw_file": "..\\03-discovery\\college_park_lookup.a1.json",
+  "request_sha256": "50e9bcfdbd4be604d795b83e35d09386c7b2fd8e5ede03986712582bcf55f49c",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:36:40 GMT"
+  },
+  "response_sha256": "b6d0d3e66d728311cda13acc6289ee3d36f6921a368af2531307fd6e3b13c0c4",
+  "spec": {
+    "id": "r3_college_park_lookup",
+    "kind": "lookup",
+    "area": "College Park",
+    "endpoint": "/search",
+    "params": {
+      "query": "College Park",
+      "types": "urn:entity:locality",
+      "filter.location": "28.5421109,-81.3790304",
+      "filter.radius": 30,
+      "take": 5,
+      "page": 1
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?filter.location=28.5421109%2C-81.3790304&filter.radius=30&page=1&query=College+Park&take=5&types=urn%3Aentity%3Alocality",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\03-discovery\\college_park_lookup.meta.json"
+}

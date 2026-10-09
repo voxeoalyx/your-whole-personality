@@ -1,0 +1,29 @@
+{
+  "title": "Minimal author and tag affinity pilot",
+  "requests": [
+    {
+      "id": "wright",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile"
+    },
+    {
+      "id": "usonian",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.tags": "urn:tag:decor:qloo:usonian",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile"
+    }
+  ]
+}

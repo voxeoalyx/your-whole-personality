@@ -1,0 +1,321 @@
+﻿request_id,area,dimension,k,id,name,membership,reciprocal_rank,ties_present
+college_park_food_dining,College Park,food_dining,10,2DEE09D2-F9CC-4705-87B6-78B30B71313A,Infusion Tea,1,1.0,False
+college_park_food_dining,College Park,food_dining,10,84EA5C8C-D16E-4BA9-90EA-6E89FB0E5FEC,The Tap Room at Dubsdread,1,0.5,False
+college_park_food_dining,College Park,food_dining,10,5F53E9B3-6BC6-4B30-9988-1C8351ABE487,Ollie's Public House,1,0.3333333333333333,False
+college_park_food_dining,College Park,food_dining,10,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.25,False
+college_park_food_dining,College Park,food_dining,10,E52822D0-6545-446A-89FA-35751063778F,Se7enBites,1,0.2,False
+college_park_food_dining,College Park,food_dining,10,7DA43F98-94D2-470E-B986-CCD2E4B3CC42,The Ravenous Pig,1,0.16666666666666666,False
+college_park_food_dining,College Park,food_dining,10,A8F11B34-55E9-4FBC-AF9C-B433C07A6820,Black Bean Deli Orlando,1,0.14285714285714285,False
+college_park_food_dining,College Park,food_dining,10,C043B13F-0995-449C-8969-4A7F86BBFEFC,Reyes Mezcaleria,1,0.125,False
+college_park_food_dining,College Park,food_dining,10,BF0442A5-482C-485C-B183-6D57C4B53BD3,Foxtail Coffee - Winter Park,1,0.1111111111111111,False
+college_park_food_dining,College Park,food_dining,10,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.1,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,4D6D5B63-71D6-45E5-9902-B1628215E277,Craft & Common,1,1.0,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,384F2733-63E5-467C-A9F3-0BB020372C03,Barnie's Coffee & Tea Co.,1,0.5,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,2EC2DE3A-B7BC-4745-9E1E-A66B80101E40,Starbucks Coffee Company,1,0.3333333333333333,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.25,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,4F756863-45F4-4882-9A30-C29DBA19E5B3,Deeply Coffee Company,1,0.2,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,6AD9F2FF-862A-4A41-9C9A-837D71903F8A,Eola General,1,0.16666666666666666,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,5C58548D-E645-4A8B-903A-82CB5B34A0B3,The Salty Donut,1,0.14285714285714285,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,42B3CC16-C828-46E1-9E49-F9B5EB324073,Light On The Sugar Bakery Café,1,0.125,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,D4CFCA6B-FB00-432E-81FC-F6CE938136DD,Qreate Coffee + Studio,1,0.1111111111111111,False
+college_park_coffee_cafes,College Park,coffee_cafes,10,362216F1-79B0-498D-A365-EF8D8E08F8B0,Easy Luck Coffee & Bodega,1,0.1,False
+college_park_fitness,College Park,fitness,10,B53E8EA3-969D-4CFF-987A-48868705B9E7,Genesis Health Clubs – Orlando Sportsplex,1,1.0,False
+college_park_fitness,College Park,fitness,10,82041438-6074-4F01-9167-4BE904203775,The Rosen JCC,1,0.5,False
+college_park_fitness,College Park,fitness,10,3ECAD9BC-7965-441A-AB84-72CAB15FC668,Fitness CF - Orlando Dr Phillips,1,0.3333333333333333,False
+college_park_fitness,College Park,fitness,10,615CE4AA-F351-4BDE-AD97-0C9BD686A8E2,Planet Fitness,1,0.25,False
+college_park_fitness,College Park,fitness,10,04CEBC78-A8FA-4030-8D95-E9A088996DF3,Orlando Brazilian Jiu-Jitsu LLC,1,0.2,False
+college_park_fitness,College Park,fitness,10,DE18372D-B10C-4D30-B523-133F639E87A5,Planet Fitness,1,0.16666666666666666,False
+college_park_fitness,College Park,fitness,10,18F33143-F1FB-4F1F-90A5-32DA39D641A2,Fusion X-Cel Performance,1,0.14285714285714285,False
+college_park_fitness,College Park,fitness,10,D03AF400-E5C8-47F6-9F8C-8DFFD2DF6073,Fabin Rosa Brazilian Jiu Jitsu Academy,1,0.125,False
+college_park_fitness,College Park,fitness,10,84B9E9FA-7BDD-4152-836F-D12A10B4395B,Power Strength Gym,1,0.1111111111111111,False
+college_park_fitness,College Park,fitness,10,300260BE-A633-4206-AD58-6C180E72C0C5,Planet Fitness,1,0.1,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,5F53E9B3-6BC6-4B30-9988-1C8351ABE487,Ollie's Public House,1,1.0,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.5,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.3333333333333333,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.25,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,5DE36905-7D16-4F36-BCFF-C554EB25B209,The Stubborn Mule,1,0.2,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,06AF90AC-31FE-46AC-9A11-07D36A1BB045,PR's Taco Palace and Margarita Bar,1,0.16666666666666666,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,2EB58149-FDEC-4F93-B22B-6A827D08AC9C,Agave Azul Winter Park,1,0.14285714285714285,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,BAE9A510-9513-461E-B1FC-A8309893F4AE,The Wine Room on Park Avenue,1,0.125,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.1111111111111111,False
+college_park_nightlife_bars,College Park,nightlife_bars,10,0B8D5031-AF35-4D7A-AA2B-730EADF7F596,Fiddlers Green Irish Pub & Eatery,1,0.1,False
+audubon_park_food_dining,Audubon Park,food_dining,10,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,1.0,False
+audubon_park_food_dining,Audubon Park,food_dining,10,A8F11B34-55E9-4FBC-AF9C-B433C07A6820,Black Bean Deli Orlando,1,0.5,False
+audubon_park_food_dining,Audubon Park,food_dining,10,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.3333333333333333,False
+audubon_park_food_dining,Audubon Park,food_dining,10,E52822D0-6545-446A-89FA-35751063778F,Se7enBites,1,0.25,False
+audubon_park_food_dining,Audubon Park,food_dining,10,7DA43F98-94D2-470E-B986-CCD2E4B3CC42,The Ravenous Pig,1,0.2,False
+audubon_park_food_dining,Audubon Park,food_dining,10,D5752331-637B-48E7-9D2B-F1FDDCB3004D,Market On South- NEW Management,1,0.16666666666666666,False
+audubon_park_food_dining,Audubon Park,food_dining,10,97B2FCCA-DA74-445C-BD26-BB7FB9224C80,Hunger Street Tacos,1,0.14285714285714285,False
+audubon_park_food_dining,Audubon Park,food_dining,10,9F825FFC-8962-4A7D-A812-58FF392D5854,Krungthep Tea Time,1,0.125,False
+audubon_park_food_dining,Audubon Park,food_dining,10,A33A6A73-7220-4422-BB19-0CA9E7C023B8,Mathers Social Gathering,1,0.1111111111111111,False
+audubon_park_food_dining,Audubon Park,food_dining,10,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.1,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,2F261A44-8365-4308-B436-211978741DC1,Seito Sushi Baldwin Park,1,1.0,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,7DA43F98-94D2-470E-B986-CCD2E4B3CC42,The Ravenous Pig,1,0.5,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.3333333333333333,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,A33A6A73-7220-4422-BB19-0CA9E7C023B8,Mathers Social Gathering,1,0.25,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,E52822D0-6545-446A-89FA-35751063778F,Se7enBites,1,0.2,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,7899AF6E-4A6A-4253-AF2A-79D744EBD880,Bulla Gastrobar Winter Park,1,0.16666666666666666,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,BF0442A5-482C-485C-B183-6D57C4B53BD3,Foxtail Coffee - Winter Park,1,0.14285714285714285,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,7335CEA3-F278-434E-B507-825587707809,Hard Rock Cafe,1,0.125,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,C043B13F-0995-449C-8969-4A7F86BBFEFC,Reyes Mezcaleria,1,0.1111111111111111,False
+baldwin_park_food_dining,Baldwin Park,food_dining,10,A8F11B34-55E9-4FBC-AF9C-B433C07A6820,Black Bean Deli Orlando,1,0.1,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,384F2733-63E5-467C-A9F3-0BB020372C03,Barnie's Coffee & Tea Co.,1,1.0,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,4D6D5B63-71D6-45E5-9902-B1628215E277,Craft & Common,1,0.5,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.3333333333333333,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,5C58548D-E645-4A8B-903A-82CB5B34A0B3,The Salty Donut,1,0.25,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,4F756863-45F4-4882-9A30-C29DBA19E5B3,Deeply Coffee Company,1,0.2,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,6AD9F2FF-862A-4A41-9C9A-837D71903F8A,Eola General,1,0.16666666666666666,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,6736360C-43F1-4E0C-87B4-AF9E6AA7ABEA,Starbucks Coffee Company,1,0.14285714285714285,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,42B3CC16-C828-46E1-9E49-F9B5EB324073,Light On The Sugar Bakery Café,1,0.125,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,D4CFCA6B-FB00-432E-81FC-F6CE938136DD,Qreate Coffee + Studio,1,0.1111111111111111,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,10,C024EACA-5150-4EF8-9EFB-749BE2D09FED,Starbucks,1,0.1,False
+baldwin_park_fitness,Baldwin Park,fitness,10,B53E8EA3-969D-4CFF-987A-48868705B9E7,Genesis Health Clubs – Orlando Sportsplex,1,1.0,False
+baldwin_park_fitness,Baldwin Park,fitness,10,3ECAD9BC-7965-441A-AB84-72CAB15FC668,Fitness CF - Orlando Dr Phillips,1,0.5,False
+baldwin_park_fitness,Baldwin Park,fitness,10,82041438-6074-4F01-9167-4BE904203775,The Rosen JCC,1,0.3333333333333333,False
+baldwin_park_fitness,Baldwin Park,fitness,10,84B9E9FA-7BDD-4152-836F-D12A10B4395B,Power Strength Gym,1,0.25,False
+baldwin_park_fitness,Baldwin Park,fitness,10,7E6727C0-7E8E-4E11-8450-BF9631DF45C5,Planet Fitness,1,0.2,False
+baldwin_park_fitness,Baldwin Park,fitness,10,DE18372D-B10C-4D30-B523-133F639E87A5,Planet Fitness,1,0.16666666666666666,False
+baldwin_park_fitness,Baldwin Park,fitness,10,615CE4AA-F351-4BDE-AD97-0C9BD686A8E2,Planet Fitness,1,0.14285714285714285,False
+baldwin_park_fitness,Baldwin Park,fitness,10,18F33143-F1FB-4F1F-90A5-32DA39D641A2,Fusion X-Cel Performance,1,0.125,False
+baldwin_park_fitness,Baldwin Park,fitness,10,A17E335B-05DB-400C-93F3-B086D86A053E,Holiday Inn Orlando-International Airport by IHG,1,0.1111111111111111,False
+baldwin_park_fitness,Baldwin Park,fitness,10,04CEBC78-A8FA-4030-8D95-E9A088996DF3,Orlando Brazilian Jiu-Jitsu LLC,1,0.1,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,1.0,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,BAE9A510-9513-461E-B1FC-A8309893F4AE,The Wine Room on Park Avenue,1,0.5,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.3333333333333333,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,5DE36905-7D16-4F36-BCFF-C554EB25B209,The Stubborn Mule,1,0.25,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.2,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,0B8D5031-AF35-4D7A-AA2B-730EADF7F596,Fiddlers Green Irish Pub & Eatery,1,0.16666666666666666,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,2EB58149-FDEC-4F93-B22B-6A827D08AC9C,Agave Azul Winter Park,1,0.14285714285714285,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,0F92860B-924E-41E4-A3F2-83AF1A0A3EC9,The Hangry Bison - Winter Park,1,0.125,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.1111111111111111,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,10,9894FDED-1BDE-4B9C-BBA0-D967B48CD768,Hamilton's Kitchen,1,0.1,False
+azalea_park_food_dining,Azalea Park,food_dining,10,A5C228DB-7C27-4EB9-BFAD-A82B36BA2F49,Dave & Buster's Orlando,1,1.0,False
+azalea_park_food_dining,Azalea Park,food_dining,10,F44A09FA-D5FC-46E8-A90F-637BB03E0D0D,Izziban Sushi & BBQ,1,0.5,False
+azalea_park_food_dining,Azalea Park,food_dining,10,7335CEA3-F278-434E-B507-825587707809,Hard Rock Cafe,1,0.3333333333333333,False
+azalea_park_food_dining,Azalea Park,food_dining,10,7F0417DB-FE08-4293-ABBC-672853CB0E81,La Isla Del Frappe & Puchunguis Pinchos,1,0.25,False
+azalea_park_food_dining,Azalea Park,food_dining,10,30D5AB15-9A0A-4EB5-B7BC-51D822EFF38E,Pointe Orlando,1,0.2,False
+azalea_park_food_dining,Azalea Park,food_dining,10,8F71E522-841D-4C19-B65D-A68FA964D64A,Miller's Ale House,1,0.16666666666666666,False
+azalea_park_food_dining,Azalea Park,food_dining,10,C5F2CF67-7034-4959-A9AD-37B00A8D8C8F,Cracker Barrel Old Country Store,1,0.14285714285714285,False
+azalea_park_food_dining,Azalea Park,food_dining,10,277FF0A0-7174-42A7-A6C4-EBB4FA05F5E2,Steak 'n Shake,1,0.125,False
+azalea_park_food_dining,Azalea Park,food_dining,10,A33A6A73-7220-4422-BB19-0CA9E7C023B8,Mathers Social Gathering,1,0.1111111111111111,False
+azalea_park_food_dining,Azalea Park,food_dining,10,8E7157C0-AE67-43B5-BB0A-5613AFA57783,Andretti Indoor Karting & Games Orlando,1,0.1,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,084BFEA0-A841-416A-BED4-F204F84865F7,Starbucks,1,1.0,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,F3487F69-6CDF-43AC-8CE8-88022A68289C,Panera Bread,1,0.5,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,F9B57630-9672-4399-8F25-CFD45CDCE1CB,Keke's Breakfast Cafe,1,0.3333333333333333,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,4D6D5B63-71D6-45E5-9902-B1628215E277,Craft & Common,1,0.25,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,0DDCBD3D-47AE-404B-BE9C-5530AF756D8D,Starbucks Coffee Company,1,0.2,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,384F2733-63E5-467C-A9F3-0BB020372C03,Barnie's Coffee & Tea Co.,1,0.16666666666666666,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,D1C0CBC0-E6FC-4112-B66B-E6569625C2BE,Vanessa's Coffee Shop,1,0.14285714285714285,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,71B88063-72C2-438B-9D4D-C3C73062A99E,SnowBean,1,0.125,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,5C58548D-E645-4A8B-903A-82CB5B34A0B3,The Salty Donut,1,0.1111111111111111,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,10,4F756863-45F4-4882-9A30-C29DBA19E5B3,Deeply Coffee Company,1,0.1,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,F44A09FA-D5FC-46E8-A90F-637BB03E0D0D,Izziban Sushi & BBQ,1,1.0,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,30D5AB15-9A0A-4EB5-B7BC-51D822EFF38E,Pointe Orlando,1,0.5,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,8F71E522-841D-4C19-B65D-A68FA964D64A,Miller's Ale House,1,0.3333333333333333,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,44BC5782-555D-4538-8F3E-D73E5F85A12F,Chili's Grill & Bar,1,0.25,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,37F1A032-6A4D-4B4F-85D1-8339942B1217,Chili's Grill & Bar,1,0.2,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,070EE434-A926-4FC5-8E08-01990BE7338D,Simon Parrilla Bar and Grill,1,0.16666666666666666,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,BAE9A510-9513-461E-B1FC-A8309893F4AE,The Wine Room on Park Avenue,1,0.14285714285714285,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,96637A77-FBB7-4D0A-8F3D-BAEF829DAAC7,Miller's Ale House,1,0.125,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.1111111111111111,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,10,5DE36905-7D16-4F36-BCFF-C554EB25B209,The Stubborn Mule,1,0.1,False
+college_park_food_dining,College Park,food_dining,20,2DEE09D2-F9CC-4705-87B6-78B30B71313A,Infusion Tea,1,1.0,False
+college_park_food_dining,College Park,food_dining,20,84EA5C8C-D16E-4BA9-90EA-6E89FB0E5FEC,The Tap Room at Dubsdread,1,0.5,False
+college_park_food_dining,College Park,food_dining,20,5F53E9B3-6BC6-4B30-9988-1C8351ABE487,Ollie's Public House,1,0.3333333333333333,False
+college_park_food_dining,College Park,food_dining,20,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.25,False
+college_park_food_dining,College Park,food_dining,20,E52822D0-6545-446A-89FA-35751063778F,Se7enBites,1,0.2,False
+college_park_food_dining,College Park,food_dining,20,7DA43F98-94D2-470E-B986-CCD2E4B3CC42,The Ravenous Pig,1,0.16666666666666666,False
+college_park_food_dining,College Park,food_dining,20,A8F11B34-55E9-4FBC-AF9C-B433C07A6820,Black Bean Deli Orlando,1,0.14285714285714285,False
+college_park_food_dining,College Park,food_dining,20,C043B13F-0995-449C-8969-4A7F86BBFEFC,Reyes Mezcaleria,1,0.125,False
+college_park_food_dining,College Park,food_dining,20,BF0442A5-482C-485C-B183-6D57C4B53BD3,Foxtail Coffee - Winter Park,1,0.1111111111111111,False
+college_park_food_dining,College Park,food_dining,20,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.1,False
+college_park_food_dining,College Park,food_dining,20,D5752331-637B-48E7-9D2B-F1FDDCB3004D,Market On South- NEW Management,1,0.09090909090909091,False
+college_park_food_dining,College Park,food_dining,20,97B2FCCA-DA74-445C-BD26-BB7FB9224C80,Hunger Street Tacos,1,0.08333333333333333,False
+college_park_food_dining,College Park,food_dining,20,A33A6A73-7220-4422-BB19-0CA9E7C023B8,Mathers Social Gathering,1,0.07692307692307693,False
+college_park_food_dining,College Park,food_dining,20,7899AF6E-4A6A-4253-AF2A-79D744EBD880,Bulla Gastrobar Winter Park,1,0.07142857142857142,False
+college_park_food_dining,College Park,food_dining,20,C0A80819-EC72-410F-A6F3-6C6C08390793,TaKo Cheena,1,0.06666666666666667,False
+college_park_food_dining,College Park,food_dining,20,A331FE10-AC26-4920-AC13-808B0ED25EF0,Buttermilk Bakery,1,0.0625,False
+college_park_food_dining,College Park,food_dining,20,9F825FFC-8962-4A7D-A812-58FF392D5854,Krungthep Tea Time,1,0.058823529411764705,False
+college_park_food_dining,College Park,food_dining,20,BA6B3774-E98F-4839-B5B1-F48A6787A9C1,Luke's Kitchen and Bar,1,0.05555555555555555,False
+college_park_food_dining,College Park,food_dining,20,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.05263157894736842,False
+college_park_food_dining,College Park,food_dining,20,7335CEA3-F278-434E-B507-825587707809,Hard Rock Cafe,1,0.05,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,4D6D5B63-71D6-45E5-9902-B1628215E277,Craft & Common,1,1.0,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,384F2733-63E5-467C-A9F3-0BB020372C03,Barnie's Coffee & Tea Co.,1,0.5,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,2EC2DE3A-B7BC-4745-9E1E-A66B80101E40,Starbucks Coffee Company,1,0.3333333333333333,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.25,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,4F756863-45F4-4882-9A30-C29DBA19E5B3,Deeply Coffee Company,1,0.2,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,6AD9F2FF-862A-4A41-9C9A-837D71903F8A,Eola General,1,0.16666666666666666,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,5C58548D-E645-4A8B-903A-82CB5B34A0B3,The Salty Donut,1,0.14285714285714285,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,42B3CC16-C828-46E1-9E49-F9B5EB324073,Light On The Sugar Bakery Café,1,0.125,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,D4CFCA6B-FB00-432E-81FC-F6CE938136DD,Qreate Coffee + Studio,1,0.1111111111111111,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,362216F1-79B0-498D-A365-EF8D8E08F8B0,Easy Luck Coffee & Bodega,1,0.1,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,A71AE9AF-6738-4043-BFFB-C60D14CD0B6C,DG Doughnuts,1,0.09090909090909091,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,C024EACA-5150-4EF8-9EFB-749BE2D09FED,Starbucks,1,0.08333333333333333,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,EE2B3A65-F7B8-4942-9BC7-65A61F7B3729,Benjamin French Bakery & Cafe,1,0.07692307692307693,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,6736360C-43F1-4E0C-87B4-AF9E6AA7ABEA,Starbucks Coffee Company,1,0.07142857142857142,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,5F27EE18-7717-4EBE-B0A1-D901972DDB83,Einstein Bros. Bagels,1,0.06666666666666667,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,91438763-0983-4F01-B19C-9851E779D90B,Ice & Bites Café,1,0.0625,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,68D7813E-DFD8-4DF9-B28D-87FED18944C2,DUO58 Community Coffee Bar & Cafe,1,0.058823529411764705,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,73CD83E1-462E-405B-BC5C-BB42C6C2D9D3,Paloma Parlor,1,0.05555555555555555,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,02A1CD39-4981-401F-B72B-971DEB654FDF,Framework Craft Coffee House,1,0.05263157894736842,False
+college_park_coffee_cafes,College Park,coffee_cafes,20,71B88063-72C2-438B-9D4D-C3C73062A99E,SnowBean,1,0.05,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,5F53E9B3-6BC6-4B30-9988-1C8351ABE487,Ollie's Public House,1,1.0,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.5,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.3333333333333333,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.25,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,5DE36905-7D16-4F36-BCFF-C554EB25B209,The Stubborn Mule,1,0.2,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,06AF90AC-31FE-46AC-9A11-07D36A1BB045,PR's Taco Palace and Margarita Bar,1,0.16666666666666666,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,2EB58149-FDEC-4F93-B22B-6A827D08AC9C,Agave Azul Winter Park,1,0.14285714285714285,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,BAE9A510-9513-461E-B1FC-A8309893F4AE,The Wine Room on Park Avenue,1,0.125,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.1111111111111111,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,0B8D5031-AF35-4D7A-AA2B-730EADF7F596,Fiddlers Green Irish Pub & Eatery,1,0.1,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,BBA9016E-68C2-48DD-B548-B8A0E085E0F8,Wally's Bar and Liquors,1,0.09090909090909091,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,9894FDED-1BDE-4B9C-BBA0-D967B48CD768,Hamilton's Kitchen,1,0.08333333333333333,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,0F92860B-924E-41E4-A3F2-83AF1A0A3EC9,The Hangry Bison - Winter Park,1,0.07692307692307693,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,69EFF30B-78A4-4A07-BA28-4A7CA3078209,Reel Fish Coastal Kitchen and Bar,1,0.07142857142857142,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,73C15CAB-E956-4B31-88EF-649248E390FC,Garp & Fuss,1,0.06666666666666667,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,B7176110-262E-4425-8B18-574E2C144A18,Aku Aku Tiki Bar,1,0.0625,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,30D5AB15-9A0A-4EB5-B7BC-51D822EFF38E,Pointe Orlando,1,0.058823529411764705,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,372CAB86-28FA-43FE-A62E-77B9C020F370,American Social - Bar & Kitchen - Orlando,1,0.05555555555555555,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,AC493D0E-185B-47CE-9116-0879BBBA4C28,Copper Rocket,1,0.05263157894736842,False
+college_park_nightlife_bars,College Park,nightlife_bars,20,DB88B0DC-6A32-4286-9760-F77E7EDF70AB,The Nook on Robinson,1,0.05,False
+audubon_park_food_dining,Audubon Park,food_dining,20,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,1.0,False
+audubon_park_food_dining,Audubon Park,food_dining,20,A8F11B34-55E9-4FBC-AF9C-B433C07A6820,Black Bean Deli Orlando,1,0.5,False
+audubon_park_food_dining,Audubon Park,food_dining,20,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.3333333333333333,False
+audubon_park_food_dining,Audubon Park,food_dining,20,E52822D0-6545-446A-89FA-35751063778F,Se7enBites,1,0.25,False
+audubon_park_food_dining,Audubon Park,food_dining,20,7DA43F98-94D2-470E-B986-CCD2E4B3CC42,The Ravenous Pig,1,0.2,False
+audubon_park_food_dining,Audubon Park,food_dining,20,D5752331-637B-48E7-9D2B-F1FDDCB3004D,Market On South- NEW Management,1,0.16666666666666666,False
+audubon_park_food_dining,Audubon Park,food_dining,20,97B2FCCA-DA74-445C-BD26-BB7FB9224C80,Hunger Street Tacos,1,0.14285714285714285,False
+audubon_park_food_dining,Audubon Park,food_dining,20,9F825FFC-8962-4A7D-A812-58FF392D5854,Krungthep Tea Time,1,0.125,False
+audubon_park_food_dining,Audubon Park,food_dining,20,A33A6A73-7220-4422-BB19-0CA9E7C023B8,Mathers Social Gathering,1,0.1111111111111111,False
+audubon_park_food_dining,Audubon Park,food_dining,20,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.1,False
+audubon_park_food_dining,Audubon Park,food_dining,20,C0A80819-EC72-410F-A6F3-6C6C08390793,TaKo Cheena,1,0.09090909090909091,False
+audubon_park_food_dining,Audubon Park,food_dining,20,EECBE077-098B-4CFF-B5C4-12C7CD094A96,Tasty Takeover,1,0.08333333333333333,False
+audubon_park_food_dining,Audubon Park,food_dining,20,C043B13F-0995-449C-8969-4A7F86BBFEFC,Reyes Mezcaleria,1,0.07692307692307693,False
+audubon_park_food_dining,Audubon Park,food_dining,20,BF0442A5-482C-485C-B183-6D57C4B53BD3,Foxtail Coffee - Winter Park,1,0.07142857142857142,False
+audubon_park_food_dining,Audubon Park,food_dining,20,A331FE10-AC26-4920-AC13-808B0ED25EF0,Buttermilk Bakery,1,0.06666666666666667,False
+audubon_park_food_dining,Audubon Park,food_dining,20,7335CEA3-F278-434E-B507-825587707809,Hard Rock Cafe,1,0.0625,False
+audubon_park_food_dining,Audubon Park,food_dining,20,2F261A44-8365-4308-B436-211978741DC1,Seito Sushi Baldwin Park,1,0.058823529411764705,False
+audubon_park_food_dining,Audubon Park,food_dining,20,4D6D5B63-71D6-45E5-9902-B1628215E277,Craft & Common,1,0.05555555555555555,False
+audubon_park_food_dining,Audubon Park,food_dining,20,3AB00A83-72BA-462E-AD83-2F2B07421271,Foxtail Coffee - Hourglass District,1,0.05263157894736842,False
+audubon_park_food_dining,Audubon Park,food_dining,20,3A9A6491-4345-49BC-8152-499993D892B2,Big Daddy's Orlando,1,0.05,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,2F261A44-8365-4308-B436-211978741DC1,Seito Sushi Baldwin Park,1,1.0,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,7DA43F98-94D2-470E-B986-CCD2E4B3CC42,The Ravenous Pig,1,0.5,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.3333333333333333,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,A33A6A73-7220-4422-BB19-0CA9E7C023B8,Mathers Social Gathering,1,0.25,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,E52822D0-6545-446A-89FA-35751063778F,Se7enBites,1,0.2,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,7899AF6E-4A6A-4253-AF2A-79D744EBD880,Bulla Gastrobar Winter Park,1,0.16666666666666666,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,BF0442A5-482C-485C-B183-6D57C4B53BD3,Foxtail Coffee - Winter Park,1,0.14285714285714285,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,7335CEA3-F278-434E-B507-825587707809,Hard Rock Cafe,1,0.125,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,C043B13F-0995-449C-8969-4A7F86BBFEFC,Reyes Mezcaleria,1,0.1111111111111111,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,A8F11B34-55E9-4FBC-AF9C-B433C07A6820,Black Bean Deli Orlando,1,0.1,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,BAE9A510-9513-461E-B1FC-A8309893F4AE,The Wine Room on Park Avenue,1,0.09090909090909091,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,D5752331-637B-48E7-9D2B-F1FDDCB3004D,Market On South- NEW Management,1,0.08333333333333333,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,9F825FFC-8962-4A7D-A812-58FF392D5854,Krungthep Tea Time,1,0.07692307692307693,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,BA6B3774-E98F-4839-B5B1-F48A6787A9C1,Luke's Kitchen and Bar,1,0.07142857142857142,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.06666666666666667,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,5DE36905-7D16-4F36-BCFF-C554EB25B209,The Stubborn Mule,1,0.0625,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.058823529411764705,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,384F2733-63E5-467C-A9F3-0BB020372C03,Barnie's Coffee & Tea Co.,1,0.05555555555555555,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,97B2FCCA-DA74-445C-BD26-BB7FB9224C80,Hunger Street Tacos,1,0.05263157894736842,False
+baldwin_park_food_dining,Baldwin Park,food_dining,20,C0A80819-EC72-410F-A6F3-6C6C08390793,TaKo Cheena,1,0.05,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,384F2733-63E5-467C-A9F3-0BB020372C03,Barnie's Coffee & Tea Co.,1,1.0,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,4D6D5B63-71D6-45E5-9902-B1628215E277,Craft & Common,1,0.5,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.3333333333333333,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,5C58548D-E645-4A8B-903A-82CB5B34A0B3,The Salty Donut,1,0.25,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,4F756863-45F4-4882-9A30-C29DBA19E5B3,Deeply Coffee Company,1,0.2,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,6AD9F2FF-862A-4A41-9C9A-837D71903F8A,Eola General,1,0.16666666666666666,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,6736360C-43F1-4E0C-87B4-AF9E6AA7ABEA,Starbucks Coffee Company,1,0.14285714285714285,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,42B3CC16-C828-46E1-9E49-F9B5EB324073,Light On The Sugar Bakery Café,1,0.125,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,D4CFCA6B-FB00-432E-81FC-F6CE938136DD,Qreate Coffee + Studio,1,0.1111111111111111,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,C024EACA-5150-4EF8-9EFB-749BE2D09FED,Starbucks,1,0.1,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,91438763-0983-4F01-B19C-9851E779D90B,Ice & Bites Café,1,0.09090909090909091,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,0DDCBD3D-47AE-404B-BE9C-5530AF756D8D,Starbucks Coffee Company,1,0.08333333333333333,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,EE2B3A65-F7B8-4942-9BC7-65A61F7B3729,Benjamin French Bakery & Cafe,1,0.07692307692307693,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,71B88063-72C2-438B-9D4D-C3C73062A99E,SnowBean,1,0.07142857142857142,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,A71AE9AF-6738-4043-BFFB-C60D14CD0B6C,DG Doughnuts,1,0.06666666666666667,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,362216F1-79B0-498D-A365-EF8D8E08F8B0,Easy Luck Coffee & Bodega,1,0.0625,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,CFCD7336-DE6A-49E8-9AF6-0E8A0C6C5629,Starbucks,1,0.058823529411764705,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,68D7813E-DFD8-4DF9-B28D-87FED18944C2,DUO58 Community Coffee Bar & Cafe,1,0.05555555555555555,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,084BFEA0-A841-416A-BED4-F204F84865F7,Starbucks,1,0.05263157894736842,False
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,20,2EC2DE3A-B7BC-4745-9E1E-A66B80101E40,Starbucks Coffee Company,1,0.05,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,1.0,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,BAE9A510-9513-461E-B1FC-A8309893F4AE,The Wine Room on Park Avenue,1,0.5,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.3333333333333333,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,5DE36905-7D16-4F36-BCFF-C554EB25B209,The Stubborn Mule,1,0.25,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.2,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,0B8D5031-AF35-4D7A-AA2B-730EADF7F596,Fiddlers Green Irish Pub & Eatery,1,0.16666666666666666,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,2EB58149-FDEC-4F93-B22B-6A827D08AC9C,Agave Azul Winter Park,1,0.14285714285714285,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,0F92860B-924E-41E4-A3F2-83AF1A0A3EC9,The Hangry Bison - Winter Park,1,0.125,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.1111111111111111,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,9894FDED-1BDE-4B9C-BBA0-D967B48CD768,Hamilton's Kitchen,1,0.1,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,F44A09FA-D5FC-46E8-A90F-637BB03E0D0D,Izziban Sushi & BBQ,1,0.09090909090909091,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,30D5AB15-9A0A-4EB5-B7BC-51D822EFF38E,Pointe Orlando,1,0.08333333333333333,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,69EFF30B-78A4-4A07-BA28-4A7CA3078209,Reel Fish Coastal Kitchen and Bar,1,0.07692307692307693,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,5F53E9B3-6BC6-4B30-9988-1C8351ABE487,Ollie's Public House,1,0.07142857142857142,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,A9137CBF-7791-4948-93EB-4D299A7FA2D3,Cowboys Orlando,1,0.06666666666666667,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,BBA9016E-68C2-48DD-B548-B8A0E085E0F8,Wally's Bar and Liquors,1,0.0625,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,D23B092B-254A-4A73-9BE2-C762701346AA,Howl at the Moon Orlando,1,0.058823529411764705,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,73C15CAB-E956-4B31-88EF-649248E390FC,Garp & Fuss,1,0.05555555555555555,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,BBC62CAB-290B-46C9-9A53-B1B8096B121F,Epic Axe Throwing,1,0.05263157894736842,False
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,20,372CAB86-28FA-43FE-A62E-77B9C020F370,American Social - Bar & Kitchen - Orlando,1,0.05,False
+azalea_park_food_dining,Azalea Park,food_dining,20,A5C228DB-7C27-4EB9-BFAD-A82B36BA2F49,Dave & Buster's Orlando,1,1.0,False
+azalea_park_food_dining,Azalea Park,food_dining,20,F44A09FA-D5FC-46E8-A90F-637BB03E0D0D,Izziban Sushi & BBQ,1,0.5,False
+azalea_park_food_dining,Azalea Park,food_dining,20,7335CEA3-F278-434E-B507-825587707809,Hard Rock Cafe,1,0.3333333333333333,False
+azalea_park_food_dining,Azalea Park,food_dining,20,7F0417DB-FE08-4293-ABBC-672853CB0E81,La Isla Del Frappe & Puchunguis Pinchos,1,0.25,False
+azalea_park_food_dining,Azalea Park,food_dining,20,30D5AB15-9A0A-4EB5-B7BC-51D822EFF38E,Pointe Orlando,1,0.2,False
+azalea_park_food_dining,Azalea Park,food_dining,20,8F71E522-841D-4C19-B65D-A68FA964D64A,Miller's Ale House,1,0.16666666666666666,False
+azalea_park_food_dining,Azalea Park,food_dining,20,C5F2CF67-7034-4959-A9AD-37B00A8D8C8F,Cracker Barrel Old Country Store,1,0.14285714285714285,False
+azalea_park_food_dining,Azalea Park,food_dining,20,277FF0A0-7174-42A7-A6C4-EBB4FA05F5E2,Steak 'n Shake,1,0.125,False
+azalea_park_food_dining,Azalea Park,food_dining,20,A33A6A73-7220-4422-BB19-0CA9E7C023B8,Mathers Social Gathering,1,0.1111111111111111,False
+azalea_park_food_dining,Azalea Park,food_dining,20,8E7157C0-AE67-43B5-BB0A-5613AFA57783,Andretti Indoor Karting & Games Orlando,1,0.1,False
+azalea_park_food_dining,Azalea Park,food_dining,20,E52822D0-6545-446A-89FA-35751063778F,Se7enBites,1,0.09090909090909091,False
+azalea_park_food_dining,Azalea Park,food_dining,20,44BC5782-555D-4538-8F3E-D73E5F85A12F,Chili's Grill & Bar,1,0.08333333333333333,False
+azalea_park_food_dining,Azalea Park,food_dining,20,D5752331-637B-48E7-9D2B-F1FDDCB3004D,Market On South- NEW Management,1,0.07692307692307693,False
+azalea_park_food_dining,Azalea Park,food_dining,20,37F1A032-6A4D-4B4F-85D1-8339942B1217,Chili's Grill & Bar,1,0.07142857142857142,False
+azalea_park_food_dining,Azalea Park,food_dining,20,751690FA-48DE-4C3E-9F2C-706200D20790,Taverna Opa Orlando,1,0.06666666666666667,False
+azalea_park_food_dining,Azalea Park,food_dining,20,6AFA782E-590A-4056-B7AC-4A19362D00FA,Keke's Breakfast Cafe,1,0.0625,False
+azalea_park_food_dining,Azalea Park,food_dining,20,070EE434-A926-4FC5-8E08-01990BE7338D,Simon Parrilla Bar and Grill,1,0.058823529411764705,False
+azalea_park_food_dining,Azalea Park,food_dining,20,BF0442A5-482C-485C-B183-6D57C4B53BD3,Foxtail Coffee - Winter Park,1,0.05555555555555555,False
+azalea_park_food_dining,Azalea Park,food_dining,20,A8F11B34-55E9-4FBC-AF9C-B433C07A6820,Black Bean Deli Orlando,1,0.05263157894736842,False
+azalea_park_food_dining,Azalea Park,food_dining,20,C0A80819-EC72-410F-A6F3-6C6C08390793,TaKo Cheena,1,0.05,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,084BFEA0-A841-416A-BED4-F204F84865F7,Starbucks,1,1.0,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,F3487F69-6CDF-43AC-8CE8-88022A68289C,Panera Bread,1,0.5,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,F9B57630-9672-4399-8F25-CFD45CDCE1CB,Keke's Breakfast Cafe,1,0.3333333333333333,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,4D6D5B63-71D6-45E5-9902-B1628215E277,Craft & Common,1,0.25,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,0DDCBD3D-47AE-404B-BE9C-5530AF756D8D,Starbucks Coffee Company,1,0.2,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,384F2733-63E5-467C-A9F3-0BB020372C03,Barnie's Coffee & Tea Co.,1,0.16666666666666666,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,D1C0CBC0-E6FC-4112-B66B-E6569625C2BE,Vanessa's Coffee Shop,1,0.14285714285714285,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,71B88063-72C2-438B-9D4D-C3C73062A99E,SnowBean,1,0.125,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,5C58548D-E645-4A8B-903A-82CB5B34A0B3,The Salty Donut,1,0.1111111111111111,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,4F756863-45F4-4882-9A30-C29DBA19E5B3,Deeply Coffee Company,1,0.1,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,CFCD7336-DE6A-49E8-9AF6-0E8A0C6C5629,Starbucks,1,0.09090909090909091,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,116FCCBD-D65B-4138-B745-7F25B423BFFF,Starbucks Coffee Company,1,0.08333333333333333,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,8B181C9C-131D-4E9D-8A01-98852681E53C,Starbucks,1,0.07692307692307693,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,C024EACA-5150-4EF8-9EFB-749BE2D09FED,Starbucks,1,0.07142857142857142,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,43CF2566-1FB6-40F8-859F-9B4D6022E88A,Artisan's Table,1,0.06666666666666667,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,1E3AC4F2-CED9-4C0F-AC3A-ED7648FD4C68,Mecatos Bakery & Café,1,0.0625,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,DC6DE24B-0EC0-462A-9C0B-4800C36C62D1,McDonald's,1,0.058823529411764705,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,D4CFCA6B-FB00-432E-81FC-F6CE938136DD,Qreate Coffee + Studio,1,0.05555555555555555,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,6B491F7D-C046-4960-ADCE-1D2D6D5425D6,Starbucks Coffee Company,1,0.05263157894736842,False
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,20,ED01AB0C-DDF5-4872-8777-DC0F30600D8A,Einstein Bros. Bagels,1,0.05,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,F44A09FA-D5FC-46E8-A90F-637BB03E0D0D,Izziban Sushi & BBQ,1,1.0,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,30D5AB15-9A0A-4EB5-B7BC-51D822EFF38E,Pointe Orlando,1,0.5,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,8F71E522-841D-4C19-B65D-A68FA964D64A,Miller's Ale House,1,0.3333333333333333,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,44BC5782-555D-4538-8F3E-D73E5F85A12F,Chili's Grill & Bar,1,0.25,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,37F1A032-6A4D-4B4F-85D1-8339942B1217,Chili's Grill & Bar,1,0.2,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,070EE434-A926-4FC5-8E08-01990BE7338D,Simon Parrilla Bar and Grill,1,0.16666666666666666,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,BAE9A510-9513-461E-B1FC-A8309893F4AE,The Wine Room on Park Avenue,1,0.14285714285714285,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,96637A77-FBB7-4D0A-8F3D-BAEF829DAAC7,Miller's Ale House,1,0.125,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,55ABBFD6-32D4-4885-A896-A74CB005B41B,The Guesthouse,1,0.1111111111111111,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,5DE36905-7D16-4F36-BCFF-C554EB25B209,The Stubborn Mule,1,0.1,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,40FBE1CF-A459-43DA-858F-1ED8C2AF30B4,Miller's Ale House,1,0.09090909090909091,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,BBA9016E-68C2-48DD-B548-B8A0E085E0F8,Wally's Bar and Liquors,1,0.08333333333333333,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,A9137CBF-7791-4948-93EB-4D299A7FA2D3,Cowboys Orlando,1,0.07692307692307693,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,0B8D5031-AF35-4D7A-AA2B-730EADF7F596,Fiddlers Green Irish Pub & Eatery,1,0.07142857142857142,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,DC337CD4-A2AF-4252-96D7-F918B5F84DEF,The Social House,1,0.06666666666666667,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,D23B092B-254A-4A73-9BE2-C762701346AA,Howl at the Moon Orlando,1,0.0625,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,4444D5BA-3D9F-4012-955B-9B85D9D61232,DoveCote Restaurant,1,0.058823529411764705,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,D3148421-F09E-4152-87BE-38CD5260B4FC,The Other Bar,1,0.05555555555555555,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,5E9B4874-7AF9-4306-923C-6448CC8703A6,Imperial Wine Bar,1,0.05263157894736842,False
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,20,03B33CEF-582E-4B27-A9FD-605201F7FE80,Outback Steakhouse,1,0.05,False

@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-08T11:06:26.233275+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+    "take": "10"
+  },
+  "raw_file": "single_blue_bottle_brand.a1.json",
+  "request_sha256": "bd0a8e586b79ea51f2b98d18de16067752a9b9f0c28a30ef11813183d2c0d704",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:06:26 GMT"
+  },
+  "response_sha256": "bfa9c33679cd51bccf10573179bbb2381cc6857ccb072613bbcee2b78b7da315",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "single_blue_bottle_brand",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": [
+        "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D"
+      ],
+      "take": 10
+    },
+    "seed_keys": [
+      "blue_bottle"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D&take=10"
+}

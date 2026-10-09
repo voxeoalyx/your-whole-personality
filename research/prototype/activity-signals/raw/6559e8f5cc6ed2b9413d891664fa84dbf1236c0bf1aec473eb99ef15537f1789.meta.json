@@ -1,0 +1,13 @@
+{
+  "at": 1791470992.2312033,
+  "request_hash": "6559e8f5cc6ed2b9413d891664fa84dbf1236c0bf1aec473eb99ef15537f1789",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:videogame",
+    "signal.interests.tags": "urn:tag:genre:media:running",
+    "take": "20"
+  },
+  "response_sha256": "21c43bb390c823b2dfd901508609a9af012dd5872870ee2363da6fcc1ef43891"
+}

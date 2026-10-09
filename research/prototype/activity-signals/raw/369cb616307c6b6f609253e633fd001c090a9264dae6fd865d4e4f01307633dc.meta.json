@@ -1,0 +1,13 @@
+{
+  "at": 1791471013.3640475,
+  "request_hash": "369cb616307c6b6f609253e633fd001c090a9264dae6fd865d4e4f01307633dc",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:occupation:wikidata:weightlifting",
+    "take": "20"
+  },
+  "response_sha256": "e053d86d4cbfd23629fb6d45a3c5967067921454d392d76c697d4ef72830339a"
+}

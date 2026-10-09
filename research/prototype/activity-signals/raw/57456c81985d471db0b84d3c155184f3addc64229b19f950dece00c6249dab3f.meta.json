@@ -1,0 +1,13 @@
+{
+  "at": 1791471021.9870763,
+  "request_hash": "57456c81985d471db0b84d3c155184f3addc64229b19f950dece00c6249dab3f",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:genre:media:architecture",
+    "take": "20"
+  },
+  "response_sha256": "c97eb2031f145169ede32f927b00733e0a47ae7f0468da32827b971136e9c3a5"
+}

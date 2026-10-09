@@ -1,0 +1,14 @@
+{
+  "at": 1791471366.305874,
+  "request_hash": "b49a82eaf6a2ce2a9801cb7145d5f15b91c142db7f2cf3456b4726ab26786e29",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:architecture",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "20"
+  },
+  "response_sha256": "8c03dd3b00e71444a7d271a90d89e87e6d93907ab98a85cd214cc5399de17515"
+}

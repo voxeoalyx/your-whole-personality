@@ -1,0 +1,6 @@
+{
+  "url": "https://overpass-api.de/api/interpreter",
+  "method": "POST",
+  "query": "[out:json][timeout:35];(nwr[amenity](28.5292668,-81.4765668,28.6105935,-81.2869598);nwr[shop](28.5292668,-81.4765668,28.6105935,-81.2869598);nwr[leisure](28.5292668,-81.4765668,28.6105935,-81.2869598);nwr[tourism](28.5292668,-81.4765668,28.6105935,-81.2869598););out center tags;",
+  "attribution": "© OpenStreetMap contributors, ODbL; https://www.openstreetmap.org/copyright"
+}

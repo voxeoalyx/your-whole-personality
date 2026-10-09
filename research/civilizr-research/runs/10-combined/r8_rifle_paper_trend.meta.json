@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-07T18:47:28.733623+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 404,
+  "method": "GET",
+  "ok": false,
+  "params": {
+    "end_date": "2026-10-07",
+    "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+    "page": "1",
+    "start_date": "2026-09-09",
+    "take": "20"
+  },
+  "raw_file": "..\\08-diagnostics\\rifle_paper_trend.a1.json",
+  "request_sha256": "80b52033ca4cc7243f7a5ac4f6aa21d61299bf71526871cd5bfdf8427560eae3",
+  "response_headers": {
+    "Content-Type": "text/plain; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:47:30 GMT"
+  },
+  "response_sha256": "e817eb484c87b907879975c2b4bbbe86139c208c3f8b9330ec53ce4f48d585d8",
+  "spec": {
+    "id": "r8_rifle_paper_trend",
+    "kind": "global_trend",
+    "endpoint": "/trends/entity",
+    "params": {
+      "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-07",
+      "take": 20,
+      "page": 1
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/trends/entity?end_date=2026-10-07&entity_id=BE74FBA3-EEC5-4D55-BA71-750C8322A827&page=1&start_date=2026-09-09&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\08-diagnostics\\rifle_paper_trend.meta.json"
+}

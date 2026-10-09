@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:50.018200+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.328,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Animal Crossing: New Horizons",
+    "take": "5",
+    "types": "urn:entity:videogame"
+  },
+  "raw_file": "animal_crossing.a1.json",
+  "request_sha256": "4d849ef2dbf0d28ea85f91abd87918b8215e53044aa93ca1aa65bbf18e3eaf1e",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:50 GMT"
+  },
+  "response_sha256": "06b9c4f8b54a84a813e31f8fbf44a4900db7b378f862bfd19f266369b973e0d8",
+  "spec": {
+    "endpoint": "/search",
+    "id": "animal_crossing",
+    "kind": "discovery",
+    "params": {
+      "query": "Animal Crossing: New Horizons",
+      "take": 5,
+      "types": "urn:entity:videogame"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Animal+Crossing%3A+New+Horizons&take=5&types=urn%3Aentity%3Avideogame"
+}

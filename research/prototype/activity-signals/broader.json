@@ -1,0 +1,128 @@
+[
+  {
+    "id": "urn:tag:genre:media:fitness",
+    "label": "Fitness (Books / Podcasts genre tag)",
+    "domains": {
+      "tv_show": {
+        "singleton_informative": true,
+        "distance": 0.007518796992481203,
+        "top3": [
+          [
+            "UnREAL",
+            0.8844568201899973
+          ],
+          [
+            "Black Mirror",
+            0.8590641254616734
+          ],
+          [
+            "Electric Dreams",
+            0.8549547504080205
+          ]
+        ]
+      },
+      "movie": {
+        "singleton_informative": true,
+        "distance": 0.0,
+        "top3": [
+          [
+            "Lost in Translation",
+            0.8440761077093962
+          ],
+          [
+            "Her",
+            0.8384964346119147
+          ],
+          [
+            "Lady Bird",
+            0.8376420781558166
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:genre:media:health_fitness",
+    "label": "Health & Fitness (Podcasts genre tag)",
+    "domains": {
+      "tv_show": {
+        "singleton_informative": false,
+        "distance": 0.043609022556390986,
+        "top3": [
+          [
+            "Somebody Feed Phil",
+            0.926673541332579
+          ],
+          [
+            "High Maintenance",
+            0.9167950350632195
+          ],
+          [
+            "UnREAL",
+            0.9061286493477893
+          ]
+        ]
+      },
+      "movie": {
+        "singleton_informative": false,
+        "distance": 0.2992481203007519,
+        "top3": [
+          [
+            "Being John Malkovich",
+            0.9118033201825589
+          ],
+          [
+            "Magnolia",
+            0.9061823208860659
+          ],
+          [
+            "Short Term 12",
+            0.896249836878454
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "urn:tag:genre:media:exercise",
+    "label": "Exercise (Games genre tag)",
+    "domains": {
+      "tv_show": {
+        "singleton_informative": false,
+        "distance": 0.0,
+        "top3": [
+          [
+            "Black Mirror",
+            0.8590641254616734
+          ],
+          [
+            "Electric Dreams",
+            0.8549547504080205
+          ],
+          [
+            "Chef's Table",
+            0.8547187906427913
+          ]
+        ]
+      },
+      "movie": {
+        "singleton_informative": false,
+        "distance": 0.0,
+        "top3": [
+          [
+            "Lost in Translation",
+            0.8440761077093962
+          ],
+          [
+            "Her",
+            0.8384964346119147
+          ],
+          [
+            "Lady Bird",
+            0.8376420781558166
+          ]
+        ]
+      }
+    }
+  }
+]

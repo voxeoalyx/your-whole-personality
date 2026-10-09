@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-07T18:35:41.600785+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.922,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.type": "urn:tag",
+    "signal.location.query": "Winter Park, Florida",
+    "take": "20"
+  },
+  "raw_file": "..\\02-host-probe\\winter_park_tag_probe.a1.json",
+  "request_sha256": "14344acff8a0fd215b0713c394d992a8a64c6357afa899f725b52a147940059a",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:35:44 GMT"
+  },
+  "response_sha256": "2219d468b220f3b610f31ed0521abbbb7e352f063b4a3bb260abd8d1a0c02eb3",
+  "spec": {
+    "id": "r2_winter_park_tag_probe",
+    "kind": "capability_probe",
+    "area": "Winter Park",
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:tag",
+      "filter.parents.types": "urn:entity:place",
+      "signal.location.query": "Winter Park, Florida",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.parents.types=urn%3Aentity%3Aplace&filter.type=urn%3Atag&signal.location.query=Winter+Park%2C+Florida&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\02-host-probe\\winter_park_tag_probe.meta.json"
+}

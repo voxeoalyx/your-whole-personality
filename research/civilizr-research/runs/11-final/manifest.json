@@ -1,0 +1,1521 @@
+{
+  "created_at": "2026-10-07T19:00:55.242113+00:00",
+  "offline_analysis_only": true,
+  "sources": [
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\01-smoke",
+      "manifest_sha256": "fa5e26b76ca5de0fec84ffb1be39b7999e545913b153c6b00fb009b7a9be4601"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\02-host-probe",
+      "manifest_sha256": "6bfdb3abd815218f589330c1b8d015c0ae324099a91a4efcedacae9a0e34a585"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\03-discovery",
+      "manifest_sha256": "4badd22a70a3d5c9629c3a237c24a2d173796a97745e4082e728c4681043d570"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\04-pilot",
+      "manifest_sha256": "11e19df1550a8debaee0e9a53c687d56029d0d26972e98fe6fd2084cca4b485d"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\05-culture-pilot",
+      "manifest_sha256": "ad038c6bb5105c133ae4150c9fc69cefef0ebce085d8cde30009c7f7b7c19446"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\06-expansion",
+      "manifest_sha256": "38bb8a29817146db3bbf9ada5408274b4723873aed780c9485824fb8755141e6"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\07-culture-remaining",
+      "manifest_sha256": "8082b9f52a2c0993d9716e371422ea4c28f2319b950fc404542d42a1be2952cf"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\08-diagnostics",
+      "manifest_sha256": "0e004b55c22b19a47db60ca3cf095482f8330d1822881d4b259d84054fba2523"
+    },
+    {
+      "run": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\09-sensitivity",
+      "manifest_sha256": "d4b9a2c6fecda5da3553adfe239299a79deb808cf15234b4ce8e85b768defc43"
+    }
+  ],
+  "identity": {
+    "plan": {
+      "requests": [
+        {
+          "id": "r1_winter_park_lookup",
+          "kind": "lookup",
+          "area": "Winter Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Winter Park, Florida",
+            "types": "urn:entity:locality",
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r1_mills_50_lookup",
+          "kind": "lookup",
+          "area": "Mills 50",
+          "endpoint": "/search",
+          "params": {
+            "query": "Mills 50, Orlando, Florida",
+            "types": "urn:entity:locality",
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r1_pine_hills_lookup",
+          "kind": "lookup",
+          "area": "Pine Hills",
+          "endpoint": "/search",
+          "params": {
+            "query": "Pine Hills, Florida",
+            "types": "urn:entity:locality",
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r1_place_tag_types",
+          "kind": "taxonomy",
+          "endpoint": "/v2/tags/types",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "take": 50,
+            "page": 1
+          }
+        },
+        {
+          "id": "r1_winter_park_tag_probe",
+          "kind": "capability_probe",
+          "area": "Winter Park",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location.query": "Winter Park, Florida",
+            "take": 20
+          }
+        },
+        {
+          "id": "r2_winter_park_lookup",
+          "kind": "lookup",
+          "area": "Winter Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Winter Park, Florida",
+            "types": "urn:entity:locality",
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r2_mills_50_lookup",
+          "kind": "lookup",
+          "area": "Mills 50",
+          "endpoint": "/search",
+          "params": {
+            "query": "Mills 50, Orlando, Florida",
+            "types": "urn:entity:locality",
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r2_pine_hills_lookup",
+          "kind": "lookup",
+          "area": "Pine Hills",
+          "endpoint": "/search",
+          "params": {
+            "query": "Pine Hills, Florida",
+            "types": "urn:entity:locality",
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r2_place_tag_types",
+          "kind": "taxonomy",
+          "endpoint": "/v2/tags/types",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "take": 50,
+            "page": 1
+          }
+        },
+        {
+          "id": "r2_winter_park_tag_probe",
+          "kind": "capability_probe",
+          "area": "Winter Park",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location.query": "Winter Park, Florida",
+            "take": 20
+          }
+        },
+        {
+          "id": "r3_college_park_lookup",
+          "kind": "lookup",
+          "area": "College Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "College Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_audubon_park_lookup",
+          "kind": "lookup",
+          "area": "Audubon Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Audubon Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_baldwin_park_lookup",
+          "kind": "lookup",
+          "area": "Baldwin Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Baldwin Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_azalea_park_lookup",
+          "kind": "lookup",
+          "area": "Azalea Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Azalea Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_mills_50_lookup",
+          "kind": "lookup",
+          "area": "Mills 50",
+          "endpoint": "/search",
+          "params": {
+            "query": "Mills 50",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_restaurant_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "restaurant",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "restaurant",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_coffee_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "coffee",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "coffee",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_fitness_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "fitness",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "fitness",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_museum_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "museum",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "museum",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_bar_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "bar",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "bar",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "r3_place_tag_types_page2",
+          "kind": "taxonomy",
+          "endpoint": "/v2/tags/types",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "take": 50,
+            "page": 2
+          }
+        },
+        {
+          "id": "r4_winter_park_place_tags",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_winter_park_brands",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_winter_park_destinations",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_pine_hills_place_tags",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_pine_hills_brands",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_pine_hills_destinations",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_college_park_place_tags",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_college_park_brands",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_college_park_destinations",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_orlando_place_tags",
+          "area": "Orlando",
+          "role": "baseline",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_orlando_brands",
+          "area": "Orlando",
+          "role": "baseline",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_orlando_destinations",
+          "area": "Orlando",
+          "role": "baseline",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_no_location_place_tags",
+          "area": "No location",
+          "role": "baseline",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_no_location_brands",
+          "area": "No location",
+          "role": "baseline",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_no_location_destinations",
+          "area": "No location",
+          "role": "baseline",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_winter_park_repeat_place_tags",
+          "area": "Winter Park",
+          "role": "repeat",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_winter_park_repeat_brands",
+          "area": "Winter Park",
+          "role": "repeat",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "take": 20
+          }
+        },
+        {
+          "id": "r4_winter_park_repeat_destinations",
+          "area": "Winter Park",
+          "role": "repeat",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_winter_park_food_dining",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_winter_park_coffee_cafes",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_winter_park_fitness",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_winter_park_museums",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_winter_park_nightlife_bars",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_pine_hills_food_dining",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_pine_hills_coffee_cafes",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_pine_hills_fitness",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_pine_hills_museums",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r5_pine_hills_nightlife_bars",
+          "area": "Pine Hills",
+          "role": "control",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_audubon_park_place_tags",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_audubon_park_brands",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_audubon_park_destinations",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_baldwin_park_place_tags",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_baldwin_park_brands",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_baldwin_park_destinations",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_azalea_park_place_tags",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_azalea_park_brands",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "take": 20
+          }
+        },
+        {
+          "id": "r6_azalea_park_destinations",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_college_park_food_dining",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_college_park_coffee_cafes",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_college_park_fitness",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_college_park_museums",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_college_park_nightlife_bars",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_audubon_park_food_dining",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_audubon_park_coffee_cafes",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_audubon_park_fitness",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_audubon_park_museums",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_audubon_park_nightlife_bars",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_baldwin_park_food_dining",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_baldwin_park_coffee_cafes",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_baldwin_park_fitness",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_baldwin_park_museums",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_baldwin_park_nightlife_bars",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_azalea_park_food_dining",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "food_dining",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_azalea_park_coffee_cafes",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "coffee_cafes",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_azalea_park_fitness",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "fitness",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:fitness_center",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_azalea_park_museums",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "museums",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:museum",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r7_azalea_park_nightlife_bars",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "nightlife_bars",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:place",
+            "filter.tags": "urn:tag:genre:place:restaurant:bar",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r8_mills_50_compact_alias",
+          "kind": "lookup",
+          "area": "Mills 50",
+          "endpoint": "/search",
+          "params": {
+            "query": "Mills50",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5
+          }
+        },
+        {
+          "id": "r8_mills_50_place_anchor",
+          "kind": "lookup",
+          "area": "Mills 50",
+          "endpoint": "/search",
+          "params": {
+            "query": "Mills 50",
+            "types": "urn:entity:place",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5
+          }
+        },
+        {
+          "id": "r8_winter_park_explanation_location_only",
+          "kind": "explainability",
+          "area": "Winter Park",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 20
+          }
+        },
+        {
+          "id": "r8_winter_park_explanation_entity_seeded",
+          "kind": "explainability_seeded",
+          "area": "Winter Park",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+            "signal.interests.entities": "BE74FBA3-EEC5-4D55-BA71-750C8322A827,50A73864-984A-446F-8401-9F501EA0457B",
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 5
+          }
+        },
+        {
+          "id": "r8_brand_trending",
+          "kind": "global_trend",
+          "endpoint": "/trends/category",
+          "params": {
+            "type": "urn:entity:brand",
+            "take": 10,
+            "page": 1
+          }
+        },
+        {
+          "id": "r8_rifle_paper_trend",
+          "kind": "global_trend",
+          "endpoint": "/trends/entity",
+          "params": {
+            "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+            "start_date": "2026-09-09",
+            "end_date": "2026-10-07",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "r8_rifle_paper_trend_v2",
+          "kind": "global_trend",
+          "endpoint": "/v2/trending",
+          "params": {
+            "signal.interests.entities": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+            "filter.type": "urn:entity:brand",
+            "filter.start_date": "2026-09-09",
+            "filter.end_date": "2026-10-07",
+            "take": 20
+          }
+        },
+        {
+          "id": "r8_food_dining_heatmap",
+          "kind": "heatmap",
+          "dimension": "food_dining",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:restaurant"
+          }
+        },
+        {
+          "id": "r8_coffee_cafes_heatmap",
+          "kind": "heatmap",
+          "dimension": "coffee_cafes",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop"
+          }
+        },
+        {
+          "id": "r8_fitness_heatmap",
+          "kind": "heatmap",
+          "dimension": "fitness",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:fitness_center"
+          }
+        },
+        {
+          "id": "r8_museums_heatmap",
+          "kind": "heatmap",
+          "dimension": "museums",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:museum"
+          }
+        },
+        {
+          "id": "r8_nightlife_bars_heatmap",
+          "kind": "heatmap",
+          "dimension": "nightlife_bars",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:restaurant:bar"
+          }
+        },
+        {
+          "id": "r8_coffee_neighborhood_heatmap",
+          "kind": "heatmap_boundary_probe",
+          "dimension": "coffee_cafes",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "output.heatmap.boundary": "neighborhood"
+          }
+        },
+        {
+          "id": "r9_winter_park_brands_500",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.34420470166879 28.598801697315782)",
+            "signal.location.radius": 500,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r9_winter_park_brands_1000",
+          "area": "Winter Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.34420470166879 28.598801697315782)",
+            "signal.location.radius": 1000,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r9_college_park_brands_500",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.39012942168766 28.57560528334122)",
+            "signal.location.radius": 500,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r9_college_park_brands_1000",
+          "area": "College Park",
+          "role": "target",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.39012942168766 28.57560528334122)",
+            "signal.location.radius": 1000,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r9_mills_50_point_proxy_brands_500",
+          "area": "Mills 50 point proxy",
+          "role": "proxy",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Qloo place Mills 50 Medispa at 1206 E Colonial Dr, not a neighborhood boundary.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.36410959999999 28.552895699999997)",
+            "signal.location.radius": 500,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r9_mills_50_point_proxy_brands_1000",
+          "area": "Mills 50 point proxy",
+          "role": "proxy",
+          "dimension": "brands_point",
+          "kind": "profile",
+          "geography_verified": true,
+          "geography_note": "Qloo place Mills 50 Medispa at 1206 E Colonial Dr, not a neighborhood boundary.",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.location": "POINT(-81.36410959999999 28.552895699999997)",
+            "signal.location.radius": 1000,
+            "bias.trends": "off",
+            "take": 20
+          }
+        },
+        {
+          "id": "r9_coffee_locality_heatmap",
+          "kind": "heatmap_boundary_probe",
+          "dimension": "coffee_cafes",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:heatmap",
+            "filter.location": "POINT(-81.3790304 28.5421109)",
+            "filter.location.radius": 20000,
+            "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+            "output.heatmap.boundary": "urn:entity:locality"
+          }
+        }
+      ]
+    }
+  }
+}

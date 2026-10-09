@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:00:36.923163+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.266,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.query": "Usonian",
+    "take": "50"
+  },
+  "raw_file": "usonian.a1.json",
+  "request_sha256": "fa8125f37099bc093bd843f9907075c99e12b3c66afc858c032361989d67ccb5",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:00:38 GMT"
+  },
+  "response_sha256": "42992c08abc182feba5a07aed5859c26dc8346af3fee31e404c08a92b0b3a3c7",
+  "spec": {
+    "endpoint": "/v2/tags",
+    "id": "usonian",
+    "kind": "discovery",
+    "params": {
+      "filter.query": "Usonian",
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.query=Usonian&take=50"
+}

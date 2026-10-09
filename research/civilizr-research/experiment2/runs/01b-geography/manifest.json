@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-07T19:24:02.225265+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Scoped CBD lookup repair",
+      "requests": [
+        {
+          "id": "city_district_lookup",
+          "endpoint": "/search",
+          "kind": "discovery",
+          "params": {
+            "query": "Central Business District",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 5,
+            "take": 5
+          }
+        }
+      ],
+      "experiment2": {
+        "plan_sha256": "79895fe348b175cf23786d87b34a7cdf9675f2b0c949b94f29b6074effc39ad1",
+        "driver_sha256": "e5aa27b37c7a3711b03707208f6061cf32966e77a36bc0cbc2c0152d7a4a78ba",
+        "frozen_config": {
+          "candidates.json": "6c9bbd6ac767c2879db9396ed816c4f12d0c031ec72d5a3a8de5342bd9f36b2d"
+        }
+      }
+    },
+    "code_sha256": "88926b5ff19d9578b0be91249bce28af4fa4ad08289956bda59ef7d9d0db267e"
+  }
+}

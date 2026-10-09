@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:48.576485+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.328,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Nike",
+    "take": "5",
+    "types": "urn:entity:brand"
+  },
+  "raw_file": "nike.a1.json",
+  "request_sha256": "3e01a08966fbcacc16e41b2f41a98b13e39b0571373108a4f58e52f5d5bb89b1",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:48 GMT"
+  },
+  "response_sha256": "4f2d67891229c818e5851080be44f5588ab9f11dba2618c8d5f56b84eb99ac92",
+  "spec": {
+    "endpoint": "/search",
+    "id": "nike",
+    "kind": "discovery",
+    "params": {
+      "query": "Nike",
+      "take": 5,
+      "types": "urn:entity:brand"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Nike&take=5&types=urn%3Aentity%3Abrand"
+}

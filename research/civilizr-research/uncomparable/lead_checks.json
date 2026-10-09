@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-07T23:10:52.630Z",
+  "checks": [
+    {
+      "claim": "Eames Foundation identity at Eames House address",
+      "url": "https://eamesfoundation.org/about/contact/",
+      "supports": "203 Chautauqua Blvd, Pacific Palisades; confirms museum/institution identity, not housing-market coverage."
+    },
+    {
+      "claim": "Eames Foundation → Friedman Benda thematic link",
+      "url": "https://www.friedmanbenda.com/exhibitions/inside-the-walls-architects-design-curated-by-mark-mcdonald/",
+      "supports": "2018 exhibition included Charles and Ray Eames and their ESU furniture. Independent thematic corroboration, not validation of audience affinity.",
+      "query": "06_domains/eames_place",
+      "rank": 2
+    },
+    {
+      "claim": "Farnsworth → Wrightwood 659 thematic link",
+      "url": "https://wrightwood659.org/about/",
+      "supports": "Architecture and socially engaged art venue designed by Tadao Ando; plausible destination for architectural discovery, not proof of Mies-specific audience.",
+      "query": "06_domains/farnsworth_place",
+      "rank": 5
+    },
+    {
+      "claim": "Gamble automotive affinity speculative story check",
+      "url": "https://gamblehouse.org/back-to-the-future/",
+      "supports": "Operator documents a film-anniversary celebration. Does NOT substantiate affinity with Bring A Trailer, automobile collecting or homebuyers; rejected causal explanation."
+    }
+  ]
+}

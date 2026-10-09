@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-07T18:47:36.557592+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.219,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.type": "urn:heatmap",
+    "signal.interests.tags": "urn:tag:genre:place:restaurant:bar"
+  },
+  "raw_file": "..\\08-diagnostics\\nightlife_bars_heatmap.a1.json",
+  "request_sha256": "03ba2639f7c469c1715b2f3056e32f99e0eeff7a1eb061a5c82d783db826b638",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:47:38 GMT"
+  },
+  "response_sha256": "5131c5143248e14bee384071f36379b7f3bc3ed6082e05e24c9d9599eee0f4ec",
+  "spec": {
+    "id": "r8_nightlife_bars_heatmap",
+    "kind": "heatmap",
+    "dimension": "nightlife_bars",
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:heatmap",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "signal.interests.tags": "urn:tag:genre:place:restaurant:bar"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.type=urn%3Aheatmap&signal.interests.tags=urn%3Atag%3Agenre%3Aplace%3Arestaurant%3Abar",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\08-diagnostics\\nightlife_bars_heatmap.meta.json"
+}

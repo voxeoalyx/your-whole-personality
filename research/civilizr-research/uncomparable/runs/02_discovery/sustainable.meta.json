@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:01:15.469428+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.344,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.query": "sustainable",
+    "take": "50"
+  },
+  "raw_file": "sustainable.a1.json",
+  "request_sha256": "459146e200e0e3d816f3b307977998349cc2463453828136c41f10b9c51e6d52",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:17 GMT"
+  },
+  "response_sha256": "24f8d28e480550b905d2a581bc7a6c9eceb9afefaaa7efd61cce1d0d0f7a61bd",
+  "spec": {
+    "endpoint": "/v2/tags",
+    "id": "sustainable",
+    "kind": "discovery",
+    "params": {
+      "filter.query": "sustainable",
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.query=sustainable&take=50"
+}

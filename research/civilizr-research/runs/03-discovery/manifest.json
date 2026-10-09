@@ -1,0 +1,152 @@
+{
+  "created_at": "2026-10-07T18:36:39.176434+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Locality resolution and native taxonomy",
+      "requests": [
+        {
+          "id": "college_park_lookup",
+          "kind": "lookup",
+          "area": "College Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "College Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "audubon_park_lookup",
+          "kind": "lookup",
+          "area": "Audubon Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Audubon Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "baldwin_park_lookup",
+          "kind": "lookup",
+          "area": "Baldwin Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Baldwin Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "azalea_park_lookup",
+          "kind": "lookup",
+          "area": "Azalea Park",
+          "endpoint": "/search",
+          "params": {
+            "query": "Azalea Park",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "mills_50_lookup",
+          "kind": "lookup",
+          "area": "Mills 50",
+          "endpoint": "/search",
+          "params": {
+            "query": "Mills 50",
+            "types": "urn:entity:locality",
+            "filter.location": "28.5421109,-81.3790304",
+            "filter.radius": 30,
+            "take": 5,
+            "page": 1
+          }
+        },
+        {
+          "id": "restaurant_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "restaurant",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "restaurant",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "coffee_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "coffee",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "coffee",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "fitness_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "fitness",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "fitness",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "museum_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "museum",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "museum",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "bar_taxonomy",
+          "kind": "taxonomy",
+          "dimension": "bar",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.query": "bar",
+            "take": 20,
+            "page": 1
+          }
+        },
+        {
+          "id": "place_tag_types_page2",
+          "kind": "taxonomy",
+          "endpoint": "/v2/tags/types",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "take": 50,
+            "page": 2
+          }
+        }
+      ]
+    },
+    "code_sha256": "4f1fbc241bd048c07a72680e3b8948372c4803ff00eca98c87bbec8be630b2bb"
+  }
+}

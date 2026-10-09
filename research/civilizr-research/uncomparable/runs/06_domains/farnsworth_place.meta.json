@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T23:03:33.044590+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.532,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:place",
+    "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+    "take": "10"
+  },
+  "raw_file": "farnsworth_place.a1.json",
+  "request_sha256": "47d8a411a7ac9ca751699d0064e1d79242b6764562f0256fdff44fe869a541db",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:03:34 GMT"
+  },
+  "response_sha256": "524f13c85afdcb356198074073a2329b7534cd25d4f022c369669f58e0420c04",
+  "spec": {
+    "domain": "place",
+    "endpoint": "/v2/insights",
+    "id": "farnsworth_place",
+    "input": "farnsworth",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:place",
+      "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Aplace&signal.interests.entities=AF7BB7E1-568A-45A9-BA52-2C91021BC61E&take=10"
+}

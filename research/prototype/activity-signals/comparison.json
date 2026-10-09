@@ -1,0 +1,1076 @@
+{
+  "baseline_entities": [
+    "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+    "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+  ],
+  "baseline": {
+    "tv_show": [
+      {
+        "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+        "name": "Black Mirror",
+        "type": null,
+        "detail": "2011",
+        "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+        "score": 0.9474035334291568
+      },
+      {
+        "id": "3194D810-FE41-4AFD-81E7-12B8D46E2320",
+        "name": "Electric Dreams",
+        "type": null,
+        "detail": "2017,2018",
+        "image": "https://images.qloo.com/i/3194D810-FE41-4AFD-81E7-12B8D46E2320-420x-auto.jpg",
+        "score": 0.9397307709017111
+      },
+      {
+        "id": "35D9EDC3-DC6A-42A5-B73B-7A18DCF0C024",
+        "name": "Chef's Table",
+        "type": null,
+        "detail": "2015,2024",
+        "image": "https://images.qloo.com/i/35D9EDC3-DC6A-42A5-B73B-7A18DCF0C024-420x-auto.jpg",
+        "score": 0.9392892326447992
+      },
+      {
+        "id": "5B305BA6-94B6-4988-BDB6-6FF5E92CC4C7",
+        "name": "Humans",
+        "type": null,
+        "detail": "2015,2018",
+        "image": "https://images.qloo.com/i/5B305BA6-94B6-4988-BDB6-6FF5E92CC4C7-420x-auto.jpg",
+        "score": 0.9351697006128805
+      },
+      {
+        "id": "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+        "name": "UnREAL",
+        "type": null,
+        "detail": "2015,2018",
+        "image": "https://images.qloo.com/i/9A27891E-DE13-4E95-8318-F4EB6E6E661E-420x-auto.jpg",
+        "score": 0.9340225090046894
+      },
+      {
+        "id": "101BF7F5-9C74-4893-8F28-1EEB0A13EE9C",
+        "name": "Are You Human Too?",
+        "type": null,
+        "detail": "2018,2018",
+        "image": "https://images.qloo.com/i/101BF7F5-9C74-4893-8F28-1EEB0A13EE9C-420x-auto.jpg",
+        "score": 0.9328602860646874
+      },
+      {
+        "id": "02F34B14-E7B2-4AFA-B21E-AA9332CD9CC2",
+        "name": "Somebody Feed Phil",
+        "type": null,
+        "detail": "2018",
+        "image": "https://images.qloo.com/i/02F34B14-E7B2-4AFA-B21E-AA9332CD9CC2-420x-auto.jpg",
+        "score": 0.932726724583079
+      },
+      {
+        "id": "0A80E078-8CF1-450B-8027-D5A90202F0CB",
+        "name": "High Maintenance",
+        "type": null,
+        "detail": "2016,2020",
+        "image": "https://images.qloo.com/i/0A80E078-8CF1-450B-8027-D5A90202F0CB-420x-auto.jpg",
+        "score": 0.9316013523986255
+      },
+      {
+        "id": "ACBE1621-AD2E-4FEF-BC4B-AAD07DBEBAFA",
+        "name": "My Holo Love",
+        "type": null,
+        "detail": "2020,2020",
+        "image": "https://images.qloo.com/i/ACBE1621-AD2E-4FEF-BC4B-AAD07DBEBAFA-420x-auto.jpg",
+        "score": 0.931102798219263
+      },
+      {
+        "id": "2737677D-22B4-4C97-B2AE-137C41C98098",
+        "name": "The Code",
+        "type": null,
+        "detail": "2014,2016",
+        "image": "https://images.qloo.com/i/2737677D-22B4-4C97-B2AE-137C41C98098-420x-auto.jpg",
+        "score": 0.9301449738354253
+      },
+      {
+        "id": "D027E05C-B941-4F72-B701-5B958E217570",
+        "name": "The Girlfriend Experience",
+        "type": null,
+        "detail": "2016,2021",
+        "image": "https://images.qloo.com/i/D027E05C-B941-4F72-B701-5B958E217570-420x-auto.jpg",
+        "score": 0.9299799772567001
+      },
+      {
+        "id": "25679116-0941-4018-A5D8-885C1A026DF6",
+        "name": "Halt and Catch Fire",
+        "type": null,
+        "detail": "2014,2017",
+        "image": "https://images.qloo.com/i/25679116-0941-4018-A5D8-885C1A026DF6-420x-auto.jpg",
+        "score": 0.9291993903916842
+      },
+      {
+        "id": "4F3E0F5A-F87E-4158-8A25-FC1FFFAA9417",
+        "name": "Here and Now",
+        "type": null,
+        "detail": "2018,2018",
+        "image": "https://images.qloo.com/i/4F3E0F5A-F87E-4158-8A25-FC1FFFAA9417-420x-auto.jpg",
+        "score": 0.9291519752865799
+      },
+      {
+        "id": "30AC2B5B-08E6-4C4B-80AA-48F84DDC4B0F",
+        "name": "My Mister",
+        "type": null,
+        "detail": "2018,2018",
+        "image": "https://images.qloo.com/i/30AC2B5B-08E6-4C4B-80AA-48F84DDC4B0F-420x-auto.jpg",
+        "score": 0.929139013911677
+      },
+      {
+        "id": "81F8559C-1BF0-4150-B68D-8CE266A59065",
+        "name": "The Makanai: Cooking for the Maiko House",
+        "type": null,
+        "detail": "2023,2023",
+        "image": "https://images.qloo.com/i/81F8559C-1BF0-4150-B68D-8CE266A59065-420x-auto.jpg",
+        "score": 0.9291108081505043
+      },
+      {
+        "id": "87F5AB5C-9BEB-4F2A-A5FD-9A6B6CCA17A6",
+        "name": "Good Girls Revolt",
+        "type": null,
+        "detail": "2015,2016",
+        "image": "https://images.qloo.com/i/87F5AB5C-9BEB-4F2A-A5FD-9A6B6CCA17A6-420x-auto.jpg",
+        "score": 0.929087982172367
+      },
+      {
+        "id": "96DECFD3-62C9-4715-8A15-76442AA78A75",
+        "name": "Memories of the Alhambra",
+        "type": null,
+        "detail": "2018,2019",
+        "image": "https://images.qloo.com/i/96DECFD3-62C9-4715-8A15-76442AA78A75-420x-auto.jpg",
+        "score": 0.9282823699601429
+      },
+      {
+        "id": "1CF64AF9-F913-47E5-B869-38B6B5F365B3",
+        "name": "Genius",
+        "type": null,
+        "detail": "2017,2024",
+        "image": "https://images.qloo.com/i/1CF64AF9-F913-47E5-B869-38B6B5F365B3-420x-auto.jpg",
+        "score": 0.9282056285384082
+      },
+      {
+        "id": "7DBD140D-0EAC-43C8-8B00-BC3377AE6E85",
+        "name": "The World's Most Extraordinary Homes",
+        "type": null,
+        "detail": "2017,2018",
+        "image": "https://images.qloo.com/i/7DBD140D-0EAC-43C8-8B00-BC3377AE6E85-420x-auto.jpg",
+        "score": 0.9278106095287405
+      },
+      {
+        "id": "FCC56CB6-285F-456F-98D5-3BB914852F31",
+        "name": "Tomorrow with You",
+        "type": null,
+        "detail": "2017,2017",
+        "image": "https://images.qloo.com/i/FCC56CB6-285F-456F-98D5-3BB914852F31-420x-auto.jpg",
+        "score": 0.9272537412978007
+      }
+    ],
+    "movie": [
+      {
+        "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+        "name": "Lost in Translation",
+        "type": null,
+        "detail": "2003, Sofia Coppola",
+        "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+        "score": 0.919267407902576
+      },
+      {
+        "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+        "name": "Her",
+        "type": null,
+        "detail": "2013, Spike Jonze",
+        "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+        "score": 0.9086893607642123
+      },
+      {
+        "id": "4BE414CF-375F-4566-AA66-9AC6150A6B7F",
+        "name": "Lady Bird",
+        "type": null,
+        "detail": "2017, Greta Gerwig",
+        "image": "https://images.qloo.com/i/4BE414CF-375F-4566-AA66-9AC6150A6B7F-420x-auto.jpg",
+        "score": 0.9070648769398747
+      },
+      {
+        "id": "79A98408-6B84-4416-99B4-A4B3563BEAFB",
+        "name": "Moonrise Kingdom",
+        "type": null,
+        "detail": "2012, Wes Anderson",
+        "image": "https://images.qloo.com/i/79A98408-6B84-4416-99B4-A4B3563BEAFB-420x-auto.jpg",
+        "score": 0.9067753245555303
+      },
+      {
+        "id": "EFD8B201-CC97-462C-AFE2-5CC6352239E6",
+        "name": "Frances Ha",
+        "type": null,
+        "detail": "2012, Noah Baumbach",
+        "image": "https://images.qloo.com/i/EFD8B201-CC97-462C-AFE2-5CC6352239E6-420x-auto.jpg",
+        "score": 0.8999467682015471
+      },
+      {
+        "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+        "name": "The Lobster",
+        "type": null,
+        "detail": "2015, Yorgos Lanthimos",
+        "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+        "score": 0.897593900807955
+      },
+      {
+        "id": "9E661A87-6EB9-4138-8795-27284CD8E249",
+        "name": "Marriage Story",
+        "type": null,
+        "detail": "2019, Noah Baumbach",
+        "image": "https://images.qloo.com/i/9E661A87-6EB9-4138-8795-27284CD8E249-420x-auto.jpg",
+        "score": 0.8971963335960484
+      },
+      {
+        "id": "F9CC1C79-24EA-4FEA-A6C2-68C006B6C1AE",
+        "name": "Punch-Drunk Love",
+        "type": null,
+        "detail": "2002, Paul Thomas Anderson",
+        "image": "https://images.qloo.com/i/F9CC1C79-24EA-4FEA-A6C2-68C006B6C1AE-420x-auto.jpg",
+        "score": 0.8946722518615305
+      },
+      {
+        "id": "C5931DB9-526D-47C4-8157-6D6E6FDFAD0B",
+        "name": "Phantom Thread",
+        "type": null,
+        "detail": "2017, Paul Thomas Anderson",
+        "image": "https://images.qloo.com/i/C5931DB9-526D-47C4-8157-6D6E6FDFAD0B-420x-auto.jpg",
+        "score": 0.8927963961822867
+      },
+      {
+        "id": "5FBAD562-A8AF-4643-A212-936B17AE97E0",
+        "name": "Synecdoche, New York",
+        "type": null,
+        "detail": "2008, Charlie Kaufman",
+        "image": "https://images.qloo.com/i/5FBAD562-A8AF-4643-A212-936B17AE97E0-420x-auto.jpg",
+        "score": 0.8925735877678568
+      },
+      {
+        "id": "B47E7D07-C346-4B0C-87FB-F36CE4551597",
+        "name": "The Shape of Water",
+        "type": null,
+        "detail": "2017, Guillermo del Toro",
+        "image": "https://images.qloo.com/i/B47E7D07-C346-4B0C-87FB-F36CE4551597-420x-auto.jpg",
+        "score": 0.890809143961243
+      },
+      {
+        "id": "BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD",
+        "name": "Magnolia",
+        "type": null,
+        "detail": "1999, Paul Thomas Anderson",
+        "image": "https://images.qloo.com/i/BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD-420x-auto.jpg",
+        "score": 0.8895307459945104
+      },
+      {
+        "id": "D5EF064D-1F10-432A-8309-DD51F72C7A1F",
+        "name": "Rushmore",
+        "type": null,
+        "detail": "1998, Wes Anderson",
+        "image": "https://images.qloo.com/i/D5EF064D-1F10-432A-8309-DD51F72C7A1F-420x-auto.jpg",
+        "score": 0.8891348432169638
+      },
+      {
+        "id": "33388BBB-6625-4EF5-9BA1-75A78331C77D",
+        "name": "Call Me by Your Name",
+        "type": null,
+        "detail": "2017, Luca Guadagnino",
+        "image": "https://images.qloo.com/i/33388BBB-6625-4EF5-9BA1-75A78331C77D-420x-auto.jpg",
+        "score": 0.8887608937567567
+      },
+      {
+        "id": "2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9",
+        "name": "The Favourite",
+        "type": null,
+        "detail": "2018, Yorgos Lanthimos",
+        "image": "https://images.qloo.com/i/2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9-420x-auto.jpg",
+        "score": 0.8873819087294291
+      },
+      {
+        "id": "BDA15D4E-6EB1-4F61-B72A-AEFCC7A72FDF",
+        "name": "Short Term 12",
+        "type": null,
+        "detail": "2013, Destin Daniel Cretton",
+        "image": "https://images.qloo.com/i/BDA15D4E-6EB1-4F61-B72A-AEFCC7A72FDF-420x-auto.jpg",
+        "score": 0.8855299982541557
+      },
+      {
+        "id": "42AFD1E0-D42C-42C8-9272-945248E87BB6",
+        "name": "Being John Malkovich",
+        "type": null,
+        "detail": "1999, Spike Jonze",
+        "image": "https://images.qloo.com/i/42AFD1E0-D42C-42C8-9272-945248E87BB6-420x-auto.jpg",
+        "score": 0.8851837188285122
+      },
+      {
+        "id": "EA9ED4F2-1F30-42D7-9E0B-B035C3D5F3F9",
+        "name": "The Darjeeling Limited",
+        "type": null,
+        "detail": "2007, Wes Anderson",
+        "image": "https://images.qloo.com/i/EA9ED4F2-1F30-42D7-9E0B-B035C3D5F3F9-420x-auto.jpg",
+        "score": 0.8848480520990645
+      },
+      {
+        "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+        "name": "Mr. Nobody",
+        "type": null,
+        "detail": "2009, Jaco Van Dormael",
+        "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+        "score": 0.8847819732955118
+      },
+      {
+        "id": "77FFD2EB-18E1-4D27-B13A-D2A4470AA846",
+        "name": "The Life Aquatic with Steve Zissou",
+        "type": null,
+        "detail": "2004, Wes Anderson",
+        "image": "https://images.qloo.com/i/77FFD2EB-18E1-4D27-B13A-D2A4470AA846-420x-auto.jpg",
+        "score": 0.8847107926643077
+      }
+    ]
+  },
+  "panels": {
+    "tv_show": [
+      "B36C968C-63BF-49C2-A031-3974337D9ABB",
+      "3194D810-FE41-4AFD-81E7-12B8D46E2320",
+      "35D9EDC3-DC6A-42A5-B73B-7A18DCF0C024",
+      "5B305BA6-94B6-4988-BDB6-6FF5E92CC4C7",
+      "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+      "101BF7F5-9C74-4893-8F28-1EEB0A13EE9C",
+      "02F34B14-E7B2-4AFA-B21E-AA9332CD9CC2",
+      "0A80E078-8CF1-450B-8027-D5A90202F0CB",
+      "ACBE1621-AD2E-4FEF-BC4B-AAD07DBEBAFA",
+      "2737677D-22B4-4C97-B2AE-137C41C98098",
+      "D027E05C-B941-4F72-B701-5B958E217570",
+      "25679116-0941-4018-A5D8-885C1A026DF6",
+      "4F3E0F5A-F87E-4158-8A25-FC1FFFAA9417",
+      "30AC2B5B-08E6-4C4B-80AA-48F84DDC4B0F",
+      "81F8559C-1BF0-4150-B68D-8CE266A59065",
+      "87F5AB5C-9BEB-4F2A-A5FD-9A6B6CCA17A6",
+      "96DECFD3-62C9-4715-8A15-76442AA78A75",
+      "1CF64AF9-F913-47E5-B869-38B6B5F365B3",
+      "7DBD140D-0EAC-43C8-8B00-BC3377AE6E85",
+      "FCC56CB6-285F-456F-98D5-3BB914852F31"
+    ],
+    "movie": [
+      "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+      "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+      "4BE414CF-375F-4566-AA66-9AC6150A6B7F",
+      "79A98408-6B84-4416-99B4-A4B3563BEAFB",
+      "EFD8B201-CC97-462C-AFE2-5CC6352239E6",
+      "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+      "9E661A87-6EB9-4138-8795-27284CD8E249",
+      "F9CC1C79-24EA-4FEA-A6C2-68C006B6C1AE",
+      "C5931DB9-526D-47C4-8157-6D6E6FDFAD0B",
+      "5FBAD562-A8AF-4643-A212-936B17AE97E0",
+      "B47E7D07-C346-4B0C-87FB-F36CE4551597",
+      "BB5B7CFF-8EFB-4CED-BCD1-6DF7E16407DD",
+      "D5EF064D-1F10-432A-8309-DD51F72C7A1F",
+      "33388BBB-6625-4EF5-9BA1-75A78331C77D",
+      "2E20280C-3E6F-4D69-89EA-DEF4BDBAFBB9",
+      "BDA15D4E-6EB1-4F61-B72A-AEFCC7A72FDF",
+      "42AFD1E0-D42C-42C8-9272-945248E87BB6",
+      "EA9ED4F2-1F30-42D7-9E0B-B035C3D5F3F9",
+      "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+      "77FFD2EB-18E1-4D27-B13A-D2A4470AA846"
+    ]
+  },
+  "results": [
+    {
+      "term": "pilates",
+      "id": "urn:tag:genre:place:pilates_studio",
+      "name": "Pilates studio",
+      "type": "urn:tag:genre:place",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08833940796748341,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8590641254616734
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "pilates",
+      "id": "urn:tag:category:place:pilates_studio",
+      "name": "Pilates studio",
+      "type": "urn:tag:category:place",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08833940796748341,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8590641254616734
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "pilates",
+      "id": "urn:tag:occupation:wikidata:pilates",
+      "name": "Pilates",
+      "type": "urn:tag:occupation:wikidata",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08833940796748341,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8590641254616734
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "running",
+      "id": "urn:tag:genre:media:running",
+      "name": "Running",
+      "type": "urn:tag:genre:media",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08833940796748341,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8590641254616734
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "running",
+      "id": "urn:audience:hobbies_and_interests:running",
+      "name": "Running",
+      "type": "urn:audience:hobbies_and_interests",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.17293233082706766,
+          "max_score_change": 0.05576132236339104,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.9635710257017612
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.9555191743054888
+            },
+            {
+              "name": "UnREAL",
+              "score": 0.9539179823421067
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.15112781954887217,
+          "max_score_change": 0.049662673749856556,
+          "top3": [
+            {
+              "name": "Lady Bird",
+              "score": 0.9219753652771571
+            },
+            {
+              "name": "Her",
+              "score": 0.9170659273572498
+            },
+            {
+              "name": "Call Me by Your Name",
+              "score": 0.9052386691625414
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "yoga",
+      "id": "urn:tag:genre:music:yoga",
+      "name": "Yoga",
+      "type": "urn:tag:genre:music",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08457044200200792,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.9141156995088286
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8928542236266611
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "yoga",
+      "id": "urn:audience:hobbies_and_interests:yoga",
+      "name": "Yoga",
+      "type": "urn:audience:hobbies_and_interests",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.3586466165413534,
+          "max_score_change": 0.05576132236339104,
+          "top3": [
+            {
+              "name": "Tomorrow with You",
+              "score": 0.9495982384735997
+            },
+            {
+              "name": "Are You Human Too?",
+              "score": 0.9419684978984809
+            },
+            {
+              "name": "My Mister",
+              "score": 0.9350731929596531
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.13157894736842107,
+          "max_score_change": 0.049662673749856556,
+          "top3": [
+            {
+              "name": "Lady Bird",
+              "score": 0.9200549978292853
+            },
+            {
+              "name": "Call Me by Your Name",
+              "score": 0.9184795598914078
+            },
+            {
+              "name": "The Favourite",
+              "score": 0.9010097799864313
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "weightlifting",
+      "id": "urn:tag:genre:place:weightlifting_area",
+      "name": "Weightlifting Area",
+      "type": "urn:tag:genre:place",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08833940796748341,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8590641254616734
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "weightlifting",
+      "id": "urn:tag:category:place:weightlifting_area",
+      "name": "Weightlifting area",
+      "type": "urn:tag:category:place",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08833940796748341,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8590641254616734
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "weightlifting",
+      "id": "urn:tag:occupation:wikidata:weightlifting",
+      "name": "Weightlifting",
+      "type": "urn:tag:occupation:wikidata",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.08833940796748341,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8590641254616734
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            },
+            {
+              "name": "Chef's Table",
+              "score": 0.8547187906427913
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.0,
+          "max_score_change": 0.07519130019317977,
+          "top3": [
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            },
+            {
+              "name": "Her",
+              "score": 0.8384964346119147
+            },
+            {
+              "name": "Lady Bird",
+              "score": 0.8376420781558166
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "architecture",
+      "id": "urn:tag:genre:media:architecture",
+      "name": "Architecture",
+      "type": "urn:tag:genre:media",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.04285714285714287,
+          "max_score_change": 0.08483469790851117,
+          "top3": [
+            {
+              "name": "Black Mirror",
+              "score": 0.8673146090509702
+            },
+            {
+              "name": "High Maintenance",
+              "score": 0.8557336813421788
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.8549547504080205
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.11729323308270678,
+          "max_score_change": 0.08063688338041863,
+          "top3": [
+            {
+              "name": "Marriage Story",
+              "score": 0.8746723900621902
+            },
+            {
+              "name": "Magnolia",
+              "score": 0.8531179941011372
+            },
+            {
+              "name": "Lost in Translation",
+              "score": 0.8440761077093962
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    },
+    {
+      "term": "architecture",
+      "id": "urn:audience:hobbies_and_interests:architecture",
+      "name": "Architecture",
+      "type": "urn:audience:hobbies_and_interests",
+      "domains": {
+        "tv_show": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.24586466165413534,
+          "max_score_change": 0.05576132236339104,
+          "top3": [
+            {
+              "name": "UnREAL",
+              "score": 0.9528453630537014
+            },
+            {
+              "name": "Black Mirror",
+              "score": 0.9487007490991997
+            },
+            {
+              "name": "Electric Dreams",
+              "score": 0.9446524307236568
+            }
+          ],
+          "base_top3": [
+            "Black Mirror",
+            "Electric Dreams",
+            "Chef's Table"
+          ]
+        },
+        "movie": {
+          "scored": 20,
+          "warnings": [],
+          "distance": 0.13458646616541353,
+          "max_score_change": 0.049662673749856556,
+          "top3": [
+            {
+              "name": "Lady Bird",
+              "score": 0.9379785485676282
+            },
+            {
+              "name": "Call Me by Your Name",
+              "score": 0.9264003271267955
+            },
+            {
+              "name": "The Favourite",
+              "score": 0.9154937435740907
+            }
+          ],
+          "base_top3": [
+            "Lost in Translation",
+            "Her",
+            "Lady Bird"
+          ]
+        }
+      }
+    }
+  ]
+}

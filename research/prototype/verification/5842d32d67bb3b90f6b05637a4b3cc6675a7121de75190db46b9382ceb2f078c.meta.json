@@ -1,0 +1,12 @@
+{
+  "request_hash": "5842d32d67bb3b90f6b05637a4b3cc6675a7121de75190db46b9382ceb2f078c",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:videogame",
+    "signal.interests.entities": "4BBEF799-A0C4-4110-AB01-39216993C312,4E62202B-3672-4B2E-A21F-C5EA4A0BA01F,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+    "take": "20"
+  },
+  "response_sha256": "e0f97e875a0809830bc11a4529ce9556343fd0d857fa082753f63a58143c1fce"
+}

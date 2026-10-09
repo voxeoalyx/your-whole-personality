@@ -1,0 +1,12 @@
+{
+  "request_hash": "a47f92429e41c1668b8826454afad48eb550be42dfacb91d38c89454a7648221",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.entities": "46CBADC5-F4A6-4E97-93B2-959066C9F608,C445C761-CB38-4FEE-B085-D35F444A04DF,C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+    "take": "20"
+  },
+  "response_sha256": "4049b20852bacf91fa5100ceeac5ba54a9d7c1a1fdb64fd3efc60a018f761b29"
+}

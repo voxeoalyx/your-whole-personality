@@ -1,0 +1,2 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+city_district_lookup,,,discovery,city_district_lookup.a1.json,ok,200,2,0,2,{}

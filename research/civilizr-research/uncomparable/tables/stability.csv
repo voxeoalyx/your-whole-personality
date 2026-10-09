@@ -1,0 +1,9 @@
+﻿test,kind,expected,paired,complete,spearman,top5_jaccard
+eames_repeat,repeat,24,24,True,1.0,1.0
+eames_half,candidate_half,12,12,True,1.0,1.0
+farnsworth_half,candidate_half,12,12,True,1.0,1.0
+eames_places_repeat,repeat,15,15,True,1.0,1.0
+eames_places_half,candidate_half,8,8,True,1.0,1.0
+eames_fixed__ray_fixed,related_input,24,24,True,-0.6652173913043479,0.0
+eames_places_fixed__ray_places_fixed,related_input,15,15,True,0.45357142857142857,0.42857142857142855
+wright_fixed__ray_fixed,different_author,24,24,True,0.9539130434782609,0.42857142857142855

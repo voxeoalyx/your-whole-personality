@@ -1,0 +1,29 @@
+[
+  {
+    "request_id": "global_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "global_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "theater_tags",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "theater_tags.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "city_district_lookup",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "city_district_lookup.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

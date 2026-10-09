@@ -1,0 +1,7 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+winter_park_point1000_brands,winter_park,brands,fixed_profile,winter_park_point1000_brands.a1.json,ok,200,47,47,47,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+winter_park_point1000_tags,winter_park,tags,fixed_profile,winter_park_point1000_tags.a1.json,ok,200,25,25,25,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+pine_hills_point1000_brands,pine_hills,brands,fixed_profile,pine_hills_point1000_brands.a1.json,ok,200,40,40,40,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":5015328}}}"
+pine_hills_point1000_tags,pine_hills,tags,fixed_profile,pine_hills_point1000_tags.a1.json,ok,200,25,25,25,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":5015328}}}"
+mills_50_point1000_brands,mills_50,brands,fixed_profile,mills_50_point1000_brands.a1.json,ok,200,46,46,46,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":38452242}}}"
+mills_50_point1000_tags,mills_50,tags,fixed_profile,mills_50_point1000_tags.a1.json,ok,200,25,25,25,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":38452242}}}"

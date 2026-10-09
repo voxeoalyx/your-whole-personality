@@ -1,0 +1,2 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+stickley,,,discovery,stickley.a1.json,ok,200,0,0,0,{}

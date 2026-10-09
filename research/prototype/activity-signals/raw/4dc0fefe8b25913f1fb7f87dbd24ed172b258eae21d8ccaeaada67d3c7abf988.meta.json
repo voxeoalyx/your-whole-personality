@@ -1,0 +1,13 @@
+{
+  "at": 1791471005.5147388,
+  "request_hash": "4dc0fefe8b25913f1fb7f87dbd24ed172b258eae21d8ccaeaada67d3c7abf988",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:genre:place:weightlifting_area",
+    "take": "20"
+  },
+  "response_sha256": "e053d86d4cbfd23629fb6d45a3c5967067921454d392d76c697d4ef72830339a"
+}

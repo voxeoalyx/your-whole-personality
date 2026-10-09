@@ -1,0 +1,269 @@
+[
+  {
+    "request_id": "eames_repeat",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_repeat.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_half",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_half.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "farnsworth_half",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_half.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_places_repeat",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_places_repeat.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_places_half",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_places_half.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_movie",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "gamble_movie.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "audience_architecture",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "audience_architecture.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "audience_photography",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "audience_photography.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "audience_home_organization",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "audience_home_organization.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:52.097333+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.36,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Monster Energy",
+    "take": "5",
+    "types": "urn:entity:brand"
+  },
+  "raw_file": "monster.a1.json",
+  "request_sha256": "63da0bf1e043f0087803708d7ef4ec07867e6f78f9a68d3e6c5ad479b654000b",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:52 GMT"
+  },
+  "response_sha256": "e42472e689832e607f7d62ac262c3a0471467f3b2046961dd1e02bf97307f26b",
+  "spec": {
+    "endpoint": "/search",
+    "id": "monster",
+    "kind": "discovery",
+    "params": {
+      "query": "Monster Energy",
+      "take": 5,
+      "types": "urn:entity:brand"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Monster+Energy&take=5&types=urn%3Aentity%3Abrand"
+}

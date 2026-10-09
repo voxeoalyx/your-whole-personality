@@ -1,0 +1,183 @@
+{
+  "duration": 119,
+  "success": true,
+  "results": {
+    "tags": [
+      {
+        "parents": [
+          {
+            "type": "urn:entity:videogame"
+          }
+        ],
+        "type": "urn:tag:genre:media",
+        "id": "urn:tag:genre:media:exercise",
+        "name": "Exercise",
+        "popularity": 0.976911,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:tv_show"
+          },
+          {
+            "type": "urn:entity:podcast"
+          },
+          {
+            "type": "urn:entity:movie"
+          }
+        ],
+        "type": "urn:tag:keyword:qloo",
+        "id": "urn:tag:keyword:qloo:exercise",
+        "name": "Exercise",
+        "popularity": 0.7602445,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:podcast"
+          }
+        ],
+        "type": "urn:tag:subgenre:qloo",
+        "id": "urn:tag:subgenre:qloo:exercise",
+        "name": "Exercise",
+        "popularity": 0.61656255,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:exercise_equipment_store",
+        "name": "Exercise equipment store",
+        "popularity": 0.9988989,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:exercise_equipment_store",
+        "name": "Exercise equipment store",
+        "popularity": 0.9988989,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:videogame"
+          }
+        ],
+        "type": "urn:tag:genre:media",
+        "id": "urn:tag:genre:media:exercise_fitness",
+        "name": "Exercise / Fitness",
+        "popularity": 0.9663622,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:exercise_halls",
+        "name": "Exercise halls",
+        "popularity": 0.92118454,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:person"
+          }
+        ],
+        "type": "urn:tag:occupation:wikidata",
+        "id": "urn:tag:occupation:wikidata:exercise_physiologist",
+        "name": "Exercise Physiologist",
+        "popularity": 0.8042435,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:person"
+          }
+        ],
+        "type": "urn:tag:occupation:wikidata",
+        "id": "urn:tag:occupation:wikidata:exercise_scientist",
+        "name": "Exercise Scientist",
+        "popularity": 0.6573981,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:post_exercise_meals",
+        "name": "Post-Exercise Meals",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:exercise_equipment_area",
+        "name": "Exercise Equipment Area",
+        "popularity": 0,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:exercise_halls",
+        "name": "Exercise Halls",
+        "popularity": 0,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:person"
+          }
+        ],
+        "type": "urn:tag:occupation:wikidata",
+        "id": "urn:tag:occupation:wikidata:physical_exercise_instructor",
+        "name": "Physical Exercise Instructor",
+        "popularity": 0.34080815,
+        "properties": {},
+        "tags": []
+      }
+    ]
+  }
+}

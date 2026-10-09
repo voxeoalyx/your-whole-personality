@@ -1,0 +1,4 @@
+﻿request_id,audubon_park_destinations,baldwin_park_destinations,azalea_park_destinations
+audubon_park_destinations,1.0,0.833725376674927,0.9647240665333656
+baldwin_park_destinations,0.833725376674927,1.0,0.8074801237900098
+azalea_park_destinations,0.9647240665333656,0.8074801237900098,1.0

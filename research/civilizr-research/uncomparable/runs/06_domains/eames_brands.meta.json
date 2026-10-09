@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T23:03:20.820742+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.406,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+    "take": "10"
+  },
+  "raw_file": "eames_brands.a1.json",
+  "request_sha256": "f4c464202c64518244db26b7a2c82ebdb2c1f20948cfce003ae5d6c22a730152",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:03:22 GMT"
+  },
+  "response_sha256": "c416fa736b41759b672ba4ee7354c59c91e0afab51480d21e41d3a899a3e401a",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "eames_brands",
+    "input": "eames",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=844F3E47-3370-4BAF-B69C-CBD98C5CA228&take=10"
+}

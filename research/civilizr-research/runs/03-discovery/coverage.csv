@@ -1,0 +1,12 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+college_park_lookup,College Park,,lookup,college_park_lookup.a1.json,ok,200,5,0,5,{}
+audubon_park_lookup,Audubon Park,,lookup,audubon_park_lookup.a1.json,ok,200,5,0,5,{}
+baldwin_park_lookup,Baldwin Park,,lookup,baldwin_park_lookup.a1.json,ok,200,5,0,5,{}
+azalea_park_lookup,Azalea Park,,lookup,azalea_park_lookup.a1.json,ok,200,5,0,5,{}
+mills_50_lookup,Mills 50,,lookup,mills_50_lookup.a1.json,ok,200,0,0,0,{}
+restaurant_taxonomy,,restaurant,taxonomy,restaurant_taxonomy.a1.json,ok,200,20,0,20,{}
+coffee_taxonomy,,coffee,taxonomy,coffee_taxonomy.a1.json,ok,200,20,0,20,{}
+fitness_taxonomy,,fitness,taxonomy,fitness_taxonomy.a1.json,ok,200,20,0,20,{}
+museum_taxonomy,,museum,taxonomy,museum_taxonomy.a1.json,ok,200,20,0,20,{}
+bar_taxonomy,,bar,taxonomy,bar_taxonomy.a1.json,ok,200,20,0,20,{}
+place_tag_types_page2,,,taxonomy,place_tag_types_page2.a1.json,ok,200,0,0,0,{}

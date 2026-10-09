@@ -1,0 +1,99 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+r1_winter_park_lookup,Winter Park,,lookup,..\01-smoke\winter_park_lookup.a1.json,failed,401,0,0,0,{}
+r1_mills_50_lookup,Mills 50,,lookup,,not_run,,0,0,0,{}
+r1_pine_hills_lookup,Pine Hills,,lookup,,not_run,,0,0,0,{}
+r1_place_tag_types,,,taxonomy,,not_run,,0,0,0,{}
+r1_winter_park_tag_probe,Winter Park,,capability_probe,,not_run,,0,0,0,{}
+r2_winter_park_lookup,Winter Park,,lookup,..\02-host-probe\winter_park_lookup.a1.json,ok,200,5,0,5,{}
+r2_mills_50_lookup,Mills 50,,lookup,..\02-host-probe\mills_50_lookup.a1.json,ok,200,5,0,5,{}
+r2_pine_hills_lookup,Pine Hills,,lookup,..\02-host-probe\pine_hills_lookup.a1.json,ok,200,5,0,5,{}
+r2_place_tag_types,,,taxonomy,..\02-host-probe\place_tag_types.a1.json,ok,200,50,0,50,{}
+r2_winter_park_tag_probe,Winter Park,,capability_probe,..\02-host-probe\winter_park_tag_probe.a1.json,ok,200,20,20,20,"{""localities"":{""signal"":{""disambiguation"":""Winter Park, Orange County, Florida, United States"",""entity_id"":""2DA566F2-033C-4B97-BC8C-3322221C68DE"",""location"":{""lat"":28.598801697315782,""lon"":-81.34420470166879},""name"":""Winter Park"",""popularity"":0.99159354,""subtype"":""urn:entity:locality""}}}"
+r3_college_park_lookup,College Park,,lookup,..\03-discovery\college_park_lookup.a1.json,ok,200,5,0,5,{}
+r3_audubon_park_lookup,Audubon Park,,lookup,..\03-discovery\audubon_park_lookup.a1.json,ok,200,5,0,5,{}
+r3_baldwin_park_lookup,Baldwin Park,,lookup,..\03-discovery\baldwin_park_lookup.a1.json,ok,200,5,0,5,{}
+r3_azalea_park_lookup,Azalea Park,,lookup,..\03-discovery\azalea_park_lookup.a1.json,ok,200,5,0,5,{}
+r3_mills_50_lookup,Mills 50,,lookup,..\03-discovery\mills_50_lookup.a1.json,ok,200,0,0,0,{}
+r3_restaurant_taxonomy,,restaurant,taxonomy,..\03-discovery\restaurant_taxonomy.a1.json,ok,200,20,0,20,{}
+r3_coffee_taxonomy,,coffee,taxonomy,..\03-discovery\coffee_taxonomy.a1.json,ok,200,20,0,20,{}
+r3_fitness_taxonomy,,fitness,taxonomy,..\03-discovery\fitness_taxonomy.a1.json,ok,200,20,0,20,{}
+r3_museum_taxonomy,,museum,taxonomy,..\03-discovery\museum_taxonomy.a1.json,ok,200,20,0,20,{}
+r3_bar_taxonomy,,bar,taxonomy,..\03-discovery\bar_taxonomy.a1.json,ok,200,20,0,20,{}
+r3_place_tag_types_page2,,,taxonomy,..\03-discovery\place_tag_types_page2.a1.json,ok,200,23,0,23,{}
+r4_winter_park_place_tags,Winter Park,place_tags,profile,..\04-pilot\winter_park_place_tags.a1.json,ok,200,20,20,20,{}
+r4_winter_park_brands,Winter Park,brands,profile,..\04-pilot\winter_park_brands.a1.json,ok,200,20,20,20,{}
+r4_winter_park_destinations,Winter Park,destinations,profile,..\04-pilot\winter_park_destinations.a1.json,ok,200,20,20,20,{}
+r4_pine_hills_place_tags,Pine Hills,place_tags,profile,..\04-pilot\pine_hills_place_tags.a1.json,ok,200,20,20,20,{}
+r4_pine_hills_brands,Pine Hills,brands,profile,..\04-pilot\pine_hills_brands.a1.json,ok,200,20,20,20,{}
+r4_pine_hills_destinations,Pine Hills,destinations,profile,..\04-pilot\pine_hills_destinations.a1.json,ok,200,20,20,20,{}
+r4_college_park_place_tags,College Park,place_tags,profile,..\04-pilot\college_park_place_tags.a1.json,ok,200,20,20,20,{}
+r4_college_park_brands,College Park,brands,profile,..\04-pilot\college_park_brands.a1.json,ok,200,20,20,20,{}
+r4_college_park_destinations,College Park,destinations,profile,..\04-pilot\college_park_destinations.a1.json,ok,200,20,20,20,{}
+r4_orlando_place_tags,Orlando,place_tags,profile,..\04-pilot\orlando_place_tags.a1.json,ok,200,20,20,20,{}
+r4_orlando_brands,Orlando,brands,profile,..\04-pilot\orlando_brands.a1.json,ok,200,20,20,20,{}
+r4_orlando_destinations,Orlando,destinations,profile,..\04-pilot\orlando_destinations.a1.json,ok,200,0,0,0,{}
+r4_no_location_place_tags,No location,place_tags,profile,..\04-pilot\no_location_place_tags.a1.json,ok,200,20,0,20,{}
+r4_no_location_brands,No location,brands,profile,..\04-pilot\no_location_brands.a1.json,failed,400,0,0,0,{}
+r4_no_location_destinations,No location,destinations,profile,..\04-pilot\no_location_destinations.a1.json,failed,400,0,0,0,{}
+r4_winter_park_repeat_place_tags,Winter Park,place_tags,profile,..\04-pilot\winter_park_repeat_place_tags.a1.json,ok,200,20,20,20,{}
+r4_winter_park_repeat_brands,Winter Park,brands,profile,..\04-pilot\winter_park_repeat_brands.a1.json,ok,200,20,20,20,{}
+r4_winter_park_repeat_destinations,Winter Park,destinations,profile,..\04-pilot\winter_park_repeat_destinations.a1.json,ok,200,20,20,20,{}
+r5_winter_park_food_dining,Winter Park,food_dining,profile,..\05-culture-pilot\winter_park_food_dining.a1.json,ok,200,20,20,20,{}
+r5_winter_park_coffee_cafes,Winter Park,coffee_cafes,profile,..\05-culture-pilot\winter_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+r5_winter_park_fitness,Winter Park,fitness,profile,..\05-culture-pilot\winter_park_fitness.a1.json,ok,200,13,13,13,{}
+r5_winter_park_museums,Winter Park,museums,profile,..\05-culture-pilot\winter_park_museums.a1.json,ok,200,9,9,9,{}
+r5_winter_park_nightlife_bars,Winter Park,nightlife_bars,profile,..\05-culture-pilot\winter_park_nightlife_bars.a1.json,ok,200,20,20,20,{}
+r5_pine_hills_food_dining,Pine Hills,food_dining,profile,..\05-culture-pilot\pine_hills_food_dining.a1.json,ok,200,20,20,20,{}
+r5_pine_hills_coffee_cafes,Pine Hills,coffee_cafes,profile,..\05-culture-pilot\pine_hills_coffee_cafes.a1.json,ok,200,20,20,20,{}
+r5_pine_hills_fitness,Pine Hills,fitness,profile,..\05-culture-pilot\pine_hills_fitness.a1.json,ok,200,12,12,12,{}
+r5_pine_hills_museums,Pine Hills,museums,profile,..\05-culture-pilot\pine_hills_museums.a1.json,ok,200,9,9,9,{}
+r5_pine_hills_nightlife_bars,Pine Hills,nightlife_bars,profile,..\05-culture-pilot\pine_hills_nightlife_bars.a1.json,ok,200,20,20,20,{}
+r6_audubon_park_place_tags,Audubon Park,place_tags,profile,..\06-expansion\audubon_park_place_tags.a1.json,ok,200,20,20,20,{}
+r6_audubon_park_brands,Audubon Park,brands,profile,..\06-expansion\audubon_park_brands.a1.json,ok,200,20,20,20,{}
+r6_audubon_park_destinations,Audubon Park,destinations,profile,..\06-expansion\audubon_park_destinations.a1.json,ok,200,20,20,20,{}
+r6_baldwin_park_place_tags,Baldwin Park,place_tags,profile,..\06-expansion\baldwin_park_place_tags.a1.json,ok,200,20,20,20,{}
+r6_baldwin_park_brands,Baldwin Park,brands,profile,..\06-expansion\baldwin_park_brands.a1.json,ok,200,20,20,20,{}
+r6_baldwin_park_destinations,Baldwin Park,destinations,profile,..\06-expansion\baldwin_park_destinations.a1.json,ok,200,20,20,20,{}
+r6_azalea_park_place_tags,Azalea Park,place_tags,profile,..\06-expansion\azalea_park_place_tags.a1.json,ok,200,20,20,20,{}
+r6_azalea_park_brands,Azalea Park,brands,profile,..\06-expansion\azalea_park_brands.a1.json,ok,200,20,20,20,{}
+r6_azalea_park_destinations,Azalea Park,destinations,profile,..\06-expansion\azalea_park_destinations.a1.json,ok,200,20,20,20,{}
+r7_college_park_food_dining,College Park,food_dining,profile,..\07-culture-remaining\college_park_food_dining.a1.json,ok,200,20,20,20,{}
+r7_college_park_coffee_cafes,College Park,coffee_cafes,profile,..\07-culture-remaining\college_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+r7_college_park_fitness,College Park,fitness,profile,..\07-culture-remaining\college_park_fitness.a1.json,ok,200,12,12,12,{}
+r7_college_park_museums,College Park,museums,profile,..\07-culture-remaining\college_park_museums.a1.json,ok,200,9,9,9,{}
+r7_college_park_nightlife_bars,College Park,nightlife_bars,profile,..\07-culture-remaining\college_park_nightlife_bars.a1.json,ok,200,20,20,20,{}
+r7_audubon_park_food_dining,Audubon Park,food_dining,profile,..\07-culture-remaining\audubon_park_food_dining.a1.json,ok,200,20,20,20,{}
+r7_audubon_park_coffee_cafes,Audubon Park,coffee_cafes,profile,..\07-culture-remaining\audubon_park_coffee_cafes.a1.json,ok,200,4,4,4,{}
+r7_audubon_park_fitness,Audubon Park,fitness,profile,..\07-culture-remaining\audubon_park_fitness.a1.json,ok,200,0,0,0,{}
+r7_audubon_park_museums,Audubon Park,museums,profile,..\07-culture-remaining\audubon_park_museums.a1.json,ok,200,6,6,6,{}
+r7_audubon_park_nightlife_bars,Audubon Park,nightlife_bars,profile,..\07-culture-remaining\audubon_park_nightlife_bars.a1.json,ok,200,8,8,8,{}
+r7_baldwin_park_food_dining,Baldwin Park,food_dining,profile,..\07-culture-remaining\baldwin_park_food_dining.a1.json,ok,200,20,20,20,{}
+r7_baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,profile,..\07-culture-remaining\baldwin_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+r7_baldwin_park_fitness,Baldwin Park,fitness,profile,..\07-culture-remaining\baldwin_park_fitness.a1.json,ok,200,12,12,12,{}
+r7_baldwin_park_museums,Baldwin Park,museums,profile,..\07-culture-remaining\baldwin_park_museums.a1.json,ok,200,9,9,9,{}
+r7_baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,profile,..\07-culture-remaining\baldwin_park_nightlife_bars.a1.json,ok,200,20,20,20,{}
+r7_azalea_park_food_dining,Azalea Park,food_dining,profile,..\07-culture-remaining\azalea_park_food_dining.a1.json,ok,200,20,20,20,{}
+r7_azalea_park_coffee_cafes,Azalea Park,coffee_cafes,profile,..\07-culture-remaining\azalea_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+r7_azalea_park_fitness,Azalea Park,fitness,profile,..\07-culture-remaining\azalea_park_fitness.a1.json,ok,200,8,8,8,{}
+r7_azalea_park_museums,Azalea Park,museums,profile,..\07-culture-remaining\azalea_park_museums.a1.json,ok,200,9,9,9,{}
+r7_azalea_park_nightlife_bars,Azalea Park,nightlife_bars,profile,..\07-culture-remaining\azalea_park_nightlife_bars.a1.json,ok,200,20,20,20,{}
+r8_mills_50_compact_alias,Mills 50,,lookup,..\08-diagnostics\mills_50_compact_alias.a1.json,ok,200,0,0,0,{}
+r8_mills_50_place_anchor,Mills 50,,lookup,..\08-diagnostics\mills_50_place_anchor.a1.json,ok,200,5,0,5,{}
+r8_winter_park_explanation_location_only,Winter Park,,explainability,..\08-diagnostics\winter_park_explanation_location_only.a1.json,ok,200,20,20,20,{}
+r8_winter_park_explanation_entity_seeded,Winter Park,,explainability_seeded,..\08-diagnostics\winter_park_explanation_entity_seeded.a1.json,ok,200,5,5,5,"{""explainability"":{""signal.interests.entities"":{""effect_on_all_recs"":[{""avg_score"":0.5597879464136161,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.44021205358638393,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}],""effect_on_top10_recs"":[{""avg_score"":0.5597879464136161,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.44021205358638393,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}],""effect_on_top3_recs"":[{""avg_score"":0.5665097380841241,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.433490261915876,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}],""effect_on_top5_recs"":[{""avg_score"":0.5597879464136161,""entity_id"":""BE74FBA3-EEC5-4D55-BA71-750C8322A827""},{""avg_score"":0.44021205358638393,""entity_id"":""50A73864-984A-446F-8401-9F501EA0457B""}]}}}"
+r8_brand_trending,,,global_trend,..\08-diagnostics\brand_trending.a1.json,failed,404,0,0,0,{}
+r8_rifle_paper_trend,,,global_trend,..\08-diagnostics\rifle_paper_trend.a1.json,failed,404,0,0,0,{}
+r8_rifle_paper_trend_v2,,,global_trend,..\08-diagnostics\rifle_paper_trend_v2.a1.json,ok,200,0,0,0,{}
+r8_food_dining_heatmap,,food_dining,heatmap,..\08-diagnostics\food_dining_heatmap.a1.json,ok,200,1522,1522,1522,{}
+r8_coffee_cafes_heatmap,,coffee_cafes,heatmap,..\08-diagnostics\coffee_cafes_heatmap.a1.json,ok,200,1384,1384,1384,{}
+r8_fitness_heatmap,,fitness,heatmap,..\08-diagnostics\fitness_heatmap.a1.json,ok,200,1150,1150,1150,{}
+r8_museums_heatmap,,museums,heatmap,..\08-diagnostics\museums_heatmap.a1.json,ok,200,1307,1307,1307,{}
+r8_nightlife_bars_heatmap,,nightlife_bars,heatmap,..\08-diagnostics\nightlife_bars_heatmap.a1.json,ok,200,1484,1484,1484,{}
+r8_coffee_neighborhood_heatmap,,coffee_cafes,heatmap_boundary_probe,..\08-diagnostics\coffee_neighborhood_heatmap.a1.json,failed,400,0,0,0,{}
+r9_winter_park_brands_500,Winter Park,brands_point,profile,..\09-sensitivity\winter_park_brands_500.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+r9_winter_park_brands_1000,Winter Park,brands_point,profile,..\09-sensitivity\winter_park_brands_1000.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+r9_college_park_brands_500,College Park,brands_point,profile,..\09-sensitivity\college_park_brands_500.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":15577543}}}"
+r9_college_park_brands_1000,College Park,brands_point,profile,..\09-sensitivity\college_park_brands_1000.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":16806597}}}"
+r9_mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,profile,..\09-sensitivity\mills_50_point_proxy_brands_500.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":10236039}}}"
+r9_mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,profile,..\09-sensitivity\mills_50_point_proxy_brands_1000.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":26808243}}}"
+r9_coffee_locality_heatmap,,coffee_cafes,heatmap_boundary_probe,..\09-sensitivity\coffee_locality_heatmap.a2.json,failed,500,0,0,0,{}

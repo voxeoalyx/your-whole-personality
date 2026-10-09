@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-07T23:06:02.176253+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.297,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.results.entities": "02610282-EFD6-4962-920F-49312B296A93,12FC33E1-45BD-40EB-9FDD-9E927CA7EDA0,1DDDFC7F-5407-4602-A3B4-FFFFC17B2419,2D73F204-0AE7-48E5-AC4C-FB79A3D5409F,50330837-3BAD-4ACB-AC3E-4B8810F48E11,7579B79F-9961-4A0F-A7AD-3BF461137110,9FDEDD5B-6D0E-4375-A6E2-F0C933089C82,BBE036A6-555F-4094-B78F-FA2302E2D80C,CA45269A-77BE-4F89-A882-F219A7941A13,D2A0CB9E-F2A7-4F1A-B977-B8658E5862FD,E7953F4B-B06B-4DC0-948B-FE79E12F2868,F29AA197-30CA-431D-A533-BFCFFFCCEB15",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+    "take": "12"
+  },
+  "raw_file": "farnsworth_half.a1.json",
+  "request_sha256": "e5aeae67c9c446707c92bb43699ef91c3907855d870cf42c60d618dffe49f22e",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:06:03 GMT"
+  },
+  "response_sha256": "699c3f6a183d4783b71a3d7cd910ae1a6354eb2edef77d673b78ab950b389709",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "farnsworth_half",
+    "input": "farnsworth",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.results.entities": [
+        "02610282-EFD6-4962-920F-49312B296A93",
+        "12FC33E1-45BD-40EB-9FDD-9E927CA7EDA0",
+        "1DDDFC7F-5407-4602-A3B4-FFFFC17B2419",
+        "2D73F204-0AE7-48E5-AC4C-FB79A3D5409F",
+        "50330837-3BAD-4ACB-AC3E-4B8810F48E11",
+        "7579B79F-9961-4A0F-A7AD-3BF461137110",
+        "9FDEDD5B-6D0E-4375-A6E2-F0C933089C82",
+        "BBE036A6-555F-4094-B78F-FA2302E2D80C",
+        "CA45269A-77BE-4F89-A882-F219A7941A13",
+        "D2A0CB9E-F2A7-4F1A-B977-B8658E5862FD",
+        "E7953F4B-B06B-4DC0-948B-FE79E12F2868",
+        "F29AA197-30CA-431D-A533-BFCFFFCCEB15"
+      ],
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+      "take": 12
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.results.entities=02610282-EFD6-4962-920F-49312B296A93%2C12FC33E1-45BD-40EB-9FDD-9E927CA7EDA0%2C1DDDFC7F-5407-4602-A3B4-FFFFC17B2419%2C2D73F204-0AE7-48E5-AC4C-FB79A3D5409F%2C50330837-3BAD-4ACB-AC3E-4B8810F48E11%2C7579B79F-9961-4A0F-A7AD-3BF461137110%2C9FDEDD5B-6D0E-4375-A6E2-F0C933089C82%2CBBE036A6-555F-4094-B78F-FA2302E2D80C%2CCA45269A-77BE-4F89-A882-F219A7941A13%2CD2A0CB9E-F2A7-4F1A-B977-B8658E5862FD%2CE7953F4B-B06B-4DC0-948B-FE79E12F2868%2CF29AA197-30CA-431D-A533-BFCFFFCCEB15&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=AF7BB7E1-568A-45A9-BA52-2C91021BC61E&take=12"
+}

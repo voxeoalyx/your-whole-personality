@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-07T18:41:38.407625+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.265,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:destination",
+    "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+    "take": "20"
+  },
+  "raw_file": "..\\04-pilot\\orlando_destinations.a1.json",
+  "request_sha256": "422ea5f4ad70323db4b605a8b691c67b0f65c8b7ce83693b41508c006e9a3fb1",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:41:39 GMT"
+  },
+  "response_sha256": "01365d43cf22fc90a66929770cce324b78b4d53c0391af7381e257a0cdcf3d52",
+  "spec": {
+    "id": "r4_orlando_destinations",
+    "area": "Orlando",
+    "role": "baseline",
+    "dimension": "destinations",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:destination",
+      "bias.trends": "off",
+      "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Adestination&signal.location=D029E622-B514-4866-9166-35C0C1801794&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\04-pilot\\orlando_destinations.meta.json"
+}

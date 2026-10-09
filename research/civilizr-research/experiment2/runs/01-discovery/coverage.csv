@@ -1,0 +1,4 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+global_brands,,,discovery,global_brands.a1.json,ok,200,30,0,30,{}
+theater_tags,,,discovery,theater_tags.a1.json,ok,200,20,0,20,{}
+city_district_lookup,,,discovery,city_district_lookup.a1.json,ok,200,5,0,5,{}

@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-07T19:23:04.699363+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Experiment 2: 01-discovery",
+      "requests": [
+        {
+          "id": "global_brands",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "filter.popularity.min": 0.95,
+            "take": 30,
+            "bias.trends": "off"
+          },
+          "kind": "discovery"
+        },
+        {
+          "id": "theater_tags",
+          "endpoint": "/v2/tags",
+          "params": {
+            "filter.parents.types": "urn:entity:place",
+            "filter.tag.types": "urn:tag:genre:place",
+            "filter.query": "theater",
+            "take": 20
+          },
+          "kind": "discovery"
+        },
+        {
+          "id": "city_district_lookup",
+          "endpoint": "/search",
+          "params": {
+            "query": "Central Business District, Orlando, Florida",
+            "types": "urn:entity:locality",
+            "take": 5
+          },
+          "kind": "discovery"
+        }
+      ],
+      "experiment2": {
+        "plan_sha256": "79895fe348b175cf23786d87b34a7cdf9675f2b0c949b94f29b6074effc39ad1",
+        "driver_sha256": "e5aa27b37c7a3711b03707208f6061cf32966e77a36bc0cbc2c0152d7a4a78ba",
+        "frozen_config": {}
+      }
+    },
+    "code_sha256": "88926b5ff19d9578b0be91249bce28af4fa4ad08289956bda59ef7d9d0db267e"
+  }
+}

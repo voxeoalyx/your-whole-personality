@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-07T18:36:40.277012+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.5,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.location": "28.5421109,-81.3790304",
+    "filter.radius": "30",
+    "page": "1",
+    "query": "Audubon Park",
+    "take": "5",
+    "types": "urn:entity:locality"
+  },
+  "raw_file": "audubon_park_lookup.a1.json",
+  "request_sha256": "5958cc27fa2c519ca5ea061b6cbc5a985f59845fc4901376b681336da81cf6b7",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:36:41 GMT"
+  },
+  "response_sha256": "8432314d915090d3d86b8f7f2a4e4a585ee93bbaf2a1756365136455fa7ba848",
+  "spec": {
+    "area": "Audubon Park",
+    "endpoint": "/search",
+    "id": "audubon_park_lookup",
+    "kind": "lookup",
+    "params": {
+      "filter.location": "28.5421109,-81.3790304",
+      "filter.radius": 30,
+      "page": 1,
+      "query": "Audubon Park",
+      "take": 5,
+      "types": "urn:entity:locality"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?filter.location=28.5421109%2C-81.3790304&filter.radius=30&page=1&query=Audubon+Park&take=5&types=urn%3Aentity%3Alocality"
+}

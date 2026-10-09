@@ -1,0 +1,47 @@
+[
+  {
+    "request_id": "winter_park_lookup",
+    "area": "Winter Park",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "winter_park_lookup.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_lookup",
+    "area": "Mills 50",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_lookup",
+    "area": "Pine Hills",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "place_tag_types",
+    "area": "",
+    "dimension": "",
+    "kind": "taxonomy",
+    "raw_file": "",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_tag_probe",
+    "area": "Winter Park",
+    "dimension": "",
+    "kind": "capability_probe",
+    "raw_file": "",
+    "query": {},
+    "warnings": null
+  }
+]

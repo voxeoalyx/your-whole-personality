@@ -1,0 +1,7 @@
+﻿profile,full_winner,largest_id,next_id,half0_winner,half1_winner,secondary_winner,dominance_flag
+p01,severance,0.15509846751265516,0.12422335482976216,radiohead,severance,severance,False
+p02,rogan,0.29507835795021153,0.14182442271687123,rogan,rogan,rogan,True
+p05,taylor,0.027491158726856674,0.027272727272727282,taylor,friends,friends,False
+p06,taylor,0.045570695513487275,0.044719506275570337,rogan,rogan,rogan,False
+p09,patagonia,0.036885444837389925,0.024727827473822878,lululemon,patagonia,patagonia,False
+p10,lululemon,0.09409021565772138,0.04727480757229041,lululemon,lululemon,patagonia,False

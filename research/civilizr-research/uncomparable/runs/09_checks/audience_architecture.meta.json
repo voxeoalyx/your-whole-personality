@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-07T23:06:06.466369+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.results.entities": "B93EFF0C-C623-4F82-AD33-C82710D86FAB,C2C17BD0-5B07-45FF-AC62-612A1DE9A152,AF7BB7E1-568A-45A9-BA52-2C91021BC61E,844F3E47-3370-4BAF-B69C-CBD98C5CA228,C0754A81-4B4D-446D-A5C1-03D41C3AF7A8,49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+    "filter.type": "urn:entity:place",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:architecture",
+    "take": "6"
+  },
+  "raw_file": "audience_architecture.a1.json",
+  "request_sha256": "13f754c31518f509f67cad7db08040f14fa69e4876df0c2937fb6cf12234f3ff",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:06:08 GMT"
+  },
+  "response_sha256": "a2d939836afe05cf31b1dde25f2fed0e94d81df8642dcc761efb8e938c7461bb",
+  "spec": {
+    "domain": "place",
+    "endpoint": "/v2/insights",
+    "id": "audience_architecture",
+    "input": "audience_architecture",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.results.entities": [
+        "B93EFF0C-C623-4F82-AD33-C82710D86FAB",
+        "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+        "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+        "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+        "49691E2A-00CB-42FF-AEF2-B075CF22DE9E"
+      ],
+      "filter.type": "urn:entity:place",
+      "signal.demographics.audiences": "urn:audience:hobbies_and_interests:architecture",
+      "take": 6
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.results.entities=B93EFF0C-C623-4F82-AD33-C82710D86FAB%2CC2C17BD0-5B07-45FF-AC62-612A1DE9A152%2CAF7BB7E1-568A-45A9-BA52-2C91021BC61E%2C844F3E47-3370-4BAF-B69C-CBD98C5CA228%2CC0754A81-4B4D-446D-A5C1-03D41C3AF7A8%2C49691E2A-00CB-42FF-AEF2-B075CF22DE9E&filter.type=urn%3Aentity%3Aplace&signal.demographics.audiences=urn%3Aaudience%3Ahobbies_and_interests%3Aarchitecture&take=6"
+}

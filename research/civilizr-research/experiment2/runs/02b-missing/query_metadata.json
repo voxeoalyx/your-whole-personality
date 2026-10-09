@@ -1,0 +1,34 @@
+[
+  {
+    "request_id": "pine_hills_missing_brands",
+    "area": "pine_hills",
+    "dimension": "brands",
+    "kind": "missing_diagnostic",
+    "raw_file": "pine_hills_missing_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_missing_tags",
+    "area": "pine_hills",
+    "dimension": "tags",
+    "kind": "missing_diagnostic",
+    "raw_file": "pine_hills_missing_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  }
+]

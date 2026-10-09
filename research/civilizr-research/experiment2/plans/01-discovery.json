@@ -1,0 +1,37 @@
+{
+  "title": "Experiment 2: 01-discovery",
+  "requests": [
+    {
+      "id": "global_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "filter.popularity.min": 0.95,
+        "take": 30,
+        "bias.trends": "off"
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "theater_tags",
+      "endpoint": "/v2/tags",
+      "params": {
+        "filter.parents.types": "urn:entity:place",
+        "filter.tag.types": "urn:tag:genre:place",
+        "filter.query": "theater",
+        "take": 20
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "city_district_lookup",
+      "endpoint": "/search",
+      "params": {
+        "query": "Central Business District, Orlando, Florida",
+        "types": "urn:entity:locality",
+        "take": 5
+      },
+      "kind": "discovery"
+    }
+  ]
+}

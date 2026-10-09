@@ -1,0 +1,13 @@
+{
+  "at": 1791471912.1084156,
+  "request_hash": "cd815defccbcfe8c75b32e3a1d9739682cc83390af4795a23b7cc5e564128a08",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "20"
+  },
+  "response_sha256": "d88e1550333eeeaaa72cdda699b8b832605873cc14532c64e57ee2d1d1a10bb2"
+}

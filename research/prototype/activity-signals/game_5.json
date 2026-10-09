@@ -1,0 +1,1480 @@
+{
+  "version": 1,
+  "source": "live",
+  "generated_at": "2026-10-08T14:57:38.240241+00:00",
+  "interests": [
+    {
+      "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "name": "Radiohead",
+      "type": "artist",
+      "detail": "Radiohead",
+      "image": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg",
+      "verified": true,
+      "alias": "radiohead"
+    },
+    {
+      "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+      "name": "Blue Bottle Coffee",
+      "type": "brand",
+      "detail": "Blue Bottle Coffee is a specialty coffee roaster and retailer known for fresh, high-quality coffee sourced from partners like Pedro Nel Trujillo.",
+      "image": "https://images.qloo.com/i/22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D-420x-auto.jpg",
+      "verified": true,
+      "alias": "blue_bottle"
+    },
+    {
+      "id": "urn:tag:genre:music:yoga",
+      "name": "Yoga",
+      "type": "tag",
+      "taxonomy": "urn:tag:genre:music",
+      "parent_types": [
+        "album",
+        "artist"
+      ],
+      "type_label": "Music genre tag",
+      "label": "Yoga (Music genre tag)",
+      "detail": "Interest in this music category, not proof that you do the activity.",
+      "image": null
+    }
+  ],
+  "domains": [
+    "tv_show",
+    "movie"
+  ],
+  "predictions": [
+    {
+      "id": "E8DA8694-5A10-4974-BDA6-07A0278071DF",
+      "name": "The Final Table",
+      "type": null,
+      "detail": "2018,2018",
+      "image": "https://images.qloo.com/i/E8DA8694-5A10-4974-BDA6-07A0278071DF-420x-auto.jpg",
+      "score": 0.9351565351996479,
+      "domain": "tv_show",
+      "rank": 1
+    },
+    {
+      "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+      "name": "Moon",
+      "type": null,
+      "detail": "2009, Duncan Jones",
+      "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+      "score": 0.9152670226449152,
+      "domain": "movie",
+      "rank": 1
+    },
+    {
+      "id": "3793B181-5AB6-4BDF-8FC5-728E48B5D391",
+      "name": "Camping",
+      "type": null,
+      "detail": "2018,2018",
+      "image": "https://images.qloo.com/i/3793B181-5AB6-4BDF-8FC5-728E48B5D391-420x-auto.jpg",
+      "score": 0.9332991236312279,
+      "domain": "tv_show",
+      "rank": 2
+    },
+    {
+      "id": "47F80F4A-3D57-4501-A5C8-84BA70D052C7",
+      "name": "Closer",
+      "type": null,
+      "detail": "2004, Mike Nichols",
+      "image": "https://images.qloo.com/i/47F80F4A-3D57-4501-A5C8-84BA70D052C7-420x-auto.jpg",
+      "score": 0.9029175845101912,
+      "domain": "movie",
+      "rank": 2
+    },
+    {
+      "id": "06520C22-07E8-47C1-AC4E-B643557BE79F",
+      "name": "The OA",
+      "type": null,
+      "detail": "2016,2019",
+      "image": "https://images.qloo.com/i/06520C22-07E8-47C1-AC4E-B643557BE79F-420x-auto.jpg",
+      "score": 0.9252294898603066,
+      "domain": "tv_show",
+      "rank": 3
+    },
+    {
+      "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+      "name": "Children of Men",
+      "type": null,
+      "detail": "2006, Alfonso Cuarón",
+      "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+      "score": 0.8962849816705134,
+      "domain": "movie",
+      "rank": 3
+    }
+  ],
+  "full": {
+    "tv_show": [
+      {
+        "id": "E8DA8694-5A10-4974-BDA6-07A0278071DF",
+        "name": "The Final Table",
+        "type": null,
+        "detail": "2018,2018",
+        "image": "https://images.qloo.com/i/E8DA8694-5A10-4974-BDA6-07A0278071DF-420x-auto.jpg",
+        "score": 0.9351565351996479
+      },
+      {
+        "id": "3793B181-5AB6-4BDF-8FC5-728E48B5D391",
+        "name": "Camping",
+        "type": null,
+        "detail": "2018,2018",
+        "image": "https://images.qloo.com/i/3793B181-5AB6-4BDF-8FC5-728E48B5D391-420x-auto.jpg",
+        "score": 0.9332991236312279
+      },
+      {
+        "id": "06520C22-07E8-47C1-AC4E-B643557BE79F",
+        "name": "The OA",
+        "type": null,
+        "detail": "2016,2019",
+        "image": "https://images.qloo.com/i/06520C22-07E8-47C1-AC4E-B643557BE79F-420x-auto.jpg",
+        "score": 0.9252294898603066
+      },
+      {
+        "id": "0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3",
+        "name": "Big Little Lies",
+        "type": null,
+        "detail": "2017,2026",
+        "image": "https://images.qloo.com/i/0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3-420x-auto.jpg",
+        "score": 0.9228769569832955
+      },
+      {
+        "id": "F883FF64-EF31-45E6-9423-C782A172331E",
+        "name": "Real Time with Bill Maher",
+        "type": null,
+        "detail": "2003",
+        "image": "https://images.qloo.com/i/F883FF64-EF31-45E6-9423-C782A172331E-420x-auto.jpg",
+        "score": 0.9226170958031736
+      },
+      {
+        "id": "D876F61A-BB30-432F-AC00-B13156993DC3",
+        "name": "Grace and Frankie",
+        "type": null,
+        "detail": "2015,2022",
+        "image": "https://images.qloo.com/i/D876F61A-BB30-432F-AC00-B13156993DC3-420x-auto.jpg",
+        "score": 0.9199211905159378
+      },
+      {
+        "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+        "name": "A Murder at the End of the World",
+        "type": null,
+        "detail": "2023,2023",
+        "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+        "score": 0.9194956522630059
+      },
+      {
+        "id": "AD606865-26B9-4E5F-B7D6-FB49526DCBB0",
+        "name": "The Marvelous Mrs. Maisel",
+        "type": null,
+        "detail": "2017,2023",
+        "image": "https://images.qloo.com/i/AD606865-26B9-4E5F-B7D6-FB49526DCBB0-420x-auto.jpg",
+        "score": 0.9194061220422118
+      },
+      {
+        "id": "149ACA1F-6C48-4B5D-81DA-9A28C4180044",
+        "name": "Young Sheldon",
+        "type": null,
+        "detail": "2017,2024",
+        "image": "https://images.qloo.com/i/149ACA1F-6C48-4B5D-81DA-9A28C4180044-420x-auto.jpg",
+        "score": 0.9153098096035419
+      },
+      {
+        "id": "01162431-88EE-439C-BA27-BF54382841C3",
+        "name": "Four Weddings and a Funeral",
+        "type": null,
+        "detail": "2019,2019",
+        "image": "https://images.qloo.com/i/01162431-88EE-439C-BA27-BF54382841C3-420x-auto.jpg",
+        "score": 0.9148600977590606
+      },
+      {
+        "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+        "name": "Black Mirror",
+        "type": null,
+        "detail": "2011",
+        "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+        "score": 0.9141156995088286
+      },
+      {
+        "id": "B20D186B-A301-4D58-8497-6C09853CC1B0",
+        "name": "The Late Show with Stephen Colbert",
+        "type": null,
+        "detail": "2015,2026",
+        "image": "https://images.qloo.com/i/B20D186B-A301-4D58-8497-6C09853CC1B0-420x-auto.jpg",
+        "score": 0.9135494173927666
+      },
+      {
+        "id": "A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5",
+        "name": "Will & Grace",
+        "type": null,
+        "detail": "1998,2020",
+        "image": "https://images.qloo.com/i/A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5-420x-auto.jpg",
+        "score": 0.9134427341178288
+      },
+      {
+        "id": "A740E641-3455-4278-B58B-03D9289A6902",
+        "name": "Monkey Dust",
+        "type": null,
+        "detail": "2003,2005",
+        "image": "https://images.qloo.com/i/A740E641-3455-4278-B58B-03D9289A6902-420x-auto.jpg",
+        "score": 0.9131397522490485
+      },
+      {
+        "id": "52FD00C7-8D72-4249-BA0A-D7E898D815B6",
+        "name": "Waking the Dead",
+        "type": null,
+        "detail": "2000,2011",
+        "image": "https://images.qloo.com/i/52FD00C7-8D72-4249-BA0A-D7E898D815B6-420x-auto.jpg",
+        "score": 0.9125578925120184
+      },
+      {
+        "id": "93804FA5-8089-488B-AE2C-C26D9E4F58DB",
+        "name": "Schitt's Creek",
+        "type": null,
+        "detail": "2015,2020",
+        "image": "https://images.qloo.com/i/93804FA5-8089-488B-AE2C-C26D9E4F58DB-420x-auto.jpg",
+        "score": 0.9125310818322123
+      },
+      {
+        "id": "BC7028A4-8A05-4F39-BE5E-D8C8441307BE",
+        "name": "The Missing",
+        "type": null,
+        "detail": "2014,2016",
+        "image": "https://images.qloo.com/i/BC7028A4-8A05-4F39-BE5E-D8C8441307BE-420x-auto.jpg",
+        "score": 0.9123620991032697
+      },
+      {
+        "id": "D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2",
+        "name": "Best Wishes, Warmest Regards: A Schitt's Creek Farewell",
+        "type": null,
+        "detail": "2020",
+        "image": "https://images.qloo.com/i/D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2-420x-auto.jpg",
+        "score": 0.9092479848123252
+      },
+      {
+        "id": "24890089-02E4-45CD-88AE-2663879F3F94",
+        "name": "Nova",
+        "type": null,
+        "detail": "1974",
+        "image": "https://images.qloo.com/i/24890089-02E4-45CD-88AE-2663879F3F94-420x-auto.jpg",
+        "score": 0.9087384930680288
+      },
+      {
+        "id": "864869EC-FB51-4056-8725-CB2A7DFCF115",
+        "name": "Patriot Act with Hasan Minhaj",
+        "type": null,
+        "detail": "2018,2020",
+        "image": "https://images.qloo.com/i/864869EC-FB51-4056-8725-CB2A7DFCF115-420x-auto.jpg",
+        "score": 0.9063889494751495
+      }
+    ],
+    "movie": [
+      {
+        "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+        "name": "Moon",
+        "type": null,
+        "detail": "2009, Duncan Jones",
+        "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+        "score": 0.9152670226449152
+      },
+      {
+        "id": "47F80F4A-3D57-4501-A5C8-84BA70D052C7",
+        "name": "Closer",
+        "type": null,
+        "detail": "2004, Mike Nichols",
+        "image": "https://images.qloo.com/i/47F80F4A-3D57-4501-A5C8-84BA70D052C7-420x-auto.jpg",
+        "score": 0.9029175845101912
+      },
+      {
+        "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+        "name": "Children of Men",
+        "type": null,
+        "detail": "2006, Alfonso Cuarón",
+        "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+        "score": 0.8962849816705134
+      },
+      {
+        "id": "9804E01F-3C37-49C2-8089-6F51DD48C708",
+        "name": "Confessions of a Dangerous Mind",
+        "type": null,
+        "detail": "2002, George Clooney",
+        "image": "https://images.qloo.com/i/9804E01F-3C37-49C2-8089-6F51DD48C708-420x-auto.jpg",
+        "score": 0.8920800856489028
+      },
+      {
+        "id": "FA808972-890F-4894-88E2-9515783EA31F",
+        "name": "The Good Lie",
+        "type": null,
+        "detail": "2014, Philippe Falardeau",
+        "image": "https://images.qloo.com/i/FA808972-890F-4894-88E2-9515783EA31F-420x-auto.jpg",
+        "score": 0.8861143489592221
+      },
+      {
+        "id": "8372EB34-2B88-4C18-ABAC-37A13CF4C208",
+        "name": "T2 Trainspotting",
+        "type": null,
+        "detail": "2017, Danny Boyle",
+        "image": "https://images.qloo.com/i/8372EB34-2B88-4C18-ABAC-37A13CF4C208-420x-auto.jpg",
+        "score": 0.8858218937756097
+      },
+      {
+        "id": "8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F",
+        "name": "Parking",
+        "type": null,
+        "detail": "2023",
+        "image": "https://images.qloo.com/i/8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F-420x-auto.jpg",
+        "score": 0.8857754201207189
+      },
+      {
+        "id": "96BFC201-C648-4C25-9837-2D930677F4AE",
+        "name": "Husband Material",
+        "type": null,
+        "detail": "2018, Anurag Kashyap",
+        "image": "https://images.qloo.com/i/96BFC201-C648-4C25-9837-2D930677F4AE-420x-auto.jpg",
+        "score": 0.8854014078846075
+      },
+      {
+        "id": "E7CEB2C4-050C-4B44-9AE0-BE138B413364",
+        "name": "Forgetting Sarah Marshall",
+        "type": null,
+        "detail": "2008, Nicholas Stoller",
+        "image": "https://images.qloo.com/i/E7CEB2C4-050C-4B44-9AE0-BE138B413364-420x-auto.jpg",
+        "score": 0.8852102115305895
+      },
+      {
+        "id": "55DAD826-9410-4B92-82EF-B58B9D3451DE",
+        "name": "Far from Heaven",
+        "type": null,
+        "detail": "2002, Todd Haynes",
+        "image": "https://images.qloo.com/i/55DAD826-9410-4B92-82EF-B58B9D3451DE-420x-auto.jpg",
+        "score": 0.883572228038672
+      },
+      {
+        "id": "46977ED7-5525-4AF8-AC47-077F306052C2",
+        "name": "Majili",
+        "type": null,
+        "detail": "2019, Shiva Nirvana",
+        "image": "https://images.qloo.com/i/46977ED7-5525-4AF8-AC47-077F306052C2-420x-auto.jpg",
+        "score": 0.882553043922076
+      },
+      {
+        "id": "B007D7C0-A145-455F-BC42-8AA02B4F5948",
+        "name": "Wild",
+        "type": null,
+        "detail": "2014, Jean-Marc Vallée",
+        "image": "https://images.qloo.com/i/B007D7C0-A145-455F-BC42-8AA02B4F5948-420x-auto.jpg",
+        "score": 0.8823268868379107
+      },
+      {
+        "id": "6815C250-8240-48DB-8EF1-C19A750AB523",
+        "name": "Awe!",
+        "type": null,
+        "detail": "2018, Prasanth Varma",
+        "image": "https://images.qloo.com/i/6815C250-8240-48DB-8EF1-C19A750AB523-420x-auto.jpg",
+        "score": 0.8816885319272144
+      },
+      {
+        "id": "E8D6D8F8-B509-434C-BD40-161595A07EEE",
+        "name": "Mahanati",
+        "type": null,
+        "detail": "2018, Nag Ashwin",
+        "image": "https://images.qloo.com/i/E8D6D8F8-B509-434C-BD40-161595A07EEE-420x-auto.jpg",
+        "score": 0.881610746479458
+      },
+      {
+        "id": "CC70F6AD-7E3F-46D6-BF57-A6C337CF264F",
+        "name": "Karwaan",
+        "type": null,
+        "detail": "2018, Akarsh Khurana",
+        "image": "https://images.qloo.com/i/CC70F6AD-7E3F-46D6-BF57-A6C337CF264F-420x-auto.jpg",
+        "score": 0.8797964494541693
+      },
+      {
+        "id": "74D416D3-FA99-42B4-ACC9-3917CF15D7A2",
+        "name": "Gaddalakonda Ganesh",
+        "type": null,
+        "detail": "2019, Harish Shankar",
+        "image": "https://images.qloo.com/i/74D416D3-FA99-42B4-ACC9-3917CF15D7A2-420x-auto.jpg",
+        "score": 0.879146910962605
+      },
+      {
+        "id": "735C4AF7-39C1-4A41-8F13-2230F22A54F1",
+        "name": "Parava",
+        "type": null,
+        "detail": "2017, Soubin Shahir",
+        "image": "https://images.qloo.com/i/735C4AF7-39C1-4A41-8F13-2230F22A54F1-420x-auto.jpg",
+        "score": 0.8790577157070724
+      },
+      {
+        "id": "18565337-7C00-46C6-8395-75F36787879C",
+        "name": "Lust Stories",
+        "type": null,
+        "detail": "2018, Anurag Kashyap,Dibakar Banerjee,Karan Johar,Zoya Akhtar",
+        "image": "https://images.qloo.com/i/18565337-7C00-46C6-8395-75F36787879C-420x-auto.jpg",
+        "score": 0.8749648753430556
+      },
+      {
+        "id": "45BA577D-9470-488F-95F2-BECC00C65F16",
+        "name": "Everyone Says I Love You",
+        "type": null,
+        "detail": "1996, Woody Allen",
+        "image": "https://images.qloo.com/i/45BA577D-9470-488F-95F2-BECC00C65F16-420x-auto.jpg",
+        "score": 0.873915721544038
+      },
+      {
+        "id": "87ED227D-EB74-41CC-9C3D-7BFEAAF23246",
+        "name": "Sita Ramam",
+        "type": null,
+        "detail": "2022, Hanu Raghavapudi",
+        "image": "https://images.qloo.com/i/87ED227D-EB74-41CC-9C3D-7BFEAAF23246-420x-auto.jpg",
+        "score": 0.8737210892735132
+      }
+    ]
+  },
+  "ablations": {
+    "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C": {
+      "tv_show": [
+        {
+          "id": "E8DA8694-5A10-4974-BDA6-07A0278071DF",
+          "name": "The Final Table",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/E8DA8694-5A10-4974-BDA6-07A0278071DF-420x-auto.jpg",
+          "score": 0.9545673464093124
+        },
+        {
+          "id": "3793B181-5AB6-4BDF-8FC5-728E48B5D391",
+          "name": "Camping",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/3793B181-5AB6-4BDF-8FC5-728E48B5D391-420x-auto.jpg",
+          "score": 0.9291937298077202
+        },
+        {
+          "id": "D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2",
+          "name": "Best Wishes, Warmest Regards: A Schitt's Creek Farewell",
+          "type": null,
+          "detail": "2020",
+          "image": "https://images.qloo.com/i/D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2-420x-auto.jpg",
+          "score": 0.9184534995289982
+        },
+        {
+          "id": "F883FF64-EF31-45E6-9423-C782A172331E",
+          "name": "Real Time with Bill Maher",
+          "type": null,
+          "detail": "2003",
+          "image": "https://images.qloo.com/i/F883FF64-EF31-45E6-9423-C782A172331E-420x-auto.jpg",
+          "score": 0.9181246916002642
+        },
+        {
+          "id": "01162431-88EE-439C-BA27-BF54382841C3",
+          "name": "Four Weddings and a Funeral",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/01162431-88EE-439C-BA27-BF54382841C3-420x-auto.jpg",
+          "score": 0.91371564380038
+        },
+        {
+          "id": "D876F61A-BB30-432F-AC00-B13156993DC3",
+          "name": "Grace and Frankie",
+          "type": null,
+          "detail": "2015,2022",
+          "image": "https://images.qloo.com/i/D876F61A-BB30-432F-AC00-B13156993DC3-420x-auto.jpg",
+          "score": 0.9121136538719825
+        },
+        {
+          "id": "AD606865-26B9-4E5F-B7D6-FB49526DCBB0",
+          "name": "The Marvelous Mrs. Maisel",
+          "type": null,
+          "detail": "2017,2023",
+          "image": "https://images.qloo.com/i/AD606865-26B9-4E5F-B7D6-FB49526DCBB0-420x-auto.jpg",
+          "score": 0.9089125776119984
+        },
+        {
+          "id": "93804FA5-8089-488B-AE2C-C26D9E4F58DB",
+          "name": "Schitt's Creek",
+          "type": null,
+          "detail": "2015,2020",
+          "image": "https://images.qloo.com/i/93804FA5-8089-488B-AE2C-C26D9E4F58DB-420x-auto.jpg",
+          "score": 0.90867713886526
+        },
+        {
+          "id": "24890089-02E4-45CD-88AE-2663879F3F94",
+          "name": "Nova",
+          "type": null,
+          "detail": "1974",
+          "image": "https://images.qloo.com/i/24890089-02E4-45CD-88AE-2663879F3F94-420x-auto.jpg",
+          "score": 0.9085911434877856
+        },
+        {
+          "id": "A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5",
+          "name": "Will & Grace",
+          "type": null,
+          "detail": "1998,2020",
+          "image": "https://images.qloo.com/i/A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5-420x-auto.jpg",
+          "score": 0.9085182200020325
+        },
+        {
+          "id": "149ACA1F-6C48-4B5D-81DA-9A28C4180044",
+          "name": "Young Sheldon",
+          "type": null,
+          "detail": "2017,2024",
+          "image": "https://images.qloo.com/i/149ACA1F-6C48-4B5D-81DA-9A28C4180044-420x-auto.jpg",
+          "score": 0.9066917132982271
+        },
+        {
+          "id": "B20D186B-A301-4D58-8497-6C09853CC1B0",
+          "name": "The Late Show with Stephen Colbert",
+          "type": null,
+          "detail": "2015,2026",
+          "image": "https://images.qloo.com/i/B20D186B-A301-4D58-8497-6C09853CC1B0-420x-auto.jpg",
+          "score": 0.9059826205199355
+        },
+        {
+          "id": "864869EC-FB51-4056-8725-CB2A7DFCF115",
+          "name": "Patriot Act with Hasan Minhaj",
+          "type": null,
+          "detail": "2018,2020",
+          "image": "https://images.qloo.com/i/864869EC-FB51-4056-8725-CB2A7DFCF115-420x-auto.jpg",
+          "score": 0.9056363891597459
+        },
+        {
+          "id": "0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3",
+          "name": "Big Little Lies",
+          "type": null,
+          "detail": "2017,2026",
+          "image": "https://images.qloo.com/i/0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3-420x-auto.jpg",
+          "score": 0.8996828006021258
+        },
+        {
+          "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+          "name": "A Murder at the End of the World",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+          "score": 0.8996470770279379
+        },
+        {
+          "id": "52FD00C7-8D72-4249-BA0A-D7E898D815B6",
+          "name": "Waking the Dead",
+          "type": null,
+          "detail": "2000,2011",
+          "image": "https://images.qloo.com/i/52FD00C7-8D72-4249-BA0A-D7E898D815B6-420x-auto.jpg",
+          "score": 0.8996071584841636
+        },
+        {
+          "id": "A740E641-3455-4278-B58B-03D9289A6902",
+          "name": "Monkey Dust",
+          "type": null,
+          "detail": "2003,2005",
+          "image": "https://images.qloo.com/i/A740E641-3455-4278-B58B-03D9289A6902-420x-auto.jpg",
+          "score": 0.8992933019209798
+        },
+        {
+          "id": "06520C22-07E8-47C1-AC4E-B643557BE79F",
+          "name": "The OA",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/06520C22-07E8-47C1-AC4E-B643557BE79F-420x-auto.jpg",
+          "score": 0.8917507366828754
+        },
+        {
+          "id": "BC7028A4-8A05-4F39-BE5E-D8C8441307BE",
+          "name": "The Missing",
+          "type": null,
+          "detail": "2014,2016",
+          "image": "https://images.qloo.com/i/BC7028A4-8A05-4F39-BE5E-D8C8441307BE-420x-auto.jpg",
+          "score": 0.8891756320678165
+        },
+        {
+          "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+          "name": "Black Mirror",
+          "type": null,
+          "detail": "2011",
+          "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+          "score": 0.8702929476828112
+        }
+      ],
+      "movie": [
+        {
+          "id": "FA808972-890F-4894-88E2-9515783EA31F",
+          "name": "The Good Lie",
+          "type": null,
+          "detail": "2014, Philippe Falardeau",
+          "image": "https://images.qloo.com/i/FA808972-890F-4894-88E2-9515783EA31F-420x-auto.jpg",
+          "score": 0.9067828832920242
+        },
+        {
+          "id": "96BFC201-C648-4C25-9837-2D930677F4AE",
+          "name": "Husband Material",
+          "type": null,
+          "detail": "2018, Anurag Kashyap",
+          "image": "https://images.qloo.com/i/96BFC201-C648-4C25-9837-2D930677F4AE-420x-auto.jpg",
+          "score": 0.9010060732819932
+        },
+        {
+          "id": "18565337-7C00-46C6-8395-75F36787879C",
+          "name": "Lust Stories",
+          "type": null,
+          "detail": "2018, Anurag Kashyap,Dibakar Banerjee,Karan Johar,Zoya Akhtar",
+          "image": "https://images.qloo.com/i/18565337-7C00-46C6-8395-75F36787879C-420x-auto.jpg",
+          "score": 0.8947867195197367
+        },
+        {
+          "id": "CC70F6AD-7E3F-46D6-BF57-A6C337CF264F",
+          "name": "Karwaan",
+          "type": null,
+          "detail": "2018, Akarsh Khurana",
+          "image": "https://images.qloo.com/i/CC70F6AD-7E3F-46D6-BF57-A6C337CF264F-420x-auto.jpg",
+          "score": 0.8947345984097824
+        },
+        {
+          "id": "B007D7C0-A145-455F-BC42-8AA02B4F5948",
+          "name": "Wild",
+          "type": null,
+          "detail": "2014, Jean-Marc Vallée",
+          "image": "https://images.qloo.com/i/B007D7C0-A145-455F-BC42-8AA02B4F5948-420x-auto.jpg",
+          "score": 0.8925824169277485
+        },
+        {
+          "id": "46977ED7-5525-4AF8-AC47-077F306052C2",
+          "name": "Majili",
+          "type": null,
+          "detail": "2019, Shiva Nirvana",
+          "image": "https://images.qloo.com/i/46977ED7-5525-4AF8-AC47-077F306052C2-420x-auto.jpg",
+          "score": 0.892395249290364
+        },
+        {
+          "id": "87ED227D-EB74-41CC-9C3D-7BFEAAF23246",
+          "name": "Sita Ramam",
+          "type": null,
+          "detail": "2022, Hanu Raghavapudi",
+          "image": "https://images.qloo.com/i/87ED227D-EB74-41CC-9C3D-7BFEAAF23246-420x-auto.jpg",
+          "score": 0.8899213334864182
+        },
+        {
+          "id": "8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F",
+          "name": "Parking",
+          "type": null,
+          "detail": "2023",
+          "image": "https://images.qloo.com/i/8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F-420x-auto.jpg",
+          "score": 0.8898605425394228
+        },
+        {
+          "id": "47F80F4A-3D57-4501-A5C8-84BA70D052C7",
+          "name": "Closer",
+          "type": null,
+          "detail": "2004, Mike Nichols",
+          "image": "https://images.qloo.com/i/47F80F4A-3D57-4501-A5C8-84BA70D052C7-420x-auto.jpg",
+          "score": 0.889747025294265
+        },
+        {
+          "id": "E8D6D8F8-B509-434C-BD40-161595A07EEE",
+          "name": "Mahanati",
+          "type": null,
+          "detail": "2018, Nag Ashwin",
+          "image": "https://images.qloo.com/i/E8D6D8F8-B509-434C-BD40-161595A07EEE-420x-auto.jpg",
+          "score": 0.8860745820948555
+        },
+        {
+          "id": "55DAD826-9410-4B92-82EF-B58B9D3451DE",
+          "name": "Far from Heaven",
+          "type": null,
+          "detail": "2002, Todd Haynes",
+          "image": "https://images.qloo.com/i/55DAD826-9410-4B92-82EF-B58B9D3451DE-420x-auto.jpg",
+          "score": 0.8857957891107622
+        },
+        {
+          "id": "45BA577D-9470-488F-95F2-BECC00C65F16",
+          "name": "Everyone Says I Love You",
+          "type": null,
+          "detail": "1996, Woody Allen",
+          "image": "https://images.qloo.com/i/45BA577D-9470-488F-95F2-BECC00C65F16-420x-auto.jpg",
+          "score": 0.8843742302783831
+        },
+        {
+          "id": "74D416D3-FA99-42B4-ACC9-3917CF15D7A2",
+          "name": "Gaddalakonda Ganesh",
+          "type": null,
+          "detail": "2019, Harish Shankar",
+          "image": "https://images.qloo.com/i/74D416D3-FA99-42B4-ACC9-3917CF15D7A2-420x-auto.jpg",
+          "score": 0.884136882573618
+        },
+        {
+          "id": "E7CEB2C4-050C-4B44-9AE0-BE138B413364",
+          "name": "Forgetting Sarah Marshall",
+          "type": null,
+          "detail": "2008, Nicholas Stoller",
+          "image": "https://images.qloo.com/i/E7CEB2C4-050C-4B44-9AE0-BE138B413364-420x-auto.jpg",
+          "score": 0.8779468311696474
+        },
+        {
+          "id": "6815C250-8240-48DB-8EF1-C19A750AB523",
+          "name": "Awe!",
+          "type": null,
+          "detail": "2018, Prasanth Varma",
+          "image": "https://images.qloo.com/i/6815C250-8240-48DB-8EF1-C19A750AB523-420x-auto.jpg",
+          "score": 0.8761972291543126
+        },
+        {
+          "id": "735C4AF7-39C1-4A41-8F13-2230F22A54F1",
+          "name": "Parava",
+          "type": null,
+          "detail": "2017, Soubin Shahir",
+          "image": "https://images.qloo.com/i/735C4AF7-39C1-4A41-8F13-2230F22A54F1-420x-auto.jpg",
+          "score": 0.8756448656233531
+        },
+        {
+          "id": "8372EB34-2B88-4C18-ABAC-37A13CF4C208",
+          "name": "T2 Trainspotting",
+          "type": null,
+          "detail": "2017, Danny Boyle",
+          "image": "https://images.qloo.com/i/8372EB34-2B88-4C18-ABAC-37A13CF4C208-420x-auto.jpg",
+          "score": 0.8718730112505215
+        },
+        {
+          "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+          "name": "Moon",
+          "type": null,
+          "detail": "2009, Duncan Jones",
+          "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+          "score": 0.8605462372978985
+        },
+        {
+          "id": "9804E01F-3C37-49C2-8089-6F51DD48C708",
+          "name": "Confessions of a Dangerous Mind",
+          "type": null,
+          "detail": "2002, George Clooney",
+          "image": "https://images.qloo.com/i/9804E01F-3C37-49C2-8089-6F51DD48C708-420x-auto.jpg",
+          "score": 0.8550201205016882
+        },
+        {
+          "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+          "name": "Children of Men",
+          "type": null,
+          "detail": "2006, Alfonso Cuarón",
+          "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+          "score": 0.8364677947116286
+        }
+      ]
+    },
+    "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D": {
+      "tv_show": [
+        {
+          "id": "06520C22-07E8-47C1-AC4E-B643557BE79F",
+          "name": "The OA",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/06520C22-07E8-47C1-AC4E-B643557BE79F-420x-auto.jpg",
+          "score": 0.9372912744454892
+        },
+        {
+          "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+          "name": "Black Mirror",
+          "type": null,
+          "detail": "2011",
+          "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+          "score": 0.9332230790363054
+        },
+        {
+          "id": "0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3",
+          "name": "Big Little Lies",
+          "type": null,
+          "detail": "2017,2026",
+          "image": "https://images.qloo.com/i/0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3-420x-auto.jpg",
+          "score": 0.9257457023587446
+        },
+        {
+          "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+          "name": "A Murder at the End of the World",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+          "score": 0.9174611248041308
+        },
+        {
+          "id": "3793B181-5AB6-4BDF-8FC5-728E48B5D391",
+          "name": "Camping",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/3793B181-5AB6-4BDF-8FC5-728E48B5D391-420x-auto.jpg",
+          "score": 0.9163287871580855
+        },
+        {
+          "id": "BC7028A4-8A05-4F39-BE5E-D8C8441307BE",
+          "name": "The Missing",
+          "type": null,
+          "detail": "2014,2016",
+          "image": "https://images.qloo.com/i/BC7028A4-8A05-4F39-BE5E-D8C8441307BE-420x-auto.jpg",
+          "score": 0.9135726522924287
+        },
+        {
+          "id": "AD606865-26B9-4E5F-B7D6-FB49526DCBB0",
+          "name": "The Marvelous Mrs. Maisel",
+          "type": null,
+          "detail": "2017,2023",
+          "image": "https://images.qloo.com/i/AD606865-26B9-4E5F-B7D6-FB49526DCBB0-420x-auto.jpg",
+          "score": 0.908871573364792
+        },
+        {
+          "id": "F883FF64-EF31-45E6-9423-C782A172331E",
+          "name": "Real Time with Bill Maher",
+          "type": null,
+          "detail": "2003",
+          "image": "https://images.qloo.com/i/F883FF64-EF31-45E6-9423-C782A172331E-420x-auto.jpg",
+          "score": 0.9081055429218075
+        },
+        {
+          "id": "A740E641-3455-4278-B58B-03D9289A6902",
+          "name": "Monkey Dust",
+          "type": null,
+          "detail": "2003,2005",
+          "image": "https://images.qloo.com/i/A740E641-3455-4278-B58B-03D9289A6902-420x-auto.jpg",
+          "score": 0.9072401958269628
+        },
+        {
+          "id": "D876F61A-BB30-432F-AC00-B13156993DC3",
+          "name": "Grace and Frankie",
+          "type": null,
+          "detail": "2015,2022",
+          "image": "https://images.qloo.com/i/D876F61A-BB30-432F-AC00-B13156993DC3-420x-auto.jpg",
+          "score": 0.906405614941306
+        },
+        {
+          "id": "52FD00C7-8D72-4249-BA0A-D7E898D815B6",
+          "name": "Waking the Dead",
+          "type": null,
+          "detail": "2000,2011",
+          "image": "https://images.qloo.com/i/52FD00C7-8D72-4249-BA0A-D7E898D815B6-420x-auto.jpg",
+          "score": 0.9049811674509357
+        },
+        {
+          "id": "149ACA1F-6C48-4B5D-81DA-9A28C4180044",
+          "name": "Young Sheldon",
+          "type": null,
+          "detail": "2017,2024",
+          "image": "https://images.qloo.com/i/149ACA1F-6C48-4B5D-81DA-9A28C4180044-420x-auto.jpg",
+          "score": 0.9036403575484406
+        },
+        {
+          "id": "B20D186B-A301-4D58-8497-6C09853CC1B0",
+          "name": "The Late Show with Stephen Colbert",
+          "type": null,
+          "detail": "2015,2026",
+          "image": "https://images.qloo.com/i/B20D186B-A301-4D58-8497-6C09853CC1B0-420x-auto.jpg",
+          "score": 0.9017883990616179
+        },
+        {
+          "id": "A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5",
+          "name": "Will & Grace",
+          "type": null,
+          "detail": "1998,2020",
+          "image": "https://images.qloo.com/i/A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5-420x-auto.jpg",
+          "score": 0.8981493224086241
+        },
+        {
+          "id": "93804FA5-8089-488B-AE2C-C26D9E4F58DB",
+          "name": "Schitt's Creek",
+          "type": null,
+          "detail": "2015,2020",
+          "image": "https://images.qloo.com/i/93804FA5-8089-488B-AE2C-C26D9E4F58DB-420x-auto.jpg",
+          "score": 0.8972560211375286
+        },
+        {
+          "id": "01162431-88EE-439C-BA27-BF54382841C3",
+          "name": "Four Weddings and a Funeral",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/01162431-88EE-439C-BA27-BF54382841C3-420x-auto.jpg",
+          "score": 0.8947021618272023
+        },
+        {
+          "id": "E8DA8694-5A10-4974-BDA6-07A0278071DF",
+          "name": "The Final Table",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/E8DA8694-5A10-4974-BDA6-07A0278071DF-420x-auto.jpg",
+          "score": 0.8937828914285935
+        },
+        {
+          "id": "24890089-02E4-45CD-88AE-2663879F3F94",
+          "name": "Nova",
+          "type": null,
+          "detail": "1974",
+          "image": "https://images.qloo.com/i/24890089-02E4-45CD-88AE-2663879F3F94-420x-auto.jpg",
+          "score": 0.8871365753171826
+        },
+        {
+          "id": "864869EC-FB51-4056-8725-CB2A7DFCF115",
+          "name": "Patriot Act with Hasan Minhaj",
+          "type": null,
+          "detail": "2018,2020",
+          "image": "https://images.qloo.com/i/864869EC-FB51-4056-8725-CB2A7DFCF115-420x-auto.jpg",
+          "score": 0.8860855612666618
+        },
+        {
+          "id": "D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2",
+          "name": "Best Wishes, Warmest Regards: A Schitt's Creek Farewell",
+          "type": null,
+          "detail": "2020",
+          "image": "https://images.qloo.com/i/D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2-420x-auto.jpg",
+          "score": 0.8799211673235082
+        }
+      ],
+      "movie": [
+        {
+          "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+          "name": "Moon",
+          "type": null,
+          "detail": "2009, Duncan Jones",
+          "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+          "score": 0.9433364246531473
+        },
+        {
+          "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+          "name": "Children of Men",
+          "type": null,
+          "detail": "2006, Alfonso Cuarón",
+          "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+          "score": 0.927032364012762
+        },
+        {
+          "id": "9804E01F-3C37-49C2-8089-6F51DD48C708",
+          "name": "Confessions of a Dangerous Mind",
+          "type": null,
+          "detail": "2002, George Clooney",
+          "image": "https://images.qloo.com/i/9804E01F-3C37-49C2-8089-6F51DD48C708-420x-auto.jpg",
+          "score": 0.9088913048354293
+        },
+        {
+          "id": "47F80F4A-3D57-4501-A5C8-84BA70D052C7",
+          "name": "Closer",
+          "type": null,
+          "detail": "2004, Mike Nichols",
+          "image": "https://images.qloo.com/i/47F80F4A-3D57-4501-A5C8-84BA70D052C7-420x-auto.jpg",
+          "score": 0.8951641153327322
+        },
+        {
+          "id": "8372EB34-2B88-4C18-ABAC-37A13CF4C208",
+          "name": "T2 Trainspotting",
+          "type": null,
+          "detail": "2017, Danny Boyle",
+          "image": "https://images.qloo.com/i/8372EB34-2B88-4C18-ABAC-37A13CF4C208-420x-auto.jpg",
+          "score": 0.8787134595021485
+        },
+        {
+          "id": "6815C250-8240-48DB-8EF1-C19A750AB523",
+          "name": "Awe!",
+          "type": null,
+          "detail": "2018, Prasanth Varma",
+          "image": "https://images.qloo.com/i/6815C250-8240-48DB-8EF1-C19A750AB523-420x-auto.jpg",
+          "score": 0.8775411050046815
+        },
+        {
+          "id": "E7CEB2C4-050C-4B44-9AE0-BE138B413364",
+          "name": "Forgetting Sarah Marshall",
+          "type": null,
+          "detail": "2008, Nicholas Stoller",
+          "image": "https://images.qloo.com/i/E7CEB2C4-050C-4B44-9AE0-BE138B413364-420x-auto.jpg",
+          "score": 0.8762985941165797
+        },
+        {
+          "id": "8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F",
+          "name": "Parking",
+          "type": null,
+          "detail": "2023",
+          "image": "https://images.qloo.com/i/8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F-420x-auto.jpg",
+          "score": 0.8706991281907424
+        },
+        {
+          "id": "735C4AF7-39C1-4A41-8F13-2230F22A54F1",
+          "name": "Parava",
+          "type": null,
+          "detail": "2017, Soubin Shahir",
+          "image": "https://images.qloo.com/i/735C4AF7-39C1-4A41-8F13-2230F22A54F1-420x-auto.jpg",
+          "score": 0.8690789789136383
+        },
+        {
+          "id": "55DAD826-9410-4B92-82EF-B58B9D3451DE",
+          "name": "Far from Heaven",
+          "type": null,
+          "detail": "2002, Todd Haynes",
+          "image": "https://images.qloo.com/i/55DAD826-9410-4B92-82EF-B58B9D3451DE-420x-auto.jpg",
+          "score": 0.8660805419515797
+        },
+        {
+          "id": "E8D6D8F8-B509-434C-BD40-161595A07EEE",
+          "name": "Mahanati",
+          "type": null,
+          "detail": "2018, Nag Ashwin",
+          "image": "https://images.qloo.com/i/E8D6D8F8-B509-434C-BD40-161595A07EEE-420x-auto.jpg",
+          "score": 0.8640713088221448
+        },
+        {
+          "id": "74D416D3-FA99-42B4-ACC9-3917CF15D7A2",
+          "name": "Gaddalakonda Ganesh",
+          "type": null,
+          "detail": "2019, Harish Shankar",
+          "image": "https://images.qloo.com/i/74D416D3-FA99-42B4-ACC9-3917CF15D7A2-420x-auto.jpg",
+          "score": 0.8633740161735456
+        },
+        {
+          "id": "46977ED7-5525-4AF8-AC47-077F306052C2",
+          "name": "Majili",
+          "type": null,
+          "detail": "2019, Shiva Nirvana",
+          "image": "https://images.qloo.com/i/46977ED7-5525-4AF8-AC47-077F306052C2-420x-auto.jpg",
+          "score": 0.8602384924222929
+        },
+        {
+          "id": "FA808972-890F-4894-88E2-9515783EA31F",
+          "name": "The Good Lie",
+          "type": null,
+          "detail": "2014, Philippe Falardeau",
+          "image": "https://images.qloo.com/i/FA808972-890F-4894-88E2-9515783EA31F-420x-auto.jpg",
+          "score": 0.8568533433618778
+        },
+        {
+          "id": "96BFC201-C648-4C25-9837-2D930677F4AE",
+          "name": "Husband Material",
+          "type": null,
+          "detail": "2018, Anurag Kashyap",
+          "image": "https://images.qloo.com/i/96BFC201-C648-4C25-9837-2D930677F4AE-420x-auto.jpg",
+          "score": 0.8537115595383608
+        },
+        {
+          "id": "B007D7C0-A145-455F-BC42-8AA02B4F5948",
+          "name": "Wild",
+          "type": null,
+          "detail": "2014, Jean-Marc Vallée",
+          "image": "https://images.qloo.com/i/B007D7C0-A145-455F-BC42-8AA02B4F5948-420x-auto.jpg",
+          "score": 0.8518050268178293
+        },
+        {
+          "id": "45BA577D-9470-488F-95F2-BECC00C65F16",
+          "name": "Everyone Says I Love You",
+          "type": null,
+          "detail": "1996, Woody Allen",
+          "image": "https://images.qloo.com/i/45BA577D-9470-488F-95F2-BECC00C65F16-420x-auto.jpg",
+          "score": 0.8515641338672042
+        },
+        {
+          "id": "CC70F6AD-7E3F-46D6-BF57-A6C337CF264F",
+          "name": "Karwaan",
+          "type": null,
+          "detail": "2018, Akarsh Khurana",
+          "image": "https://images.qloo.com/i/CC70F6AD-7E3F-46D6-BF57-A6C337CF264F-420x-auto.jpg",
+          "score": 0.8507194976006004
+        },
+        {
+          "id": "87ED227D-EB74-41CC-9C3D-7BFEAAF23246",
+          "name": "Sita Ramam",
+          "type": null,
+          "detail": "2022, Hanu Raghavapudi",
+          "image": "https://images.qloo.com/i/87ED227D-EB74-41CC-9C3D-7BFEAAF23246-420x-auto.jpg",
+          "score": 0.8491078349594678
+        },
+        {
+          "id": "18565337-7C00-46C6-8395-75F36787879C",
+          "name": "Lust Stories",
+          "type": null,
+          "detail": "2018, Anurag Kashyap,Dibakar Banerjee,Karan Johar,Zoya Akhtar",
+          "image": "https://images.qloo.com/i/18565337-7C00-46C6-8395-75F36787879C-420x-auto.jpg",
+          "score": 0.8439616988058443
+        }
+      ]
+    },
+    "urn:tag:genre:music:yoga": {
+      "tv_show": [
+        {
+          "id": "B36C968C-63BF-49C2-A031-3974337D9ABB",
+          "name": "Black Mirror",
+          "type": null,
+          "detail": "2011",
+          "image": "https://images.qloo.com/i/B36C968C-63BF-49C2-A031-3974337D9ABB-420x-auto.jpg",
+          "score": 0.9474035334291568
+        },
+        {
+          "id": "B58DE999-CA1E-42AE-B234-85DD63FAB6D7",
+          "name": "A Murder at the End of the World",
+          "type": null,
+          "detail": "2023,2023",
+          "image": "https://images.qloo.com/i/B58DE999-CA1E-42AE-B234-85DD63FAB6D7-420x-auto.jpg",
+          "score": 0.92047884673841
+        },
+        {
+          "id": "BC7028A4-8A05-4F39-BE5E-D8C8441307BE",
+          "name": "The Missing",
+          "type": null,
+          "detail": "2014,2016",
+          "image": "https://images.qloo.com/i/BC7028A4-8A05-4F39-BE5E-D8C8441307BE-420x-auto.jpg",
+          "score": 0.9118141202198361
+        },
+        {
+          "id": "06520C22-07E8-47C1-AC4E-B643557BE79F",
+          "name": "The OA",
+          "type": null,
+          "detail": "2016,2019",
+          "image": "https://images.qloo.com/i/06520C22-07E8-47C1-AC4E-B643557BE79F-420x-auto.jpg",
+          "score": 0.911506491641344
+        },
+        {
+          "id": "D876F61A-BB30-432F-AC00-B13156993DC3",
+          "name": "Grace and Frankie",
+          "type": null,
+          "detail": "2015,2022",
+          "image": "https://images.qloo.com/i/D876F61A-BB30-432F-AC00-B13156993DC3-420x-auto.jpg",
+          "score": 0.9094674801586051
+        },
+        {
+          "id": "E8DA8694-5A10-4974-BDA6-07A0278071DF",
+          "name": "The Final Table",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/E8DA8694-5A10-4974-BDA6-07A0278071DF-420x-auto.jpg",
+          "score": 0.9094122244386724
+        },
+        {
+          "id": "3793B181-5AB6-4BDF-8FC5-728E48B5D391",
+          "name": "Camping",
+          "type": null,
+          "detail": "2018,2018",
+          "image": "https://images.qloo.com/i/3793B181-5AB6-4BDF-8FC5-728E48B5D391-420x-auto.jpg",
+          "score": 0.9054373932331027
+        },
+        {
+          "id": "AD606865-26B9-4E5F-B7D6-FB49526DCBB0",
+          "name": "The Marvelous Mrs. Maisel",
+          "type": null,
+          "detail": "2017,2023",
+          "image": "https://images.qloo.com/i/AD606865-26B9-4E5F-B7D6-FB49526DCBB0-420x-auto.jpg",
+          "score": 0.9019501207586941
+        },
+        {
+          "id": "0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3",
+          "name": "Big Little Lies",
+          "type": null,
+          "detail": "2017,2026",
+          "image": "https://images.qloo.com/i/0E94D5BA-B5DD-4ED2-AE15-7E8C55DC1DE3-420x-auto.jpg",
+          "score": 0.9010509285194728
+        },
+        {
+          "id": "01162431-88EE-439C-BA27-BF54382841C3",
+          "name": "Four Weddings and a Funeral",
+          "type": null,
+          "detail": "2019,2019",
+          "image": "https://images.qloo.com/i/01162431-88EE-439C-BA27-BF54382841C3-420x-auto.jpg",
+          "score": 0.9008182055733851
+        },
+        {
+          "id": "24890089-02E4-45CD-88AE-2663879F3F94",
+          "name": "Nova",
+          "type": null,
+          "detail": "1974",
+          "image": "https://images.qloo.com/i/24890089-02E4-45CD-88AE-2663879F3F94-420x-auto.jpg",
+          "score": 0.9002836368917191
+        },
+        {
+          "id": "149ACA1F-6C48-4B5D-81DA-9A28C4180044",
+          "name": "Young Sheldon",
+          "type": null,
+          "detail": "2017,2024",
+          "image": "https://images.qloo.com/i/149ACA1F-6C48-4B5D-81DA-9A28C4180044-420x-auto.jpg",
+          "score": 0.8991920090755945
+        },
+        {
+          "id": "52FD00C7-8D72-4249-BA0A-D7E898D815B6",
+          "name": "Waking the Dead",
+          "type": null,
+          "detail": "2000,2011",
+          "image": "https://images.qloo.com/i/52FD00C7-8D72-4249-BA0A-D7E898D815B6-420x-auto.jpg",
+          "score": 0.8962340106370519
+        },
+        {
+          "id": "A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5",
+          "name": "Will & Grace",
+          "type": null,
+          "detail": "1998,2020",
+          "image": "https://images.qloo.com/i/A41CA15E-B29E-43DB-855B-BDEFBCF5A4A5-420x-auto.jpg",
+          "score": 0.8956295754603405
+        },
+        {
+          "id": "864869EC-FB51-4056-8725-CB2A7DFCF115",
+          "name": "Patriot Act with Hasan Minhaj",
+          "type": null,
+          "detail": "2018,2020",
+          "image": "https://images.qloo.com/i/864869EC-FB51-4056-8725-CB2A7DFCF115-420x-auto.jpg",
+          "score": 0.8915584259846369
+        },
+        {
+          "id": "93804FA5-8089-488B-AE2C-C26D9E4F58DB",
+          "name": "Schitt's Creek",
+          "type": null,
+          "detail": "2015,2020",
+          "image": "https://images.qloo.com/i/93804FA5-8089-488B-AE2C-C26D9E4F58DB-420x-auto.jpg",
+          "score": 0.885350802407367
+        },
+        {
+          "id": "A740E641-3455-4278-B58B-03D9289A6902",
+          "name": "Monkey Dust",
+          "type": null,
+          "detail": "2003,2005",
+          "image": "https://images.qloo.com/i/A740E641-3455-4278-B58B-03D9289A6902-420x-auto.jpg",
+          "score": 0.8840379235816339
+        },
+        {
+          "id": "D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2",
+          "name": "Best Wishes, Warmest Regards: A Schitt's Creek Farewell",
+          "type": null,
+          "detail": "2020",
+          "image": "https://images.qloo.com/i/D6073FCF-DE5D-4701-8B54-39E3AE2FC7A2-420x-auto.jpg",
+          "score": 0.8831383839949571
+        },
+        {
+          "id": "F883FF64-EF31-45E6-9423-C782A172331E",
+          "name": "Real Time with Bill Maher",
+          "type": null,
+          "detail": "2003",
+          "image": "https://images.qloo.com/i/F883FF64-EF31-45E6-9423-C782A172331E-420x-auto.jpg",
+          "score": 0.8706253504651431
+        },
+        {
+          "id": "B20D186B-A301-4D58-8497-6C09853CC1B0",
+          "name": "The Late Show with Stephen Colbert",
+          "type": null,
+          "detail": "2015,2026",
+          "image": "https://images.qloo.com/i/B20D186B-A301-4D58-8497-6C09853CC1B0-420x-auto.jpg",
+          "score": 0.8696820339351508
+        }
+      ],
+      "movie": [
+        {
+          "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+          "name": "Children of Men",
+          "type": null,
+          "detail": "2006, Alfonso Cuarón",
+          "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+          "score": 0.879600966295333
+        },
+        {
+          "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+          "name": "Moon",
+          "type": null,
+          "detail": "2009, Duncan Jones",
+          "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+          "score": 0.8701587258897873
+        },
+        {
+          "id": "47F80F4A-3D57-4501-A5C8-84BA70D052C7",
+          "name": "Closer",
+          "type": null,
+          "detail": "2004, Mike Nichols",
+          "image": "https://images.qloo.com/i/47F80F4A-3D57-4501-A5C8-84BA70D052C7-420x-auto.jpg",
+          "score": 0.846228107503996
+        },
+        {
+          "id": "8372EB34-2B88-4C18-ABAC-37A13CF4C208",
+          "name": "T2 Trainspotting",
+          "type": null,
+          "detail": "2017, Danny Boyle",
+          "image": "https://images.qloo.com/i/8372EB34-2B88-4C18-ABAC-37A13CF4C208-420x-auto.jpg",
+          "score": 0.8355132403159322
+        },
+        {
+          "id": "9804E01F-3C37-49C2-8089-6F51DD48C708",
+          "name": "Confessions of a Dangerous Mind",
+          "type": null,
+          "detail": "2002, George Clooney",
+          "image": "https://images.qloo.com/i/9804E01F-3C37-49C2-8089-6F51DD48C708-420x-auto.jpg",
+          "score": 0.829128800473919
+        },
+        {
+          "id": "B007D7C0-A145-455F-BC42-8AA02B4F5948",
+          "name": "Wild",
+          "type": null,
+          "detail": "2014, Jean-Marc Vallée",
+          "image": "https://images.qloo.com/i/B007D7C0-A145-455F-BC42-8AA02B4F5948-420x-auto.jpg",
+          "score": 0.8272502235489845
+        },
+        {
+          "id": "96BFC201-C648-4C25-9837-2D930677F4AE",
+          "name": "Husband Material",
+          "type": null,
+          "detail": "2018, Anurag Kashyap",
+          "image": "https://images.qloo.com/i/96BFC201-C648-4C25-9837-2D930677F4AE-420x-auto.jpg",
+          "score": 0.812828725134429
+        },
+        {
+          "id": "55DAD826-9410-4B92-82EF-B58B9D3451DE",
+          "name": "Far from Heaven",
+          "type": null,
+          "detail": "2002, Todd Haynes",
+          "image": "https://images.qloo.com/i/55DAD826-9410-4B92-82EF-B58B9D3451DE-420x-auto.jpg",
+          "score": 0.8074520045926933
+        },
+        {
+          "id": "E7CEB2C4-050C-4B44-9AE0-BE138B413364",
+          "name": "Forgetting Sarah Marshall",
+          "type": null,
+          "detail": "2008, Nicholas Stoller",
+          "image": "https://images.qloo.com/i/E7CEB2C4-050C-4B44-9AE0-BE138B413364-420x-auto.jpg",
+          "score": 0.7992558329301973
+        },
+        {
+          "id": "CC70F6AD-7E3F-46D6-BF57-A6C337CF264F",
+          "name": "Karwaan",
+          "type": null,
+          "detail": "2018, Akarsh Khurana",
+          "image": "https://images.qloo.com/i/CC70F6AD-7E3F-46D6-BF57-A6C337CF264F-420x-auto.jpg",
+          "score": 0.7962032402002214
+        },
+        {
+          "id": "735C4AF7-39C1-4A41-8F13-2230F22A54F1",
+          "name": "Parava",
+          "type": null,
+          "detail": "2017, Soubin Shahir",
+          "image": "https://images.qloo.com/i/735C4AF7-39C1-4A41-8F13-2230F22A54F1-420x-auto.jpg",
+          "score": 0.795887057635348
+        },
+        {
+          "id": "46977ED7-5525-4AF8-AC47-077F306052C2",
+          "name": "Majili",
+          "type": null,
+          "detail": "2019, Shiva Nirvana",
+          "image": "https://images.qloo.com/i/46977ED7-5525-4AF8-AC47-077F306052C2-420x-auto.jpg",
+          "score": 0.7877346597623002
+        },
+        {
+          "id": "6815C250-8240-48DB-8EF1-C19A750AB523",
+          "name": "Awe!",
+          "type": null,
+          "detail": "2018, Prasanth Varma",
+          "image": "https://images.qloo.com/i/6815C250-8240-48DB-8EF1-C19A750AB523-420x-auto.jpg",
+          "score": 0.7838093901220939
+        },
+        {
+          "id": "74D416D3-FA99-42B4-ACC9-3917CF15D7A2",
+          "name": "Gaddalakonda Ganesh",
+          "type": null,
+          "detail": "2019, Harish Shankar",
+          "image": "https://images.qloo.com/i/74D416D3-FA99-42B4-ACC9-3917CF15D7A2-420x-auto.jpg",
+          "score": 0.7820488957109512
+        },
+        {
+          "id": "8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F",
+          "name": "Parking",
+          "type": null,
+          "detail": "2023",
+          "image": "https://images.qloo.com/i/8C9D1435-0B93-4EE0-BAB2-5C0A5CF5591F-420x-auto.jpg",
+          "score": 0.7809590334080683
+        },
+        {
+          "id": "45BA577D-9470-488F-95F2-BECC00C65F16",
+          "name": "Everyone Says I Love You",
+          "type": null,
+          "detail": "1996, Woody Allen",
+          "image": "https://images.qloo.com/i/45BA577D-9470-488F-95F2-BECC00C65F16-420x-auto.jpg",
+          "score": 0.7801107525256532
+        },
+        {
+          "id": "E8D6D8F8-B509-434C-BD40-161595A07EEE",
+          "name": "Mahanati",
+          "type": null,
+          "detail": "2018, Nag Ashwin",
+          "image": "https://images.qloo.com/i/E8D6D8F8-B509-434C-BD40-161595A07EEE-420x-auto.jpg",
+          "score": 0.7770715415852042
+        },
+        {
+          "id": "18565337-7C00-46C6-8395-75F36787879C",
+          "name": "Lust Stories",
+          "type": null,
+          "detail": "2018, Anurag Kashyap,Dibakar Banerjee,Karan Johar,Zoya Akhtar",
+          "image": "https://images.qloo.com/i/18565337-7C00-46C6-8395-75F36787879C-420x-auto.jpg",
+          "score": 0.7754984762069181
+        },
+        {
+          "id": "87ED227D-EB74-41CC-9C3D-7BFEAAF23246",
+          "name": "Sita Ramam",
+          "type": null,
+          "detail": "2022, Hanu Raghavapudi",
+          "image": "https://images.qloo.com/i/87ED227D-EB74-41CC-9C3D-7BFEAAF23246-420x-auto.jpg",
+          "score": 0.7650423299586432
+        },
+        {
+          "id": "FA808972-890F-4894-88E2-9515783EA31F",
+          "name": "The Good Lie",
+          "type": null,
+          "detail": "2014, Philippe Falardeau",
+          "image": "https://images.qloo.com/i/FA808972-890F-4894-88E2-9515783EA31F-420x-auto.jpg",
+          "score": 0.7615010907927589
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "status": "complete",
+    "winner": {
+      "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "name": "Radiohead",
+      "value": 0.5041353383458647
+    },
+    "rows": [
+      {
+        "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "domains": {
+          "tv_show": 0.3616541353383459,
+          "movie": 0.6466165413533834
+        },
+        "value": 0.5041353383458647,
+        "halves": [
+          0.5363636363636364,
+          0.38181818181818183
+        ]
+      },
+      {
+        "id": "urn:tag:genre:music:yoga",
+        "name": "Yoga (Music genre tag)",
+        "domains": {
+          "tv_show": 0.2894736842105263,
+          "movie": 0.1601503759398496
+        },
+        "value": 0.22481203007518796,
+        "halves": [
+          0.1303030303030303,
+          0.32727272727272727
+        ]
+      },
+      {
+        "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "name": "Blue Bottle Coffee",
+        "domains": {
+          "tv_show": 0.2263157894736842,
+          "movie": 0.11954887218045113
+        },
+        "value": 0.17293233082706766,
+        "halves": [
+          0.203030303030303,
+          0.18484848484848487
+        ]
+      }
+    ],
+    "domains": [
+      "tv_show",
+      "movie"
+    ],
+    "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+    "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+  },
+  "warnings": [],
+  "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance.",
+  "signal_parameters": {
+    "signals": {
+      "signal.interests.entities": [
+        "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+      ],
+      "signal.interests.tags": [
+        "urn:tag:genre:music:yoga"
+      ]
+    },
+    "weights": "Qloo defaults; no custom family weights"
+  }
+}

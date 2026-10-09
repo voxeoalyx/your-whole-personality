@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-07T18:47:03.392518+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.141,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.tags": "urn:tag:genre:place:fitness_center",
+    "filter.type": "urn:entity:place",
+    "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+    "take": "20"
+  },
+  "raw_file": "azalea_park_fitness.a1.json",
+  "request_sha256": "845f6c793cccbd4f657b07613d8c0b91a7638b44e1df11120cc11c82f05b1036",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:47:05 GMT"
+  },
+  "response_sha256": "8111ba85083274eac7c555f2416d062f1f531702a76d365f1bbff302462fe425",
+  "spec": {
+    "area": "Azalea Park",
+    "dimension": "fitness",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "azalea_park_fitness",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "filter.tags": "urn:tag:genre:place:fitness_center",
+      "filter.type": "urn:entity:place",
+      "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+      "take": 20
+    },
+    "role": "control"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.tags=urn%3Atag%3Agenre%3Aplace%3Afitness_center&filter.type=urn%3Aentity%3Aplace&signal.location=6650137D-68BE-4596-95AB-2ECF9BC20180&take=20"
+}

@@ -1,0 +1,14 @@
+{
+  "at": 1791471363.4179323,
+  "request_hash": "43a70b13207087fa5ee297aece16ace66bdc359a2d571723228aca3c6d24384a",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:architecture",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "20"
+  },
+  "response_sha256": "26a3e5c493c5a19138bd4fdfd76979b382ba2c6da2c94ce2191a50b70f8c334d"
+}

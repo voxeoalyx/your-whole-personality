@@ -1,0 +1,13 @@
+{
+  "at": 1791471746.0495434,
+  "request_hash": "fa712660286ddd824cac30a8aed87a101f8dea6dd4b67de9fc80797ceb7cd0b8",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.tags": "urn:tag:genre:media:exercise",
+    "take": "20"
+  },
+  "response_sha256": "2358b54d1d5f09bd9f01b8819b2e6d47030f468f6a5193e744e857a51be984a4"
+}

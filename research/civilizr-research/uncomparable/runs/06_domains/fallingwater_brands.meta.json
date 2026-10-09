@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T23:03:20.136609+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.36,
+  "http_status": 400,
+  "method": "GET",
+  "ok": false,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+    "take": "10"
+  },
+  "raw_file": "fallingwater_brands.a1.json",
+  "request_sha256": "ad88cdbc7ec93f3dc14cc46ee71efe707e4d146e422f4b900b5ff685a5f854a1",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:03:21 GMT"
+  },
+  "response_sha256": "1ec4ef34fea3bc35dc98fac0aca9aafa9c48d6594806178879d6efaf9887616e",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "fallingwater_brands",
+    "input": "fallingwater",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=C2C17BD0-5B07-45FF-AC62-612A1DE9A152&take=10"
+}

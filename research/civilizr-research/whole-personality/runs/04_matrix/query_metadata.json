@@ -1,0 +1,4876 @@
+[
+  {
+    "request_id": "p03_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p03_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.35714160983489335
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.33504821553186676
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.30781017463323995
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.35416077145555724
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.33147670313093214
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.31436252541351056
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.35526461648237717
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.3298384693819308
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.31489691413569204
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3544883780162788
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.33323298165057363
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3122786403331475
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p03_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p03_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.3483886223019467
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3368437023498643
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.314767675348189
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.339361533003725
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.33635136627178824
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3242871007244867
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.3347212234980628
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.33270992649140896
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3325688500105282
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.33520177854324357
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.33282675102246423
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.33197147043429215
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p04_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p04_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3867676542388549
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3234730605732143
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.28975928518793087
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3878267338488444
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.32873962875371154
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.2834336373974441
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3758761527447667
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3347156880755088
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.2894081591797245
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.36792516440398043
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3359776624518704
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.2960971731441493
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p04_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p04_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3411587696809974
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.33146223405853964
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3273789962604629
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.33840480615673363
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3330738511787817
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.32852134266448474
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.3383717960508331
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3355840510580522
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3260441528911146
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.33862529364784183
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.33538298162444813
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.32599172472771
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p05_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p05_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.34831726983826
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.33555840944263154
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.31612432071910845
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.34362708411143705
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3347295282195329
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.32164338766903006
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3441506227687183
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3321268820534004
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.3237224951778813
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.339901184617469
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3336262246075154
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.3264725907750156
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p05_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p05_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.34823068392782436
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.34745736616860184
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.30431194990357374
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3495026224983973
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.34928536916187747
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.3012120083397252
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.34919326053481503
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.34852820302734355
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.3022785364378414
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3478347401523712
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.34669388287608954
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.30547137697153925
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p06_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p06_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.36115746605269333
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.35447585841171697
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.28436667553558964
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.36633028722913397
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.35696832416097424
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.2767013886098918
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3653058240540285
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3541238905933338
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.2805702853526378
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3527080511226356
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3465075925321399
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.3007843563452244
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p06_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p06_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3369436368550245
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3327050691463255
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.33035129399865004
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.33511924648541297
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.33283158337925906
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.3320491701353281
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.33772380031009946
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.33275494658903204
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3295212531008686
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.3353145183937645
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.3330148931999111
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.3316705884063243
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p07_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p07_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3570489590825014
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.3248681260321864
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3180829148853123
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3596329209785421
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.3241244416563125
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.31624263736514546
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3678096268095833
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3189732138740756
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.3132171593163411
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3604486669327333
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.33008054811685245
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.3094707849504142
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p07_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p07_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.3479583976703649
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3276668158683711
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3243747864612639
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.35710034635811383
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3240775025871578
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3188221510547282
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.35608933522689773
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.32918714269972216
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.31472352207338006
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.360444508848173
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.32869216477711244
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3108633263747145
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p08_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p08_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.35580840792004587
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.33211955510828656
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3120720369716677
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3651513476854174
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.3197415746090714
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3151070777055112
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.367489424294761
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.31946594478034784
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.3130446309248912
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.36093720508716115
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3305266313215713
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.3085361635912675
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p08_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p08_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3378199900124135
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.33237946533267176
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.32980054465491476
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.3391238944466136
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.33627931664380944
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.324596788909577
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.3388668714802982
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3370030545574522
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3241300739622495
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.3405045124177314
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.3374722289667767
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.3220232586154919
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p09_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p09_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.36425111068222504
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.32254828099410265
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3132006083236723
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.3681673113234978
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3273717932767584
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.30446089539974386
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.36216015840492916
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3300730319048253
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3077668096902456
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.35204488384313914
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.33795620551262207
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3099989106442389
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p09_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p09_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.34209763807812027
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3385990881764325
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.31930327374544726
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.341167367718277
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.34074809139838125
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3180845408833418
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.3464814970706692
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3405211395118953
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.31299736341743556
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.3447938159569056
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.3387482044314747
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3164579796116198
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p10_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p10_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.34269077043317525
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.32890649629287094
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.3284027332739538
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.35595670437262544
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.328733181120995
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.3153101145063795
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.34339662487697936
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.32935534191870797
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3272480332043126
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.33985956254442
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.33432440610850356
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.32581603134707626
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p10_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p10_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.34121762047365317
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.33352644107002155
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.32525593845632533
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.35140999040007426
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3273048988316979
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.3212851107682279
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.3560158271220262
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3269743309372139
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.31700984194075993
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.3569574551770334
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.3273701354333493
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.31567240938961727
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "p11_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p11_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5098239722542507
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.49017602774574937
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5096278446092658
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.4903721553907343
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.503891229534998
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.4961087704650021
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5105876544008598
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.4894123455991402
+            }
+          ]
+        }
+      }
+    },
+    "warnings": [
+      {
+        "type": "not_found",
+        "signal.interests.entities": [
+          "9BA85467-2189-46DC-BB98-4B25EE182A9D"
+        ]
+      }
+    ]
+  },
+  {
+    "request_id": "p11_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p11_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5103822926779812
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.48961770732201887
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.503588594523248
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.496411405476752
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5027302853521042
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.4972697146478958
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5050401331822776
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.4949598668177224
+            }
+          ]
+        }
+      }
+    },
+    "warnings": [
+      {
+        "type": "not_found",
+        "signal.interests.entities": [
+          "9BA85467-2189-46DC-BB98-4B25EE182A9D"
+        ]
+      }
+    ]
+  },
+  {
+    "request_id": "p12_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p12_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.5174340819976316
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.4825659180023683
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.5119036338341109
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.48809636616588925
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.5190598387281888
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.4809401612718112
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.5053482624608282
+            },
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.4946517375391718
+            }
+          ]
+        }
+      }
+    },
+    "warnings": [
+      {
+        "type": "not_found",
+        "signal.interests.entities": [
+          "9BA85467-2189-46DC-BB98-4B25EE182A9D"
+        ]
+      }
+    ]
+  },
+  {
+    "request_id": "p12_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "p12_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5508484699794224
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.44915153002057756
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5396153478569953
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4603846521430047
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.54067896146305
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.45932103853695005
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5379638297135688
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.46203617028643124
+            }
+          ]
+        }
+      }
+    },
+    "warnings": [
+      {
+        "type": "not_found",
+        "signal.interests.entities": [
+          "9BA85467-2189-46DC-BB98-4B25EE182A9D"
+        ]
+      }
+    ]
+  },
+  {
+    "request_id": "single_huberman_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_huberman_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_huberman_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_huberman_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_taylor_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_taylor_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_taylor_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_taylor_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_starbucks_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_starbucks_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_starbucks_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_starbucks_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_friends_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_friends_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_friends_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_friends_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_metallica_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_metallica_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_metallica_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_metallica_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_nike_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_nike_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_nike_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_nike_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_elden_ring_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_elden_ring_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_elden_ring_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_elden_ring_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_animal_crossing_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_animal_crossing_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_animal_crossing_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_animal_crossing_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_patagonia_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_patagonia_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_patagonia_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_patagonia_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_lululemon_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_lululemon_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_lululemon_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_lululemon_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_monster_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_monster_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_monster_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_monster_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_dune_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_dune_brand.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      },
+      {
+        "type": "not_found",
+        "signal.interests.entities": [
+          "9BA85467-2189-46DC-BB98-4B25EE182A9D"
+        ]
+      }
+    ]
+  },
+  {
+    "request_id": "single_dune_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_dune_tv_show.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      },
+      {
+        "type": "not_found",
+        "signal.interests.entities": [
+          "9BA85467-2189-46DC-BB98-4B25EE182A9D"
+        ]
+      }
+    ]
+  },
+  {
+    "request_id": "single_bjork_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_bjork_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_bjork_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_bjork_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_apple_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_apple_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "single_apple_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "single_apple_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_blue_bottle__metallica_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_blue_bottle__metallica_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.5289383750969145
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.47106162490308545
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.5204215478881984
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.47957845211180156
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.5316415456104002
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4683584543895997
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.527991572506605
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.472008427493395
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_blue_bottle__metallica_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_blue_bottle__metallica_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5333477436350158
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.46665225636498414
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5380546955540686
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.46194530444593146
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5352054376656181
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.46479456233438177
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5398151182579407
+            },
+            {
+              "entity_id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+              "avg_score": 0.46018488174205924
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_nike__elden_ring_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_nike__elden_ring_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5171844429584461
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.48281555704155393
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5341917205428007
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.46580827945719927
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5370356089114399
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.46296439108856
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.537934553586733
+            },
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.4620654464132668
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_nike__elden_ring_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_nike__elden_ring_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.5199177267192268
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.48008227328077324
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.5208716385213679
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.47912836147863225
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.5195658885463783
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.4804341114536217
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+              "avg_score": 0.5229584823443818
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.4770415176556182
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_nike__animal_crossing_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_nike__animal_crossing_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5159080714817564
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.4840919285182435
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5239123002730643
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.47608769972693565
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5326534641110524
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.46734653588894765
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5391563042593537
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.46084369574064643
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_nike__animal_crossing_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_nike__animal_crossing_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.5120663491216281
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.48793365087837187
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.5088601126307379
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.49113988736926206
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.5028705959996913
+            },
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.49712940400030875
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "avg_score": 0.5024637036749744
+            },
+            {
+              "entity_id": "08663BD2-E267-4C7F-9895-86410F67867C",
+              "avg_score": 0.4975362963250256
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_apple__severance_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_apple__severance_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5058607395117986
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.49413926048820134
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5054434553096693
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.49455654469033067
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.506910802681876
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.4930891973181238
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5072449583210323
+            },
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.49275504167896766
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_apple__severance_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_apple__severance_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5031419060123317
+            },
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.49685809398766834
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5045245325530566
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.4954754674469434
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.509084411671059
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.490915588328941
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5164948969583205
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.48350510304167943
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_apple__friends_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_apple__friends_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.5063584814378995
+            },
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.4936415185621004
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.5038296493544809
+            },
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.49617035064551906
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5003149637209047
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4996850362790954
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.5020030027743109
+            },
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.49799699722568913
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_apple__friends_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_apple__friends_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5475744716708246
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4524255283291754
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.54699427528628
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4530057247137201
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5479887450683749
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.45201125493162503
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "avg_score": 0.5493452230306918
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4506547769693083
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_lululemon__huberman_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_lululemon__huberman_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5453134215382741
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.454686578461726
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5525743705990964
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.4474256294009037
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5383431033367586
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.4616568966632416
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5154401756401478
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.48455982435985234
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_lululemon__huberman_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_lululemon__huberman_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5001291908326775
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.4998708091673225
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.5024748122364953
+            },
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.49752518776350474
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5030357232087758
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.49696427679122424
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.503733015772534
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "avg_score": 0.49626698422746596
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_lululemon__rogan_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_lululemon__rogan_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5317866637471746
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.46821333625282535
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5202360346153783
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.47976396538462174
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5220330158530658
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.47796698414693406
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5180355137504977
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.48196448624950217
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_lululemon__rogan_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_lululemon__rogan_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.514586444024917
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4854135559750829
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5090728965901765
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4909271034098234
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5041540971690769
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.495845902830923
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5088815695802197
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.49111843041978037
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_patagonia__bjork_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_patagonia__bjork_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5154577368625726
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.48454226313742743
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5032157033438024
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4967842966561976
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5141626924501768
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4858373075498232
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5171468143543857
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.48285318564561436
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_patagonia__bjork_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_patagonia__bjork_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5188974838185519
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.48110251618144817
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.509732029245092
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.49026797075490813
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.5179616655776191
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.482038334422381
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+              "avg_score": 0.516287972753274
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4837120272467261
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_patagonia__taylor_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_patagonia__taylor_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5457666507068767
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.45423334929312326
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.54846359363728
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.45153640636271997
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5478360198063184
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.45216398019368176
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5325694643074738
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.46743053569252624
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_patagonia__taylor_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "brand_patagonia__taylor_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5073710556742727
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4926289443257274
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5052963678875992
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.49470363211240087
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5102286345669484
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.48977136543305155
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5100366330305255
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.48996336696947446
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p01__radiohead_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p01__radiohead_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5269002387488828
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4730997612511172
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5359038071809825
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.46409619281901743
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5394048120162374
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4605951879837626
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.549005137673949
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.450994862326051
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p01__radiohead_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p01__radiohead_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.526931191919697
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.473068808080303
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5191250651998407
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.48087493480015936
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5046167319683704
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4953832680316296
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5058544271510259
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.49414557284897404
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p01__blue_bottle_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p01__blue_bottle_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5058056263839269
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.49419437361607305
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5187027153227683
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.48129728467723165
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5185976145360034
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.48140238546399666
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.5175415548661133
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.48245844513388664
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p01__blue_bottle_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p01__blue_bottle_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5072324874733454
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.4927675125266546
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.507616772771509
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.49238322722849104
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5048502461802574
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.4951497538197425
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5080059839050394
+            },
+            {
+              "entity_id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+              "avg_score": 0.49199401609496063
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p02__radiohead_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p02__radiohead_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5271690410836278
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.47283095891637217
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5247740354751032
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.47522596452489696
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5290075667159149
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4709924332840852
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5135612581543709
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4864387418456292
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p02__radiohead_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p02__radiohead_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5008343341764571
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.49916566582354305
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5005868629644723
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.49941313703552775
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5002746883923999
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4997253116076002
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5045080956538018
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.49549190434619805
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p02__blue_bottle_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p02__blue_bottle_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5107323140792608
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4892676859207392
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5011690209533917
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4988309790466084
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5087269071362499
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4912730928637501
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5180985351250349
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.48190146487496544
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p02__blue_bottle_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p02__blue_bottle_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5079055666236919
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4920944333763082
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5070682822694828
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.49293171773051725
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5045413825123529
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4954586174876471
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "avg_score": 0.5066354470317495
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.49336455296825055
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p05__taylor_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p05__taylor_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.501118650413375
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.49888134958662506
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5010457719322419
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4989542280677582
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5045783335545069
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.49542166644549307
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5057327125647866
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.49426728743521336
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p05__taylor_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p05__taylor_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.533930570690048
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4660694293099521
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5332848647091932
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4667151352908069
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5336798432847629
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4663201567152372
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5326514829357226
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4673485170642773
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p05__starbucks_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p05__starbucks_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5130841243864918
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4869158756135083
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.521102405177319
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.47889759482268107
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5153446698235007
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.48465533017649937
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5101214940135766
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.48987850598642335
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p05__starbucks_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p05__starbucks_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5332252774819463
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4667747225180537
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5329769476786416
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.46702305232135843
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5356443477887854
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.46435565221121455
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5316959052849878
+            },
+            {
+              "entity_id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+              "avg_score": 0.4683040947150123
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p05__friends_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p05__friends_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5111013823542297
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4888986176457703
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5072650842239427
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4927349157760573
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5100026239906791
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.489997376009321
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5044087109653479
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4955912890346522
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p05__friends_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p05__friends_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.502583298258881
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4974167017411189
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5016733973883242
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.49832660261167583
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5015963090955857
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4984036909044143
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5009378528378198
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.4990621471621802
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p06__taylor_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p06__taylor_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5298508894316075
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.47014911056839254
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5374411746923469
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4625588253076531
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5415751496656502
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.45842485033434965
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.5360063767221852
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.46399362327781485
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p06__taylor_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p06__taylor_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5167513106923814
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4832486893076186
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5062535719552913
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4937464280447087
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5107438858457842
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.4892561141542158
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.501646892774034
+            },
+            {
+              "entity_id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+              "avg_score": 0.49835310722596604
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p06__starbucks_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p06__starbucks_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5626186577361739
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.437381342263826
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5574577401100719
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4425422598899281
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5461420308561171
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4538579691438828
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.5403307157116509
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.4596692842883492
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p06__starbucks_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p06__starbucks_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.500325440560534
+            },
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.49967455943946604
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5023896327483447
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.4976103672516552
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5066941910287803
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.49330580897121956
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+              "avg_score": 0.5025895887006212
+            },
+            {
+              "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+              "avg_score": 0.49741041129937874
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p09__patagonia_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p09__patagonia_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5376649352513702
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4623350647486299
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5449644515998137
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4550355484001864
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5416150816998871
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.45838491830011296
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5316854292713518
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4683145707286484
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p09__patagonia_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p09__patagonia_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5038213127451322
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.49617868725486775
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5007629352863057
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.49923706471369433
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.504268247188556
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4957317528114441
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5043763823476685
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.49562361765233165
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p09__lululemon_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p09__lululemon_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.5146989959601459
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.48530100403985404
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.5210544776794919
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.47894552232050813
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.5241185259485359
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4758814740514642
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.5215093452763685
+            },
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.4784906547236316
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p09__lululemon_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p09__lululemon_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5115028610846838
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.48849713891531615
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5176266276007079
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.48237337239929207
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5182315712275527
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4817684287724472
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "avg_score": 0.5171318848345142
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4828681151654858
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p09__blue_bottle_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p09__blue_bottle_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5317300880857306
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4682699119142693
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5293417368718264
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.47065826312817355
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5223884110230308
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4776115889769691
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5102018297688178
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4897981702311822
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p09__blue_bottle_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p09__blue_bottle_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5173342059851627
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4826657940148373
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.517559817066373
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4824401829336269
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5210620896357326
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.47893791036426725
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5214938440952007
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.47850615590479906
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p10__patagonia_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p10__patagonia_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.5183808788089851
+            },
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.48161912119101496
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.503630025300436
+            },
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.49636997469956395
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5055917245908208
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.49440827540917914
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5046239416716878
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.4953760583283122
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p10__patagonia_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p10__patagonia_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5321687431035893
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.46783125689641064
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5221734583806084
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.47782654161939153
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.528769797102845
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.471230202897155
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+              "avg_score": 0.5305657979474854
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.4694342020525147
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p10__lululemon_brand",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p10__lululemon_brand.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.5207811264548238
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4792188735451763
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.5237919867996665
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.47620801320033346
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.5218243874122194
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.47817561258778063
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.5055276569243846
+            },
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.4944723430756155
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "loo_p10__lululemon_tv_show",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "loo_p10__lululemon_tv_show.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.5062481156515207
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.49375188434847933
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.5051647225970435
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.4948352774029566
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.505685141745637
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.494314858254363
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "avg_score": 0.5091039673680573
+            },
+            {
+              "entity_id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+              "avg_score": 0.4908960326319428
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  }
+]

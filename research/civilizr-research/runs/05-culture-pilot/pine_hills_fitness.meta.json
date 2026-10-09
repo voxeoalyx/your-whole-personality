@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-07T18:44:35.266262+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.047,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.tags": "urn:tag:genre:place:fitness_center",
+    "filter.type": "urn:entity:place",
+    "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+    "take": "20"
+  },
+  "raw_file": "pine_hills_fitness.a1.json",
+  "request_sha256": "6e77015229a4c1cda1b480a41cb6652b39edc3925594942d463427551133c88b",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:44:36 GMT"
+  },
+  "response_sha256": "67458d51c59e0f0595e229ae759a829ff6ee222aea64caa52041c435bc0ae683",
+  "spec": {
+    "area": "Pine Hills",
+    "dimension": "fitness",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "pine_hills_fitness",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "filter.tags": "urn:tag:genre:place:fitness_center",
+      "filter.type": "urn:entity:place",
+      "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+      "take": 20
+    },
+    "role": "control"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.tags=urn%3Atag%3Agenre%3Aplace%3Afitness_center&filter.type=urn%3Aentity%3Aplace&signal.location=37EB6689-42DA-48A6-8E2E-5767CC5A6E2A&take=20"
+}

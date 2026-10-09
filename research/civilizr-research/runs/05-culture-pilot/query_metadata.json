@@ -1,0 +1,92 @@
+[
+  {
+    "request_id": "winter_park_food_dining",
+    "area": "Winter Park",
+    "dimension": "food_dining",
+    "kind": "profile",
+    "raw_file": "winter_park_food_dining.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_coffee_cafes",
+    "area": "Winter Park",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "raw_file": "winter_park_coffee_cafes.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_fitness",
+    "area": "Winter Park",
+    "dimension": "fitness",
+    "kind": "profile",
+    "raw_file": "winter_park_fitness.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_museums",
+    "area": "Winter Park",
+    "dimension": "museums",
+    "kind": "profile",
+    "raw_file": "winter_park_museums.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_nightlife_bars",
+    "area": "Winter Park",
+    "dimension": "nightlife_bars",
+    "kind": "profile",
+    "raw_file": "winter_park_nightlife_bars.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_food_dining",
+    "area": "Pine Hills",
+    "dimension": "food_dining",
+    "kind": "profile",
+    "raw_file": "pine_hills_food_dining.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_coffee_cafes",
+    "area": "Pine Hills",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "raw_file": "pine_hills_coffee_cafes.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_fitness",
+    "area": "Pine Hills",
+    "dimension": "fitness",
+    "kind": "profile",
+    "raw_file": "pine_hills_fitness.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_museums",
+    "area": "Pine Hills",
+    "dimension": "museums",
+    "kind": "profile",
+    "raw_file": "pine_hills_museums.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_nightlife_bars",
+    "area": "Pine Hills",
+    "dimension": "nightlife_bars",
+    "kind": "profile",
+    "raw_file": "pine_hills_nightlife_bars.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "request_id": "college_park_base_brands",
+    "area": "college_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "college_park_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 16806597
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "college_park_base_tags",
+    "area": "college_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "college_park_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 16806597
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_base_brands",
+    "area": "audubon_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "audubon_park_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 43509357
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "audubon_park_base_tags",
+    "area": "audubon_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "audubon_park_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 43509357
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_base_brands",
+    "area": "baldwin_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "baldwin_park_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 46024931
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "baldwin_park_base_tags",
+    "area": "baldwin_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "baldwin_park_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 46024931
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_base_brands",
+    "area": "azalea_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "azalea_park_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 7791233
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "azalea_park_base_tags",
+    "area": "azalea_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "azalea_park_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 7791233
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_base_brands",
+    "area": "mills_50",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_base_tags",
+    "area": "mills_50",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "thornton_park_base_brands",
+    "area": "thornton_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "thornton_park_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 2088652243
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "thornton_park_base_tags",
+    "area": "thornton_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "thornton_park_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 2088652243
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "city_district_base_brands",
+    "area": "city_district",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "city_district_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 1879072707
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "city_district_base_tags",
+    "area": "city_district",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "city_district_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 1879072707
+        }
+      }
+    },
+    "warnings": null
+  }
+]

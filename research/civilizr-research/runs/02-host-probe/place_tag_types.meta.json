@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-07T18:35:40.946552+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.328,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "page": "1",
+    "take": "50"
+  },
+  "raw_file": "place_tag_types.a1.json",
+  "request_sha256": "1de2d0dff015448da3bd854ef3f38d02cbfec7f652b1efd908777900448a4e28",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:35:42 GMT"
+  },
+  "response_sha256": "f0b972359a0c903f4200cd523d11bffcc1dffb199c4a956c5b2064e353cb1e97",
+  "spec": {
+    "endpoint": "/v2/tags/types",
+    "id": "place_tag_types",
+    "kind": "taxonomy",
+    "params": {
+      "filter.parents.types": "urn:entity:place",
+      "page": 1,
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags/types?filter.parents.types=urn%3Aentity%3Aplace&page=1&take=50"
+}

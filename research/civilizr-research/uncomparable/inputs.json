@@ -1,0 +1,89 @@
+{
+  "frozen_at": "2026-10-07T23:03:15.268Z",
+  "inputs": {
+    "jacobs": {
+      "property": "jacobs",
+      "key": "signal.interests.entities",
+      "value": "B93EFF0C-C623-4F82-AD33-C82710D86FAB",
+      "role": "direct house; lookup supported but first Insights rejected"
+    },
+    "fallingwater": {
+      "property": "fallingwater",
+      "key": "signal.interests.entities",
+      "value": "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+      "role": "direct house / tourist place"
+    },
+    "farnsworth": {
+      "property": "farnsworth",
+      "key": "signal.interests.entities",
+      "value": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+      "role": "direct house / tourist place"
+    },
+    "eames": {
+      "property": "eames",
+      "key": "signal.interests.entities",
+      "value": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+      "role": "Eames Foundation at house address; institution proxy"
+    },
+    "gamble": {
+      "property": "gamble",
+      "key": "signal.interests.entities",
+      "value": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+      "role": "direct house / tourist place"
+    },
+    "douglass": {
+      "property": "douglass",
+      "key": "signal.interests.entities",
+      "value": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+      "role": "direct historic site; historical association not style"
+    },
+    "wright": {
+      "property": "jacobs,fallingwater",
+      "key": "signal.interests.entities",
+      "value": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+      "role": "author proxy; cannot distinguish two houses"
+    },
+    "mies": {
+      "property": "farnsworth",
+      "key": "signal.interests.entities",
+      "value": "C53606CC-036D-4F77-911B-7F49A1322D9A",
+      "role": "architect person proxy"
+    },
+    "charles": {
+      "property": "eames",
+      "key": "signal.interests.entities",
+      "value": "415D7837-8FDA-417A-BB8D-92C85CC258A8",
+      "role": "designer person proxy"
+    },
+    "usonian": {
+      "property": "jacobs",
+      "key": "signal.interests.tags",
+      "value": "urn:tag:decor:qloo:usonian",
+      "role": "broad decor tag, not property"
+    },
+    "international": {
+      "property": "farnsworth",
+      "key": "signal.interests.tags",
+      "value": "urn:tag:decor:qloo:international_style",
+      "role": "broad decor tag, research-classified"
+    },
+    "midcentury": {
+      "property": "eames",
+      "key": "signal.interests.tags",
+      "value": "urn:tag:decor:qloo:mid_century_modern",
+      "role": "broad decor tag"
+    },
+    "craftsman": {
+      "property": "gamble",
+      "key": "signal.interests.tags",
+      "value": "urn:tag:decor:qloo:craftsman",
+      "role": "broad decor tag"
+    },
+    "sustainable": {
+      "property": "mckinley",
+      "key": "signal.interests.tags",
+      "value": "urn:tag:decor:qloo:sustainable_architecture",
+      "role": "loose sustainable architecture proxy; energy performance is not decor"
+    }
+  }
+}

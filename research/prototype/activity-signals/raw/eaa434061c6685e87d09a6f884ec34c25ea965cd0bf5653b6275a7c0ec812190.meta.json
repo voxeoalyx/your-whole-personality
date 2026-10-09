@@ -1,0 +1,13 @@
+{
+  "at": 1791471009.019638,
+  "request_hash": "eaa434061c6685e87d09a6f884ec34c25ea965cd0bf5653b6275a7c0ec812190",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:videogame",
+    "signal.interests.tags": "urn:tag:genre:place:weightlifting_area",
+    "take": "20"
+  },
+  "response_sha256": "21c43bb390c823b2dfd901508609a9af012dd5872870ee2363da6fcc1ef43891"
+}

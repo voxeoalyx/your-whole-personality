@@ -1,0 +1,125 @@
+[
+  {
+    "request_id": "jacobs_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "jacobs_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "farnsworth_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_brands.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "gamble_brands.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "douglass_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "douglass_brands.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  }
+]

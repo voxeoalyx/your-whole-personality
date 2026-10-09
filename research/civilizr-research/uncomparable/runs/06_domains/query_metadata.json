@@ -1,0 +1,470 @@
+[
+  {
+    "request_id": "fallingwater_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "fallingwater_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "eames_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_brands.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mies_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "mies_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "charles_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "charles_brands.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "international_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "international_brands.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "midcentury_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "midcentury_brands.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "craftsman_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "craftsman_brands.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "sustainable_brands",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "sustainable_brands.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "farnsworth_book",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_book.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "farnsworth_place",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_place.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "farnsworth_destination",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_destination.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_book",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "gamble_book.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_place",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "gamble_place.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_destination",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "gamble_destination.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_book",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_book.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_place",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_place.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_destination",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_destination.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "fallingwater_book",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "fallingwater_book.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

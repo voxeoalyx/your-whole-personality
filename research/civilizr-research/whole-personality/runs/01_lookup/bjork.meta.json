@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:53.592252+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.344,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Björk",
+    "take": "5",
+    "types": "urn:entity:artist"
+  },
+  "raw_file": "bjork.a1.json",
+  "request_sha256": "63890665654e1dfc3f7e4922a24bad82f0aeaf22b7f09aa27bd4de6db5421a18",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:53 GMT"
+  },
+  "response_sha256": "89446bba11507a6fa71bf09d894a1195c945ca27296cfa1d92c2873b5a980bc7",
+  "spec": {
+    "endpoint": "/search",
+    "id": "bjork",
+    "kind": "discovery",
+    "params": {
+      "query": "Björk",
+      "take": 5,
+      "types": "urn:entity:artist"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Bj%C3%B6rk&take=5&types=urn%3Aentity%3Aartist"
+}

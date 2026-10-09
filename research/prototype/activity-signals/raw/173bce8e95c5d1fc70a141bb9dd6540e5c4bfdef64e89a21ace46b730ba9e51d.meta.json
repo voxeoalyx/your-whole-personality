@@ -1,0 +1,13 @@
+{
+  "at": 1791470987.010013,
+  "request_hash": "173bce8e95c5d1fc70a141bb9dd6540e5c4bfdef64e89a21ace46b730ba9e51d",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:videogame",
+    "signal.interests.tags": "urn:tag:occupation:wikidata:pilates",
+    "take": "20"
+  },
+  "response_sha256": "21c43bb390c823b2dfd901508609a9af012dd5872870ee2363da6fcc1ef43891"
+}

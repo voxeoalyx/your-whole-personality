@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-07T18:41:40.367327+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.297,
+  "http_status": 400,
+  "method": "GET",
+  "ok": false,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:destination",
+    "take": "20"
+  },
+  "raw_file": "no_location_destinations.a1.json",
+  "request_sha256": "c8d6c579114c63ed3ab24e447750b66382fc1495b7ec26346de0c75de5959d64",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:41:41 GMT"
+  },
+  "response_sha256": "c99caf75e88824723db7288899a76731094cce5c8bfeb4b3fa47c3eceefb9f7e",
+  "spec": {
+    "area": "No location",
+    "dimension": "destinations",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "no_location_destinations",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.type": "urn:entity:destination",
+      "take": 20
+    },
+    "role": "baseline"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Adestination&take=20"
+}

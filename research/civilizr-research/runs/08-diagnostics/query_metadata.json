@@ -1,0 +1,168 @@
+[
+  {
+    "request_id": "mills_50_compact_alias",
+    "area": "Mills 50",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "mills_50_compact_alias.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_place_anchor",
+    "area": "Mills 50",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "mills_50_place_anchor.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_explanation_location_only",
+    "area": "Winter Park",
+    "dimension": "",
+    "kind": "explainability",
+    "raw_file": "winter_park_explanation_location_only.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "winter_park_explanation_entity_seeded",
+    "area": "Winter Park",
+    "dimension": "",
+    "kind": "explainability_seeded",
+    "raw_file": "winter_park_explanation_entity_seeded.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+              "avg_score": 0.5665097380841241
+            },
+            {
+              "entity_id": "50A73864-984A-446F-8401-9F501EA0457B",
+              "avg_score": 0.433490261915876
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+              "avg_score": 0.5597879464136161
+            },
+            {
+              "entity_id": "50A73864-984A-446F-8401-9F501EA0457B",
+              "avg_score": 0.44021205358638393
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+              "avg_score": 0.5597879464136161
+            },
+            {
+              "entity_id": "50A73864-984A-446F-8401-9F501EA0457B",
+              "avg_score": 0.44021205358638393
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+              "avg_score": 0.5597879464136161
+            },
+            {
+              "entity_id": "50A73864-984A-446F-8401-9F501EA0457B",
+              "avg_score": 0.44021205358638393
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "brand_trending",
+    "area": "",
+    "dimension": "",
+    "kind": "global_trend",
+    "raw_file": "brand_trending.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "rifle_paper_trend",
+    "area": "",
+    "dimension": "",
+    "kind": "global_trend",
+    "raw_file": "rifle_paper_trend.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "rifle_paper_trend_v2",
+    "area": "",
+    "dimension": "",
+    "kind": "global_trend",
+    "raw_file": "rifle_paper_trend_v2.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "food_dining_heatmap",
+    "area": "",
+    "dimension": "food_dining",
+    "kind": "heatmap",
+    "raw_file": "food_dining_heatmap.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "coffee_cafes_heatmap",
+    "area": "",
+    "dimension": "coffee_cafes",
+    "kind": "heatmap",
+    "raw_file": "coffee_cafes_heatmap.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "fitness_heatmap",
+    "area": "",
+    "dimension": "fitness",
+    "kind": "heatmap",
+    "raw_file": "fitness_heatmap.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "museums_heatmap",
+    "area": "",
+    "dimension": "museums",
+    "kind": "heatmap",
+    "raw_file": "museums_heatmap.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "nightlife_bars_heatmap",
+    "area": "",
+    "dimension": "nightlife_bars",
+    "kind": "heatmap",
+    "raw_file": "nightlife_bars_heatmap.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "coffee_neighborhood_heatmap",
+    "area": "",
+    "dimension": "coffee_cafes",
+    "kind": "heatmap_boundary_probe",
+    "raw_file": "coffee_neighborhood_heatmap.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

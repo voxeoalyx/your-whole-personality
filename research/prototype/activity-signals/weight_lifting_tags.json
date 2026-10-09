@@ -1,0 +1,208 @@
+{
+  "duration": 158,
+  "success": true,
+  "results": {
+    "tags": [
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:weightlifting_area",
+        "name": "Weightlifting area",
+        "popularity": 0.9981752,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:weightlifting_area",
+        "name": "Weightlifting Area",
+        "popularity": 0.9903159,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:restaurant:weightlifting_area",
+        "name": "Weightlifting Area",
+        "popularity": 0.90348715,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:person"
+          }
+        ],
+        "type": "urn:tag:occupation:wikidata",
+        "id": "urn:tag:occupation:wikidata:weightlifting_coach",
+        "name": "Weightlifting Coach",
+        "popularity": 0.5291036,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:hotel:weightlifting_area",
+        "name": "Weightlifting Area",
+        "popularity": 0.5291036,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:person"
+          }
+        ],
+        "type": "urn:tag:occupation:wikidata",
+        "id": "urn:tag:occupation:wikidata:weightlifting",
+        "name": "Weightlifting",
+        "popularity": 0.34080815,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:weightlifting_hall_of_fame",
+        "name": "Weightlifting Hall Of Fame",
+        "popularity": 0,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:weight_loss_service",
+        "name": "Weight loss service",
+        "popularity": 0.9995813,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:weight_loss_service",
+        "name": "Weight Loss Service",
+        "popularity": 0.99840623,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:pay_by_weight_restaurant",
+        "name": "Pay by weight restaurant",
+        "popularity": 0.9937889,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:restaurant:pay_by_weight",
+        "name": "Pay by weight restaurant",
+        "popularity": 0.9937889,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:pay_weight_restaurant",
+        "name": "Pay By Weight Restaurant",
+        "popularity": 0.9883405,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:restaurant:weight_loss_service",
+        "name": "Weight Loss Service",
+        "popularity": 0.987737,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:restaurant:pay_weight",
+        "name": "Pay By Weight",
+        "popularity": 0.9854917,
+        "properties": {
+          "description": "In 'Pay by Weight' establishments, customers serve themselves from a variety of dishes and their meal price is determined by the weight of their plate. This allows customers to sample a wide variety of foods in portions of their choosing, often leading to less food waste.",
+          "history": "Pay by Weight, also known as self-service by weight, originated in different parts of the world almost simultaneously as a response to the need for quick and individually customized meals. It's more prevalent in buffet-style and fast casual dining establishments.",
+          "origin": "Varied",
+          "presentation_style": "Buffet-style"
+        },
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:hotel:weight_loss_service",
+        "name": "Weight Loss Service",
+        "popularity": 0.956,
+        "properties": {},
+        "tags": []
+      }
+    ]
+  }
+}

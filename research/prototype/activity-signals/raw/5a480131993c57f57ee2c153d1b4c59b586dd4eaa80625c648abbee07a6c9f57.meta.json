@@ -1,0 +1,13 @@
+{
+  "at": 1791470987.8416119,
+  "request_hash": "5a480131993c57f57ee2c153d1b4c59b586dd4eaa80625c648abbee07a6c9f57",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:genre:media:running",
+    "take": "20"
+  },
+  "response_sha256": "e053d86d4cbfd23629fb6d45a3c5967067921454d392d76c697d4ef72830339a"
+}

@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:51.398870+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.344,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Lululemon",
+    "take": "5",
+    "types": "urn:entity:brand"
+  },
+  "raw_file": "lululemon.a1.json",
+  "request_sha256": "f73337dcc91752a83b92794f5a552db7b7b3d582041c89e7f9d3a08c9dff6585",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:51 GMT"
+  },
+  "response_sha256": "0aac41c099b72895a0e3cb9bd5b7f762a6ebe4ef6ca89eb4e41e90cf4e849449",
+  "spec": {
+    "endpoint": "/search",
+    "id": "lululemon",
+    "kind": "discovery",
+    "params": {
+      "query": "Lululemon",
+      "take": 5,
+      "types": "urn:entity:brand"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Lululemon&take=5&types=urn%3Aentity%3Abrand"
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "request_id": "winter_park_lookup",
+    "area": "Winter Park",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "winter_park_lookup.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_lookup",
+    "area": "Mills 50",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "mills_50_lookup.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_lookup",
+    "area": "Pine Hills",
+    "dimension": "",
+    "kind": "lookup",
+    "raw_file": "pine_hills_lookup.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "place_tag_types",
+    "area": "",
+    "dimension": "",
+    "kind": "taxonomy",
+    "raw_file": "place_tag_types.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_tag_probe",
+    "area": "Winter Park",
+    "dimension": "",
+    "kind": "capability_probe",
+    "raw_file": "winter_park_tag_probe.a1.json",
+    "query": {
+      "localities": {
+        "signal": {
+          "entity_id": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+          "name": "Winter Park",
+          "subtype": "urn:entity:locality",
+          "location": {
+            "lat": 28.598801697315782,
+            "lon": -81.34420470166879
+          },
+          "popularity": 0.99159354,
+          "disambiguation": "Winter Park, Orange County, Florida, United States"
+        }
+      }
+    },
+    "warnings": null
+  }
+]

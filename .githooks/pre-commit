@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+if [ -x .venv/bin/python ]; then
+    exec .venv/bin/python tools/audit_repository.py
+elif [ -x .venv/Scripts/python.exe ]; then
+    exec .venv/Scripts/python.exe tools/audit_repository.py
+elif command -v py >/dev/null 2>&1; then
+    exec py -3 tools/audit_repository.py
+elif command -v python >/dev/null 2>&1; then
+    exec python tools/audit_repository.py
+else
+    exec python3 tools/audit_repository.py
+fi

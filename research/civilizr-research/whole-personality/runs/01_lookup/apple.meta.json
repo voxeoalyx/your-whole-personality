@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:54.309910+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.297,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Apple",
+    "take": "5",
+    "types": "urn:entity:brand"
+  },
+  "raw_file": "apple.a1.json",
+  "request_sha256": "f9e0ddcceaaf6448291a94b5c3a751d2921a99fd44d4f593719f5c1727555a1c",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:54 GMT"
+  },
+  "response_sha256": "da97c2fee26b6fb419c9d57937b28feaa1bac5aa0ad9c6be4f81b1192237b24c",
+  "spec": {
+    "endpoint": "/search",
+    "id": "apple",
+    "kind": "discovery",
+    "params": {
+      "query": "Apple",
+      "take": 5,
+      "types": "urn:entity:brand"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Apple&take=5&types=urn%3Aentity%3Abrand"
+}

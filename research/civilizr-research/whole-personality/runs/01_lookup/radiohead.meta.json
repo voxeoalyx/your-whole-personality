@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:41.126153+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.921,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Radiohead",
+    "take": "5",
+    "types": "urn:entity:artist"
+  },
+  "raw_file": "radiohead.a1.json",
+  "request_sha256": "c870d7ceaa5406fc55df49f572e06a2e37519208c3367873ce86a3bde2f0cabd",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:42 GMT"
+  },
+  "response_sha256": "2f936d6fdeed093611cb6bdd4061b3e9e8175a9e3fe5a6deb814cd4cb4a510ae",
+  "spec": {
+    "endpoint": "/search",
+    "id": "radiohead",
+    "kind": "discovery",
+    "params": {
+      "query": "Radiohead",
+      "take": 5,
+      "types": "urn:entity:artist"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Radiohead&take=5&types=urn%3Aentity%3Aartist"
+}

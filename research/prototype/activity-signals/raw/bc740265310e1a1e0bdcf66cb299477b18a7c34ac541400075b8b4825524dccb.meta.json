@@ -1,0 +1,13 @@
+{
+  "at": 1791471014.582055,
+  "request_hash": "bc740265310e1a1e0bdcf66cb299477b18a7c34ac541400075b8b4825524dccb",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.tags": "urn:tag:occupation:wikidata:weightlifting",
+    "take": "20"
+  },
+  "response_sha256": "2358b54d1d5f09bd9f01b8819b2e6d47030f468f6a5193e744e857a51be984a4"
+}

@@ -1,0 +1,181 @@
+﻿request_id,area,dimension,k,id,name,membership,reciprocal_rank,ties_present
+winter_park_brands_500,Winter Park,brands_point,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+winter_park_brands_500,Winter Park,brands_point,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+winter_park_brands_500,Winter Park,brands_point,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+winter_park_brands_500,Winter Park,brands_point,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.25,False
+winter_park_brands_500,Winter Park,brands_point,10,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.2,False
+winter_park_brands_500,Winter Park,brands_point,10,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.16666666666666666,False
+winter_park_brands_500,Winter Park,brands_point,10,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.14285714285714285,False
+winter_park_brands_500,Winter Park,brands_point,10,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.125,False
+winter_park_brands_500,Winter Park,brands_point,10,D5B3FCC0-3603-40AF-ACEE-996376014820,Barstool Sports,1,0.1111111111111111,False
+winter_park_brands_500,Winter Park,brands_point,10,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,1,0.1,False
+winter_park_brands_1000,Winter Park,brands_point,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+winter_park_brands_1000,Winter Park,brands_point,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+winter_park_brands_1000,Winter Park,brands_point,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+winter_park_brands_1000,Winter Park,brands_point,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.25,False
+winter_park_brands_1000,Winter Park,brands_point,10,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.2,False
+winter_park_brands_1000,Winter Park,brands_point,10,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.16666666666666666,False
+winter_park_brands_1000,Winter Park,brands_point,10,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.14285714285714285,False
+winter_park_brands_1000,Winter Park,brands_point,10,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.125,False
+winter_park_brands_1000,Winter Park,brands_point,10,D5B3FCC0-3603-40AF-ACEE-996376014820,Barstool Sports,1,0.1111111111111111,False
+winter_park_brands_1000,Winter Park,brands_point,10,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,1,0.1,False
+college_park_brands_500,College Park,brands_point,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+college_park_brands_500,College Park,brands_point,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+college_park_brands_500,College Park,brands_point,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+college_park_brands_500,College Park,brands_point,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+college_park_brands_500,College Park,brands_point,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.2,False
+college_park_brands_500,College Park,brands_point,10,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.16666666666666666,False
+college_park_brands_500,College Park,brands_point,10,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.14285714285714285,False
+college_park_brands_500,College Park,brands_point,10,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.125,False
+college_park_brands_500,College Park,brands_point,10,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.1111111111111111,False
+college_park_brands_500,College Park,brands_point,10,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.1,False
+college_park_brands_1000,College Park,brands_point,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+college_park_brands_1000,College Park,brands_point,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.5,False
+college_park_brands_1000,College Park,brands_point,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.3333333333333333,False
+college_park_brands_1000,College Park,brands_point,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+college_park_brands_1000,College Park,brands_point,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.2,False
+college_park_brands_1000,College Park,brands_point,10,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.16666666666666666,False
+college_park_brands_1000,College Park,brands_point,10,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.14285714285714285,False
+college_park_brands_1000,College Park,brands_point,10,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.125,False
+college_park_brands_1000,College Park,brands_point,10,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.1111111111111111,False
+college_park_brands_1000,College Park,brands_point,10,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.1,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.2,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.16666666666666666,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.14285714285714285,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.125,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.1111111111111111,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,10,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.1,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.2,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.16666666666666666,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.14285714285714285,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.125,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.1111111111111111,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,10,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.1,False
+winter_park_brands_500,Winter Park,brands_point,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+winter_park_brands_500,Winter Park,brands_point,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+winter_park_brands_500,Winter Park,brands_point,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+winter_park_brands_500,Winter Park,brands_point,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.25,False
+winter_park_brands_500,Winter Park,brands_point,20,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.2,False
+winter_park_brands_500,Winter Park,brands_point,20,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.16666666666666666,False
+winter_park_brands_500,Winter Park,brands_point,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.14285714285714285,False
+winter_park_brands_500,Winter Park,brands_point,20,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.125,False
+winter_park_brands_500,Winter Park,brands_point,20,D5B3FCC0-3603-40AF-ACEE-996376014820,Barstool Sports,1,0.1111111111111111,False
+winter_park_brands_500,Winter Park,brands_point,20,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,1,0.1,False
+winter_park_brands_500,Winter Park,brands_point,20,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.09090909090909091,False
+winter_park_brands_500,Winter Park,brands_point,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.08333333333333333,False
+winter_park_brands_500,Winter Park,brands_point,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.07692307692307693,False
+winter_park_brands_500,Winter Park,brands_point,20,3381E64E-B7C4-4824-8526-BE33C133C2DF,GoPro,1,0.07142857142857142,False
+winter_park_brands_500,Winter Park,brands_point,20,6F2D602B-11DB-4FF7-84D5-29E1C8D5991E,Nasty Gal,1,0.06666666666666667,False
+winter_park_brands_500,Winter Park,brands_point,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.0625,False
+winter_park_brands_500,Winter Park,brands_point,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.058823529411764705,False
+winter_park_brands_500,Winter Park,brands_point,20,0FE3028F-4E87-424E-BEB6-C6D2163D3F8C,NYX Professional Makeup,1,0.05555555555555555,False
+winter_park_brands_500,Winter Park,brands_point,20,8BD045F4-2033-4B74-9D35-D9E6C16D4D31,Morphe,1,0.05263157894736842,False
+winter_park_brands_500,Winter Park,brands_point,20,4F94C666-5FFA-4A42-8453-24C2F779EC36,Urban Outfitters,1,0.05,False
+winter_park_brands_1000,Winter Park,brands_point,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+winter_park_brands_1000,Winter Park,brands_point,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+winter_park_brands_1000,Winter Park,brands_point,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+winter_park_brands_1000,Winter Park,brands_point,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.25,False
+winter_park_brands_1000,Winter Park,brands_point,20,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.2,False
+winter_park_brands_1000,Winter Park,brands_point,20,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.16666666666666666,False
+winter_park_brands_1000,Winter Park,brands_point,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.14285714285714285,False
+winter_park_brands_1000,Winter Park,brands_point,20,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.125,False
+winter_park_brands_1000,Winter Park,brands_point,20,D5B3FCC0-3603-40AF-ACEE-996376014820,Barstool Sports,1,0.1111111111111111,False
+winter_park_brands_1000,Winter Park,brands_point,20,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,1,0.1,False
+winter_park_brands_1000,Winter Park,brands_point,20,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.09090909090909091,False
+winter_park_brands_1000,Winter Park,brands_point,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.08333333333333333,False
+winter_park_brands_1000,Winter Park,brands_point,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.07692307692307693,False
+winter_park_brands_1000,Winter Park,brands_point,20,3381E64E-B7C4-4824-8526-BE33C133C2DF,GoPro,1,0.07142857142857142,False
+winter_park_brands_1000,Winter Park,brands_point,20,6F2D602B-11DB-4FF7-84D5-29E1C8D5991E,Nasty Gal,1,0.06666666666666667,False
+winter_park_brands_1000,Winter Park,brands_point,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.0625,False
+winter_park_brands_1000,Winter Park,brands_point,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.058823529411764705,False
+winter_park_brands_1000,Winter Park,brands_point,20,0FE3028F-4E87-424E-BEB6-C6D2163D3F8C,NYX Professional Makeup,1,0.05555555555555555,False
+winter_park_brands_1000,Winter Park,brands_point,20,8BD045F4-2033-4B74-9D35-D9E6C16D4D31,Morphe,1,0.05263157894736842,False
+winter_park_brands_1000,Winter Park,brands_point,20,4F94C666-5FFA-4A42-8453-24C2F779EC36,Urban Outfitters,1,0.05,False
+college_park_brands_500,College Park,brands_point,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+college_park_brands_500,College Park,brands_point,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+college_park_brands_500,College Park,brands_point,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+college_park_brands_500,College Park,brands_point,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+college_park_brands_500,College Park,brands_point,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.2,False
+college_park_brands_500,College Park,brands_point,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.16666666666666666,False
+college_park_brands_500,College Park,brands_point,20,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.14285714285714285,False
+college_park_brands_500,College Park,brands_point,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.125,False
+college_park_brands_500,College Park,brands_point,20,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.1111111111111111,False
+college_park_brands_500,College Park,brands_point,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.1,False
+college_park_brands_500,College Park,brands_point,20,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.09090909090909091,False
+college_park_brands_500,College Park,brands_point,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.08333333333333333,False
+college_park_brands_500,College Park,brands_point,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.07692307692307693,False
+college_park_brands_500,College Park,brands_point,20,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.07142857142857142,False
+college_park_brands_500,College Park,brands_point,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.06666666666666667,False
+college_park_brands_500,College Park,brands_point,20,D5B3FCC0-3603-40AF-ACEE-996376014820,Barstool Sports,1,0.0625,False
+college_park_brands_500,College Park,brands_point,20,BFC8D7B1-BDD2-478E-85AB-F4FEE868177A,Target,1,0.058823529411764705,False
+college_park_brands_500,College Park,brands_point,20,A5269DD4-5BCE-4EC7-BD50-355B29F3079F,Airbnb,1,0.05555555555555555,False
+college_park_brands_500,College Park,brands_point,20,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.05263157894736842,False
+college_park_brands_500,College Park,brands_point,20,08DFA533-2964-44E8-A6DE-CF66A45C1373,Magnolia,1,0.05,False
+college_park_brands_1000,College Park,brands_point,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+college_park_brands_1000,College Park,brands_point,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.5,False
+college_park_brands_1000,College Park,brands_point,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.3333333333333333,False
+college_park_brands_1000,College Park,brands_point,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+college_park_brands_1000,College Park,brands_point,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.2,False
+college_park_brands_1000,College Park,brands_point,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.16666666666666666,False
+college_park_brands_1000,College Park,brands_point,20,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.14285714285714285,False
+college_park_brands_1000,College Park,brands_point,20,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.125,False
+college_park_brands_1000,College Park,brands_point,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.1111111111111111,False
+college_park_brands_1000,College Park,brands_point,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.1,False
+college_park_brands_1000,College Park,brands_point,20,D5B3FCC0-3603-40AF-ACEE-996376014820,Barstool Sports,1,0.09090909090909091,False
+college_park_brands_1000,College Park,brands_point,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.08333333333333333,False
+college_park_brands_1000,College Park,brands_point,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.07692307692307693,False
+college_park_brands_1000,College Park,brands_point,20,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.07142857142857142,False
+college_park_brands_1000,College Park,brands_point,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.06666666666666667,False
+college_park_brands_1000,College Park,brands_point,20,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.0625,False
+college_park_brands_1000,College Park,brands_point,20,08DFA533-2964-44E8-A6DE-CF66A45C1373,Magnolia,1,0.058823529411764705,False
+college_park_brands_1000,College Park,brands_point,20,BFC8D7B1-BDD2-478E-85AB-F4FEE868177A,Target,1,0.05555555555555555,False
+college_park_brands_1000,College Park,brands_point,20,3381E64E-B7C4-4824-8526-BE33C133C2DF,GoPro,1,0.05263157894736842,False
+college_park_brands_1000,College Park,brands_point,20,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.05,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.2,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.16666666666666666,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.14285714285714285,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.125,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.1111111111111111,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.1,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.09090909090909091,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.08333333333333333,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.07692307692307693,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,1,0.07142857142857142,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.06666666666666667,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,1,0.0625,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.058823529411764705,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,BFC8D7B1-BDD2-478E-85AB-F4FEE868177A,Target,1,0.05555555555555555,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,0FE3028F-4E87-424E-BEB6-C6D2163D3F8C,NYX Professional Makeup,1,0.05263157894736842,False
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.05,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.5,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.3333333333333333,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.25,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.2,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.16666666666666666,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.14285714285714285,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.125,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,0F77E9A4-121C-4941-ACE1-28502DBF1865,Ulta,1,0.1111111111111111,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.1,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.09090909090909091,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,2C5054E1-8691-4F52-83CD-310D029BA6A3,Sephora,1,0.08333333333333333,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,6F2D602B-11DB-4FF7-84D5-29E1C8D5991E,Nasty Gal,1,0.07692307692307693,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,B90BB764-2618-4A08-864E-C2748E3E5DCA,Anastasia Beverly Hills,1,0.07142857142857142,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.06666666666666667,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,0FE3028F-4E87-424E-BEB6-C6D2163D3F8C,NYX Professional Makeup,1,0.0625,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.058823529411764705,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.05555555555555555,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,3381E64E-B7C4-4824-8526-BE33C133C2DF,GoPro,1,0.05263157894736842,False
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,20,0E66D1DC-588C-4632-8A8A-6D6BE3224AFD,Urban Decay,1,0.05,False

@@ -1,0 +1,13 @@
+{
+  "at": 1791471012.0774558,
+  "request_hash": "462f5d0c17ff5f659c73709177f0d49fa4b9abd613d3089f7a1643b0ab38f200",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.tags": "urn:tag:category:place:weightlifting_area",
+    "take": "20"
+  },
+  "response_sha256": "d1187ea0d0ee98d6747eccce4c914281510b4e81c0e2861a2a234628c3bfa54b"
+}

@@ -1,0 +1,13 @@
+{
+  "at": 1791470981.966168,
+  "request_hash": "1bf901d1c8a3363db37cac0911976c4f50f64a16dd13eb6406aac7c241cde949",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:occupation:wikidata:pilates",
+    "take": "20"
+  },
+  "response_sha256": "e053d86d4cbfd23629fb6d45a3c5967067921454d392d76c697d4ef72830339a"
+}

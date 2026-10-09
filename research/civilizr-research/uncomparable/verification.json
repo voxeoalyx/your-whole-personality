@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-07T23:14:48.251Z",
+  "files_scanned": 343,
+  "key_available_for_scan": true,
+  "credential_occurrences": 0,
+  "frozen_files_unchanged": {
+    "UNCOMPARABLE_EXPERIMENT_PLAN.md": true,
+    "properties.json": true,
+    "baseline_ab.json": true
+  },
+  "original_runner_unchanged": true,
+  "offline_tests": 4
+}

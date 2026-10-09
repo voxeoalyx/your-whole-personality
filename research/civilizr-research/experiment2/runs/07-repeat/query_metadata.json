@@ -1,0 +1,66 @@
+[
+  {
+    "request_id": "winter_park_base_brands",
+    "area": "winter_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_base_tags",
+    "area": "winter_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_base_brands",
+    "area": "pine_hills",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_base_tags",
+    "area": "pine_hills",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  }
+]

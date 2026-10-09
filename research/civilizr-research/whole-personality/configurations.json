@@ -1,0 +1,240 @@
+{
+  "p01": [
+    "radiohead",
+    "blue_bottle",
+    "severance"
+  ],
+  "p02": [
+    "radiohead",
+    "blue_bottle",
+    "rogan"
+  ],
+  "p03": [
+    "radiohead",
+    "blue_bottle",
+    "huberman"
+  ],
+  "p04": [
+    "radiohead",
+    "blue_bottle",
+    "taylor"
+  ],
+  "p05": [
+    "taylor",
+    "starbucks",
+    "friends"
+  ],
+  "p06": [
+    "taylor",
+    "starbucks",
+    "rogan"
+  ],
+  "p07": [
+    "metallica",
+    "nike",
+    "elden_ring"
+  ],
+  "p08": [
+    "metallica",
+    "nike",
+    "animal_crossing"
+  ],
+  "p09": [
+    "patagonia",
+    "lululemon",
+    "blue_bottle"
+  ],
+  "p10": [
+    "patagonia",
+    "lululemon",
+    "monster"
+  ],
+  "p11": [
+    "dune",
+    "bjork",
+    "severance"
+  ],
+  "p12": [
+    "dune",
+    "bjork",
+    "friends"
+  ],
+  "demo_person": [
+    "radiohead",
+    "blue_bottle",
+    "joe_person"
+  ],
+  "base_rb": [
+    "radiohead",
+    "blue_bottle"
+  ],
+  "single_radiohead": [
+    "radiohead"
+  ],
+  "single_blue_bottle": [
+    "blue_bottle"
+  ],
+  "single_severance": [
+    "severance"
+  ],
+  "single_joe_person": [
+    "joe_person"
+  ],
+  "single_rogan": [
+    "rogan"
+  ],
+  "single_huberman": [
+    "huberman"
+  ],
+  "single_taylor": [
+    "taylor"
+  ],
+  "single_starbucks": [
+    "starbucks"
+  ],
+  "single_friends": [
+    "friends"
+  ],
+  "single_metallica": [
+    "metallica"
+  ],
+  "single_nike": [
+    "nike"
+  ],
+  "single_elden_ring": [
+    "elden_ring"
+  ],
+  "single_animal_crossing": [
+    "animal_crossing"
+  ],
+  "single_patagonia": [
+    "patagonia"
+  ],
+  "single_lululemon": [
+    "lululemon"
+  ],
+  "single_monster": [
+    "monster"
+  ],
+  "single_dune": [
+    "dune"
+  ],
+  "single_bjork": [
+    "bjork"
+  ],
+  "single_apple": [
+    "apple"
+  ],
+  "brand_blue_bottle__radiohead": [
+    "blue_bottle",
+    "radiohead"
+  ],
+  "brand_blue_bottle__metallica": [
+    "blue_bottle",
+    "metallica"
+  ],
+  "brand_nike__elden_ring": [
+    "nike",
+    "elden_ring"
+  ],
+  "brand_nike__animal_crossing": [
+    "nike",
+    "animal_crossing"
+  ],
+  "brand_apple__severance": [
+    "apple",
+    "severance"
+  ],
+  "brand_apple__friends": [
+    "apple",
+    "friends"
+  ],
+  "brand_lululemon__huberman": [
+    "lululemon",
+    "huberman"
+  ],
+  "brand_lululemon__rogan": [
+    "lululemon",
+    "rogan"
+  ],
+  "brand_patagonia__bjork": [
+    "patagonia",
+    "bjork"
+  ],
+  "brand_patagonia__taylor": [
+    "patagonia",
+    "taylor"
+  ],
+  "loo_p01__radiohead": [
+    "blue_bottle",
+    "severance"
+  ],
+  "loo_p01__blue_bottle": [
+    "radiohead",
+    "severance"
+  ],
+  "loo_p01__severance": [
+    "radiohead",
+    "blue_bottle"
+  ],
+  "loo_p02__radiohead": [
+    "blue_bottle",
+    "rogan"
+  ],
+  "loo_p02__blue_bottle": [
+    "radiohead",
+    "rogan"
+  ],
+  "loo_p02__rogan": [
+    "radiohead",
+    "blue_bottle"
+  ],
+  "loo_p05__taylor": [
+    "starbucks",
+    "friends"
+  ],
+  "loo_p05__starbucks": [
+    "taylor",
+    "friends"
+  ],
+  "loo_p05__friends": [
+    "taylor",
+    "starbucks"
+  ],
+  "loo_p06__taylor": [
+    "starbucks",
+    "rogan"
+  ],
+  "loo_p06__starbucks": [
+    "taylor",
+    "rogan"
+  ],
+  "loo_p06__rogan": [
+    "taylor",
+    "starbucks"
+  ],
+  "loo_p09__patagonia": [
+    "lululemon",
+    "blue_bottle"
+  ],
+  "loo_p09__lululemon": [
+    "patagonia",
+    "blue_bottle"
+  ],
+  "loo_p09__blue_bottle": [
+    "patagonia",
+    "lululemon"
+  ],
+  "loo_p10__patagonia": [
+    "lululemon",
+    "monster"
+  ],
+  "loo_p10__lululemon": [
+    "patagonia",
+    "monster"
+  ],
+  "loo_p10__monster": [
+    "patagonia",
+    "lululemon"
+  ]
+}

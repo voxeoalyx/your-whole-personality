@@ -1,0 +1,147 @@
+{
+  "created_at": "2026-10-07T18:45:19.953026+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Remaining resolved localities",
+      "requests": [
+        {
+          "id": "audubon_park_place_tags",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "take": 20
+          }
+        },
+        {
+          "id": "audubon_park_brands",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "take": 20
+          }
+        },
+        {
+          "id": "audubon_park_destinations",
+          "area": "Audubon Park",
+          "role": "target",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+            "take": 20
+          }
+        },
+        {
+          "id": "baldwin_park_place_tags",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "take": 20
+          }
+        },
+        {
+          "id": "baldwin_park_brands",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "take": 20
+          }
+        },
+        {
+          "id": "baldwin_park_destinations",
+          "area": "Baldwin Park",
+          "role": "target",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+            "take": 20
+          }
+        },
+        {
+          "id": "azalea_park_place_tags",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "place_tags",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:tag",
+            "filter.parents.types": "urn:entity:place",
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "take": 20
+          }
+        },
+        {
+          "id": "azalea_park_brands",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "brands",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "bias.trends": "off",
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "take": 20
+          }
+        },
+        {
+          "id": "azalea_park_destinations",
+          "area": "Azalea Park",
+          "role": "control",
+          "dimension": "destinations",
+          "kind": "profile",
+          "geography_verified": true,
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:destination",
+            "bias.trends": "off",
+            "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+            "take": 20
+          }
+        }
+      ]
+    },
+    "code_sha256": "b38c3174300dff09fb577c2dae8a1b2e4ae0dbbc250431daea8179dca0bd065f"
+  }
+}

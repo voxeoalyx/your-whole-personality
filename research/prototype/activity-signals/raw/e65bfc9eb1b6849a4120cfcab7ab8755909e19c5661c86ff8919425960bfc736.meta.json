@@ -1,0 +1,13 @@
+{
+  "at": 1791471740.1357899,
+  "request_hash": "e65bfc9eb1b6849a4120cfcab7ab8755909e19c5661c86ff8919425960bfc736",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:genre:media:health_fitness",
+    "take": "20"
+  },
+  "response_sha256": "80ff23b226d180384624c5e4150bbd642436f988afb7169997643b7d5800af72"
+}

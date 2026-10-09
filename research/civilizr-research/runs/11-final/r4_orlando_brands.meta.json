@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-07T18:41:34.541463+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 3.547,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:brand",
+    "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+    "take": "20"
+  },
+  "raw_file": "..\\04-pilot\\orlando_brands.a1.json",
+  "request_sha256": "46f9a9b5d69414c5fe880bbc7c0415a569fc89fe7c06dacb38c5e5606643611e",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:41:38 GMT"
+  },
+  "response_sha256": "7b34da924e0e339380a80c02eb849ac63b5eb698181e73e0562f4175a38889aa",
+  "spec": {
+    "id": "r4_orlando_brands",
+    "area": "Orlando",
+    "role": "baseline",
+    "dimension": "brands",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:brand",
+      "bias.trends": "off",
+      "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Abrand&signal.location=D029E622-B514-4866-9166-35C0C1801794&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\04-pilot\\orlando_brands.meta.json"
+}

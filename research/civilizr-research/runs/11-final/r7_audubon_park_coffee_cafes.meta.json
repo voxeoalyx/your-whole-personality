@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-07T18:46:45.935648+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.938,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+    "filter.type": "urn:entity:place",
+    "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+    "take": "20"
+  },
+  "raw_file": "..\\07-culture-remaining\\audubon_park_coffee_cafes.a1.json",
+  "request_sha256": "e260b7cc58986cddde36383578aca2ed4fb39d11e23382e07a7a1cde9987b020",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:46:47 GMT"
+  },
+  "response_sha256": "a97110e918bbcd2f89663980ddfb937a15ffd38ac7ecde45cb4f9ba2d59e16a8",
+  "spec": {
+    "id": "r7_audubon_park_coffee_cafes",
+    "area": "Audubon Park",
+    "role": "target",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:place",
+      "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+      "bias.trends": "off",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.tags=urn%3Atag%3Agenre%3Aplace%3Arestaurant%3Acoffee_shop&filter.type=urn%3Aentity%3Aplace&signal.location=7E6E3DFF-5154-4DDE-B08D-1392D771EC81&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\07-culture-remaining\\audubon_park_coffee_cafes.meta.json"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Native home-goods domain and related Eames author input",
+  "requests": [
+    {
+      "id": "wright_design",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 12,
+        "filter.tags": "urn:tag:industry:qloo:home_goods"
+      },
+      "kind": "fixed_profile",
+      "input": "wright",
+      "domain": "brand"
+    },
+    {
+      "id": "farnsworth_design",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 12,
+        "filter.tags": "urn:tag:industry:qloo:home_goods"
+      },
+      "kind": "fixed_profile",
+      "input": "farnsworth",
+      "domain": "brand"
+    },
+    {
+      "id": "ray_author",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile"
+    }
+  ]
+}

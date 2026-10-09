@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T18:45:27.645671+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.563,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:destination",
+    "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+    "take": "20"
+  },
+  "raw_file": "baldwin_park_destinations.a1.json",
+  "request_sha256": "f090a88f4634fe9d28c3d895009abaae5765eb86a98d987471565be52b662071",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:45:29 GMT"
+  },
+  "response_sha256": "d73af5568c343b40eec5b2d047a2a3d89644d9e31ba16fa82fbdb9af3bcce2fa",
+  "spec": {
+    "area": "Baldwin Park",
+    "dimension": "destinations",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "baldwin_park_destinations",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.type": "urn:entity:destination",
+      "signal.location": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+      "take": 20
+    },
+    "role": "target"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Adestination&signal.location=AE5AD141-044B-450B-8DB2-A462B55A6B2B&take=20"
+}

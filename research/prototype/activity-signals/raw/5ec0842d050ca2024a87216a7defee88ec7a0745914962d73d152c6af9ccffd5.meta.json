@@ -1,0 +1,15 @@
+{
+  "at": 1791471472.5156536,
+  "request_hash": "5ec0842d050ca2024a87216a7defee88ec7a0745914962d73d152c6af9ccffd5",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:running,urn:audience:hobbies_and_interests:yoga",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "signal.interests.tags": "urn:tag:genre:media:architecture",
+    "take": "20"
+  },
+  "response_sha256": "12ea468a8810008e6554fb955fa0dc8446cd388446180d1ee7b7ab947dba04b9"
+}

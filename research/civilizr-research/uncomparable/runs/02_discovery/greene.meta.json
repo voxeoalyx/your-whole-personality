@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:01:10.176655+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.422,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Charles Greene",
+    "take": "5"
+  },
+  "raw_file": "greene.a1.json",
+  "request_sha256": "e485be0e2e920134fc253291e1efc4b49bbe5b586ae73ed5e591bf9a92e4a822",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:11 GMT"
+  },
+  "response_sha256": "e9972cd9cf2995f57c6dd1a9739fa1e96020bffdafb8c619532bc960a5e2f9aa",
+  "spec": {
+    "endpoint": "/search",
+    "id": "greene",
+    "kind": "discovery",
+    "params": {
+      "query": "Charles Greene",
+      "take": 5
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Charles+Greene&take=5"
+}

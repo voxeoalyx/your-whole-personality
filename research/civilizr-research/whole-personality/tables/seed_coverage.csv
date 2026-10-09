@@ -1,0 +1,20 @@
+﻿seed,name,type,popularity,brand_unsupported,brand_scored,tv_show_unsupported,tv_show_scored
+radiohead,Radiohead,urn:entity:artist,0.9999966263060412,False,45,False,19
+blue_bottle,Blue Bottle Coffee,urn:entity:brand,0.9492210676204845,False,45,False,19
+severance,Severance,urn:entity:tv_show,0.9929525962369523,False,45,False,19
+joe_person,Joe Rogan,urn:entity:person,0.9979724073449951,False,45,False,19
+rogan,The Joe Rogan Experience,urn:entity:podcast,0.9914438183823748,False,45,False,19
+huberman,Huberman Lab,urn:entity:podcast,0.9892078824195808,False,45,False,19
+taylor,Taylor Swift,urn:entity:artist,0.999790830974559,False,45,False,19
+starbucks,Starbucks,urn:entity:brand,0.9998135308775915,False,45,False,19
+friends,Friends,urn:entity:tv_show,0.999601090353035,False,45,False,19
+metallica,Metallica,urn:entity:artist,0.999962889366454,False,45,False,19
+nike,Nike,urn:entity:brand,0.9999915241307996,False,45,False,19
+elden_ring,Elden Ring,urn:entity:videogame,0.9404597672555957,False,45,False,19
+animal_crossing,Animal Crossing: New Horizons,urn:entity:videogame,0.962399621934353,False,45,False,19
+patagonia,Patagonia,urn:entity:brand,0.995923106914614,False,45,False,19
+lululemon,Lululemon,urn:entity:brand,0.9955416928005967,False,45,False,19
+monster,Monster Energy,urn:entity:brand,0.9981014052991134,False,45,False,19
+dune,"Dune (Dune, #1)",urn:entity:book,0.9995171972963048,True,0,True,0
+bjork,Björk,urn:entity:artist,0.9996963675437146,False,45,False,19
+apple,Apple Inc,urn:entity:brand,0.9992456476411656,False,45,False,19

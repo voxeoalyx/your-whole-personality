@@ -1,0 +1,234 @@
+{
+  "generated_before_api": true,
+  "method": "Single assistant pass under NARRATIVE_PROTOCOL.md; hypotheses, not human validation",
+  "profiles": [
+    {
+      "id": "p01",
+      "interests": [
+        "Radiohead",
+        "Blue Bottle Coffee",
+        "Severance"
+      ],
+      "brands": [
+        "Aesop",
+        "MUJI",
+        "Patagonia"
+      ],
+      "tv": [
+        "Black Mirror",
+        "Mr. Robot",
+        "Dark"
+      ],
+      "summary": "For this combination, Aesop, MUJI, Patagonia are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, Black Mirror, Mr. Robot, Dark provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p02",
+      "interests": [
+        "Radiohead",
+        "Blue Bottle Coffee",
+        "The Joe Rogan Experience"
+      ],
+      "brands": [
+        "Onnit",
+        "Monster Energy",
+        "Under Armour"
+      ],
+      "tv": [
+        "The Last Dance",
+        "Formula 1: Drive to Survive",
+        "Mindhunter"
+      ],
+      "summary": "For this combination, Onnit, Monster Energy, Under Armour are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, The Last Dance, Formula 1: Drive to Survive, Mindhunter provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p03",
+      "interests": [
+        "Radiohead",
+        "Blue Bottle Coffee",
+        "Huberman Lab"
+      ],
+      "brands": [
+        "Garmin",
+        "Lululemon",
+        "Patagonia"
+      ],
+      "tv": [
+        "Limitless with Chris Hemsworth",
+        "The Mind, Explained",
+        "Abstract: The Art of Design"
+      ],
+      "summary": "For this combination, Garmin, Lululemon, Patagonia are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, Limitless with Chris Hemsworth, The Mind, Explained, Abstract: The Art of Design provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p04",
+      "interests": [
+        "Radiohead",
+        "Blue Bottle Coffee",
+        "Taylor Swift"
+      ],
+      "brands": [
+        "Aesop",
+        "Uniqlo",
+        "Converse"
+      ],
+      "tv": [
+        "Only Murders in the Building",
+        "The Bear",
+        "Fleabag"
+      ],
+      "summary": "For this combination, Aesop, Uniqlo, Converse are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, Only Murders in the Building, The Bear, Fleabag provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p05",
+      "interests": [
+        "Taylor Swift",
+        "Starbucks",
+        "Friends"
+      ],
+      "brands": [
+        "Target",
+        "Nike",
+        "Starbucks"
+      ],
+      "tv": [
+        "New Girl",
+        "How I Met Your Mother",
+        "The Good Place"
+      ],
+      "summary": "For this combination, Target, Nike, Starbucks are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, New Girl, How I Met Your Mother, The Good Place provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p06",
+      "interests": [
+        "Taylor Swift",
+        "Starbucks",
+        "The Joe Rogan Experience"
+      ],
+      "brands": [
+        "Nike",
+        "Monster Energy",
+        "Garmin"
+      ],
+      "tv": [
+        "The Last Dance",
+        "Ted Lasso",
+        "Formula 1: Drive to Survive"
+      ],
+      "summary": "For this combination, Nike, Monster Energy, Garmin are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, The Last Dance, Ted Lasso, Formula 1: Drive to Survive provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p07",
+      "interests": [
+        "Metallica",
+        "Nike",
+        "Elden Ring"
+      ],
+      "brands": [
+        "Razer",
+        "Vans",
+        "Monster Energy"
+      ],
+      "tv": [
+        "The Witcher",
+        "Arcane",
+        "The Last of Us"
+      ],
+      "summary": "For this combination, Razer, Vans, Monster Energy are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, The Witcher, Arcane, The Last of Us provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p08",
+      "interests": [
+        "Metallica",
+        "Nike",
+        "Animal Crossing: New Horizons"
+      ],
+      "brands": [
+        "Nintendo",
+        "Uniqlo",
+        "Vans"
+      ],
+      "tv": [
+        "Adventure Time",
+        "The Good Place",
+        "Avatar: The Last Airbender"
+      ],
+      "summary": "For this combination, Nintendo, Uniqlo, Vans are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, Adventure Time, The Good Place, Avatar: The Last Airbender provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p09",
+      "interests": [
+        "Patagonia",
+        "Lululemon",
+        "Blue Bottle Coffee"
+      ],
+      "brands": [
+        "REI",
+        "Allbirds",
+        "Garmin"
+      ],
+      "tv": [
+        "Our Planet",
+        "Abstract: The Art of Design",
+        "Chef’s Table"
+      ],
+      "summary": "For this combination, REI, Allbirds, Garmin are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, Our Planet, Abstract: The Art of Design, Chef’s Table provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p10",
+      "interests": [
+        "Patagonia",
+        "Lululemon",
+        "Monster Energy"
+      ],
+      "brands": [
+        "The North Face",
+        "GoPro",
+        "Vans"
+      ],
+      "tv": [
+        "Formula 1: Drive to Survive",
+        "The Last Dance",
+        "Top Gear"
+      ],
+      "summary": "For this combination, The North Face, GoPro, Vans are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, Formula 1: Drive to Survive, The Last Dance, Top Gear provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p11",
+      "interests": [
+        "Dune",
+        "Björk",
+        "Severance"
+      ],
+      "brands": [
+        "MUJI",
+        "Aesop",
+        "Camper"
+      ],
+      "tv": [
+        "Dark",
+        "Twin Peaks",
+        "Black Mirror"
+      ],
+      "summary": "For this combination, MUJI, Aesop, Camper are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, Dark, Twin Peaks, Black Mirror provide three possible directions to compare against your actual preferences."
+    },
+    {
+      "id": "p12",
+      "interests": [
+        "Dune",
+        "Björk",
+        "Friends"
+      ],
+      "brands": [
+        "MUJI",
+        "Uniqlo",
+        "Converse"
+      ],
+      "tv": [
+        "The Good Place",
+        "Pushing Daisies",
+        "Fleabag"
+      ],
+      "summary": "For this combination, MUJI, Uniqlo, Converse are three brand suggestions worth exploring, offered as tentative cultural connections rather than personal traits. For television, The Good Place, Pushing Daisies, Fleabag provide three possible directions to compare against your actual preferences."
+    }
+  ]
+}

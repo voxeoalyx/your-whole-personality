@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:00:33.843013+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.985,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Frank Lloyd Wright",
+    "take": "5"
+  },
+  "raw_file": "wright.a1.json",
+  "request_sha256": "70c6b119f8d6ff7cf628a7a89828dc2282c9a82e21bbd537ffe4981e50ff36fe",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:00:35 GMT"
+  },
+  "response_sha256": "f6cd24911d6dcdb8bf06a74fbe77d4208055dfc57adfd7e7398c1f1b4b54be16",
+  "spec": {
+    "endpoint": "/search",
+    "id": "wright",
+    "kind": "discovery",
+    "params": {
+      "query": "Frank Lloyd Wright",
+      "take": 5
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Frank+Lloyd+Wright&take=5"
+}

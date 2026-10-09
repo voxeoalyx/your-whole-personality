@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:45.821946+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.297,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Taylor Swift",
+    "take": "5",
+    "types": "urn:entity:artist"
+  },
+  "raw_file": "taylor.a1.json",
+  "request_sha256": "ee1484341bb8acad349b903bdba25368652babfcd39aef05bc6f3d215516a3a7",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:46 GMT"
+  },
+  "response_sha256": "8968f6cc06353d863b86157a8b95c3175b09e659477fdc3c9e6a61f218fbceed",
+  "spec": {
+    "endpoint": "/search",
+    "id": "taylor",
+    "kind": "discovery",
+    "params": {
+      "query": "Taylor Swift",
+      "take": 5,
+      "types": "urn:entity:artist"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Taylor+Swift&take=5&types=urn%3Aentity%3Aartist"
+}

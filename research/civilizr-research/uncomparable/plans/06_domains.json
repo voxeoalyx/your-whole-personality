@@ -1,0 +1,257 @@
+{
+  "title": "Separate architectural proxies and cross-domain house probes",
+  "requests": [
+    {
+      "id": "fallingwater_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "fallingwater",
+      "domain": "brand"
+    },
+    {
+      "id": "eames_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "brand"
+    },
+    {
+      "id": "mies_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "C53606CC-036D-4F77-911B-7F49A1322D9A",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "mies",
+      "domain": "brand"
+    },
+    {
+      "id": "charles_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "415D7837-8FDA-417A-BB8D-92C85CC258A8",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "charles",
+      "domain": "brand"
+    },
+    {
+      "id": "international_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.tags": "urn:tag:decor:qloo:international_style",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "international",
+      "domain": "brand"
+    },
+    {
+      "id": "midcentury_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.tags": "urn:tag:decor:qloo:mid_century_modern",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "midcentury",
+      "domain": "brand"
+    },
+    {
+      "id": "craftsman_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.tags": "urn:tag:decor:qloo:craftsman",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "craftsman",
+      "domain": "brand"
+    },
+    {
+      "id": "sustainable_brands",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.tags": "urn:tag:decor:qloo:sustainable_architecture",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "sustainable",
+      "domain": "brand"
+    },
+    {
+      "id": "farnsworth_book",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:book",
+        "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "farnsworth",
+      "domain": "book"
+    },
+    {
+      "id": "farnsworth_place",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "farnsworth",
+      "domain": "place"
+    },
+    {
+      "id": "farnsworth_destination",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:destination",
+        "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "farnsworth",
+      "domain": "destination"
+    },
+    {
+      "id": "gamble_book",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:book",
+        "signal.interests.entities": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "gamble",
+      "domain": "book"
+    },
+    {
+      "id": "gamble_place",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.interests.entities": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "gamble",
+      "domain": "place"
+    },
+    {
+      "id": "gamble_destination",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:destination",
+        "signal.interests.entities": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "gamble",
+      "domain": "destination"
+    },
+    {
+      "id": "eames_book",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:book",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "book"
+    },
+    {
+      "id": "eames_place",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "place"
+    },
+    {
+      "id": "eames_destination",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:destination",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "destination"
+    },
+    {
+      "id": "fallingwater_book",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:book",
+        "signal.interests.entities": "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "fallingwater",
+      "domain": "book"
+    }
+  ]
+}

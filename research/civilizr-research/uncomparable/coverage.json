@@ -1,0 +1,58 @@
+[
+  {
+    "property": "jacobs",
+    "lookup": "yes",
+    "affinity": "no",
+    "proxy": "Usonian tag flat; Wright author shared with Fallingwater",
+    "request": "05_houses/jacobs_brands",
+    "notes": "Search identity accepted at rank 9; HTTP 400 invalid interest."
+  },
+  {
+    "property": "fallingwater",
+    "lookup": "yes",
+    "affinity": "no",
+    "proxy": "Wright author cannot represent its distinctive site",
+    "request": "06_domains/fallingwater_brands",
+    "notes": "Correct place found only after expanding search to take=100; also rejected in books."
+  },
+  {
+    "property": "farnsworth",
+    "lookup": "yes",
+    "affinity": "yes",
+    "proxy": "Mies person rejected; International Style tag flat",
+    "request": "08_fixed/farnsworth_fixed",
+    "notes": "Direct house profile works; no claim of resident/homebuyer sampling."
+  },
+  {
+    "property": "eames",
+    "lookup": "institution at house address",
+    "affinity": "yes, institution proxy",
+    "proxy": "Charles person rejected; Ray author works but produces different brands",
+    "request": "08_fixed/eames_fixed",
+    "notes": "Official foundation contact verifies 203 Chautauqua address; distinguish the institution from residential desirability."
+  },
+  {
+    "property": "gamble",
+    "lookup": "yes",
+    "affinity": "yes",
+    "proxy": "Craftsman tag flat; Greene architect found with full name, not affinity-tested",
+    "request": "08_fixed/gamble_fixed",
+    "notes": "Charles Greene homonyms rejected; Stickley brand search returned no results."
+  },
+  {
+    "property": "douglass",
+    "lookup": "yes",
+    "affinity": "yes",
+    "proxy": "Author resolved, affinity not tested",
+    "request": "08_fixed/douglass_fixed",
+    "notes": "Historic site signal cannot isolate house architecture from Douglass or tourism."
+  },
+  {
+    "property": "mckinley",
+    "lookup": "not found in finite search",
+    "affinity": "not tested directly",
+    "proxy": "Sustainable Architecture tag flat",
+    "request": "06_domains/sustainable_brands",
+    "notes": "No faithful property ID; broad decor proxy does not represent an ordinary suburban home."
+  }
+]

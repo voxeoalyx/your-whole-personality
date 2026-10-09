@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+# Research provenance hashes depend on original bytes, including line endings.
+research/** -text

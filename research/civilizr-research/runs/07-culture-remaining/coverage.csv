@@ -1,0 +1,21 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+college_park_food_dining,College Park,food_dining,profile,college_park_food_dining.a1.json,ok,200,20,20,20,{}
+college_park_coffee_cafes,College Park,coffee_cafes,profile,college_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+college_park_fitness,College Park,fitness,profile,college_park_fitness.a1.json,ok,200,12,12,12,{}
+college_park_museums,College Park,museums,profile,college_park_museums.a1.json,ok,200,9,9,9,{}
+college_park_nightlife_bars,College Park,nightlife_bars,profile,college_park_nightlife_bars.a1.json,ok,200,20,20,20,{}
+audubon_park_food_dining,Audubon Park,food_dining,profile,audubon_park_food_dining.a1.json,ok,200,20,20,20,{}
+audubon_park_coffee_cafes,Audubon Park,coffee_cafes,profile,audubon_park_coffee_cafes.a1.json,ok,200,4,4,4,{}
+audubon_park_fitness,Audubon Park,fitness,profile,audubon_park_fitness.a1.json,ok,200,0,0,0,{}
+audubon_park_museums,Audubon Park,museums,profile,audubon_park_museums.a1.json,ok,200,6,6,6,{}
+audubon_park_nightlife_bars,Audubon Park,nightlife_bars,profile,audubon_park_nightlife_bars.a1.json,ok,200,8,8,8,{}
+baldwin_park_food_dining,Baldwin Park,food_dining,profile,baldwin_park_food_dining.a1.json,ok,200,20,20,20,{}
+baldwin_park_coffee_cafes,Baldwin Park,coffee_cafes,profile,baldwin_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+baldwin_park_fitness,Baldwin Park,fitness,profile,baldwin_park_fitness.a1.json,ok,200,12,12,12,{}
+baldwin_park_museums,Baldwin Park,museums,profile,baldwin_park_museums.a1.json,ok,200,9,9,9,{}
+baldwin_park_nightlife_bars,Baldwin Park,nightlife_bars,profile,baldwin_park_nightlife_bars.a1.json,ok,200,20,20,20,{}
+azalea_park_food_dining,Azalea Park,food_dining,profile,azalea_park_food_dining.a1.json,ok,200,20,20,20,{}
+azalea_park_coffee_cafes,Azalea Park,coffee_cafes,profile,azalea_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+azalea_park_fitness,Azalea Park,fitness,profile,azalea_park_fitness.a1.json,ok,200,8,8,8,{}
+azalea_park_museums,Azalea Park,museums,profile,azalea_park_museums.a1.json,ok,200,9,9,9,{}
+azalea_park_nightlife_bars,Azalea Park,nightlife_bars,profile,azalea_park_nightlife_bars.a1.json,ok,200,20,20,20,{}

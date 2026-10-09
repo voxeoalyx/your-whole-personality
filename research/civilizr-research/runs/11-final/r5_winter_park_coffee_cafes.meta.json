@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-07T18:44:23.598545+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.407,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+    "filter.type": "urn:entity:place",
+    "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+    "take": "20"
+  },
+  "raw_file": "..\\05-culture-pilot\\winter_park_coffee_cafes.a1.json",
+  "request_sha256": "e84bafb30b408bbca0349027e927d715db1e0f26eb77d9e4c23d4d529e4b959f",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:44:25 GMT"
+  },
+  "response_sha256": "68bca955b8fd9d47859a8ffeaf5c7791b4515bf24cc6414eae9e69fc363027e0",
+  "spec": {
+    "id": "r5_winter_park_coffee_cafes",
+    "area": "Winter Park",
+    "role": "target",
+    "dimension": "coffee_cafes",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:place",
+      "filter.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+      "bias.trends": "off",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.tags=urn%3Atag%3Agenre%3Aplace%3Arestaurant%3Acoffee_shop&filter.type=urn%3Aentity%3Aplace&signal.location=2DA566F2-033C-4B97-BC8C-3322221C68DE&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\05-culture-pilot\\winter_park_coffee_cafes.meta.json"
+}

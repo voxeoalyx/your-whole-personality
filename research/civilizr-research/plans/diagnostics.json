@@ -1,0 +1,165 @@
+{
+  "title": "Mills 50 coverage, explainability, global trends and geographic heatmap capabilities",
+  "requests": [
+    {
+      "id": "mills_50_compact_alias",
+      "kind": "lookup",
+      "area": "Mills 50",
+      "endpoint": "/search",
+      "params": {
+        "query": "Mills50",
+        "types": "urn:entity:locality",
+        "filter.location": "28.5421109,-81.3790304",
+        "filter.radius": 30,
+        "take": 5
+      }
+    },
+    {
+      "id": "mills_50_place_anchor",
+      "kind": "lookup",
+      "area": "Mills 50",
+      "endpoint": "/search",
+      "params": {
+        "query": "Mills 50",
+        "types": "urn:entity:place",
+        "filter.location": "28.5421109,-81.3790304",
+        "filter.radius": 30,
+        "take": 5
+      }
+    },
+    {
+      "id": "winter_park_explanation_location_only",
+      "kind": "explainability",
+      "area": "Winter Park",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+        "bias.trends": "off",
+        "feature.explainability": true,
+        "take": 20
+      }
+    },
+    {
+      "id": "winter_park_explanation_entity_seeded",
+      "kind": "explainability_seeded",
+      "area": "Winter Park",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+        "signal.interests.entities": "BE74FBA3-EEC5-4D55-BA71-750C8322A827,50A73864-984A-446F-8401-9F501EA0457B",
+        "bias.trends": "off",
+        "feature.explainability": true,
+        "take": 5
+      }
+    },
+    {
+      "id": "brand_trending",
+      "kind": "global_trend",
+      "endpoint": "/trends/category",
+      "params": {
+        "type": "urn:entity:brand",
+        "take": 10,
+        "page": 1
+      }
+    },
+    {
+      "id": "rifle_paper_trend",
+      "kind": "global_trend",
+      "endpoint": "/trends/entity",
+      "params": {
+        "entity_id": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+        "start_date": "2026-09-09",
+        "end_date": "2026-10-07",
+        "take": 20,
+        "page": 1
+      }
+    },
+    {
+      "id": "rifle_paper_trend_v2",
+      "kind": "global_trend",
+      "endpoint": "/v2/trending",
+      "params": {
+        "signal.interests.entities": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+        "filter.type": "urn:entity:brand",
+        "filter.start_date": "2026-09-09",
+        "filter.end_date": "2026-10-07",
+        "take": 20
+      }
+    },
+    {
+      "id": "food_dining_heatmap",
+      "kind": "heatmap",
+      "dimension": "food_dining",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:heatmap",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.interests.tags": "urn:tag:genre:place:restaurant"
+      }
+    },
+    {
+      "id": "coffee_cafes_heatmap",
+      "kind": "heatmap",
+      "dimension": "coffee_cafes",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:heatmap",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop"
+      }
+    },
+    {
+      "id": "fitness_heatmap",
+      "kind": "heatmap",
+      "dimension": "fitness",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:heatmap",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.interests.tags": "urn:tag:genre:place:fitness_center"
+      }
+    },
+    {
+      "id": "museums_heatmap",
+      "kind": "heatmap",
+      "dimension": "museums",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:heatmap",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.interests.tags": "urn:tag:genre:place:museum"
+      }
+    },
+    {
+      "id": "nightlife_bars_heatmap",
+      "kind": "heatmap",
+      "dimension": "nightlife_bars",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:heatmap",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.interests.tags": "urn:tag:genre:place:restaurant:bar"
+      }
+    },
+    {
+      "id": "coffee_neighborhood_heatmap",
+      "kind": "heatmap_boundary_probe",
+      "dimension": "coffee_cafes",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:heatmap",
+        "filter.location": "POINT(-81.3790304 28.5421109)",
+        "filter.location.radius": 20000,
+        "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+        "output.heatmap.boundary": "neighborhood"
+      }
+    }
+  ]
+}

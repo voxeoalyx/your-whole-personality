@@ -1,0 +1,183 @@
+{
+  "at": "2026-10-08T11:09:14.141992+00:00",
+  "continue_matrix": true,
+  "rule": "At least one domain has complete nonflat original mixture distinguishable from every singleton by D > 0.02",
+  "comparisons": [
+    {
+      "a": "p01",
+      "b": "p02",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.8306982872200264,
+      "distance": 0.08465085638998682,
+      "top5_jaccard": 0.25
+    },
+    {
+      "a": "p01",
+      "b": "p02",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": -0.7228070175438597,
+      "distance": 0.8614035087719298,
+      "top5_jaccard": 0.0
+    },
+    {
+      "a": "p01",
+      "b": "demo_person",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.8164690382081686,
+      "distance": 0.09176548089591569,
+      "top5_jaccard": 0.42857142857142855
+    },
+    {
+      "a": "p01",
+      "b": "demo_person",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": -0.6403508771929824,
+      "distance": 0.8201754385964912,
+      "top5_jaccard": 0.0
+    },
+    {
+      "a": "p01",
+      "b": "single_radiohead",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.9002635046113306,
+      "distance": 0.04986824769433468,
+      "top5_jaccard": 0.42857142857142855
+    },
+    {
+      "a": "p01",
+      "b": "single_radiohead",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": 0.9192982456140351,
+      "distance": 0.04035087719298247,
+      "top5_jaccard": 1.0
+    },
+    {
+      "a": "p01",
+      "b": "single_blue_bottle",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.6741765480895916,
+      "distance": 0.1629117259552042,
+      "top5_jaccard": 0.25
+    },
+    {
+      "a": "p01",
+      "b": "single_blue_bottle",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": -0.643859649122807,
+      "distance": 0.8219298245614035,
+      "top5_jaccard": 0.0
+    },
+    {
+      "a": "p01",
+      "b": "single_severance",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.6216073781291173,
+      "distance": 0.18919631093544137,
+      "top5_jaccard": 0.1111111111111111
+    },
+    {
+      "a": "p01",
+      "b": "single_severance",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": 0.8368421052631579,
+      "distance": 0.08157894736842103,
+      "top5_jaccard": 0.25
+    },
+    {
+      "a": "p02",
+      "b": "single_radiohead",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.8839262187088274,
+      "distance": 0.058036890645586314,
+      "top5_jaccard": 0.25
+    },
+    {
+      "a": "p02",
+      "b": "single_radiohead",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": -0.643859649122807,
+      "distance": 0.8219298245614035,
+      "top5_jaccard": 0.0
+    },
+    {
+      "a": "p02",
+      "b": "single_blue_bottle",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.5870882740447958,
+      "distance": 0.2064558629776021,
+      "top5_jaccard": 0.25
+    },
+    {
+      "a": "p02",
+      "b": "single_blue_bottle",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": 0.6368421052631579,
+      "distance": 0.18157894736842106,
+      "top5_jaccard": 0.42857142857142855
+    },
+    {
+      "a": "p02",
+      "b": "single_rogan",
+      "domain": "brand",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 0.6986824769433465,
+      "distance": 0.15065876152832675,
+      "top5_jaccard": 0.42857142857142855
+    },
+    {
+      "a": "p02",
+      "b": "single_rogan",
+      "domain": "tv_show",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": 0.8035087719298246,
+      "distance": 0.09824561403508769,
+      "top5_jaccard": 0.42857142857142855
+    }
+  ]
+}

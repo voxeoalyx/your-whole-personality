@@ -1,0 +1,223 @@
+﻿stage,area,variant,domain,subset,expected,scored,complete,distinct_scores,informative,missing,raw_file
+02-pilot,winter_park,base,brands,False,47,47,True,47,True,,experiment2\runs\02-pilot\winter_park_base_brands.a1.json
+02-pilot,winter_park,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\02-pilot\winter_park_base_brands.a1.json
+02-pilot,winter_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\02-pilot\winter_park_base_brands.a1.json
+02-pilot,winter_park,base,food,False,12,12,True,12,True,,experiment2\runs\02-pilot\winter_park_base_tags.a1.json
+02-pilot,winter_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\02-pilot\winter_park_base_tags.a1.json
+02-pilot,winter_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\02-pilot\winter_park_base_tags.a1.json
+02-pilot,pine_hills,base,brands,False,47,40,False,40,True,Her Universe;Samsung;National Audubon Society;Instagram;Boxlunch;X (Formerly Twitter);Tasty,experiment2\runs\02-pilot\pine_hills_base_brands.a1.json
+02-pilot,pine_hills,base,brands_independent,False,25,21,False,21,True,Samsung;Instagram;X (Formerly Twitter);Tasty,experiment2\runs\02-pilot\pine_hills_base_brands.a1.json
+02-pilot,pine_hills,base,brands_pooled,False,24,21,False,21,True,Her Universe;National Audubon Society;Boxlunch,experiment2\runs\02-pilot\pine_hills_base_brands.a1.json
+02-pilot,pine_hills,base,food,False,12,12,True,12,True,,experiment2\runs\02-pilot\pine_hills_base_tags.a1.json
+02-pilot,pine_hills,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\02-pilot\pine_hills_base_tags.a1.json
+02-pilot,pine_hills,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\02-pilot\pine_hills_base_tags.a1.json
+03-main,college_park,base,brands,False,47,46,False,46,True,Samsung,experiment2\runs\03-main\college_park_base_brands.a1.json
+03-main,college_park,base,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\03-main\college_park_base_brands.a1.json
+03-main,college_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\03-main\college_park_base_brands.a1.json
+03-main,college_park,base,food,False,12,12,True,12,True,,experiment2\runs\03-main\college_park_base_tags.a1.json
+03-main,college_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\03-main\college_park_base_tags.a1.json
+03-main,college_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\03-main\college_park_base_tags.a1.json
+03-main,audubon_park,base,brands,False,47,47,True,47,True,,experiment2\runs\03-main\audubon_park_base_brands.a1.json
+03-main,audubon_park,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\03-main\audubon_park_base_brands.a1.json
+03-main,audubon_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\03-main\audubon_park_base_brands.a1.json
+03-main,audubon_park,base,food,False,12,12,True,12,True,,experiment2\runs\03-main\audubon_park_base_tags.a1.json
+03-main,audubon_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\03-main\audubon_park_base_tags.a1.json
+03-main,audubon_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\03-main\audubon_park_base_tags.a1.json
+03-main,baldwin_park,base,brands,False,47,47,True,47,True,,experiment2\runs\03-main\baldwin_park_base_brands.a1.json
+03-main,baldwin_park,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\03-main\baldwin_park_base_brands.a1.json
+03-main,baldwin_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\03-main\baldwin_park_base_brands.a1.json
+03-main,baldwin_park,base,food,False,12,12,True,12,True,,experiment2\runs\03-main\baldwin_park_base_tags.a1.json
+03-main,baldwin_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\03-main\baldwin_park_base_tags.a1.json
+03-main,baldwin_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\03-main\baldwin_park_base_tags.a1.json
+03-main,azalea_park,base,brands,False,47,45,False,45,True,Samsung;Tasty,experiment2\runs\03-main\azalea_park_base_brands.a1.json
+03-main,azalea_park,base,brands_independent,False,25,23,False,23,True,Samsung;Tasty,experiment2\runs\03-main\azalea_park_base_brands.a1.json
+03-main,azalea_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\03-main\azalea_park_base_brands.a1.json
+03-main,azalea_park,base,food,False,12,12,True,12,True,,experiment2\runs\03-main\azalea_park_base_tags.a1.json
+03-main,azalea_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\03-main\azalea_park_base_tags.a1.json
+03-main,azalea_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\03-main\azalea_park_base_tags.a1.json
+03-main,mills_50,base,brands,False,47,46,False,46,True,Samsung,experiment2\runs\03-main\mills_50_base_brands.a1.json
+03-main,mills_50,base,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\03-main\mills_50_base_brands.a1.json
+03-main,mills_50,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\03-main\mills_50_base_brands.a1.json
+03-main,mills_50,base,food,False,12,12,True,12,True,,experiment2\runs\03-main\mills_50_base_tags.a1.json
+03-main,mills_50,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\03-main\mills_50_base_tags.a1.json
+03-main,mills_50,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\03-main\mills_50_base_tags.a1.json
+03-main,thornton_park,base,brands,False,47,47,True,47,True,,experiment2\runs\03-main\thornton_park_base_brands.a1.json
+03-main,thornton_park,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\03-main\thornton_park_base_brands.a1.json
+03-main,thornton_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\03-main\thornton_park_base_brands.a1.json
+03-main,thornton_park,base,food,False,12,12,True,12,True,,experiment2\runs\03-main\thornton_park_base_tags.a1.json
+03-main,thornton_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\03-main\thornton_park_base_tags.a1.json
+03-main,thornton_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\03-main\thornton_park_base_tags.a1.json
+03-main,city_district,base,brands,False,47,47,True,47,True,,experiment2\runs\03-main\city_district_base_brands.a1.json
+03-main,city_district,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\03-main\city_district_base_brands.a1.json
+03-main,city_district,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\03-main\city_district_base_brands.a1.json
+03-main,city_district,base,food,False,12,12,True,12,True,,experiment2\runs\03-main\city_district_base_tags.a1.json
+03-main,city_district,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\03-main\city_district_base_tags.a1.json
+03-main,city_district,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\03-main\city_district_base_tags.a1.json
+04-sensitivity,winter_park,r800,brands,False,47,47,True,47,True,,experiment2\runs\04-sensitivity\winter_park_r800_brands.a1.json
+04-sensitivity,winter_park,r800,brands_independent,False,25,25,True,25,True,,experiment2\runs\04-sensitivity\winter_park_r800_brands.a1.json
+04-sensitivity,winter_park,r800,brands_pooled,False,24,24,True,24,True,,experiment2\runs\04-sensitivity\winter_park_r800_brands.a1.json
+04-sensitivity,winter_park,r800,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\winter_park_r800_tags.a1.json
+04-sensitivity,winter_park,r800,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\winter_park_r800_tags.a1.json
+04-sensitivity,winter_park,r800,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\winter_park_r800_tags.a1.json
+04-sensitivity,winter_park,r1200,brands,False,47,47,True,47,True,,experiment2\runs\04-sensitivity\winter_park_r1200_brands.a1.json
+04-sensitivity,winter_park,r1200,brands_independent,False,25,25,True,25,True,,experiment2\runs\04-sensitivity\winter_park_r1200_brands.a1.json
+04-sensitivity,winter_park,r1200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\04-sensitivity\winter_park_r1200_brands.a1.json
+04-sensitivity,winter_park,r1200,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\winter_park_r1200_tags.a1.json
+04-sensitivity,winter_park,r1200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\winter_park_r1200_tags.a1.json
+04-sensitivity,winter_park,r1200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\winter_park_r1200_tags.a1.json
+04-sensitivity,winter_park,east200,brands,False,47,47,True,47,True,,experiment2\runs\04-sensitivity\winter_park_east200_brands.a1.json
+04-sensitivity,winter_park,east200,brands_independent,False,25,25,True,25,True,,experiment2\runs\04-sensitivity\winter_park_east200_brands.a1.json
+04-sensitivity,winter_park,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\04-sensitivity\winter_park_east200_brands.a1.json
+04-sensitivity,winter_park,east200,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\winter_park_east200_tags.a1.json
+04-sensitivity,winter_park,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\winter_park_east200_tags.a1.json
+04-sensitivity,winter_park,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\winter_park_east200_tags.a1.json
+04-sensitivity,pine_hills,r800,brands,False,47,40,False,40,True,Her Universe;Samsung;National Audubon Society;Instagram;Boxlunch;X (Formerly Twitter);Tasty,experiment2\runs\04-sensitivity\pine_hills_r800_brands.a1.json
+04-sensitivity,pine_hills,r800,brands_independent,False,25,21,False,21,True,Samsung;Instagram;X (Formerly Twitter);Tasty,experiment2\runs\04-sensitivity\pine_hills_r800_brands.a1.json
+04-sensitivity,pine_hills,r800,brands_pooled,False,24,21,False,21,True,Her Universe;National Audubon Society;Boxlunch,experiment2\runs\04-sensitivity\pine_hills_r800_brands.a1.json
+04-sensitivity,pine_hills,r800,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\pine_hills_r800_tags.a1.json
+04-sensitivity,pine_hills,r800,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\pine_hills_r800_tags.a1.json
+04-sensitivity,pine_hills,r800,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\pine_hills_r800_tags.a1.json
+04-sensitivity,pine_hills,r1200,brands,False,47,40,False,40,True,Her Universe;Samsung;National Audubon Society;Instagram;Boxlunch;X (Formerly Twitter);Tasty,experiment2\runs\04-sensitivity\pine_hills_r1200_brands.a1.json
+04-sensitivity,pine_hills,r1200,brands_independent,False,25,21,False,21,True,Samsung;Instagram;X (Formerly Twitter);Tasty,experiment2\runs\04-sensitivity\pine_hills_r1200_brands.a1.json
+04-sensitivity,pine_hills,r1200,brands_pooled,False,24,21,False,21,True,Her Universe;National Audubon Society;Boxlunch,experiment2\runs\04-sensitivity\pine_hills_r1200_brands.a1.json
+04-sensitivity,pine_hills,r1200,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\pine_hills_r1200_tags.a1.json
+04-sensitivity,pine_hills,r1200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\pine_hills_r1200_tags.a1.json
+04-sensitivity,pine_hills,r1200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\pine_hills_r1200_tags.a1.json
+04-sensitivity,pine_hills,east200,brands,False,47,40,False,40,True,Her Universe;Samsung;National Audubon Society;Instagram;Boxlunch;X (Formerly Twitter);Tasty,experiment2\runs\04-sensitivity\pine_hills_east200_brands.a1.json
+04-sensitivity,pine_hills,east200,brands_independent,False,25,21,False,21,True,Samsung;Instagram;X (Formerly Twitter);Tasty,experiment2\runs\04-sensitivity\pine_hills_east200_brands.a1.json
+04-sensitivity,pine_hills,east200,brands_pooled,False,24,21,False,21,True,Her Universe;National Audubon Society;Boxlunch,experiment2\runs\04-sensitivity\pine_hills_east200_brands.a1.json
+04-sensitivity,pine_hills,east200,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\pine_hills_east200_tags.a1.json
+04-sensitivity,pine_hills,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\pine_hills_east200_tags.a1.json
+04-sensitivity,pine_hills,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\pine_hills_east200_tags.a1.json
+04-sensitivity,mills_50,r800,brands,False,47,46,False,46,True,Samsung,experiment2\runs\04-sensitivity\mills_50_r800_brands.a1.json
+04-sensitivity,mills_50,r800,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\04-sensitivity\mills_50_r800_brands.a1.json
+04-sensitivity,mills_50,r800,brands_pooled,False,24,24,True,24,True,,experiment2\runs\04-sensitivity\mills_50_r800_brands.a1.json
+04-sensitivity,mills_50,r800,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\mills_50_r800_tags.a1.json
+04-sensitivity,mills_50,r800,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\mills_50_r800_tags.a1.json
+04-sensitivity,mills_50,r800,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\mills_50_r800_tags.a1.json
+04-sensitivity,mills_50,r1200,brands,False,47,46,False,46,True,Samsung,experiment2\runs\04-sensitivity\mills_50_r1200_brands.a1.json
+04-sensitivity,mills_50,r1200,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\04-sensitivity\mills_50_r1200_brands.a1.json
+04-sensitivity,mills_50,r1200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\04-sensitivity\mills_50_r1200_brands.a1.json
+04-sensitivity,mills_50,r1200,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\mills_50_r1200_tags.a1.json
+04-sensitivity,mills_50,r1200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\mills_50_r1200_tags.a1.json
+04-sensitivity,mills_50,r1200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\mills_50_r1200_tags.a1.json
+04-sensitivity,mills_50,east200,brands,False,47,46,False,46,True,Samsung,experiment2\runs\04-sensitivity\mills_50_east200_brands.a1.json
+04-sensitivity,mills_50,east200,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\04-sensitivity\mills_50_east200_brands.a1.json
+04-sensitivity,mills_50,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\04-sensitivity\mills_50_east200_brands.a1.json
+04-sensitivity,mills_50,east200,food,False,12,12,True,12,True,,experiment2\runs\04-sensitivity\mills_50_east200_tags.a1.json
+04-sensitivity,mills_50,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\04-sensitivity\mills_50_east200_tags.a1.json
+04-sensitivity,mills_50,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\04-sensitivity\mills_50_east200_tags.a1.json
+05-cross-city,atl_west_end,base,brands,False,47,46,False,46,True,Samsung,experiment2\runs\05-cross-city\atl_west_end_base_brands.a1.json
+05-cross-city,atl_west_end,base,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\05-cross-city\atl_west_end_base_brands.a1.json
+05-cross-city,atl_west_end,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\05-cross-city\atl_west_end_base_brands.a1.json
+05-cross-city,atl_west_end,base,food,False,12,12,True,12,True,,experiment2\runs\05-cross-city\atl_west_end_base_tags.a1.json
+05-cross-city,atl_west_end,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\05-cross-city\atl_west_end_base_tags.a1.json
+05-cross-city,atl_west_end,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\05-cross-city\atl_west_end_base_tags.a1.json
+05-cross-city,atl_west_end,east200,brands,False,47,46,False,46,True,Samsung,experiment2\runs\05-cross-city\atl_west_end_east200_brands.a1.json
+05-cross-city,atl_west_end,east200,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\05-cross-city\atl_west_end_east200_brands.a1.json
+05-cross-city,atl_west_end,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\05-cross-city\atl_west_end_east200_brands.a1.json
+05-cross-city,atl_west_end,east200,food,False,12,12,True,12,True,,experiment2\runs\05-cross-city\atl_west_end_east200_tags.a1.json
+05-cross-city,atl_west_end,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\05-cross-city\atl_west_end_east200_tags.a1.json
+05-cross-city,atl_west_end,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\05-cross-city\atl_west_end_east200_tags.a1.json
+05-cross-city,atl_midtown,base,brands,False,47,47,True,47,True,,experiment2\runs\05-cross-city\atl_midtown_base_brands.a1.json
+05-cross-city,atl_midtown,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\05-cross-city\atl_midtown_base_brands.a1.json
+05-cross-city,atl_midtown,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\05-cross-city\atl_midtown_base_brands.a1.json
+05-cross-city,atl_midtown,base,food,False,12,12,True,12,True,,experiment2\runs\05-cross-city\atl_midtown_base_tags.a1.json
+05-cross-city,atl_midtown,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\05-cross-city\atl_midtown_base_tags.a1.json
+05-cross-city,atl_midtown,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\05-cross-city\atl_midtown_base_tags.a1.json
+05-cross-city,atl_midtown,east200,brands,False,47,47,True,47,True,,experiment2\runs\05-cross-city\atl_midtown_east200_brands.a1.json
+05-cross-city,atl_midtown,east200,brands_independent,False,25,25,True,25,True,,experiment2\runs\05-cross-city\atl_midtown_east200_brands.a1.json
+05-cross-city,atl_midtown,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\05-cross-city\atl_midtown_east200_brands.a1.json
+05-cross-city,atl_midtown,east200,food,False,12,12,True,12,True,,experiment2\runs\05-cross-city\atl_midtown_east200_tags.a1.json
+05-cross-city,atl_midtown,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\05-cross-city\atl_midtown_east200_tags.a1.json
+05-cross-city,atl_midtown,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\05-cross-city\atl_midtown_east200_tags.a1.json
+05-cross-city,atl_inman_park,base,brands,False,47,47,True,47,True,,experiment2\runs\05-cross-city\atl_inman_park_base_brands.a1.json
+05-cross-city,atl_inman_park,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\05-cross-city\atl_inman_park_base_brands.a1.json
+05-cross-city,atl_inman_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\05-cross-city\atl_inman_park_base_brands.a1.json
+05-cross-city,atl_inman_park,base,food,False,12,12,True,12,True,,experiment2\runs\05-cross-city\atl_inman_park_base_tags.a1.json
+05-cross-city,atl_inman_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\05-cross-city\atl_inman_park_base_tags.a1.json
+05-cross-city,atl_inman_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\05-cross-city\atl_inman_park_base_tags.a1.json
+05-cross-city,atl_inman_park,east200,brands,False,47,47,True,47,True,,experiment2\runs\05-cross-city\atl_inman_park_east200_brands.a1.json
+05-cross-city,atl_inman_park,east200,brands_independent,False,25,25,True,25,True,,experiment2\runs\05-cross-city\atl_inman_park_east200_brands.a1.json
+05-cross-city,atl_inman_park,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\05-cross-city\atl_inman_park_east200_brands.a1.json
+05-cross-city,atl_inman_park,east200,food,False,12,12,True,12,True,,experiment2\runs\05-cross-city\atl_inman_park_east200_tags.a1.json
+05-cross-city,atl_inman_park,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\05-cross-city\atl_inman_park_east200_tags.a1.json
+05-cross-city,atl_inman_park,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\05-cross-city\atl_inman_park_east200_tags.a1.json
+06-subsets,winter_park,base,brands,True,24,24,True,24,True,,experiment2\runs\06-subsets\winter_park_base_brands_subset.a1.json
+06-subsets,winter_park,base,brands_independent,True,13,13,True,13,True,,experiment2\runs\06-subsets\winter_park_base_brands_subset.a1.json
+06-subsets,winter_park,base,brands_pooled,True,12,12,True,12,True,,experiment2\runs\06-subsets\winter_park_base_brands_subset.a1.json
+06-subsets,winter_park,base,food,True,6,6,True,6,True,,experiment2\runs\06-subsets\winter_park_base_tags_subset.a1.json
+06-subsets,winter_park,base,arts,True,4,4,True,4,False,,experiment2\runs\06-subsets\winter_park_base_tags_subset.a1.json
+06-subsets,winter_park,base,wellness,True,4,2,False,2,False,Martial arts school;Physical fitness program,experiment2\runs\06-subsets\winter_park_base_tags_subset.a1.json
+06-subsets,pine_hills,base,brands,True,24,20,False,20,True,Her Universe;Instagram;Boxlunch;Tasty,experiment2\runs\06-subsets\pine_hills_base_brands_subset.a1.json
+06-subsets,pine_hills,base,brands_independent,True,13,11,False,11,True,Instagram;Tasty,experiment2\runs\06-subsets\pine_hills_base_brands_subset.a1.json
+06-subsets,pine_hills,base,brands_pooled,True,12,10,False,10,True,Her Universe;Boxlunch,experiment2\runs\06-subsets\pine_hills_base_brands_subset.a1.json
+06-subsets,pine_hills,base,food,True,6,6,True,6,True,,experiment2\runs\06-subsets\pine_hills_base_tags_subset.a1.json
+06-subsets,pine_hills,base,arts,True,4,4,True,4,False,,experiment2\runs\06-subsets\pine_hills_base_tags_subset.a1.json
+06-subsets,pine_hills,base,wellness,True,4,2,False,2,False,Martial arts school;Physical fitness program,experiment2\runs\06-subsets\pine_hills_base_tags_subset.a1.json
+07-repeat,winter_park,base,brands,False,47,47,True,47,True,,experiment2\runs\07-repeat\winter_park_base_brands.a1.json
+07-repeat,winter_park,base,brands_independent,False,25,25,True,25,True,,experiment2\runs\07-repeat\winter_park_base_brands.a1.json
+07-repeat,winter_park,base,brands_pooled,False,24,24,True,24,True,,experiment2\runs\07-repeat\winter_park_base_brands.a1.json
+07-repeat,winter_park,base,food,False,12,12,True,12,True,,experiment2\runs\07-repeat\winter_park_base_tags.a1.json
+07-repeat,winter_park,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\07-repeat\winter_park_base_tags.a1.json
+07-repeat,winter_park,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\07-repeat\winter_park_base_tags.a1.json
+07-repeat,pine_hills,base,brands,False,47,40,False,40,True,Her Universe;Samsung;National Audubon Society;Instagram;Boxlunch;X (Formerly Twitter);Tasty,experiment2\runs\07-repeat\pine_hills_base_brands.a1.json
+07-repeat,pine_hills,base,brands_independent,False,25,21,False,21,True,Samsung;Instagram;X (Formerly Twitter);Tasty,experiment2\runs\07-repeat\pine_hills_base_brands.a1.json
+07-repeat,pine_hills,base,brands_pooled,False,24,21,False,21,True,Her Universe;National Audubon Society;Boxlunch,experiment2\runs\07-repeat\pine_hills_base_brands.a1.json
+07-repeat,pine_hills,base,food,False,12,12,True,12,True,,experiment2\runs\07-repeat\pine_hills_base_tags.a1.json
+07-repeat,pine_hills,base,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\07-repeat\pine_hills_base_tags.a1.json
+07-repeat,pine_hills,base,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\07-repeat\pine_hills_base_tags.a1.json
+08-additional-shifts,college_park,east200,brands,False,47,46,False,46,True,Samsung,experiment2\runs\08-additional-shifts\college_park_east200_brands.a1.json
+08-additional-shifts,college_park,east200,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\08-additional-shifts\college_park_east200_brands.a1.json
+08-additional-shifts,college_park,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\08-additional-shifts\college_park_east200_brands.a1.json
+08-additional-shifts,college_park,east200,food,False,12,12,True,12,True,,experiment2\runs\08-additional-shifts\college_park_east200_tags.a1.json
+08-additional-shifts,college_park,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\08-additional-shifts\college_park_east200_tags.a1.json
+08-additional-shifts,college_park,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\08-additional-shifts\college_park_east200_tags.a1.json
+08-additional-shifts,audubon_park,east200,brands,False,47,47,True,47,True,,experiment2\runs\08-additional-shifts\audubon_park_east200_brands.a1.json
+08-additional-shifts,audubon_park,east200,brands_independent,False,25,25,True,25,True,,experiment2\runs\08-additional-shifts\audubon_park_east200_brands.a1.json
+08-additional-shifts,audubon_park,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\08-additional-shifts\audubon_park_east200_brands.a1.json
+08-additional-shifts,audubon_park,east200,food,False,12,12,True,12,True,,experiment2\runs\08-additional-shifts\audubon_park_east200_tags.a1.json
+08-additional-shifts,audubon_park,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\08-additional-shifts\audubon_park_east200_tags.a1.json
+08-additional-shifts,audubon_park,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\08-additional-shifts\audubon_park_east200_tags.a1.json
+08-additional-shifts,baldwin_park,east200,brands,False,47,47,True,47,True,,experiment2\runs\08-additional-shifts\baldwin_park_east200_brands.a1.json
+08-additional-shifts,baldwin_park,east200,brands_independent,False,25,25,True,25,True,,experiment2\runs\08-additional-shifts\baldwin_park_east200_brands.a1.json
+08-additional-shifts,baldwin_park,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\08-additional-shifts\baldwin_park_east200_brands.a1.json
+08-additional-shifts,baldwin_park,east200,food,False,12,12,True,12,True,,experiment2\runs\08-additional-shifts\baldwin_park_east200_tags.a1.json
+08-additional-shifts,baldwin_park,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\08-additional-shifts\baldwin_park_east200_tags.a1.json
+08-additional-shifts,baldwin_park,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\08-additional-shifts\baldwin_park_east200_tags.a1.json
+08-additional-shifts,azalea_park,east200,brands,False,47,45,False,45,True,Samsung;Tasty,experiment2\runs\08-additional-shifts\azalea_park_east200_brands.a1.json
+08-additional-shifts,azalea_park,east200,brands_independent,False,25,23,False,23,True,Samsung;Tasty,experiment2\runs\08-additional-shifts\azalea_park_east200_brands.a1.json
+08-additional-shifts,azalea_park,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\08-additional-shifts\azalea_park_east200_brands.a1.json
+08-additional-shifts,azalea_park,east200,food,False,12,12,True,12,True,,experiment2\runs\08-additional-shifts\azalea_park_east200_tags.a1.json
+08-additional-shifts,azalea_park,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\08-additional-shifts\azalea_park_east200_tags.a1.json
+08-additional-shifts,azalea_park,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\08-additional-shifts\azalea_park_east200_tags.a1.json
+08-additional-shifts,thornton_park,east200,brands,False,47,47,True,47,True,,experiment2\runs\08-additional-shifts\thornton_park_east200_brands.a1.json
+08-additional-shifts,thornton_park,east200,brands_independent,False,25,25,True,25,True,,experiment2\runs\08-additional-shifts\thornton_park_east200_brands.a1.json
+08-additional-shifts,thornton_park,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\08-additional-shifts\thornton_park_east200_brands.a1.json
+08-additional-shifts,thornton_park,east200,food,False,12,12,True,12,True,,experiment2\runs\08-additional-shifts\thornton_park_east200_tags.a1.json
+08-additional-shifts,thornton_park,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\08-additional-shifts\thornton_park_east200_tags.a1.json
+08-additional-shifts,thornton_park,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\08-additional-shifts\thornton_park_east200_tags.a1.json
+08-additional-shifts,city_district,east200,brands,False,47,47,True,47,True,,experiment2\runs\08-additional-shifts\city_district_east200_brands.a1.json
+08-additional-shifts,city_district,east200,brands_independent,False,25,25,True,25,True,,experiment2\runs\08-additional-shifts\city_district_east200_brands.a1.json
+08-additional-shifts,city_district,east200,brands_pooled,False,24,24,True,24,True,,experiment2\runs\08-additional-shifts\city_district_east200_brands.a1.json
+08-additional-shifts,city_district,east200,food,False,12,12,True,12,True,,experiment2\runs\08-additional-shifts\city_district_east200_tags.a1.json
+08-additional-shifts,city_district,east200,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\08-additional-shifts\city_district_east200_tags.a1.json
+08-additional-shifts,city_district,east200,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\08-additional-shifts\city_district_east200_tags.a1.json
+09-point-check,winter_park,point1000,brands,False,47,47,True,47,True,,experiment2\runs\09-point-check\winter_park_point1000_brands.a1.json
+09-point-check,winter_park,point1000,brands_independent,False,25,25,True,25,True,,experiment2\runs\09-point-check\winter_park_point1000_brands.a1.json
+09-point-check,winter_park,point1000,brands_pooled,False,24,24,True,24,True,,experiment2\runs\09-point-check\winter_park_point1000_brands.a1.json
+09-point-check,winter_park,point1000,food,False,12,12,True,12,True,,experiment2\runs\09-point-check\winter_park_point1000_tags.a1.json
+09-point-check,winter_park,point1000,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\09-point-check\winter_park_point1000_tags.a1.json
+09-point-check,winter_park,point1000,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\09-point-check\winter_park_point1000_tags.a1.json
+09-point-check,pine_hills,point1000,brands,False,47,40,False,40,True,Her Universe;Samsung;National Audubon Society;Instagram;Boxlunch;X (Formerly Twitter);Tasty,experiment2\runs\09-point-check\pine_hills_point1000_brands.a1.json
+09-point-check,pine_hills,point1000,brands_independent,False,25,21,False,21,True,Samsung;Instagram;X (Formerly Twitter);Tasty,experiment2\runs\09-point-check\pine_hills_point1000_brands.a1.json
+09-point-check,pine_hills,point1000,brands_pooled,False,24,21,False,21,True,Her Universe;National Audubon Society;Boxlunch,experiment2\runs\09-point-check\pine_hills_point1000_brands.a1.json
+09-point-check,pine_hills,point1000,food,False,12,12,True,12,True,,experiment2\runs\09-point-check\pine_hills_point1000_tags.a1.json
+09-point-check,pine_hills,point1000,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\09-point-check\pine_hills_point1000_tags.a1.json
+09-point-check,pine_hills,point1000,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\09-point-check\pine_hills_point1000_tags.a1.json
+09-point-check,mills_50,point1000,brands,False,47,46,False,46,True,Samsung,experiment2\runs\09-point-check\mills_50_point1000_brands.a1.json
+09-point-check,mills_50,point1000,brands_independent,False,25,24,False,24,True,Samsung,experiment2\runs\09-point-check\mills_50_point1000_brands.a1.json
+09-point-check,mills_50,point1000,brands_pooled,False,24,24,True,24,True,,experiment2\runs\09-point-check\mills_50_point1000_brands.a1.json
+09-point-check,mills_50,point1000,food,False,12,12,True,12,True,,experiment2\runs\09-point-check\mills_50_point1000_tags.a1.json
+09-point-check,mills_50,point1000,arts,False,8,7,False,7,True,Childrens museum,experiment2\runs\09-point-check\mills_50_point1000_tags.a1.json
+09-point-check,mills_50,point1000,wellness,False,8,6,False,6,True,Martial arts school;Physical fitness program,experiment2\runs\09-point-check\mills_50_point1000_tags.a1.json

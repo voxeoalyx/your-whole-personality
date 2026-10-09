@@ -1,0 +1,116 @@
+[
+  {
+    "request_id": "wright_design",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "wright_design.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "farnsworth_design",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_design.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "ray_author",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "ray_author.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  }
+]

@@ -1,0 +1,37 @@
+﻿dimension,signature,k,a,b,area_a,area_b,jaccard,rank_cosine,ties_present
+brands_point,cbaa76cc89bf,10,winter_park_brands_500,winter_park_brands_500,Winter Park,Winter Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,10,winter_park_brands_500,college_park_brands_500,Winter Park,College Park,0.3333333333333333,0.9248697753271937,False
+brands_point,cbaa76cc89bf,10,winter_park_brands_500,mills_50_point_proxy_brands_500,Winter Park,Mills 50 point proxy,0.3333333333333333,0.9242424411772625,False
+brands_point,1a727ba56c5b,10,winter_park_brands_1000,winter_park_brands_1000,Winter Park,Winter Park,1.0,1.0,False
+brands_point,1a727ba56c5b,10,winter_park_brands_1000,college_park_brands_1000,Winter Park,College Park,0.3333333333333333,0.902849066390832,False
+brands_point,1a727ba56c5b,10,winter_park_brands_1000,mills_50_point_proxy_brands_1000,Winter Park,Mills 50 point proxy,0.42857142857142855,0.9355387234552759,False
+brands_point,cbaa76cc89bf,10,college_park_brands_500,winter_park_brands_500,College Park,Winter Park,0.3333333333333333,0.9248697753271937,False
+brands_point,cbaa76cc89bf,10,college_park_brands_500,college_park_brands_500,College Park,College Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,10,college_park_brands_500,mills_50_point_proxy_brands_500,College Park,Mills 50 point proxy,0.8181818181818182,0.9879019208679036,False
+brands_point,1a727ba56c5b,10,college_park_brands_1000,winter_park_brands_1000,College Park,Winter Park,0.3333333333333333,0.902849066390832,False
+brands_point,1a727ba56c5b,10,college_park_brands_1000,college_park_brands_1000,College Park,College Park,1.0,1.0,False
+brands_point,1a727ba56c5b,10,college_park_brands_1000,mills_50_point_proxy_brands_1000,College Park,Mills 50 point proxy,0.42857142857142855,0.9406171427642431,False
+brands_point,cbaa76cc89bf,10,mills_50_point_proxy_brands_500,winter_park_brands_500,Mills 50 point proxy,Winter Park,0.3333333333333333,0.9242424411772625,False
+brands_point,cbaa76cc89bf,10,mills_50_point_proxy_brands_500,college_park_brands_500,Mills 50 point proxy,College Park,0.8181818181818182,0.9879019208679036,False
+brands_point,cbaa76cc89bf,10,mills_50_point_proxy_brands_500,mills_50_point_proxy_brands_500,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False
+brands_point,1a727ba56c5b,10,mills_50_point_proxy_brands_1000,winter_park_brands_1000,Mills 50 point proxy,Winter Park,0.42857142857142855,0.9355387234552759,False
+brands_point,1a727ba56c5b,10,mills_50_point_proxy_brands_1000,college_park_brands_1000,Mills 50 point proxy,College Park,0.42857142857142855,0.9406171427642431,False
+brands_point,1a727ba56c5b,10,mills_50_point_proxy_brands_1000,mills_50_point_proxy_brands_1000,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False
+brands_point,cbaa76cc89bf,20,winter_park_brands_500,winter_park_brands_500,Winter Park,Winter Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,20,winter_park_brands_500,college_park_brands_500,Winter Park,College Park,0.5384615384615384,0.9549896239483596,False
+brands_point,cbaa76cc89bf,20,winter_park_brands_500,mills_50_point_proxy_brands_500,Winter Park,Mills 50 point proxy,0.6,0.957374475115303,False
+brands_point,1a727ba56c5b,20,winter_park_brands_1000,winter_park_brands_1000,Winter Park,Winter Park,1.0,1.0,False
+brands_point,1a727ba56c5b,20,winter_park_brands_1000,college_park_brands_1000,Winter Park,College Park,0.6,0.9388688672637804,False
+brands_point,1a727ba56c5b,20,winter_park_brands_1000,mills_50_point_proxy_brands_1000,Winter Park,Mills 50 point proxy,0.6666666666666666,0.9660891156674236,False
+brands_point,cbaa76cc89bf,20,college_park_brands_500,winter_park_brands_500,College Park,Winter Park,0.5384615384615384,0.9549896239483596,False
+brands_point,cbaa76cc89bf,20,college_park_brands_500,college_park_brands_500,College Park,College Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,20,college_park_brands_500,mills_50_point_proxy_brands_500,College Park,Mills 50 point proxy,0.7391304347826086,0.9870674799711028,False
+brands_point,1a727ba56c5b,20,college_park_brands_1000,winter_park_brands_1000,College Park,Winter Park,0.6,0.9388688672637804,False
+brands_point,1a727ba56c5b,20,college_park_brands_1000,college_park_brands_1000,College Park,College Park,1.0,1.0,False
+brands_point,1a727ba56c5b,20,college_park_brands_1000,mills_50_point_proxy_brands_1000,College Park,Mills 50 point proxy,0.6666666666666666,0.9618541924198143,False
+brands_point,cbaa76cc89bf,20,mills_50_point_proxy_brands_500,winter_park_brands_500,Mills 50 point proxy,Winter Park,0.6,0.957374475115303,False
+brands_point,cbaa76cc89bf,20,mills_50_point_proxy_brands_500,college_park_brands_500,Mills 50 point proxy,College Park,0.7391304347826086,0.9870674799711028,False
+brands_point,cbaa76cc89bf,20,mills_50_point_proxy_brands_500,mills_50_point_proxy_brands_500,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False
+brands_point,1a727ba56c5b,20,mills_50_point_proxy_brands_1000,winter_park_brands_1000,Mills 50 point proxy,Winter Park,0.6666666666666666,0.9660891156674236,False
+brands_point,1a727ba56c5b,20,mills_50_point_proxy_brands_1000,college_park_brands_1000,Mills 50 point proxy,College Park,0.6666666666666666,0.9618541924198143,False
+brands_point,1a727ba56c5b,20,mills_50_point_proxy_brands_1000,mills_50_point_proxy_brands_1000,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False

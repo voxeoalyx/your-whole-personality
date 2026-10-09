@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-08T11:12:36.422235+00:00",
+  "sha256": {
+    "WHOLE_PERSONALITY_EXPERIMENT_PLAN.md": "25e28a6d2bfd500470749da02ae162b91b92df4cadea086349efae6c4aee85c3",
+    "NARRATIVE_PROTOCOL.md": "078a490a54cce8a70f8f35e651da0df4d9af070d7f79114ae59ac829f84a2fbe",
+    "llm_baseline.json": "b3629114f61374b82329a13a8cdddd435882f4c1cd136f5abefcddf4e8f749f1"
+  },
+  "runner_sha256": "0eb6c67795677df66919521664bcff88d74cb516bc6ca435aa666faf6019878e"
+}

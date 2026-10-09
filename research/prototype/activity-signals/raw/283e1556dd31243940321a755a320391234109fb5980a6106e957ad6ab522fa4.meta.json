@@ -1,0 +1,10 @@
+{
+  "at": 1791470811.423315,
+  "request_hash": "283e1556dd31243940321a755a320391234109fb5980a6106e957ad6ab522fa4",
+  "route": "/v2/tags",
+  "params": {
+    "filter.query": "architecture",
+    "take": "50"
+  },
+  "response_sha256": "866f279b2bde56dae5c5a1d3090c4242d3825652c11e5cd89b876887fc9bcd2b"
+}

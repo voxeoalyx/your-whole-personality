@@ -1,0 +1,10 @@
+{
+  "at": 1791471041.0061731,
+  "request_hash": "8b67182f451d0ab6a13abcb070fa7fbe1ac1956f00eb33556b1d33ef62be0705",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.query": "bodybuilding",
+    "take": "50"
+  },
+  "response_sha256": "53c862e6f685cf455196a2618af4112444d3247433b1c47e7dd1606e0b4937cd"
+}

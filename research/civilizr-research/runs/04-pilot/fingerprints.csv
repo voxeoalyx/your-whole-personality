@@ -1,0 +1,421 @@
+﻿request_id,area,dimension,k,id,name,membership,reciprocal_rank,ties_present
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:genre:place:shopping,Shopping,1,1.0,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:families,Families,1,0.5,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:foodies,Foodies,1,0.3333333333333333,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.25,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:locals,Locals,1,0.2,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,1,0.16666666666666666,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,1,0.14285714285714285,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:couples,Couples,1,0.125,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:specialty_dish:place:steak,Steak,1,0.1111111111111111,False
+winter_park_place_tags,Winter Park,place_tags,10,urn:tag:ambience:qloo:casual,Casual,1,0.1,False
+winter_park_brands,Winter Park,brands,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+winter_park_brands,Winter Park,brands,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.5,False
+winter_park_brands,Winter Park,brands,10,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.3333333333333333,False
+winter_park_brands,Winter Park,brands,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.25,False
+winter_park_brands,Winter Park,brands,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.2,False
+winter_park_brands,Winter Park,brands,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.16666666666666666,False
+winter_park_brands,Winter Park,brands,10,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.14285714285714285,False
+winter_park_brands,Winter Park,brands,10,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.125,False
+winter_park_brands,Winter Park,brands,10,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.1111111111111111,False
+winter_park_brands,Winter Park,brands,10,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,1,0.1,False
+winter_park_destinations,Winter Park,destinations,10,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1.0,False
+winter_park_destinations,Winter Park,destinations,10,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,0.5,False
+winter_park_destinations,Winter Park,destinations,10,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.3333333333333333,False
+winter_park_destinations,Winter Park,destinations,10,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.25,False
+winter_park_destinations,Winter Park,destinations,10,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.2,False
+winter_park_destinations,Winter Park,destinations,10,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.16666666666666666,False
+winter_park_destinations,Winter Park,destinations,10,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.14285714285714285,False
+winter_park_destinations,Winter Park,destinations,10,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,1,0.125,False
+winter_park_destinations,Winter Park,destinations,10,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,1,0.1111111111111111,False
+winter_park_destinations,Winter Park,destinations,10,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.1,False
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:shopping_mall,Shopping mall,1,1.0,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:shopping,Shopping,1,0.5,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:luggage_store,Luggage store,1,0.3333333333333333,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:restaurant:family,Family restaurant,1,0.25,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:specialty_dish:place:steak,Steak,1,0.2,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:restaurant:crab_house,Crab house,1,0.16666666666666666,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:restaurant:seafood,Seafood,1,0.14285714285714285,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,1,0.125,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:restaurant:american,American,1,0.1111111111111111,True
+pine_hills_place_tags,Pine Hills,place_tags,10,urn:tag:genre:place:personal_care,Personal care,1,0.1,True
+pine_hills_brands,Pine Hills,brands,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,1.0,False
+pine_hills_brands,Pine Hills,brands,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,0.5,False
+pine_hills_brands,Pine Hills,brands,10,50A73864-984A-446F-8401-9F501EA0457B,Johnny Dang & Co.,1,0.3333333333333333,False
+pine_hills_brands,Pine Hills,brands,10,F7EBC47F-537A-4B6C-9DEC-EDB96FF0AB60,Sniper Gang Apparel,1,0.25,False
+pine_hills_brands,Pine Hills,brands,10,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,1,0.2,False
+pine_hills_brands,Pine Hills,brands,10,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,1,0.16666666666666666,False
+pine_hills_brands,Pine Hills,brands,10,BE47753B-0C88-479F-A762-50F9CD401E83,The Cut Life,1,0.14285714285714285,False
+pine_hills_brands,Pine Hills,brands,10,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,1,0.125,False
+pine_hills_brands,Pine Hills,brands,10,EF6C68A6-79FA-4356-AC34-E55FD6D28964,Razor Chic,1,0.1111111111111111,False
+pine_hills_brands,Pine Hills,brands,10,48788B56-C419-421E-A016-202781E78C1D,Florida A&M University,1,0.1,False
+pine_hills_destinations,Pine Hills,destinations,10,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,1.0,False
+pine_hills_destinations,Pine Hills,destinations,10,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,0.5,False
+pine_hills_destinations,Pine Hills,destinations,10,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.3333333333333333,False
+pine_hills_destinations,Pine Hills,destinations,10,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.25,False
+pine_hills_destinations,Pine Hills,destinations,10,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.2,False
+pine_hills_destinations,Pine Hills,destinations,10,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.16666666666666666,False
+pine_hills_destinations,Pine Hills,destinations,10,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,1,0.14285714285714285,False
+pine_hills_destinations,Pine Hills,destinations,10,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.125,False
+pine_hills_destinations,Pine Hills,destinations,10,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.1111111111111111,False
+pine_hills_destinations,Pine Hills,destinations,10,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,1,0.1,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:genre:place:shopping,Shopping,1,1.0,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:customer_identity:qloo:foodies,Foodies,1,0.5,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:genre:place:event_venue,Event venue,1,0.3333333333333333,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:customer_identity:qloo:families,Families,1,0.25,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.2,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:customer_identity:qloo:locals,Locals,1,0.16666666666666666,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,1,0.14285714285714285,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:genre:place:tourist_attraction,Tourist attraction,1,0.125,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:genre:place:wedding_venue,Wedding venue,1,0.1111111111111111,False
+college_park_place_tags,College Park,place_tags,10,urn:tag:customer_identity:qloo:couples,Couples,1,0.1,False
+college_park_brands,College Park,brands,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+college_park_brands,College Park,brands,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.5,False
+college_park_brands,College Park,brands,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.3333333333333333,False
+college_park_brands,College Park,brands,10,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.25,False
+college_park_brands,College Park,brands,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.2,False
+college_park_brands,College Park,brands,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.16666666666666666,False
+college_park_brands,College Park,brands,10,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.14285714285714285,False
+college_park_brands,College Park,brands,10,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.125,False
+college_park_brands,College Park,brands,10,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.1111111111111111,False
+college_park_brands,College Park,brands,10,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,1,0.1,False
+college_park_destinations,College Park,destinations,10,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1.0,False
+college_park_destinations,College Park,destinations,10,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,0.5,False
+college_park_destinations,College Park,destinations,10,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.3333333333333333,False
+college_park_destinations,College Park,destinations,10,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.25,False
+college_park_destinations,College Park,destinations,10,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.2,False
+college_park_destinations,College Park,destinations,10,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.16666666666666666,False
+college_park_destinations,College Park,destinations,10,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.14285714285714285,False
+college_park_destinations,College Park,destinations,10,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.125,False
+college_park_destinations,College Park,destinations,10,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,1,0.1111111111111111,False
+college_park_destinations,College Park,destinations,10,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,1,0.1,False
+orlando_place_tags,Orlando,place_tags,10,urn:tag:genre:place:tourist_attraction,Tourist attraction,1,1.0,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:genre:place:shopping,Shopping,1,0.5,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:activities:place:mini_golf,Mini golf,1,0.3333333333333333,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:activities:place:go_karts,Go karts,1,0.25,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:activities:place:wave_pool,Wave pool,1,0.2,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:activities:place:lazy_river,Lazy river,1,0.16666666666666666,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:genre:place:amusement_park,Amusement park,1,0.14285714285714285,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:customer_identity:qloo:families,Families,1,0.125,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:genre:place:shopping_mall,Shopping mall,1,0.1111111111111111,True
+orlando_place_tags,Orlando,place_tags,10,urn:tag:genre:place,Place,1,0.1,True
+orlando_brands,Orlando,brands,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,1.0,False
+orlando_brands,Orlando,brands,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,0.5,False
+orlando_brands,Orlando,brands,10,57D43250-A861-493E-AB0D-1E865E95818A,Disney Cruise Line,1,0.3333333333333333,False
+orlando_brands,Orlando,brands,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.25,False
+orlando_brands,Orlando,brands,10,4F45EA25-E1A5-4445-A281-45C323431EFA,Halloween Horror Nights Orlando,1,0.2,False
+orlando_brands,Orlando,brands,10,606199FC-9A3D-42FD-BBB2-4807A36741E0,Disney+,1,0.16666666666666666,False
+orlando_brands,Orlando,brands,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.14285714285714285,False
+orlando_brands,Orlando,brands,10,93E338F8-EDCC-4FA5-ACD7-891F5454FCBC,Boxlunch,1,0.125,False
+orlando_brands,Orlando,brands,10,276A83F6-C4E3-43DD-B42A-6BF9CFAF51CB,Forever 21,1,0.1111111111111111,False
+orlando_brands,Orlando,brands,10,F7FB4C06-C607-4D64-89A0-B7D2E5B01271,Royal Caribbean International,1,0.1,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:genre:place:shopping,Shopping,1,1.0,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:families,Families,1,0.5,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:foodies,Foodies,1,0.3333333333333333,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.25,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:locals,Locals,1,0.2,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,1,0.16666666666666666,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,1,0.14285714285714285,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:customer_identity:qloo:couples,Couples,1,0.125,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:specialty_dish:place:steak,Steak,1,0.1111111111111111,False
+winter_park_repeat_place_tags,Winter Park,place_tags,10,urn:tag:ambience:qloo:casual,Casual,1,0.1,False
+winter_park_repeat_brands,Winter Park,brands,10,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+winter_park_repeat_brands,Winter Park,brands,10,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.5,False
+winter_park_repeat_brands,Winter Park,brands,10,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.3333333333333333,False
+winter_park_repeat_brands,Winter Park,brands,10,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.25,False
+winter_park_repeat_brands,Winter Park,brands,10,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.2,False
+winter_park_repeat_brands,Winter Park,brands,10,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.16666666666666666,False
+winter_park_repeat_brands,Winter Park,brands,10,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.14285714285714285,False
+winter_park_repeat_brands,Winter Park,brands,10,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.125,False
+winter_park_repeat_brands,Winter Park,brands,10,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.1111111111111111,False
+winter_park_repeat_brands,Winter Park,brands,10,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,1,0.1,False
+winter_park_repeat_destinations,Winter Park,destinations,10,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1.0,False
+winter_park_repeat_destinations,Winter Park,destinations,10,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,0.5,False
+winter_park_repeat_destinations,Winter Park,destinations,10,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.3333333333333333,False
+winter_park_repeat_destinations,Winter Park,destinations,10,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.25,False
+winter_park_repeat_destinations,Winter Park,destinations,10,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.2,False
+winter_park_repeat_destinations,Winter Park,destinations,10,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.16666666666666666,False
+winter_park_repeat_destinations,Winter Park,destinations,10,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.14285714285714285,False
+winter_park_repeat_destinations,Winter Park,destinations,10,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,1,0.125,False
+winter_park_repeat_destinations,Winter Park,destinations,10,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,1,0.1111111111111111,False
+winter_park_repeat_destinations,Winter Park,destinations,10,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.1,False
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:shopping,Shopping,1,1.0,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:families,Families,1,0.5,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:foodies,Foodies,1,0.3333333333333333,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.25,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:locals,Locals,1,0.2,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,1,0.16666666666666666,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,1,0.14285714285714285,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:couples,Couples,1,0.125,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:specialty_dish:place:steak,Steak,1,0.1111111111111111,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:casual,Casual,1,0.1,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:lively,Lively,1,0.09090909090909091,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:young_professionals,Young Professionals,1,0.08333333333333333,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:activities:place:walking,Walking,1,0.07692307692307693,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:tourist_attraction,Tourist attraction,1,0.07142857142857142,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:restaurant:american,American,1,0.06666666666666667,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:activities:place:hiking,Hiking,1,0.0625,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:fun,Fun,1,0.058823529411764705,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:park,Park,1,0.05555555555555555,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:regulars,Regulars,1,0.05263157894736842,True
+winter_park_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:social,Social,1,0.05,True
+winter_park_brands,Winter Park,brands,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,True
+winter_park_brands,Winter Park,brands,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.5,True
+winter_park_brands,Winter Park,brands,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.3333333333333333,True
+winter_park_brands,Winter Park,brands,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.25,True
+winter_park_brands,Winter Park,brands,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.2,True
+winter_park_brands,Winter Park,brands,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.16666666666666666,True
+winter_park_brands,Winter Park,brands,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.14285714285714285,True
+winter_park_brands,Winter Park,brands,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.125,True
+winter_park_brands,Winter Park,brands,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.1111111111111111,True
+winter_park_brands,Winter Park,brands,20,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,1,0.1,True
+winter_park_brands,Winter Park,brands,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.09090909090909091,True
+winter_park_brands,Winter Park,brands,20,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.08333333333333333,True
+winter_park_brands,Winter Park,brands,20,393CC228-97CF-4BF4-A3A7-A32B9227778F,The Knot,1,0.07692307692307693,True
+winter_park_brands,Winter Park,brands,20,AF4FE54E-4396-4786-B6C5-1D352E0E0A16,Lilly Pulitzer,1,0.07142857142857142,True
+winter_park_brands,Winter Park,brands,20,18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C,West Elm,1,0.06666666666666667,True
+winter_park_brands,Winter Park,brands,20,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,1,0.0625,True
+winter_park_brands,Winter Park,brands,20,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,1,0.058823529411764705,True
+winter_park_brands,Winter Park,brands,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.05555555555555555,True
+winter_park_brands,Winter Park,brands,20,6C386104-464E-4FB5-8570-37B88B132875,Kate Spade New York,1,0.05263157894736842,True
+winter_park_brands,Winter Park,brands,20,08DFA533-2964-44E8-A6DE-CF66A45C1373,Magnolia,1,0.05,True
+winter_park_destinations,Winter Park,destinations,20,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1.0,False
+winter_park_destinations,Winter Park,destinations,20,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,0.5,False
+winter_park_destinations,Winter Park,destinations,20,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.3333333333333333,False
+winter_park_destinations,Winter Park,destinations,20,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.25,False
+winter_park_destinations,Winter Park,destinations,20,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.2,False
+winter_park_destinations,Winter Park,destinations,20,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.16666666666666666,False
+winter_park_destinations,Winter Park,destinations,20,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.14285714285714285,False
+winter_park_destinations,Winter Park,destinations,20,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,1,0.125,False
+winter_park_destinations,Winter Park,destinations,20,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,1,0.1111111111111111,False
+winter_park_destinations,Winter Park,destinations,20,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.1,False
+winter_park_destinations,Winter Park,destinations,20,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,1,0.09090909090909091,False
+winter_park_destinations,Winter Park,destinations,20,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,1,0.08333333333333333,False
+winter_park_destinations,Winter Park,destinations,20,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,1,0.07692307692307693,False
+winter_park_destinations,Winter Park,destinations,20,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,1,0.07142857142857142,False
+winter_park_destinations,Winter Park,destinations,20,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,1,0.06666666666666667,False
+winter_park_destinations,Winter Park,destinations,20,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,1,0.0625,False
+winter_park_destinations,Winter Park,destinations,20,CF91B109-4896-49E0-AA0F-832FA04C7D00,Sarasota,1,0.058823529411764705,False
+winter_park_destinations,Winter Park,destinations,20,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,1,0.05555555555555555,False
+winter_park_destinations,Winter Park,destinations,20,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,1,0.05263157894736842,False
+winter_park_destinations,Winter Park,destinations,20,C7EBE0C9-7858-4669-BF84-62083A8133F7,Gainesville,1,0.05,False
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:shopping_mall,Shopping mall,1,1.0,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:shopping,Shopping,1,0.5,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:luggage_store,Luggage store,1,0.3333333333333333,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:restaurant:family,Family restaurant,1,0.25,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:specialty_dish:place:steak,Steak,1,0.2,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:restaurant:crab_house,Crab house,1,0.16666666666666666,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:restaurant:seafood,Seafood,1,0.14285714285714285,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,1,0.125,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:restaurant:american,American,1,0.1111111111111111,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:personal_care,Personal care,1,0.1,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:customer_identity:qloo:families,Families,1,0.09090909090909091,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:activities:place:go_karts,Go karts,1,0.08333333333333333,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place,Place,1,0.07692307692307693,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:tourist_attraction,Tourist attraction,1,0.07142857142857142,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:genre:place:park,Park,1,0.06666666666666667,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:customer_identity:qloo:regulars,Regulars,1,0.0625,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:customer_identity:qloo:locals,Locals,1,0.058823529411764705,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,1,0.05555555555555555,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.05263157894736842,True
+pine_hills_place_tags,Pine Hills,place_tags,20,urn:tag:ambience:qloo:casual,Casual,1,0.05,True
+pine_hills_brands,Pine Hills,brands,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,1.0,False
+pine_hills_brands,Pine Hills,brands,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,0.5,False
+pine_hills_brands,Pine Hills,brands,20,50A73864-984A-446F-8401-9F501EA0457B,Johnny Dang & Co.,1,0.3333333333333333,False
+pine_hills_brands,Pine Hills,brands,20,F7EBC47F-537A-4B6C-9DEC-EDB96FF0AB60,Sniper Gang Apparel,1,0.25,False
+pine_hills_brands,Pine Hills,brands,20,1E143048-C157-4632-BA66-E8B077C0003B,Cash App,1,0.2,False
+pine_hills_brands,Pine Hills,brands,20,9EF3B4AA-C638-4930-B673-0A930A4063AD,National Basketball Association,1,0.16666666666666666,False
+pine_hills_brands,Pine Hills,brands,20,BE47753B-0C88-479F-A762-50F9CD401E83,The Cut Life,1,0.14285714285714285,False
+pine_hills_brands,Pine Hills,brands,20,E26BC58D-18D2-405B-BC7B-7C556ADE3829,Air Jordan Product Line,1,0.125,False
+pine_hills_brands,Pine Hills,brands,20,EF6C68A6-79FA-4356-AC34-E55FD6D28964,Razor Chic,1,0.1111111111111111,False
+pine_hills_brands,Pine Hills,brands,20,48788B56-C419-421E-A016-202781E78C1D,Florida A&M University,1,0.1,False
+pine_hills_brands,Pine Hills,brands,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.09090909090909091,False
+pine_hills_brands,Pine Hills,brands,20,DCE5EA8F-FD51-4A10-8C51-4B48E4C9D9D5,Miami Heat,1,0.08333333333333333,False
+pine_hills_brands,Pine Hills,brands,20,134A30B0-CE77-4683-BB08-2273B3A88E0D,The Black Upstart,1,0.07692307692307693,False
+pine_hills_brands,Pine Hills,brands,20,4C160FEA-FDB6-4DEC-99FC-13899680A0F4,Foot Locker,1,0.07142857142857142,False
+pine_hills_brands,Pine Hills,brands,20,7EC9CA17-546C-4C91-B240-FBBFEE9F65BB,Black Girls Rock!,1,0.06666666666666667,False
+pine_hills_brands,Pine Hills,brands,20,CCE5BA3B-4F8C-4569-AAA4-823F924EB48A,Bleacher Report,1,0.0625,False
+pine_hills_brands,Pine Hills,brands,20,628FA7A2-4480-4A92-887E-8CD873C4427A,Flat Tummy Co,1,0.058823529411764705,False
+pine_hills_brands,Pine Hills,brands,20,43FC4F54-2BE6-4579-9D32-4065DD4F1BC2,Luc Belaire,1,0.05555555555555555,False
+pine_hills_brands,Pine Hills,brands,20,EFBF3920-44B5-41FB-8BB0-AB84CB9F0623,Black Wall Street App,1,0.05263157894736842,False
+pine_hills_brands,Pine Hills,brands,20,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,1,0.05,False
+pine_hills_destinations,Pine Hills,destinations,20,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,1.0,False
+pine_hills_destinations,Pine Hills,destinations,20,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,0.5,False
+pine_hills_destinations,Pine Hills,destinations,20,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.3333333333333333,False
+pine_hills_destinations,Pine Hills,destinations,20,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.25,False
+pine_hills_destinations,Pine Hills,destinations,20,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.2,False
+pine_hills_destinations,Pine Hills,destinations,20,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.16666666666666666,False
+pine_hills_destinations,Pine Hills,destinations,20,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,1,0.14285714285714285,False
+pine_hills_destinations,Pine Hills,destinations,20,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.125,False
+pine_hills_destinations,Pine Hills,destinations,20,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.1111111111111111,False
+pine_hills_destinations,Pine Hills,destinations,20,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,1,0.1,False
+pine_hills_destinations,Pine Hills,destinations,20,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,1,0.09090909090909091,False
+pine_hills_destinations,Pine Hills,destinations,20,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,1,0.08333333333333333,False
+pine_hills_destinations,Pine Hills,destinations,20,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,1,0.07692307692307693,False
+pine_hills_destinations,Pine Hills,destinations,20,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,1,0.07142857142857142,False
+pine_hills_destinations,Pine Hills,destinations,20,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,1,0.06666666666666667,False
+pine_hills_destinations,Pine Hills,destinations,20,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,1,0.0625,False
+pine_hills_destinations,Pine Hills,destinations,20,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,1,0.058823529411764705,False
+pine_hills_destinations,Pine Hills,destinations,20,C7EBE0C9-7858-4669-BF84-62083A8133F7,Gainesville,1,0.05555555555555555,False
+pine_hills_destinations,Pine Hills,destinations,20,D030593C-B4E8-43C4-B0CE-F705159A10D7,Pompano Beach,1,0.05263157894736842,False
+pine_hills_destinations,Pine Hills,destinations,20,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,1,0.05,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:genre:place:shopping,Shopping,1,1.0,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:customer_identity:qloo:foodies,Foodies,1,0.5,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:genre:place:event_venue,Event venue,1,0.3333333333333333,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:customer_identity:qloo:families,Families,1,0.25,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.2,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:customer_identity:qloo:locals,Locals,1,0.16666666666666666,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,1,0.14285714285714285,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:genre:place:tourist_attraction,Tourist attraction,1,0.125,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:genre:place:wedding_venue,Wedding venue,1,0.1111111111111111,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:customer_identity:qloo:couples,Couples,1,0.1,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:genre:place:restaurant:american,American,1,0.09090909090909091,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:activities:place:walking,Walking,1,0.08333333333333333,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:ambience:qloo:fun,Fun,1,0.07692307692307693,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:genre:place:restaurant:bar_grill,Bar + Grill,1,0.07142857142857142,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,1,0.06666666666666667,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:ambience:qloo:lively,Lively,1,0.0625,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:genre:place:park,Park,1,0.058823529411764705,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:specialty_dish:place:steak,Steak,1,0.05555555555555555,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:ambience:qloo:casual,Casual,1,0.05263157894736842,False
+college_park_place_tags,College Park,place_tags,20,urn:tag:activities:place:hiking,Hiking,1,0.05,False
+college_park_brands,College Park,brands,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,False
+college_park_brands,College Park,brands,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.5,False
+college_park_brands,College Park,brands,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.3333333333333333,False
+college_park_brands,College Park,brands,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.25,False
+college_park_brands,College Park,brands,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.2,False
+college_park_brands,College Park,brands,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.16666666666666666,False
+college_park_brands,College Park,brands,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.14285714285714285,False
+college_park_brands,College Park,brands,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.125,False
+college_park_brands,College Park,brands,20,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.1111111111111111,False
+college_park_brands,College Park,brands,20,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,1,0.1,False
+college_park_brands,College Park,brands,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.09090909090909091,False
+college_park_brands,College Park,brands,20,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,1,0.08333333333333333,False
+college_park_brands,College Park,brands,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.07692307692307693,False
+college_park_brands,College Park,brands,20,18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C,West Elm,1,0.07142857142857142,False
+college_park_brands,College Park,brands,20,36A3F981-5BFB-45B5-A8CF-A16F273B04F0,NPR,1,0.06666666666666667,False
+college_park_brands,College Park,brands,20,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,1,0.0625,False
+college_park_brands,College Park,brands,20,761E5412-C14F-4F74-847A-9DB9563EF5D8,University of Florida,1,0.058823529411764705,False
+college_park_brands,College Park,brands,20,08DFA533-2964-44E8-A6DE-CF66A45C1373,Magnolia,1,0.05555555555555555,False
+college_park_brands,College Park,brands,20,45FE5EFB-FDF1-4497-B93C-2D9472D89324,Winnie Hospital,1,0.05263157894736842,False
+college_park_brands,College Park,brands,20,393CC228-97CF-4BF4-A3A7-A32B9227778F,The Knot,1,0.05,False
+college_park_destinations,College Park,destinations,20,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1.0,False
+college_park_destinations,College Park,destinations,20,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,0.5,False
+college_park_destinations,College Park,destinations,20,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.3333333333333333,False
+college_park_destinations,College Park,destinations,20,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.25,False
+college_park_destinations,College Park,destinations,20,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.2,False
+college_park_destinations,College Park,destinations,20,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.16666666666666666,False
+college_park_destinations,College Park,destinations,20,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.14285714285714285,False
+college_park_destinations,College Park,destinations,20,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.125,False
+college_park_destinations,College Park,destinations,20,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,1,0.1111111111111111,False
+college_park_destinations,College Park,destinations,20,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,1,0.1,False
+college_park_destinations,College Park,destinations,20,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,1,0.09090909090909091,False
+college_park_destinations,College Park,destinations,20,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,1,0.08333333333333333,False
+college_park_destinations,College Park,destinations,20,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,1,0.07692307692307693,False
+college_park_destinations,College Park,destinations,20,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,1,0.07142857142857142,False
+college_park_destinations,College Park,destinations,20,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,1,0.06666666666666667,False
+college_park_destinations,College Park,destinations,20,CF91B109-4896-49E0-AA0F-832FA04C7D00,Sarasota,1,0.0625,False
+college_park_destinations,College Park,destinations,20,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,1,0.058823529411764705,False
+college_park_destinations,College Park,destinations,20,8B27E3D4-E047-40EA-8E74-379CC4F78CAC,Savannah,1,0.05555555555555555,False
+college_park_destinations,College Park,destinations,20,C7EBE0C9-7858-4669-BF84-62083A8133F7,Gainesville,1,0.05263157894736842,False
+college_park_destinations,College Park,destinations,20,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,1,0.05,False
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place:tourist_attraction,Tourist attraction,1,1.0,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place:shopping,Shopping,1,0.5,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:activities:place:mini_golf,Mini golf,1,0.3333333333333333,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:activities:place:go_karts,Go karts,1,0.25,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:activities:place:wave_pool,Wave pool,1,0.2,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:activities:place:lazy_river,Lazy river,1,0.16666666666666666,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place:amusement_park,Amusement park,1,0.14285714285714285,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:customer_identity:qloo:families,Families,1,0.125,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place:shopping_mall,Shopping mall,1,0.1111111111111111,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place,Place,1,0.1,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:ambience:qloo:lively,Lively,1,0.09090909090909091,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.08333333333333333,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:ambience:qloo:family_friendly,Family Friendly,1,0.07692307692307693,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place:event_venue,Event venue,1,0.07142857142857142,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:ambience:qloo:fun,Fun,1,0.06666666666666667,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:ambience:qloo:casual,Casual,1,0.0625,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:customer_identity:qloo:locals,Locals,1,0.058823529411764705,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:customer_identity:qloo:foodies,Foodies,1,0.05555555555555555,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place:luggage_store,Luggage store,1,0.05263157894736842,True
+orlando_place_tags,Orlando,place_tags,20,urn:tag:genre:place:restaurant:american,American,1,0.05,True
+orlando_brands,Orlando,brands,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,1.0,False
+orlando_brands,Orlando,brands,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,0.5,False
+orlando_brands,Orlando,brands,20,57D43250-A861-493E-AB0D-1E865E95818A,Disney Cruise Line,1,0.3333333333333333,False
+orlando_brands,Orlando,brands,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.25,False
+orlando_brands,Orlando,brands,20,4F45EA25-E1A5-4445-A281-45C323431EFA,Halloween Horror Nights Orlando,1,0.2,False
+orlando_brands,Orlando,brands,20,606199FC-9A3D-42FD-BBB2-4807A36741E0,Disney+,1,0.16666666666666666,False
+orlando_brands,Orlando,brands,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.14285714285714285,False
+orlando_brands,Orlando,brands,20,93E338F8-EDCC-4FA5-ACD7-891F5454FCBC,Boxlunch,1,0.125,False
+orlando_brands,Orlando,brands,20,276A83F6-C4E3-43DD-B42A-6BF9CFAF51CB,Forever 21,1,0.1111111111111111,False
+orlando_brands,Orlando,brands,20,F7FB4C06-C607-4D64-89A0-B7D2E5B01271,Royal Caribbean International,1,0.1,False
+orlando_brands,Orlando,brands,20,3029EC8C-A8EC-483B-9DDD-57DB580E6CFB,Alex and Ani,1,0.09090909090909091,False
+orlando_brands,Orlando,brands,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.08333333333333333,False
+orlando_brands,Orlando,brands,20,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892,Starbucks,1,0.07692307692307693,False
+orlando_brands,Orlando,brands,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.07142857142857142,False
+orlando_brands,Orlando,brands,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.06666666666666667,False
+orlando_brands,Orlando,brands,20,BFC8D7B1-BDD2-478E-85AB-F4FEE868177A,Target,1,0.0625,False
+orlando_brands,Orlando,brands,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.058823529411764705,False
+orlando_brands,Orlando,brands,20,6C386104-464E-4FB5-8570-37B88B132875,Kate Spade New York,1,0.05555555555555555,False
+orlando_brands,Orlando,brands,20,44AF3906-348D-41C3-9A01-E518B34F7F41,Loungefly,1,0.05263157894736842,False
+orlando_brands,Orlando,brands,20,12BFAA22-C17B-4307-82AB-3A916EED1389,Her Universe,1,0.05,False
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:shopping,Shopping,1,1.0,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:families,Families,1,0.5,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:foodies,Foodies,1,0.3333333333333333,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:tourists,Tourists,1,0.25,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:locals,Locals,1,0.2,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:business_professionals,Business Professionals,1,0.16666666666666666,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:groups_of_friends,Groups of Friends,1,0.14285714285714285,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:couples,Couples,1,0.125,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:specialty_dish:place:steak,Steak,1,0.1111111111111111,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:casual,Casual,1,0.1,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:lively,Lively,1,0.09090909090909091,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:young_professionals,Young Professionals,1,0.08333333333333333,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:activities:place:walking,Walking,1,0.07692307692307693,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:tourist_attraction,Tourist attraction,1,0.07142857142857142,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:restaurant:american,American,1,0.06666666666666667,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:activities:place:hiking,Hiking,1,0.0625,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:fun,Fun,1,0.058823529411764705,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:genre:place:park,Park,1,0.05555555555555555,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:customer_identity:qloo:regulars,Regulars,1,0.05263157894736842,True
+winter_park_repeat_place_tags,Winter Park,place_tags,20,urn:tag:ambience:qloo:social,Social,1,0.05,True
+winter_park_repeat_brands,Winter Park,brands,20,0FF86346-1680-45F2-8F0D-98A7370273F7,Orlando City SC,1,1.0,True
+winter_park_repeat_brands,Winter Park,brands,20,5BA94554-2329-41AE-9CCA-E926B015EF54,Rollins College,1,0.5,True
+winter_park_repeat_brands,Winter Park,brands,20,BE74FBA3-EEC5-4D55-BA71-750C8322A827,Rifle Paper Co.,1,0.3333333333333333,True
+winter_park_repeat_brands,Winter Park,brands,20,FEA2DD3A-AA7D-4B95-AF41-DA66F6529D5C,Orlando Magic,1,0.25,True
+winter_park_repeat_brands,Winter Park,brands,20,4F6B5623-A887-4874-92F2-2FFFAC341CD9,Universal Orlando Resort,1,0.2,True
+winter_park_repeat_brands,Winter Park,brands,20,F90AED5A-A13F-4D8F-84C5-3C4FEB5E6DDB,Orlando Pride,1,0.16666666666666666,True
+winter_park_repeat_brands,Winter Park,brands,20,CBE40D85-C875-4C70-8BF5-78D9C25B8FE1,Adventist Health System,1,0.14285714285714285,True
+winter_park_repeat_brands,Winter Park,brands,20,AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819,Anthropologie,1,0.125,True
+winter_park_repeat_brands,Winter Park,brands,20,C2924889-C657-41C9-A304-623830E7B4A1,Tijuana Flats,1,0.1111111111111111,True
+winter_park_repeat_brands,Winter Park,brands,20,6899B84D-F205-435C-9DBC-0320C89BD2A2,Full Sail University,1,0.1,True
+winter_park_repeat_brands,Winter Park,brands,20,1E5D90F5-5E0D-4486-B651-D0E7B8A6BE23,Whole Foods Market,1,0.09090909090909091,True
+winter_park_repeat_brands,Winter Park,brands,20,B83A23B0-9699-4FB0-8863-531488F28AF2,Orlando Health,1,0.08333333333333333,True
+winter_park_repeat_brands,Winter Park,brands,20,393CC228-97CF-4BF4-A3A7-A32B9227778F,The Knot,1,0.07692307692307693,True
+winter_park_repeat_brands,Winter Park,brands,20,AF4FE54E-4396-4786-B6C5-1D352E0E0A16,Lilly Pulitzer,1,0.07142857142857142,True
+winter_park_repeat_brands,Winter Park,brands,20,18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C,West Elm,1,0.06666666666666667,True
+winter_park_repeat_brands,Winter Park,brands,20,2BAF7E3C-1A8C-496D-9E3E-30E0D067DE96,Publix,1,0.0625,True
+winter_park_repeat_brands,Winter Park,brands,20,C7019119-F441-4CBE-B4B4-7F6BE9B917F5,Cigar City Brewing,1,0.058823529411764705,True
+winter_park_repeat_brands,Winter Park,brands,20,002A706B-424B-40FB-8BE5-D99E706B1CC4,HomeGoods,1,0.05555555555555555,True
+winter_park_repeat_brands,Winter Park,brands,20,6C386104-464E-4FB5-8570-37B88B132875,Kate Spade New York,1,0.05263157894736842,True
+winter_park_repeat_brands,Winter Park,brands,20,08DFA533-2964-44E8-A6DE-CF66A45C1373,Magnolia,1,0.05,True
+winter_park_repeat_destinations,Winter Park,destinations,20,1D51B05F-F661-4B5A-899F-87C8FF5A8338,Winter Park,1,1.0,False
+winter_park_repeat_destinations,Winter Park,destinations,20,E743596D-7F7D-420D-BDB9-F3B1795FA75B,Orlando,1,0.5,False
+winter_park_repeat_destinations,Winter Park,destinations,20,44AA4098-1A57-47A3-8B53-8C20146A0C6F,New Smyrna Beach,1,0.3333333333333333,False
+winter_park_repeat_destinations,Winter Park,destinations,20,2F10336E-7412-4573-9E6B-CCA25FC891FB,Cocoa Beach,1,0.25,False
+winter_park_repeat_destinations,Winter Park,destinations,20,03E27260-DA01-4F2B-BD68-7E15E3386569,Daytona Beach,1,0.2,False
+winter_park_repeat_destinations,Winter Park,destinations,20,EDEC351F-9547-4C85-92A6-16047AA6EDB2,Kissimmee,1,0.16666666666666666,False
+winter_park_repeat_destinations,Winter Park,destinations,20,3D0D95A7-2F16-4508-BEA7-C17A8BEA5F5E,Tampa,1,0.14285714285714285,False
+winter_park_repeat_destinations,Winter Park,destinations,20,8E15E93B-069F-4A5B-84C2-F0AD6CE50AC4,Saint Augustine,1,0.125,False
+winter_park_repeat_destinations,Winter Park,destinations,20,C85DC4D6-172D-4629-85AA-A35C6B7638CA,Miami,1,0.1111111111111111,False
+winter_park_repeat_destinations,Winter Park,destinations,20,74BED19E-B01B-4033-80E9-8F009AA2E39C,Jacksonville,1,0.1,False
+winter_park_repeat_destinations,Winter Park,destinations,20,AA829856-D645-4CB6-ACC5-7CD732DFBF77,Saint Petersburg,1,0.09090909090909091,False
+winter_park_repeat_destinations,Winter Park,destinations,20,6E94C0DA-40E9-4B04-A667-11369D1D1C60,Ormond Beach,1,0.08333333333333333,False
+winter_park_repeat_destinations,Winter Park,destinations,20,A6A0E195-B3A9-428E-8280-5ADDE38E7CC9,Clearwater,1,0.07692307692307693,False
+winter_park_repeat_destinations,Winter Park,destinations,20,205387A7-9500-4C01-A1BE-979A0AD7A296,Atlanta,1,0.07142857142857142,False
+winter_park_repeat_destinations,Winter Park,destinations,20,CD5101A4-73D9-4C0A-9346-35732A490822,West Palm Beach,1,0.06666666666666667,False
+winter_park_repeat_destinations,Winter Park,destinations,20,0A0837CB-FF68-4EEA-A992-2CBCADE63BBB,Miami Beach,1,0.0625,False
+winter_park_repeat_destinations,Winter Park,destinations,20,CF91B109-4896-49E0-AA0F-832FA04C7D00,Sarasota,1,0.058823529411764705,False
+winter_park_repeat_destinations,Winter Park,destinations,20,F413EA88-A088-4FEB-ACA0-904D99E49307,Tallahassee,1,0.05555555555555555,False
+winter_park_repeat_destinations,Winter Park,destinations,20,AD8027A8-4B44-4893-AC9D-19618EF0CC15,Fort Lauderdale,1,0.05263157894736842,False
+winter_park_repeat_destinations,Winter Park,destinations,20,C7EBE0C9-7858-4669-BF84-62083A8133F7,Gainesville,1,0.05,False

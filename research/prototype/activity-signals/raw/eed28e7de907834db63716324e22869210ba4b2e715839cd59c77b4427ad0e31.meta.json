@@ -1,0 +1,13 @@
+{
+  "at": 1791470995.8560736,
+  "request_hash": "eed28e7de907834db63716324e22869210ba4b2e715839cd59c77b4427ad0e31",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:genre:music:yoga",
+    "take": "20"
+  },
+  "response_sha256": "9940853a0631d54633f89437b05efafe4588fc3a0058e20dccd63f35bb593b55"
+}

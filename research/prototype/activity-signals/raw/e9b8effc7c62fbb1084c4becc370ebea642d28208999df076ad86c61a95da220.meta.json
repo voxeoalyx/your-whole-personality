@@ -1,0 +1,10 @@
+{
+  "at": 1791471040.7053096,
+  "request_hash": "e9b8effc7c62fbb1084c4becc370ebea642d28208999df076ad86c61a95da220",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.query": "strength",
+    "take": "50"
+  },
+  "response_sha256": "f7d8418e42e4928e53659bf1449fdc23a1440817e5e2f045a067b523306b5bc1"
+}

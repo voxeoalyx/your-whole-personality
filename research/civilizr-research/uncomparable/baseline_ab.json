@@ -1,0 +1,83 @@
+[
+  {
+    "id": "jacobs",
+    "A": "A 1930s house in Madison using mixed natural materials and open living spaces.",
+    "B": "Its significance is a domestic design experiment in affordability and spatial efficiency, not simply the prestige of Wright’s name. That distinguishes it from a bespoke landscape retreat. Likely discovery leads include Taliesin, organic architecture, American craft, Japanese design, and Wright’s books; these are predictable leads to verify, not evidence of a buyer audience.",
+    "predicted_leads": [
+      "Taliesin",
+      "Frank Lloyd Wright books",
+      "organic architecture",
+      "Japanese design",
+      "American craft"
+    ]
+  },
+  {
+    "id": "fallingwater",
+    "A": "A 1930s Pennsylvania retreat with sandstone, glass and concrete terraces above a stream.",
+    "B": "The central appeal is an unusually direct spatial relationship to landscape and water. Unlike Jacobs I, its commission was a bespoke retreat rather than an affordable-house prototype. Site experience and conservation are stronger explanations than a generic luxury label. Predictable cultural leads include Taliesin, the Guggenheim, MoMA, Japanese landscape aesthetics and other Wright sites.",
+    "predicted_leads": [
+      "Taliesin",
+      "Guggenheim",
+      "MoMA",
+      "Japanese landscape aesthetics",
+      "Wright sites"
+    ]
+  },
+  {
+    "id": "farnsworth",
+    "A": "A 1951 Illinois riverside retreat with an elevated steel structure and extensive glazing.",
+    "B": "Radical visual continuity and structural reduction explain its importance; extensive glass and a floodplain also complicate everyday occupation. Likely associations include Bauhaus, Knoll, the Barcelona Pavilion, and minimalist art. These obvious modernist relationships are already available without an affinity API.",
+    "predicted_leads": [
+      "Bauhaus",
+      "Knoll",
+      "Barcelona Pavilion",
+      "minimalist art"
+    ]
+  },
+  {
+    "id": "eames",
+    "A": "A 1949 California residence and studio using industrial components in a hillside setting.",
+    "B": "Standardized construction and a densely personal collection of objects coexist here. Its appeal is warmer and more experimental than a generic steel-and-glass minimalism label suggests. Herman Miller, Vitra, MoMA, Powers of Ten, film/photography and Case Study architecture are predictable leads. A recommendation of those names alone adds little.",
+    "predicted_leads": [
+      "Herman Miller",
+      "Vitra",
+      "MoMA",
+      "Powers of Ten",
+      "Case Study architecture",
+      "photography"
+    ]
+  },
+  {
+    "id": "gamble",
+    "A": "A 1908 Pasadena house with detailed woodwork, art glass and coordinated furnishings.",
+    "B": "Integrated craft and the relationship between building and furniture explain its appeal better than a size comparison. Likely links include Stickley, Arts and Crafts collections, woodworking and Japanese-influenced design. The Huntington is an obvious research institution given its Greene and Greene material. These are thematic hypotheses, not a premium estimate.",
+    "predicted_leads": [
+      "Stickley",
+      "Arts and Crafts",
+      "woodworking",
+      "Japanese design",
+      "Huntington"
+    ]
+  },
+  {
+    "id": "douglass",
+    "A": "A mid-19th-century Washington house enlarged to 21 rooms.",
+    "B": "Its significance principally follows Douglass’s life, writing and political history rather than a canonical architect. Literature, abolitionist history and African American history institutions are predictable connections. The distinction matters: a cultural history visitor is not thereby a buyer of this architectural style. No demographic or demand inference follows.",
+    "predicted_leads": [
+      "Frederick Douglass books",
+      "abolitionist history",
+      "African American history museums",
+      "Library of Congress"
+    ]
+  },
+  {
+    "id": "mckinley",
+    "A": "A 2015 Garland house of 1,594 square feet, two floors, three bedrooms and 2.5 baths, with documented efficient construction.",
+    "B": "Verified energy performance and practical domestic use are the supported differentiators. Building science, efficient appliances and sustainable construction are reasonable discovery themes; a famous-designer or collector narrative would be invented. The control tests whether Qloo can represent a home without relying on a museum or famous author.",
+    "predicted_leads": [
+      "building science",
+      "energy efficiency",
+      "sustainable construction"
+    ]
+  }
+]

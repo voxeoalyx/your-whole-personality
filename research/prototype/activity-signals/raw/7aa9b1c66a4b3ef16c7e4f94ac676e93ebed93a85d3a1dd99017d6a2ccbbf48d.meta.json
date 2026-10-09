@@ -1,0 +1,13 @@
+{
+  "at": 1791471350.857601,
+  "request_hash": "7aa9b1c66a4b3ef16c7e4f94ac676e93ebed93a85d3a1dd99017d6a2ccbbf48d",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:yoga",
+    "take": "20"
+  },
+  "response_sha256": "55b0eb40dcd3933c9c72c3c1a18b3f9e2bac57dfd675fd7a4876c1c2718926d8"
+}

@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T18:47:38.106114+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.469,
+  "http_status": 400,
+  "method": "GET",
+  "ok": false,
+  "params": {
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.type": "urn:heatmap",
+    "output.heatmap.boundary": "neighborhood",
+    "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop"
+  },
+  "raw_file": "..\\08-diagnostics\\coffee_neighborhood_heatmap.a1.json",
+  "request_sha256": "ad7e58659677125f1d8f750ea2a35a9d56e420d370a07f870bc7640bc623e6f8",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:47:39 GMT"
+  },
+  "response_sha256": "55d41115183a62f8b1b28f70a5b897759820c7c83cd67bbb3ab6821038e23e21",
+  "spec": {
+    "id": "r8_coffee_neighborhood_heatmap",
+    "kind": "heatmap_boundary_probe",
+    "dimension": "coffee_cafes",
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:heatmap",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "signal.interests.tags": "urn:tag:genre:place:restaurant:coffee_shop",
+      "output.heatmap.boundary": "neighborhood"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.type=urn%3Aheatmap&output.heatmap.boundary=neighborhood&signal.interests.tags=urn%3Atag%3Agenre%3Aplace%3Arestaurant%3Acoffee_shop",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\08-diagnostics\\coffee_neighborhood_heatmap.meta.json"
+}

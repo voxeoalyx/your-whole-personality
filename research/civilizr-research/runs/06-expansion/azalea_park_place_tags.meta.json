@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T18:45:28.526600+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.203,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.type": "urn:tag",
+    "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+    "take": "20"
+  },
+  "raw_file": "azalea_park_place_tags.a1.json",
+  "request_sha256": "2f4f98616792a7300e16208d0470893f4e05f30eee639d5361fa1eb9356bf89a",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:45:30 GMT"
+  },
+  "response_sha256": "223796c207b7797cdf09daca447a1b8d7be971c16e721db3259bc2ab0b1dc6a9",
+  "spec": {
+    "area": "Azalea Park",
+    "dimension": "place_tags",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "azalea_park_place_tags",
+    "kind": "profile",
+    "params": {
+      "filter.parents.types": "urn:entity:place",
+      "filter.type": "urn:tag",
+      "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+      "take": 20
+    },
+    "role": "control"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.parents.types=urn%3Aentity%3Aplace&filter.type=urn%3Atag&signal.location=6650137D-68BE-4596-95AB-2ECF9BC20180&take=20"
+}

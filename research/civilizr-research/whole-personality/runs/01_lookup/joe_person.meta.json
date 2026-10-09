@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:43.553870+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.485,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Joe Rogan",
+    "take": "5",
+    "types": "urn:entity:person"
+  },
+  "raw_file": "joe_person.a1.json",
+  "request_sha256": "0b79acfedd4b0a7dac620a3c15457d7e40b26643f2d0a1d700a8f804259ddcdf",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:43 GMT"
+  },
+  "response_sha256": "9c330713e2536eb528c34df880b1545f5ce56374e7be0806250dd47725b3e083",
+  "spec": {
+    "endpoint": "/search",
+    "id": "joe_person",
+    "kind": "discovery",
+    "params": {
+      "query": "Joe Rogan",
+      "take": 5,
+      "types": "urn:entity:person"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Joe+Rogan&take=5&types=urn%3Aentity%3Aperson"
+}

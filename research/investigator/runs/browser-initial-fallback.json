@@ -1,0 +1,639 @@
+{
+  "mode": "fixed_qloo_fallback",
+  "provider": "NVIDIA",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "fallback_reason": "invalid_actions",
+  "observation": "The investigator is unavailable. The fixed shortlist is taking the stand.",
+  "hypotheses": [],
+  "question_limit": 5,
+  "questions_remaining": 5,
+  "model_calls": 3,
+  "model_call_limit": 10,
+  "discovery_queries": 0,
+  "finished": false,
+  "stop_reason": null,
+  "unsupported_domains": {},
+  "trace": [
+    {
+      "event": "invalid_action",
+      "message": "No observed evidence for this hypothesis",
+      "result": {
+        "error": "No observed evidence for this hypothesis",
+        "rejected_action": {
+          "action": "TEST_PREDICTION",
+          "domain": "movie",
+          "candidate_id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+          "hypotheses": [
+            {
+              "domain": "movie",
+              "fit": "promising",
+              "confidence": "medium",
+              "evidence_ids": []
+            },
+            {
+              "domain": "videogame",
+              "fit": "uncertain",
+              "confidence": "low",
+              "evidence_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": "invalid_action",
+      "message": "No observed evidence for this hypothesis",
+      "result": {
+        "error": "No observed evidence for this hypothesis",
+        "rejected_action": {
+          "action": "TEST_PREDICTION",
+          "domain": "movie",
+          "candidate_id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+          "hypotheses": [
+            {
+              "domain": "movie",
+              "fit": "promising",
+              "confidence": "medium",
+              "evidence_ids": []
+            },
+            {
+              "domain": "videogame",
+              "fit": "uncertain",
+              "confidence": "low",
+              "evidence_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": "invalid_action",
+      "message": "No observed evidence for this hypothesis",
+      "result": {
+        "error": "No observed evidence for this hypothesis",
+        "rejected_action": {
+          "action": "TEST_PREDICTION",
+          "domain": "movie",
+          "candidate_id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+          "hypotheses": [
+            {
+              "domain": "movie",
+              "fit": "promising",
+              "confidence": "medium",
+              "evidence_ids": []
+            },
+            {
+              "domain": "videogame",
+              "fit": "uncertain",
+              "confidence": "low",
+              "evidence_ids": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": "fallback",
+      "reason": "invalid_actions",
+      "result": {
+        "mode": "fixed_qloo"
+      }
+    },
+    {
+      "event": "fixed_prediction",
+      "result": {
+        "presented": "6BBB34F4-9345-4459-82AE-10991FA35CD2"
+      }
+    }
+  ],
+  "qloo_requests": [
+    {
+      "id": "q1",
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": [
+          "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+          "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+        ],
+        "take": 20,
+        "bias.trends": "off",
+        "feature.explainability": true
+      },
+      "result": {
+        "count": 20,
+        "scored": 20,
+        "entities": [
+          {
+            "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+            "name": "Moon",
+            "score": 0.9214122017257635
+          },
+          {
+            "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+            "name": "Children of Men",
+            "score": 0.9109698928711949
+          },
+          {
+            "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+            "name": "Gattaca",
+            "score": 0.909829122524936
+          },
+          {
+            "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+            "name": "Primer",
+            "score": 0.9050818074256968
+          },
+          {
+            "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+            "name": "Ex Machina",
+            "score": 0.9021698507634591
+          },
+          {
+            "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+            "name": "Another Earth",
+            "score": 0.8998968509940891
+          },
+          {
+            "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+            "name": "Mr. Nobody",
+            "score": 0.8996604622104757
+          },
+          {
+            "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+            "name": "Enemy",
+            "score": 0.8970235099705482
+          },
+          {
+            "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+            "name": "Her",
+            "score": 0.8964961891245796
+          },
+          {
+            "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+            "name": "I Origins",
+            "score": 0.8928315302226351
+          },
+          {
+            "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+            "name": "Lost in Translation",
+            "score": 0.8908388083818256
+          },
+          {
+            "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+            "name": "Coherence",
+            "score": 0.8895035778225568
+          },
+          {
+            "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+            "name": "Upstream Color",
+            "score": 0.8889272439656057
+          },
+          {
+            "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+            "name": "The Lobster",
+            "score": 0.8881255698682798
+          },
+          {
+            "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+            "name": "Dark City",
+            "score": 0.8854199498172864
+          },
+          {
+            "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+            "name": "Sunshine",
+            "score": 0.8854090542717226
+          },
+          {
+            "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+            "name": "Snowpiercer",
+            "score": 0.8851184733708002
+          },
+          {
+            "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+            "name": "The Fountain",
+            "score": 0.8848456298309603
+          },
+          {
+            "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+            "name": "K-PAX",
+            "score": 0.8843028459866211
+          },
+          {
+            "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+            "name": "The Man from Earth",
+            "score": 0.8840438701897545
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": [
+          "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+          "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+        ],
+        "take": 20,
+        "bias.trends": "off",
+        "feature.explainability": true,
+        "filter.results.entities": [
+          "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+          "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+          "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+          "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+          "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+          "62E05907-9AF0-4362-88AF-9F03BC20675E",
+          "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+          "6F7EF896-FEF5-4160-B179-1987620E650D",
+          "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+          "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+          "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+          "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+          "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+          "BC2A8103-D00B-4495-86AC-AF200690699C",
+          "C454A23F-414C-45E7-B485-EDD35832D56C",
+          "CC25B3AF-7540-4695-B926-48C94EF754BB",
+          "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+          "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+          "E15DBB1E-79BB-480F-A101-01940778D6F6",
+          "F2D38796-6AEC-489E-A13D-DFEBB8527CB9"
+        ]
+      },
+      "result": {
+        "count": 20,
+        "scored": 20,
+        "entities": [
+          {
+            "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+            "name": "Moon",
+            "score": 0.9214122017257635
+          },
+          {
+            "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+            "name": "Children of Men",
+            "score": 0.9109698928711949
+          },
+          {
+            "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+            "name": "Gattaca",
+            "score": 0.909829122524936
+          },
+          {
+            "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+            "name": "Primer",
+            "score": 0.9050818074256968
+          },
+          {
+            "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+            "name": "Ex Machina",
+            "score": 0.9021698507634591
+          },
+          {
+            "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+            "name": "Another Earth",
+            "score": 0.8998968509940891
+          },
+          {
+            "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+            "name": "Mr. Nobody",
+            "score": 0.8996604622104757
+          },
+          {
+            "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+            "name": "Enemy",
+            "score": 0.8970235099705482
+          },
+          {
+            "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+            "name": "Her",
+            "score": 0.8964961891245796
+          },
+          {
+            "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+            "name": "I Origins",
+            "score": 0.8928315302226351
+          },
+          {
+            "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+            "name": "Lost in Translation",
+            "score": 0.8908388083818256
+          },
+          {
+            "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+            "name": "Coherence",
+            "score": 0.8895035778225568
+          },
+          {
+            "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+            "name": "Upstream Color",
+            "score": 0.8889272439656057
+          },
+          {
+            "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+            "name": "The Lobster",
+            "score": 0.8881255698682798
+          },
+          {
+            "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+            "name": "Dark City",
+            "score": 0.8854199498172864
+          },
+          {
+            "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+            "name": "Sunshine",
+            "score": 0.8854090542717226
+          },
+          {
+            "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+            "name": "Snowpiercer",
+            "score": 0.8851184733708002
+          },
+          {
+            "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+            "name": "The Fountain",
+            "score": 0.8848456298309603
+          },
+          {
+            "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+            "name": "K-PAX",
+            "score": 0.8843028459866211
+          },
+          {
+            "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+            "name": "The Man from Earth",
+            "score": 0.8840438701897545
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:videogame",
+        "signal.interests.entities": [
+          "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+          "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+        ],
+        "take": 20,
+        "bias.trends": "off",
+        "feature.explainability": true
+      },
+      "result": {
+        "count": 20,
+        "scored": 20,
+        "entities": [
+          {
+            "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+            "name": "Control",
+            "score": 0.8430831249218221
+          },
+          {
+            "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+            "name": "The Outer Worlds",
+            "score": 0.8333912719713729
+          },
+          {
+            "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+            "name": "Prey",
+            "score": 0.8300854897946056
+          },
+          {
+            "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+            "name": "Kingdom Come: Deliverance",
+            "score": 0.8261846859317639
+          },
+          {
+            "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+            "name": "Outer Wilds",
+            "score": 0.8176157552539315
+          },
+          {
+            "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+            "name": "Children of Morta",
+            "score": 0.8131104010020502
+          },
+          {
+            "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+            "name": "Mortal Shell",
+            "score": 0.810766354849056
+          },
+          {
+            "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+            "name": "Sekiro: Shadows Die Twice",
+            "score": 0.8072455080312901
+          },
+          {
+            "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+            "name": "Metro Exodus",
+            "score": 0.8062284407502256
+          },
+          {
+            "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+            "name": "Generation Zero",
+            "score": 0.8057053254447427
+          },
+          {
+            "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+            "name": "Hob",
+            "score": 0.8054033353368226
+          },
+          {
+            "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+            "name": "The Surge",
+            "score": 0.8046154905481848
+          },
+          {
+            "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+            "name": "Disco Elysium",
+            "score": 0.8037984828532544
+          },
+          {
+            "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+            "name": "CrossCode",
+            "score": 0.8035553747654132
+          },
+          {
+            "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+            "name": "Hades",
+            "score": 0.80344364201198
+          },
+          {
+            "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+            "name": "Half-Life: Alyx",
+            "score": 0.802950846813116
+          },
+          {
+            "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+            "name": "Kenshi",
+            "score": 0.8010801358300663
+          },
+          {
+            "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+            "name": "RAGE 2",
+            "score": 0.8007310026806825
+          },
+          {
+            "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+            "name": "Death Stranding",
+            "score": 0.7993254839953339
+          },
+          {
+            "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+            "name": "Wasteland 3",
+            "score": 0.799208573495565
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:videogame",
+        "signal.interests.entities": [
+          "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+          "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+        ],
+        "take": 20,
+        "bias.trends": "off",
+        "feature.explainability": true,
+        "filter.results.entities": [
+          "08910533-E760-4683-9201-57B9B73A4F7F",
+          "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+          "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+          "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+          "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+          "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+          "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+          "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+          "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+          "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+          "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+          "B061B95F-B940-4871-B80A-C12365E7A2A1",
+          "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+          "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+          "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+          "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+          "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+          "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+          "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+          "EA0D6B19-199B-439B-809D-B60B4412E405"
+        ]
+      },
+      "result": {
+        "count": 20,
+        "scored": 20,
+        "entities": [
+          {
+            "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+            "name": "Control",
+            "score": 0.8430831249218221
+          },
+          {
+            "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+            "name": "The Outer Worlds",
+            "score": 0.8333912719713729
+          },
+          {
+            "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+            "name": "Prey",
+            "score": 0.8300854897946056
+          },
+          {
+            "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+            "name": "Kingdom Come: Deliverance",
+            "score": 0.8261846859317639
+          },
+          {
+            "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+            "name": "Outer Wilds",
+            "score": 0.8176157552539315
+          },
+          {
+            "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+            "name": "Children of Morta",
+            "score": 0.8131104010020502
+          },
+          {
+            "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+            "name": "Mortal Shell",
+            "score": 0.810766354849056
+          },
+          {
+            "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+            "name": "Sekiro: Shadows Die Twice",
+            "score": 0.8072455080312901
+          },
+          {
+            "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+            "name": "Metro Exodus",
+            "score": 0.8062284407502256
+          },
+          {
+            "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+            "name": "Generation Zero",
+            "score": 0.8057053254447427
+          },
+          {
+            "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+            "name": "Hob",
+            "score": 0.8054033353368226
+          },
+          {
+            "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+            "name": "The Surge",
+            "score": 0.8046154905481848
+          },
+          {
+            "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+            "name": "Disco Elysium",
+            "score": 0.8037984828532544
+          },
+          {
+            "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+            "name": "CrossCode",
+            "score": 0.8035553747654132
+          },
+          {
+            "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+            "name": "Hades",
+            "score": 0.80344364201198
+          },
+          {
+            "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+            "name": "Half-Life: Alyx",
+            "score": 0.802950846813116
+          },
+          {
+            "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+            "name": "Kenshi",
+            "score": 0.8010801358300663
+          },
+          {
+            "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+            "name": "RAGE 2",
+            "score": 0.8007310026806825
+          },
+          {
+            "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+            "name": "Death Stranding",
+            "score": 0.7993254839953339
+          },
+          {
+            "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+            "name": "Wasteland 3",
+            "score": 0.799208573495565
+          }
+        ]
+      }
+    }
+  ]
+}

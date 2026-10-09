@@ -1,0 +1,13 @@
+{
+  "at": 1791471039.820326,
+  "request_hash": "4621fb3ee5279d1a231981974ae9b87da49ec55aacb47160634c79c8940caf6d",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:videogame",
+    "signal.interests.tags": "urn:tag:genre:media:architecture",
+    "take": "20"
+  },
+  "response_sha256": "45906d1abe4665475a2de139d33bc025368bf87526d93860ebe24113495917ed"
+}

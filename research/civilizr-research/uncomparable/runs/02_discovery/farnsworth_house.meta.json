@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-07T23:01:04.935901+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.328,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Farnsworth House",
+    "take": "10",
+    "types": "urn:entity:place"
+  },
+  "raw_file": "farnsworth_house.a1.json",
+  "request_sha256": "4f72fe2459508efddb0286ef1daf69b8b9c996f8fc79cebdab77c242d7adbd0f",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:06 GMT"
+  },
+  "response_sha256": "8d4aeabe4318f79335be6be86ca33b4db785273f07368041914b4b6a063ab4f6",
+  "spec": {
+    "endpoint": "/search",
+    "id": "farnsworth_house",
+    "kind": "discovery",
+    "params": {
+      "query": "Farnsworth House",
+      "take": 10,
+      "types": "urn:entity:place"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Farnsworth+House&take=10&types=urn%3Aentity%3Aplace"
+}

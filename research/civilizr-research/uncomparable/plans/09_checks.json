@@ -1,0 +1,236 @@
+{
+  "title": "Uncached repeat, candidate sensitivity, media and audience-direction probes",
+  "requests": [
+    {
+      "id": "eames_repeat",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 24,
+        "filter.results.entities": [
+          "02610282-EFD6-4962-920F-49312B296A93",
+          "12EA3AB3-21B2-4A20-9F0D-56C96E23FAC8",
+          "12FC33E1-45BD-40EB-9FDD-9E927CA7EDA0",
+          "15A62EDC-D915-4403-8527-3DAE26FCC4AE",
+          "1DDDFC7F-5407-4602-A3B4-FFFFC17B2419",
+          "24508749-4FDB-4496-A991-EB3AED755C3F",
+          "2D73F204-0AE7-48E5-AC4C-FB79A3D5409F",
+          "41B39945-7C8E-4266-9911-3E9EA2586D5C",
+          "50330837-3BAD-4ACB-AC3E-4B8810F48E11",
+          "520AD5EE-A663-4DB0-821F-2118E401F7AC",
+          "7579B79F-9961-4A0F-A7AD-3BF461137110",
+          "81EC484E-33D2-4247-B899-EB76B4439D4D",
+          "9FDEDD5B-6D0E-4375-A6E2-F0C933089C82",
+          "A22A05D2-B720-4D3F-9CBC-245B55B970E6",
+          "BBE036A6-555F-4094-B78F-FA2302E2D80C",
+          "C1BFB5C0-CB34-41CB-9771-43D7D5EF3A6D",
+          "CA45269A-77BE-4F89-A882-F219A7941A13",
+          "CEEE576F-EDE2-4456-BB20-690DED5F16CE",
+          "D2A0CB9E-F2A7-4F1A-B977-B8658E5862FD",
+          "D38553FE-71D4-4C1F-AB05-B9DCD1329E8E",
+          "E7953F4B-B06B-4DC0-948B-FE79E12F2868",
+          "EA3475FA-2F43-4622-B0AE-ECC8D2684820",
+          "F29AA197-30CA-431D-A533-BFCFFFCCEB15",
+          "FCBF3ABA-5C8C-46A5-AD52-FA1B46DB1F37"
+        ]
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "brand"
+    },
+    {
+      "id": "eames_half",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 12,
+        "filter.results.entities": [
+          "02610282-EFD6-4962-920F-49312B296A93",
+          "12FC33E1-45BD-40EB-9FDD-9E927CA7EDA0",
+          "1DDDFC7F-5407-4602-A3B4-FFFFC17B2419",
+          "2D73F204-0AE7-48E5-AC4C-FB79A3D5409F",
+          "50330837-3BAD-4ACB-AC3E-4B8810F48E11",
+          "7579B79F-9961-4A0F-A7AD-3BF461137110",
+          "9FDEDD5B-6D0E-4375-A6E2-F0C933089C82",
+          "BBE036A6-555F-4094-B78F-FA2302E2D80C",
+          "CA45269A-77BE-4F89-A882-F219A7941A13",
+          "D2A0CB9E-F2A7-4F1A-B977-B8658E5862FD",
+          "E7953F4B-B06B-4DC0-948B-FE79E12F2868",
+          "F29AA197-30CA-431D-A533-BFCFFFCCEB15"
+        ]
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "brand"
+    },
+    {
+      "id": "farnsworth_half",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:brand",
+        "signal.interests.entities": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 12,
+        "filter.results.entities": [
+          "02610282-EFD6-4962-920F-49312B296A93",
+          "12FC33E1-45BD-40EB-9FDD-9E927CA7EDA0",
+          "1DDDFC7F-5407-4602-A3B4-FFFFC17B2419",
+          "2D73F204-0AE7-48E5-AC4C-FB79A3D5409F",
+          "50330837-3BAD-4ACB-AC3E-4B8810F48E11",
+          "7579B79F-9961-4A0F-A7AD-3BF461137110",
+          "9FDEDD5B-6D0E-4375-A6E2-F0C933089C82",
+          "BBE036A6-555F-4094-B78F-FA2302E2D80C",
+          "CA45269A-77BE-4F89-A882-F219A7941A13",
+          "D2A0CB9E-F2A7-4F1A-B977-B8658E5862FD",
+          "E7953F4B-B06B-4DC0-948B-FE79E12F2868",
+          "F29AA197-30CA-431D-A533-BFCFFFCCEB15"
+        ]
+      },
+      "kind": "fixed_profile",
+      "input": "farnsworth",
+      "domain": "brand"
+    },
+    {
+      "id": "eames_places_repeat",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 15,
+        "filter.results.entities": [
+          "36DBE6E7-2DCC-46F8-8358-3FAA0EBFC502",
+          "4367F096-2E61-4438-9700-FE551B7E2636",
+          "476D8BBC-2E0E-4E3A-9825-A5670050A9EE",
+          "4C02C569-F653-4252-9FCC-850EADCEFD7F",
+          "50B73768-435F-4DB0-B4A0-EA3FDFEDAF97",
+          "5FD69C52-6FE4-4521-80AB-8190C1DA38A7",
+          "801EADAD-C33C-44DE-8499-21D6E1CD4C79",
+          "86592336-FD51-4FAD-A92B-49F4533EBD56",
+          "8CD37106-3602-404C-BAD5-E989B7F6CA8A",
+          "921207FB-C3A2-4F04-8EDC-E5D7774D6045",
+          "B82C8539-99CD-4CF0-B59D-AE46B5A23ADB",
+          "BCCA7BF2-7377-435E-9D34-C5CBC1CD6987",
+          "C94B30D2-07E5-47C9-9CEC-EE871D1EEC69",
+          "C9F2C06E-9A4F-4D83-A741-A246B28D339E",
+          "E187CCD1-CFE4-41CF-803E-60A8C265BECB"
+        ]
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "place"
+    },
+    {
+      "id": "eames_places_half",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 8,
+        "filter.results.entities": [
+          "36DBE6E7-2DCC-46F8-8358-3FAA0EBFC502",
+          "476D8BBC-2E0E-4E3A-9825-A5670050A9EE",
+          "50B73768-435F-4DB0-B4A0-EA3FDFEDAF97",
+          "801EADAD-C33C-44DE-8499-21D6E1CD4C79",
+          "8CD37106-3602-404C-BAD5-E989B7F6CA8A",
+          "B82C8539-99CD-4CF0-B59D-AE46B5A23ADB",
+          "C94B30D2-07E5-47C9-9CEC-EE871D1EEC69",
+          "E187CCD1-CFE4-41CF-803E-60A8C265BECB"
+        ]
+      },
+      "kind": "fixed_profile",
+      "input": "eames",
+      "domain": "place"
+    },
+    {
+      "id": "gamble_movie",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 10
+      },
+      "kind": "fixed_profile",
+      "input": "gamble",
+      "domain": "movie"
+    },
+    {
+      "id": "audience_architecture",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.demographics.audiences": "urn:audience:hobbies_and_interests:architecture",
+        "filter.results.entities": [
+          "B93EFF0C-C623-4F82-AD33-C82710D86FAB",
+          "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+          "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+          "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+          "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+          "49691E2A-00CB-42FF-AEF2-B075CF22DE9E"
+        ],
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 6
+      },
+      "kind": "fixed_profile",
+      "domain": "place",
+      "input": "audience_architecture"
+    },
+    {
+      "id": "audience_photography",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.demographics.audiences": "urn:audience:hobbies_and_interests:photography",
+        "filter.results.entities": [
+          "B93EFF0C-C623-4F82-AD33-C82710D86FAB",
+          "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+          "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+          "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+          "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+          "49691E2A-00CB-42FF-AEF2-B075CF22DE9E"
+        ],
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 6
+      },
+      "kind": "fixed_profile",
+      "domain": "place",
+      "input": "audience_photography"
+    },
+    {
+      "id": "audience_home_organization",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:entity:place",
+        "signal.demographics.audiences": "urn:audience:hobbies_and_interests:home_organization",
+        "filter.results.entities": [
+          "B93EFF0C-C623-4F82-AD33-C82710D86FAB",
+          "C2C17BD0-5B07-45FF-AC62-612A1DE9A152",
+          "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+          "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+          "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+          "49691E2A-00CB-42FF-AEF2-B075CF22DE9E"
+        ],
+        "feature.explainability": true,
+        "bias.trends": "off",
+        "take": 6
+      },
+      "kind": "fixed_profile",
+      "domain": "place",
+      "input": "audience_home_organization"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-07T18:46:43.900700+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.656,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.tags": "urn:tag:genre:place:restaurant",
+    "filter.type": "urn:entity:place",
+    "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+    "take": "20"
+  },
+  "raw_file": "..\\07-culture-remaining\\audubon_park_food_dining.a1.json",
+  "request_sha256": "c390a660ffd729f7d82ff60f338c25a6ae9412a9c7cf2dcf2265e3d34dbe323a",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:46:45 GMT"
+  },
+  "response_sha256": "30b2721616b6e02adb4fb818b70fa2ac847bb1e33f65da89a99865ea6461632d",
+  "spec": {
+    "id": "r7_audubon_park_food_dining",
+    "area": "Audubon Park",
+    "role": "target",
+    "dimension": "food_dining",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:place",
+      "filter.tags": "urn:tag:genre:place:restaurant",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+      "bias.trends": "off",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.tags=urn%3Atag%3Agenre%3Aplace%3Arestaurant&filter.type=urn%3Aentity%3Aplace&signal.location=7E6E3DFF-5154-4DDE-B08D-1392D771EC81&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\07-culture-remaining\\audubon_park_food_dining.meta.json"
+}

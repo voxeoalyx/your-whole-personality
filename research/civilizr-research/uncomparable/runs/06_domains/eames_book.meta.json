@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T23:03:37.466422+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.703,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:book",
+    "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+    "take": "10"
+  },
+  "raw_file": "eames_book.a1.json",
+  "request_sha256": "2ca7d1acc3699349268305a439058b2686cbdb5b5516aa68ac87a166406cf6ba",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:03:39 GMT"
+  },
+  "response_sha256": "8f75507c8dc1b3a65d288930eba3b9c618a78da0fbba51c7595b0dff461c5c9f",
+  "spec": {
+    "domain": "book",
+    "endpoint": "/v2/insights",
+    "id": "eames_book",
+    "input": "eames",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:book",
+      "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abook&signal.interests.entities=844F3E47-3370-4BAF-B69C-CBD98C5CA228&take=10"
+}

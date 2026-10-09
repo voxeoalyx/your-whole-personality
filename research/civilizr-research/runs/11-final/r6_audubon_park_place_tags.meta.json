@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-07T18:45:19.977591+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.907,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.type": "urn:tag",
+    "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+    "take": "20"
+  },
+  "raw_file": "..\\06-expansion\\audubon_park_place_tags.a1.json",
+  "request_sha256": "86eb08d0b6d1cf6ddfcefe3af454a421f36d193ff447714a676a8f76100f3be7",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:45:21 GMT"
+  },
+  "response_sha256": "c926808c91cc7c72ca134c117ad3acf41cce2180f0f8be042ce17be6206cca92",
+  "spec": {
+    "id": "r6_audubon_park_place_tags",
+    "area": "Audubon Park",
+    "role": "target",
+    "dimension": "place_tags",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:tag",
+      "filter.parents.types": "urn:entity:place",
+      "signal.location": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.parents.types=urn%3Aentity%3Aplace&filter.type=urn%3Atag&signal.location=7E6E3DFF-5154-4DDE-B08D-1392D771EC81&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\06-expansion\\audubon_park_place_tags.meta.json"
+}

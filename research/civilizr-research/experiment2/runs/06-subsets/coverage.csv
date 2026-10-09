@@ -1,0 +1,5 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+winter_park_base_brands_subset,winter_park,brands,fixed_profile,winter_park_base_brands_subset.a1.json,ok,200,24,24,24,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+winter_park_base_tags_subset,winter_park,tags,fixed_profile,winter_park_base_tags_subset.a1.json,ok,200,12,12,12,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+pine_hills_base_brands_subset,pine_hills,brands,fixed_profile,pine_hills_base_brands_subset.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":5015328}}}"
+pine_hills_base_tags_subset,pine_hills,tags,fixed_profile,pine_hills_base_tags_subset.a1.json,ok,200,12,12,12,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":5015328}}}"

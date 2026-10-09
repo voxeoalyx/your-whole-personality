@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-07T18:36:45.068426+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.297,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.query": "fitness",
+    "page": "1",
+    "take": "20"
+  },
+  "raw_file": "fitness_taxonomy.a1.json",
+  "request_sha256": "20c19521e2de1badb165edb28621994dc8163f4edb28e40d59f9dff730d00cc0",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:36:46 GMT"
+  },
+  "response_sha256": "330b5c14f914bf324411fe1861d1c0e11b103bf4bdbd6b8c23743474bf5480d7",
+  "spec": {
+    "dimension": "fitness",
+    "endpoint": "/v2/tags",
+    "id": "fitness_taxonomy",
+    "kind": "taxonomy",
+    "params": {
+      "filter.parents.types": "urn:entity:place",
+      "filter.query": "fitness",
+      "page": 1,
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.parents.types=urn%3Aentity%3Aplace&filter.query=fitness&page=1&take=20"
+}

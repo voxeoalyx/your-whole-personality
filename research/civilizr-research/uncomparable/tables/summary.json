@@ -1,0 +1,84 @@
+{
+  "requests": 79,
+  "http_200": 74,
+  "http_400": 5,
+  "stability": [
+    {
+      "test": "eames_repeat",
+      "kind": "repeat",
+      "expected": 24,
+      "paired": 24,
+      "complete": true,
+      "spearman": 1.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "test": "eames_half",
+      "kind": "candidate_half",
+      "expected": 12,
+      "paired": 12,
+      "complete": true,
+      "spearman": 1.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "test": "farnsworth_half",
+      "kind": "candidate_half",
+      "expected": 12,
+      "paired": 12,
+      "complete": true,
+      "spearman": 1.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "test": "eames_places_repeat",
+      "kind": "repeat",
+      "expected": 15,
+      "paired": 15,
+      "complete": true,
+      "spearman": 1.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "test": "eames_places_half",
+      "kind": "candidate_half",
+      "expected": 8,
+      "paired": 8,
+      "complete": true,
+      "spearman": 1.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "test": "eames_fixed__ray_fixed",
+      "kind": "related_input",
+      "expected": 24,
+      "paired": 24,
+      "complete": true,
+      "spearman": -0.6652173913043479,
+      "top5_jaccard": 0.0
+    },
+    {
+      "test": "eames_places_fixed__ray_places_fixed",
+      "kind": "related_input",
+      "expected": 15,
+      "paired": 15,
+      "complete": true,
+      "spearman": 0.45357142857142857,
+      "top5_jaccard": 0.42857142857142855
+    },
+    {
+      "test": "wright_fixed__ray_fixed",
+      "kind": "different_author",
+      "expected": 24,
+      "paired": 24,
+      "complete": true,
+      "spearman": 0.9539130434782609,
+      "top5_jaccard": 0.42857142857142855
+    }
+  ],
+  "candidate_states": {
+    "scored": 386,
+    "returned_unscored": 0,
+    "missing": 3
+  }
+}

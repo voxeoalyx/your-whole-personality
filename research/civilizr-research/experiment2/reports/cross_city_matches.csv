@@ -1,0 +1,28 @@
+﻿domain,orlando,best_atlanta,rho,available_atlanta,runner_up,distance_margin,best_after_atlanta_shift,best_after_orlando_shift,generic_orlando_best,half0_best,half1_best,shared_top_quartile
+brands,audubon_park,atl_inman_park,0.7036308973172988,2,atl_midtown,0.02983348751156334,atl_inman_park,atl_inman_park,atl_midtown,atl_midtown,atl_inman_park,HomeGoods;Whole Foods Market;Sephora;The New York Times;Starbucks;Netflix
+brands,baldwin_park,atl_inman_park,0.8241211840888066,2,atl_midtown,0.018212303422756704,atl_inman_park,atl_inman_park,atl_midtown,atl_midtown,atl_inman_park,HomeGoods;Whole Foods Market;Sephora;The New York Times;Starbucks;Netflix;Bleacher Report
+brands,city_district,atl_midtown,0.7738205365402405,2,atl_inman_park,0.006359851988899157,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,atl_midtown,Sephora;Instagram;Louis Vuitton;ESPN;Gucci;Starbucks;Bleacher Report
+brands,thornton_park,atl_midtown,0.7762488436632747,2,atl_inman_park,0.0026017576318223545,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,atl_midtown,Sephora;Instagram;Louis Vuitton;ESPN;Gucci;Starbucks;Bleacher Report
+brands,winter_park,atl_midtown,0.7953283996299723,2,atl_inman_park,0.0046253469010175685,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,atl_inman_park,HomeGoods;Whole Foods Market;Sephora;Instagram;Louis Vuitton;Gucci;Starbucks
+brands_independent,audubon_park,atl_inman_park,0.9107692307692308,2,atl_midtown,0.015769230769230758,atl_inman_park,atl_inman_park,atl_midtown,atl_inman_park,atl_inman_park,Sephora;The New York Times;Starbucks;Netflix
+brands_independent,baldwin_park,atl_midtown,0.9261538461538461,2,atl_inman_park,0.0030769230769230327,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Sephora;Instagram;Louis Vuitton;Starbucks
+brands_independent,city_district,atl_midtown,0.9315384615384615,2,atl_inman_park,0.03269230769230769,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Sephora;Louis Vuitton;Gucci;Starbucks
+brands_independent,thornton_park,atl_midtown,0.9307692307692308,2,atl_inman_park,0.03346153846153849,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Sephora;Louis Vuitton;Gucci;Starbucks
+brands_independent,winter_park,atl_midtown,0.946923076923077,2,atl_inman_park,0.030000000000000027,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Sephora;Instagram;Louis Vuitton;Gucci;Starbucks
+brands_pooled,audubon_park,atl_inman_park,0.5269565217391304,3,atl_midtown,0.05086956521739133,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,HomeGoods;West Elm;Whole Foods Market;Starbucks
+brands_pooled,azalea_park,atl_inman_park,0.5817391304347826,3,atl_midtown,0.041304347826086996,atl_inman_park,atl_inman_park,atl_inman_park,atl_west_end,atl_inman_park,HomeGoods;Starbucks;Bleacher Report
+brands_pooled,baldwin_park,atl_inman_park,0.6860869565217391,3,atl_midtown,0.05869565217391304,atl_inman_park,atl_inman_park,atl_inman_park,atl_midtown,atl_inman_park,HomeGoods;Whole Foods Market;Starbucks;Bleacher Report
+brands_pooled,city_district,atl_inman_park,0.5886956521739131,3,atl_midtown,0.043478260869565244,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,HomeGoods;Starbucks;Bleacher Report
+brands_pooled,college_park,atl_inman_park,0.611304347826087,3,atl_midtown,0.02173913043478265,atl_inman_park,atl_inman_park,atl_inman_park,atl_midtown,atl_inman_park,HomeGoods;West Elm;Whole Foods Market;Starbucks
+brands_pooled,mills_50,atl_inman_park,0.671304347826087,3,atl_midtown,0.09521739130434781,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,HomeGoods;Whole Foods Market;Starbucks
+brands_pooled,thornton_park,atl_inman_park,0.5826086956521739,3,atl_midtown,0.04478260869565215,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,HomeGoods;Starbucks;Bleacher Report
+brands_pooled,winter_park,atl_inman_park,0.6321739130434783,3,atl_midtown,0.026086956521739146,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,atl_inman_park,HomeGoods;Whole Foods Market;Starbucks
+food,audubon_park,atl_midtown,0.8741258741258742,3,atl_inman_park,0.02447552447552448,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Coffee shop;Mexican
+food,azalea_park,atl_midtown,0.972027972027972,3,atl_inman_park,0.003496503496503489,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Mexican
+food,baldwin_park,atl_midtown,0.951048951048951,3,atl_inman_park,0.0174825174825175,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Coffee shop;Mexican
+food,city_district,atl_midtown,0.972027972027972,3,atl_inman_park,0.006993006993006978,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Coffee shop;Mexican
+food,college_park,atl_midtown,0.7972027972027972,3,atl_inman_park,0.02447552447552448,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Coffee shop;Mexican
+food,mills_50,atl_midtown,0.9300699300699301,3,atl_inman_park,0.0174825174825175,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Coffee shop;Mexican
+food,pine_hills,atl_midtown,0.9440559440559441,3,atl_inman_park,0.006993006993006978,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Mexican
+food,thornton_park,atl_midtown,0.986013986013986,3,atl_inman_park,0.006993006993007034,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Coffee shop;Mexican
+food,winter_park,atl_midtown,0.9440559440559441,3,atl_inman_park,0.0174825174825175,atl_midtown,atl_midtown,atl_midtown,atl_inman_park,atl_midtown,Bakery;Coffee shop;Mexican

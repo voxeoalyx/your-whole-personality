@@ -1,0 +1,44 @@
+[
+  {
+    "name": "data-foundation",
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/data-foundation.md",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:18:28.662Z",
+    "sha256": "1aeb1d45d20c3bb4e43e16f3077c327aba73f4acebbccac59e8a7c81d65107ac"
+  },
+  {
+    "name": "processing-methodology",
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/processing-methodology.md",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:18:28.853Z",
+    "sha256": "5781e7d01c0da2d48d2414c15c285cbf7129d7433c9e3137ceb8cec8fb43f15a"
+  },
+  {
+    "name": "representative-data-and-patterns",
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/representative-data-and-patterns.md",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:18:29.032Z",
+    "sha256": "9db1d146aae11e4c9408bb386fd37f3ef5efea7d983692b8112def9d01c3f006"
+  },
+  {
+    "name": "faqs",
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/faqs.md",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:18:29.251Z",
+    "sha256": "c16b7b67c6af471e9d5c49105b726bbcdb219b11d535bba177a3d9723862b335"
+  },
+  {
+    "name": "affinity-score-methodology",
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/affinity-score-methodology.md",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:18:29.484Z",
+    "sha256": "d13e53c076b67ae0f392b91253cd282aba330c74f6e72da3805e43b7bfbec656"
+  },
+  {
+    "name": "interpreting-affinity-scores",
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/interpreting-affinity-scores.md",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:18:29.627Z",
+    "sha256": "53e98cf530f8155469054c6159ea44a8d72384a479cad0e8d4290635feb9fd6f"
+  }
+]

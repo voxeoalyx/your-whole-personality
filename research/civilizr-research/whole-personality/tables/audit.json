@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-08T11:36:05.419451+00:00",
+  "passed": true,
+  "attempts": 183,
+  "raw_responses_verified": 183,
+  "endpoints": {
+    "/search": 19,
+    "/v2/insights": 164
+  },
+  "first_request_at": "2026-10-08T11:04:41.126153+00:00",
+  "last_request_at": "2026-10-08T11:16:16.480856+00:00",
+  "preregistration_verified": true,
+  "shared_runner_sha256": "88926b5ff19d9578b0be91249bce28af4fa4ad08289956bda59ef7d9d0db267e",
+  "narratives_trace_to_raw": true,
+  "active_key_artifact_scan": "passed",
+  "files_scanned": 499
+}

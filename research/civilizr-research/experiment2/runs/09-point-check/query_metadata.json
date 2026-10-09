@@ -1,0 +1,98 @@
+[
+  {
+    "request_id": "winter_park_point1000_brands",
+    "area": "winter_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_point1000_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_point1000_tags",
+    "area": "winter_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_point1000_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_point1000_brands",
+    "area": "pine_hills",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_point1000_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_point1000_tags",
+    "area": "pine_hills",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_point1000_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_point1000_brands",
+    "area": "mills_50",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_point1000_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_point1000_tags",
+    "area": "mills_50",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_point1000_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  }
+]

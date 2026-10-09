@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-07T18:36:43.574998+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.437,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.query": "restaurant",
+    "page": "1",
+    "take": "20"
+  },
+  "raw_file": "..\\03-discovery\\restaurant_taxonomy.a1.json",
+  "request_sha256": "6cb89e3f3ca481a81b4a3638bc252fa996f6f1a46173849acfe6edb5730dfbdb",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:36:45 GMT"
+  },
+  "response_sha256": "cc36aefadbd4ce857526912c082218424fc569db572b7bf86f9e9924a931aca6",
+  "spec": {
+    "id": "r3_restaurant_taxonomy",
+    "kind": "taxonomy",
+    "dimension": "restaurant",
+    "endpoint": "/v2/tags",
+    "params": {
+      "filter.parents.types": "urn:entity:place",
+      "filter.query": "restaurant",
+      "take": 20,
+      "page": 1
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.parents.types=urn%3Aentity%3Aplace&filter.query=restaurant&page=1&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\03-discovery\\restaurant_taxonomy.meta.json"
+}

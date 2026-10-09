@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-08T11:16:08.482764+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.391,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.results.entities": "064AC32D-CB0D-46D6-A266-E002D061D029,28D343A9-E52A-473D-9B23-1FD564F9B4DD,2FED73B8-8544-4ED3-8D47-6678AE23DE99,3194D810-FE41-4AFD-81E7-12B8D46E2320,410591C9-CEE7-4CE8-B5D5-703035738816,5EA41178-D39F-4086-8EF5-988AD3563B5B,9A27891E-DE13-4E95-8318-F4EB6E6E661E,B36C968C-63BF-49C2-A031-3974337D9ABB,C30C5FF2-ACEE-4915-B711-EBCCEFD9B91B,CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C,22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+    "take": "10"
+  },
+  "raw_file": "p01_tv_show_half.a1.json",
+  "request_sha256": "1f168d65f5c5196cd002615e1f407eedb4c81d0574af7fb5de14dd567c401054",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:16:08 GMT"
+  },
+  "response_sha256": "75588fd86dff71b5f5247f63225ba74462bba39b5312bd15f2982347ea6f4f44",
+  "spec": {
+    "check": "candidate_half_reissue",
+    "compare_to": "03_gate/p01_tv_show",
+    "domain": "tv_show",
+    "endpoint": "/v2/insights",
+    "id": "p01_tv_show_half",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.results.entities": [
+        "064AC32D-CB0D-46D6-A266-E002D061D029",
+        "28D343A9-E52A-473D-9B23-1FD564F9B4DD",
+        "2FED73B8-8544-4ED3-8D47-6678AE23DE99",
+        "3194D810-FE41-4AFD-81E7-12B8D46E2320",
+        "410591C9-CEE7-4CE8-B5D5-703035738816",
+        "5EA41178-D39F-4086-8EF5-988AD3563B5B",
+        "9A27891E-DE13-4E95-8318-F4EB6E6E661E",
+        "B36C968C-63BF-49C2-A031-3974337D9ABB",
+        "C30C5FF2-ACEE-4915-B711-EBCCEFD9B91B",
+        "CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2"
+      ],
+      "filter.type": "urn:entity:tv_show",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "569F8294-72DA-4935-B9F2-4FC697AB2A1E"
+      ],
+      "take": 10
+    },
+    "seed_keys": [
+      "radiohead",
+      "blue_bottle",
+      "severance"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.results.entities=064AC32D-CB0D-46D6-A266-E002D061D029%2C28D343A9-E52A-473D-9B23-1FD564F9B4DD%2C2FED73B8-8544-4ED3-8D47-6678AE23DE99%2C3194D810-FE41-4AFD-81E7-12B8D46E2320%2C410591C9-CEE7-4CE8-B5D5-703035738816%2C5EA41178-D39F-4086-8EF5-988AD3563B5B%2C9A27891E-DE13-4E95-8318-F4EB6E6E661E%2CB36C968C-63BF-49C2-A031-3974337D9ABB%2CC30C5FF2-ACEE-4915-B711-EBCCEFD9B91B%2CCEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2&filter.type=urn%3Aentity%3Atv_show&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2C22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D%2C569F8294-72DA-4935-B9F2-4FC697AB2A1E&take=10"
+}

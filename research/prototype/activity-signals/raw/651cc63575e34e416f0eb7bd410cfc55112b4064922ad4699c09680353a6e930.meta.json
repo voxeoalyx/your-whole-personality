@@ -1,0 +1,13 @@
+{
+  "at": 1791471023.9671688,
+  "request_hash": "651cc63575e34e416f0eb7bd410cfc55112b4064922ad4699c09680353a6e930",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.tags": "urn:tag:genre:media:architecture",
+    "take": "20"
+  },
+  "response_sha256": "ef490596c6ff9b5d2dc4481c922daad08efb630146d92d2d8e1c00d143c8bccd"
+}

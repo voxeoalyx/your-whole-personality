@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:45.171941+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.313,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Huberman Lab",
+    "take": "5",
+    "types": "urn:entity:podcast"
+  },
+  "raw_file": "huberman.a1.json",
+  "request_sha256": "1ef597888c818caa712ab6030daa4c43f80be4b7013497932e7cea54b0b1e694",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:45 GMT"
+  },
+  "response_sha256": "8359296741f7c6e21145a10d94eced6f35e222898e0a72f8788e8157e6723dc5",
+  "spec": {
+    "endpoint": "/search",
+    "id": "huberman",
+    "kind": "discovery",
+    "params": {
+      "query": "Huberman Lab",
+      "take": 5,
+      "types": "urn:entity:podcast"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Huberman+Lab&take=5&types=urn%3Aentity%3Apodcast"
+}

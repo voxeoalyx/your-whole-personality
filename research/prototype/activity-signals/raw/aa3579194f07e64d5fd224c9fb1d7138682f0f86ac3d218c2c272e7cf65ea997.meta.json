@@ -1,0 +1,10 @@
+{
+  "at": 1791470811.2021186,
+  "request_hash": "aa3579194f07e64d5fd224c9fb1d7138682f0f86ac3d218c2c272e7cf65ea997",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.query": "weightlifting",
+    "take": "50"
+  },
+  "response_sha256": "f7d8418e42e4928e53659bf1449fdc23a1440817e5e2f045a067b523306b5bc1"
+}

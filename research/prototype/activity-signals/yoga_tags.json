@@ -1,0 +1,664 @@
+{
+  "duration": 114,
+  "success": true,
+  "results": {
+    "tags": [
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:amenity:qloo",
+        "id": "urn:tag:amenity:qloo:yoga",
+        "name": "Yoga",
+        "popularity": 0.9980603,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:artist"
+          },
+          {
+            "type": "urn:entity:album"
+          }
+        ],
+        "type": "urn:tag:genre:music",
+        "id": "urn:tag:genre:music:yoga",
+        "name": "Yoga",
+        "popularity": 0.98553133,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:podcast"
+          },
+          {
+            "type": "urn:entity:movie"
+          }
+        ],
+        "type": "urn:tag:keyword:qloo",
+        "id": "urn:tag:keyword:qloo:yoga",
+        "name": "Yoga",
+        "popularity": 0.64651227,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:yoga_studio",
+        "name": "Yoga studio",
+        "popularity": 0.9996639,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:yoga_studio",
+        "name": "Yoga studio",
+        "popularity": 0.9996639,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:yoga_instructor",
+        "name": "Yoga instructor",
+        "popularity": 0.9992801,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:yoga_instructor",
+        "name": "Yoga instructor",
+        "popularity": 0.9992801,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:amenity:place",
+        "id": "urn:tag:amenity:place:yoga_classes",
+        "name": "Yoga classes",
+        "popularity": 0.9988116,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:yoga_retreat_center",
+        "name": "Yoga retreat center",
+        "popularity": 0.99861497,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:hotel:yoga_retreat_center",
+        "name": "Yoga retreat center",
+        "popularity": 0.99861497,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:amenity:place",
+        "id": "urn:tag:amenity:place:yoga_room",
+        "name": "Yoga room",
+        "popularity": 0.9979098,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:restaurant:yoga_studio",
+        "name": "Yoga Studio",
+        "popularity": 0.9938165,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:hotel:yoga_studio",
+        "name": "Yoga Studio",
+        "popularity": 0.99183315,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:yoga_retreat_center",
+        "name": "Yoga Retreat Center",
+        "popularity": 0.98827404,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:restaurant:yoga_retreat_center",
+        "name": "Yoga Retreat Center",
+        "popularity": 0.98668665,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_barn",
+        "name": "Yoga Barn",
+        "popularity": 0.97434133,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:person"
+          }
+        ],
+        "type": "urn:tag:occupation:wikidata",
+        "id": "urn:tag:occupation:wikidata:yoga_painter",
+        "name": "Yōga Painter",
+        "popularity": 0.97383946,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:hotel:yoga_instructor",
+        "name": "Yoga Instructor",
+        "popularity": 0.97326297,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:person"
+          }
+        ],
+        "type": "urn:tag:occupation:wikidata",
+        "id": "urn:tag:occupation:wikidata:yoga_instructor",
+        "name": "Yoga Instructor",
+        "popularity": 0.9702027,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:restaurant:yoga_instructor",
+        "name": "Yoga Instructor",
+        "popularity": 0.96565384,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_retreats",
+        "name": "Yoga Retreats",
+        "popularity": 0.9530562,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_studios",
+        "name": "Yoga Studios",
+        "popularity": 0.95133096,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_centers",
+        "name": "Yoga Centers",
+        "popularity": 0.94216996,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_studio",
+        "name": "Yoga Studio",
+        "popularity": 0.92695063,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:podcast"
+          }
+        ],
+        "type": "urn:tag:subgenre:qloo",
+        "id": "urn:tag:subgenre:qloo:yoga",
+        "name": "Yoga",
+        "popularity": 0.53176516,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_events",
+        "name": "Yoga Events",
+        "popularity": 0.89505154,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_workshops",
+        "name": "Yoga Workshops",
+        "popularity": 0.8794886,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_classes",
+        "name": "Yoga Classes",
+        "popularity": 0.8794886,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_sessions",
+        "name": "Yoga Sessions",
+        "popularity": 0.85869884,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_center",
+        "name": "Yoga Center",
+        "popularity": 0.81468993,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_and_meditation_centers",
+        "name": "Yoga and Meditation Centers",
+        "popularity": 0.76313895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_classes",
+        "name": "Yoga Classes",
+        "popularity": 0.76313895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_and_wellness_classes",
+        "name": "Yoga and Wellness Classes",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:specialty_dish:place",
+        "id": "urn:tag:specialty_dish:place:yoga_pants",
+        "name": "Yoga Pants",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:specialty_dish:place",
+        "id": "urn:tag:specialty_dish:place:yoga_bowl",
+        "name": "Yoga Bowl",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga_retreats",
+        "name": "Yoga Retreats",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_retreat_dining",
+        "name": "Yoga Retreat Dining",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_brunches",
+        "name": "Yoga Brunches",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_brunch",
+        "name": "Yoga Brunch",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:good_for:qloo",
+        "id": "urn:tag:good_for:qloo:yoga_groups",
+        "name": "Yoga Groups",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:category:place",
+        "id": "urn:tag:category:place:bikram_yoga_studio",
+        "name": "Bikram yoga studio",
+        "popularity": 0.9949809,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:genre:place",
+        "id": "urn:tag:genre:place:bikram_yoga_studio",
+        "name": "Bikram yoga studio",
+        "popularity": 0.9949809,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:radiantly_alive_yoga_studio",
+        "name": "Radiantly Alive Yoga Studio",
+        "popularity": 0.85869884,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:isha_yoga_center",
+        "name": "Isha Yoga Center",
+        "popularity": 0.81468993,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:yoga",
+        "name": "Yoga",
+        "popularity": 0,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:neighborhood_characteristics:qloo",
+        "id": "urn:tag:neighborhood_characteristics:qloo:close_to_yoga_barn",
+        "name": "Close to Yoga Barn",
+        "popularity": 0.76313895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:neighborhood_characteristics:qloo",
+        "id": "urn:tag:neighborhood_characteristics:qloo:near_yoga_centers",
+        "name": "Near Yoga Centers",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:nearby_attraction:qloo",
+        "id": "urn:tag:nearby_attraction:qloo:the_practice_yoga_studio",
+        "name": "The Practice Yoga Studio",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:neighborhood_characteristics:qloo",
+        "id": "urn:tag:neighborhood_characteristics:qloo:near_yoga_center",
+        "name": "Near Yoga Center",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:neighborhood_characteristics:qloo",
+        "id": "urn:tag:neighborhood_characteristics:qloo:near_yoga_barn",
+        "name": "Near Yoga Barn",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      }
+    ]
+  }
+}

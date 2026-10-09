@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-07T18:41:32.833693+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.type": "urn:tag",
+    "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+    "take": "20"
+  },
+  "raw_file": "..\\04-pilot\\orlando_place_tags.a1.json",
+  "request_sha256": "d1de55e71823158704599e5ea96227cbe402fe7a9cf090287a9f5364eba0da07",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:41:35 GMT"
+  },
+  "response_sha256": "0fbb51badebb5cdf15f6cd267a84871abc1b8326ebc18cd3c1c25eb96b4d2b0f",
+  "spec": {
+    "id": "r4_orlando_place_tags",
+    "area": "Orlando",
+    "role": "baseline",
+    "dimension": "place_tags",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:tag",
+      "filter.parents.types": "urn:entity:place",
+      "signal.location": "D029E622-B514-4866-9166-35C0C1801794",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.parents.types=urn%3Aentity%3Aplace&filter.type=urn%3Atag&signal.location=D029E622-B514-4866-9166-35C0C1801794&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\04-pilot\\orlando_place_tags.meta.json"
+}

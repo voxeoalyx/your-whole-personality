@@ -1,0 +1,97 @@
+[
+  {
+    "key": "radiohead",
+    "query": "Radiohead",
+    "type": "urn:entity:artist"
+  },
+  {
+    "key": "blue_bottle",
+    "query": "Blue Bottle Coffee",
+    "type": "urn:entity:brand"
+  },
+  {
+    "key": "severance",
+    "query": "Severance",
+    "type": "urn:entity:tv_show"
+  },
+  {
+    "key": "joe_person",
+    "query": "Joe Rogan",
+    "type": "urn:entity:person"
+  },
+  {
+    "key": "rogan",
+    "query": "The Joe Rogan Experience",
+    "type": "urn:entity:podcast"
+  },
+  {
+    "key": "huberman",
+    "query": "Huberman Lab",
+    "type": "urn:entity:podcast"
+  },
+  {
+    "key": "taylor",
+    "query": "Taylor Swift",
+    "type": "urn:entity:artist"
+  },
+  {
+    "key": "starbucks",
+    "query": "Starbucks",
+    "type": "urn:entity:brand"
+  },
+  {
+    "key": "friends",
+    "query": "Friends",
+    "type": "urn:entity:tv_show"
+  },
+  {
+    "key": "metallica",
+    "query": "Metallica",
+    "type": "urn:entity:artist"
+  },
+  {
+    "key": "nike",
+    "query": "Nike",
+    "type": "urn:entity:brand"
+  },
+  {
+    "key": "elden_ring",
+    "query": "Elden Ring",
+    "type": "urn:entity:videogame"
+  },
+  {
+    "key": "animal_crossing",
+    "query": "Animal Crossing: New Horizons",
+    "type": "urn:entity:videogame"
+  },
+  {
+    "key": "patagonia",
+    "query": "Patagonia",
+    "type": "urn:entity:brand"
+  },
+  {
+    "key": "lululemon",
+    "query": "Lululemon",
+    "type": "urn:entity:brand"
+  },
+  {
+    "key": "monster",
+    "query": "Monster Energy",
+    "type": "urn:entity:brand"
+  },
+  {
+    "key": "dune",
+    "query": "Dune",
+    "type": "urn:entity:book"
+  },
+  {
+    "key": "bjork",
+    "query": "Björk",
+    "type": "urn:entity:artist"
+  },
+  {
+    "key": "apple",
+    "query": "Apple",
+    "type": "urn:entity:brand"
+  }
+]

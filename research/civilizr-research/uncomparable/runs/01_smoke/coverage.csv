@@ -1,0 +1,5 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+wright,,,discovery,wright.a1.json,ok,200,5,0,5,{}
+fallingwater,,,discovery,fallingwater.a1.json,ok,200,5,0,5,{}
+mies,,,discovery,mies.a1.json,ok,200,5,0,5,{}
+usonian,,,discovery,usonian.a1.json,ok,200,1,0,1,{}

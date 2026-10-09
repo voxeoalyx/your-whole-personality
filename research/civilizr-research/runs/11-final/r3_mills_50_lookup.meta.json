@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-07T18:36:42.801015+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.454,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.location": "28.5421109,-81.3790304",
+    "filter.radius": "30",
+    "page": "1",
+    "query": "Mills 50",
+    "take": "5",
+    "types": "urn:entity:locality"
+  },
+  "raw_file": "..\\03-discovery\\mills_50_lookup.a1.json",
+  "request_sha256": "72aa1c679730070b50f43655e8473bb25aaeef7f47ffe10258821a8e73255ecb",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:36:44 GMT"
+  },
+  "response_sha256": "5021e624e752b001ce3e3846e8f158ed4aeb93a4c9a72fdb35a0c5b14a0eea84",
+  "spec": {
+    "id": "r3_mills_50_lookup",
+    "kind": "lookup",
+    "area": "Mills 50",
+    "endpoint": "/search",
+    "params": {
+      "query": "Mills 50",
+      "types": "urn:entity:locality",
+      "filter.location": "28.5421109,-81.3790304",
+      "filter.radius": 30,
+      "take": 5,
+      "page": 1
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?filter.location=28.5421109%2C-81.3790304&filter.radius=30&page=1&query=Mills+50&take=5&types=urn%3Aentity%3Alocality",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\03-discovery\\mills_50_lookup.meta.json"
+}

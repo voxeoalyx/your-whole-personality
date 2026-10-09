@@ -1,0 +1,12 @@
+{
+  "request_hash": "5b1dbb0cc11e0c58e870e754c7f42274bdf49d4ce583daba8b3e983032b0f1ac",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.entities": "4BBEF799-A0C4-4110-AB01-39216993C312,4E62202B-3672-4B2E-A21F-C5EA4A0BA01F,B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+    "take": "20"
+  },
+  "response_sha256": "946b9a736bc12fa8c9e0a19aa86aab36749532573f24ad32d632b886a7429543"
+}

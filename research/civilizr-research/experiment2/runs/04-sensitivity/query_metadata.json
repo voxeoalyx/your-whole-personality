@@ -1,0 +1,290 @@
+[
+  {
+    "request_id": "winter_park_r800_brands",
+    "area": "winter_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_r800_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_r800_tags",
+    "area": "winter_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_r800_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_r1200_brands",
+    "area": "winter_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_r1200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_r1200_tags",
+    "area": "winter_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_r1200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_east200_brands",
+    "area": "winter_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_east200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "winter_park_east200_tags",
+    "area": "winter_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "winter_park_east200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 167078873
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_r800_brands",
+    "area": "pine_hills",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_r800_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_r800_tags",
+    "area": "pine_hills",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_r800_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_r1200_brands",
+    "area": "pine_hills",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_r1200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_r1200_tags",
+    "area": "pine_hills",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_r1200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_east200_brands",
+    "area": "pine_hills",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_east200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "pine_hills_east200_tags",
+    "area": "pine_hills",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "pine_hills_east200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 5015328
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_r800_brands",
+    "area": "mills_50",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_r800_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_r800_tags",
+    "area": "mills_50",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_r800_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_r1200_brands",
+    "area": "mills_50",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_r1200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_r1200_tags",
+    "area": "mills_50",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_r1200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_east200_brands",
+    "area": "mills_50",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_east200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "mills_50_east200_tags",
+    "area": "mills_50",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "mills_50_east200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 38452242
+        }
+      }
+    },
+    "warnings": null
+  }
+]

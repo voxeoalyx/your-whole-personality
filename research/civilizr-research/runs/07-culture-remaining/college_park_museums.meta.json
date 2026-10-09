@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-07T18:46:40.446407+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.984,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.location": "POINT(-81.3790304 28.5421109)",
+    "filter.location.radius": "20000",
+    "filter.tags": "urn:tag:genre:place:museum",
+    "filter.type": "urn:entity:place",
+    "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+    "take": "20"
+  },
+  "raw_file": "college_park_museums.a1.json",
+  "request_sha256": "0e9b315a4d1e8de070eba5c0932985bb12eede0703dd7d44d1fa68f12071eb79",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:46:41 GMT"
+  },
+  "response_sha256": "db13c7ee277831751e8656ac9dc18fb25d8358ef15804a4b29d277a5170441ef",
+  "spec": {
+    "area": "College Park",
+    "dimension": "museums",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "college_park_museums",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.location": "POINT(-81.3790304 28.5421109)",
+      "filter.location.radius": 20000,
+      "filter.tags": "urn:tag:genre:place:museum",
+      "filter.type": "urn:entity:place",
+      "signal.location": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+      "take": 20
+    },
+    "role": "target"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.location=POINT%28-81.3790304+28.5421109%29&filter.location.radius=20000&filter.tags=urn%3Atag%3Agenre%3Aplace%3Amuseum&filter.type=urn%3Aentity%3Aplace&signal.location=432D8D25-97BF-4CD4-887C-C24A201AB3FC&take=20"
+}

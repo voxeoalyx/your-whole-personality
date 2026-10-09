@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-07T18:39:52.816901+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.578,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:brand",
+    "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+    "take": "20"
+  },
+  "raw_file": "..\\04-pilot\\pine_hills_brands.a1.json",
+  "request_sha256": "ebeb6eebea40e363121f3f78792f01a33aaa27d415a43a40a1bf6ae2c915c536",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:39:54 GMT"
+  },
+  "response_sha256": "221fa2934b32b1c9d0abb12e177b9e3dddd9a29d4e1c1aa34a44de3e4d977b6b",
+  "spec": {
+    "id": "r4_pine_hills_brands",
+    "area": "Pine Hills",
+    "role": "control",
+    "dimension": "brands",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:brand",
+      "bias.trends": "off",
+      "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Abrand&signal.location=37EB6689-42DA-48A6-8E2E-5767CC5A6E2A&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\04-pilot\\pine_hills_brands.meta.json"
+}

@@ -1,0 +1,178 @@
+{
+  "requests": 183,
+  "statuses": {
+    "200": 183
+  },
+  "candidate_missing": 0,
+  "candidate_unscored": 64,
+  "faithful_profile_domains": 20,
+  "profile_domain_complete": 24,
+  "profile_domain_total": 24,
+  "winners": [
+    {
+      "profile": "p01",
+      "full_winner": "severance",
+      "largest_id": 0.15509846751265516,
+      "next_id": 0.12422335482976216,
+      "half0_winner": "radiohead",
+      "half1_winner": "severance",
+      "secondary_winner": "severance",
+      "dominance_flag": false
+    },
+    {
+      "profile": "p02",
+      "full_winner": "rogan",
+      "largest_id": 0.29507835795021153,
+      "next_id": 0.14182442271687123,
+      "half0_winner": "rogan",
+      "half1_winner": "rogan",
+      "secondary_winner": "rogan",
+      "dominance_flag": true
+    },
+    {
+      "profile": "p05",
+      "full_winner": "taylor",
+      "largest_id": 0.027491158726856674,
+      "next_id": 0.027272727272727282,
+      "half0_winner": "taylor",
+      "half1_winner": "friends",
+      "secondary_winner": "friends",
+      "dominance_flag": false
+    },
+    {
+      "profile": "p06",
+      "full_winner": "taylor",
+      "largest_id": 0.045570695513487275,
+      "next_id": 0.044719506275570337,
+      "half0_winner": "rogan",
+      "half1_winner": "rogan",
+      "secondary_winner": "rogan",
+      "dominance_flag": false
+    },
+    {
+      "profile": "p09",
+      "full_winner": "patagonia",
+      "largest_id": 0.036885444837389925,
+      "next_id": 0.024727827473822878,
+      "half0_winner": "lululemon",
+      "half1_winner": "patagonia",
+      "secondary_winner": "patagonia",
+      "dominance_flag": false
+    },
+    {
+      "profile": "p10",
+      "full_winner": "lululemon",
+      "largest_id": 0.09409021565772138,
+      "next_id": 0.04727480757229041,
+      "half0_winner": "lululemon",
+      "half1_winner": "lululemon",
+      "secondary_winner": "patagonia",
+      "dominance_flag": false
+    }
+  ],
+  "partnership_domain_comparisons": 20,
+  "partner_substitution_flags": 0,
+  "distinct_from_both": 17,
+  "checks": [
+    {
+      "request": "06_checks/p01_brand_repeat",
+      "kind": "uncached_repeat",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p01_brand_half",
+      "kind": "candidate_half_reissue",
+      "n_expected": 23,
+      "n_paired": 23,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p01_brand_reverse",
+      "kind": "input_order_reversal",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p01_tv_show_repeat",
+      "kind": "uncached_repeat",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p01_tv_show_half",
+      "kind": "candidate_half_reissue",
+      "n_expected": 10,
+      "n_paired": 10,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p01_tv_show_reverse",
+      "kind": "input_order_reversal",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p02_brand_repeat",
+      "kind": "uncached_repeat",
+      "n_expected": 45,
+      "n_paired": 45,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p02_brand_half",
+      "kind": "candidate_half_reissue",
+      "n_expected": 23,
+      "n_paired": 23,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p02_tv_show_repeat",
+      "kind": "uncached_repeat",
+      "n_expected": 19,
+      "n_paired": 19,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    },
+    {
+      "request": "06_checks/p02_tv_show_half",
+      "kind": "candidate_half_reissue",
+      "n_expected": 10,
+      "n_paired": 10,
+      "complete": true,
+      "rho": 1.0,
+      "distance": 0.0,
+      "top5_jaccard": 1.0
+    }
+  ]
+}

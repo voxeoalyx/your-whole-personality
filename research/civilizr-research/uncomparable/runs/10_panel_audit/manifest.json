@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-07T23:09:54.802003+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Post-hoc panel-bias audit: resolve the Arts and Crafts brand predicted in frozen baseline B",
+      "requests": [
+        {
+          "id": "stickley",
+          "endpoint": "/search",
+          "params": {
+            "query": "Stickley",
+            "types": "urn:entity:brand",
+            "take": 5
+          },
+          "kind": "discovery"
+        }
+      ]
+    },
+    "code_sha256": "88926b5ff19d9578b0be91249bce28af4fa4ad08289956bda59ef7d9d0db267e"
+  }
+}

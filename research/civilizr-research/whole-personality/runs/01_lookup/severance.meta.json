@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:42.988906+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.25,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Severance",
+    "take": "5",
+    "types": "urn:entity:tv_show"
+  },
+  "raw_file": "severance.a1.json",
+  "request_sha256": "75f3818b3c0e4beb182e2d898f9b8df0fdacbcfd0439b0b6a907d5cb720bf4b0",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:43 GMT"
+  },
+  "response_sha256": "599fad14ae522905507fdb495f89b8880846e75c59554c9563dfeffe400d74f2",
+  "spec": {
+    "endpoint": "/search",
+    "id": "severance",
+    "kind": "discovery",
+    "params": {
+      "query": "Severance",
+      "take": 5,
+      "types": "urn:entity:tv_show"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Severance&take=5&types=urn%3Aentity%3Atv_show"
+}

@@ -1,0 +1,10 @@
+{
+  "at": 1791471064.2925868,
+  "request_hash": "2e7299bddd48cbd6b7f26198c229459c482b7beb04b1edec9f3ca9768b820a58",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.parents.types": "urn:audience:hobbies_and_interests",
+    "take": "50"
+  },
+  "response_sha256": "75314c4220e151e212e189246968968a940fc5fa69172aa0ba5d351b8c6c00da"
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "request_id": "jacobs_house",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "jacobs_house.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "fallingwater_house",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "fallingwater_house.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "farnsworth_house",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "farnsworth_house.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "eames_house",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "eames_house.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_house",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "gamble_house.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "douglass_house",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "douglass_house.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "mckinley_house",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "mckinley_house.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "charles_eames",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "charles_eames.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "ray_eames",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "ray_eames.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "greene",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "greene.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "frederick_douglass",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "frederick_douglass.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "bauhaus",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "bauhaus.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "international",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "international.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "midcentury",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "midcentury.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "craftsman",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "craftsman.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "victorian",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "victorian.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "sustainable",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "sustainable.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "furniture",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "furniture.a1.json",
+    "query": {},
+    "warnings": null
+  },
+  {
+    "request_id": "audiences",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "audiences.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

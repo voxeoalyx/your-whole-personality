@@ -1,0 +1,8 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+winter_park_brands_500,Winter Park,brands_point,profile,winter_park_brands_500.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+winter_park_brands_1000,Winter Park,brands_point,profile,winter_park_brands_1000.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":167078873}}}"
+college_park_brands_500,College Park,brands_point,profile,college_park_brands_500.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":15577543}}}"
+college_park_brands_1000,College Park,brands_point,profile,college_park_brands_1000.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":16806597}}}"
+mills_50_point_proxy_brands_500,Mills 50 point proxy,brands_point,profile,mills_50_point_proxy_brands_500.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":10236039}}}"
+mills_50_point_proxy_brands_1000,Mills 50 point proxy,brands_point,profile,mills_50_point_proxy_brands_1000.a1.json,ok,200,20,20,20,"{""geospatial"":{""panel_size"":{""context"":72776032816,""target"":26808243}}}"
+coffee_locality_heatmap,,coffee_cafes,heatmap_boundary_probe,coffee_locality_heatmap.a2.json,failed,500,0,0,0,{}

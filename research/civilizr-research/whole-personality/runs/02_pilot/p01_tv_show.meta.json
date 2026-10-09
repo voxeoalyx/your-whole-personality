@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-08T11:06:30.206228+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.89,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C,22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+    "take": "10"
+  },
+  "raw_file": "p01_tv_show.a1.json",
+  "request_sha256": "e73ac87975a5f45a432e4f7b0edd54ae18b494abbd77ccd45cf635dc6ef115a0",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:06:30 GMT"
+  },
+  "response_sha256": "a30854d13cd06b984d9e4ef5e5002c9c00ca11c3826408c1a056f41cb6f0aba2",
+  "spec": {
+    "domain": "tv_show",
+    "endpoint": "/v2/insights",
+    "id": "p01_tv_show",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:tv_show",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "569F8294-72DA-4935-B9F2-4FC697AB2A1E"
+      ],
+      "take": 10
+    },
+    "seed_keys": [
+      "radiohead",
+      "blue_bottle",
+      "severance"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Atv_show&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2C22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D%2C569F8294-72DA-4935-B9F2-4FC697AB2A1E&take=10"
+}

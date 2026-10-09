@@ -1,0 +1,193 @@
+{
+  "frozen_at": "2026-10-08T11:06:21.109Z",
+  "seeds": {
+    "radiohead": {
+      "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "name": "Radiohead",
+      "type": "urn:entity:artist",
+      "popularity": 0.9999966263060412,
+      "disambiguation": "Radiohead",
+      "description": "Radiohead is an English rock band known for their innovative and experimental approach to music.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/radiohead"
+    },
+    "blue_bottle": {
+      "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+      "name": "Blue Bottle Coffee",
+      "type": "urn:entity:brand",
+      "popularity": 0.9492210676204845,
+      "disambiguation": "",
+      "description": "Blue Bottle Coffee is a specialty coffee roaster and retailer known for fresh, high-quality coffee sourced from partners like Pedro Nel Trujillo.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/blue_bottle"
+    },
+    "severance": {
+      "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+      "name": "Severance",
+      "type": "urn:entity:tv_show",
+      "popularity": 0.9929525962369523,
+      "disambiguation": "2022",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/severance"
+    },
+    "joe_person": {
+      "id": "C0E17E3C-A232-466D-A741-E18A6E978C88",
+      "name": "Joe Rogan",
+      "type": "urn:entity:person",
+      "popularity": 0.9979724073449951,
+      "disambiguation": "1967-08-11",
+      "description": "American broadcaster, comedian, and actor",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/joe_person"
+    },
+    "rogan": {
+      "id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+      "name": "The Joe Rogan Experience",
+      "type": "urn:entity:podcast",
+      "popularity": 0.9914438183823748,
+      "disambiguation": "",
+      "description": "Comedian Joe Rogan hosts in-depth conversations with a variety of guests, exploring diverse topics and ideas.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/rogan"
+    },
+    "huberman": {
+      "id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+      "name": "Huberman Lab",
+      "type": "urn:entity:podcast",
+      "popularity": 0.9892078824195808,
+      "disambiguation": "",
+      "description": "Exploring neuroscience and science-based tools to understand brain function, behavior, and health.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/huberman"
+    },
+    "taylor": {
+      "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+      "name": "Taylor Swift",
+      "type": "urn:entity:artist",
+      "popularity": 0.999790830974559,
+      "disambiguation": "Taylor Swift",
+      "description": "An American singer-songwriter known for narrative songwriting and genre versatility.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/taylor"
+    },
+    "starbucks": {
+      "id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+      "name": "Starbucks",
+      "type": "urn:entity:brand",
+      "popularity": 0.9998135308775915,
+      "disambiguation": "",
+      "description": "Starbucks is a global coffee company known for its handcrafted beverages, coffee products, and café experience.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/starbucks"
+    },
+    "friends": {
+      "id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+      "name": "Friends",
+      "type": "urn:entity:tv_show",
+      "popularity": 0.999601090353035,
+      "disambiguation": "1994,2004",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/friends"
+    },
+    "metallica": {
+      "id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+      "name": "Metallica",
+      "type": "urn:entity:artist",
+      "popularity": 0.999962889366454,
+      "disambiguation": "Metallica",
+      "description": "American heavy metal band known for pioneering thrash metal and influencing the metal genre.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/metallica"
+    },
+    "nike": {
+      "id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+      "name": "Nike",
+      "type": "urn:entity:brand",
+      "popularity": 0.9999915241307996,
+      "disambiguation": "",
+      "description": "Nike is a global brand specializing in athletic footwear, apparel, equipment, and accessories for men, women, and kids.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/nike"
+    },
+    "elden_ring": {
+      "id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+      "name": "Elden Ring",
+      "type": "urn:entity:videogame",
+      "popularity": 0.9404597672555957,
+      "disambiguation": "2022-02-25, From Software",
+      "description": "In a vast, ruined open world, a Tarnished seeks the Elden Ring to become Elden Lord, confronting deadly foes and uncovering ancient mysteries.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/elden_ring"
+    },
+    "animal_crossing": {
+      "id": "08663BD2-E267-4C7F-9895-86410F67867C",
+      "name": "Animal Crossing: New Horizons",
+      "type": "urn:entity:videogame",
+      "popularity": 0.962399621934353,
+      "disambiguation": "2020-03-20, Nintendo",
+      "description": "You move to a deserted island to build a new life—gather resources, craft and decorate, befriend villagers, and shape the island at your own relaxed pace.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/animal_crossing"
+    },
+    "patagonia": {
+      "id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+      "name": "Patagonia",
+      "type": "urn:entity:brand",
+      "popularity": 0.995923106914614,
+      "disambiguation": "",
+      "description": "Patagonia is an outdoor apparel company known for sustainable clothing and gear for activities like climbing, surfing, skiing, and trail running.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/patagonia"
+    },
+    "lululemon": {
+      "id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+      "name": "Lululemon",
+      "type": "urn:entity:brand",
+      "popularity": 0.9955416928005967,
+      "disambiguation": "",
+      "description": "Lululemon is a brand specializing in technical athletic apparel and footwear, known for activewear and yoga gear for men and women.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/lululemon"
+    },
+    "monster": {
+      "id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+      "name": "Monster Energy",
+      "type": "urn:entity:brand",
+      "popularity": 0.9981014052991134,
+      "disambiguation": "",
+      "description": "Monster Energy is a brand known for its energy drinks, coffee, tea, and juice products, promoting an active lifestyle with the slogan 'Unleash the Beast'.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/monster"
+    },
+    "dune": {
+      "id": "9BA85467-2189-46DC-BB98-4B25EE182A9D",
+      "name": "Dune (Dune, #1)",
+      "type": "urn:entity:book",
+      "popularity": 0.9995171972963048,
+      "disambiguation": "1965, Frank Herbert",
+      "description": "Paul Atreides, heir to House Atreides, becomes a leader on the desert planet Arrakis, where he battles for control of the spice melange.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/dune"
+    },
+    "bjork": {
+      "id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+      "name": "Björk",
+      "type": "urn:entity:artist",
+      "popularity": 0.9996963675437146,
+      "disambiguation": "Björk",
+      "description": "Icelandic singer, songwriter, and producer known for her eclectic musical style and innovative artistry.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/bjork"
+    },
+    "apple": {
+      "id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+      "name": "Apple Inc",
+      "type": "urn:entity:brand",
+      "popularity": 0.9992456476411656,
+      "disambiguation": "",
+      "description": "Apple Inc is a global technology company known for its innovative products like iPhone, iPad, Mac, and services including software updates and device trade-in programs.",
+      "decision": "Accepted after review of name, type and disambiguation; tribute/sequel and unrelated matches rejected",
+      "source": "01_lookup/apple"
+    }
+  }
+}

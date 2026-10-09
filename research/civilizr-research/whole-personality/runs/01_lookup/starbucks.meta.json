@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:46.501292+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.359,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Starbucks",
+    "take": "5",
+    "types": "urn:entity:brand"
+  },
+  "raw_file": "starbucks.a1.json",
+  "request_sha256": "eabb291eac0fdb8d24df194684f2126d513c16332609488a66b3ac161d2d21b2",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:46 GMT"
+  },
+  "response_sha256": "9314f8239836a5552bd8c99d55a59592b57bf9b867b4fcb46fa6a08b36688ffe",
+  "spec": {
+    "endpoint": "/search",
+    "id": "starbucks",
+    "kind": "discovery",
+    "params": {
+      "query": "Starbucks",
+      "take": 5,
+      "types": "urn:entity:brand"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Starbucks&take=5&types=urn%3Aentity%3Abrand"
+}

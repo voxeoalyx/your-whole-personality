@@ -1,0 +1,187 @@
+{
+  "profiles": [
+    {
+      "id": "p01",
+      "seeds": [
+        "radiohead",
+        "blue_bottle",
+        "severance"
+      ],
+      "kind": "original"
+    },
+    {
+      "id": "p02",
+      "seeds": [
+        "radiohead",
+        "blue_bottle",
+        "rogan"
+      ],
+      "kind": "original swap; podcast proxy planned if necessary"
+    },
+    {
+      "id": "p03",
+      "seeds": [
+        "radiohead",
+        "blue_bottle",
+        "huberman"
+      ],
+      "kind": "alternative podcast"
+    },
+    {
+      "id": "p04",
+      "seeds": [
+        "radiohead",
+        "blue_bottle",
+        "taylor"
+      ],
+      "kind": "cross-domain musician swap"
+    },
+    {
+      "id": "p05",
+      "seeds": [
+        "taylor",
+        "starbucks",
+        "friends"
+      ],
+      "kind": "mainstream"
+    },
+    {
+      "id": "p06",
+      "seeds": [
+        "taylor",
+        "starbucks",
+        "rogan"
+      ],
+      "kind": "context test"
+    },
+    {
+      "id": "p07",
+      "seeds": [
+        "metallica",
+        "nike",
+        "elden_ring"
+      ],
+      "kind": "entertainment/gaming"
+    },
+    {
+      "id": "p08",
+      "seeds": [
+        "metallica",
+        "nike",
+        "animal_crossing"
+      ],
+      "kind": "deliberate gaming contrast"
+    },
+    {
+      "id": "p09",
+      "seeds": [
+        "patagonia",
+        "lululemon",
+        "blue_bottle"
+      ],
+      "kind": "brand-heavy"
+    },
+    {
+      "id": "p10",
+      "seeds": [
+        "patagonia",
+        "lululemon",
+        "monster"
+      ],
+      "kind": "brand contrast"
+    },
+    {
+      "id": "p11",
+      "seeds": [
+        "dune",
+        "bjork",
+        "severance"
+      ],
+      "kind": "niche entertainment/books"
+    },
+    {
+      "id": "p12",
+      "seeds": [
+        "dune",
+        "bjork",
+        "friends"
+      ],
+      "kind": "deliberate television contrast"
+    }
+  ],
+  "swap_pairs": [
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p01",
+      "p03"
+    ],
+    [
+      "p01",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ]
+  ],
+  "loo_profiles": [
+    "p01",
+    "p02",
+    "p05",
+    "p06",
+    "p09",
+    "p10"
+  ],
+  "brands": [
+    {
+      "brand": "blue_bottle",
+      "partners": [
+        "radiohead",
+        "metallica"
+      ]
+    },
+    {
+      "brand": "nike",
+      "partners": [
+        "elden_ring",
+        "animal_crossing"
+      ]
+    },
+    {
+      "brand": "apple",
+      "partners": [
+        "severance",
+        "friends"
+      ]
+    },
+    {
+      "brand": "lululemon",
+      "partners": [
+        "huberman",
+        "rogan"
+      ]
+    },
+    {
+      "brand": "patagonia",
+      "partners": [
+        "bjork",
+        "taylor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-07T18:45:32.830460+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.515,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:destination",
+    "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+    "take": "20"
+  },
+  "raw_file": "..\\06-expansion\\azalea_park_destinations.a1.json",
+  "request_sha256": "8b48c86539c5ec7a6e33c8a3c33cc8038d96441c7ea5bd766f5672a3b4067879",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:45:34 GMT"
+  },
+  "response_sha256": "cfc24c3d6f4ae1708a3ccd64049f5035b2fc1b5d30c39e933b724668a8db6a2a",
+  "spec": {
+    "id": "r6_azalea_park_destinations",
+    "area": "Azalea Park",
+    "role": "control",
+    "dimension": "destinations",
+    "kind": "profile",
+    "geography_verified": true,
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:destination",
+      "bias.trends": "off",
+      "signal.location": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Adestination&signal.location=6650137D-68BE-4596-95AB-2ECF9BC20180&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\06-expansion\\azalea_park_destinations.meta.json"
+}

@@ -1,0 +1,11 @@
+﻿request,kind,n_expected,n_paired,complete,rho,distance,top5_jaccard
+06_checks/p01_brand_repeat,uncached_repeat,45,45,True,1.0,0.0,1.0
+06_checks/p01_brand_half,candidate_half_reissue,23,23,True,1.0,0.0,1.0
+06_checks/p01_brand_reverse,input_order_reversal,45,45,True,1.0,0.0,1.0
+06_checks/p01_tv_show_repeat,uncached_repeat,19,19,True,1.0,0.0,1.0
+06_checks/p01_tv_show_half,candidate_half_reissue,10,10,True,1.0,0.0,1.0
+06_checks/p01_tv_show_reverse,input_order_reversal,19,19,True,1.0,0.0,1.0
+06_checks/p02_brand_repeat,uncached_repeat,45,45,True,1.0,0.0,1.0
+06_checks/p02_brand_half,candidate_half_reissue,23,23,True,1.0,0.0,1.0
+06_checks/p02_tv_show_repeat,uncached_repeat,19,19,True,1.0,0.0,1.0
+06_checks/p02_tv_show_half,candidate_half_reissue,10,10,True,1.0,0.0,1.0

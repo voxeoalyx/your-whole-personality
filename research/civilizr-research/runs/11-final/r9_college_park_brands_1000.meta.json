@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-07T18:49:29.954346+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.609,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:brand",
+    "signal.location": "POINT(-81.39012942168766 28.57560528334122)",
+    "signal.location.radius": "1000",
+    "take": "20"
+  },
+  "raw_file": "..\\09-sensitivity\\college_park_brands_1000.a1.json",
+  "request_sha256": "8e468886e3d58bc2b5fb74e781a0c0f4032b0c5a44371cd1aaaea43b3bf37cbd",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:49:31 GMT"
+  },
+  "response_sha256": "65c97941e5b368d0c716a01c7ab6c322f735ddb57fad930441b94cc877d1a464",
+  "spec": {
+    "id": "r9_college_park_brands_1000",
+    "area": "College Park",
+    "role": "target",
+    "dimension": "brands_point",
+    "kind": "profile",
+    "geography_verified": true,
+    "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+    "endpoint": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:brand",
+      "signal.location": "POINT(-81.39012942168766 28.57560528334122)",
+      "signal.location.radius": 1000,
+      "bias.trends": "off",
+      "take": 20
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Abrand&signal.location=POINT%28-81.39012942168766+28.57560528334122%29&signal.location.radius=1000&take=20",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\09-sensitivity\\college_park_brands_1000.meta.json"
+}

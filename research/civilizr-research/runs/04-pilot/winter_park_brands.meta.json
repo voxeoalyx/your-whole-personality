@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T18:39:47.502490+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 2.156,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:brand",
+    "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+    "take": "20"
+  },
+  "raw_file": "winter_park_brands.a1.json",
+  "request_sha256": "99f423b307e815e0386233ef776e0cca510755fb60c2270783a6c84a7888ecd0",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:39:50 GMT"
+  },
+  "response_sha256": "a1b04c9f5d9884fc7481209ff1da1a5fbfd20829b82c7626584b8c4630233095",
+  "spec": {
+    "area": "Winter Park",
+    "dimension": "brands",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "winter_park_brands",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.type": "urn:entity:brand",
+      "signal.location": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+      "take": 20
+    },
+    "role": "target"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Abrand&signal.location=2DA566F2-033C-4B97-BC8C-3322221C68DE&take=20"
+}

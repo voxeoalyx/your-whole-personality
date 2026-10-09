@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-07T23:04:20.320120+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+    "take": "10"
+  },
+  "raw_file": "ray_author.a1.json",
+  "request_sha256": "bcb6cb25a0c2887835f809466e0b7970972ac7ed2363e4770052b16773280fb8",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:04:21 GMT"
+  },
+  "response_sha256": "ad39b8fac214f2d96605b94d4202f9f1c48b8c7c12ce2e831e59ec313b33fa47",
+  "spec": {
+    "endpoint": "/v2/insights",
+    "id": "ray_author",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+      "take": 10
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=D2A5920F-8159-4DB3-B0E1-A366DA6B13B5&take=10"
+}

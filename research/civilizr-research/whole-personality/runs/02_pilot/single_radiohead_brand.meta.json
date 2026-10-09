@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-08T11:06:25.255155+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.64,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "10"
+  },
+  "raw_file": "single_radiohead_brand.a1.json",
+  "request_sha256": "d1fcf19926dc38a90bb97d7e5992a9184ebfd53c78c827af1e4b0e6964f393c0",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:06:25 GMT"
+  },
+  "response_sha256": "fc9ccb7e17cd38fb1db07a1afbb45c46ff4053782369ef83e0f4d700943f8f1d",
+  "spec": {
+    "domain": "brand",
+    "endpoint": "/v2/insights",
+    "id": "single_radiohead_brand",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:entity:brand",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+      ],
+      "take": 10
+    },
+    "seed_keys": [
+      "radiohead"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Aentity%3Abrand&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&take=10"
+}

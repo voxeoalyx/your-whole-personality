@@ -1,0 +1,14 @@
+{
+  "at": 1791471353.0614784,
+  "request_hash": "f9274282578474db075560b93cbf6978fe0f018be3e3172ac8b64efc58996aa7",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:yoga",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "20"
+  },
+  "response_sha256": "e3add811566bc813defd8f006b1e3cb0e10027e6604ba55f18e1dffe5e8c834d"
+}

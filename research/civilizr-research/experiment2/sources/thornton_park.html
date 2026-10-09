@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+	<!-- Published by OpenCities, 1.38.0.1 -->
+
+    
+        
+            
+        
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content="#004B8D"/>
+    <title>Thornton Park District Main Street  - City of Orlando</title>
+	<meta name="generator" content="OpenCities - https://granicus.com/product/opencities" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using mobile-web-app-capable for now to enable full-screen experience on supported platforms -->
+    <!-- Note: This tag works mainly on Android Chrome. It does NOT enable full-screen mode on iOS Safari. -->
+    <!-- For iOS, the correct tag is: <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- TODO: Monitor for updated meta tag standards from Apple or other browser vendors -->
+    <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="description" content=" Thornton Park District is a colorful, walkable commercial district with a European feel and more than 60 locally-owned specialty shops, services and dining destinations. Located in the middle of the district is Lake Eola Park, where you can rent swan-shaped paddle boats, snap..." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street" />
+    <meta property="og:title" content="Thornton Park District Main Street" />
+    <meta property="og:description" content=" Thornton Park District is a colorful, walkable commercial district with a European feel and more than 60 locally-owned specialty shops, services and dining destinations. Located in the middle of the district is Lake Eola Park, where you can rent swan-shaped paddle boats, snap..." />
+    <meta property="og:image" content="https://www.orlando.gov/files/sharedassets/public/v/2/departments/edv/main-streets/tpd-crop.png?w=1200" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Thornton Park District Main Street" />
+    <meta property="twitter:description" content=" Thornton Park District is a colorful, walkable commercial district with a European feel and more than 60 locally-owned specialty shops, services and dining destinations. Located in the middle of the district is Lake Eola Park, where you can rent swan-shaped paddle boats, snap..." />
+    <meta property="twitter:image" content="https://www.orlando.gov/files/sharedassets/public/v/2/departments/edv/main-streets/tpd-crop.png?w=1080" />
+    <link rel="canonical" href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street" />
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/ocfavicon/Public/apple-touch-icon.png?V=636546419712297296">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ocfavicon/Public/favicon-32x32.png?V=636546419712297296">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ocfavicon/Public/favicon-16x16.png?V=636546419712297296">
+<link rel="manifest" href="/files/ocfavicon/Public/site.webmanifest?V=636546419712297296">
+<link rel="shortcut icon" href="/files/ocfavicon/Public/favicon.ico?V=636546419712297296">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-config" content="/files/ocfavicon/Public/browserconfig.xml?V=636546419712297296">
+    <script>
+        (function () {
+            if (window.__UNLOAD_LAZY_PATCH__) return;
+            window.__UNLOAD_LAZY_PATCH__ = true;
+
+            var supportsPageHide = ("onpagehide" in window);
+            var mappedType = supportsPageHide ? "pagehide" : "beforeunload";
+            var nativeAdd = window.addEventListener;
+            var nativeRemove = window.removeEventListener;
+            var unloadMap = null;
+            var patched = false;
+
+            function ensurePatched() {
+                if (patched) return;
+                unloadMap = new WeakMap();
+
+                window.addEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = function (evt) {
+                            if (supportsPageHide && evt.persisted) return;
+                            listener.call(this, evt);
+                        };
+                        unloadMap.set(listener, wrapped);
+                        return nativeAdd.call(this, mappedType, wrapped, options);
+                    }
+                    return nativeAdd.call(this, type, listener, options);
+                };
+
+                window.removeEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = unloadMap.get(listener);
+                        if (wrapped) {
+                            nativeRemove.call(this, mappedType, wrapped, options);
+                            unloadMap.delete(listener);
+                        }
+                        return;
+                    }
+                    return nativeRemove.call(this, type, listener, options);
+                };
+
+                var orig = null;
+                Object.defineProperty(window, "onunload", {
+                    configurable: true, enumerable: true,
+                    get: function () { return orig; },
+                    set: function (h) {
+                        orig = h;
+                        if (typeof h === "function") window.addEventListener("unload", h);
+                    }
+                });
+                patched = true;
+            }
+
+            window.addEventListener = function (type, listener, options) {
+                if (type === "unload") {
+                    ensurePatched();
+                    return window.addEventListener(type, listener, options);
+                }
+                return nativeAdd.call(this, type, listener, options);
+            };
+
+            window.removeEventListener = function (type, listener, options) {
+                if (type === "unload" && !patched) {
+                    return;
+                }
+                return nativeRemove.call(this, type, listener, options);
+            };
+
+            function patchTelerik() {
+                ensurePatched();
+                var ns = window.RadAjaxNamespace;
+                if (!ns || !ns.EventManager || !ns.EventManager.Add || ns.EventManager.__UnloadPatched) return;
+                var origAdd = ns.EventManager.Add;
+                ns.EventManager.Add = function (el, evtName, handler, clientId) {
+                    if (el === window && evtName === "unload") {
+                        return window.addEventListener("unload", handler);
+                    }
+                    return origAdd.call(this, el, evtName, handler, clientId);
+                };
+                ns.EventManager.__UnloadPatched = true;
+            }
+
+            if (window.RadAjaxNamespace)
+                patchTelerik();
+            else (window.requestIdleCallback || function (cb)
+            {
+                setTimeout(cb, 120);
+            })(patchTelerik);
+        })();
+    </script>
+    <!-- Preconnecting to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Defer Roboto font loading to avoid render-blocking -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const robotoLink = document.createElement('link');
+            robotoLink.rel = 'stylesheet';
+            robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+            document.head.appendChild(robotoLink);
+        });
+    </script>
+
+    <style>
+        .gm-style, .gm-style * {
+            font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "js");
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Merriweather:700" rel="stylesheet">
+    
+        
+            <script type="text/javascript">
+                window.__oc_flags_ImprovedBreakpointEventHandling = true;
+            </script>
+            
+        
+    
+    
+    
+        <script type="text/javascript">
+            var __metaQueryBreakpoints = {
+                'sc-size-4': '(max-width: 480px)',
+                'sc-size-3': '(min-width: 480px) and (max-width: 768px)',
+                'sc-size-2': '(min-width: 768px) and (max-width: 992px)',
+                'sc-size-1': '(min-width: 992px)'
+            }
+
+            var __ocSizePoints = [
+                { min: 0, name: 'sc-size-4' },
+                { min: 480, name: 'sc-size-3' },
+                { min: 768, name: 'sc-size-2' },
+                { min: 992, name: 'sc-size-1' }
+            ];
+
+        </script>
+    
+
+    <!-- Framework Section -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/files/templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/jquery-1.12.4.min.js?seamlessts=639263256310465264" ><\/script>')</script>
+
+    <!--Google Maps API Loader – Improved Version to avoid Warning
+    This script loads the Google Maps JavaScript API using a dynamic and async method.
+    It replaces the old static <script> tag to avoid performance warnings from Google.
+
+    Dynamically creates the <script> tag with loading = async for better performance
+    Builds the API URL with required libraries(places, geometry, marker, geocoding)
+    Uses a Promise and callback(google.maps.__ib__) to confirm when the script is ready
+
+    It Avoids Google’s warning about direct script loading
+    Improves page load speed by loading the API asynchronously-->
+
+    
+        <script>
+            (function (root) {
+                root.OpenCities = root.OpenCities || {};
+                if (!root.OpenCities.GoogleMapsLoader) {
+                    root.OpenCities.GoogleMapsLoader = {
+                        _cbs: [],
+                        _ready: false,
+                        onReady: function (cb) {
+                            if (this._ready) { try { cb(); } catch (e) { console.error(e); } }
+                            else if (typeof cb === 'function') this._cbs.push(cb);
+                        },
+                        _fire: function () {
+                            if (this._ready) return;
+                            this._ready = true;
+                            var q = this._cbs.splice(0);
+                            for (var i = 0; i < q.length; i++) {
+                                try { q[i](); } catch (e) { console.error(e); }
+                            }
+                        }
+                    };
+                }
+            })(window);
+
+            (g => {
+                var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__",
+                    m = document, b = window;
+                b = b[c] || (b[c] = {});
+                var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                    u = () => h || (h = new Promise(async (resolve, reject) => {
+                        a = m.createElement("script");
+                        e.set("libraries", [...r] + "");
+                        for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                        e.set("callback", c + ".maps." + q);
+                        a.src = "https://maps." + c + "apis.com/maps/api/js?" + e.toString();
+                        a.loading = "async";
+                        a.async = true;
+                        a.defer = true;
+                        d[q] = resolve;
+                        a.onerror = () => reject(Error(p + " could not load."));
+                        a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                        m.head.append(a);
+                    }));
+                if (d[l]) {
+                    console.warn(p + " only loads once. Ignoring duplicate load.");
+                } else {
+                    d[l] = (f, ...n) => (r.add(f), u().then(() => d[l](f, ...n)));
+                }
+            })({
+                key: "AIzaSyARTgz55hhl0arlKzuDpj_dGA95nVHl-4w",
+                v: "3.65"
+            });
+
+            (async () => {
+                try {
+                    if (!google?.maps?.importLibrary) return;
+
+                    if (!window.OpenCities.__mapsLibsPromise) {
+                        window.OpenCities.__mapsLibsPromise = Promise.all([
+                            google.maps.importLibrary('maps'),
+                            google.maps.importLibrary('places'),
+                            google.maps.importLibrary('geocoding'),
+                            google.maps.importLibrary('marker'),
+                            google.maps.importLibrary('geometry')
+                        ]);
+                    }
+                    await window.OpenCities.__mapsLibsPromise;
+
+                    if (window.OpenCities?.GoogleMapsLoader) {
+                        window.OpenCities.GoogleMapsLoader._fire();
+                    }
+                } catch (err) {
+                    console.error('Google Maps failed to initialise', err);
+                }
+            })();
+        </script>
+    
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/modernizr.custom.710f3bf.js?seamlessts=639263256310465264" defer></script>
+    
+    <!--// End Framework Section -->
+    <!-- OpenCities Section -->
+    <script>
+        var OpenCities = OpenCities || {};
+        OpenCities.Paths = {
+            SiteTemplate: '/files/templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/',
+            ThemePath: '/files/templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/'
+        };
+    </script>
+    <script src='/ocapi/bd3d2039-b95e-45c2-a588-0bfaf0543933/en-US/websitesettings.js'></script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/oc_head.js?applied=20260317122545"></script>
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/oc_grid.css~oc_style.css~oc_wizard_style.css~oc_main.css~oc_forms.css~oc_wizard.css~oc_wizard_menu.css~oc_main_s1.css~oc_wizard_s1.css~oc_wizard_menu_s1.css~oc_grid_s1.css~OcScriptCombine_Minify0?uniqueid=20260317122545" rel="stylesheet" type="text/css">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/client_style.css~client.css~client_menu.css~client_s1.css~client_menu_s1.css~client_forms.css~OcScriptCombine_Minify0?uniqueid=20260317122545" rel="stylesheet" type="text/css">
+    <script>
+(function (BackgroundSettings, $, undefined) {
+    BackgroundSettings.initialise = function () {
+        this.Application = {"CSSSelector":".background-container","EnableFade":true,"MediaType":"image"};
+    };
+} (OpenCities.BackgroundSettings = OpenCities.BackgroundSettings || {}, jQuery));
+OpenCities.BackgroundSettings.initialise();
+</script>
+    
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/oc_print.css~client_print.css~OcScriptCombine_Minify0?uniqueid=20260317122545" rel="stylesheet" type="text/css" media="print">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<script src="/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/v/3630/external_plugins.js~oc_form_helper.js~oc_main.js~plugins.js~oc_main_init.js~OcScriptCombine_Minify0?uniqueid=20260317122545" defer="true"></script>
+    <!-- Google Tag Manager 2023 -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5TF8T7M');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '339909306718042');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=339909306718042&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    
+</head>
+<body class="body layout-modern side-menu side-menu-left   content-type-oc-directory content-template-oc-default group-template-oc-full-width-with-default-header page-name-thornton-park-district-main-street page-sequence-11 page-depth-6 page-section-9 website-type-primary device-desktop " id="body-top">
+    <div id="skip-to-content-container">
+        <a href="#main-content" class="visuallyhidden focusable" id="skip-to-content-link">Skip to main content</a>
+    </div>
+    <script>
+        // OCNOW-11988 (Cursor): Proactively focus skip link when returning from browser chrome.
+        // Must run inline (not deferred oc_main.js) so focus is intercepted before NVDA speaks footer.
+        (function () {
+            var awaitingReentry = false;
+            var inertSupported = 'inert' in HTMLElement.prototype;
+
+            function isExplicitlyOutsideDocument(node) {
+                return node != null && !document.documentElement.contains(node);
+            }
+
+            function getSkipContainer() {
+                return document.getElementById('skip-to-content-container');
+            }
+
+            function getSkipLink() {
+                return document.getElementById('skip-to-content-link');
+            }
+
+            function applyGuard() {
+                awaitingReentry = true;
+                if (!inertSupported) {
+                    return;
+                }
+                var skipContainer = getSkipContainer();
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i] !== skipContainer) {
+                        children[i].setAttribute('inert', '');
+                    }
+                }
+            }
+
+            function clearGuard() {
+                awaitingReentry = false;
+                if (!inertSupported) {
+                    return;
+                }
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].removeAttribute('inert');
+                }
+            }
+
+            function isSkipLinkElement(target) {
+                if (!target) {
+                    return false;
+                }
+                var skipContainer = getSkipContainer();
+                return target.id === 'skip-to-content-link' ||
+                    (skipContainer && skipContainer.contains(target));
+            }
+
+            function focusSkipLink() {
+                var skipLink = getSkipLink();
+                if (!skipLink) {
+                    return;
+                }
+                if (window.scrollY > 0) {
+                    window.scrollTo(0, 0);
+                }
+                skipLink.focus({ preventScroll: true });
+            }
+
+            function scheduleGuardIfDocumentLostFocus() {
+                window.setTimeout(function () {
+                    if (!document.hasFocus()) {
+                        applyGuard();
+                    }
+                }, 0);
+            }
+
+            document.addEventListener('focusout', function (e) {
+                if (isExplicitlyOutsideDocument(e.relatedTarget)) {
+                    applyGuard();
+                }
+            }, true);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab') {
+                    scheduleGuardIfDocumentLostFocus();
+                } else if (e.key === 'F6' || (e.key === 'l' && e.ctrlKey)) {
+                    scheduleGuardIfDocumentLostFocus();
+                }
+            }, true);
+
+            window.addEventListener('focus', function () {
+                if (!awaitingReentry) {
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+            }, true);
+
+            document.addEventListener('focusin', function (e) {
+                var reentryFromChrome = awaitingReentry || isExplicitlyOutsideDocument(e.relatedTarget);
+                if (!reentryFromChrome) {
+                    return;
+                }
+                if (isSkipLinkElement(e.target)) {
+                    clearGuard();
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+                clearGuard();
+            }, true);
+        })();
+    </script>
+    <form name="mainForm" method="post" action="/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street" id="mainForm">
+<input type="hidden" name="ctl05_seamless_script_manager_TSM" id="ctl05_seamless_script_manager_TSM" value="" />
+<input type="hidden" name="__SEAMLESSVIEWSTATE" id="__SEAMLESSVIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl05_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3add3ac3d5-1e29-4112-8fed-529caffa8f24%3aea597d4b%3bOpenCities.CustomControls%3aen-GB%3a7197b077-b068-4a69-9481-a6cf2e7718f9%3a8e1d32bf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EYVjNsQ7oYmzBqCI0dkEyYe0LYmPcVFL4WPcQCXhKfQwUqkAT7lLra0za-OLMuUUcCyPINdTVMHIWti96-8R_oN-trjXUUZnJRzckxTjid4ecctwwEJyNI-05jZYvXHBRiEKL0MUQMEyEJ2FXanyE1uBk88RxZ1wVK6AUn9D4v8rW-LNx2OOtB8vE3hC8P0jk4XZt7GAPiCeYQolxUlwFZA8cuOfgd4u08OASxFdh8mChz3A0YHhuwRrXGVlulfs9SJVkAvulhjdHYIIp1SRohDxt9acTwxUQrOlxuxC847b00zOOWg9SlpwD_iBuQQ1rOK9WH9O_wN9c2TXm4GeXaQHHT4yQ9IlzZXw6th8ch3f-k_n1yYeeurDMbwChXW1Vh_7rpu00kgmegsg9w2J3ququXIPfy2Gq8IscVTmtwouupfmUzAOicU_yESgQ-dG0" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    try{
+        function SeamlessEndRequestHandler(sender, args) {
+            try {
+                var dataItems = args.get_dataItems();
+                if(dataItems.ctl05_seamless_script_manager)
+                    document.getElementById('__SEAMLESSVIEWSTATE').value = dataItems.ctl05_seamless_script_manager;
+            }
+            catch (e) { }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SeamlessEndRequestHandler);
+    }
+    catch (e) { }
+</script>
+
+    <div class="unsupported-browser-warning js-element"></div>
+    
+    <div hidden>
+        <span id="new-window-0">opens in new tab or window </span>
+    </div>
+    <div class="overlay-container"></div>
+    
+    <div class="background-container">
+        <div class="page-container">
+            <!-- OC Layout Element GROUP TEMPLATE -->
+            <!--groupTemplateStart--><header><div class="print-header-outer-container print-element">
+<img src="/files/assets/public/templateimages/print-header.png" alt="City of Orlando - Logo" />
+</div>
+            <div class="toolbar-outer-container">
+  <div class="toolbar-inner-container clearfix">
+    <div class="toolbar-item toolbar-language notranslate toolbar-display-dropdown"><div class="no-js-element">
+		  <ul>
+		    <li id="toolbar-language-option-en-us-noscript"><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=en-US" class="lang-item lang-en-us" data-translate-to="en-us" lang="en-US">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-es-noscript"><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="es">Español (Spanish)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ht-noscript"><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=ht" class="lang-item lang-ht" data-translate-to="ht" lang="ht">Kreyòl Ayisyen (Haitian Creole)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-pt-noscript"><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=pt" class="lang-item lang-pt" data-translate-to="pt" lang="pt">Português (Portuguese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+          </ul>
+		</div>
+	<button type="button" role="combobox" aria-controls="toolbar-language-drop-down" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="none" aria-labelledby="toolbar-language-label" class="toolbar-button toolbar-button-language js-element">  
+        <span class="toolbar-language-globe-icon" aria-hidden="true"></span>
+        <span id="toolbar-language-label" class="current-language">
+            Select a language to translate to
+		</span>
+		<i aria-hidden="true"></i>
+	</button>
+	<div id="toolbar-language-drop-down" role="listbox" aria-label="Available languages" class="toolbar-drop-down toolbar-language-drop-down js-element clearfix">
+		<ul role="group">
+		    <li role="presentation"><a id="toolbar-language-option-en-us" role="option" aria-selected="true" href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=en-US" class="lang-item lang-en-us" data-translate-to="en-us" lang="en-US">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-es" role="option" aria-selected="false" href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="es">Español (Spanish)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ht" role="option" aria-selected="false" href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=ht" class="lang-item lang-ht" data-translate-to="ht" lang="ht">Kreyòl Ayisyen (Haitian Creole)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-pt" role="option" aria-selected="false" href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street?oc_lang=pt" class="lang-item lang-pt" data-translate-to="pt" lang="pt">Português (Portuguese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+        </ul>
+	</div></div>
+  </div>
+</div>
+            <div class="header-outer-container clearfix">
+		    <div class="side-menu-btn js-element">
+		    <button type="button" aria-expanded="false" aria-controls="nav"><i aria-hidden="true"></i><span class="side-menu-btn-text">Menu</span></button>
+		    </div>
+ 	<div class="header-container header-layout-2  clearfix">
+			<div class="header-site-logo">
+				<a href="https://www.orlando.gov/Home" lang="en-US" aria-label="City of Orlando - Home - Logo">
+				</a>
+			</div>
+		    <div class="mobile-search-btn js-element">
+		        <button><i aria-hidden="true"></i><span class="mobile-search-btn-text"><span class="visuallyhidden">Open </span>Search</span></button>
+		    </div>			
+			<div class="header-search-control-container" id="header-search">
+				<div class="search-inner-container">
+					<div class="sc-search-panel">
+	<label for="ctl08_txtSearch" id="ctl08_lblSearch" class="sc-search-label">Search</label><input name="ctl08$txtSearch" type="text" id="ctl08_txtSearch" class="sc-search-text" placeholder="Find almost anything on our website" /><input type="submit" name="ctl08$btnSearch" value="Search" id="ctl08_btnSearch" class="sc-search-button" />
+</div>
+					<div role="status" id="predictiveResults"></div>
+				</div>
+			</div>
+	</div>
+</div>
+<div class="navigation-outer-container">
+	<div id="nav" role="navigation" class="navigation-container" data-menu-type="offscreen" data-offscreen-position="left" aria-label="primary">
+		<div class="grid">
+			<div class="col-xs-12">              
+                <ul class="sf-menu" id="sc-main-menu"><li class="nav-section-quarters-1   first-item nav-item-seq-1">
+<a href="https://www.orlando.gov/Home" class="nav-level-1 "  target="">
+	<i class="item-icon" aria-hidden="true"></i><span class="item-text">Home</span>
+</a>
+</li>
+          
+            <li class="nav-section-quarters-1   nav-item-seq-2">
+<a href="https://www.orlando.gov/Report-a-Problem" class="nav-level-1 nav-has-children"  target="">Report a Problem</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-2">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-2">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Report-a-Problem/Report-a-Crime" class=""  target="_self">Non-Violent Crimes</a></li><li class=" "><a  href="https://www.orlando.gov/Report-a-Problem/Report-a-Code-Enforcement-Violation" class=""  target="_self">Code Enforcement</a></li><li class=" "><a  href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem" class="nav-has-children"  target="">Streets and Traffic</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-a-Pothole"  target="_self">Report a Pothole</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-a-Broken-Sidewalk"  target="_self">Report a Broken Sidewalk</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-a-Traffic-Signal-Issue"  target="_self">Report a Traffic Signal Issue</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-a-Damaged-Traffic-Sign"  target="_self">Report a Damaged Traffic Sign</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-Speeding-in-Your-Neighborhood"  target="_self">Report Speeding in Your Neighborhood</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-Nuisance-Parking"  target="_self">Report Nuisance Parking</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Incorrectly-Parked-Dockless-Bike-or-Scooter"  target="_self">Report an Incorrectly Parked Dockless Bike or Scooter</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-a-Broken-Parking-Meter"  target="_self">Report a Broken Parking Meter</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-a-Streetlight-Outage"  target="_blank">Report a Streetlight Outage</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Transportation-Problem/Report-Other-Traffic-Safety-Issues"  target="_self">Report Other Traffic Safety Issues</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Report-a-Problem/Report-a-Solid-Waste-and-Environment-Problem" class="nav-has-children"  target="">Trash and Environment</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Solid-Waste-and-Environment-Problem/Report-Flooding"  target="">Report Flooding</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Solid-Waste-and-Environment-Problem/Report-a-Missed-Garbage-Cart-Pick-Up"  target="_self">Report a Missed Garbage Cart Pick-Up</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Solid-Waste-and-Environment-Problem/Report-a-Missed-Garbage-Dumpster-Pick-Up"  target="_self">Report a Missed Garbage Dumpster Pick-Up</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Solid-Waste-and-Environment-Problem/Report-Lake-or-Stormwater-Pollution"  target="">Report Lake or Stormwater Pollution</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Solid-Waste-and-Environment-Problem/Report-Sanitary-Overflow-or-Stopped-Sewer"  target="">Report Sanitary Overflow or Stopped Sewer</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Report-a-Problem/Report-a-Parks-and-Beautification-Problem" class="nav-has-children"  target="">Parks and City Beautification</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Parks-and-Beautification-Problem/Report-a-Problem-Tree"  target="_self">Report a Problem Tree</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Parks-and-Beautification-Problem/Report-Something-Broken-in-a-Park"  target="_self">Report Something Broken in a Park</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-a-Parks-and-Beautification-Problem/Report-Graffiti"  target="">Report Graffiti</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Report-a-Problem/Report-Public-Resource-Misuse" class="nav-has-children"  target="">Public Resource Misuse</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-Public-Resource-Misuse/Report-City-Fraud-Waste-or-Abuse"  target="">Report City Fraud, Waste or Abuse</a></li><li  class=" "><a href="https://www.orlando.gov/Report-a-Problem/Report-Public-Resource-Misuse/Report-Bad-Driving-in-a-City-Vehicle"  target="_self">Report Bad Driving in a City Vehicle</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-1   nav-item-seq-3">
+<a href="https://www.orlando.gov/Building-Development" class="nav-level-1 nav-has-children"  target="">Building & Development</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-3">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-3">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Building-Development/Permits-Inspections" class="nav-has-children"  target="">Permits & Inspections</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Get-a-Permit"  target="">Get a Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Renew-Extend-Close-or-Withdraw-a-Permit"  target="">Renew, Extend, Close or Withdraw a Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Schedule-an-Appointment"  target="_blank">Schedule an Appointment</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Figure-Out-What-Permits-You-Need"  target="_self">Figure Out What Permits You Need</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Submit-Construction-Project-Plans"  target="">Submit Construction Project Plans</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Check-Permit-Status"  target="_self">Check Permit Status</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/File-a-Recorded-Notice-of-Commencement"  target="">File a Recorded Notice of Commencement</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Schedule-or-Cancel-an-Inspection"  target="">Schedule or Cancel an Inspection</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Pay-Permit-Fees"  target="">Pay Permit Fees</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Other"  target="">Other Permitting Services</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Permits-Inspections/Apply-for-Residential-Building-Permit-Exemption"  target="">Apply for a Residential Building Permit Exemption</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/City-Projects" class="nav-has-children"  target="">City Projects</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/The-Packing-District"  target="">The Packing District</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Citywide-Reclaimed-Water-Inspections"  target="">Citywide Reclaimed Water Inspections</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/2021-ADA-Transition-Plan-Update"  target="">2021 ADA Transition Plan Update</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/The-Emergency-Operations-Center-Building-Expansion"  target="">The Emergency Operations Center Building Expansion</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Virginia-Drive-Study"  target="">Virginia Drive Study</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Southwest-Orlando-Bike-and-Pedestrian-Study"  target="">Southwest Orlando Bike and Pedestrian Study</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Spellman-Engineering-Site"  target="">Spellman Engineering Site</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/City-Sidewalk-Construction"  target="">City Sidewalk Construction</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Continuous-Sanitary-Sewer-Smoke-Testing"  target="">Sanitary Sewer Smoke Testing</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Proactive-City-Surveying"  target="">Proactive City Surveying</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/City-Wide-Asphalt-Rejuvenation"  target="">City Wide Asphalt Rejuvenation</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Carrier-Drive-Roadway-Improvements-and-Roundabout-Project"  target="">Carrier Drive Roadway Improvements and Roundabout Project</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Edgewater-Drive-Complete-Street-Project"  target="">Edgewater Drive Complete Street Project</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Lift-Station-55-Replacement-Project"  target="">Lift Station 55 Replacement Project</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Maxey-Crooms-House"  target="">Maxey-Crooms House</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Lift-Station-2-Force-Main-Improvements-Parts-A-B-and-C"  target="">Lift Station 2 Force Main Improvements Project Parts A, B, and C</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Piedmont-Yard-Apartments"  target="">Piedmont Yard Apartments</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Lake-Notasulga-Haralson-Estates-Improvements"  target="">Lake Notasulga - Haralson Estates Improvements</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Rosemont-Septic-to-Sewer-Project-Windsong-Estates"  target="">Rosemont Septic to Sewer Project - Windsong Estates</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Summerlin-Avenue-Improvement-Project-Phase-I"  target="">Summerlin Avenue Improvement Project - Phase I</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Southeast-Government-Center"  target="">Southeast Government Center</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Watershed-Initiative-Plan-Howell-Branch-Basin"  target="">Watershed Initiative Plan: Howell Branch Basin</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Floodplain-Management-Plan-Study"  target="">Floodplain Management Plan Study</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Shingle-Creek-Trail-Extension-Along-Kirkman-Road"  target="">Shingle Creek Trail Extension Along Kirkman Road</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Bumby-Avenue-Safety-Improvements"  target="">Bumby Avenue Safety Improvements</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Bike-and-Micromobility-Parking-Study"  target="">Bike and Micromobility Parking Study</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/2026-2030-Consolidated-Plan"  target="">2026-2030 Consolidated Plan</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Magnolia-Avenue-Phase-I-Improvements"  target="">Magnolia Avenue - Phase I Improvements</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Building-a-Better-Downtown-Orlando"  target="">Building a Better Downtown Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Livingston-Street-Separated-Bicycle-Lane-Quick-Build-Project"  target="">Livingston Street Separated Bicycle Lane Quick-Build Project</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Lake-Orlando-Parkway-Separated-Bicycle-Lane-Quick-Build-Project"  target="">Lake Orlando Parkway Separated Bicycle Lane Quick-Build Project</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Church-Street-Improvements"  target="">Church Street Improvements</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Mills-50-Crosswalk-Improvements"  target="">Mills 50 Crosswalk Improvements at Canton Street</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Westmoreland-Drive-Roadway-and-Utility-Improvements"  target="">Westmoreland Drive Roadway and Utility Improvements</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Lake-Arnold-Pervious-Pavement-Pilot-Project"  target="">Lake Arnold Pervious Pavement Pilot Project</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Lift-Station-2-Replacement-Project"  target="">Lift Station 2 Replacement Project</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Parramore-Avenue-Utility-and-Streetscape-Improvements"  target="">Parramore Avenue Utility and Streetscape Improvements</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/City-Projects/Grand-National-Drive-Phase-2-Improvements"  target="">Grand National Drive Phase 2 Improvements</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/Schedule-an-Appointment" class="nav-has-children"  target="">Schedule an Appointment</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Building-Development/Schedule-an-Appointment/Schedule-a-Permitting-Appointment"  target="">Schedule a Permitting Appointment</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Schedule-an-Appointment/Request-a-Pre-Application-Meeting-with-a-Planner"  target="_self">Request a Pre-Application Meeting with a Planner</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/Business-Incentives" class="nav-has-children"  target="">Find Resources for Your Business</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Building-Development/Business-Incentives/Business-Incentive-Programs"  target="">Business Incentive Programs</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/Code-Enforcement" class="nav-has-children"  target="">Code Enforcement & Compliance</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Building-Development/Code-Enforcement/Report-a-Code-Violation"  target="">Report a Code Violation</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Code-Enforcement/Pay-a-Code-Enforcement-Fine"  target="_self">Pay a Code Enforcement Fine</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Code-Enforcement/Look-Up-Code-Enforcement-Cases-and-Liens"  target="_self">Look Up Code Enforcement Cases and Liens</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Code-Enforcement/Look-Up-City-Codes"  target="_blank">Look Up City Codes</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Code-Enforcement/Resolve-a-Code-Enforcement-Issue-Related-to-Permitting-Compliance"  target="_self">Resolve a Code Enforcement Issue Related to Permitting Compliance</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Code-Enforcement/Get-Help-With-an-Issue-Not-Covered-by-Code-Enforcement"  target="">Get Help With an Issue Not Covered by Code Enforcement</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Code-Enforcement/Register-a-Responsible-Person-for-Your-Business"  target="">Register a Responsible Person for Your Business</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/Housing-and-Development-Grants-Incentives-and-Assistance" class="nav-has-children"  target="">Housing and Development Grants, Incentives and Assistance</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Building-Development/Housing-and-Development-Grants-Incentives-and-Assistance/Housing-Assistance-Programs"  target="">Housing Assistance Programs</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Housing-and-Development-Grants-Incentives-and-Assistance/CBDG"  target="_self">Community Development Block Grants & Emergency Solutions Grants</a></li><li  class=" "><a href="https://www.orlando.gov/Building-Development/Housing-and-Development-Grants-Incentives-and-Assistance/Apply-for-Affordable-Housing-Development-Incentives"  target="">Apply for Affordable Housing Development Incentives</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/ABN2026-10003-Orlando-Housing-Authority-OHA-Abandonments-tied-to-redevelopment" class=""  target="">OHA Abandonment of part of S. Lee Ave. & Nearby Alleys</a></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/SNC2026-10002-Renaming-of-Alley-in-Honor-of-Track-Shack" class=""  target="">Renaming of Unnamed Alley to Track Shack Alley</a></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/ZON2026-10010-Kobra-Residential-Office-Condo-Rezoning-Westgate-Dr" class=""  target="">Kobra Residential-Office Condo Rezoning Westgate Dr. O-1 to O-2</a></li><li class=" "><a  href="https://www.orlando.gov/Building-Development/MPL2026-10045-AIPO-T50T51-Four-Indus.-Warehouses-Master-Plan" class=""  target="">AIPO T50/T51 Four Industrial Warehouses Master Plan (south of OUR RR)</a></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-4">
+<a href="https://www.orlando.gov/Parking-Transportation" class="nav-level-1 nav-has-children"  target="">Parking & Transportation</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-4">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-4">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Parking" class="nav-has-children"  target="">Parking</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Parking-Garages-and-Lots"  target="">Parking Garages and Lots</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Parking-Rates"  target="">Parking Rates</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Pay-a-Parking-Ticket"  target="">Pay a Parking Ticket</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Reserve-and-Purchase-Event-Parking"  target="">Reserve and Purchase Event Parking</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Appeal-a-Parking-Ticket"  target="">Appeal a Parking Ticket</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Report-Nuisance-Parking"  target="">Report Nuisance Parking</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Apply-for-On-Street-Space-Rental"  target="">Apply for On-Street Space Rental</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Monthly-Parking"  target="">Apply for Monthly Parking</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Apply-for-a-Freight-Loading-and-Unloading-Permit"  target="">Apply for a Freight Loading and Unloading Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Report-a-Problem-with-On-Street-Spaces"  target="">Report a Problem with On-Street Spaces</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Find-Media-Parking"  target="">Find Media Parking</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Downtown-Guide"  target="">Downtown Parking Guide</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/Understand-Disabled-Parking-Rules"  target="">Understand Disabled Parking Rules</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Parking/On-Street-Parking"  target="">On-Street Parking</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Public-Transit" class="nav-has-children"  target="">Public Transit</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Public-Transit/Orlando-International-Airport"  target="">Orlando International Airport</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Public-Transit/Orlando-Executive-Airport"  target="">Orlando Executive Airport</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Public-Transit/LYMMO"  target="_self">LYMMO Downtown Circulator</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Public-Transit/SunRail"  target="">SunRail</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Public-Transit/Bike-Share-Scooter-Share-Program"  target="_self">Bike Share / Scooter Share Program</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue" class="nav-has-children"  target="">Report a Transportation Issue</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-a-Pothole"  target="">Report a Pothole or Road Issue</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-a-Traffic-Signal-Issue"  target="">Report a Traffic Signal Issue</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-a-Damaged-Traffic-Sign"  target="">Report a Damaged Traffic Sign</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-Speeding-in-Your-Neighborhood"  target="">Report Speeding in Your Neighborhood</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-Nuisance-Parking"  target="_self">Report Nuisance Parking</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-an-Incorrectly-Parked-Dockless-Bike-or-Scooter"  target="">Report an Incorrectly Parked Dockless Bike or Scooter</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-a-Broken-Sidewalk"  target="">Report a Broken Sidewalk</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Request-a-New-Sidewalk"  target="">Request a New Sidewalk</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-Streetlight-Outage"  target="_blank">Report Streetlight Outage</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-Bad-Driving-in-a-City-Vehicle"  target="">Report Bad Driving in a City Vehicle</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Report-a-Transportation-Issue/Report-Other-Traffic-Safety-Issues"  target="">Report Other Traffic Safety Issues</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Red-Light-Camera-Violations" class="nav-has-children"  target="">Red Light Camera Violations</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Red-Light-Camera-Violations/Pay-a-Red-Light-Camera-Violation"  target="">Pay a Red Light Camera Violation</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Red-Light-Camera-Violations/Contest-a-Red-Light-Camera-Violation"  target="">Contest a Red Light Camera Violation</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/Red-Light-Camera-Violations/View-Photos"  target="_blank">View Photos of your Red Light Camera Violation</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Downtown-Transportation-Options" class=""  target="">Downtown Orlando Transportation Options</a></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Request-a-Road-Lane-or-Sidewalk-Closure" class=""  target="">Request a Road, Lane or Sidewalk Closure</a></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures" class="nav-has-children"  target="">View Road Closures</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Tabs"  target="">Tabs</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/001578-C-Camping-World-Stadium-Reimagining"  target="">Camping World Stadium Reimagining</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/001717-C-Lift-Station-2-Force-Main-Project-North-Orange-area"  target="">Lift Station 2 Force Main Project (North Orange area)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/001918-C-Chatham-Avenue-Creative-Village"  target="">Chatham Avenue (Creative Village)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/000758-C-The-Yard-at-Brookhaven"  target="">The Yard at Brookhaven</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/001872-C-Camping-World-Stadium-Rio-Grande-and-South"  target="">Camping World Stadium Reimagining</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/001374-C-Laureate-Boulevard-Lake-Nona-South"  target="">Laureate Boulevard (Lake Nona South)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/001638-C-AdventHealth-Cancer-Center"  target="">AdventHealth Cancer Center (North Orange)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002014-C-Oregon-Street-Colonialtown-Phase-II-Drainage-Project"  target="">Oregon Street (Colonialtown)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002097-C-Traffic-Advisory-Mariposa-Avenue"  target="">Mariposa Groves (South Eola neighborhood)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Traffic-Advisory-Eastbound-I-4-near-Sand-Lake-Road"  target="">FDOT travel lanes on Eastbound I-4 near Sand Lake Road:</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002110-C-Luminary-Boulevard-Extension"  target="">Luminary Boulevard (Lake Nona)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/001237-C-Lake-Nona-Boulevard-roadway-improvements"  target="">Lake Nona Boulevard roadway improvements</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002234-C-Sidewalk-closure-along-Bal-Bay-Drive"  target="">Sidewalk closure along Bal Bay Drive</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002217-C-Cove-Drive"  target="">Cove Drive (Airport North)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Sidewalk-closure-along-Dowden-Road"  target="">Sidewalk closure along Dowden Road (Storey Park)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002266-C-Lift-Station-2-Garland-Avenue"  target="">Lift Station 2 Garland Avenue (Central Business District)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002354-C-AdventHealth-Hospital"  target="">AdventHealth Lake Nona</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002473-C-Livingston-Street-Creative-Village"  target="">Livingston Street (Creative Village)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002521-C-Parramore-Coalition-for-the-Homeless"  target="">Parramore Avenue (Callahan)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/002559-C-AdventHealth-Cancer-Center-Dade-Avenue"  target="">Dade Avenue (North Orange)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Come-Out-With-Pride-Parade-and-Festival-2026"  target="">Come Out With Pride Parade and Festival</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Step-Up-for-Down-Syndrome-Walk-2026"  target="">Step Up for Down Syndrome Walk</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Making-Strides-Against-Breast-Cancer-2026"  target="">Making Strides Against Breast Cancer of Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Edgewater-High-School-Homecoming-Parade-2026"  target="">Edgewater High School Homecoming Parade</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Dominican-Festival-Downtown-10.18.26"  target="">Dominican Festival (Downtown)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Vegan-Food-Festival-Downtown-10.24.26"  target="">Vegan Food Festival (Downtown)</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Baldwin-Park-Mini-Monster-Bash-2026"  target="">Baldwin Park Mini Monster Bash</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Barktoberfest-2026"  target="">Barktoberfest</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Calle-Orange-2026"  target="">Fiesta Calle Orange 2026</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/SODO-Street-Fall-Festival-2026"  target="">SODO Street Fall Festival</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/EDM-Concert-Court-Street-10.30.26"  target="">EDM Concert</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Thornton-Park-District-13th-Annual-Halloween-Party"  target="">Thornton Park District 13th Annual Halloween Party</a></li><li  class=" "><a href="https://www.orlando.gov/Parking-Transportation/View-Road-Closures/Fall-Fiesta-2026"  target="">Fall Fiesta in the Park (Lake Eola Park)</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Adopt-a-Street-in-the-City-of-Orlando" class=""  target="_self">Adopt a Street in the City of Orlando</a></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Bike-Trails-and-Paths" class=""  target="">Bike Trails</a></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Request-a-Memorial-Marker" class=""  target="">Request a Memorial Marker</a></li><li class=" "><a  href="https://www.orlando.gov/Parking-Transportation/Pay-a-Speed-Camera-Violation" class=""  target="">Pay a Speed Camera Violation</a></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-5">
+<a href="https://www.orlando.gov/Trash-Recycling" class="nav-level-1 nav-has-children"  target="">Trash & Recycling</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-5">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-5">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Request-a-Trash-or-Recycling-Cart" class=""  target="">Request a Trash or Recycling Cart</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Trash-Recycling-Yard-Waste-Pick-Up-Schedule" class=""  target="">Trash, Recycling & Yard Waste Pick-Up Schedule</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/What-Goes-Where" class=""  target="">What Goes Where</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Food-Waste" class="nav-has-children"  target="">Food Waste</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Trash-Recycling/Food-Waste/How-to-Avoid-Food-Waste"  target="_self">How to Avoid Food Waste</a></li><li  class=" "><a href="https://www.orlando.gov/Trash-Recycling/Food-Waste/What-Goes-Where"  target="_self">What Goes Where</a></li><li  class=" "><a href="https://www.orlando.gov/Trash-Recycling/Food-Waste/Recycle-Your-Cooking-Oil"  target="">Recycle Your Cooking Oil</a></li><li  class=" "><a href="https://www.orlando.gov/Trash-Recycling/Food-Waste/Composting-Guide"  target="">How to Compost</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Report-a-Missed-Trash-Recycling-or-Yard-Waste-Pickup" class=""  target="">Report a Missed Trash, Recycling or Yard Waste Pickup</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Report-a-Missed-Garbage-Dumpster-Pickup" class=""  target="">Report a Missed Garbage Dumpster Pickup</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Get-Large-Items-Picked-Up" class=""  target="">Get Large Items Picked Up</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Request-a-Roll-Off-Dumpster" class=""  target="">Request a Roll-Off Dumpster</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Submit-Commercial-or-Multifamily-Recycling-Verification" class=""  target="">Submit Commercial or Multifamily Recycling Verification</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Start-Commercial-Garbage-or-Recycling-Service" class="nav-has-children"  target="">Start Commercial Garbage or Recycling Service</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-10"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-10">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Trash-Recycling/Start-Commercial-Garbage-or-Recycling-Service/Commercial-Garbage-Collection-Charges"  target="">Commercial Garbage Collection Charges</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Return-Your-Cooking-Oil-Recycling-Container" class=""  target="">Return Your Cooking Oil Recycling Container</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Request-a-Dumpster-Bag-Pickup" class=""  target="">Request a Dumpster Bag Pickup</a></li><li class=" "><a  href="https://www.orlando.gov/Trash-Recycling/Report-Storm-Debris" class=""  target="">Report Storm Debris</a></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-6">
+<a href="https://www.orlando.gov/Parks-the-Environment" class="nav-level-1 nav-has-children"  target="">Parks & the Environment</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-6">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-6">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/City-of-Orlando-Park-Rules" class=""  target="">City of Orlando Park Rules</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Directory" class="nav-has-children"  target="">Parks, Recreation & Neighborhood Centers Directory</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Eola-Park"  target="">Lake Eola Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Blue-Jacket-Park"  target="">Blue Jacket Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Cherry-Tree-Park"  target="">Cherry Tree Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Dartmouth-Park"  target="">Dartmouth Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Delaney-Park"  target="">Delaney Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Demetree-Park"  target="">Demetree Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Festival-Park"  target="">Festival Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Como-Park"  target="">Lake Como Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Druid-Park"  target="">Lake Druid Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Langford-Neighborhood-Center"  target="">Langford Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Loch-Haven-Park"  target="">Loch Haven Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Park-of-the-Americas"  target="">Park of the Americas</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Wadeview-Park"  target="">Wadeview Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Z.L.-Riley-Park"  target="">Z.L. Riley Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Airport-Lakes-Park"  target="">Airport Lakes Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Mayor-William-Beardall-Senior-Center"  target="">Mayor William Beardall Senior Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Citrus-Square-Neighborhood-Center"  target="">Citrus Square Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/L.-Claudia-Allen-Senior-Center"  target="">L. Claudia Allen Senior Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/College-Park-Neighborhood-Center"  target="">College Park Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Colonialtown-Neighborhood-Center"  target="">Colonialtown Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Dover-Shores-Neighborhood-Center"  target="">Dover Shores Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Callahan-Neighborhood-Center"  target="">Callahan Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Emery-Hamilton-Sports-Complex"  target="">Emery Hamilton Sports Complex</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Engelwood-Neighborhood-Center"  target="">Engelwood Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Hankins-Park-Neighborhood-Center"  target="">Dr. I Sylvester Hankins Park Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Ivey-Lane-Neighborhood-Center"  target="">Ivey Lane Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Jackson-Neighborhood-Center"  target="">John H. Jackson Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Northwest-Neighborhood-Center"  target="">Northwest Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Rock-Lake-Neighborhood-Center"  target="">Rock Lake Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Rosemont-Neighborhood-Center-and-Pool"  target="">Rosemont Neighborhood Center and Pool</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Dr.-James-R.-Smith-Neighborhood-Center"  target="">Dr. James R. Smith Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Southport-Park"  target="">Southport Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Trotters-Park"  target="">Trotters Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Wadeview-Neighborhood-Center"  target="">Wadeview Neighborhood Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Albert-Park"  target="">Albert Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Cherokee-Park"  target="">Cherokee Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Clear-Lake-Park"  target="">Clear Lake Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Eagle-Nest-Park"  target="">Eagle Nest Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Engelwood-Park"  target="">Engelwood Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Gaston-Edwards-Park"  target="">Gaston Edwards Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Gilbert-McQueen-Park"  target="">Gilbert McQueen Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Grand-Avenue-Park"  target="">Grand Avenue Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Greenwood-Urban-Wetlands"  target="">Greenwood Urban Wetlands</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Ivanhoe-Plaza-Park"  target="">Ivanhoe Plaza Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Ivey-Lane-Park"  target="">Ivey Lane Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Davis-Park"  target="">Lake Davis Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Emerald-Park"  target="">Lake Emerald Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Formosa-Park"  target="">Lake Formosa Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Highland-Park"  target="">Lake Highland Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Lancaster-Park"  target="">Lake Lancaster Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Estelle-Park"  target="">Lake Estelle Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Rowena-Park"  target="">Lake Rowena Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Weldona-Park"  target="">Lake Weldona Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lighthouse-Park"  target="">Lighthouse Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lizzie-Rodgers-Park"  target="">Lizzie Rodgers Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Orwin-Manor-Park"  target="">Orwin Manor Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Park-Lake-Park"  target="">Park Lake Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Pleasant-Valley-Park"  target="">Pleasant Valley Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Poppy-Park"  target="">Poppy Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Princeton-Park-and-College-Park-Pool"  target="">Princeton Park and College Park Pool</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Rosemont-Park"  target="">Rosemont Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Signal-Hill-Park"  target="">Signal Hill Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Songbird-Park"  target="">Songbird Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/West-Lake-Underhill-Park"  target="">West Lake Underhill Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Willie-Mays-Park"  target="">Willie Mays Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Willows-Park"  target="">Willows Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Al-Coith-Park"  target="">Al Coith Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Dickson-Azalea-Park"  target="">Dickson Azalea Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Don-Dudley-Park"  target="">Don Dudley Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Guernsey-Park"  target="">Guernsey Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Mayor-Glenda-Hood-Park"  target="">Mayor Glenda Hood Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Cherokee-Park"  target="">Lake Cherokee Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Fairview-Park"  target="">Lake Fairview Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Ivanhoe-Park"  target="">Lake Ivanhoe Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Underhill-Park"  target="">Lake Underhill Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Mathews-Park"  target="">Mathews Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Senator-Beth-Johnson-Park"  target="">Senator Beth Johnson Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Southern-Gateway-Lake-Lucerne"  target="">Southern Gateway (Lake Lucerne)</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Springdale-Green"  target="">Springdale Green</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Big-Tree-Park"  target="">Big Tree Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Blankner-Field"  target="">Blankner Field</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Colonel-Joe-Kittinger-Park"  target="">Colonel Joe Kittinger Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Colonialtown-Square-Park"  target="">Colonialtown Square Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Constitution-Green"  target="">Constitution Green</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/La-Costa-Urban-Wetlands"  target="">La Costa Urban Wetlands</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Adair-Park"  target="">Lake Adair Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Beauty-Park"  target="">Lake Beauty Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Lawsona-Park"  target="">Lake Lawsona Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/LeRoy-Hoequist-Park"  target="">LeRoy Hoequist Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Lorna-Doone-Park"  target="">Lake Lorna Doone Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Malibu-Groves-Park"  target="">Malibu Groves Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Mitchell-Nutter-Park"  target="">Mitchell Nutter Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Overbrook-Park"  target="">Overbrook Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Rock-Lake-Park"  target="">Rock Lake Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Spring-Lake-Park"  target="">Spring Lake Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Washington-Shores-Park"  target="">Washington Shores Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/George-Barker-Park"  target="">George Barker Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/The-Terrace-Gallery"  target="">The Terrace Gallery</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Bill-Frederick-Park-At-Turkey-Lake"  target="">Bill Frederick Park At Turkey Lake</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Orlando-Tennis-Centre"  target="">Orlando Tennis Centre</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Leu-Gardens"  target="">Leu Gardens</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Downtown-Recreation-Center"  target="">Downtown Recreation Center</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/McCoy-Community-Park"  target="">McCoy Community Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Heroes-Community-Park"  target="">Heroes Community Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Cady-Way-Trail"  target="">Cady Way Trail</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Underhill-Path"  target="">Lake Underhill Path</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Orlando-Southeast-Trail"  target="">Orlando Southeast Trail</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Orlando-Skate-Park"  target="">Orlando Skate Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Orlando-Veterans’-Memorial-Park"  target="">Orlando Veterans’ Memorial Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/East-Lake-Park"  target="">East Lake Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Luminary-Green-Park"  target="">Luminary Green Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Rosemont-Preserve"  target="">Rosemont Preserve</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Hampton-Park"  target="">Hampton Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Prince-Hall-Park"  target="">Prince Hall Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/The-Grove-Park"  target="">The Grove Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Mayor-Carl-T.-Langford-Park"  target="">Mayor Carl T. Langford Park</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Mercy-Drive-Playground"  target="">Mercy Drive Playground at Children's Safety Village</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Como-School-Playground-and-Ballfields"  target="">Lake Como School Playground and Ballfields</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Reserve-Space-in-a-City-Park" class=""  target="">Reserve Space in a City Park</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Sports-Aquatics-Fitness" class=""  target="_self">Sports, Aquatics & Fitness</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Trees" class="nav-has-children"  target="">Tree Request, Reporting & Removal</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Trees/Apply-for-a-Tree-Removal-or-Encroachment-Permit"  target="">Apply for a Tree Removal or Encroachment Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Trees/Report-a-Problem-Tree"  target="">Report a Problem Tree</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Trees/Get-a-Free-Tree"  target="">Get a Free Tree</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Trees/One-Person-One-Tree"  target="">One Person, One Tree</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Report-Something-Broken-in-a-Park" class=""  target="">Report Something Broken in a Park</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Lakes-and-Rainfall" class="nav-has-children"  target="">Lakes and Rainfall</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Lakes-and-Rainfall/Find-Rainfall-Water-Quality-and-Lake-Level-Data"  target="">Find Rainfall, Water Quality and Lake Level Data</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Lakes-and-Rainfall/Lake-Alerts"  target="">Lake Alerts</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Lakes-and-Rainfall/Floodplain"  target="_blank">Find out if you live in a Floodplain</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Bike-Trails-2" class=""  target="_self">Bike Trails</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Request-a-Bike-Rack" class=""  target="">Request a Bike Rack</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Get-Reclaimed-Water" class="nav-has-children"  target="">Get Reclaimed Water</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-10"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-10">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Get-Reclaimed-Water/Reclaimed-Water-Service-Area"  target="">Reclaimed Water Service Area</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field" class="nav-has-children"  target="">Reserve an Athletic Field</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-11"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-11">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field/Find-an-Athletic-Field"  target="">Find an Athletic Field</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field/Rentable-Baseball-Fields-in-Orlando"  target="">Rentable Baseball Fields in Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field/Rentable-Multipurpose-Fields-in-Orlando"  target="">Rentable Multipurpose  Fields in Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field/Rentable-Soccer-Fields-in-Orlando"  target="">Rentable Soccer Fields in Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field/Rentable-Softball-Fields-in-Orlando"  target="">Rentable Softball Fields in Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field/Rentable-Volleyball-Courts-in-Orlando"  target="">Rentable Volleyball Courts in Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Parks-the-Environment/Reserve-an-Athletic-Field/Rentable-Lighted-Athletic-Fields"  target="">Rentable Lighted Athletic Fields</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Orlandos-Significant-Trees" class=""  target="">Orlando's Significant Trees</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/Green-Works-Orlando" class=""  target="_self">Green Works Orlando</a></li><li class=" "><a  href="https://www.orlando.gov/Parks-the-Environment/GreenUp-Orlando" class=""  target="">GreenUp Orlando</a></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-7">
+<a href="https://www.orlando.gov/Public-Safety" class="nav-level-1 nav-has-children"  target="">Public Safety</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-7">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-7">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Public-Safety/View-Active-Calls" class="nav-has-children"  target="">View Active Calls</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-7-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-7-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Public-Safety/View-Active-Calls/View-Active-OPD-Calls"  target="_self">View Active OPD Calls</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/View-Active-Calls/View-Active-OFD-Calls"  target="_self">View Active OFD Calls</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Public-Safety/OPD" class="nav-has-children"  target="">Orlando Police Department Services</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-7-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-7-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/OPD-Records-Open-Data"  target="">OPD Records & Open Data</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Report-a-Crime"  target="">Report a Crime</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Careers-at-the-Orlando-Police-Department"  target="_self">Careers at the Orlando Police Department</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Apply-to-Become-an-Orlando-Police-Officer"  target="">Apply to Become an Orlando Police Officer</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Compliment-an-OPD-Officer"  target="">Compliment an OPD Officer</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Become-an-Orlando-Police-Department-Emergency-Communications-Specialist"  target="">Become a Police Department Emergency Communications Specialist (ECS)</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Start-a-Transportation-Company"  target="">Start a Transportation Company</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Sign-up-for-the-Cannabis-Diversionary-Program"  target="">Sign up for the Cannabis Diversionary Program</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Register-Your-Bicycle-with-the-Orlando-Police-Department"  target="">Register Your Bicycle with the Orlando Police Department</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Request-a-Home-Security-Assessment"  target="">Request a Home Security Assessment</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Hispanic-Citizens-Police-Academy"  target="">Hispanic Citizens Police Academy</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Apply-for-the-Hispanic-Citizen-Police-Academy"  target="">Apply for the Hispanic Citizen Police Academy</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/File-a-Complaint-About-an-OPD-Officer"  target="">File a Complaint About an OPD Officer</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/OPD-App"  target="">OPD App</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Airport-Operations-Apply-to-Become-an-Orlando-Police-Officer"  target="">Apply to Become an Orlando Police Airport Operations Officer</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Citizens-Police-Academy"  target="">Citizens Police Academy</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Self-Report-a-Traffic-Crash"  target="">Self Report a Traffic Crash</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Additional-Community-Resources"  target="_self">Additional Community Resources</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Enroll-in-Orlando-Connect-Camera-Sharing-Program"  target="_self">Enroll in Orlando Connect, Camera-Sharing Program</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Request-Extra-Duty-Employment"  target="">Request Extra-Duty Employment</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Portuguese-Speaking-Citizen-Police-Academy"  target="">Portuguese Speaking Citizen Police Academy</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Creole-Citizens-Police-Academy"  target="">Creole Citizens Police Academy</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Crime-Prevention"  target="">Crime Prevention</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OPD/Apply-to-Become-a-Community-Service-Officer"  target="">Apply to Become a Community Service Officer</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Public-Safety/OFD" class="nav-has-children"  target="">Orlando Fire Department Services</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-7-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-7-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Records"  target="">OFD Records & Incidents</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Apply-for-a-Mobile-Food-Truck-Fire-Inspection"  target="">Apply for a Mobile Food Truck Fire Inspection</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Community-Programs"  target="">OFD Community Programs</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Fire-Safety-Permits"  target="_blank">Fire Safety Permits</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Submit-Emergency-Radio-Signal-Surveys"  target="">Submit Emergency Radio Signal Surveys</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Become-an-Orlando-Firefighter"  target="">Become an Orlando Firefighter</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Building-Construction-Fire-Permits-and-Inspections-Guide"  target="">Building Construction Fire Permits and Inspections Guide</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Fire-Stations"  target="">Fire Stations</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/OFD-Feedback"  target="_blank">Provide Feedback on OFD Services</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/See-Yourself-in-the-Orlando-Fire-Service"  target="_self">See Yourself in the Orlando Fire Service</a></li><li  class=" "><a href="https://www.orlando.gov/Public-Safety/OFD/Request-a-Knox-Box-Key-Installation"  target="">Request a Knox Box Key Installation</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-8">
+<a href="https://www.orlando.gov/Community-Programs-Events" class="nav-level-1 nav-has-children"  target="">Community Programs & Events</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-8">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-8">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Find-Events" class=""  target="_self">Find Events</a></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness" class="nav-has-children"  target="">Sports, Aquatics & Fitness</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-8-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-8-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Register-for-Youth-Athletic-Programs"  target="">Register for Youth Athletic Programs</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Reserve-an-Athletic-Field"  target="_self">Reserve an Athletic Field</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Sign-Up-for-Swimming-Lessons-Activities"  target="">Sign Up for Swimming Lessons & Activities</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Find-a-Pool"  target="">Find a Pool</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Reserve-a-Pool"  target="">Reserve a Pool</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Become-a-Lifeguard"  target="_self">Become a Lifeguard</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Play-in-a-Golf-League"  target="_blank">Play in a Golf League</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Sign-Up-for-Fencing-Lessons"  target="">Sign Up for Fencing Lessons</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Find-an-Outdoor-Fitness-Station"  target="">Find an Outdoor Fitness Station</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Sports-Aquatics-Fitness/Fitness-Centers"  target="">Fitness Centers</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Activity-Listings" class=""  target="_blank">Find Park and Recreation Activity Listings</a></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Youth" class="nav-has-children"  target="">Youth Programs</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-8-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-8-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Youth/Sign-Up-For-Summer-Camp"  target="">Sign Up For Summer Camp</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Youth/Sign-Up-for-School-Vacation-Days-Camp"  target="">Sign Up for School Vacation Days Camp</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Youth/Register-for-an-After-School-Program"  target="">Register for an After School Program</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Youth/Activity-Search"  target="_blank">View Youth Activity Listings</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Youth/Athletic-Programs"  target="_self">Register for Youth Athletic Programs</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Youth/Operation-AmeriCorps"  target="">Operation AmeriCorps</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Youth/My-Brothers-Keeper"  target="">My Brother's Keeper</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Senior-Connection" class=""  target="_blank">Senior Connection</a></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Volunteer-for-Orlando-Cares" class=""  target="">Volunteer for Orlando Cares</a></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Get-Involved" class=""  target="_self">Get Involved in City Government</a></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Public-Safety" class=""  target="_self">Public Safety Community Programs</a></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations" class="nav-has-children"  target="">Educational Programs for Schools and Organizations</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-8-nav-item-seq-9"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-8-nav-item-seq-9">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Request-an-Environmental-Program-for-Your-Students-or-Troop"  target="">Request an Environmental Program for Your Students or Troop</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Request-a-Tour-of-Orlando-Wetlands"  target="_self">Request a Tour of Orlando Wetlands</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Request-a-Tour-of-our-Water-Reclamation-Facility"  target="">Request a Tour of our Water Reclamation Facility</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Request-the-Orlando-Fire-Department-for-an-Event"  target="_self">Request the Orlando Fire Department for an Event</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Request-Green-Works-to-Speak-at-Your-Event"  target="">Request Green Works to Speak at Your Event</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Tour-a-Fire-Station"  target="_self">Tour a Fire Station</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Visit-the-Orlando-Fire-Museum"  target="_blank">Visit the Orlando Fire Museum</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Explore-the-Mennello-Museum-of-American-Art"  target="_blank">Explore the Mennello Museum of American Art</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Schedule-a-Tour-Field-Trip-or-Outreach-with-Leu-Gardens"  target="_blank">Schedule a Tour, Field Trip or Outreach with Leu Gardens</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Volunteer-to-Mark-Storm-Drains"  target="">Volunteer to Mark Storm Drains</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Request-a-Field-Trip-at-Bill-Frederick-Park"  target="_self">Request a Field Trip at Bill Frederick Park</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Become-a-Volunteer-for-Keep-Orlando-Beautiful"  target="_self">Become a Volunteer for Keep Orlando Beautiful</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Educational-Programs-for-Schools-and-Organizations/Volunteer-with-the-Office-of-Sustainability-Resilience-and-Future-Ready"  target="_self">Volunteer with the Office of Sustainability, Resilience & Future Ready</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Pottery-Studio" class="nav-has-children"  target="">Pottery Studio</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-8-nav-item-seq-10"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-8-nav-item-seq-10">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Pottery-Studio/Register-for-Pottery-Classes"  target="">Register for Pottery Classes</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Pottery-Studio/Request-a-Private-Group-Class-at-the-Pottery-Studio"  target="">Request a Private Group Class at the Pottery Studio</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Pottery-Studio/Become-a-Pottery-Studio-Member"  target="">Become a Pottery Studio Member</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Pottery-Studio/Pottery-Studio"  target="">Pottery Studio</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You" class="nav-has-children"  target="">Find a Community Garden Near You</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-8-nav-item-seq-11"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-8-nav-item-seq-11">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Dover-Shores-Garden"  target="">Dover Shores Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Colonialtown-Community-Garden"  target="">Colonialtown Community Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Festival-Park-Garden"  target="">Festival Park Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Engelwood-Park-Garden"  target="">Engelwood Park Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Lake-DavisGreenwood-Cemetery-Garden"  target="">Lake Davis/Greenwood Cemetery Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Lake-Druid-Garden"  target="">Lake Druid Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Laureate-Park-I-Garden"  target="">Laureate Park I Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Laureate-Park-II-Garden"  target="">Laureate Park II Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Northwest-Community-Center-Garden"  target="">Northwest Community Center Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Parramore-Garden"  target="">Parramore Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Washington-Shores-Garden"  target="">Washington Shores Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Rock-Lake-Neighborhood-Center-Garden"  target="">Rock Lake Neighborhood Center Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Engelwood-Neighborhood-Center-Garden"  target="">Engelwood Neighborhood Center Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Lake-Eola-Heights-Garden"  target="">Lake Eola Heights Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Citrus-Square-Garden"  target="">Citrus Square Garden</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Find-a-Community-Garden-Near-You/Mai-Kai-Condominiums-Garden"  target="">Mai Kai Condominiums Garden</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Request-to-Show-Your-Art-in-a-City-Gallery" class="nav-has-children"  target="">Request to Show Your Art in a City Gallery</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-8-nav-item-seq-12"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-8-nav-item-seq-12">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Request-to-Show-Your-Art-in-a-City-Gallery/Artist-and-City-Responsibility"  target="">Artist and City Responsibility</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Grant-Funding-Availability" class=""  target="">Grant Funding Availability</a></li><li class=" "><a  href="https://www.orlando.gov/Community-Programs-Events/Celebrate-Graduations" class="nav-has-children"  target="">Celebrate Graduations</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-8-nav-item-seq-14"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-8-nav-item-seq-14">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Celebrate-Graduations/Request-a-Message-from-Mayor-Dyer-for-Graduation"  target="_self">Request a Message from Mayor Dyer for Graduation</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Celebrate-Graduations/Parking"  target="_self">Parking</a></li><li  class=" "><a href="https://www.orlando.gov/Community-Programs-Events/Celebrate-Graduations/Know-Before-You-Go"  target="_self">Know Before You Go</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-3 nav-active-path  nav-item-seq-9">
+<a href="https://www.orlando.gov/Our-Government" class="nav-level-1 nav-has-children"  target="">Our Government</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-9">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-9">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Our-Government/Mayor-City-Council" class="nav-has-children"  target="">Mayor & City Council</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Buddy-Dyer"  target="">Buddy Dyer</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Tom-Keen"  target="">Tom Keen - District 1</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Tony-Ortiz"  target="">Tony Ortiz - District 2</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Roger-Chapin"  target="">Roger Chapin - District 3</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Patty-Sheehan"  target="">Patty Sheehan - District 4</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Shan-Rose"  target="">Shan Rose - District 5</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Bakari-F.-Burns"  target="">Bakari F. Burns - District 6</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/City-Council-Meetings"  target="">City Council Meetings</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Mayor-City-Council/Council-Agendas-and-Minutes"  target="_self">Council Agendas and Minutes</a></li></ul></li><li class="nav-active-path "><a  href="https://www.orlando.gov/Our-Government/Departments-Offices" class="nav-has-children"  target="">Departments & Offices</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Orlando-Fire-Department"  target="">Orlando Fire Department</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Venues"  target="">Orlando Venues</a></li><li  class="nav-active-path "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development"  target="">Economic Development Department</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Transportation"  target="">Transportation Department</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Orlando-Police-Department"  target="">Orlando Police Department</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/FPR"  target="">Families, Parks and Recreation Department</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works"  target="">Public Works Department</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/OBFS"  target="">Office of Business and Financial Services</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Executive-Offices"  target="">Executive Offices</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Housing-and-Community-Development"  target="">Housing and Community Development</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Departments-Offices/Housing-and-Community-Development-Department"  target="_self">Housing and Community Development Department</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Apply-for-a-City-Job" class="nav-has-children"  target="">Apply for a City Job</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Apply-for-a-City-Job/Benefits"  target="">City Benefits</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Make-a-Payment" class="nav-has-children"  target="">Make a Payment</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Make-a-Payment/Pay-a-Code-Enforcement-Fine"  target="">Pay a Code Enforcement Fine</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Make-a-Payment/Pay-a-Parking-Ticket"  target="_self">Pay a Parking Ticket</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Make-a-Payment/Pay-a-False-Security-Alarm-Fee"  target="">Pay a False Security Alarm Fee</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Make-a-Payment/Pay-a-Red-Light-Camera-Violation"  target="_self">Pay a Red Light Camera Violation</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Make-a-Payment/Pay-Municipal-Public-Service-Tax"  target="">Pay Municipal Public Service Tax</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Make-a-Payment/Pay-an-Invoice"  target="">Pay an Invoice</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Make-a-Payment/Pay-Permit-Fees"  target="_self">Pay Permit Fees</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Get-Involved" class="nav-has-children"  target="">Get Involved</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Join-a-City-Advisory-Board"  target="">Join a City Advisory Board</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Apply-for-Mayors-City-Academy"  target="">Apply for Mayor's City Academy</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/City-Newsletter"  target="">Subscribe to City News</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Start-a-Neighborhood-Watch-Group"  target="_self">Start a Neighborhood Watch Group</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Host-a-National-Night-Out-Block-Party"  target="">Host a National Night Out Block Party</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Non-Profits-and-Community-Organizations"  target="">For Non-Profits and Community Organizations</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/NNO-Neighborhood-Block-Party"  target="">NNO Neighborhood Block Party</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/NNO-Theme-Contest-Judging-Criteria"  target="">NNO Theme Contest Judging Criteria</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Volunteer-to-Mark-Storm-Drains"  target="_self">Volunteer to Mark Storm Drains</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Register-a-Neighborhood-Association"  target="">Register a Neighborhood Association</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Strengthen-Orlando"  target="">Strengthen Orlando</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/iLead-Neighborhood-Leadership-Training"  target="">iLead Neighborhood Leadership Training</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/Join-the-Citys-Community-Engagement-Group"  target="">Join the City's Community Engagement Group</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Get-Involved/City-of-Orlando-Community-Engagement-Group"  target="">City of Orlando Community Engagement Group</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Records-and-Documents" class="nav-has-children"  target="">Records and Documents</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/City-Council-Minutes-and-Agendas"  target="">City Council Minutes and Agendas</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/View-City-Code"  target="_blank">View City Code</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/City-Council-Meetings"  target="_self">Find City Council Meetings</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Minutes-Agendas"  target="_blank">View City Board Calendar, Minutes and Agendas</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Request-a-Public-Record"  target="">Request a Public Record</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Registrations-and-Applications"  target="">Registrations and Applications</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Financial"  target="">Financial Documents</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Citizen-Advisory-Boards"  target="">Citizen Advisory Boards</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Map-Library"  target="">Map Library</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Visual-Assets"  target="_self">City of Orlando Visual, Branding Assets and Guidelines</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Orlando-Information-Locator"  target="_self">Orlando Information Locator</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Policies-and-Procedures"  target="_self">Policies and Procedures</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Lobbyist-Information"  target="">Lobbyist Information</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Property-Information"  target="">Property Information</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Engineering-Documents"  target="">Engineering Documents</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Records-and-Documents/Election-Information"  target="">Election Information</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Public-Meetings" class="nav-has-children"  target="">Public Meetings</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/City-Council-Meeting-and-Agenda-Review-101226"  target="">City Council Meeting and Agenda Review</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Historic-Preservation-Board-10726"  target="">Historic Preservation Board</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Police-Pension-Board-10826"  target="">Police Pension Board</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Development-Review-Committee-10826"  target="">Development Review Committee (DRC)</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Firefighters-Pension-Board-101426"  target="">Firefighter's Pension Board</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Code-Enforcement-Board-101426"  target="">Code Enforcement Board</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Affordable-Housing-Advisory-Committee-101526"  target="">Affordable Housing Advisory Committee</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Appearance-Review-Board-101526"  target="">Appearance Review Board</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/CANCELED-Downtown-South-Neighborhood-Improvement-District-Advisory-Council-101426"  target="">*CANCELED*- Downtown South Neighborhood Improvement Dist. Adv. Council</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Chapter-57-Review-Board-10826"  target="">Chapter 57 Review Board</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Nominating-Board-Meeting-101426"  target="">Nominating Board Meeting</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Mennello-Museum-of-American-Art-Board-of-Trustees-Special-Meeting-101426"  target="">Mennello Museum of American Art Board of Trustees (Special Meeting)</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/1st-Committee-Meeting-for-RFP26-0408-Construction-Manager-at-Risk-for-Downtown-Orlando-DTO-Action-Plan-Projects-101526"  target="">1st Committee Meeting for RFP26-0408</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/Orlando-Housing-Authority-101526"  target="">Orlando Housing Authority</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/CANCELED-1st-Committee-Meeting-for-RFP26-0439-Grounds-Maintenance-for-Wastewater-Admin-Conserv-II-and-Various-Lift-Station-101326"  target="">*CANCELED* - 1st Committee Meeting for RFP26-0439</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/2nd-Committee-Meeting-for-RFP26-0163-Red-Light-Camera-Traffic-Infraction-Detection-System-101326"  target="">2nd Committee Meeting for RFP26-0163</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Public-Meetings/1-North-Orange-Redevelopment-Solicitation-Pre-proposal-Conference-101326"  target="">1 North Orange Redevelopment Solicitation Pre-proposal Conference</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City" class="nav-has-children"  target="">Host an Event in the City</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-8"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-8">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Reserve-and-Rent-Space"  target="">Reserve and Rent Space at a City Facility</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Request-a-Permit-for-a-Large-Outdoor-Event"  target="">Request a Permit for a Large Outdoor Event</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Request-a-Free-Speech-Event-Permit"  target="">Request a Free Speech Event Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Request-a-Loudspeaker-Permit"  target="">Request a Loudspeaker Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Request-a-Block-Party-Permit"  target="">Request a Block Party Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Request-a-Fireworks-Permit"  target="">Request a Fireworks Permit</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Request-Approval-for-an-Event-with-Alcohol-on-Private-Property"  target="_self">Request Approval for an Event with Alcohol on Private Property</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Request-Recognition-from-Mayor-Buddy-Dyer"  target="">Request Recognition from Mayor Buddy Dyer</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Host-an-Event-in-the-City/Apply-for-Financial-Assistance-for-Your-Event"  target="">Apply for Financial Assistance for Your Event</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City" class="nav-has-children"  target="">Do Business with the City</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-9"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-9">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City/Solicitation-Search"  target="_blank">Search Solicitations</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City/View-Current-City-Contracts"  target="_blank">View Current City Contracts</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City/Register-to-Receive-Procurement-Notifications"  target="">Register to Receive Procurement Notifications</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City/View-Sole-Source-Procurement-Opportunities"  target="">View Sole-Source Procurement Opportunities</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City/Surplus-Auctions"  target="_blank">City Surplus Auctions</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City/Signup-for-ePayables-or-ACH"  target="_blank">Signup for ePayables or ACH</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Do-Business-with-the-City/Find-Debarred-Vendors"  target="">Find Debarred Vendors</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Contact-Us" class="nav-has-children"  target="">Contact Us</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-10"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-10">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/City-Hall"  target="_self">City Hall</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Mayor-City-Council"  target="_self">Mayor & City Council</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Departments-Offices"  target="_self">Departments & Offices</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Report-a-Problem"  target="_self">Report a Problem</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Do-I-Live-in-City-Limits"  target="_blank">Do I Live in City Limits?</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Press-and-Media-Contacts"  target="">Press and Media Contacts</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Social-Media"  target="">Social Media</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Commend-a-City-Employee"  target="">Commend a City Employee</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Contact-Us/Area-Agencies"  target="">Area Agencies</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/News-and-Information" class="nav-has-children"  target="">News and Information</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-11"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-11">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/Elected-Officials-Portraits"  target="">Elected Officials Portraits</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/City-Official-Assets"  target="">City of Orlando Visual, Branding Assets and Guidelines</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/Press-Releases"  target="_self">Press Releases</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/Mayors-Schedule"  target="_self">Mayor's Schedule</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/Press-and-Media-Contacts"  target="_self">Press and Media Contacts</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/Sign-Up-to-Receive-Press-Releases"  target="">Sign Up to Receive Press Releases</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/Subscribe-to-City-News"  target="_self">Subscribe to City News</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/News-and-Information/History"  target="">Orlando History</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Get-Help-in-Finding-Local-Services-and-Resources" class=""  target="">Get Help in Finding Local Services and Resources</a></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Orlando-plans-for-a-future-ready-city" class="nav-has-children"  target="">Orlando plans for a future-ready city</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-13"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-13">
+          
+            <li  class=" "><a href="https://www.orlando.gov/Our-Government/Orlando-plans-for-a-future-ready-city/Small-Cell-and-5G-Technology"  target="">Small Cell and 5G Technology</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Orlando-plans-for-a-future-ready-city/Checkout-a-Hotspot-Laptop-or-Tablet"  target="">Checkout a Hotspot, Laptop or Tablet</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Orlando-plans-for-a-future-ready-city/Advanced-Air-Mobility"  target="">Advanced Air Mobility</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Orlando-plans-for-a-future-ready-city/Orlando-Resilience-Plan"  target="">Orlando Resilience Plan</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Orlando-plans-for-a-future-ready-city/Mobile-Resilience-Hub"  target="">Mobile Resilience Hub</a></li><li  class=" "><a href="https://www.orlando.gov/Our-Government/Orlando-plans-for-a-future-ready-city/Digital-Literacy"  target="">Digital Literacy Classes</a></li></ul></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Animal-Services" class=""  target="_blank">Animal Services</a></li><li class=" "><a  href="https://www.orlando.gov/Our-Government/Orange-County-311" class=""  target="_blank">Orange County 311</a></li></ul></li>
+          
+            <li class="nav-section-quarters-4   nav-item-seq-10">
+<a href="https://www.orlando.gov/Events" class="nav-level-1 nav-has-children"  target="">Events</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-10">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-10">
+
+          
+            <li class=" "><a  href="https://www.orlando.gov/Events/2026-Veterans-Day-Parade" class=""  target="">2026 Veterans Day Parade</a></li><li class=" "><a  href="https://www.orlando.gov/Events/2025-State-of-Downtown" class=""  target="">2025 State of Downtown</a></li><li class=" "><a  href="https://www.orlando.gov/Events/City-of-Orlando’s-Black-History-Month-Community-Celebration-Event" class=""  target="">City of Orlando’s Black History Month Community Celebration Event</a></li><li class=" "><a  href="https://www.orlando.gov/Events/2026-Fall-Fiesta-in-the-Park" class=""  target="">2026 Fall Fiesta in the Park</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Samuel-Cardenas-Sandrea-Acceleration-West-High-School" class=""  target="">Samuel Cardenas Sandrea - Acceleration West High School</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Colin-Poon-Apopka-High-School" class=""  target="">Colin Poon - Apopka High School</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Sneakerween-Trunk-or-Treat-Edition" class=""  target="">Sneakerween: Trunk-or-Treat Edition</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Vision-Zero-Orlando-Open-House" class=""  target="">Vision Zero Orlando Open House</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Call-to-Artists-Monumental-Public-Art-Sculpture" class=""  target="">Call to Artists: Monumental Public Art Sculpture</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Call-to-Artists-Birds-in-Focus-District-3" class=""  target="">Call to Artists: Birds in Focus - District 3</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Creatures-of-the-Night" class=""  target="">Creatures of the Night</a></li><li class=" "><a  href="https://www.orlando.gov/Events/Lets-Talk-D6" class=""  target="">Let's Talk D6!</a></li></ul></li>
+          
+            <li class="nav-section-quarters-4   nav-item-seq-11">
+<a href="https://www.orlando.gov/My-Neighborhood" class="nav-level-1 "  target="">My Neighborhood</a>
+</li>
+          
+            </ul>
+			</div>
+		</div>
+	</div>
+</div>
+            </header>
+            <div class="content-outer-container">
+                <div id="main" role="main" class="main-outer-container clearfix">
+                        
+                        <div class="content-main-container">
+                            <div class="grid">
+					            <div class="col-xs-12">
+						            <nav id="breadcrumbs-container" aria-label="You Are Here :">
+							            <span role="list">
+<span role="listitem">
+	<a href="https://www.orlando.gov/Home"  lang="en-US">Home</a>
+	<span class="nav-separator" aria-hidden="true" role="presentation">/</span>
+</span>
+          <span role="listitem"><a href="https://www.orlando.gov/Our-Government" >Our Government</a><span class='nav-separator' aria-hidden="true" role="presentation">/</span></span><span role="listitem">
+	<a href="https://www.orlando.gov/Our-Government/Departments-Offices" >
+		Departments & Offices
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span role="listitem">
+	<a href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development" >
+		Economic Development Department
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span role="listitem">
+	<a href="https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development" >
+		Business Development Division
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span class="current-page" role="listitem" aria-current="page" >Thornton Park District Main Street</span>
+          
+          
+          </span>
+						            </nav>
+					            </div>
+                      
+					            <div class="col-xs-12">
+						            <div class="main-inner-container">
+							            <div id="main-content" class="main-container clearfix">
+							              
+                            <!-- OC Layout Element Conent Template -->
+							              <!--normalTemplateStart--><div class="grid obj-directory">
+	<div class="col-xs-12 col-m-8">
+		<h1 class='oc-page-title '>Thornton Park District Main Street</h1>
+		
+       <picture>
+  <source media="(min-width: 992px)" srcset="/files/sharedassets/public/v/2/departments/edv/main-streets/tpd-crop.png?dimension=pageimage&w=480">
+  <source media="(min-width: 768px)" srcset="/files/sharedassets/public/v/2/departments/edv/main-streets/tpd-crop.png?dimension=pageimage&w=480">
+  <source srcset="/files/sharedassets/public/v/2/departments/edv/main-streets/tpd-crop.png?dimension=pageimage&w=480">
+  <img class="main-page-image" src="/files/sharedassets/public/v/2/departments/edv/main-streets/tpd-crop.png?dimension=pageimage&w=480" alt="TPD-crop.png" />
+</picture> 
+      
+		<p>Thornton Park District is a colorful, walkable commercial&nbsp;district with a European&nbsp;feel and more than 60 locally-owned specialty&nbsp;shops, services and dining destinations. Located in the middle of the district is Lake Eola Park, where you can rent swan-shaped paddle boats, snap pictures of&nbsp;the live swans, experience a show at the Walt Disney Amphitheatre or enjoy the SeeArt Sculpture Collection. Whether you're in the mood to sit outside with a glass of wine, enjoy a leisurely dinner before catching a show or take your dog for a walk around the park, Thornton Park District has it all!</p>
+
+
+		<div class="clearfix"></div>
+		
+      
+        <h2 class="sub-title">Location</h2>
+<p>
+
+100 S. Eola Drive, #200,&nbsp;
+      
+Orlando, FL&nbsp;32801&nbsp;
+<a href="https://maps.google.com?q=%20100%20S.%20Eola%20Drive%2C%20%23200%20Orlando%2C%20FL%2032801" target="_blank">View Map</a>
+      
+</p>
+      
+<div id="skip-map-container-top" class="skip-map-container rs_skip">
+    <a href='#map-bottom' class="visuallyhidden focusable skip-map-link" id="map-top">Skip to below map</a>
+</div>
+<div class="gmap rs_skip" data-params='{"zoom" : 14, "autoOpenInfoWindow" : false, "hideControls" : true, "autoBounds" : true, "centerPoint" : "28.5410606,-81.3704458"}'>
+    <div class="gmap-marker hidden">
+        <div class="gmap-latlong">
+          28.5410606,-81.3704458
+        </div>
+        <div class="gmap-address">
+          100 S. Eola Drive, #200&nbsp;,
+          Orlando, FL&nbsp;32801
+        </div>
+        <div class="gmap-info">
+            
+            <p>
+          100 S. Eola Drive, #200&nbsp;,
+          Orlando, FL&nbsp;32801</p>
+        </div>
+		<div class="gmap-title">
+	        Thornton Park District Main Street
+        </div>
+    </div>
+    <div class="map-canvas gmap-container">
+        <div class="gmap-target">
+           <img src="https://maps.google.com/maps/api/staticmap?center=100 S. Eola Drive, #200,Orlando, FL,32801&amp;zoom=14&amp;size=340x202&amp;maptype=road&amp;markers=color:red|28.5410606,-81.3704458&amp;key=AIzaSyARTgz55hhl0arlKzuDpj_dGA95nVHl-4w" alt="Google Map" />
+        </div>
+    </div>
+</div>
+<div id="skip-map-container-bottom" class="skip-map-container rs_skip">
+    <a href='#map-top' class="visuallyhidden focusable skip-map-link" id="map-bottom">Skip to above map</a>
+</div>
+
+		<div class="clearfix"></div>
+        <h2 class="photo-gallery-heading">Photo Gallery</h2>
+<div class="image-gallery-container masonry-theme" data-theme="masonry">
+   <div class="grid">
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/sharedassets/public/departments/edv/main-streets/tpd1.jpeg" target="_self" class="document ext-jpeg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/sharedassets/public/departments/edv/main-streets/tpd1.jpeg?w=375" alt="businesses">
+         </div>
+         <figcaption>
+            <p class="caption">tpd1.jpeg</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPEG,&nbsp;1MB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/sharedassets/public/departments/edv/main-streets/tpd2.jpeg" target="_self" class="document ext-jpeg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/sharedassets/public/departments/edv/main-streets/tpd2.jpeg?w=375" alt="roundabout fountain">
+         </div>
+         <figcaption>
+            <p class="caption">tpd2.jpeg</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPEG,&nbsp;954KB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/sharedassets/public/departments/edv/main-streets/tpd3.jpeg" target="_self" class="document ext-jpeg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/sharedassets/public/departments/edv/main-streets/tpd3.jpeg?w=375" alt="mural">
+         </div>
+         <figcaption>
+            <p class="caption">tpd3.jpeg</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPEG,&nbsp;788KB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/sharedassets/public/departments/edv/main-streets/tpd4.jpeg" target="_self" class="document ext-jpeg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/sharedassets/public/departments/edv/main-streets/tpd4.jpeg?w=375" alt="businesses">
+         </div>
+         <figcaption>
+            <p class="caption">tpd4.jpeg</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPEG,&nbsp;1MB)</span></a>
+</div>
+          <div class="image-gallery-item col-xs-12 col-m-6 col-lg-4">
+   <a href="/files/sharedassets/public/v/1/departments/edv/main-streets/thorntonparkmainstreetprogrammap.jpg" target="_self" class="document ext-jpg"><i aria-hidden="true"></i>
+      <figure>
+         <div class="image-container">
+            <img src="/files/sharedassets/public/v/1/departments/edv/main-streets/thorntonparkmainstreetprogrammap.jpg?w=375" alt="Thornton Park District Boundary Map">
+         </div>
+         <figcaption>
+            <p class="caption">ThorntonParkMainStreetProgramMap.jpg</p>
+         </figcaption>
+      </figure>
+   <span class="file-info">(JPG,&nbsp;4MB)</span></a>
+</div>
+          </div>
+</div>
+          
+<div class="clearfix"></div>
+	</div>
+	<div class="col-xs-12 col-m-4">
+		<div class="side-box directory-snapshot">
+			<h2 class="side-box-title">
+				About Us
+			</h2>
+			<div class="side-box-content">
+			    <div class="side-box-section directory-type"><h3>Type</h3><ul><li><span>Business Directory</span></li></ul></div>
+			    
+			        <div class="side-box-section contact-details">
+			            <h3>Contact</h3>
+			            <div class="contact-name">Robert Soviero</div>
+			            
+			            
+			            <div class="contact-email"><a href="mailto:director@thorntonparkdistrict.com">director@thorntonparkdistrict.com</a></div>
+			            <div class="contact-website"><a href="http://www.thorntonparkdistrict.com/" title="thorntonparkdistrict.com" target="_blank" title="">thorntonparkdistrict.com</a></div>
+
+			        </div>
+			    
+			    
+                <div class="side-box-section social-media-profiles-section clearfix"><h3 class="side-box-contact">Social Media</h3><ul class="social-media-profiles icons-only"><li class="social-media" data-href="https://www.facebook.com/ThorntonParkDistrict">
+	<a href="https://www.facebook.com/ThorntonParkDistrict" title="Facebook" target="_blank">
+	<span>Facebook</span>
+	</a>
+</li><li class="social-media" data-href="http://instagram.com/thorntonpark">
+	<a href="http://instagram.com/thorntonpark" title="Instagram" target="_blank">
+	<span>Instagram</span>
+	</a>
+</li></ul></div>
+                
+            </div>
+		</div>	
+	</div>
+	<div class="col-xs-12 col-m-8">
+        <div class="grid">
+            
+            
+             
+            
+        </div>
+	</div>
+</div><!--normalTemplateEnd-->
+                            
+                            
+                            
+							            </div>
+						            </div>
+					            </div>
+                        <div class="col-xs-12">
+					            	<div class="share-page-container share-page-link-right share-page-link-medium share-page-link-rounded share-page-link-no-labels" data-item-id="bd3d2039-b95e-45c2-a588-0bfaf0543933" id="share-page-container clearfix">
+                                        <section aria-labelledby="share-page-info-label">
+                                            <span id="share-page-info-label" class="share-page-info">Share</span><ul class="share-page-links no-translate"><li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.orlando.gov%2fOur-Government%2fDepartments-Offices%2fEconomic-Development%2fBusiness-Development%2fOrlando-Main-Streets%2fThornton-Park-District-Main-Street" target="{ShareTarget}" class="share-page-link share-page-link-facebook" data-channel="facebook" data-channel-id="1"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-facebook">Facebook</span></a></li><li><a href="https://twitter.com/share?url=https%3a%2f%2fwww.orlando.gov%2fOur-Government%2fDepartments-Offices%2fEconomic-Development%2fBusiness-Development%2fOrlando-Main-Streets%2fThornton-Park-District-Main-Street" target="_blank" class="share-page-link share-page-link-x" data-channel="x" data-channel-id="2"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-x">X</span></a></li><li><a href="mailto:?Body=https%3a%2f%2fwww.orlando.gov%2fOur-Government%2fDepartments-Offices%2fEconomic-Development%2fBusiness-Development%2fOrlando-Main-Streets%2fThornton-Park-District-Main-Street" target="_self" class="share-page-link share-page-link-email" data-channel="email" data-channel-id="3"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-email">Email</span></a></li><li><a href="#" target="_self" class="share-page-link share-page-link-print" data-channel="print" data-channel-id="5"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-print">Print</span></a></li></ul>
+                                        </section>
+                                    </div></div>
+                            </div>
+                        </div>
+                        <div class="back-to-top-container text-center">
+                            <a href="#body-top" id="back-to-top"><i aria-hidden="true"></i><span class="js-visuallyhidden">Back to top</span></a>
+                        </div>
+                </div>
+            </div><!--groupTemplateEnd-->
+            <footer>
+                
+                    <div class="footer-outer-container footer-first-row">
+                        <div class="footer-container clearfix">
+                            <div class="grid grid-pad">
+                                <div class="col-xs-12 col-s-12 col-m-4 " >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">City Hall Info</h3>
+			
+	<h2>City Hall</h2>
+<p>400 South Orange Avenue<br />
+Orlando, Florida 32801<br />
+407.246.2121</p>
+<p>Monday&nbsp;-&nbsp;Friday&nbsp;&nbsp;8 a.m. to 5 p.m.<br />
+<a href="https://www.orlando.gov/Directory/City-Buildings-Centers/City-Hall/Observed-Holidays" target="_self">Observed holidays</a></p>
+<div id="gtx-trans" style="position: absolute; left: -26px; top: 34px;">
+<div class="gtx-trans-icon"></div>
+</div>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-12 col-m-4  contact-us-footer-widget" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Contact Us</h3>
+			
+	<h2>Contact Us</h2>
+<p><a href="https://www.orlando.gov/Our-Government/Contact-Us" target="_self">City Directory</a></p>
+<p><a href="https://www.orlando.gov/Our-Government/Get-Involved/City-Newsletter" target="_self">Subscribe to City News</a></p>
+<p><a href="http://www.downtownorlando.com" target="_blank">Downtownorlando.com</a></p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-12 col-m-4  notranslate" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Be Social</h3>
+			
+	
+	<ul class="footer-links with-icons social-media-links">  <li class="footer-link-facebook">
+	<a href="http://www.facebook.com/cityoforlando" target="_blank"  >
+<i aria-hidden="true"></i>Facebook
+</a>
+</li>
+          <li class="footer-link-x">
+	<a href="https://x.com/citybeautiful" target="_blank"  >
+<i aria-hidden="true"></i>X
+</a>
+</li>
+          <li class="footer-link-youtube">
+	<a href="http://www.youtube.com/cityoforlando" target="_blank"  >
+<i aria-hidden="true"></i>YouTube
+</a>
+</li>
+          <li class="footer-link-flickr">
+	<a href="https://www.flickr.com/photos/cityoforlando" target="_blank"  >
+<i aria-hidden="true"></i>Flickr
+</a>
+</li>
+          <li class="footer-link-instagram">
+	<a href="http://instagram.com/thecitybeautiful" target="_blank"  >
+<i aria-hidden="true"></i>Instagram
+</a>
+</li>
+          <li class="footer-link-linkedin">
+	<a href="https://www.linkedin.com/company/city-of-orlando" target="_blank"  >
+<i aria-hidden="true"></i>LinkedIn
+</a>
+</li>
+          <li class="footer-link-nextdoor">
+	<a href="https://nextdoor.com/agency-detail/fl/orlando/city-of-orlando-office-of-communications-neighborhood-relations/" target="_blank"  >
+<i aria-hidden="true"></i>Nextdoor
+</a>
+</li>
+           </ul>
+	
+</div><div class="col-xs-12 col-s-12 col-m-12 col-lg-12" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Footer bottom notices</h3>
+			
+	<p><a href="https://gis.orlando.gov/orlandoinformationlocator/" target="_blank">Information Locator</a>&nbsp;</p>
+<p><a href="https://www.orlando.gov/Our-Government/News-and-Information" target="_self">News and Information</a></p>
+
+
+	
+	
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="footer-outer-container footer-second-row">
+                    <div class="footer-container clearfix">
+                        <div class="grid grid-pad footer-secondary-links">
+                            <div class="col-xs-12 col-m-7">
+                                
+                                    <div><a href="https://www.orlando.gov/System-pages/Website-Legal-Notices" target="_self"  >Website Legal Notice</a>&nbsp;| <a href="https://www.orlando.gov/General-Pages/Sitemap" target="_self"  >Sitemap</a>&nbsp;| <a href="https://www.orlando.gov/Our-Government/News-and-Information/City-Official-Assets" target="_self"  >The City Beautiful</a></div>
+                                
+                            </div>
+                            <div class="col-xs-12 col-m-5 powered-by">
+                                <div class="right">
+                                    &copy; 2026 City of Orlando&nbsp;|&nbsp;<span class="powered-by">Powered by <a href="https://granicus.com/solution/govaccess/opencities/" target="_blank">Granicus</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/files/oc-resources/720cfbd8-df7e-4b88-bf92-e218d51ee173/JsTextSnippets.js?ocsvclang=en-US" type="text/javascript"></script><script>OpenCitiesResourceStrings["Sys Js Get Updates For Search"] = "Get updates for this search";</script>
+    
+    <script>
+$(document).ready(function() {
+	
+	// PROTECT ABBREVIATED DATES FROM GOOGLE TRANSLATE
+	// JUN 2023 - add notranslate to other protected classes
+	$(function() {
+ 		$('.list-item-block-date').addClass('notranslate');
+ 		$('.contact-email').addClass('notranslate');
+ 		$('.contact-address').addClass('notranslate');
+ 		$('.contact-venue').addClass('notranslate');
+	});
+	
+
+	// OPEN PDFs IN A NEW WINDOW
+	//$('a[href$=".pdf"]').each(function() { $(this).prop('target', '_blank'); });
+
+
+	// SCAN ALL LINKS INSIDE #main-content
+	// OPEN EXTERNAL LINKS IN A NEW TAB
+
+   $("#main-content a[href^=http]").each(function(){
+
+      // excluded domains list - this will not be considered "external" links
+      var excludes = [
+         'orlando.gov',
+         'www.orlando.gov',
+         'alpha.orlando.gov',
+	 'beta.orlando.gov',
+         'cityoforlando.net',
+         'www.cityoforlando.net'
+      ];
+      for(i=0; i<excludes.length; i++) {
+         if(this.href.indexOf(excludes[i]) != -1) {
+            return true; // continue each() with next link
+         }
+      }
+
+      if(this.href.indexOf(location.hostname) == -1) { 
+    // it exists 
+} {
+
+           // attach a do-nothing event handler to ensure we can 'trigger' a click on this link
+           $(this).click(function() { return true; });
+
+           //$(this).attr({
+               //target: "_blank",
+               //title: "Opens in a new window"
+           //});
+           $(this).prop('target', '_blank');
+
+           $(this).click(); // trigger it
+      }
+   	 
+   }) 
+   
+});
+</script>
+
+<script type="text/javascript">
+        var _monsido = _monsido || [];
+            _monsido.push(['_setDomainToken', 'Bj4zw9fKfYzu_jkf1MXbBw']);
+            _monsido.push(['_withStatistics', 'true']);
+</script>
+<script async src="//cdn.monsido.com/tool/javascripts/monsido.js"></script>
+
+<script>
+    const moduleUrl = "https://gxa.granicus.com/chatbot/app/a1d9a415-6314-3ee6-b1a3-b1940fe74632";
+    fetch(moduleUrl)
+        .then(async (response) => {
+            const contentType = response.headers.get("Content-Type");
+            if (contentType && contentType.includes("application/javascript")) {
+                // Dynamically import the module
+                await import(moduleUrl);
+            } else {
+                // Not a JS module, likely an error JSON
+                const errorData = await response.json();
+                console.error(`Failed to load script: ${errorData.error}`);
+            }
+        })
+        .catch((err) => {
+            console.error("Network or script error:", err);
+        });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TF8T7M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMHK7X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script>
+    const moduleUrl = "https://gxa.granicus.com/chatbot/app/a1d9a415-6314-3ee6-b1a3-b1940fe74632";
+    fetch(moduleUrl)
+        .then(async (response) => {
+            const contentType = response.headers.get("Content-Type");
+            if (contentType && contentType.includes("application/javascript")) {
+                // Dynamically import the module
+                await import(moduleUrl);
+            } else {
+                // Not a JS module, likely an error JSON
+                const errorData = await response.json();
+                console.error(`Failed to load script: ${errorData.error}`);
+            }
+        })
+        .catch((err) => {
+            console.error("Network or script error:", err);
+        });
+</script>
+    
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl05_seamless_script_manager_TSM');//]]>
+</script>
+</form>
+</body>
+</html>

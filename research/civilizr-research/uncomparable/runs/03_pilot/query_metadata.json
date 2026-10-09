@@ -1,0 +1,53 @@
+[
+  {
+    "request_id": "wright",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "wright.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "usonian",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "usonian.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  }
+]

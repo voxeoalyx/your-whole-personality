@@ -1,0 +1,133 @@
+﻿dimension,signature,k,a,b,area_a,area_b,jaccard,rank_cosine,ties_present
+place_tags,7628c2261d98,10,winter_park_place_tags,winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,10,winter_park_place_tags,pine_hills_place_tags,Winter Park,Pine Hills,0.1111111111111111,0.33696805767734966,True
+place_tags,7628c2261d98,10,winter_park_place_tags,college_park_place_tags,Winter Park,College Park,0.5384615384615384,0.9084639813770969,False
+place_tags,7628c2261d98,10,winter_park_place_tags,orlando_place_tags,Winter Park,Orlando,0.1111111111111111,0.362957615317358,True
+place_tags,7628c2261d98,10,winter_park_place_tags,winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,winter_park_brands,winter_park_brands,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,winter_park_brands,pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,winter_park_brands,college_park_brands,Winter Park,College Park,0.6666666666666666,0.9236992393039983,False
+brands,e75b97502d49,10,winter_park_brands,orlando_brands,Winter Park,Orlando,0.25,0.5073724971790793,False
+brands,e75b97502d49,10,winter_park_brands,winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,winter_park_destinations,winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,winter_park_destinations,pine_hills_destinations,Winter Park,Pine Hills,0.8181818181818182,0.8029877119119821,False
+destinations,1266f6ddde61,10,winter_park_destinations,college_park_destinations,Winter Park,College Park,0.8181818181818182,0.9863997329714697,False
+destinations,1266f6ddde61,10,winter_park_destinations,winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,10,pine_hills_place_tags,winter_park_place_tags,Pine Hills,Winter Park,0.1111111111111111,0.33696805767734966,True
+place_tags,7628c2261d98,10,pine_hills_place_tags,pine_hills_place_tags,Pine Hills,Pine Hills,1.0,1.0,True
+place_tags,7628c2261d98,10,pine_hills_place_tags,college_park_place_tags,Pine Hills,College Park,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,pine_hills_place_tags,orlando_place_tags,Pine Hills,Orlando,0.1111111111111111,0.23300982711731624,True
+place_tags,7628c2261d98,10,pine_hills_place_tags,winter_park_repeat_place_tags,Pine Hills,Winter Park,0.1111111111111111,0.33696805767734966,True
+brands,e75b97502d49,10,pine_hills_brands,winter_park_brands,Pine Hills,Winter Park,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,pine_hills_brands,pine_hills_brands,Pine Hills,Pine Hills,1.0,1.0,False
+brands,e75b97502d49,10,pine_hills_brands,college_park_brands,Pine Hills,College Park,0.1111111111111111,0.6452579827864142,False
+brands,e75b97502d49,10,pine_hills_brands,orlando_brands,Pine Hills,Orlando,0.1111111111111111,0.3226289913932071,False
+brands,e75b97502d49,10,pine_hills_brands,winter_park_repeat_brands,Pine Hills,Winter Park,0.1111111111111111,0.48394348708981066,False
+destinations,1266f6ddde61,10,pine_hills_destinations,winter_park_destinations,Pine Hills,Winter Park,0.8181818181818182,0.8029877119119821,False
+destinations,1266f6ddde61,10,pine_hills_destinations,pine_hills_destinations,Pine Hills,Pine Hills,1.0,1.0,False
+destinations,1266f6ddde61,10,pine_hills_destinations,college_park_destinations,Pine Hills,College Park,0.6666666666666666,0.7942818502394671,False
+destinations,1266f6ddde61,10,pine_hills_destinations,winter_park_repeat_destinations,Pine Hills,Winter Park,0.8181818181818182,0.8029877119119821,False
+place_tags,7628c2261d98,10,college_park_place_tags,winter_park_place_tags,College Park,Winter Park,0.5384615384615384,0.9084639813770969,False
+place_tags,7628c2261d98,10,college_park_place_tags,pine_hills_place_tags,College Park,Pine Hills,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,college_park_place_tags,college_park_place_tags,College Park,College Park,1.0,1.0,False
+place_tags,7628c2261d98,10,college_park_place_tags,orlando_place_tags,College Park,Orlando,0.17647058823529413,0.4234505512035843,True
+place_tags,7628c2261d98,10,college_park_place_tags,winter_park_repeat_place_tags,College Park,Winter Park,0.5384615384615384,0.9084639813770969,False
+brands,e75b97502d49,10,college_park_brands,winter_park_brands,College Park,Winter Park,0.6666666666666666,0.9236992393039983,False
+brands,e75b97502d49,10,college_park_brands,pine_hills_brands,College Park,Pine Hills,0.1111111111111111,0.6452579827864142,False
+brands,e75b97502d49,10,college_park_brands,college_park_brands,College Park,College Park,1.0,1.0,False
+brands,e75b97502d49,10,college_park_brands,orlando_brands,College Park,Orlando,0.25,0.5415558069814548,False
+brands,e75b97502d49,10,college_park_brands,winter_park_repeat_brands,College Park,Winter Park,0.6666666666666666,0.9236992393039983,False
+destinations,1266f6ddde61,10,college_park_destinations,winter_park_destinations,College Park,Winter Park,0.8181818181818182,0.9863997329714697,False
+destinations,1266f6ddde61,10,college_park_destinations,pine_hills_destinations,College Park,Pine Hills,0.6666666666666666,0.7942818502394671,False
+destinations,1266f6ddde61,10,college_park_destinations,college_park_destinations,College Park,College Park,1.0,1.0,False
+destinations,1266f6ddde61,10,college_park_destinations,winter_park_repeat_destinations,College Park,Winter Park,0.8181818181818182,0.9863997329714697,False
+place_tags,7628c2261d98,10,orlando_place_tags,winter_park_place_tags,Orlando,Winter Park,0.1111111111111111,0.362957615317358,True
+place_tags,7628c2261d98,10,orlando_place_tags,pine_hills_place_tags,Orlando,Pine Hills,0.1111111111111111,0.23300982711731624,True
+place_tags,7628c2261d98,10,orlando_place_tags,college_park_place_tags,Orlando,College Park,0.17647058823529413,0.4234505512035843,True
+place_tags,7628c2261d98,10,orlando_place_tags,orlando_place_tags,Orlando,Orlando,1.0,1.0,True
+place_tags,7628c2261d98,10,orlando_place_tags,winter_park_repeat_place_tags,Orlando,Winter Park,0.1111111111111111,0.362957615317358,True
+brands,e75b97502d49,10,orlando_brands,winter_park_brands,Orlando,Winter Park,0.25,0.5073724971790793,False
+brands,e75b97502d49,10,orlando_brands,pine_hills_brands,Orlando,Pine Hills,0.1111111111111111,0.3226289913932071,False
+brands,e75b97502d49,10,orlando_brands,college_park_brands,Orlando,College Park,0.25,0.5415558069814548,False
+brands,e75b97502d49,10,orlando_brands,orlando_brands,Orlando,Orlando,1.0,1.0,False
+brands,e75b97502d49,10,orlando_brands,winter_park_repeat_brands,Orlando,Winter Park,0.25,0.5073724971790793,False
+place_tags,7628c2261d98,10,winter_park_repeat_place_tags,winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,10,winter_park_repeat_place_tags,pine_hills_place_tags,Winter Park,Pine Hills,0.1111111111111111,0.33696805767734966,True
+place_tags,7628c2261d98,10,winter_park_repeat_place_tags,college_park_place_tags,Winter Park,College Park,0.5384615384615384,0.9084639813770969,False
+place_tags,7628c2261d98,10,winter_park_repeat_place_tags,orlando_place_tags,Winter Park,Orlando,0.1111111111111111,0.362957615317358,True
+place_tags,7628c2261d98,10,winter_park_repeat_place_tags,winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,winter_park_repeat_brands,winter_park_brands,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,winter_park_repeat_brands,pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,winter_park_repeat_brands,college_park_brands,Winter Park,College Park,0.6666666666666666,0.9236992393039983,False
+brands,e75b97502d49,10,winter_park_repeat_brands,orlando_brands,Winter Park,Orlando,0.25,0.5073724971790793,False
+brands,e75b97502d49,10,winter_park_repeat_brands,winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,winter_park_repeat_destinations,winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,winter_park_repeat_destinations,pine_hills_destinations,Winter Park,Pine Hills,0.8181818181818182,0.8029877119119821,False
+destinations,1266f6ddde61,10,winter_park_repeat_destinations,college_park_destinations,Winter Park,College Park,0.8181818181818182,0.9863997329714697,False
+destinations,1266f6ddde61,10,winter_park_repeat_destinations,winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,20,winter_park_place_tags,winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,True
+place_tags,7628c2261d98,20,winter_park_place_tags,pine_hills_place_tags,Winter Park,Pine Hills,0.3793103448275862,0.3915880811237236,True
+place_tags,7628c2261d98,20,winter_park_place_tags,college_park_place_tags,Winter Park,College Park,0.7391304347826086,0.9199901013837867,True
+place_tags,7628c2261d98,20,winter_park_place_tags,orlando_place_tags,Winter Park,Orlando,0.3333333333333333,0.4428209311478124,True
+place_tags,7628c2261d98,20,winter_park_place_tags,winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,winter_park_brands,winter_park_brands,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,winter_park_brands,pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48440021478401474,True
+brands,e75b97502d49,20,winter_park_brands,college_park_brands,Winter Park,College Park,0.7391304347826086,0.9321488295928592,True
+brands,e75b97502d49,20,winter_park_brands,orlando_brands,Winter Park,Orlando,0.2903225806451613,0.5449708367667881,True
+brands,e75b97502d49,20,winter_park_brands,winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,True
+destinations,1266f6ddde61,20,winter_park_destinations,winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,20,winter_park_destinations,pine_hills_destinations,Winter Park,Pine Hills,0.9047619047619048,0.8116721971629806,False
+destinations,1266f6ddde61,20,winter_park_destinations,college_park_destinations,Winter Park,College Park,0.9047619047619048,0.9909598859402261,False
+destinations,1266f6ddde61,20,winter_park_destinations,winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,20,pine_hills_place_tags,winter_park_place_tags,Pine Hills,Winter Park,0.3793103448275862,0.3915880811237236,True
+place_tags,7628c2261d98,20,pine_hills_place_tags,pine_hills_place_tags,Pine Hills,Pine Hills,1.0,1.0,True
+place_tags,7628c2261d98,20,pine_hills_place_tags,college_park_place_tags,Pine Hills,College Park,0.3793103448275862,0.37378158652704546,True
+place_tags,7628c2261d98,20,pine_hills_place_tags,orlando_place_tags,Pine Hills,Orlando,0.3793103448275862,0.3173231494898246,True
+place_tags,7628c2261d98,20,pine_hills_place_tags,winter_park_repeat_place_tags,Pine Hills,Winter Park,0.3793103448275862,0.3915880811237236,True
+brands,e75b97502d49,20,pine_hills_brands,winter_park_brands,Pine Hills,Winter Park,0.1111111111111111,0.48440021478401474,True
+brands,e75b97502d49,20,pine_hills_brands,pine_hills_brands,Pine Hills,Pine Hills,1.0,1.0,False
+brands,e75b97502d49,20,pine_hills_brands,college_park_brands,Pine Hills,College Park,0.1111111111111111,0.6379526148310443,False
+brands,e75b97502d49,20,pine_hills_brands,orlando_brands,Pine Hills,Orlando,0.08108108108108109,0.3702059254669131,False
+brands,e75b97502d49,20,pine_hills_brands,winter_park_repeat_brands,Pine Hills,Winter Park,0.1111111111111111,0.48440021478401474,True
+destinations,1266f6ddde61,20,pine_hills_destinations,winter_park_destinations,Pine Hills,Winter Park,0.9047619047619048,0.8116721971629806,False
+destinations,1266f6ddde61,20,pine_hills_destinations,pine_hills_destinations,Pine Hills,Pine Hills,1.0,1.0,False
+destinations,1266f6ddde61,20,pine_hills_destinations,college_park_destinations,Pine Hills,College Park,0.8181818181818182,0.807859195546694,False
+destinations,1266f6ddde61,20,pine_hills_destinations,winter_park_repeat_destinations,Pine Hills,Winter Park,0.9047619047619048,0.8116721971629806,False
+place_tags,7628c2261d98,20,college_park_place_tags,winter_park_place_tags,College Park,Winter Park,0.7391304347826086,0.9199901013837867,True
+place_tags,7628c2261d98,20,college_park_place_tags,pine_hills_place_tags,College Park,Pine Hills,0.3793103448275862,0.37378158652704546,True
+place_tags,7628c2261d98,20,college_park_place_tags,college_park_place_tags,College Park,College Park,1.0,1.0,False
+place_tags,7628c2261d98,20,college_park_place_tags,orlando_place_tags,College Park,Orlando,0.3793103448275862,0.471726713563712,True
+place_tags,7628c2261d98,20,college_park_place_tags,winter_park_repeat_place_tags,College Park,Winter Park,0.7391304347826086,0.9199901013837867,True
+brands,e75b97502d49,20,college_park_brands,winter_park_brands,College Park,Winter Park,0.7391304347826086,0.9321488295928592,True
+brands,e75b97502d49,20,college_park_brands,pine_hills_brands,College Park,Pine Hills,0.1111111111111111,0.6379526148310443,False
+brands,e75b97502d49,20,college_park_brands,college_park_brands,College Park,College Park,1.0,1.0,False
+brands,e75b97502d49,20,college_park_brands,orlando_brands,College Park,Orlando,0.25,0.5576973870453804,False
+brands,e75b97502d49,20,college_park_brands,winter_park_repeat_brands,College Park,Winter Park,0.7391304347826086,0.9321488295928592,True
+destinations,1266f6ddde61,20,college_park_destinations,winter_park_destinations,College Park,Winter Park,0.9047619047619048,0.9909598859402261,False
+destinations,1266f6ddde61,20,college_park_destinations,pine_hills_destinations,College Park,Pine Hills,0.8181818181818182,0.807859195546694,False
+destinations,1266f6ddde61,20,college_park_destinations,college_park_destinations,College Park,College Park,1.0,1.0,False
+destinations,1266f6ddde61,20,college_park_destinations,winter_park_repeat_destinations,College Park,Winter Park,0.9047619047619048,0.9909598859402261,False
+place_tags,7628c2261d98,20,orlando_place_tags,winter_park_place_tags,Orlando,Winter Park,0.3333333333333333,0.4428209311478124,True
+place_tags,7628c2261d98,20,orlando_place_tags,pine_hills_place_tags,Orlando,Pine Hills,0.3793103448275862,0.3173231494898246,True
+place_tags,7628c2261d98,20,orlando_place_tags,college_park_place_tags,Orlando,College Park,0.3793103448275862,0.471726713563712,True
+place_tags,7628c2261d98,20,orlando_place_tags,orlando_place_tags,Orlando,Orlando,1.0,1.0,True
+place_tags,7628c2261d98,20,orlando_place_tags,winter_park_repeat_place_tags,Orlando,Winter Park,0.3333333333333333,0.4428209311478124,True
+brands,e75b97502d49,20,orlando_brands,winter_park_brands,Orlando,Winter Park,0.2903225806451613,0.5449708367667881,True
+brands,e75b97502d49,20,orlando_brands,pine_hills_brands,Orlando,Pine Hills,0.08108108108108109,0.3702059254669131,False
+brands,e75b97502d49,20,orlando_brands,college_park_brands,Orlando,College Park,0.25,0.5576973870453804,False
+brands,e75b97502d49,20,orlando_brands,orlando_brands,Orlando,Orlando,1.0,1.0,False
+brands,e75b97502d49,20,orlando_brands,winter_park_repeat_brands,Orlando,Winter Park,0.2903225806451613,0.5449708367667881,True
+place_tags,7628c2261d98,20,winter_park_repeat_place_tags,winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,True
+place_tags,7628c2261d98,20,winter_park_repeat_place_tags,pine_hills_place_tags,Winter Park,Pine Hills,0.3793103448275862,0.3915880811237236,True
+place_tags,7628c2261d98,20,winter_park_repeat_place_tags,college_park_place_tags,Winter Park,College Park,0.7391304347826086,0.9199901013837867,True
+place_tags,7628c2261d98,20,winter_park_repeat_place_tags,orlando_place_tags,Winter Park,Orlando,0.3333333333333333,0.4428209311478124,True
+place_tags,7628c2261d98,20,winter_park_repeat_place_tags,winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,winter_park_repeat_brands,winter_park_brands,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,winter_park_repeat_brands,pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48440021478401474,True
+brands,e75b97502d49,20,winter_park_repeat_brands,college_park_brands,Winter Park,College Park,0.7391304347826086,0.9321488295928592,True
+brands,e75b97502d49,20,winter_park_repeat_brands,orlando_brands,Winter Park,Orlando,0.2903225806451613,0.5449708367667881,True
+brands,e75b97502d49,20,winter_park_repeat_brands,winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,True
+destinations,1266f6ddde61,20,winter_park_repeat_destinations,winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,20,winter_park_repeat_destinations,pine_hills_destinations,Winter Park,Pine Hills,0.9047619047619048,0.8116721971629806,False
+destinations,1266f6ddde61,20,winter_park_repeat_destinations,college_park_destinations,Winter Park,College Park,0.9047619047619048,0.9909598859402261,False
+destinations,1266f6ddde61,20,winter_park_repeat_destinations,winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False

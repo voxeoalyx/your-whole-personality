@@ -1,0 +1,7 @@
+﻿domain,candidates,complete_orlando,valid_perturbations_of_9,adequate_coverage,median_between,median_within,max_within,within_between_ratio,robust_screen,geo_distance_rho,rank_score_agreement,inventory_distance_rho
+brands,47,5,3,False,0.04576202590194264,0.0,0.0,0.0,False,0.5393939393939394,0.2727272727272727,0.24848484848484848
+brands_independent,25,5,3,False,0.02038461538461539,0.0,0.0,0.0,False,0.05454545454545454,0.04242424242424243,0.6606060606060606
+brands_pooled,24,8,6,False,0.062173913043478246,0.0,0.0,0.0,False,0.13026819923371646,0.9474548440065681,0.23246753246753246
+food,12,9,9,True,0.0437062937062937,0.0,0.0,0.0,False,0.23550707870062287,0.6700215081323855,0.1648136589613476
+arts,8,0,0,False,,,,,False,,,
+wellness,8,0,0,False,,,,,False,,,

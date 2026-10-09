@@ -1,0 +1,49 @@
+﻿area,dimension,returned,top5,source
+Winter Park,place_tags,20,Shopping | Families | Foodies | Tourists | Locals,runs\04-pilot\winter_park_place_tags.a1.json
+Pine Hills,place_tags,20,Shopping mall | Shopping | Luggage store | Family restaurant | Steak,runs\04-pilot\pine_hills_place_tags.a1.json
+College Park,place_tags,20,Shopping | Foodies | Event venue | Families | Tourists,runs\04-pilot\college_park_place_tags.a1.json
+Audubon Park,place_tags,20,Church | Shopping | Tourist attraction | Place | Media Noche,runs\06-expansion\audubon_park_place_tags.a1.json
+Baldwin Park,place_tags,20,Shopping | Tourist attraction | Park | Walking | Hiking,runs\06-expansion\baldwin_park_place_tags.a1.json
+Azalea Park,place_tags,20,Shopping | Luggage store | Shopping mall | Tourist attraction | Place,runs\06-expansion\azalea_park_place_tags.a1.json
+Winter Park,brands,20,Orlando City SC | Rollins College | Rifle Paper Co. | Orlando Magic | Universal Orlando Resort,runs\04-pilot\winter_park_brands.a1.json
+Pine Hills,brands,20,Orlando Magic | Orlando City SC | Johnny Dang & Co. | Sniper Gang Apparel | Cash App,runs\04-pilot\pine_hills_brands.a1.json
+College Park,brands,20,Orlando City SC | Orlando Magic | Orlando Pride | Rifle Paper Co. | Rollins College,runs\04-pilot\college_park_brands.a1.json
+Audubon Park,brands,20,Orlando City SC | Rollins College | Rifle Paper Co. | Orlando Magic | Orlando Pride,runs\06-expansion\audubon_park_brands.a1.json
+Baldwin Park,brands,20,Orlando City SC | Orlando Magic | Orlando Pride | Rollins College | Universal Orlando Resort,runs\06-expansion\baldwin_park_brands.a1.json
+Azalea Park,brands,20,Orlando City SC | Orlando Magic | Universal Orlando Resort | Full Sail University | Orlando Pride,runs\06-expansion\azalea_park_brands.a1.json
+Winter Park,destinations,20,Winter Park | Orlando | New Smyrna Beach | Cocoa Beach | Daytona Beach,runs\04-pilot\winter_park_destinations.a1.json
+Pine Hills,destinations,20,Orlando | Winter Park | Kissimmee | Daytona Beach | Tampa,runs\04-pilot\pine_hills_destinations.a1.json
+College Park,destinations,20,Winter Park | Orlando | New Smyrna Beach | Tampa | Daytona Beach,runs\04-pilot\college_park_destinations.a1.json
+Audubon Park,destinations,20,Winter Park | Orlando | New Smyrna Beach | Cocoa Beach | Daytona Beach,runs\06-expansion\audubon_park_destinations.a1.json
+Baldwin Park,destinations,20,Orlando | Winter Park | New Smyrna Beach | Cocoa Beach | Saint Augustine,runs\06-expansion\baldwin_park_destinations.a1.json
+Azalea Park,destinations,20,Winter Park | Orlando | Kissimmee | Cocoa Beach | Daytona Beach,runs\06-expansion\azalea_park_destinations.a1.json
+Winter Park,food_dining,20,The Ravenous Pig | Foxtail Coffee - Winter Park | The Wine Room on Park Avenue | Krungthep Tea Time | Bulla Gastrobar Winter Park,runs\05-culture-pilot\winter_park_food_dining.a1.json
+Pine Hills,food_dining,20,Chili's Grill & Bar | spicy & juicy orlando | Majestic Event Center | Dave & Buster's Orlando | Caribbean Sunshine Bakery,runs\05-culture-pilot\pine_hills_food_dining.a1.json
+College Park,food_dining,20,Infusion Tea | The Tap Room at Dubsdread | Ollie's Public House | The Guesthouse | Se7enBites,runs\07-culture-remaining\college_park_food_dining.a1.json
+Audubon Park,food_dining,20,The Guesthouse | Black Bean Deli Orlando | Imperial Wine Bar | Se7enBites | The Ravenous Pig,runs\07-culture-remaining\audubon_park_food_dining.a1.json
+Baldwin Park,food_dining,20,Seito Sushi Baldwin Park | The Ravenous Pig | The Guesthouse | Mathers Social Gathering | Se7enBites,runs\07-culture-remaining\baldwin_park_food_dining.a1.json
+Azalea Park,food_dining,20,Dave & Buster's Orlando | Izziban Sushi & BBQ | Hard Rock Cafe | La Isla Del Frappe & Puchunguis Pinchos | Pointe Orlando,runs\07-culture-remaining\azalea_park_food_dining.a1.json
+Winter Park,coffee_cafes,20,Barnie's Coffee & Tea Co. | Craft & Common | Artisan's Table | The Salty Donut | Deeply Coffee Company,runs\05-culture-pilot\winter_park_coffee_cafes.a1.json
+Pine Hills,coffee_cafes,20,Keke's Breakfast Cafe | Starbucks Coffee Company | Artisan's Table | Panera Bread | Panera Bread,runs\05-culture-pilot\pine_hills_coffee_cafes.a1.json
+College Park,coffee_cafes,20,Craft & Common | Barnie's Coffee & Tea Co. | Starbucks Coffee Company | Artisan's Table | Deeply Coffee Company,runs\07-culture-remaining\college_park_coffee_cafes.a1.json
+Audubon Park,coffee_cafes,4,Craft & Common | The Salty Donut | Barnie's Coffee & Tea Co. | Artisan's Table,runs\07-culture-remaining\audubon_park_coffee_cafes.a1.json
+Baldwin Park,coffee_cafes,20,Barnie's Coffee & Tea Co. | Craft & Common | Artisan's Table | The Salty Donut | Deeply Coffee Company,runs\07-culture-remaining\baldwin_park_coffee_cafes.a1.json
+Azalea Park,coffee_cafes,20,Starbucks | Panera Bread | Keke's Breakfast Cafe | Craft & Common | Starbucks Coffee Company,runs\07-culture-remaining\azalea_park_coffee_cafes.a1.json
+Winter Park,fitness,13,Genesis Health Clubs – Orlando Sportsplex | Fitness CF - Orlando Dr Phillips | The Rosen JCC | Planet Fitness | Planet Fitness,runs\05-culture-pilot\winter_park_fitness.a1.json
+Pine Hills,fitness,12,Genesis Health Clubs – Orlando Sportsplex | Planet Fitness | Planet Fitness | Fitness CF - Orlando Dr Phillips | The Rosen JCC,runs\05-culture-pilot\pine_hills_fitness.a1.json
+College Park,fitness,12,Genesis Health Clubs – Orlando Sportsplex | The Rosen JCC | Fitness CF - Orlando Dr Phillips | Planet Fitness | Orlando Brazilian Jiu-Jitsu LLC,runs\07-culture-remaining\college_park_fitness.a1.json
+Audubon Park,fitness,0,,runs\07-culture-remaining\audubon_park_fitness.a1.json
+Baldwin Park,fitness,12,Genesis Health Clubs – Orlando Sportsplex | Fitness CF - Orlando Dr Phillips | The Rosen JCC | Power Strength Gym | Planet Fitness,runs\07-culture-remaining\baldwin_park_fitness.a1.json
+Azalea Park,fitness,8,Genesis Health Clubs – Orlando Sportsplex | Power Strength Gym | Planet Fitness | Fitness CF - Orlando Dr Phillips | Planet Fitness,runs\07-culture-remaining\azalea_park_fitness.a1.json
+Winter Park,museums,9,Harry P Leu Gardens | Orlando Museum of Art | Casa Feliz Historic Home Museum | Art & History Museums of Maitland | Albin Polasek Museum & Sculpture Gardens,runs\05-culture-pilot\winter_park_museums.a1.json
+Pine Hills,museums,9,Orlando Museum of Art | Harry P Leu Gardens | Orange County Regional History Center | Art & History Museums of Maitland | Casa Feliz Historic Home Museum,runs\05-culture-pilot\pine_hills_museums.a1.json
+College Park,museums,9,Harry P Leu Gardens | Orlando Museum of Art | Orange County Regional History Center | Casa Feliz Historic Home Museum | Art & History Museums of Maitland,runs\07-culture-remaining\college_park_museums.a1.json
+Audubon Park,museums,6,Harry P Leu Gardens | Orlando Museum of Art | Art & History Museums of Maitland | Orange County Regional History Center | Casa Feliz Historic Home Museum,runs\07-culture-remaining\audubon_park_museums.a1.json
+Baldwin Park,museums,9,Harry P Leu Gardens | Orlando Museum of Art | Casa Feliz Historic Home Museum | Art & History Museums of Maitland | Orange County Regional History Center,runs\07-culture-remaining\baldwin_park_museums.a1.json
+Azalea Park,museums,9,Harry P Leu Gardens | Orlando Museum of Art | Orange County Regional History Center | Art & History Museums of Maitland | Casa Feliz Historic Home Museum,runs\07-culture-remaining\azalea_park_museums.a1.json
+Winter Park,nightlife_bars,20,The Wine Room on Park Avenue | The Guesthouse | Fiddlers Green Irish Pub & Eatery | Agave Azul Winter Park | Imperial Wine Bar,runs\05-culture-pilot\winter_park_nightlife_bars.a1.json
+Pine Hills,nightlife_bars,20,Chili's Grill & Bar | Pointe Orlando | DoveCote Restaurant | Miller's Ale House | Hook & Reel Cajun Seafood & Bar,runs\05-culture-pilot\pine_hills_nightlife_bars.a1.json
+College Park,nightlife_bars,20,Ollie's Public House | The Guesthouse | Imperial Wine Bar | DoveCote Restaurant | The Stubborn Mule,runs\07-culture-remaining\college_park_nightlife_bars.a1.json
+Audubon Park,nightlife_bars,8,The Guesthouse | Imperial Wine Bar | DoveCote Restaurant | The Nook on Robinson | Fiddlers Green Irish Pub & Eatery,runs\07-culture-remaining\audubon_park_nightlife_bars.a1.json
+Baldwin Park,nightlife_bars,20,The Guesthouse | The Wine Room on Park Avenue | Imperial Wine Bar | The Stubborn Mule | DoveCote Restaurant,runs\07-culture-remaining\baldwin_park_nightlife_bars.a1.json
+Azalea Park,nightlife_bars,20,Izziban Sushi & BBQ | Pointe Orlando | Miller's Ale House | Chili's Grill & Bar | Chili's Grill & Bar,runs\07-culture-remaining\azalea_park_nightlife_bars.a1.json

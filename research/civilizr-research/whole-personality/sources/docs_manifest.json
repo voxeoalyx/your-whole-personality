@@ -1,0 +1,34 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/insights-api-deep-dive.md",
+      "status": 200,
+      "sha256": "b22f2daae260f89fa0c32440d2ddb7557b39902ec3ede99b1678d18874dee541"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/available-parameters-by-entity-type.md",
+      "status": 200,
+      "sha256": "7b79a86589800cb9911e209920ff35c40a2cd5500f329c4c0ee308879cddde80"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-search.md",
+      "status": 200,
+      "sha256": "5cb8f0e7132603c4433920d5cc5518f42fd9a2e4615f291d661222a63a4e1549"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/interpreting-affinity-scores.md",
+      "status": 200,
+      "sha256": "53e98cf530f8155469054c6159ea44a8d72384a479cad0e8d4290635feb9fd6f"
+    }
+  }
+]

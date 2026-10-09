@@ -1,0 +1,14 @@
+{
+  "at": 1791471451.8420084,
+  "request_hash": "a0bded75d33bb143495555d9ce2cdf9c175252e47a99bbe77a48d9aec030987b",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "signal.interests.tags": "urn:tag:genre:media:architecture",
+    "take": "20"
+  },
+  "response_sha256": "86adc1aca6feeb5ac50774de10e8645eb66cf0456e8679b07b988c2ab99bb339"
+}

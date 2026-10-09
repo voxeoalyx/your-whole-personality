@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Winter Park",
+    "slug": "winter_park",
+    "role": "target",
+    "entity_id": "2DA566F2-033C-4B97-BC8C-3322221C68DE",
+    "disambiguation": "Winter Park, Orange, Florida, United States of America",
+    "location": {
+      "lat": 28.598801697315782,
+      "lon": -81.34420470166879
+    },
+    "geometry_type": "MULTIPOLYGON",
+    "boundary_sha256": "4cbeef790eabacfb1a978523d99e786ce4ea5972990ac74e61b7b47d06c1ba57",
+    "source": "runs/02-host-probe/winter_park_lookup.a1.json",
+    "verified": true,
+    "review": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected."
+  },
+  {
+    "name": "College Park",
+    "slug": "college_park",
+    "role": "target",
+    "entity_id": "432D8D25-97BF-4CD4-887C-C24A201AB3FC",
+    "disambiguation": "College Park, Orange, Florida, United States of America",
+    "location": {
+      "lat": 28.57560528334122,
+      "lon": -81.39012942168766
+    },
+    "geometry_type": "POLYGON",
+    "boundary_sha256": "8dcdf2d2dc5e4cba065c9cba869b95dab5a46116a30a874496ea63e4c87fd439",
+    "source": "runs/03-discovery/college_park_lookup.a1.json",
+    "verified": true,
+    "review": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected."
+  },
+  {
+    "name": "Audubon Park",
+    "slug": "audubon_park",
+    "role": "target",
+    "entity_id": "7E6E3DFF-5154-4DDE-B08D-1392D771EC81",
+    "disambiguation": "Audubon Park, Orange, Florida, United States of America",
+    "location": {
+      "lat": 28.56434099727906,
+      "lon": -81.34074890560906
+    },
+    "geometry_type": "POLYGON",
+    "boundary_sha256": "8daf94f00943e7fb62220af08301450e9322841875fb4ca8757b430f731ee279",
+    "source": "runs/03-discovery/audubon_park_lookup.a1.json",
+    "verified": true,
+    "review": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected."
+  },
+  {
+    "name": "Baldwin Park",
+    "slug": "baldwin_park",
+    "role": "target",
+    "entity_id": "AE5AD141-044B-450B-8DB2-A462B55A6B2B",
+    "disambiguation": "Baldwin Park, Orange, Florida, United States of America",
+    "location": {
+      "lat": 28.569762371237413,
+      "lon": -81.32667782581882
+    },
+    "geometry_type": "POLYGON",
+    "boundary_sha256": "32b2bb32db745e6be2cebb426659ea61eaffe929d8fea808d9d1d7275c3c38b6",
+    "source": "runs/03-discovery/baldwin_park_lookup.a1.json",
+    "verified": true,
+    "review": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected."
+  },
+  {
+    "name": "Pine Hills",
+    "slug": "pine_hills",
+    "role": "control",
+    "entity_id": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+    "disambiguation": "Pine Hills, Orange, Florida, United States of America",
+    "location": {
+      "lat": 28.57821718827233,
+      "lon": -81.46327774270648
+    },
+    "geometry_type": "POLYGON",
+    "boundary_sha256": "c33b074ed6dfc691da48e6407b70121615059315578d2edc317b583c4564579f",
+    "source": "runs/02-host-probe/pine_hills_lookup.a1.json",
+    "verified": true,
+    "review": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected."
+  },
+  {
+    "name": "Azalea Park",
+    "slug": "azalea_park",
+    "role": "control",
+    "entity_id": "6650137D-68BE-4596-95AB-2ECF9BC20180",
+    "disambiguation": "Azalea Park, Orange, Florida, United States of America",
+    "location": {
+      "lat": 28.53926000368143,
+      "lon": -81.29819696409145
+    },
+    "geometry_type": "MULTIPOLYGON",
+    "boundary_sha256": "edc406e5c5d091096ef922b969a8019c4c22c7f55c44784584ef5942908fd00e",
+    "source": "runs/03-discovery/azalea_park_lookup.a1.json",
+    "verified": true,
+    "review": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected."
+  },
+  {
+    "name": "Orlando",
+    "slug": "orlando",
+    "role": "baseline",
+    "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+    "disambiguation": "Orlando, Florida, United States of America",
+    "location": {
+      "lat": 28.5421109,
+      "lon": -81.3790304
+    },
+    "geometry_type": "MULTIPOLYGON",
+    "boundary_sha256": "8bebd81c6042f3be39eeb610861b9bf1fc88ee44c2e6f1598fbc6a8696857022",
+    "source": "runs/02-host-probe/mills_50_lookup.a1.json",
+    "verified": true,
+    "review": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected."
+  },
+  {
+    "name": "Mills 50",
+    "slug": "mills_50",
+    "role": "target",
+    "verified": false,
+    "reason": "Qualified search returns Orlando; geographically scoped exact-name search returns zero results.",
+    "sources": [
+      "runs/02-host-probe/mills_50_lookup.a1.json",
+      "runs/03-discovery/mills_50_lookup.a1.json"
+    ]
+  }
+]

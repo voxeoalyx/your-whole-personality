@@ -1,0 +1,10 @@
+{
+  "at": 1791470811.5913718,
+  "request_hash": "60492687adfc21765c8ec066336960757a64b93be9c7a8e4b65d6879558df4ea",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.query": "architecture",
+    "take": "50"
+  },
+  "response_sha256": "5f263f676c884ee6295e7d3bd55a9c5cf4ac2013e14d33f3a5aea9d7ae9c0b77"
+}

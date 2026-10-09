@@ -1,0 +1,13 @@
+{
+  "at": 1791471352.189043,
+  "request_hash": "f51f23c582784f63f092999f56fe2d55d689dbd25367d969f765b1bb0706ce26",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:yoga",
+    "take": "20"
+  },
+  "response_sha256": "2b1e4098898fb2fc76eaa7afb0e5493bf06a6f4335073a73b8f08a0ef61b6fff"
+}

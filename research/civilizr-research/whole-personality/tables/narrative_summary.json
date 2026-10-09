@@ -1,0 +1,16 @@
+{
+  "faithful_comparisons": 6,
+  "quadrants": {
+    "small_data/small_narrative": 0,
+    "small_data/middle_narrative": 1,
+    "small_data/large_narrative": 0,
+    "middle_data/small_narrative": 0,
+    "middle_data/middle_narrative": 0,
+    "middle_data/large_narrative": 2,
+    "large_data/small_narrative": 0,
+    "large_data/middle_narrative": 0,
+    "large_data/large_narrative": 3
+  },
+  "partnership_median_distance_to_equal_rank_mix": 0.015634385958674918,
+  "independent_human_ratings": 0
+}

@@ -1,0 +1,13 @@
+{
+  "at": 1791471341.8168685,
+  "request_hash": "ffa0ff870632c28fb03e1f3e7cf213ee20ea806d51239ae422d51abe2a0d1642",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:running",
+    "take": "20"
+  },
+  "response_sha256": "3eaa495e1950d13f78876f3eaa19cf27153650a3aa6a20681f1ea414802a1a54"
+}

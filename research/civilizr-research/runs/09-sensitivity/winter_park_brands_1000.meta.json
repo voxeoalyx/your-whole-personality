@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-07T18:49:25.340072+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.985,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:brand",
+    "signal.location": "POINT(-81.34420470166879 28.598801697315782)",
+    "signal.location.radius": "1000",
+    "take": "20"
+  },
+  "raw_file": "winter_park_brands_1000.a1.json",
+  "request_sha256": "35b67d0b6efe36c283dbab725a65de6362465918fce3b4cf469f9d404942e481",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:49:27 GMT"
+  },
+  "response_sha256": "4bfe42d758838cc8b79584365919ee5a18ff39bddff6d9dce555a47325d004e4",
+  "spec": {
+    "area": "Winter Park",
+    "dimension": "brands_point",
+    "endpoint": "/v2/insights",
+    "geography_note": "Exact requested name, Orange/Florida disambiguation (Orlando baseline: Florida), Orlando-area coordinates and polygon geometry inspected.",
+    "geography_verified": true,
+    "id": "winter_park_brands_1000",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.type": "urn:entity:brand",
+      "signal.location": "POINT(-81.34420470166879 28.598801697315782)",
+      "signal.location.radius": 1000,
+      "take": 20
+    },
+    "role": "target"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Abrand&signal.location=POINT%28-81.34420470166879+28.598801697315782%29&signal.location.radius=1000&take=20"
+}

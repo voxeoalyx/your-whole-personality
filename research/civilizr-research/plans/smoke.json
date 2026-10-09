@@ -1,0 +1,63 @@
+{
+  "title": "Smallest Qloo coverage and capability probes",
+  "requests": [
+    {
+      "id": "winter_park_lookup",
+      "kind": "lookup",
+      "area": "Winter Park",
+      "endpoint": "/search",
+      "params": {
+        "query": "Winter Park, Florida",
+        "types": "urn:entity:locality",
+        "take": 5,
+        "page": 1
+      }
+    },
+    {
+      "id": "mills_50_lookup",
+      "kind": "lookup",
+      "area": "Mills 50",
+      "endpoint": "/search",
+      "params": {
+        "query": "Mills 50, Orlando, Florida",
+        "types": "urn:entity:locality",
+        "take": 5,
+        "page": 1
+      }
+    },
+    {
+      "id": "pine_hills_lookup",
+      "kind": "lookup",
+      "area": "Pine Hills",
+      "endpoint": "/search",
+      "params": {
+        "query": "Pine Hills, Florida",
+        "types": "urn:entity:locality",
+        "take": 5,
+        "page": 1
+      }
+    },
+    {
+      "id": "place_tag_types",
+      "kind": "taxonomy",
+      "endpoint": "/v2/tags/types",
+      "params": {
+        "filter.parents.types": "urn:entity:place",
+        "take": 50,
+        "page": 1
+      }
+    },
+    {
+      "id": "winter_park_tag_probe",
+      "kind": "capability_probe",
+      "area": "Winter Park",
+      "endpoint": "/v2/insights",
+      "params": {
+        "filter.type": "urn:tag",
+        "filter.parents.types": "urn:entity:place",
+        "signal.location.query": "Winter Park, Florida",
+        "take": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "eligible": [
+    {
+      "name": "City District",
+      "sha256": "1dec48d8d9db2e58cf4fd2d54589e4d2c190cfbb5a04b90e538ef9aa7d2dbea9"
+    },
+    {
+      "name": "Thornton Park District",
+      "sha256": "30000460067a4267d85ea510a366fcf32145c12c7d5cb3c0040c28d030776eed"
+    },
+    {
+      "name": "Gateway District",
+      "sha256": "34f0aa59c6202a6ae891eb9100a2eaa1e998466e2e13f82c25c202c745c4f12f"
+    },
+    {
+      "name": "Parramore District",
+      "sha256": "4dfbd599c64de08fde781dd55d21264713f6e62dfb04fe5789972acfb5cafc80"
+    },
+    {
+      "name": "The Milk District",
+      "sha256": "8071623f54140ebd578121d03932351a32dfa39c404210a39c45c7c67451ce1c"
+    },
+    {
+      "name": "West Lakes District",
+      "sha256": "86a234888a4f37d48fc2adfe0c1a7c2e3ae45934caa3c49b2aa0a2fb371a25af"
+    },
+    {
+      "name": "SoDo District",
+      "sha256": "90dbd2676695fb8b4c0454dae976f3e52fd7349b757a059ba105bbf718c1f7d2"
+    },
+    {
+      "name": "Ivanhoe Village",
+      "sha256": "ad38ba3fb7f55f67efc3d09037fbf3bf619082e59bb731dac874b2755d7de226"
+    },
+    {
+      "name": "Curry Ford West",
+      "sha256": "b73f59e55df21afa0f99c7443079edce78e96616616a3e574d1ada57737bbdd0"
+    }
+  ],
+  "selected": [
+    "City District",
+    "Thornton Park District"
+  ]
+}

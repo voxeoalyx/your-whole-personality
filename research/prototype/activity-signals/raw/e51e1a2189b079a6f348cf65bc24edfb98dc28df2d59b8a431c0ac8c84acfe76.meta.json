@@ -1,0 +1,10 @@
+{
+  "at": 1791471040.135466,
+  "request_hash": "e51e1a2189b079a6f348cf65bc24edfb98dc28df2d59b8a431c0ac8c84acfe76",
+  "route": "/v2/audiences",
+  "params": {
+    "filter.query": "fitness",
+    "take": "50"
+  },
+  "response_sha256": "45dd6d09f378ab17632635f362afbad9cca42934725baf0811363505d3c37913"
+}

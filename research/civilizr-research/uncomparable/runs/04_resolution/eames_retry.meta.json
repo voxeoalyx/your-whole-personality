@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-07T23:02:08.604041+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.422,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Eames",
+    "take": "50",
+    "types": "urn:entity:place"
+  },
+  "raw_file": "eames_retry.a1.json",
+  "request_sha256": "7fc6cf234ddb0b748fc773e69bcb2a2c7200190d9d903bdd358404e5ac994d78",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:02:10 GMT"
+  },
+  "response_sha256": "78ae909b2a18e0bf398c902b8c608ae4949016ac205858a1a7953077ec957080",
+  "spec": {
+    "endpoint": "/search",
+    "id": "eames_retry",
+    "kind": "discovery",
+    "params": {
+      "query": "Eames",
+      "take": 50,
+      "types": "urn:entity:place"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Eames&take=50&types=urn%3Aentity%3Aplace"
+}

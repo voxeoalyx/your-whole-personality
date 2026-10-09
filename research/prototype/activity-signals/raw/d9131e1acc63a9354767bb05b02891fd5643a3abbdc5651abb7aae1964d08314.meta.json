@@ -1,0 +1,13 @@
+{
+  "at": 1791471744.2601519,
+  "request_hash": "d9131e1acc63a9354767bb05b02891fd5643a3abbdc5651abb7aae1964d08314",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:genre:media:exercise",
+    "take": "20"
+  },
+  "response_sha256": "e053d86d4cbfd23629fb6d45a3c5967067921454d392d76c697d4ef72830339a"
+}

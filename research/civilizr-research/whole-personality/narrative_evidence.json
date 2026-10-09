@@ -1,0 +1,278 @@
+[
+  {
+    "id": "p01",
+    "interests": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Severance"
+    ],
+    "brands": [
+      "Vice",
+      "Whole Foods Market",
+      "The New York Times"
+    ],
+    "tv": [
+      "Black Mirror",
+      "Devs",
+      "Electric Dreams"
+    ],
+    "refs": {
+      "brand": "03_gate/p01_brand",
+      "tv_show": "03_gate/p01_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p02",
+    "interests": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "The Joe Rogan Experience"
+    ],
+    "brands": [
+      "Vice",
+      "Whole Foods Market",
+      "National Audubon Society"
+    ],
+    "tv": [
+      "Comedians in Cars Getting Coffee",
+      "Lady Dynamite",
+      "Adam Ruins Everything"
+    ],
+    "refs": {
+      "brand": "03_gate/p02_brand",
+      "tv_show": "03_gate/p02_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p03",
+    "interests": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Huberman Lab"
+    ],
+    "brands": [
+      "Vice",
+      "Whole Foods Market",
+      "National Audubon Society"
+    ],
+    "tv": [
+      "Comedians in Cars Getting Coffee",
+      "Adam Ruins Everything",
+      "UnREAL"
+    ],
+    "refs": {
+      "brand": "04_matrix/p03_brand",
+      "tv_show": "04_matrix/p03_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p04",
+    "interests": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Taylor Swift"
+    ],
+    "brands": [
+      "Kate Spade New York",
+      "Victoria's Secret",
+      "Chanel"
+    ],
+    "tv": [
+      "UnREAL",
+      "My Mister",
+      "High Maintenance"
+    ],
+    "refs": {
+      "brand": "04_matrix/p04_brand",
+      "tv_show": "04_matrix/p04_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p05",
+    "interests": [
+      "Taylor Swift",
+      "Starbucks",
+      "Friends"
+    ],
+    "brands": [
+      "Victoria's Secret",
+      "Calvin Klein",
+      "Forever 21"
+    ],
+    "tv": [
+      "UnREAL",
+      "My Mister",
+      "Forever"
+    ],
+    "refs": {
+      "brand": "04_matrix/p05_brand",
+      "tv_show": "04_matrix/p05_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p06",
+    "interests": [
+      "Taylor Swift",
+      "Starbucks",
+      "The Joe Rogan Experience"
+    ],
+    "brands": [
+      "Victoria's Secret",
+      "Vans",
+      "Instagram"
+    ],
+    "tv": [
+      "UnREAL",
+      "Search Party",
+      "Lady Dynamite"
+    ],
+    "refs": {
+      "brand": "04_matrix/p06_brand",
+      "tv_show": "04_matrix/p06_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p07",
+    "interests": [
+      "Metallica",
+      "Nike",
+      "Elden Ring"
+    ],
+    "brands": [
+      "Playstation",
+      "Air Jordan Product Line",
+      "Mercedes-benz"
+    ],
+    "tv": [
+      "Rake",
+      "Baskets",
+      "High Maintenance"
+    ],
+    "refs": {
+      "brand": "04_matrix/p07_brand",
+      "tv_show": "04_matrix/p07_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p08",
+    "interests": [
+      "Metallica",
+      "Nike",
+      "Animal Crossing: New Horizons"
+    ],
+    "brands": [
+      "Playstation",
+      "Youtube",
+      "Air Jordan Product Line"
+    ],
+    "tv": [
+      "Rake",
+      "Comedians in Cars Getting Coffee",
+      "Baskets"
+    ],
+    "refs": {
+      "brand": "04_matrix/p08_brand",
+      "tv_show": "04_matrix/p08_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p09",
+    "interests": [
+      "Patagonia",
+      "Lululemon",
+      "Blue Bottle Coffee"
+    ],
+    "brands": [
+      "Whole Foods Market",
+      "West Elm",
+      "Kate Spade New York"
+    ],
+    "tv": [
+      "Old Enough!",
+      "Adam Ruins Everything",
+      "UnREAL"
+    ],
+    "refs": {
+      "brand": "04_matrix/p09_brand",
+      "tv_show": "04_matrix/p09_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p10",
+    "interests": [
+      "Patagonia",
+      "Lululemon",
+      "Monster Energy"
+    ],
+    "brands": [
+      "Vans",
+      "Victoria's Secret",
+      "Alex and Ani"
+    ],
+    "tv": [
+      "Old Enough!",
+      "Adam Ruins Everything",
+      "Comedians in Cars Getting Coffee"
+    ],
+    "refs": {
+      "brand": "04_matrix/p10_brand",
+      "tv_show": "04_matrix/p10_tv_show"
+    },
+    "faithful_inputs": true
+  },
+  {
+    "id": "p11",
+    "interests": [
+      "Dune (Dune, #1)",
+      "Björk",
+      "Severance"
+    ],
+    "brands": [
+      "Gucci",
+      "Louis Vuitton",
+      "Christian Dior"
+    ],
+    "tv": [
+      "Devs",
+      "Humans",
+      "Silo"
+    ],
+    "refs": {
+      "brand": "04_matrix/p11_brand",
+      "tv_show": "04_matrix/p11_tv_show"
+    },
+    "faithful_inputs": false
+  },
+  {
+    "id": "p12",
+    "interests": [
+      "Dune (Dune, #1)",
+      "Björk",
+      "Friends"
+    ],
+    "brands": [
+      "Louis Vuitton",
+      "Gucci",
+      "Calvin Klein"
+    ],
+    "tv": [
+      "Black Mirror",
+      "Humans",
+      "Electric Dreams"
+    ],
+    "refs": {
+      "brand": "04_matrix/p12_brand",
+      "tv_show": "04_matrix/p12_tv_show"
+    },
+    "faithful_inputs": false
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "at": 1791470991.7487006,
+  "request_hash": "ed9cf380408d9aa7b5134e49131341dde73fcb5516298b22bbfd4465f6185f11",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:brand",
+    "signal.interests.tags": "urn:tag:genre:media:running",
+    "take": "20"
+  },
+  "response_sha256": "d1187ea0d0ee98d6747eccce4c914281510b4e81c0e2861a2a234628c3bfa54b"
+}

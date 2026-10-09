@@ -1,0 +1,434 @@
+[
+  {
+    "request_id": "farnsworth_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "gamble_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "douglass_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "douglass_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "49691E2A-00CB-42FF-AEF2-B075CF22DE9E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "wright_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "wright_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "EB3CDC0B-229D-4E3B-A9AD-A115ABF64BC0",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "ray_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "ray_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "usonian_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "usonian_fixed.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "international_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "international_fixed.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "craftsman_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "craftsman_fixed.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "sustainable_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "sustainable_fixed.a1.json",
+    "query": {},
+    "warnings": [
+      {
+        "type": "Could not calculate explainability"
+      }
+    ]
+  },
+  {
+    "request_id": "farnsworth_places_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "farnsworth_places_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "AF7BB7E1-568A-45A9-BA52-2C91021BC61E",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "eames_places_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "eames_places_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "gamble_places_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "gamble_places_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "C0754A81-4B4D-446D-A5C1-03D41C3AF7A8",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "ray_places_fixed",
+    "area": "",
+    "dimension": "",
+    "kind": "fixed_profile",
+    "raw_file": "ray_places_fixed.a1.json",
+    "query": {
+      "explainability": {
+        "signal.interests.entities": {
+          "effect_on_top3_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top5_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_top10_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ],
+          "effect_on_all_recs": [
+            {
+              "entity_id": "D2A5920F-8159-4DB3-B0E1-A366DA6B13B5",
+              "avg_score": 1
+            }
+          ]
+        }
+      }
+    },
+    "warnings": null
+  }
+]

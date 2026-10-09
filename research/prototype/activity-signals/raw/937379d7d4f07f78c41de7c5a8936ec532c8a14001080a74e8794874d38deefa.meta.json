@@ -1,0 +1,13 @@
+{
+  "at": 1791470900.1461043,
+  "request_hash": "937379d7d4f07f78c41de7c5a8936ec532c8a14001080a74e8794874d38deefa",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "20"
+  },
+  "response_sha256": "df161960879b9ff8a25a3cc012ea2ca1fe6a5b9893afd5d8ef9206bf1c57430f"
+}

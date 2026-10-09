@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:50.712491+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.313,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Patagonia",
+    "take": "5",
+    "types": "urn:entity:brand"
+  },
+  "raw_file": "patagonia.a1.json",
+  "request_sha256": "881fbda92f1cba6aad129dfc2cc0fe8143e975bf4db30141d69f3fb062863cfa",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:51 GMT"
+  },
+  "response_sha256": "4cab6f54c79c3f32120eccd56e297726f9fb6effe8a3c445d297d619a5d2fec8",
+  "spec": {
+    "endpoint": "/search",
+    "id": "patagonia",
+    "kind": "discovery",
+    "params": {
+      "query": "Patagonia",
+      "take": 5,
+      "types": "urn:entity:brand"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Patagonia&take=5&types=urn%3Aentity%3Abrand"
+}

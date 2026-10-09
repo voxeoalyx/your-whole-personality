@@ -1,0 +1,1 @@
+{"errors":[{"message":"output.heatmap.boundary must be \"urn:geohash\" or \"urn:entity:locality\"","path":"output.heatmap.boundary"}]}

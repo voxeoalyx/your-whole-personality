@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-07T23:06:03.539399+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.results.entities": "36DBE6E7-2DCC-46F8-8358-3FAA0EBFC502,476D8BBC-2E0E-4E3A-9825-A5670050A9EE,50B73768-435F-4DB0-B4A0-EA3FDFEDAF97,801EADAD-C33C-44DE-8499-21D6E1CD4C79,8CD37106-3602-404C-BAD5-E989B7F6CA8A,B82C8539-99CD-4CF0-B59D-AE46B5A23ADB,C94B30D2-07E5-47C9-9CEC-EE871D1EEC69,E187CCD1-CFE4-41CF-803E-60A8C265BECB",
+    "filter.type": "urn:entity:place",
+    "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+    "take": "8"
+  },
+  "raw_file": "eames_places_half.a1.json",
+  "request_sha256": "b9e01e5c99b16c8fe10c2783f6030765ec9bb66eabe974d81d519321a1a7a01f",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:06:05 GMT"
+  },
+  "response_sha256": "8089c66ba8201048d106d3c3654cd4bd93672e9434690df33c21a09abb333ad5",
+  "spec": {
+    "domain": "place",
+    "endpoint": "/v2/insights",
+    "id": "eames_places_half",
+    "input": "eames",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.results.entities": [
+        "36DBE6E7-2DCC-46F8-8358-3FAA0EBFC502",
+        "476D8BBC-2E0E-4E3A-9825-A5670050A9EE",
+        "50B73768-435F-4DB0-B4A0-EA3FDFEDAF97",
+        "801EADAD-C33C-44DE-8499-21D6E1CD4C79",
+        "8CD37106-3602-404C-BAD5-E989B7F6CA8A",
+        "B82C8539-99CD-4CF0-B59D-AE46B5A23ADB",
+        "C94B30D2-07E5-47C9-9CEC-EE871D1EEC69",
+        "E187CCD1-CFE4-41CF-803E-60A8C265BECB"
+      ],
+      "filter.type": "urn:entity:place",
+      "signal.interests.entities": "844F3E47-3370-4BAF-B69C-CBD98C5CA228",
+      "take": 8
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.results.entities=36DBE6E7-2DCC-46F8-8358-3FAA0EBFC502%2C476D8BBC-2E0E-4E3A-9825-A5670050A9EE%2C50B73768-435F-4DB0-B4A0-EA3FDFEDAF97%2C801EADAD-C33C-44DE-8499-21D6E1CD4C79%2C8CD37106-3602-404C-BAD5-E989B7F6CA8A%2CB82C8539-99CD-4CF0-B59D-AE46B5A23ADB%2CC94B30D2-07E5-47C9-9CEC-EE871D1EEC69%2CE187CCD1-CFE4-41CF-803E-60A8C265BECB&filter.type=urn%3Aentity%3Aplace&signal.interests.entities=844F3E47-3370-4BAF-B69C-CBD98C5CA228&take=8"
+}

@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T18:39:51.180433+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.313,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:entity:place",
+    "filter.type": "urn:tag",
+    "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+    "take": "20"
+  },
+  "raw_file": "pine_hills_place_tags.a1.json",
+  "request_sha256": "9fa8e47843afbf22f2b21eb956e8560d32c6bfeaa697711736d295713d50248f",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:39:53 GMT"
+  },
+  "response_sha256": "ef54c84e8ab3060493786c4c1c84124c545c95eb0a942763c9c82c36520d747b",
+  "spec": {
+    "area": "Pine Hills",
+    "dimension": "place_tags",
+    "endpoint": "/v2/insights",
+    "geography_verified": true,
+    "id": "pine_hills_place_tags",
+    "kind": "profile",
+    "params": {
+      "filter.parents.types": "urn:entity:place",
+      "filter.type": "urn:tag",
+      "signal.location": "37EB6689-42DA-48A6-8E2E-5767CC5A6E2A",
+      "take": 20
+    },
+    "role": "control"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?filter.parents.types=urn%3Aentity%3Aplace&filter.type=urn%3Atag&signal.location=37EB6689-42DA-48A6-8E2E-5767CC5A6E2A&take=20"
+}

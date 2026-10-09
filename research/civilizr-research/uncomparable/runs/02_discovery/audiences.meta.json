@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:01:16.888117+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.281,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.parents.types": "urn:audience:hobbies_and_interests",
+    "take": "50"
+  },
+  "raw_file": "audiences.a1.json",
+  "request_sha256": "749a155af9c9d725438d1d1f2cbf0a829900f778eb1fd753bf97f04023f5c500",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:18 GMT"
+  },
+  "response_sha256": "6f597da5374f08e48457e0f35acfc96f91b05e1afa91a31f4cf4d32275c9284b",
+  "spec": {
+    "endpoint": "/v2/audiences",
+    "id": "audiences",
+    "kind": "discovery",
+    "params": {
+      "filter.parents.types": "urn:audience:hobbies_and_interests",
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/audiences?filter.parents.types=urn%3Aaudience%3Ahobbies_and_interests&take=50"
+}

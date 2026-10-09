@@ -1,0 +1,11 @@
+[
+  {
+    "request_id": "city_district_lookup",
+    "area": "",
+    "dimension": "",
+    "kind": "discovery",
+    "raw_file": "city_district_lookup.a1.json",
+    "query": {},
+    "warnings": null
+  }
+]

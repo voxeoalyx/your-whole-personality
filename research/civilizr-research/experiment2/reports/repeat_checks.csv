@@ -1,0 +1,6 @@
+﻿area,domain,valid_complete_comparison,rho,exact_numeric_equal
+winter_park,brands,True,1.0,True
+winter_park,brands_independent,True,1.0,True
+winter_park,brands_pooled,True,1.0,True
+winter_park,food,True,1.0,True
+pine_hills,food,True,1.0,True

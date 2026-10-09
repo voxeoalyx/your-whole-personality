@@ -1,0 +1,194 @@
+[
+  {
+    "request_id": "atl_west_end_base_brands",
+    "area": "atl_west_end",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "atl_west_end_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 35599627
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_west_end_base_tags",
+    "area": "atl_west_end",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "atl_west_end_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 35599627
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_west_end_east200_brands",
+    "area": "atl_west_end",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "atl_west_end_east200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 35599627
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_west_end_east200_tags",
+    "area": "atl_west_end",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "atl_west_end_east200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 35599627
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_midtown_base_brands",
+    "area": "atl_midtown",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "atl_midtown_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 304865919
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_midtown_base_tags",
+    "area": "atl_midtown",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "atl_midtown_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 304865919
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_midtown_east200_brands",
+    "area": "atl_midtown",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "atl_midtown_east200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 304865919
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_midtown_east200_tags",
+    "area": "atl_midtown",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "atl_midtown_east200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 304865919
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_inman_park_base_brands",
+    "area": "atl_inman_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "atl_inman_park_base_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 182390290
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_inman_park_base_tags",
+    "area": "atl_inman_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "atl_inman_park_base_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 182390290
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_inman_park_east200_brands",
+    "area": "atl_inman_park",
+    "dimension": "brands",
+    "kind": "fixed_profile",
+    "raw_file": "atl_inman_park_east200_brands.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 182390290
+        }
+      }
+    },
+    "warnings": null
+  },
+  {
+    "request_id": "atl_inman_park_east200_tags",
+    "area": "atl_inman_park",
+    "dimension": "tags",
+    "kind": "fixed_profile",
+    "raw_file": "atl_inman_park_east200_tags.a1.json",
+    "query": {
+      "geospatial": {
+        "panel_size": {
+          "context": 72776032816,
+          "target": 182390290
+        }
+      }
+    },
+    "warnings": null
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-08T11:04:47.228224+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.312,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Friends",
+    "take": "5",
+    "types": "urn:entity:tv_show"
+  },
+  "raw_file": "friends.a1.json",
+  "request_sha256": "d50b3c0431647e800d94a3de73bfebd1488037d8e36622a8a0c1c943a2f72bf8",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:04:47 GMT"
+  },
+  "response_sha256": "8e88af82adc625be77803a89c2cab8566122c3c627feb65b47a94a406a8e8c63",
+  "spec": {
+    "endpoint": "/search",
+    "id": "friends",
+    "kind": "discovery",
+    "params": {
+      "query": "Friends",
+      "take": 5,
+      "types": "urn:entity:tv_show"
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Friends&take=5&types=urn%3Aentity%3Atv_show"
+}

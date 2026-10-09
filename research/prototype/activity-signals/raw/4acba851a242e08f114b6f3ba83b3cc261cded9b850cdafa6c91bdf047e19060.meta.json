@@ -1,0 +1,13 @@
+{
+  "at": 1791471126.3129065,
+  "request_hash": "4acba851a242e08f114b6f3ba83b3cc261cded9b850cdafa6c91bdf047e19060",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:running",
+    "take": "20"
+  },
+  "response_sha256": "9f774709fa0f1d2a9f57cfc875b87c5f58bbb989b65b198470fbdd53466ceda8"
+}

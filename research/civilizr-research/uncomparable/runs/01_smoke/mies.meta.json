@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:00:35.878794+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.687,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "query": "Ludwig Mies van der Rohe",
+    "take": "5"
+  },
+  "raw_file": "mies.a1.json",
+  "request_sha256": "418d97238fd4a991c7b76278ee069df8a6ec98c2a2c86c5915fd6cca8b1116b1",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:00:37 GMT"
+  },
+  "response_sha256": "9310171b99b0e6a8ab13831295824926a7675d55d02d706ba1b5ce4ab2632c99",
+  "spec": {
+    "endpoint": "/search",
+    "id": "mies",
+    "kind": "discovery",
+    "params": {
+      "query": "Ludwig Mies van der Rohe",
+      "take": 5
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?query=Ludwig+Mies+van+der+Rohe&take=5"
+}

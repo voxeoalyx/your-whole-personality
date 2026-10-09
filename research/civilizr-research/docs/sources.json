@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/parameters.md",
+    "path": "snapshots/reference/parameters.md",
+    "sha256": "65cc6c442906977eda4147046f63dd731b1302c9480cfe726b39b9eb16814630",
+    "retrieved_at": "2026-10-07T18:27:11.352Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/available-parameters-by-entity-type.md",
+    "path": "snapshots/reference/available-parameters-by-entity-type.md",
+    "sha256": "7b79a86589800cb9911e209920ff35c40a2cd5500f329c4c0ee308879cddde80",
+    "retrieved_at": "2026-10-07T18:27:11.375Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/analysis-compare.md",
+    "path": "snapshots/reference/analysis-compare.md",
+    "sha256": "ccef5a0c090bd87c420042624766174bc6cb14c7a825cb5ee49a56c1a379e6e5",
+    "retrieved_at": "2026-10-07T18:27:11.375Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-trending.md",
+    "path": "snapshots/reference/get-trending.md",
+    "sha256": "60eef9e924fd71c776a3d6713d02a2ecd83d117a977236a5de4dfb59de8eacb0",
+    "retrieved_at": "2026-10-07T18:27:11.375Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/insights-with-location.md",
+    "path": "snapshots/docs/insights-with-location.md",
+    "sha256": "28759133d5ed86746ad250822131bcfc342d735616195dc037a2794773744681",
+    "retrieved_at": "2026-10-07T18:27:11.375Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/heatmaps.md",
+    "path": "snapshots/docs/heatmaps.md",
+    "sha256": "e229af01668f587456b98ecd075627e53d524f96c0e1780081bedd954c69107d",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/insights-api-deep-dive.md",
+    "path": "snapshots/reference/insights-api-deep-dive.md",
+    "sha256": "b22f2daae260f89fa0c32440d2ddb7557b39902ec3ede99b1678d18874dee541",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/taste-analysis.md",
+    "path": "snapshots/reference/taste-analysis.md",
+    "sha256": "d097d68fbd688dc206f96e367037674ec48bb500632e2fbe55e8502b9446a39c",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/heatmaps-use-case.md",
+    "path": "snapshots/reference/heatmaps-use-case.md",
+    "sha256": "1b63834e6e3589f236198ed90d4198f686fd14db5672d1c180d15af031896970",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-search.md",
+    "path": "snapshots/reference/get-search.md",
+    "sha256": "5cb8f0e7132603c4433920d5cc5518f42fd9a2e4615f291d661222a63a4e1549",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-tags.md",
+    "path": "snapshots/reference/get-tags.md",
+    "sha256": "698a9b40794a5da6136be8e9e2b86d20b02b3df9606ca60f66296c032b086d41",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-tag-types.md",
+    "path": "snapshots/reference/get-tag-types.md",
+    "sha256": "fffaf5b0cf68d11daa299255f5ec640712237bf20ddcaf9ec0775b51a11f9651",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-trends-category.md",
+    "path": "snapshots/reference/get-trends-category.md",
+    "sha256": "fe4687b1f73164d680c81a56dda81efb5f16adda928771ba7c9ff2ecde59049b",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/get-trends-entity.md",
+    "path": "snapshots/reference/get-trends-entity.md",
+    "sha256": "bb58420b368b1304c209e95843d1f9981b552452f176e124e25cba52c81e46d2",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/docs/interpreting-affinity-scores.md",
+    "path": "snapshots/docs/interpreting-affinity-scores.md",
+    "sha256": "53e98cf530f8155469054c6159ea44a8d72384a479cad0e8d4290635feb9fd6f",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qloo/docs-public/main/reference/api-onboarding.md",
+    "path": "snapshots/reference/api-onboarding.md",
+    "sha256": "f23255c8d4d1e0895cda5e3ef36b0c4c4814e39338d5dfff9b69fc1d63f984c7",
+    "retrieved_at": "2026-10-07T18:27:11.376Z"
+  }
+]

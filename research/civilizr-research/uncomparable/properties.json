@@ -1,0 +1,123 @@
+[
+  {
+    "id": "jacobs",
+    "name": "Herbert and Katherine Jacobs House (Jacobs I)",
+    "location": "Madison, Wisconsin",
+    "date": "1936–1937 (source discrepancy)",
+    "tradition": "Usonian",
+    "authorship": "Frank Lloyd Wright",
+    "facts": "Early affordable Usonian home, with open living/dining/kitchen and wood, stone, brick and glass.",
+    "uncertainty": "Foundation gives 1936; Library of Congress says constructed 1937. No verified floor area, room count or present condition in this dataset.",
+    "sources": [
+      "https://franklloydwright.org/site/herbert-jacobs-house/",
+      "https://www.loc.gov/item/2016631046/"
+    ],
+    "verified_at": "2026-10-07",
+    "source_scope": "Primary-source facts; not listing or transaction data",
+    "size_sqft": null,
+    "bedrooms": null
+  },
+  {
+    "id": "fallingwater",
+    "name": "Fallingwater",
+    "location": "Bear Run / Mill Run, Pennsylvania",
+    "date": "Designed 1935; main house in use 1937; guest house 1939",
+    "tradition": "Organic architecture",
+    "authorship": "Frank Lloyd Wright",
+    "facts": "Kaufmann family retreat; concrete cantilevers, local sandstone and glass integrate the house with a stream and waterfall.",
+    "uncertainty": "Foundation labels Built 1935; operator distinguishes design and phased construction. No current structural-condition claim.",
+    "sources": [
+      "https://franklloydwright.org/site/fallingwater/",
+      "https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/"
+    ],
+    "verified_at": "2026-10-07",
+    "source_scope": "Primary-source facts; not listing or transaction data",
+    "size_sqft": null,
+    "bedrooms": null
+  },
+  {
+    "id": "farnsworth",
+    "name": "Edith Farnsworth House",
+    "location": "Plano, Illinois",
+    "date": "Completed 1951",
+    "tradition": "International Style modernism (research classification)",
+    "authorship": "Ludwig Mies van der Rohe",
+    "facts": "Country retreat commissioned by Edith Farnsworth; elevated steel and glass enclosure beside the Fox River. National Trust site.",
+    "uncertainty": "No size/bedroom or current-condition claim. The source describes modernism; International Style is our analytical grouping.",
+    "sources": [
+      "https://edithfarnsworthhouse.org/history/"
+    ],
+    "verified_at": "2026-10-07",
+    "source_scope": "Primary-source facts; not listing or transaction data",
+    "size_sqft": null,
+    "bedrooms": null
+  },
+  {
+    "id": "eames",
+    "name": "Eames House / Case Study House No. 8",
+    "location": "Pacific Palisades, California",
+    "date": "Completed 1949",
+    "tradition": "California mid-century modernism",
+    "authorship": "Charles and Ray Eames",
+    "facts": "Home and studio; revised scheme uses industrial components while preserving the meadow. Interior collections remain central to the house interpretation.",
+    "uncertainty": "1945 initial Bridge House scheme involved Charles Eames and Eero Saarinen; final 1948 redesign was Charles and Ray. No present physical-condition claim.",
+    "sources": [
+      "https://eamesfoundation.org/work/case-study-house-8/"
+    ],
+    "verified_at": "2026-10-07",
+    "source_scope": "Primary-source facts; not listing or transaction data",
+    "size_sqft": null,
+    "bedrooms": null
+  },
+  {
+    "id": "gamble",
+    "name": "Gamble House",
+    "location": "Pasadena, California",
+    "date": "1908",
+    "tradition": "American Arts and Crafts",
+    "authorship": "Charles and Henry Greene",
+    "facts": "Designed for David and Mary Gamble; original integrated architecture, furnishings, wood craftsmanship and art glass; National Historic Landmark.",
+    "uncertainty": "No quantified condition or scarcity estimate. Source describes completeness; this is not an independent preservation survey.",
+    "sources": [
+      "https://gamblehouse.org/"
+    ],
+    "verified_at": "2026-10-07",
+    "source_scope": "Primary-source facts; not listing or transaction data",
+    "size_sqft": null,
+    "bedrooms": null
+  },
+  {
+    "id": "douglass",
+    "name": "Cedar Hill / Frederick Douglass National Historic Site",
+    "location": "Anacostia, Washington, DC",
+    "date": "Built 1855–1859; Douglass purchase 1877; move 1878",
+    "tradition": "19th-century historical house",
+    "authorship": null,
+    "facts": "Built for John Welsh Van Hook. Douglass expanded the house to 21 rooms; the site interprets his life and work.",
+    "uncertainty": "Van Hook was an architect, but this source does not explicitly establish design attribution. Do not label a precise Victorian style without verification.",
+    "sources": [
+      "https://www.nps.gov/frdo/learn/historyculture/places.htm"
+    ],
+    "verified_at": "2026-10-07",
+    "source_scope": "Primary-source facts; not listing or transaction data",
+    "size_sqft": null,
+    "bedrooms": null
+  },
+  {
+    "id": "mckinley",
+    "name": "McKinley Project",
+    "location": "Garland, Texas",
+    "date": "Completed January 2015",
+    "tradition": "Contemporary suburban control (qualified)",
+    "authorship": null,
+    "facts": "Carl Franklin Homes / Green Extreme Homes CDC: 1,594 square feet, two floors, three bedrooms, 2.5 baths; DOE Zero Energy Ready Home case study.",
+    "uncertainty": "Builder is not assumed to be architect. Award-winning energy performance makes this an imperfect ordinary-home control. No canonical architectural authorship established, not proof none exists.",
+    "sources": [
+      "https://www7.eere.energy.gov/buildings/residential/exploredenh/sites/default/files/2024-06/2015hiawinner_carlfranklin_100515.pdf"
+    ],
+    "verified_at": "2026-10-07",
+    "source_scope": "Primary-source facts; not listing or transaction data",
+    "size_sqft": 1594,
+    "bedrooms": 3
+  }
+]

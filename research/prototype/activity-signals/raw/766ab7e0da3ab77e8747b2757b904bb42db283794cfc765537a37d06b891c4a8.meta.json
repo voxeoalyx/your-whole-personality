@@ -1,0 +1,14 @@
+{
+  "at": 1791471345.3855953,
+  "request_hash": "766ab7e0da3ab77e8747b2757b904bb42db283794cfc765537a37d06b891c4a8",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:movie",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:running",
+    "signal.interests.entities": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "take": "20"
+  },
+  "response_sha256": "4fc01f7457306101f0aef64aa0cdad81ef27f0e0a9e2e69344150e29b5bdf0b4"
+}

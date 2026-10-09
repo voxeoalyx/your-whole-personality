@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:01:12.501807+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.375,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.query": "International Style",
+    "take": "50"
+  },
+  "raw_file": "international.a1.json",
+  "request_sha256": "ffc7b04195b79c3a7505345d8aa4e24f3ef2b515464eb2016147e5c8703093cb",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:14 GMT"
+  },
+  "response_sha256": "9622438c0bbc0385dc7f6fe674d92ce34422eb6a9eb7408854c37a8e6cbc6c81",
+  "spec": {
+    "endpoint": "/v2/tags",
+    "id": "international",
+    "kind": "discovery",
+    "params": {
+      "filter.query": "International Style",
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.query=International+Style&take=50"
+}

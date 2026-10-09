@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-07T19:39:31.562186+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.203,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.parents.types": "urn:entity:place",
+    "filter.results.tags": "urn:tag:genre:place:art_center,urn:tag:genre:place:art_gallery,urn:tag:genre:place:boxing_gym,urn:tag:genre:place:childrens_museum,urn:tag:genre:place:coffee_roasters,urn:tag:genre:place:fitness_center,urn:tag:genre:place:history_museum,urn:tag:genre:place:live_music_venue,urn:tag:genre:place:martial_arts_school,urn:tag:genre:place:massage_spa,urn:tag:genre:place:museum,urn:tag:genre:place:performing_arts_theater,urn:tag:genre:place:physical_fitness_program,urn:tag:genre:place:restaurant:asian_fusion,urn:tag:genre:place:restaurant:bakery,urn:tag:genre:place:restaurant:barbecue,urn:tag:genre:place:restaurant:coffee_shop,urn:tag:genre:place:restaurant:fine_dining,urn:tag:genre:place:restaurant:hamburger,urn:tag:genre:place:restaurant:italian,urn:tag:genre:place:restaurant:japanese,urn:tag:genre:place:restaurant:mexican,urn:tag:genre:place:restaurant:vegan,urn:tag:genre:place:restaurant:vegetarian,urn:tag:genre:place:science_museum,urn:tag:genre:place:spa,urn:tag:genre:place:swimming_pool,urn:tag:genre:place:yoga_studio",
+    "filter.type": "urn:tag",
+    "signal.location": "POLYGON((-81.39007931 28.58442567,-81.39200053 28.58391386,-81.3937711 28.58308274,-81.39532296 28.58196425,-81.39659649 28.58060137,-81.39754273 28.57904651,-81.39812534 28.5773594,-81.39832194 28.5756049,-81.398125 28.57385043,-81.39754211 28.57216341,-81.39659568 28.57060866,-81.39532209 28.56924594,-81.39377029 28.56812759,-81.39199991 28.56729659,-81.39007898 28.56678487,-81.38808129 28.56661208,-81.38608361 28.56678487,-81.38416267 28.56729659,-81.3823923 28.56812759,-81.3808405 28.56924594,-81.37956691 28.57060866,-81.37862047 28.57216341,-81.37803758 28.57385043,-81.37784064 28.5756049,-81.37803724 28.5773594,-81.37861985 28.57904651,-81.3795661 28.58060137,-81.38083962 28.58196425,-81.38239149 28.58308274,-81.38416205 28.58391386,-81.38608327 28.58442567,-81.38808129 28.58459849,-81.39007931 28.58442567))",
+    "take": "28"
+  },
+  "raw_file": "college_park_east200_tags.a1.json",
+  "request_sha256": "1171118d1f2315264438f1c61d3c2213f446974ce1bd2d3d37d7143ec01da36f",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 19:39:33 GMT"
+  },
+  "response_sha256": "35fc3d6c70a22ac9bf352cb7562374cc7a43987f1839ef7334e5854648556db9",
+  "spec": {
+    "area": "college_park",
+    "city": "Orlando",
+    "dimension": "tags",
+    "endpoint": "/v2/insights",
+    "id": "college_park_east200_tags",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.parents.types": "urn:entity:place",
+      "filter.results.tags": [
+        "urn:tag:genre:place:art_center",
+        "urn:tag:genre:place:art_gallery",
+        "urn:tag:genre:place:boxing_gym",
+        "urn:tag:genre:place:childrens_museum",
+        "urn:tag:genre:place:coffee_roasters",
+        "urn:tag:genre:place:fitness_center",
+        "urn:tag:genre:place:history_museum",
+        "urn:tag:genre:place:live_music_venue",
+        "urn:tag:genre:place:martial_arts_school",
+        "urn:tag:genre:place:massage_spa",
+        "urn:tag:genre:place:museum",
+        "urn:tag:genre:place:performing_arts_theater",
+        "urn:tag:genre:place:physical_fitness_program",
+        "urn:tag:genre:place:restaurant:asian_fusion",
+        "urn:tag:genre:place:restaurant:bakery",
+        "urn:tag:genre:place:restaurant:barbecue",
+        "urn:tag:genre:place:restaurant:coffee_shop",
+        "urn:tag:genre:place:restaurant:fine_dining",
+        "urn:tag:genre:place:restaurant:hamburger",
+        "urn:tag:genre:place:restaurant:italian",
+        "urn:tag:genre:place:restaurant:japanese",
+        "urn:tag:genre:place:restaurant:mexican",
+        "urn:tag:genre:place:restaurant:vegan",
+        "urn:tag:genre:place:restaurant:vegetarian",
+        "urn:tag:genre:place:science_museum",
+        "urn:tag:genre:place:spa",
+        "urn:tag:genre:place:swimming_pool",
+        "urn:tag:genre:place:yoga_studio"
+      ],
+      "filter.type": "urn:tag",
+      "signal.location": "POLYGON((-81.39007931 28.58442567,-81.39200053 28.58391386,-81.3937711 28.58308274,-81.39532296 28.58196425,-81.39659649 28.58060137,-81.39754273 28.57904651,-81.39812534 28.5773594,-81.39832194 28.5756049,-81.398125 28.57385043,-81.39754211 28.57216341,-81.39659568 28.57060866,-81.39532209 28.56924594,-81.39377029 28.56812759,-81.39199991 28.56729659,-81.39007898 28.56678487,-81.38808129 28.56661208,-81.38608361 28.56678487,-81.38416267 28.56729659,-81.3823923 28.56812759,-81.3808405 28.56924594,-81.37956691 28.57060866,-81.37862047 28.57216341,-81.37803758 28.57385043,-81.37784064 28.5756049,-81.37803724 28.5773594,-81.37861985 28.57904651,-81.3795661 28.58060137,-81.38083962 28.58196425,-81.38239149 28.58308274,-81.38416205 28.58391386,-81.38608327 28.58442567,-81.38808129 28.58459849,-81.39007931 28.58442567))",
+      "take": 28
+    },
+    "subset": false,
+    "variant": "east200"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.parents.types=urn%3Aentity%3Aplace&filter.results.tags=urn%3Atag%3Agenre%3Aplace%3Aart_center%2Curn%3Atag%3Agenre%3Aplace%3Aart_gallery%2Curn%3Atag%3Agenre%3Aplace%3Aboxing_gym%2Curn%3Atag%3Agenre%3Aplace%3Achildrens_museum%2Curn%3Atag%3Agenre%3Aplace%3Acoffee_roasters%2Curn%3Atag%3Agenre%3Aplace%3Afitness_center%2Curn%3Atag%3Agenre%3Aplace%3Ahistory_museum%2Curn%3Atag%3Agenre%3Aplace%3Alive_music_venue%2Curn%3Atag%3Agenre%3Aplace%3Amartial_arts_school%2Curn%3Atag%3Agenre%3Aplace%3Amassage_spa%2Curn%3Atag%3Agenre%3Aplace%3Amuseum%2Curn%3Atag%3Agenre%3Aplace%3Aperforming_arts_theater%2Curn%3Atag%3Agenre%3Aplace%3Aphysical_fitness_program%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Aasian_fusion%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Abakery%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Abarbecue%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Acoffee_shop%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Afine_dining%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Ahamburger%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Aitalian%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Ajapanese%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Amexican%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Avegan%2Curn%3Atag%3Agenre%3Aplace%3Arestaurant%3Avegetarian%2Curn%3Atag%3Agenre%3Aplace%3Ascience_museum%2Curn%3Atag%3Agenre%3Aplace%3Aspa%2Curn%3Atag%3Agenre%3Aplace%3Aswimming_pool%2Curn%3Atag%3Agenre%3Aplace%3Ayoga_studio&filter.type=urn%3Atag&signal.location=POLYGON%28%28-81.39007931+28.58442567%2C-81.39200053+28.58391386%2C-81.3937711+28.58308274%2C-81.39532296+28.58196425%2C-81.39659649+28.58060137%2C-81.39754273+28.57904651%2C-81.39812534+28.5773594%2C-81.39832194+28.5756049%2C-81.398125+28.57385043%2C-81.39754211+28.57216341%2C-81.39659568+28.57060866%2C-81.39532209+28.56924594%2C-81.39377029+28.56812759%2C-81.39199991+28.56729659%2C-81.39007898+28.56678487%2C-81.38808129+28.56661208%2C-81.38608361+28.56678487%2C-81.38416267+28.56729659%2C-81.3823923+28.56812759%2C-81.3808405+28.56924594%2C-81.37956691+28.57060866%2C-81.37862047+28.57216341%2C-81.37803758+28.57385043%2C-81.37784064+28.5756049%2C-81.37803724+28.5773594%2C-81.37861985+28.57904651%2C-81.3795661+28.58060137%2C-81.38083962+28.58196425%2C-81.38239149+28.58308274%2C-81.38416205+28.58391386%2C-81.38608327+28.58442567%2C-81.38808129+28.58459849%2C-81.39007931+28.58442567%29%29&take=28"
+}

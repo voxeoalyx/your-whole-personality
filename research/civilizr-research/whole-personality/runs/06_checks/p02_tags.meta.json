@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-08T11:16:15.250432+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.859,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:tag",
+    "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C,22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D,2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+    "take": "20"
+  },
+  "raw_file": "p02_tags.a1.json",
+  "request_sha256": "122d119515ecd7795b595625e6ff5606defe999448dda39ddd4b61793fd7b499",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Thu, 08 Oct 2026 11:16:16 GMT"
+  },
+  "response_sha256": "f7bbaafbe112ab76fda5e47c672e9f85e8aa3c85be961873d70bda437f716542",
+  "spec": {
+    "domain": "tags",
+    "endpoint": "/v2/insights",
+    "id": "p02_tags",
+    "kind": "fixed_profile",
+    "params": {
+      "bias.trends": "off",
+      "feature.explainability": true,
+      "filter.type": "urn:tag",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "2BBC8913-13CA-47A3-BCD0-B48E70D6B005"
+      ],
+      "take": 20
+    },
+    "seed_keys": [
+      "radiohead",
+      "blue_bottle",
+      "rogan"
+    ]
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&feature.explainability=true&filter.type=urn%3Atag&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2C22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D%2C2BBC8913-13CA-47A3-BCD0-B48E70D6B005&take=20"
+}

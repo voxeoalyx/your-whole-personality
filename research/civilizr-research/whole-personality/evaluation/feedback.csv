@@ -1,0 +1,13 @@
+﻿evaluator_id,case,option,input_familiarity,relevance_1_5,useful_specificity_1_5,novelty_1_5,entertainment_1_5,willingness_to_share_1_5,unsupported_claims,counterintuitive_suggestions,preferred_option_A_B_equal_neither,reason_or_personal_reactions
+,case_01,A,,,,,,,,,,
+,case_01,B,,,,,,,,,,
+,case_02,A,,,,,,,,,,
+,case_02,B,,,,,,,,,,
+,case_03,A,,,,,,,,,,
+,case_03,B,,,,,,,,,,
+,case_04,A,,,,,,,,,,
+,case_04,B,,,,,,,,,,
+,case_05,A,,,,,,,,,,
+,case_05,B,,,,,,,,,,
+,case_06,A,,,,,,,,,,
+,case_06,B,,,,,,,,,,

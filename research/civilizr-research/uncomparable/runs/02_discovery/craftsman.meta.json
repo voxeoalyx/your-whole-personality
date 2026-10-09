@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:01:13.976719+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.422,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.query": "Craftsman",
+    "take": "50"
+  },
+  "raw_file": "craftsman.a1.json",
+  "request_sha256": "267662c9b02f24d9bba20dd9fc7519a9ba8c6a643232d380dc3d1b3dbb3688fd",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:15 GMT"
+  },
+  "response_sha256": "5aad23fc7323a2cdae09e0c5def736d1ae7539a01e60ed249f5eaab7ae37c89f",
+  "spec": {
+    "endpoint": "/v2/tags",
+    "id": "craftsman",
+    "kind": "discovery",
+    "params": {
+      "filter.query": "Craftsman",
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.query=Craftsman&take=50"
+}

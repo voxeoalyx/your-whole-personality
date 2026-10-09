@@ -1,0 +1,579 @@
+﻿dimension,signature,k,a,b,area_a,area_b,jaccard,rank_cosine,ties_present
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r4_winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r4_pine_hills_place_tags,Winter Park,Pine Hills,0.1111111111111111,0.33696805767734966,True
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r4_college_park_place_tags,Winter Park,College Park,0.5384615384615384,0.9084639813770969,False
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r4_orlando_place_tags,Winter Park,Orlando,0.1111111111111111,0.362957615317358,True
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r4_winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r6_audubon_park_place_tags,Winter Park,Audubon Park,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r6_baldwin_park_place_tags,Winter Park,Baldwin Park,0.42857142857142855,0.7680362378443847,True
+place_tags,7628c2261d98,10,r4_winter_park_place_tags,r6_azalea_park_place_tags,Winter Park,Azalea Park,0.05263157894736842,0.6452579827864142,False
+brands,e75b97502d49,10,r4_winter_park_brands,r4_winter_park_brands,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,r4_winter_park_brands,r4_pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,r4_winter_park_brands,r4_college_park_brands,Winter Park,College Park,0.6666666666666666,0.9236992393039983,False
+brands,e75b97502d49,10,r4_winter_park_brands,r4_orlando_brands,Winter Park,Orlando,0.25,0.5073724971790793,False
+brands,e75b97502d49,10,r4_winter_park_brands,r4_winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,r4_winter_park_brands,r6_audubon_park_brands,Winter Park,Audubon Park,0.5384615384615384,0.9661787231707707,False
+brands,e75b97502d49,10,r4_winter_park_brands,r6_baldwin_park_brands,Winter Park,Baldwin Park,0.8181818181818182,0.9319880975182502,False
+brands,e75b97502d49,10,r4_winter_park_brands,r6_azalea_park_brands,Winter Park,Azalea Park,0.42857142857142855,0.8526623343963331,False
+destinations,1266f6ddde61,10,r4_winter_park_destinations,r4_winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r4_winter_park_destinations,r4_pine_hills_destinations,Winter Park,Pine Hills,0.8181818181818182,0.8029877119119821,False
+destinations,1266f6ddde61,10,r4_winter_park_destinations,r4_college_park_destinations,Winter Park,College Park,0.8181818181818182,0.9863997329714697,False
+destinations,1266f6ddde61,10,r4_winter_park_destinations,r4_winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r4_winter_park_destinations,r6_audubon_park_destinations,Winter Park,Audubon Park,0.8181818181818182,0.9927015249991236,False
+destinations,1266f6ddde61,10,r4_winter_park_destinations,r6_baldwin_park_destinations,Winter Park,Baldwin Park,1.0,0.8339361966419232,False
+destinations,1266f6ddde61,10,r4_winter_park_destinations,r6_azalea_park_destinations,Winter Park,Azalea Park,0.8181818181818182,0.9729897796557384,False
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r4_winter_park_place_tags,Pine Hills,Winter Park,0.1111111111111111,0.33696805767734966,True
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r4_pine_hills_place_tags,Pine Hills,Pine Hills,1.0,1.0,True
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r4_college_park_place_tags,Pine Hills,College Park,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r4_orlando_place_tags,Pine Hills,Orlando,0.1111111111111111,0.23300982711731624,True
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r4_winter_park_repeat_place_tags,Pine Hills,Winter Park,0.1111111111111111,0.33696805767734966,True
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r6_audubon_park_place_tags,Pine Hills,Audubon Park,0.05263157894736842,0.16131449569660355,True
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r6_baldwin_park_place_tags,Pine Hills,Baldwin Park,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r4_pine_hills_place_tags,r6_azalea_park_place_tags,Pine Hills,Azalea Park,0.17647058823529413,0.6452579827864142,True
+brands,e75b97502d49,10,r4_pine_hills_brands,r4_winter_park_brands,Pine Hills,Winter Park,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,r4_pine_hills_brands,r4_pine_hills_brands,Pine Hills,Pine Hills,1.0,1.0,False
+brands,e75b97502d49,10,r4_pine_hills_brands,r4_college_park_brands,Pine Hills,College Park,0.1111111111111111,0.6452579827864142,False
+brands,e75b97502d49,10,r4_pine_hills_brands,r4_orlando_brands,Pine Hills,Orlando,0.1111111111111111,0.3226289913932071,False
+brands,e75b97502d49,10,r4_pine_hills_brands,r4_winter_park_repeat_brands,Pine Hills,Winter Park,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,r4_pine_hills_brands,r6_audubon_park_brands,Pine Hills,Audubon Park,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,r4_pine_hills_brands,r6_baldwin_park_brands,Pine Hills,Baldwin Park,0.1111111111111111,0.6452579827864142,False
+brands,e75b97502d49,10,r4_pine_hills_brands,r6_azalea_park_brands,Pine Hills,Azalea Park,0.25,0.6671250588697316,False
+destinations,1266f6ddde61,10,r4_pine_hills_destinations,r4_winter_park_destinations,Pine Hills,Winter Park,0.8181818181818182,0.8029877119119821,False
+destinations,1266f6ddde61,10,r4_pine_hills_destinations,r4_pine_hills_destinations,Pine Hills,Pine Hills,1.0,1.0,False
+destinations,1266f6ddde61,10,r4_pine_hills_destinations,r4_college_park_destinations,Pine Hills,College Park,0.6666666666666666,0.7942818502394671,False
+destinations,1266f6ddde61,10,r4_pine_hills_destinations,r4_winter_park_repeat_destinations,Pine Hills,Winter Park,0.8181818181818182,0.8029877119119821,False
+destinations,1266f6ddde61,10,r4_pine_hills_destinations,r6_audubon_park_destinations,Pine Hills,Audubon Park,0.6666666666666666,0.7899289194032095,False
+destinations,1266f6ddde61,10,r4_pine_hills_destinations,r6_baldwin_park_destinations,Pine Hills,Baldwin Park,0.8181818181818182,0.9471465390186294,False
+destinations,1266f6ddde61,10,r4_pine_hills_destinations,r6_azalea_park_destinations,Pine Hills,Azalea Park,0.6666666666666666,0.8151503127779959,False
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r4_winter_park_place_tags,College Park,Winter Park,0.5384615384615384,0.9084639813770969,False
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r4_pine_hills_place_tags,College Park,Pine Hills,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r4_college_park_place_tags,College Park,College Park,1.0,1.0,False
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r4_orlando_place_tags,College Park,Orlando,0.17647058823529413,0.4234505512035843,True
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r4_winter_park_repeat_place_tags,College Park,Winter Park,0.5384615384615384,0.9084639813770969,False
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r6_audubon_park_place_tags,College Park,Audubon Park,0.1111111111111111,0.3495147406759744,True
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r6_baldwin_park_place_tags,College Park,Baldwin Park,0.5384615384615384,0.7991255526896164,True
+place_tags,7628c2261d98,10,r4_college_park_place_tags,r6_azalea_park_place_tags,College Park,Azalea Park,0.1111111111111111,0.6654222947484897,False
+brands,e75b97502d49,10,r4_college_park_brands,r4_winter_park_brands,College Park,Winter Park,0.6666666666666666,0.9236992393039983,False
+brands,e75b97502d49,10,r4_college_park_brands,r4_pine_hills_brands,College Park,Pine Hills,0.1111111111111111,0.6452579827864142,False
+brands,e75b97502d49,10,r4_college_park_brands,r4_college_park_brands,College Park,College Park,1.0,1.0,False
+brands,e75b97502d49,10,r4_college_park_brands,r4_orlando_brands,College Park,Orlando,0.25,0.5415558069814548,False
+brands,e75b97502d49,10,r4_college_park_brands,r4_winter_park_repeat_brands,College Park,Winter Park,0.6666666666666666,0.9236992393039983,False
+brands,e75b97502d49,10,r4_college_park_brands,r6_audubon_park_brands,College Park,Audubon Park,0.8181818181818182,0.9302713113508971,False
+brands,e75b97502d49,10,r4_college_park_brands,r6_baldwin_park_brands,College Park,Baldwin Park,0.8181818181818182,0.986479394450826,False
+brands,e75b97502d49,10,r4_college_park_brands,r6_azalea_park_brands,College Park,Azalea Park,0.42857142857142855,0.91582250731458,False
+destinations,1266f6ddde61,10,r4_college_park_destinations,r4_winter_park_destinations,College Park,Winter Park,0.8181818181818182,0.9863997329714697,False
+destinations,1266f6ddde61,10,r4_college_park_destinations,r4_pine_hills_destinations,College Park,Pine Hills,0.6666666666666666,0.7942818502394671,False
+destinations,1266f6ddde61,10,r4_college_park_destinations,r4_college_park_destinations,College Park,College Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r4_college_park_destinations,r4_winter_park_repeat_destinations,College Park,Winter Park,0.8181818181818182,0.9863997329714697,False
+destinations,1266f6ddde61,10,r4_college_park_destinations,r6_audubon_park_destinations,College Park,Audubon Park,0.6666666666666666,0.9796142819620093,False
+destinations,1266f6ddde61,10,r4_college_park_destinations,r6_baldwin_park_destinations,College Park,Baldwin Park,0.8181818181818182,0.8141260937577,False
+destinations,1266f6ddde61,10,r4_college_park_destinations,r6_azalea_park_destinations,College Park,Azalea Park,0.8181818181818182,0.9649195840735975,False
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r4_winter_park_place_tags,Orlando,Winter Park,0.1111111111111111,0.362957615317358,True
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r4_pine_hills_place_tags,Orlando,Pine Hills,0.1111111111111111,0.23300982711731624,True
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r4_college_park_place_tags,Orlando,College Park,0.17647058823529413,0.4234505512035843,True
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r4_orlando_place_tags,Orlando,Orlando,1.0,1.0,True
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r4_winter_park_repeat_place_tags,Orlando,Winter Park,0.1111111111111111,0.362957615317358,True
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r6_audubon_park_place_tags,Orlando,Audubon Park,0.17647058823529413,0.392531939528402,True
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r6_baldwin_park_place_tags,Orlando,Baldwin Park,0.17647058823529413,0.655340138767452,True
+place_tags,7628c2261d98,10,r4_orlando_place_tags,r6_azalea_park_place_tags,Orlando,Azalea Park,0.42857142857142855,0.5601795228338351,True
+brands,e75b97502d49,10,r4_orlando_brands,r4_winter_park_brands,Orlando,Winter Park,0.25,0.5073724971790793,False
+brands,e75b97502d49,10,r4_orlando_brands,r4_pine_hills_brands,Orlando,Pine Hills,0.1111111111111111,0.3226289913932071,False
+brands,e75b97502d49,10,r4_orlando_brands,r4_college_park_brands,Orlando,College Park,0.25,0.5415558069814548,False
+brands,e75b97502d49,10,r4_orlando_brands,r4_orlando_brands,Orlando,Orlando,1.0,1.0,False
+brands,e75b97502d49,10,r4_orlando_brands,r4_winter_park_repeat_brands,Orlando,Winter Park,0.25,0.5073724971790793,False
+brands,e75b97502d49,10,r4_orlando_brands,r6_audubon_park_brands,Orlando,Audubon Park,0.25,0.44591935596132554,False
+brands,e75b97502d49,10,r4_orlando_brands,r6_baldwin_park_brands,Orlando,Baldwin Park,0.25,0.5630644064076686,False
+brands,e75b97502d49,10,r4_orlando_brands,r6_azalea_park_brands,Orlando,Azalea Park,0.25,0.6368081758689731,False
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r4_winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r4_pine_hills_place_tags,Winter Park,Pine Hills,0.1111111111111111,0.33696805767734966,True
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r4_college_park_place_tags,Winter Park,College Park,0.5384615384615384,0.9084639813770969,False
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r4_orlando_place_tags,Winter Park,Orlando,0.1111111111111111,0.362957615317358,True
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r4_winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,False
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r6_audubon_park_place_tags,Winter Park,Audubon Park,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r6_baldwin_park_place_tags,Winter Park,Baldwin Park,0.42857142857142855,0.7680362378443847,True
+place_tags,7628c2261d98,10,r4_winter_park_repeat_place_tags,r6_azalea_park_place_tags,Winter Park,Azalea Park,0.05263157894736842,0.6452579827864142,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r4_winter_park_brands,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r4_pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r4_college_park_brands,Winter Park,College Park,0.6666666666666666,0.9236992393039983,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r4_orlando_brands,Winter Park,Orlando,0.25,0.5073724971790793,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r4_winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r6_audubon_park_brands,Winter Park,Audubon Park,0.5384615384615384,0.9661787231707707,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r6_baldwin_park_brands,Winter Park,Baldwin Park,0.8181818181818182,0.9319880975182502,False
+brands,e75b97502d49,10,r4_winter_park_repeat_brands,r6_azalea_park_brands,Winter Park,Azalea Park,0.42857142857142855,0.8526623343963331,False
+destinations,1266f6ddde61,10,r4_winter_park_repeat_destinations,r4_winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r4_winter_park_repeat_destinations,r4_pine_hills_destinations,Winter Park,Pine Hills,0.8181818181818182,0.8029877119119821,False
+destinations,1266f6ddde61,10,r4_winter_park_repeat_destinations,r4_college_park_destinations,Winter Park,College Park,0.8181818181818182,0.9863997329714697,False
+destinations,1266f6ddde61,10,r4_winter_park_repeat_destinations,r4_winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r4_winter_park_repeat_destinations,r6_audubon_park_destinations,Winter Park,Audubon Park,0.8181818181818182,0.9927015249991236,False
+destinations,1266f6ddde61,10,r4_winter_park_repeat_destinations,r6_baldwin_park_destinations,Winter Park,Baldwin Park,1.0,0.8339361966419232,False
+destinations,1266f6ddde61,10,r4_winter_park_repeat_destinations,r6_azalea_park_destinations,Winter Park,Azalea Park,0.8181818181818182,0.9729897796557384,False
+food_dining,73dfd1add9c8,10,r5_winter_park_food_dining,r5_winter_park_food_dining,Winter Park,Winter Park,1.0,1.0,False
+food_dining,73dfd1add9c8,10,r5_winter_park_food_dining,r5_pine_hills_food_dining,Winter Park,Pine Hills,0.0,0.0,False
+food_dining,73dfd1add9c8,10,r5_winter_park_food_dining,r7_college_park_food_dining,Winter Park,College Park,0.25,0.18256704036774338,False
+food_dining,73dfd1add9c8,10,r5_winter_park_food_dining,r7_audubon_park_food_dining,Winter Park,Audubon Park,0.3333333333333333,0.26952608024369906,False
+food_dining,73dfd1add9c8,10,r5_winter_park_food_dining,r7_baldwin_park_food_dining,Winter Park,Baldwin Park,0.42857142857142855,0.4550092997664516,False
+food_dining,73dfd1add9c8,10,r5_winter_park_food_dining,r7_azalea_park_food_dining,Winter Park,Azalea Park,0.05263157894736842,0.007966147935634743,False
+coffee_cafes,9cfde72b67a6,10,r5_winter_park_coffee_cafes,r5_winter_park_coffee_cafes,Winter Park,Winter Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,10,r5_winter_park_coffee_cafes,r5_pine_hills_coffee_cafes,Winter Park,Pine Hills,0.1111111111111111,0.11778518733402799,False
+coffee_cafes,9cfde72b67a6,10,r5_winter_park_coffee_cafes,r7_college_park_coffee_cafes,Winter Park,College Park,0.6666666666666666,0.7808162151754101,False
+coffee_cafes,9cfde72b67a6,10,r5_winter_park_coffee_cafes,r7_baldwin_park_coffee_cafes,Winter Park,Baldwin Park,0.8181818181818182,0.9927015249991236,False
+coffee_cafes,9cfde72b67a6,10,r5_winter_park_coffee_cafes,r7_azalea_park_coffee_cafes,Winter Park,Azalea Park,0.25,0.21902923749027728,False
+fitness,310f4ad7ca5d,10,r5_winter_park_fitness,r5_winter_park_fitness,Winter Park,Winter Park,1.0,1.0,False
+fitness,310f4ad7ca5d,10,r5_winter_park_fitness,r5_pine_hills_fitness,Winter Park,Pine Hills,0.6666666666666666,0.8942712320958538,False
+fitness,310f4ad7ca5d,10,r5_winter_park_fitness,r7_college_park_fitness,Winter Park,College Park,0.6666666666666666,0.9574314050141007,False
+fitness,310f4ad7ca5d,10,r5_winter_park_fitness,r7_baldwin_park_fitness,Winter Park,Baldwin Park,0.8181818181818182,0.9833782868615967,False
+nightlife_bars,a89302c79de2,10,r5_winter_park_nightlife_bars,r5_winter_park_nightlife_bars,Winter Park,Winter Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,10,r5_winter_park_nightlife_bars,r5_pine_hills_nightlife_bars,Winter Park,Pine Hills,0.17647058823529413,0.13724534871965,False
+nightlife_bars,a89302c79de2,10,r5_winter_park_nightlife_bars,r7_college_park_nightlife_bars,Winter Park,College Park,0.5384615384615384,0.3748641614282978,False
+nightlife_bars,a89302c79de2,10,r5_winter_park_nightlife_bars,r7_baldwin_park_nightlife_bars,Winter Park,Baldwin Park,0.8181818181818182,0.8089729918118364,False
+nightlife_bars,a89302c79de2,10,r5_winter_park_nightlife_bars,r7_azalea_park_nightlife_bars,Winter Park,Azalea Park,0.17647058823529413,0.13724534871965,False
+food_dining,73dfd1add9c8,10,r5_pine_hills_food_dining,r5_winter_park_food_dining,Pine Hills,Winter Park,0.0,0.0,False
+food_dining,73dfd1add9c8,10,r5_pine_hills_food_dining,r5_pine_hills_food_dining,Pine Hills,Pine Hills,1.0,1.0,False
+food_dining,73dfd1add9c8,10,r5_pine_hills_food_dining,r7_college_park_food_dining,Pine Hills,College Park,0.0,0.0,False
+food_dining,73dfd1add9c8,10,r5_pine_hills_food_dining,r7_audubon_park_food_dining,Pine Hills,Audubon Park,0.0,0.0,False
+food_dining,73dfd1add9c8,10,r5_pine_hills_food_dining,r7_baldwin_park_food_dining,Pine Hills,Baldwin Park,0.05263157894736842,0.008961916427589086,False
+food_dining,73dfd1add9c8,10,r5_pine_hills_food_dining,r7_azalea_park_food_dining,Pine Hills,Azalea Park,0.17647058823529413,0.20364888186883393,False
+coffee_cafes,9cfde72b67a6,10,r5_pine_hills_coffee_cafes,r5_winter_park_coffee_cafes,Pine Hills,Winter Park,0.1111111111111111,0.11778518733402799,False
+coffee_cafes,9cfde72b67a6,10,r5_pine_hills_coffee_cafes,r5_pine_hills_coffee_cafes,Pine Hills,Pine Hills,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,10,r5_pine_hills_coffee_cafes,r7_college_park_coffee_cafes,Pine Hills,College Park,0.1111111111111111,0.1459512103921651,False
+coffee_cafes,9cfde72b67a6,10,r5_pine_hills_coffee_cafes,r7_baldwin_park_coffee_cafes,Pine Hills,Baldwin Park,0.1111111111111111,0.11778518733402799,False
+coffee_cafes,9cfde72b67a6,10,r5_pine_hills_coffee_cafes,r7_azalea_park_coffee_cafes,Pine Hills,Azalea Park,0.1111111111111111,0.2381309222187957,False
+fitness,310f4ad7ca5d,10,r5_pine_hills_fitness,r5_winter_park_fitness,Pine Hills,Winter Park,0.6666666666666666,0.8942712320958538,False
+fitness,310f4ad7ca5d,10,r5_pine_hills_fitness,r5_pine_hills_fitness,Pine Hills,Pine Hills,1.0,1.0,False
+fitness,310f4ad7ca5d,10,r5_pine_hills_fitness,r7_college_park_fitness,Pine Hills,College Park,0.8181818181818182,0.8932214076000506,False
+fitness,310f4ad7ca5d,10,r5_pine_hills_fitness,r7_baldwin_park_fitness,Pine Hills,Baldwin Park,0.6666666666666666,0.851689326327052,False
+nightlife_bars,a89302c79de2,10,r5_pine_hills_nightlife_bars,r5_winter_park_nightlife_bars,Pine Hills,Winter Park,0.17647058823529413,0.13724534871965,False
+nightlife_bars,a89302c79de2,10,r5_pine_hills_nightlife_bars,r5_pine_hills_nightlife_bars,Pine Hills,Pine Hills,1.0,1.0,False
+nightlife_bars,a89302c79de2,10,r5_pine_hills_nightlife_bars,r7_college_park_nightlife_bars,Pine Hills,College Park,0.17647058823529413,0.07819912219959163,False
+nightlife_bars,a89302c79de2,10,r5_pine_hills_nightlife_bars,r7_baldwin_park_nightlife_bars,Pine Hills,Baldwin Park,0.17647058823529413,0.10523850433540327,False
+nightlife_bars,a89302c79de2,10,r5_pine_hills_nightlife_bars,r7_azalea_park_nightlife_bars,Pine Hills,Azalea Park,0.17647058823529413,0.18093560578541493,False
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r4_winter_park_place_tags,Audubon Park,Winter Park,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r4_pine_hills_place_tags,Audubon Park,Pine Hills,0.05263157894736842,0.16131449569660355,True
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r4_college_park_place_tags,Audubon Park,College Park,0.1111111111111111,0.3495147406759744,True
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r4_orlando_place_tags,Audubon Park,Orlando,0.17647058823529413,0.392531939528402,True
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r4_winter_park_repeat_place_tags,Audubon Park,Winter Park,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r6_audubon_park_place_tags,Audubon Park,Audubon Park,1.0,1.0,True
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r6_baldwin_park_place_tags,Audubon Park,Baldwin Park,0.17647058823529413,0.4480958213794543,True
+place_tags,7628c2261d98,10,r6_audubon_park_place_tags,r6_azalea_park_place_tags,Audubon Park,Azalea Park,0.25,0.41762530552565147,True
+brands,e75b97502d49,10,r6_audubon_park_brands,r4_winter_park_brands,Audubon Park,Winter Park,0.5384615384615384,0.9661787231707707,False
+brands,e75b97502d49,10,r6_audubon_park_brands,r4_pine_hills_brands,Audubon Park,Pine Hills,0.1111111111111111,0.48394348708981066,False
+brands,e75b97502d49,10,r6_audubon_park_brands,r4_college_park_brands,Audubon Park,College Park,0.8181818181818182,0.9302713113508971,False
+brands,e75b97502d49,10,r6_audubon_park_brands,r4_orlando_brands,Audubon Park,Orlando,0.25,0.44591935596132554,False
+brands,e75b97502d49,10,r6_audubon_park_brands,r4_winter_park_repeat_brands,Audubon Park,Winter Park,0.5384615384615384,0.9661787231707707,False
+brands,e75b97502d49,10,r6_audubon_park_brands,r6_audubon_park_brands,Audubon Park,Audubon Park,1.0,1.0,False
+brands,e75b97502d49,10,r6_audubon_park_brands,r6_baldwin_park_brands,Audubon Park,Baldwin Park,0.6666666666666666,0.921814188583311,False
+brands,e75b97502d49,10,r6_audubon_park_brands,r6_azalea_park_brands,Audubon Park,Azalea Park,0.42857142857142855,0.8372478381408799,False
+destinations,1266f6ddde61,10,r6_audubon_park_destinations,r4_winter_park_destinations,Audubon Park,Winter Park,0.8181818181818182,0.9927015249991236,False
+destinations,1266f6ddde61,10,r6_audubon_park_destinations,r4_pine_hills_destinations,Audubon Park,Pine Hills,0.6666666666666666,0.7899289194032095,False
+destinations,1266f6ddde61,10,r6_audubon_park_destinations,r4_college_park_destinations,Audubon Park,College Park,0.6666666666666666,0.9796142819620093,False
+destinations,1266f6ddde61,10,r6_audubon_park_destinations,r4_winter_park_repeat_destinations,Audubon Park,Winter Park,0.8181818181818182,0.9927015249991236,False
+destinations,1266f6ddde61,10,r6_audubon_park_destinations,r6_audubon_park_destinations,Audubon Park,Audubon Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r6_audubon_park_destinations,r6_baldwin_park_destinations,Audubon Park,Baldwin Park,0.8181818181818182,0.828134422649872,False
+destinations,1266f6ddde61,10,r6_audubon_park_destinations,r6_azalea_park_destinations,Audubon Park,Azalea Park,0.6666666666666666,0.9610503122191463,False
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r4_winter_park_place_tags,Baldwin Park,Winter Park,0.42857142857142855,0.7680362378443847,True
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r4_pine_hills_place_tags,Baldwin Park,Pine Hills,0.05263157894736842,0.3226289913932071,True
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r4_college_park_place_tags,Baldwin Park,College Park,0.5384615384615384,0.7991255526896164,True
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r4_orlando_place_tags,Baldwin Park,Orlando,0.17647058823529413,0.655340138767452,True
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r4_winter_park_repeat_place_tags,Baldwin Park,Winter Park,0.42857142857142855,0.7680362378443847,True
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r6_audubon_park_place_tags,Baldwin Park,Audubon Park,0.17647058823529413,0.4480958213794543,True
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r6_baldwin_park_place_tags,Baldwin Park,Baldwin Park,1.0,1.0,True
+place_tags,7628c2261d98,10,r6_baldwin_park_place_tags,r6_azalea_park_place_tags,Baldwin Park,Azalea Park,0.3333333333333333,0.8003631506724739,True
+brands,e75b97502d49,10,r6_baldwin_park_brands,r4_winter_park_brands,Baldwin Park,Winter Park,0.8181818181818182,0.9319880975182502,False
+brands,e75b97502d49,10,r6_baldwin_park_brands,r4_pine_hills_brands,Baldwin Park,Pine Hills,0.1111111111111111,0.6452579827864142,False
+brands,e75b97502d49,10,r6_baldwin_park_brands,r4_college_park_brands,Baldwin Park,College Park,0.8181818181818182,0.986479394450826,False
+brands,e75b97502d49,10,r6_baldwin_park_brands,r4_orlando_brands,Baldwin Park,Orlando,0.25,0.5630644064076686,False
+brands,e75b97502d49,10,r6_baldwin_park_brands,r4_winter_park_repeat_brands,Baldwin Park,Winter Park,0.8181818181818182,0.9319880975182502,False
+brands,e75b97502d49,10,r6_baldwin_park_brands,r6_audubon_park_brands,Baldwin Park,Audubon Park,0.6666666666666666,0.921814188583311,False
+brands,e75b97502d49,10,r6_baldwin_park_brands,r6_baldwin_park_brands,Baldwin Park,Baldwin Park,1.0,1.0,False
+brands,e75b97502d49,10,r6_baldwin_park_brands,r6_azalea_park_brands,Baldwin Park,Azalea Park,0.5384615384615384,0.9506459540046405,False
+destinations,1266f6ddde61,10,r6_baldwin_park_destinations,r4_winter_park_destinations,Baldwin Park,Winter Park,1.0,0.8339361966419232,False
+destinations,1266f6ddde61,10,r6_baldwin_park_destinations,r4_pine_hills_destinations,Baldwin Park,Pine Hills,0.8181818181818182,0.9471465390186294,False
+destinations,1266f6ddde61,10,r6_baldwin_park_destinations,r4_college_park_destinations,Baldwin Park,College Park,0.8181818181818182,0.8141260937577,False
+destinations,1266f6ddde61,10,r6_baldwin_park_destinations,r4_winter_park_repeat_destinations,Baldwin Park,Winter Park,1.0,0.8339361966419232,False
+destinations,1266f6ddde61,10,r6_baldwin_park_destinations,r6_audubon_park_destinations,Baldwin Park,Audubon Park,0.8181818181818182,0.828134422649872,False
+destinations,1266f6ddde61,10,r6_baldwin_park_destinations,r6_baldwin_park_destinations,Baldwin Park,Baldwin Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r6_baldwin_park_destinations,r6_azalea_park_destinations,Baldwin Park,Azalea Park,0.8181818181818182,0.7977898003839805,False
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r4_winter_park_place_tags,Azalea Park,Winter Park,0.05263157894736842,0.6452579827864142,False
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r4_pine_hills_place_tags,Azalea Park,Pine Hills,0.17647058823529413,0.6452579827864142,True
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r4_college_park_place_tags,Azalea Park,College Park,0.1111111111111111,0.6654222947484897,False
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r4_orlando_place_tags,Azalea Park,Orlando,0.42857142857142855,0.5601795228338351,True
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r4_winter_park_repeat_place_tags,Azalea Park,Winter Park,0.05263157894736842,0.6452579827864142,False
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r6_audubon_park_place_tags,Azalea Park,Audubon Park,0.25,0.41762530552565147,True
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r6_baldwin_park_place_tags,Azalea Park,Baldwin Park,0.3333333333333333,0.8003631506724739,True
+place_tags,7628c2261d98,10,r6_azalea_park_place_tags,r6_azalea_park_place_tags,Azalea Park,Azalea Park,1.0,1.0,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r4_winter_park_brands,Azalea Park,Winter Park,0.42857142857142855,0.8526623343963331,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r4_pine_hills_brands,Azalea Park,Pine Hills,0.25,0.6671250588697316,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r4_college_park_brands,Azalea Park,College Park,0.42857142857142855,0.91582250731458,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r4_orlando_brands,Azalea Park,Orlando,0.25,0.6368081758689731,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r4_winter_park_repeat_brands,Azalea Park,Winter Park,0.42857142857142855,0.8526623343963331,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r6_audubon_park_brands,Azalea Park,Audubon Park,0.42857142857142855,0.8372478381408799,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r6_baldwin_park_brands,Azalea Park,Baldwin Park,0.5384615384615384,0.9506459540046405,False
+brands,e75b97502d49,10,r6_azalea_park_brands,r6_azalea_park_brands,Azalea Park,Azalea Park,1.0,1.0,False
+destinations,1266f6ddde61,10,r6_azalea_park_destinations,r4_winter_park_destinations,Azalea Park,Winter Park,0.8181818181818182,0.9729897796557384,False
+destinations,1266f6ddde61,10,r6_azalea_park_destinations,r4_pine_hills_destinations,Azalea Park,Pine Hills,0.6666666666666666,0.8151503127779959,False
+destinations,1266f6ddde61,10,r6_azalea_park_destinations,r4_college_park_destinations,Azalea Park,College Park,0.8181818181818182,0.9649195840735975,False
+destinations,1266f6ddde61,10,r6_azalea_park_destinations,r4_winter_park_repeat_destinations,Azalea Park,Winter Park,0.8181818181818182,0.9729897796557384,False
+destinations,1266f6ddde61,10,r6_azalea_park_destinations,r6_audubon_park_destinations,Azalea Park,Audubon Park,0.6666666666666666,0.9610503122191463,False
+destinations,1266f6ddde61,10,r6_azalea_park_destinations,r6_baldwin_park_destinations,Azalea Park,Baldwin Park,0.8181818181818182,0.7977898003839805,False
+destinations,1266f6ddde61,10,r6_azalea_park_destinations,r6_azalea_park_destinations,Azalea Park,Azalea Park,1.0,1.0,False
+food_dining,73dfd1add9c8,10,r7_college_park_food_dining,r5_winter_park_food_dining,College Park,Winter Park,0.25,0.18256704036774338,False
+food_dining,73dfd1add9c8,10,r7_college_park_food_dining,r5_pine_hills_food_dining,College Park,Pine Hills,0.0,0.0,False
+food_dining,73dfd1add9c8,10,r7_college_park_food_dining,r7_college_park_food_dining,College Park,College Park,1.0,1.0,False
+food_dining,73dfd1add9c8,10,r7_college_park_food_dining,r7_audubon_park_food_dining,College Park,Audubon Park,0.3333333333333333,0.28268444960166716,False
+food_dining,73dfd1add9c8,10,r7_college_park_food_dining,r7_baldwin_park_food_dining,College Park,Baldwin Park,0.42857142857142855,0.16177539425573673,False
+food_dining,73dfd1add9c8,10,r7_college_park_food_dining,r7_azalea_park_food_dining,College Park,Azalea Park,0.0,0.0,False
+coffee_cafes,9cfde72b67a6,10,r7_college_park_coffee_cafes,r5_winter_park_coffee_cafes,College Park,Winter Park,0.6666666666666666,0.7808162151754101,False
+coffee_cafes,9cfde72b67a6,10,r7_college_park_coffee_cafes,r5_pine_hills_coffee_cafes,College Park,Pine Hills,0.1111111111111111,0.1459512103921651,False
+coffee_cafes,9cfde72b67a6,10,r7_college_park_coffee_cafes,r7_college_park_coffee_cafes,College Park,College Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,10,r7_college_park_coffee_cafes,r7_baldwin_park_coffee_cafes,College Park,Baldwin Park,0.6666666666666666,0.7838568653919136,False
+coffee_cafes,9cfde72b67a6,10,r7_college_park_coffee_cafes,r7_azalea_park_coffee_cafes,College Park,Azalea Park,0.25,0.2382333441208253,False
+fitness,310f4ad7ca5d,10,r7_college_park_fitness,r5_winter_park_fitness,College Park,Winter Park,0.6666666666666666,0.9574314050141007,False
+fitness,310f4ad7ca5d,10,r7_college_park_fitness,r5_pine_hills_fitness,College Park,Pine Hills,0.8181818181818182,0.8932214076000506,False
+fitness,310f4ad7ca5d,10,r7_college_park_fitness,r7_college_park_fitness,College Park,College Park,1.0,1.0,False
+fitness,310f4ad7ca5d,10,r7_college_park_fitness,r7_baldwin_park_fitness,College Park,Baldwin Park,0.6666666666666666,0.9436641943496235,False
+nightlife_bars,a89302c79de2,10,r7_college_park_nightlife_bars,r5_winter_park_nightlife_bars,College Park,Winter Park,0.5384615384615384,0.3748641614282978,False
+nightlife_bars,a89302c79de2,10,r7_college_park_nightlife_bars,r5_pine_hills_nightlife_bars,College Park,Pine Hills,0.17647058823529413,0.07819912219959163,False
+nightlife_bars,a89302c79de2,10,r7_college_park_nightlife_bars,r7_college_park_nightlife_bars,College Park,College Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,10,r7_college_park_nightlife_bars,r7_baldwin_park_nightlife_bars,College Park,Baldwin Park,0.6666666666666666,0.531067722926401,False
+nightlife_bars,a89302c79de2,10,r7_college_park_nightlife_bars,r7_azalea_park_nightlife_bars,College Park,Azalea Park,0.17647058823529413,0.06027528934441346,False
+food_dining,73dfd1add9c8,10,r7_audubon_park_food_dining,r5_winter_park_food_dining,Audubon Park,Winter Park,0.3333333333333333,0.26952608024369906,False
+food_dining,73dfd1add9c8,10,r7_audubon_park_food_dining,r5_pine_hills_food_dining,Audubon Park,Pine Hills,0.0,0.0,False
+food_dining,73dfd1add9c8,10,r7_audubon_park_food_dining,r7_college_park_food_dining,Audubon Park,College Park,0.3333333333333333,0.28268444960166716,False
+food_dining,73dfd1add9c8,10,r7_audubon_park_food_dining,r7_audubon_park_food_dining,Audubon Park,Audubon Park,1.0,1.0,False
+food_dining,73dfd1add9c8,10,r7_audubon_park_food_dining,r7_baldwin_park_food_dining,Audubon Park,Baldwin Park,0.3333333333333333,0.3620614236745991,False
+food_dining,73dfd1add9c8,10,r7_audubon_park_food_dining,r7_azalea_park_food_dining,Audubon Park,Azalea Park,0.05263157894736842,0.007966147935634743,False
+food_dining,73dfd1add9c8,10,r7_baldwin_park_food_dining,r5_winter_park_food_dining,Baldwin Park,Winter Park,0.42857142857142855,0.4550092997664516,False
+food_dining,73dfd1add9c8,10,r7_baldwin_park_food_dining,r5_pine_hills_food_dining,Baldwin Park,Pine Hills,0.05263157894736842,0.008961916427589086,False
+food_dining,73dfd1add9c8,10,r7_baldwin_park_food_dining,r7_college_park_food_dining,Baldwin Park,College Park,0.42857142857142855,0.16177539425573673,False
+food_dining,73dfd1add9c8,10,r7_baldwin_park_food_dining,r7_audubon_park_food_dining,Baldwin Park,Audubon Park,0.3333333333333333,0.3620614236745991,False
+food_dining,73dfd1add9c8,10,r7_baldwin_park_food_dining,r7_baldwin_park_food_dining,Baldwin Park,Baldwin Park,1.0,1.0,False
+food_dining,73dfd1add9c8,10,r7_baldwin_park_food_dining,r7_azalea_park_food_dining,Baldwin Park,Azalea Park,0.1111111111111111,0.04480958213794543,False
+coffee_cafes,9cfde72b67a6,10,r7_baldwin_park_coffee_cafes,r5_winter_park_coffee_cafes,Baldwin Park,Winter Park,0.8181818181818182,0.9927015249991236,False
+coffee_cafes,9cfde72b67a6,10,r7_baldwin_park_coffee_cafes,r5_pine_hills_coffee_cafes,Baldwin Park,Pine Hills,0.1111111111111111,0.11778518733402799,False
+coffee_cafes,9cfde72b67a6,10,r7_baldwin_park_coffee_cafes,r7_college_park_coffee_cafes,Baldwin Park,College Park,0.6666666666666666,0.7838568653919136,False
+coffee_cafes,9cfde72b67a6,10,r7_baldwin_park_coffee_cafes,r7_baldwin_park_coffee_cafes,Baldwin Park,Baldwin Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,10,r7_baldwin_park_coffee_cafes,r7_azalea_park_coffee_cafes,Baldwin Park,Azalea Park,0.25,0.21902923749027728,False
+fitness,310f4ad7ca5d,10,r7_baldwin_park_fitness,r5_winter_park_fitness,Baldwin Park,Winter Park,0.8181818181818182,0.9833782868615967,False
+fitness,310f4ad7ca5d,10,r7_baldwin_park_fitness,r5_pine_hills_fitness,Baldwin Park,Pine Hills,0.6666666666666666,0.851689326327052,False
+fitness,310f4ad7ca5d,10,r7_baldwin_park_fitness,r7_college_park_fitness,Baldwin Park,College Park,0.6666666666666666,0.9436641943496235,False
+fitness,310f4ad7ca5d,10,r7_baldwin_park_fitness,r7_baldwin_park_fitness,Baldwin Park,Baldwin Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,10,r7_baldwin_park_nightlife_bars,r5_winter_park_nightlife_bars,Baldwin Park,Winter Park,0.8181818181818182,0.8089729918118364,False
+nightlife_bars,a89302c79de2,10,r7_baldwin_park_nightlife_bars,r5_pine_hills_nightlife_bars,Baldwin Park,Pine Hills,0.17647058823529413,0.10523850433540327,False
+nightlife_bars,a89302c79de2,10,r7_baldwin_park_nightlife_bars,r7_college_park_nightlife_bars,Baldwin Park,College Park,0.6666666666666666,0.531067722926401,False
+nightlife_bars,a89302c79de2,10,r7_baldwin_park_nightlife_bars,r7_baldwin_park_nightlife_bars,Baldwin Park,Baldwin Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,10,r7_baldwin_park_nightlife_bars,r7_azalea_park_nightlife_bars,Baldwin Park,Azalea Park,0.17647058823529413,0.13391663690368835,False
+food_dining,73dfd1add9c8,10,r7_azalea_park_food_dining,r5_winter_park_food_dining,Azalea Park,Winter Park,0.05263157894736842,0.007966147935634743,False
+food_dining,73dfd1add9c8,10,r7_azalea_park_food_dining,r5_pine_hills_food_dining,Azalea Park,Pine Hills,0.17647058823529413,0.20364888186883393,False
+food_dining,73dfd1add9c8,10,r7_azalea_park_food_dining,r7_college_park_food_dining,Azalea Park,College Park,0.0,0.0,False
+food_dining,73dfd1add9c8,10,r7_azalea_park_food_dining,r7_audubon_park_food_dining,Azalea Park,Audubon Park,0.05263157894736842,0.007966147935634743,False
+food_dining,73dfd1add9c8,10,r7_azalea_park_food_dining,r7_baldwin_park_food_dining,Azalea Park,Baldwin Park,0.1111111111111111,0.04480958213794543,False
+food_dining,73dfd1add9c8,10,r7_azalea_park_food_dining,r7_azalea_park_food_dining,Azalea Park,Azalea Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,10,r7_azalea_park_coffee_cafes,r5_winter_park_coffee_cafes,Azalea Park,Winter Park,0.25,0.21902923749027728,False
+coffee_cafes,9cfde72b67a6,10,r7_azalea_park_coffee_cafes,r5_pine_hills_coffee_cafes,Azalea Park,Pine Hills,0.1111111111111111,0.2381309222187957,False
+coffee_cafes,9cfde72b67a6,10,r7_azalea_park_coffee_cafes,r7_college_park_coffee_cafes,Azalea Park,College Park,0.25,0.2382333441208253,False
+coffee_cafes,9cfde72b67a6,10,r7_azalea_park_coffee_cafes,r7_baldwin_park_coffee_cafes,Azalea Park,Baldwin Park,0.25,0.21902923749027728,False
+coffee_cafes,9cfde72b67a6,10,r7_azalea_park_coffee_cafes,r7_azalea_park_coffee_cafes,Azalea Park,Azalea Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,10,r7_azalea_park_nightlife_bars,r5_winter_park_nightlife_bars,Azalea Park,Winter Park,0.17647058823529413,0.13724534871965,False
+nightlife_bars,a89302c79de2,10,r7_azalea_park_nightlife_bars,r5_pine_hills_nightlife_bars,Azalea Park,Pine Hills,0.17647058823529413,0.18093560578541493,False
+nightlife_bars,a89302c79de2,10,r7_azalea_park_nightlife_bars,r7_college_park_nightlife_bars,Azalea Park,College Park,0.17647058823529413,0.06027528934441346,False
+nightlife_bars,a89302c79de2,10,r7_azalea_park_nightlife_bars,r7_baldwin_park_nightlife_bars,Azalea Park,Baldwin Park,0.17647058823529413,0.13391663690368835,False
+nightlife_bars,a89302c79de2,10,r7_azalea_park_nightlife_bars,r7_azalea_park_nightlife_bars,Azalea Park,Azalea Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,10,r9_winter_park_brands_500,r9_winter_park_brands_500,Winter Park,Winter Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,10,r9_winter_park_brands_500,r9_college_park_brands_500,Winter Park,College Park,0.3333333333333333,0.9248697753271937,False
+brands_point,cbaa76cc89bf,10,r9_winter_park_brands_500,r9_mills_50_point_proxy_brands_500,Winter Park,Mills 50 point proxy,0.3333333333333333,0.9242424411772625,False
+brands_point,1a727ba56c5b,10,r9_winter_park_brands_1000,r9_winter_park_brands_1000,Winter Park,Winter Park,1.0,1.0,False
+brands_point,1a727ba56c5b,10,r9_winter_park_brands_1000,r9_college_park_brands_1000,Winter Park,College Park,0.3333333333333333,0.902849066390832,False
+brands_point,1a727ba56c5b,10,r9_winter_park_brands_1000,r9_mills_50_point_proxy_brands_1000,Winter Park,Mills 50 point proxy,0.42857142857142855,0.9355387234552759,False
+brands_point,cbaa76cc89bf,10,r9_college_park_brands_500,r9_winter_park_brands_500,College Park,Winter Park,0.3333333333333333,0.9248697753271937,False
+brands_point,cbaa76cc89bf,10,r9_college_park_brands_500,r9_college_park_brands_500,College Park,College Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,10,r9_college_park_brands_500,r9_mills_50_point_proxy_brands_500,College Park,Mills 50 point proxy,0.8181818181818182,0.9879019208679036,False
+brands_point,1a727ba56c5b,10,r9_college_park_brands_1000,r9_winter_park_brands_1000,College Park,Winter Park,0.3333333333333333,0.902849066390832,False
+brands_point,1a727ba56c5b,10,r9_college_park_brands_1000,r9_college_park_brands_1000,College Park,College Park,1.0,1.0,False
+brands_point,1a727ba56c5b,10,r9_college_park_brands_1000,r9_mills_50_point_proxy_brands_1000,College Park,Mills 50 point proxy,0.42857142857142855,0.9406171427642431,False
+brands_point,cbaa76cc89bf,10,r9_mills_50_point_proxy_brands_500,r9_winter_park_brands_500,Mills 50 point proxy,Winter Park,0.3333333333333333,0.9242424411772625,False
+brands_point,cbaa76cc89bf,10,r9_mills_50_point_proxy_brands_500,r9_college_park_brands_500,Mills 50 point proxy,College Park,0.8181818181818182,0.9879019208679036,False
+brands_point,cbaa76cc89bf,10,r9_mills_50_point_proxy_brands_500,r9_mills_50_point_proxy_brands_500,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False
+brands_point,1a727ba56c5b,10,r9_mills_50_point_proxy_brands_1000,r9_winter_park_brands_1000,Mills 50 point proxy,Winter Park,0.42857142857142855,0.9355387234552759,False
+brands_point,1a727ba56c5b,10,r9_mills_50_point_proxy_brands_1000,r9_college_park_brands_1000,Mills 50 point proxy,College Park,0.42857142857142855,0.9406171427642431,False
+brands_point,1a727ba56c5b,10,r9_mills_50_point_proxy_brands_1000,r9_mills_50_point_proxy_brands_1000,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r4_winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,True
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r4_pine_hills_place_tags,Winter Park,Pine Hills,0.3793103448275862,0.3915880811237236,True
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r4_college_park_place_tags,Winter Park,College Park,0.7391304347826086,0.9199901013837867,True
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r4_orlando_place_tags,Winter Park,Orlando,0.3333333333333333,0.4428209311478124,True
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r4_winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,True
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r6_audubon_park_place_tags,Winter Park,Audubon Park,0.21212121212121213,0.35863495436753234,True
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r6_baldwin_park_place_tags,Winter Park,Baldwin Park,0.6666666666666666,0.8219968257514104,True
+place_tags,7628c2261d98,20,r4_winter_park_place_tags,r6_azalea_park_place_tags,Winter Park,Azalea Park,0.3333333333333333,0.702585732203861,True
+brands,e75b97502d49,20,r4_winter_park_brands,r4_winter_park_brands,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,r4_winter_park_brands,r4_pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48440021478401474,True
+brands,e75b97502d49,20,r4_winter_park_brands,r4_college_park_brands,Winter Park,College Park,0.7391304347826086,0.9321488295928592,True
+brands,e75b97502d49,20,r4_winter_park_brands,r4_orlando_brands,Winter Park,Orlando,0.2903225806451613,0.5449708367667881,True
+brands,e75b97502d49,20,r4_winter_park_brands,r4_winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,r4_winter_park_brands,r6_audubon_park_brands,Winter Park,Audubon Park,0.48148148148148145,0.9674201153335888,True
+brands,e75b97502d49,20,r4_winter_park_brands,r6_baldwin_park_brands,Winter Park,Baldwin Park,0.7391304347826086,0.9329220384067136,True
+brands,e75b97502d49,20,r4_winter_park_brands,r6_azalea_park_brands,Winter Park,Azalea Park,0.2903225806451613,0.8457674658546822,True
+destinations,1266f6ddde61,20,r4_winter_park_destinations,r4_winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,20,r4_winter_park_destinations,r4_pine_hills_destinations,Winter Park,Pine Hills,0.9047619047619048,0.8116721971629806,False
+destinations,1266f6ddde61,20,r4_winter_park_destinations,r4_college_park_destinations,Winter Park,College Park,0.9047619047619048,0.9909598859402261,False
+destinations,1266f6ddde61,20,r4_winter_park_destinations,r4_winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,20,r4_winter_park_destinations,r6_audubon_park_destinations,Winter Park,Audubon Park,0.7391304347826086,0.9917185062556823,False
+destinations,1266f6ddde61,20,r4_winter_park_destinations,r6_baldwin_park_destinations,Winter Park,Baldwin Park,0.8181818181818182,0.831731163912274,False
+destinations,1266f6ddde61,20,r4_winter_park_destinations,r6_azalea_park_destinations,Winter Park,Azalea Park,0.8181818181818182,0.9758846486227516,False
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r4_winter_park_place_tags,Pine Hills,Winter Park,0.3793103448275862,0.3915880811237236,True
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r4_pine_hills_place_tags,Pine Hills,Pine Hills,1.0,1.0,True
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r4_college_park_place_tags,Pine Hills,College Park,0.3793103448275862,0.37378158652704546,True
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r4_orlando_place_tags,Pine Hills,Orlando,0.3793103448275862,0.3173231494898246,True
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r4_winter_park_repeat_place_tags,Pine Hills,Winter Park,0.3793103448275862,0.3915880811237236,True
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r6_audubon_park_place_tags,Pine Hills,Audubon Park,0.21212121212121213,0.2522320849520397,True
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r6_baldwin_park_place_tags,Pine Hills,Baldwin Park,0.42857142857142855,0.4211504701263839,True
+place_tags,7628c2261d98,20,r4_pine_hills_place_tags,r6_azalea_park_place_tags,Pine Hills,Azalea Park,0.48148148148148145,0.6860353691773509,True
+brands,e75b97502d49,20,r4_pine_hills_brands,r4_winter_park_brands,Pine Hills,Winter Park,0.1111111111111111,0.48440021478401474,True
+brands,e75b97502d49,20,r4_pine_hills_brands,r4_pine_hills_brands,Pine Hills,Pine Hills,1.0,1.0,False
+brands,e75b97502d49,20,r4_pine_hills_brands,r4_college_park_brands,Pine Hills,College Park,0.1111111111111111,0.6379526148310443,False
+brands,e75b97502d49,20,r4_pine_hills_brands,r4_orlando_brands,Pine Hills,Orlando,0.08108108108108109,0.3702059254669131,False
+brands,e75b97502d49,20,r4_pine_hills_brands,r4_winter_park_repeat_brands,Pine Hills,Winter Park,0.1111111111111111,0.48440021478401474,True
+brands,e75b97502d49,20,r4_pine_hills_brands,r6_audubon_park_brands,Pine Hills,Audubon Park,0.1111111111111111,0.4781826537280961,False
+brands,e75b97502d49,20,r4_pine_hills_brands,r6_baldwin_park_brands,Pine Hills,Baldwin Park,0.1111111111111111,0.6423683036398415,False
+brands,e75b97502d49,20,r4_pine_hills_brands,r6_azalea_park_brands,Pine Hills,Azalea Park,0.21212121212121213,0.6820083630217962,True
+destinations,1266f6ddde61,20,r4_pine_hills_destinations,r4_winter_park_destinations,Pine Hills,Winter Park,0.9047619047619048,0.8116721971629806,False
+destinations,1266f6ddde61,20,r4_pine_hills_destinations,r4_pine_hills_destinations,Pine Hills,Pine Hills,1.0,1.0,False
+destinations,1266f6ddde61,20,r4_pine_hills_destinations,r4_college_park_destinations,Pine Hills,College Park,0.8181818181818182,0.807859195546694,False
+destinations,1266f6ddde61,20,r4_pine_hills_destinations,r4_winter_park_repeat_destinations,Pine Hills,Winter Park,0.9047619047619048,0.8116721971629806,False
+destinations,1266f6ddde61,20,r4_pine_hills_destinations,r6_audubon_park_destinations,Pine Hills,Audubon Park,0.6666666666666666,0.7969519399770657,False
+destinations,1266f6ddde61,20,r4_pine_hills_destinations,r6_baldwin_park_destinations,Pine Hills,Baldwin Park,0.7391304347826086,0.9459449260645553,False
+destinations,1266f6ddde61,20,r4_pine_hills_destinations,r6_azalea_park_destinations,Pine Hills,Azalea Park,0.8181818181818182,0.830757415165588,False
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r4_winter_park_place_tags,College Park,Winter Park,0.7391304347826086,0.9199901013837867,True
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r4_pine_hills_place_tags,College Park,Pine Hills,0.3793103448275862,0.37378158652704546,True
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r4_college_park_place_tags,College Park,College Park,1.0,1.0,False
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r4_orlando_place_tags,College Park,Orlando,0.3793103448275862,0.471726713563712,True
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r4_winter_park_repeat_place_tags,College Park,Winter Park,0.7391304347826086,0.9199901013837867,True
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r6_audubon_park_place_tags,College Park,Audubon Park,0.25,0.3864265372921326,True
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r6_baldwin_park_place_tags,College Park,Baldwin Park,0.6666666666666666,0.8405595005904567,True
+place_tags,7628c2261d98,20,r4_college_park_place_tags,r6_azalea_park_place_tags,College Park,Azalea Park,0.3793103448275862,0.6950976054250265,False
+brands,e75b97502d49,20,r4_college_park_brands,r4_winter_park_brands,College Park,Winter Park,0.7391304347826086,0.9321488295928592,True
+brands,e75b97502d49,20,r4_college_park_brands,r4_pine_hills_brands,College Park,Pine Hills,0.1111111111111111,0.6379526148310443,False
+brands,e75b97502d49,20,r4_college_park_brands,r4_college_park_brands,College Park,College Park,1.0,1.0,False
+brands,e75b97502d49,20,r4_college_park_brands,r4_orlando_brands,College Park,Orlando,0.25,0.5576973870453804,False
+brands,e75b97502d49,20,r4_college_park_brands,r4_winter_park_repeat_brands,College Park,Winter Park,0.7391304347826086,0.9321488295928592,True
+brands,e75b97502d49,20,r4_college_park_brands,r6_audubon_park_brands,College Park,Audubon Park,0.5384615384615384,0.9212586113296394,False
+brands,e75b97502d49,20,r4_college_park_brands,r6_baldwin_park_brands,College Park,Baldwin Park,0.8181818181818182,0.9899681543107542,False
+brands,e75b97502d49,20,r4_college_park_brands,r6_azalea_park_brands,College Park,Azalea Park,0.2903225806451613,0.9089472186621478,True
+destinations,1266f6ddde61,20,r4_college_park_destinations,r4_winter_park_destinations,College Park,Winter Park,0.9047619047619048,0.9909598859402261,False
+destinations,1266f6ddde61,20,r4_college_park_destinations,r4_pine_hills_destinations,College Park,Pine Hills,0.8181818181818182,0.807859195546694,False
+destinations,1266f6ddde61,20,r4_college_park_destinations,r4_college_park_destinations,College Park,College Park,1.0,1.0,False
+destinations,1266f6ddde61,20,r4_college_park_destinations,r4_winter_park_repeat_destinations,College Park,Winter Park,0.9047619047619048,0.9909598859402261,False
+destinations,1266f6ddde61,20,r4_college_park_destinations,r6_audubon_park_destinations,College Park,Audubon Park,0.8181818181818182,0.9888953306148086,False
+destinations,1266f6ddde61,20,r4_college_park_destinations,r6_baldwin_park_destinations,College Park,Baldwin Park,0.8181818181818182,0.821840110150088,False
+destinations,1266f6ddde61,20,r4_college_park_destinations,r6_azalea_park_destinations,College Park,Azalea Park,0.7391304347826086,0.9618421334483636,False
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r4_winter_park_place_tags,Orlando,Winter Park,0.3333333333333333,0.4428209311478124,True
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r4_pine_hills_place_tags,Orlando,Pine Hills,0.3793103448275862,0.3173231494898246,True
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r4_college_park_place_tags,Orlando,College Park,0.3793103448275862,0.471726713563712,True
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r4_orlando_place_tags,Orlando,Orlando,1.0,1.0,True
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r4_winter_park_repeat_place_tags,Orlando,Winter Park,0.3333333333333333,0.4428209311478124,True
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r6_audubon_park_place_tags,Orlando,Audubon Park,0.25,0.3961172337429038,True
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r6_baldwin_park_place_tags,Orlando,Baldwin Park,0.48148148148148145,0.6765922318465761,True
+place_tags,7628c2261d98,20,r4_orlando_place_tags,r6_azalea_park_place_tags,Orlando,Azalea Park,0.48148148148148145,0.5856841114041162,True
+brands,e75b97502d49,20,r4_orlando_brands,r4_winter_park_brands,Orlando,Winter Park,0.2903225806451613,0.5449708367667881,True
+brands,e75b97502d49,20,r4_orlando_brands,r4_pine_hills_brands,Orlando,Pine Hills,0.08108108108108109,0.3702059254669131,False
+brands,e75b97502d49,20,r4_orlando_brands,r4_college_park_brands,Orlando,College Park,0.25,0.5576973870453804,False
+brands,e75b97502d49,20,r4_orlando_brands,r4_orlando_brands,Orlando,Orlando,1.0,1.0,False
+brands,e75b97502d49,20,r4_orlando_brands,r4_winter_park_repeat_brands,Orlando,Winter Park,0.2903225806451613,0.5449708367667881,True
+brands,e75b97502d49,20,r4_orlando_brands,r6_audubon_park_brands,Orlando,Audubon Park,0.21212121212121213,0.47937728300092664,False
+brands,e75b97502d49,20,r4_orlando_brands,r6_baldwin_park_brands,Orlando,Baldwin Park,0.25,0.5759902190075351,False
+brands,e75b97502d49,20,r4_orlando_brands,r6_azalea_park_brands,Orlando,Azalea Park,0.17647058823529413,0.6291988198161734,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r4_winter_park_place_tags,Winter Park,Winter Park,1.0,1.0,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r4_pine_hills_place_tags,Winter Park,Pine Hills,0.3793103448275862,0.3915880811237236,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r4_college_park_place_tags,Winter Park,College Park,0.7391304347826086,0.9199901013837867,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r4_orlando_place_tags,Winter Park,Orlando,0.3333333333333333,0.4428209311478124,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r4_winter_park_repeat_place_tags,Winter Park,Winter Park,1.0,1.0,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r6_audubon_park_place_tags,Winter Park,Audubon Park,0.21212121212121213,0.35863495436753234,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r6_baldwin_park_place_tags,Winter Park,Baldwin Park,0.6666666666666666,0.8219968257514104,True
+place_tags,7628c2261d98,20,r4_winter_park_repeat_place_tags,r6_azalea_park_place_tags,Winter Park,Azalea Park,0.3333333333333333,0.702585732203861,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r4_winter_park_brands,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r4_pine_hills_brands,Winter Park,Pine Hills,0.1111111111111111,0.48440021478401474,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r4_college_park_brands,Winter Park,College Park,0.7391304347826086,0.9321488295928592,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r4_orlando_brands,Winter Park,Orlando,0.2903225806451613,0.5449708367667881,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r4_winter_park_repeat_brands,Winter Park,Winter Park,1.0,1.0,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r6_audubon_park_brands,Winter Park,Audubon Park,0.48148148148148145,0.9674201153335888,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r6_baldwin_park_brands,Winter Park,Baldwin Park,0.7391304347826086,0.9329220384067136,True
+brands,e75b97502d49,20,r4_winter_park_repeat_brands,r6_azalea_park_brands,Winter Park,Azalea Park,0.2903225806451613,0.8457674658546822,True
+destinations,1266f6ddde61,20,r4_winter_park_repeat_destinations,r4_winter_park_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,20,r4_winter_park_repeat_destinations,r4_pine_hills_destinations,Winter Park,Pine Hills,0.9047619047619048,0.8116721971629806,False
+destinations,1266f6ddde61,20,r4_winter_park_repeat_destinations,r4_college_park_destinations,Winter Park,College Park,0.9047619047619048,0.9909598859402261,False
+destinations,1266f6ddde61,20,r4_winter_park_repeat_destinations,r4_winter_park_repeat_destinations,Winter Park,Winter Park,1.0,1.0,False
+destinations,1266f6ddde61,20,r4_winter_park_repeat_destinations,r6_audubon_park_destinations,Winter Park,Audubon Park,0.7391304347826086,0.9917185062556823,False
+destinations,1266f6ddde61,20,r4_winter_park_repeat_destinations,r6_baldwin_park_destinations,Winter Park,Baldwin Park,0.8181818181818182,0.831731163912274,False
+destinations,1266f6ddde61,20,r4_winter_park_repeat_destinations,r6_azalea_park_destinations,Winter Park,Azalea Park,0.8181818181818182,0.9758846486227516,False
+food_dining,73dfd1add9c8,20,r5_winter_park_food_dining,r5_winter_park_food_dining,Winter Park,Winter Park,1.0,1.0,True
+food_dining,73dfd1add9c8,20,r5_winter_park_food_dining,r5_pine_hills_food_dining,Winter Park,Pine Hills,0.02564102564102564,0.003867298366700896,True
+food_dining,73dfd1add9c8,20,r5_winter_park_food_dining,r7_college_park_food_dining,Winter Park,College Park,0.5384615384615384,0.23077628880280163,True
+food_dining,73dfd1add9c8,20,r5_winter_park_food_dining,r7_audubon_park_food_dining,Winter Park,Audubon Park,0.5384615384615384,0.3404391569031796,True
+food_dining,73dfd1add9c8,20,r5_winter_park_food_dining,r7_baldwin_park_food_dining,Winter Park,Baldwin Park,0.6666666666666666,0.5362731393589683,True
+food_dining,73dfd1add9c8,20,r5_winter_park_food_dining,r7_azalea_park_food_dining,Winter Park,Azalea Park,0.17647058823529413,0.050298618558073965,True
+coffee_cafes,9cfde72b67a6,20,r5_winter_park_coffee_cafes,r5_winter_park_coffee_cafes,Winter Park,Winter Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,20,r5_winter_park_coffee_cafes,r5_pine_hills_coffee_cafes,Winter Park,Pine Hills,0.17647058823529413,0.160116839324221,True
+coffee_cafes,9cfde72b67a6,20,r5_winter_park_coffee_cafes,r7_college_park_coffee_cafes,Winter Park,College Park,0.8181818181818182,0.8039349226684741,False
+coffee_cafes,9cfde72b67a6,20,r5_winter_park_coffee_cafes,r7_baldwin_park_coffee_cafes,Winter Park,Baldwin Park,0.7391304347826086,0.9895090133502116,False
+coffee_cafes,9cfde72b67a6,20,r5_winter_park_coffee_cafes,r7_azalea_park_coffee_cafes,Winter Park,Azalea Park,0.25,0.2372063983163372,False
+nightlife_bars,a89302c79de2,20,r5_winter_park_nightlife_bars,r5_winter_park_nightlife_bars,Winter Park,Winter Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,20,r5_winter_park_nightlife_bars,r5_pine_hills_nightlife_bars,Winter Park,Pine Hills,0.3333333333333333,0.1961958413104745,False
+nightlife_bars,a89302c79de2,20,r5_winter_park_nightlife_bars,r7_college_park_nightlife_bars,Winter Park,College Park,0.6666666666666666,0.4433925755686079,False
+nightlife_bars,a89302c79de2,20,r5_winter_park_nightlife_bars,r7_baldwin_park_nightlife_bars,Winter Park,Baldwin Park,0.8181818181818182,0.8170864220637006,False
+nightlife_bars,a89302c79de2,20,r5_winter_park_nightlife_bars,r7_azalea_park_nightlife_bars,Winter Park,Azalea Park,0.3333333333333333,0.23047777610709466,False
+food_dining,73dfd1add9c8,20,r5_pine_hills_food_dining,r5_winter_park_food_dining,Pine Hills,Winter Park,0.02564102564102564,0.003867298366700896,True
+food_dining,73dfd1add9c8,20,r5_pine_hills_food_dining,r5_pine_hills_food_dining,Pine Hills,Pine Hills,1.0,1.0,False
+food_dining,73dfd1add9c8,20,r5_pine_hills_food_dining,r7_college_park_food_dining,Pine Hills,College Park,0.05263157894736842,0.006017015232077549,False
+food_dining,73dfd1add9c8,20,r5_pine_hills_food_dining,r7_audubon_park_food_dining,Pine Hills,Audubon Park,0.05263157894736842,0.009169959396427318,False
+food_dining,73dfd1add9c8,20,r5_pine_hills_food_dining,r7_baldwin_park_food_dining,Pine Hills,Baldwin Park,0.05263157894736842,0.011536273521482199,False
+food_dining,73dfd1add9c8,20,r5_pine_hills_food_dining,r7_azalea_park_food_dining,Pine Hills,Azalea Park,0.1111111111111111,0.20220445745893256,False
+coffee_cafes,9cfde72b67a6,20,r5_pine_hills_coffee_cafes,r5_winter_park_coffee_cafes,Pine Hills,Winter Park,0.17647058823529413,0.160116839324221,True
+coffee_cafes,9cfde72b67a6,20,r5_pine_hills_coffee_cafes,r5_pine_hills_coffee_cafes,Pine Hills,Pine Hills,1.0,1.0,True
+coffee_cafes,9cfde72b67a6,20,r5_pine_hills_coffee_cafes,r7_college_park_coffee_cafes,Pine Hills,College Park,0.17647058823529413,0.18349894977261538,True
+coffee_cafes,9cfde72b67a6,20,r5_pine_hills_coffee_cafes,r7_baldwin_park_coffee_cafes,Pine Hills,Baldwin Park,0.17647058823529413,0.1588411558358387,True
+coffee_cafes,9cfde72b67a6,20,r5_pine_hills_coffee_cafes,r7_azalea_park_coffee_cafes,Pine Hills,Azalea Park,0.14285714285714285,0.252527677455628,True
+nightlife_bars,a89302c79de2,20,r5_pine_hills_nightlife_bars,r5_winter_park_nightlife_bars,Pine Hills,Winter Park,0.3333333333333333,0.1961958413104745,False
+nightlife_bars,a89302c79de2,20,r5_pine_hills_nightlife_bars,r5_pine_hills_nightlife_bars,Pine Hills,Pine Hills,1.0,1.0,False
+nightlife_bars,a89302c79de2,20,r5_pine_hills_nightlife_bars,r7_college_park_nightlife_bars,Pine Hills,College Park,0.25,0.1228516171277303,False
+nightlife_bars,a89302c79de2,20,r5_pine_hills_nightlife_bars,r7_baldwin_park_nightlife_bars,Pine Hills,Baldwin Park,0.3793103448275862,0.18713772808347873,False
+nightlife_bars,a89302c79de2,20,r5_pine_hills_nightlife_bars,r7_azalea_park_nightlife_bars,Pine Hills,Azalea Park,0.3333333333333333,0.277227141612253,False
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r4_winter_park_place_tags,Audubon Park,Winter Park,0.21212121212121213,0.35863495436753234,True
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r4_pine_hills_place_tags,Audubon Park,Pine Hills,0.21212121212121213,0.2522320849520397,True
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r4_college_park_place_tags,Audubon Park,College Park,0.25,0.3864265372921326,True
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r4_orlando_place_tags,Audubon Park,Orlando,0.25,0.3961172337429038,True
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r4_winter_park_repeat_place_tags,Audubon Park,Winter Park,0.21212121212121213,0.35863495436753234,True
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r6_audubon_park_place_tags,Audubon Park,Audubon Park,1.0,1.0,True
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r6_baldwin_park_place_tags,Audubon Park,Baldwin Park,0.3333333333333333,0.48889740249852426,True
+place_tags,7628c2261d98,20,r6_audubon_park_place_tags,r6_azalea_park_place_tags,Audubon Park,Azalea Park,0.25,0.4608763003653629,True
+brands,e75b97502d49,20,r6_audubon_park_brands,r4_winter_park_brands,Audubon Park,Winter Park,0.48148148148148145,0.9674201153335888,True
+brands,e75b97502d49,20,r6_audubon_park_brands,r4_pine_hills_brands,Audubon Park,Pine Hills,0.1111111111111111,0.4781826537280961,False
+brands,e75b97502d49,20,r6_audubon_park_brands,r4_college_park_brands,Audubon Park,College Park,0.5384615384615384,0.9212586113296394,False
+brands,e75b97502d49,20,r6_audubon_park_brands,r4_orlando_brands,Audubon Park,Orlando,0.21212121212121213,0.47937728300092664,False
+brands,e75b97502d49,20,r6_audubon_park_brands,r4_winter_park_repeat_brands,Audubon Park,Winter Park,0.48148148148148145,0.9674201153335888,True
+brands,e75b97502d49,20,r6_audubon_park_brands,r6_audubon_park_brands,Audubon Park,Audubon Park,1.0,1.0,False
+brands,e75b97502d49,20,r6_audubon_park_brands,r6_baldwin_park_brands,Audubon Park,Baldwin Park,0.5384615384615384,0.9233904690505413,False
+brands,e75b97502d49,20,r6_audubon_park_brands,r6_azalea_park_brands,Audubon Park,Azalea Park,0.25,0.8328484144285089,True
+destinations,1266f6ddde61,20,r6_audubon_park_destinations,r4_winter_park_destinations,Audubon Park,Winter Park,0.7391304347826086,0.9917185062556823,False
+destinations,1266f6ddde61,20,r6_audubon_park_destinations,r4_pine_hills_destinations,Audubon Park,Pine Hills,0.6666666666666666,0.7969519399770657,False
+destinations,1266f6ddde61,20,r6_audubon_park_destinations,r4_college_park_destinations,Audubon Park,College Park,0.8181818181818182,0.9888953306148086,False
+destinations,1266f6ddde61,20,r6_audubon_park_destinations,r4_winter_park_repeat_destinations,Audubon Park,Winter Park,0.7391304347826086,0.9917185062556823,False
+destinations,1266f6ddde61,20,r6_audubon_park_destinations,r6_audubon_park_destinations,Audubon Park,Audubon Park,1.0,1.0,False
+destinations,1266f6ddde61,20,r6_audubon_park_destinations,r6_baldwin_park_destinations,Audubon Park,Baldwin Park,0.8181818181818182,0.833725376674927,False
+destinations,1266f6ddde61,20,r6_audubon_park_destinations,r6_azalea_park_destinations,Audubon Park,Azalea Park,0.7391304347826086,0.9647240665333656,False
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r4_winter_park_place_tags,Baldwin Park,Winter Park,0.6666666666666666,0.8219968257514104,True
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r4_pine_hills_place_tags,Baldwin Park,Pine Hills,0.42857142857142855,0.4211504701263839,True
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r4_college_park_place_tags,Baldwin Park,College Park,0.6666666666666666,0.8405595005904567,True
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r4_orlando_place_tags,Baldwin Park,Orlando,0.48148148148148145,0.6765922318465761,True
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r4_winter_park_repeat_place_tags,Baldwin Park,Winter Park,0.6666666666666666,0.8219968257514104,True
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r6_audubon_park_place_tags,Baldwin Park,Audubon Park,0.3333333333333333,0.48889740249852426,True
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r6_baldwin_park_place_tags,Baldwin Park,Baldwin Park,1.0,1.0,True
+place_tags,7628c2261d98,20,r6_baldwin_park_place_tags,r6_azalea_park_place_tags,Baldwin Park,Azalea Park,0.42857142857142855,0.8167530960664636,True
+brands,e75b97502d49,20,r6_baldwin_park_brands,r4_winter_park_brands,Baldwin Park,Winter Park,0.7391304347826086,0.9329220384067136,True
+brands,e75b97502d49,20,r6_baldwin_park_brands,r4_pine_hills_brands,Baldwin Park,Pine Hills,0.1111111111111111,0.6423683036398415,False
+brands,e75b97502d49,20,r6_baldwin_park_brands,r4_college_park_brands,Baldwin Park,College Park,0.8181818181818182,0.9899681543107542,False
+brands,e75b97502d49,20,r6_baldwin_park_brands,r4_orlando_brands,Baldwin Park,Orlando,0.25,0.5759902190075351,False
+brands,e75b97502d49,20,r6_baldwin_park_brands,r4_winter_park_repeat_brands,Baldwin Park,Winter Park,0.7391304347826086,0.9329220384067136,True
+brands,e75b97502d49,20,r6_baldwin_park_brands,r6_audubon_park_brands,Baldwin Park,Audubon Park,0.5384615384615384,0.9233904690505413,False
+brands,e75b97502d49,20,r6_baldwin_park_brands,r6_baldwin_park_brands,Baldwin Park,Baldwin Park,1.0,1.0,False
+brands,e75b97502d49,20,r6_baldwin_park_brands,r6_azalea_park_brands,Baldwin Park,Azalea Park,0.2903225806451613,0.9316700495636212,True
+destinations,1266f6ddde61,20,r6_baldwin_park_destinations,r4_winter_park_destinations,Baldwin Park,Winter Park,0.8181818181818182,0.831731163912274,False
+destinations,1266f6ddde61,20,r6_baldwin_park_destinations,r4_pine_hills_destinations,Baldwin Park,Pine Hills,0.7391304347826086,0.9459449260645553,False
+destinations,1266f6ddde61,20,r6_baldwin_park_destinations,r4_college_park_destinations,Baldwin Park,College Park,0.8181818181818182,0.821840110150088,False
+destinations,1266f6ddde61,20,r6_baldwin_park_destinations,r4_winter_park_repeat_destinations,Baldwin Park,Winter Park,0.8181818181818182,0.831731163912274,False
+destinations,1266f6ddde61,20,r6_baldwin_park_destinations,r6_audubon_park_destinations,Baldwin Park,Audubon Park,0.8181818181818182,0.833725376674927,False
+destinations,1266f6ddde61,20,r6_baldwin_park_destinations,r6_baldwin_park_destinations,Baldwin Park,Baldwin Park,1.0,1.0,False
+destinations,1266f6ddde61,20,r6_baldwin_park_destinations,r6_azalea_park_destinations,Baldwin Park,Azalea Park,0.8181818181818182,0.8074801237900098,False
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r4_winter_park_place_tags,Azalea Park,Winter Park,0.3333333333333333,0.702585732203861,True
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r4_pine_hills_place_tags,Azalea Park,Pine Hills,0.48148148148148145,0.6860353691773509,True
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r4_college_park_place_tags,Azalea Park,College Park,0.3793103448275862,0.6950976054250265,False
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r4_orlando_place_tags,Azalea Park,Orlando,0.48148148148148145,0.5856841114041162,True
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r4_winter_park_repeat_place_tags,Azalea Park,Winter Park,0.3333333333333333,0.702585732203861,True
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r6_audubon_park_place_tags,Azalea Park,Audubon Park,0.25,0.4608763003653629,True
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r6_baldwin_park_place_tags,Azalea Park,Baldwin Park,0.42857142857142855,0.8167530960664636,True
+place_tags,7628c2261d98,20,r6_azalea_park_place_tags,r6_azalea_park_place_tags,Azalea Park,Azalea Park,1.0,1.0,False
+brands,e75b97502d49,20,r6_azalea_park_brands,r4_winter_park_brands,Azalea Park,Winter Park,0.2903225806451613,0.8457674658546822,True
+brands,e75b97502d49,20,r6_azalea_park_brands,r4_pine_hills_brands,Azalea Park,Pine Hills,0.21212121212121213,0.6820083630217962,True
+brands,e75b97502d49,20,r6_azalea_park_brands,r4_college_park_brands,Azalea Park,College Park,0.2903225806451613,0.9089472186621478,True
+brands,e75b97502d49,20,r6_azalea_park_brands,r4_orlando_brands,Azalea Park,Orlando,0.17647058823529413,0.6291988198161734,True
+brands,e75b97502d49,20,r6_azalea_park_brands,r4_winter_park_repeat_brands,Azalea Park,Winter Park,0.2903225806451613,0.8457674658546822,True
+brands,e75b97502d49,20,r6_azalea_park_brands,r6_audubon_park_brands,Azalea Park,Audubon Park,0.25,0.8328484144285089,True
+brands,e75b97502d49,20,r6_azalea_park_brands,r6_baldwin_park_brands,Azalea Park,Baldwin Park,0.2903225806451613,0.9316700495636212,True
+brands,e75b97502d49,20,r6_azalea_park_brands,r6_azalea_park_brands,Azalea Park,Azalea Park,1.0,1.0,True
+destinations,1266f6ddde61,20,r6_azalea_park_destinations,r4_winter_park_destinations,Azalea Park,Winter Park,0.8181818181818182,0.9758846486227516,False
+destinations,1266f6ddde61,20,r6_azalea_park_destinations,r4_pine_hills_destinations,Azalea Park,Pine Hills,0.8181818181818182,0.830757415165588,False
+destinations,1266f6ddde61,20,r6_azalea_park_destinations,r4_college_park_destinations,Azalea Park,College Park,0.7391304347826086,0.9618421334483636,False
+destinations,1266f6ddde61,20,r6_azalea_park_destinations,r4_winter_park_repeat_destinations,Azalea Park,Winter Park,0.8181818181818182,0.9758846486227516,False
+destinations,1266f6ddde61,20,r6_azalea_park_destinations,r6_audubon_park_destinations,Azalea Park,Audubon Park,0.7391304347826086,0.9647240665333656,False
+destinations,1266f6ddde61,20,r6_azalea_park_destinations,r6_baldwin_park_destinations,Azalea Park,Baldwin Park,0.8181818181818182,0.8074801237900098,False
+destinations,1266f6ddde61,20,r6_azalea_park_destinations,r6_azalea_park_destinations,Azalea Park,Azalea Park,1.0,1.0,False
+food_dining,73dfd1add9c8,20,r7_college_park_food_dining,r5_winter_park_food_dining,College Park,Winter Park,0.5384615384615384,0.23077628880280163,True
+food_dining,73dfd1add9c8,20,r7_college_park_food_dining,r5_pine_hills_food_dining,College Park,Pine Hills,0.05263157894736842,0.006017015232077549,False
+food_dining,73dfd1add9c8,20,r7_college_park_food_dining,r7_college_park_food_dining,College Park,College Park,1.0,1.0,False
+food_dining,73dfd1add9c8,20,r7_college_park_food_dining,r7_audubon_park_food_dining,College Park,Audubon Park,0.6,0.3240387786282593,False
+food_dining,73dfd1add9c8,20,r7_college_park_food_dining,r7_baldwin_park_food_dining,College Park,Baldwin Park,0.6666666666666666,0.20151488680293303,False
+food_dining,73dfd1add9c8,20,r7_college_park_food_dining,r7_azalea_park_food_dining,College Park,Azalea Park,0.21212121212121213,0.04223469653092776,False
+coffee_cafes,9cfde72b67a6,20,r7_college_park_coffee_cafes,r5_winter_park_coffee_cafes,College Park,Winter Park,0.8181818181818182,0.8039349226684741,False
+coffee_cafes,9cfde72b67a6,20,r7_college_park_coffee_cafes,r5_pine_hills_coffee_cafes,College Park,Pine Hills,0.17647058823529413,0.18349894977261538,True
+coffee_cafes,9cfde72b67a6,20,r7_college_park_coffee_cafes,r7_college_park_coffee_cafes,College Park,College Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,20,r7_college_park_coffee_cafes,r7_baldwin_park_coffee_cafes,College Park,Baldwin Park,0.7391304347826086,0.8023923297243652,False
+coffee_cafes,9cfde72b67a6,20,r7_college_park_coffee_cafes,r7_azalea_park_coffee_cafes,College Park,Azalea Park,0.25,0.2532624641453011,False
+nightlife_bars,a89302c79de2,20,r7_college_park_nightlife_bars,r5_winter_park_nightlife_bars,College Park,Winter Park,0.6666666666666666,0.4433925755686079,False
+nightlife_bars,a89302c79de2,20,r7_college_park_nightlife_bars,r5_pine_hills_nightlife_bars,College Park,Pine Hills,0.25,0.1228516171277303,False
+nightlife_bars,a89302c79de2,20,r7_college_park_nightlife_bars,r7_college_park_nightlife_bars,College Park,College Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,20,r7_college_park_nightlife_bars,r7_baldwin_park_nightlife_bars,College Park,Baldwin Park,0.6666666666666666,0.585760058653365,False
+nightlife_bars,a89302c79de2,20,r7_college_park_nightlife_bars,r7_azalea_park_nightlife_bars,College Park,Azalea Park,0.25,0.10637559816438905,False
+food_dining,73dfd1add9c8,20,r7_audubon_park_food_dining,r5_winter_park_food_dining,Audubon Park,Winter Park,0.5384615384615384,0.3404391569031796,True
+food_dining,73dfd1add9c8,20,r7_audubon_park_food_dining,r5_pine_hills_food_dining,Audubon Park,Pine Hills,0.05263157894736842,0.009169959396427318,False
+food_dining,73dfd1add9c8,20,r7_audubon_park_food_dining,r7_college_park_food_dining,Audubon Park,College Park,0.6,0.3240387786282593,False
+food_dining,73dfd1add9c8,20,r7_audubon_park_food_dining,r7_audubon_park_food_dining,Audubon Park,Audubon Park,1.0,1.0,False
+food_dining,73dfd1add9c8,20,r7_audubon_park_food_dining,r7_baldwin_park_food_dining,Audubon Park,Baldwin Park,0.6,0.4449239973520173,False
+food_dining,73dfd1add9c8,20,r7_audubon_park_food_dining,r7_azalea_park_food_dining,Audubon Park,Azalea Park,0.21212121212121213,0.06487826121530473,False
+food_dining,73dfd1add9c8,20,r7_baldwin_park_food_dining,r5_winter_park_food_dining,Baldwin Park,Winter Park,0.6666666666666666,0.5362731393589683,True
+food_dining,73dfd1add9c8,20,r7_baldwin_park_food_dining,r5_pine_hills_food_dining,Baldwin Park,Pine Hills,0.05263157894736842,0.011536273521482199,False
+food_dining,73dfd1add9c8,20,r7_baldwin_park_food_dining,r7_college_park_food_dining,Baldwin Park,College Park,0.6666666666666666,0.20151488680293303,False
+food_dining,73dfd1add9c8,20,r7_baldwin_park_food_dining,r7_audubon_park_food_dining,Baldwin Park,Audubon Park,0.6,0.4449239973520173,False
+food_dining,73dfd1add9c8,20,r7_baldwin_park_food_dining,r7_baldwin_park_food_dining,Baldwin Park,Baldwin Park,1.0,1.0,False
+food_dining,73dfd1add9c8,20,r7_baldwin_park_food_dining,r7_azalea_park_food_dining,Baldwin Park,Azalea Park,0.21212121212121213,0.06874997609814869,False
+coffee_cafes,9cfde72b67a6,20,r7_baldwin_park_coffee_cafes,r5_winter_park_coffee_cafes,Baldwin Park,Winter Park,0.7391304347826086,0.9895090133502116,False
+coffee_cafes,9cfde72b67a6,20,r7_baldwin_park_coffee_cafes,r5_pine_hills_coffee_cafes,Baldwin Park,Pine Hills,0.17647058823529413,0.1588411558358387,True
+coffee_cafes,9cfde72b67a6,20,r7_baldwin_park_coffee_cafes,r7_college_park_coffee_cafes,Baldwin Park,College Park,0.7391304347826086,0.8023923297243652,False
+coffee_cafes,9cfde72b67a6,20,r7_baldwin_park_coffee_cafes,r7_baldwin_park_coffee_cafes,Baldwin Park,Baldwin Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,20,r7_baldwin_park_coffee_cafes,r7_azalea_park_coffee_cafes,Baldwin Park,Azalea Park,0.3793103448275862,0.28728688979018874,False
+nightlife_bars,a89302c79de2,20,r7_baldwin_park_nightlife_bars,r5_winter_park_nightlife_bars,Baldwin Park,Winter Park,0.8181818181818182,0.8170864220637006,False
+nightlife_bars,a89302c79de2,20,r7_baldwin_park_nightlife_bars,r5_pine_hills_nightlife_bars,Baldwin Park,Pine Hills,0.3793103448275862,0.18713772808347873,False
+nightlife_bars,a89302c79de2,20,r7_baldwin_park_nightlife_bars,r7_college_park_nightlife_bars,Baldwin Park,College Park,0.6666666666666666,0.585760058653365,False
+nightlife_bars,a89302c79de2,20,r7_baldwin_park_nightlife_bars,r7_baldwin_park_nightlife_bars,Baldwin Park,Baldwin Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,20,r7_baldwin_park_nightlife_bars,r7_azalea_park_nightlife_bars,Baldwin Park,Azalea Park,0.3793103448275862,0.2476825463241867,False
+food_dining,73dfd1add9c8,20,r7_azalea_park_food_dining,r5_winter_park_food_dining,Azalea Park,Winter Park,0.17647058823529413,0.050298618558073965,True
+food_dining,73dfd1add9c8,20,r7_azalea_park_food_dining,r5_pine_hills_food_dining,Azalea Park,Pine Hills,0.1111111111111111,0.20220445745893256,False
+food_dining,73dfd1add9c8,20,r7_azalea_park_food_dining,r7_college_park_food_dining,Azalea Park,College Park,0.21212121212121213,0.04223469653092776,False
+food_dining,73dfd1add9c8,20,r7_azalea_park_food_dining,r7_audubon_park_food_dining,Azalea Park,Audubon Park,0.21212121212121213,0.06487826121530473,False
+food_dining,73dfd1add9c8,20,r7_azalea_park_food_dining,r7_baldwin_park_food_dining,Azalea Park,Baldwin Park,0.21212121212121213,0.06874997609814869,False
+food_dining,73dfd1add9c8,20,r7_azalea_park_food_dining,r7_azalea_park_food_dining,Azalea Park,Azalea Park,1.0,1.0,False
+coffee_cafes,9cfde72b67a6,20,r7_azalea_park_coffee_cafes,r5_winter_park_coffee_cafes,Azalea Park,Winter Park,0.25,0.2372063983163372,False
+coffee_cafes,9cfde72b67a6,20,r7_azalea_park_coffee_cafes,r5_pine_hills_coffee_cafes,Azalea Park,Pine Hills,0.14285714285714285,0.252527677455628,True
+coffee_cafes,9cfde72b67a6,20,r7_azalea_park_coffee_cafes,r7_college_park_coffee_cafes,Azalea Park,College Park,0.25,0.2532624641453011,False
+coffee_cafes,9cfde72b67a6,20,r7_azalea_park_coffee_cafes,r7_baldwin_park_coffee_cafes,Azalea Park,Baldwin Park,0.3793103448275862,0.28728688979018874,False
+coffee_cafes,9cfde72b67a6,20,r7_azalea_park_coffee_cafes,r7_azalea_park_coffee_cafes,Azalea Park,Azalea Park,1.0,1.0,False
+nightlife_bars,a89302c79de2,20,r7_azalea_park_nightlife_bars,r5_winter_park_nightlife_bars,Azalea Park,Winter Park,0.3333333333333333,0.23047777610709466,False
+nightlife_bars,a89302c79de2,20,r7_azalea_park_nightlife_bars,r5_pine_hills_nightlife_bars,Azalea Park,Pine Hills,0.3333333333333333,0.277227141612253,False
+nightlife_bars,a89302c79de2,20,r7_azalea_park_nightlife_bars,r7_college_park_nightlife_bars,Azalea Park,College Park,0.25,0.10637559816438905,False
+nightlife_bars,a89302c79de2,20,r7_azalea_park_nightlife_bars,r7_baldwin_park_nightlife_bars,Azalea Park,Baldwin Park,0.3793103448275862,0.2476825463241867,False
+nightlife_bars,a89302c79de2,20,r7_azalea_park_nightlife_bars,r7_azalea_park_nightlife_bars,Azalea Park,Azalea Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,20,r9_winter_park_brands_500,r9_winter_park_brands_500,Winter Park,Winter Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,20,r9_winter_park_brands_500,r9_college_park_brands_500,Winter Park,College Park,0.5384615384615384,0.9549896239483596,False
+brands_point,cbaa76cc89bf,20,r9_winter_park_brands_500,r9_mills_50_point_proxy_brands_500,Winter Park,Mills 50 point proxy,0.6,0.957374475115303,False
+brands_point,1a727ba56c5b,20,r9_winter_park_brands_1000,r9_winter_park_brands_1000,Winter Park,Winter Park,1.0,1.0,False
+brands_point,1a727ba56c5b,20,r9_winter_park_brands_1000,r9_college_park_brands_1000,Winter Park,College Park,0.6,0.9388688672637804,False
+brands_point,1a727ba56c5b,20,r9_winter_park_brands_1000,r9_mills_50_point_proxy_brands_1000,Winter Park,Mills 50 point proxy,0.6666666666666666,0.9660891156674236,False
+brands_point,cbaa76cc89bf,20,r9_college_park_brands_500,r9_winter_park_brands_500,College Park,Winter Park,0.5384615384615384,0.9549896239483596,False
+brands_point,cbaa76cc89bf,20,r9_college_park_brands_500,r9_college_park_brands_500,College Park,College Park,1.0,1.0,False
+brands_point,cbaa76cc89bf,20,r9_college_park_brands_500,r9_mills_50_point_proxy_brands_500,College Park,Mills 50 point proxy,0.7391304347826086,0.9870674799711028,False
+brands_point,1a727ba56c5b,20,r9_college_park_brands_1000,r9_winter_park_brands_1000,College Park,Winter Park,0.6,0.9388688672637804,False
+brands_point,1a727ba56c5b,20,r9_college_park_brands_1000,r9_college_park_brands_1000,College Park,College Park,1.0,1.0,False
+brands_point,1a727ba56c5b,20,r9_college_park_brands_1000,r9_mills_50_point_proxy_brands_1000,College Park,Mills 50 point proxy,0.6666666666666666,0.9618541924198143,False
+brands_point,cbaa76cc89bf,20,r9_mills_50_point_proxy_brands_500,r9_winter_park_brands_500,Mills 50 point proxy,Winter Park,0.6,0.957374475115303,False
+brands_point,cbaa76cc89bf,20,r9_mills_50_point_proxy_brands_500,r9_college_park_brands_500,Mills 50 point proxy,College Park,0.7391304347826086,0.9870674799711028,False
+brands_point,cbaa76cc89bf,20,r9_mills_50_point_proxy_brands_500,r9_mills_50_point_proxy_brands_500,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False
+brands_point,1a727ba56c5b,20,r9_mills_50_point_proxy_brands_1000,r9_winter_park_brands_1000,Mills 50 point proxy,Winter Park,0.6666666666666666,0.9660891156674236,False
+brands_point,1a727ba56c5b,20,r9_mills_50_point_proxy_brands_1000,r9_college_park_brands_1000,Mills 50 point proxy,College Park,0.6666666666666666,0.9618541924198143,False
+brands_point,1a727ba56c5b,20,r9_mills_50_point_proxy_brands_1000,r9_mills_50_point_proxy_brands_1000,Mills 50 point proxy,Mills 50 point proxy,1.0,1.0,False

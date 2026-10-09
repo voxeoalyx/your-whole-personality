@@ -1,0 +1,13 @@
+{
+  "at": 1791471004.6503475,
+  "request_hash": "0ff235fa5643971c3bb3471c65979e614b01d2aaaeca90e5e1d36eda69922ce4",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:videogame",
+    "signal.interests.tags": "urn:tag:genre:music:yoga",
+    "take": "20"
+  },
+  "response_sha256": "5fa1f2a69970eb067ea2e01819752ad81ee5ad4f831edb0324ef3465c190482e"
+}

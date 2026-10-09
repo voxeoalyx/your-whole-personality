@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-07T18:35:19.246430+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.031,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "page": "1",
+    "query": "Winter Park, Florida",
+    "take": "5",
+    "types": "urn:entity:locality"
+  },
+  "raw_file": "..\\02-host-probe\\winter_park_lookup.a1.json",
+  "request_sha256": "b6f568e74654bf78a35f049164b4c83bc14d3a165b301f2e308b7398f3ee27d0",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:35:21 GMT"
+  },
+  "response_sha256": "5e4dc91f2dbef00c87110fdb45ddc0670f898a9692864ac62367e697bae81b55",
+  "spec": {
+    "id": "r2_winter_park_lookup",
+    "kind": "lookup",
+    "area": "Winter Park",
+    "endpoint": "/search",
+    "params": {
+      "query": "Winter Park, Florida",
+      "types": "urn:entity:locality",
+      "take": 5,
+      "page": 1
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/search?page=1&query=Winter+Park%2C+Florida&take=5&types=urn%3Aentity%3Alocality",
+  "source_meta": "C:\\Users\\AlyxKaczuwka\\Documents\\Playground\\civilizr-research\\runs\\02-host-probe\\winter_park_lookup.meta.json"
+}

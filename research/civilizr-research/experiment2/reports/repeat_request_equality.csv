@@ -1,0 +1,5 @@
+﻿request,results_exact_equal,includes_missing_candidates,note
+winter_park_base_brands,True,False,Exact equality does not imply complete scoring or historical stability
+winter_park_base_tags,True,True,Exact equality does not imply complete scoring or historical stability
+pine_hills_base_brands,True,True,Exact equality does not imply complete scoring or historical stability
+pine_hills_base_tags,True,True,Exact equality does not imply complete scoring or historical stability

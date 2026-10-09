@@ -1,0 +1,195 @@
+{
+  "title": "Resolve every intended seed without accepting first-hit homonyms",
+  "requests": [
+    {
+      "id": "radiohead",
+      "endpoint": "/search",
+      "params": {
+        "query": "Radiohead",
+        "types": "urn:entity:artist",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "blue_bottle",
+      "endpoint": "/search",
+      "params": {
+        "query": "Blue Bottle Coffee",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "severance",
+      "endpoint": "/search",
+      "params": {
+        "query": "Severance",
+        "types": "urn:entity:tv_show",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "joe_person",
+      "endpoint": "/search",
+      "params": {
+        "query": "Joe Rogan",
+        "types": "urn:entity:person",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "rogan",
+      "endpoint": "/search",
+      "params": {
+        "query": "The Joe Rogan Experience",
+        "types": "urn:entity:podcast",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "huberman",
+      "endpoint": "/search",
+      "params": {
+        "query": "Huberman Lab",
+        "types": "urn:entity:podcast",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "taylor",
+      "endpoint": "/search",
+      "params": {
+        "query": "Taylor Swift",
+        "types": "urn:entity:artist",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "starbucks",
+      "endpoint": "/search",
+      "params": {
+        "query": "Starbucks",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "friends",
+      "endpoint": "/search",
+      "params": {
+        "query": "Friends",
+        "types": "urn:entity:tv_show",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "metallica",
+      "endpoint": "/search",
+      "params": {
+        "query": "Metallica",
+        "types": "urn:entity:artist",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "nike",
+      "endpoint": "/search",
+      "params": {
+        "query": "Nike",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "elden_ring",
+      "endpoint": "/search",
+      "params": {
+        "query": "Elden Ring",
+        "types": "urn:entity:videogame",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "animal_crossing",
+      "endpoint": "/search",
+      "params": {
+        "query": "Animal Crossing: New Horizons",
+        "types": "urn:entity:videogame",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "patagonia",
+      "endpoint": "/search",
+      "params": {
+        "query": "Patagonia",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "lululemon",
+      "endpoint": "/search",
+      "params": {
+        "query": "Lululemon",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "monster",
+      "endpoint": "/search",
+      "params": {
+        "query": "Monster Energy",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "dune",
+      "endpoint": "/search",
+      "params": {
+        "query": "Dune",
+        "types": "urn:entity:book",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "bjork",
+      "endpoint": "/search",
+      "params": {
+        "query": "Björk",
+        "types": "urn:entity:artist",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "apple",
+      "endpoint": "/search",
+      "params": {
+        "query": "Apple",
+        "types": "urn:entity:brand",
+        "take": 5
+      },
+      "kind": "discovery"
+    }
+  ]
+}

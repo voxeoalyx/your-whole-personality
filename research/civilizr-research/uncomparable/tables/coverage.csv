@@ -1,0 +1,8 @@
+﻿property,lookup,affinity,proxy,request,notes
+jacobs,yes,no,Usonian tag flat; Wright author shared with Fallingwater,05_houses/jacobs_brands,Search identity accepted at rank 9; HTTP 400 invalid interest.
+fallingwater,yes,no,Wright author cannot represent its distinctive site,06_domains/fallingwater_brands,Correct place found only after expanding search to take=100; also rejected in books.
+farnsworth,yes,yes,Mies person rejected; International Style tag flat,08_fixed/farnsworth_fixed,Direct house profile works; no claim of resident/homebuyer sampling.
+eames,institution at house address,"yes, institution proxy",Charles person rejected; Ray author works but produces different brands,08_fixed/eames_fixed,Official foundation contact verifies 203 Chautauqua address; distinguish the institution from residential desirability.
+gamble,yes,yes,"Craftsman tag flat; Greene architect found with full name, not affinity-tested",08_fixed/gamble_fixed,Charles Greene homonyms rejected; Stickley brand search returned no results.
+douglass,yes,yes,"Author resolved, affinity not tested",08_fixed/douglass_fixed,Historic site signal cannot isolate house architecture from Douglass or tourism.
+mckinley,not found in finite search,not tested directly,Sustainable Architecture tag flat,06_domains/sustainable_brands,No faithful property ID; broad decor proxy does not represent an ordinary suburban home.

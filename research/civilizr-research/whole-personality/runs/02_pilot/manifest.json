@@ -1,0 +1,254 @@
+{
+  "created_at": "2026-10-08T11:06:25.237059+00:00",
+  "identity": {
+    "base_url": "https://hackathon.api.qloo.com",
+    "plan": {
+      "title": "Direct Joe Rogan versus separately labeled podcast substitution; singleton and combined probes",
+      "requests": [
+        {
+          "id": "single_radiohead_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "single_blue_bottle_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "blue_bottle"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "single_severance_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "569F8294-72DA-4935-B9F2-4FC697AB2A1E"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "severance"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "single_joe_person_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "C0E17E3C-A232-466D-A741-E18A6E978C88"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "joe_person"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "single_rogan_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "2BBC8913-13CA-47A3-BCD0-B48E70D6B005"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "rogan"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "p01_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "569F8294-72DA-4935-B9F2-4FC697AB2A1E"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead",
+            "blue_bottle",
+            "severance"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "p01_tv_show",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:tv_show",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "569F8294-72DA-4935-B9F2-4FC697AB2A1E"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead",
+            "blue_bottle",
+            "severance"
+          ],
+          "domain": "tv_show"
+        },
+        {
+          "id": "p02_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "2BBC8913-13CA-47A3-BCD0-B48E70D6B005"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead",
+            "blue_bottle",
+            "rogan"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "p02_tv_show",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:tv_show",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "2BBC8913-13CA-47A3-BCD0-B48E70D6B005"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead",
+            "blue_bottle",
+            "rogan"
+          ],
+          "domain": "tv_show"
+        },
+        {
+          "id": "demo_person_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "C0E17E3C-A232-466D-A741-E18A6E978C88"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead",
+            "blue_bottle",
+            "joe_person"
+          ],
+          "domain": "brand"
+        },
+        {
+          "id": "demo_person_tv_show",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:tv_show",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+              "C0E17E3C-A232-466D-A741-E18A6E978C88"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead",
+            "blue_bottle",
+            "joe_person"
+          ],
+          "domain": "tv_show"
+        },
+        {
+          "id": "base_rb_brand",
+          "endpoint": "/v2/insights",
+          "params": {
+            "filter.type": "urn:entity:brand",
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D"
+            ],
+            "bias.trends": "off",
+            "feature.explainability": true,
+            "take": 10
+          },
+          "kind": "fixed_profile",
+          "seed_keys": [
+            "radiohead",
+            "blue_bottle"
+          ],
+          "domain": "brand"
+        }
+      ]
+    },
+    "code_sha256": "88926b5ff19d9578b0be91249bce28af4fa4ad08289956bda59ef7d9d0db267e"
+  }
+}

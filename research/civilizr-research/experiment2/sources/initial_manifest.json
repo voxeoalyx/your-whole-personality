@@ -1,0 +1,30 @@
+[
+  {
+    "id": "atlanta_layer",
+    "url": "https://gis.atlantaga.gov/dpcd/rest/services/AdministrativeArea/GeopoliticalArea/MapServer/1?f=pjson",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:17:33.066Z",
+    "sha256": "1a06ec8b0c3de8ecf0e841fed6b4f2ff0a263aca71860512b8ede8c5911b476e"
+  },
+  {
+    "id": "city_district",
+    "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/City-District-Main-Street",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:17:33.491Z",
+    "sha256": "a8c608d27c6a1d5ae804cf1c9fb99a29d0a82aa05d580d3576a1647e2e806756"
+  },
+  {
+    "id": "thornton_park",
+    "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Thornton-Park-District-Main-Street",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:17:33.417Z",
+    "sha256": "d067b674b78b36df050389e1511130f9a8fb074e002818b2ab90154b9e9b62e0"
+  },
+  {
+    "id": "mills_50",
+    "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/Business-Development/Orlando-Main-Streets/Mills-50-District-Main-Street",
+    "status": 200,
+    "retrieved_at": "2026-10-07T19:17:33.459Z",
+    "sha256": "5a8ba04407396332cd24194c67db1608ea1f3b6ba029e749ab24466d0398b2ae"
+  }
+]

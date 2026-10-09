@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-07T18:49:31.898939+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 1.61,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "bias.trends": "off",
+    "filter.type": "urn:entity:brand",
+    "signal.location": "POINT(-81.36410959999999 28.552895699999997)",
+    "signal.location.radius": "500",
+    "take": "20"
+  },
+  "raw_file": "mills_50_point_proxy_brands_500.a1.json",
+  "request_sha256": "ff781b392db40eff84a151aaf7c9291267d56bbc3b870f39fc76b8c854bb22a1",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 18:49:33 GMT"
+  },
+  "response_sha256": "d7f6d8597522a2b747de247326d532dc15e2c0815fbf4cf3c58c8a0a517a102d",
+  "spec": {
+    "area": "Mills 50 point proxy",
+    "dimension": "brands_point",
+    "endpoint": "/v2/insights",
+    "geography_note": "Qloo place Mills 50 Medispa at 1206 E Colonial Dr, not a neighborhood boundary.",
+    "geography_verified": true,
+    "id": "mills_50_point_proxy_brands_500",
+    "kind": "profile",
+    "params": {
+      "bias.trends": "off",
+      "filter.type": "urn:entity:brand",
+      "signal.location": "POINT(-81.36410959999999 28.552895699999997)",
+      "signal.location.radius": 500,
+      "take": 20
+    },
+    "role": "proxy"
+  },
+  "url": "https://hackathon.api.qloo.com/v2/insights?bias.trends=off&filter.type=urn%3Aentity%3Abrand&signal.location=POINT%28-81.36410959999999+28.552895699999997%29&signal.location.radius=500&take=20"
+}

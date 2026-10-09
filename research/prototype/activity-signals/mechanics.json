@@ -1,0 +1,574 @@
+[
+  {
+    "inputs": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Running (hobby audience)"
+    ],
+    "predictions": [
+      [
+        "Black Mirror",
+        "tv_show",
+        0.9635710257017612
+      ],
+      [
+        "Lady Bird",
+        "movie",
+        0.9219753652771571
+      ],
+      [
+        "Electric Dreams",
+        "tv_show",
+        0.9555191743054888
+      ],
+      [
+        "Roma",
+        "movie",
+        0.9209059187915709
+      ],
+      [
+        "UnREAL",
+        "tv_show",
+        0.9539179823421067
+      ],
+      [
+        "The Disaster Artist",
+        "movie",
+        0.9208030104678528
+      ]
+    ],
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "domains": {
+            "tv_show": 0.58796992481203,
+            "movie": 0.3526315789473684
+          },
+          "value": 0.4703007518796992,
+          "halves": [
+            0.4303030303030303,
+            0.5303030303030303
+          ]
+        },
+        {
+          "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "name": "Blue Bottle Coffee",
+          "domains": {
+            "tv_show": 0.16842105263157897,
+            "movie": 0.324812030075188
+          },
+          "value": 0.24661654135338348,
+          "halves": [
+            0.2696969696969697,
+            0.2363636363636364
+          ]
+        },
+        {
+          "id": "urn:audience:hobbies_and_interests:running",
+          "name": "Running (hobby audience)",
+          "domains": {
+            "tv_show": 0.17894736842105263,
+            "movie": 0.081203007518797
+          },
+          "value": 0.13007518796992482,
+          "halves": [
+            0.18787878787878787,
+            0.08787878787878789
+          ]
+        }
+      ],
+      "domains": [
+        "tv_show",
+        "movie"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+      "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+    }
+  },
+  {
+    "inputs": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Yoga (hobby audience)"
+    ],
+    "predictions": [
+      [
+        "Tomorrow with You",
+        "tv_show",
+        0.9495982384735997
+      ],
+      [
+        "Lady Bird",
+        "movie",
+        0.9200549978292853
+      ],
+      [
+        "Something in the Rain",
+        "tv_show",
+        0.946443060238878
+      ],
+      [
+        "Call Me by Your Name",
+        "movie",
+        0.9184795598914078
+      ],
+      [
+        "Doctor Foster: A Woman Scorned",
+        "tv_show",
+        0.9462028761889009
+      ],
+      [
+        "Sing Street",
+        "movie",
+        0.9092557911905222
+      ]
+    ],
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "domains": {
+            "tv_show": 0.4406015037593985,
+            "movie": 0.29172932330827067
+          },
+          "value": 0.3661654135338346,
+          "halves": [
+            0.3212121212121212,
+            0.5363636363636364
+          ]
+        },
+        {
+          "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "name": "Blue Bottle Coffee",
+          "domains": {
+            "tv_show": 0.28872180451127816,
+            "movie": 0.33834586466165417
+          },
+          "value": 0.31353383458646616,
+          "halves": [
+            0.3787878787878788,
+            0.21212121212121213
+          ]
+        },
+        {
+          "id": "urn:audience:hobbies_and_interests:yoga",
+          "name": "Yoga (hobby audience)",
+          "domains": {
+            "tv_show": 0.20225563909774436,
+            "movie": 0.10601503759398495
+          },
+          "value": 0.15413533834586465,
+          "halves": [
+            0.1878787878787879,
+            0.14242424242424243
+          ]
+        }
+      ],
+      "domains": [
+        "tv_show",
+        "movie"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+      "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+    }
+  },
+  {
+    "inputs": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Architecture (hobby audience)"
+    ],
+    "predictions": [
+      [
+        "UnREAL",
+        "tv_show",
+        0.9528453630537014
+      ],
+      [
+        "Lady Bird",
+        "movie",
+        0.9379785485676282
+      ],
+      [
+        "Easy",
+        "tv_show",
+        0.9490572222973412
+      ],
+      [
+        "Call Me by Your Name",
+        "movie",
+        0.9264003271267955
+      ],
+      [
+        "Black Mirror",
+        "tv_show",
+        0.9487007490991997
+      ],
+      [
+        "Moonlight",
+        "movie",
+        0.91765523378663
+      ]
+    ],
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "name": "Blue Bottle Coffee",
+          "domains": {
+            "tv_show": 0.3902255639097744,
+            "movie": 0.40150375939849625
+          },
+          "value": 0.39586466165413536,
+          "halves": [
+            0.5212121212121212,
+            0.27575757575757576
+          ]
+        },
+        {
+          "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "domains": {
+            "tv_show": 0.4345864661654135,
+            "movie": 0.3112781954887218
+          },
+          "value": 0.37293233082706767,
+          "halves": [
+            0.2545454545454545,
+            0.5151515151515151
+          ]
+        },
+        {
+          "id": "urn:audience:hobbies_and_interests:architecture",
+          "name": "Architecture (hobby audience)",
+          "domains": {
+            "tv_show": 0.10526315789473684,
+            "movie": 0.10751879699248118
+          },
+          "value": 0.10639097744360901,
+          "halves": [
+            0.08484848484848484,
+            0.11212121212121212
+          ]
+        }
+      ],
+      "domains": [
+        "tv_show",
+        "movie"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+      "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+    }
+  },
+  {
+    "inputs": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Architecture (Books genre tag)"
+    ],
+    "predictions": [
+      [
+        "The Baker and the Beauty",
+        "tv_show",
+        0.920252758166786
+      ],
+      [
+        "True Story",
+        "movie",
+        0.8816491570474185
+      ],
+      [
+        "The Corner",
+        "tv_show",
+        0.8984923656596973
+      ],
+      [
+        "Marriage Story",
+        "movie",
+        0.8746723900621902
+      ],
+      [
+        "My Dearest",
+        "tv_show",
+        0.8977096698396541
+      ],
+      [
+        "See You Tomorrow",
+        "movie",
+        0.8688679915375231
+      ]
+    ],
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "urn:tag:genre:media:architecture",
+          "name": "Architecture (Books genre tag)",
+          "domains": {
+            "tv_show": 0.4323308270676692,
+            "movie": 0.5714285714285714
+          },
+          "value": 0.5018796992481203,
+          "halves": [
+            0.6515151515151515,
+            0.44545454545454544
+          ]
+        },
+        {
+          "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "name": "Blue Bottle Coffee",
+          "domains": {
+            "tv_show": 0.23533834586466168,
+            "movie": 0.3458646616541353
+          },
+          "value": 0.2906015037593985,
+          "halves": [
+            0.2,
+            0.2818181818181818
+          ]
+        },
+        {
+          "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "domains": {
+            "tv_show": 0.08646616541353386,
+            "movie": 0.19548872180451127
+          },
+          "value": 0.14097744360902256,
+          "halves": [
+            0.1606060606060606,
+            0.22727272727272727
+          ]
+        }
+      ],
+      "domains": [
+        "tv_show",
+        "movie"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+      "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+    }
+  },
+  {
+    "inputs": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Yoga (Music genre tag)"
+    ],
+    "predictions": [
+      [
+        "The Final Table",
+        "tv_show",
+        0.9351565351996479
+      ],
+      [
+        "Moon",
+        "movie",
+        0.9152670226449152
+      ],
+      [
+        "Camping",
+        "tv_show",
+        0.9332991236312279
+      ],
+      [
+        "Closer",
+        "movie",
+        0.9029175845101912
+      ],
+      [
+        "The OA",
+        "tv_show",
+        0.9252294898603066
+      ],
+      [
+        "Children of Men",
+        "movie",
+        0.8962849816705134
+      ]
+    ],
+    "sensitivity": {
+      "status": "complete",
+      "winner": {
+        "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "value": 0.5041353383458647
+      },
+      "rows": [
+        {
+          "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "domains": {
+            "tv_show": 0.3616541353383459,
+            "movie": 0.6466165413533834
+          },
+          "value": 0.5041353383458647,
+          "halves": [
+            0.5363636363636364,
+            0.38181818181818183
+          ]
+        },
+        {
+          "id": "urn:tag:genre:music:yoga",
+          "name": "Yoga (Music genre tag)",
+          "domains": {
+            "tv_show": 0.2894736842105263,
+            "movie": 0.1601503759398496
+          },
+          "value": 0.22481203007518796,
+          "halves": [
+            0.1303030303030303,
+            0.32727272727272727
+          ]
+        },
+        {
+          "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "name": "Blue Bottle Coffee",
+          "domains": {
+            "tv_show": 0.2263157894736842,
+            "movie": 0.11954887218045113
+          },
+          "value": 0.17293233082706766,
+          "halves": [
+            0.203030303030303,
+            0.18484848484848487
+          ]
+        }
+      ],
+      "domains": [
+        "tv_show",
+        "movie"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+      "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+    }
+  },
+  {
+    "inputs": [
+      "Radiohead",
+      "Blue Bottle Coffee",
+      "Architecture (Books genre tag)",
+      "Running (hobby audience)",
+      "Yoga (hobby audience)"
+    ],
+    "predictions": [
+      [
+        "Master of None",
+        "tv_show",
+        0.8939432072068232
+      ],
+      [
+        "True Story",
+        "movie",
+        0.8835995936643865
+      ],
+      [
+        "Camping",
+        "tv_show",
+        0.8933224480212646
+      ],
+      [
+        "The Revenant",
+        "movie",
+        0.882925607910537
+      ],
+      [
+        "Search Party",
+        "tv_show",
+        0.8929889304139907
+      ],
+      [
+        "Jumanji: The Next Level",
+        "movie",
+        0.8674803988272524
+      ]
+    ],
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "urn:tag:genre:media:architecture",
+          "name": "Architecture (Books genre tag)",
+          "domains": {
+            "tv_show": 0.43759398496240604,
+            "movie": 0.675187969924812
+          },
+          "value": 0.556390977443609,
+          "halves": [
+            0.4545454545454546,
+            0.6757575757575758
+          ]
+        },
+        {
+          "id": "urn:audience:hobbies_and_interests:running",
+          "name": "Running (hobby audience)",
+          "domains": {
+            "tv_show": 0.20827067669172933,
+            "movie": 0.3548872180451128
+          },
+          "value": 0.28157894736842104,
+          "halves": [
+            0.396969696969697,
+            0.2545454545454545
+          ]
+        },
+        {
+          "id": "urn:audience:hobbies_and_interests:yoga",
+          "name": "Yoga (hobby audience)",
+          "domains": {
+            "tv_show": 0.2285714285714286,
+            "movie": 0.17218045112781954
+          },
+          "value": 0.20037593984962407,
+          "halves": [
+            0.1575757575757576,
+            0.21212121212121213
+          ]
+        },
+        {
+          "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "domains": {
+            "tv_show": 0.1699248120300752,
+            "movie": 0.1842105263157895
+          },
+          "value": 0.17706766917293235,
+          "halves": [
+            0.26666666666666666,
+            0.1787878787878788
+          ]
+        },
+        {
+          "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "name": "Blue Bottle Coffee",
+          "domains": {
+            "tv_show": 0.08947368421052632,
+            "movie": 0.12105263157894736
+          },
+          "value": 0.10526315789473684,
+          "halves": [
+            0.06363636363636363,
+            0.12424242424242424
+          ]
+        }
+      ],
+      "domains": [
+        "tv_show",
+        "movie"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves",
+      "signal_note": "Tags describe categories. Hobby audiences add the tastes of a group you chose. Removing an audience removes cohort context. Qloo weights signal families differently; these distances measure model response, not equal shares of personal importance."
+    }
+  }
+]

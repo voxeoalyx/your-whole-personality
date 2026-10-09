@@ -1,0 +1,13 @@
+{
+  "at": 1791471360.864207,
+  "request_hash": "315e7d6f058a7927edd06d7da705ee5ff1d846ba41f9a01defe432cfbd0629ba",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.demographics.audiences": "urn:audience:hobbies_and_interests:architecture",
+    "take": "20"
+  },
+  "response_sha256": "04c53acb45c948d709a7c95a3aaee88e539dc0d8cf6ac1015c01c95c41b41722"
+}

@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T23:01:16.169187+00:00",
+  "attempt_no": 1,
+  "credential_redacted": false,
+  "elapsed_seconds": 0.329,
+  "http_status": 200,
+  "method": "GET",
+  "ok": true,
+  "params": {
+    "filter.query": "furniture",
+    "take": "50"
+  },
+  "raw_file": "furniture.a1.json",
+  "request_sha256": "7c52feeb2f9591e08657c773d265955a2b567492ed306ac0836e133bd71aef54",
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 07 Oct 2026 23:01:17 GMT"
+  },
+  "response_sha256": "ec6e9d41fdd4e3b440b1603783a2361a8d2fe44269aee9dcca7d7392055d6280",
+  "spec": {
+    "endpoint": "/v2/tags",
+    "id": "furniture",
+    "kind": "discovery",
+    "params": {
+      "filter.query": "furniture",
+      "take": 50
+    }
+  },
+  "url": "https://hackathon.api.qloo.com/v2/tags?filter.query=furniture&take=50"
+}

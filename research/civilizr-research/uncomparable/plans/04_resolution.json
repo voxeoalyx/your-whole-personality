@@ -1,0 +1,55 @@
+{
+  "title": "Disambiguate missing houses and author homonyms; native design taxonomy",
+  "requests": [
+    {
+      "id": "fallingwater_retry",
+      "endpoint": "/search",
+      "params": {
+        "query": "Fallingwater",
+        "types": "urn:entity:place",
+        "take": 100
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "eames_retry",
+      "endpoint": "/search",
+      "params": {
+        "query": "Eames",
+        "types": "urn:entity:place",
+        "take": 50
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "charles_retry",
+      "endpoint": "/search",
+      "params": {
+        "query": "Charles Eames",
+        "types": "urn:entity:person",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "greene_retry",
+      "endpoint": "/search",
+      "params": {
+        "query": "Charles Sumner Greene",
+        "types": "urn:entity:person",
+        "take": 5
+      },
+      "kind": "discovery"
+    },
+    {
+      "id": "herman_miller",
+      "endpoint": "/search",
+      "params": {
+        "query": "Herman Miller",
+        "types": "urn:entity:brand",
+        "take": 3
+      },
+      "kind": "discovery"
+    }
+  ]
+}

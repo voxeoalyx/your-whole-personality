@@ -1,0 +1,17 @@
+{
+  "title": "Scoped CBD lookup repair",
+  "requests": [
+    {
+      "id": "city_district_lookup",
+      "endpoint": "/search",
+      "kind": "discovery",
+      "params": {
+        "query": "Central Business District",
+        "types": "urn:entity:locality",
+        "filter.location": "28.5421109,-81.3790304",
+        "filter.radius": 5,
+        "take": 5
+      }
+    }
+  ]
+}

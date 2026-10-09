@@ -1,0 +1,13 @@
+{
+  "at": 1791470978.4343164,
+  "request_hash": "b121e94212e8c9bf6472926d690eda734213725e206326dbb5d61554b30d7213",
+  "route": "/v2/insights",
+  "params": {
+    "bias.trends": "off",
+    "feature.explainability": "true",
+    "filter.type": "urn:entity:tv_show",
+    "signal.interests.tags": "urn:tag:category:place:pilates_studio",
+    "take": "20"
+  },
+  "response_sha256": "e053d86d4cbfd23629fb6d45a3c5967067921454d392d76c697d4ef72830339a"
+}

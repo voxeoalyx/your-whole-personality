@@ -1,0 +1,11 @@
+﻿request_id,area,dimension,kind,raw_file,status,http_status,rows,scored_rows,unique_ids,query_json
+winter_park_food_dining,Winter Park,food_dining,profile,winter_park_food_dining.a1.json,ok,200,20,20,20,{}
+winter_park_coffee_cafes,Winter Park,coffee_cafes,profile,winter_park_coffee_cafes.a1.json,ok,200,20,20,20,{}
+winter_park_fitness,Winter Park,fitness,profile,winter_park_fitness.a1.json,ok,200,13,13,13,{}
+winter_park_museums,Winter Park,museums,profile,winter_park_museums.a1.json,ok,200,9,9,9,{}
+winter_park_nightlife_bars,Winter Park,nightlife_bars,profile,winter_park_nightlife_bars.a1.json,ok,200,20,20,20,{}
+pine_hills_food_dining,Pine Hills,food_dining,profile,pine_hills_food_dining.a1.json,ok,200,20,20,20,{}
+pine_hills_coffee_cafes,Pine Hills,coffee_cafes,profile,pine_hills_coffee_cafes.a1.json,ok,200,20,20,20,{}
+pine_hills_fitness,Pine Hills,fitness,profile,pine_hills_fitness.a1.json,ok,200,12,12,12,{}
+pine_hills_museums,Pine Hills,museums,profile,pine_hills_museums.a1.json,ok,200,9,9,9,{}
+pine_hills_nightlife_bars,Pine Hills,nightlife_bars,profile,pine_hills_nightlife_bars.a1.json,ok,200,20,20,20,{}
