@@ -1,5 +1,8 @@
 """Dependency-free web prototype; loopback by default. Run: python server.py"""
 import argparse
+import os
+import ipaddress
+from protection import VISITORS,LimitReached
 from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
@@ -106,6 +109,27 @@ def next_investigation(token,engine):
 
 
 class Handler(BaseHTTPRequestHandler):
+    def setup(self):
+        super().setup()
+        self.connection.settimeout(10)
+
+    def live_limit(self, category, maximum, seconds):
+        address = self.client_address[0]
+        # Only enable behind Render: its edge appends the connecting IP.
+        # Never trust the first X-Forwarded-For value supplied by a client.
+        if os.environ.get("TRUST_PROXY") == "render":
+            address = self.headers.get("X-Forwarded-For", address).split(",")[-1].strip()
+            try: ipaddress.ip_address(address)
+            except ValueError:
+                self.send({"error":"Invalid proxy address."},400)
+                return False
+        try:
+            VISITORS.take(address, category, maximum, seconds)
+            return True
+        except LimitReached as exc:
+            self.send({"error":str(exc),"code":"rate_limit"},429)
+            return False
+
     def log_message(self,*args): pass  # No query strings or user interests in access logs.
 
     def send(self,data,status=200,kind='application/json; charset=utf-8'):
@@ -128,7 +152,8 @@ class Handler(BaseHTTPRequestHandler):
         return (not origin or origin in origins) and self.headers.get('Sec-Fetch-Site') not in {'cross-site'}
 
     def do_GET(self):
-        if not self.origin_ok(): return self.send({'error':'Local requests only.'},403)
+        if self.path=='/healthz': return self.send({'status':'ok'})
+        if not self.origin_ok(): return self.send({'error':'Origin not allowed.'},403)
         url=urlsplit(self.path); query=parse_qs(url.query)
         try:
             if url.path in STATIC:
@@ -138,11 +163,15 @@ class Handler(BaseHTTPRequestHandler):
             if url.path=='/api/config':
                 return self.send({'live':bool(CLIENT.key),'investigator':bool(MODEL.key),'catalog':CATALOG,'presets':PRESETS,'demos':list(DEMOS),'privacy':'Live picks and recommendations go to Qloo and NVIDIA. Reactions go to the investigator on this server and NVIDIA. Rounds expire after 30 minutes. No account or analytics.'})
             if url.path=='/api/search':
+                if not self.live_limit('search',20,60): return
                 q=query.get('q',[''])[0].strip(); typ=query.get('type',[''])[0]
                 if not 2<=len(q)<=100 or typ and typ not in TYPES|{'tag','audience'}: return self.send({'error':'Use 2–100 characters and a supported category.'},400)
                 return self.send(search_interests(q,typ))
             if url.path.startswith('/api/game/'):
                 token=url.path.rsplit('/',1)[-1]
+                if token.startswith('recorded-') and token[9:] in DEMOS:
+                    game=deepcopy(DEMOS[token[9:]]);game['source']='recorded'
+                    return self.send({'status':'ready','game':game,'progress':100})
                 with LOCK: job=deepcopy(JOBS.get(token))
                 if not job: return self.send({'error':'This round expired. Start another.'},404)
                 return self.send(job)
@@ -152,12 +181,17 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         if not self.origin_ok(): return self.send({'error':'Local requests only.'},403)
+        if self.headers.get('Transfer-Encoding') or len(self.headers.get_all('Content-Length', [])) != 1:
+            return self.send({'error':'A single Content-Length is required.'},400)
+        if self.headers.get_content_type() != 'application/json':
+            return self.send({'error':'Use application/json.'},415)
         try:
             length=int(self.headers.get('Content-Length','0'))
             if not 0<length<=8192: return self.send({'error':'Invalid request size.'},400)
             data=json.loads(self.rfile.read(length))
             if not isinstance(data,dict): raise ValueError()
             if self.path=='/api/validate':
+                if not self.live_limit('validate',30,60): return
                 ident=data.get('id'); e=REGISTRY.get(ident)
                 if not e: return self.send({'error':'Search for that exact interest again.'},400)
                 if ident not in VALID:
@@ -174,7 +208,12 @@ class Handler(BaseHTTPRequestHandler):
                 if not isinstance(token,str):return self.send({'error':'Invalid round.'},400)
                 with LOCK:engine=INVESTIGATORS.get(token)
                 if not engine:return self.send({'error':'This investigation expired. Start another.'},404)
-                changed=engine.answer(data.get('prediction_id'),data.get('response'),data.get('sequence'))
+                if not self.live_limit('answer',30,60): return
+                with LOCK:
+                    if JOBS[token]['status']!='working' and sum(j['status']=='working' for j in JOBS.values())>=2:
+                        return self.send({'error':'Live rounds are busy. Try again shortly or play a recorded round.'},429)
+                    changed=engine.answer(data.get('prediction_id'),data.get('response'),data.get('sequence'))
+                    if changed: JOBS[token]['status']='working'
                 if changed:
                     with LOCK:JOBS[token]['status']='working'
                     WORKERS.submit(next_investigation,token,engine)
@@ -185,19 +224,23 @@ class Handler(BaseHTTPRequestHandler):
                 with LOCK:
                     expired=[k for k,v in JOBS.items() if time.monotonic()-v['created']>1800 and v['status']!='working']
                     for k in expired: del JOBS[k]; INVESTIGATORS.pop(k,None)
-                    if len(JOBS)>=24 or sum(x['status']=='working' for x in JOBS.values())>=2: return self.send({'error':'A couple of rounds are running. Try again shortly.'},429)
+                    if mode=='live' and (len(JOBS)>=24 or sum(x['status']=='working' for x in JOBS.values())>=2): return self.send({'error':'A couple of rounds are running. Try again shortly.'},429)
                 if mode=='demo':
                     demo=DEMOS.get(data.get('demo_id'))
                     if not demo: return self.send({'error':'That recorded round is unavailable.'},400)
-                    result=deepcopy(demo); result['source']='recorded'; token=uuid.uuid4().hex
-                    with LOCK: JOBS[token]={'created':time.monotonic(),'status':'ready','game':result,'progress':100}
+                    # Stateless recorded rounds remain available when live capacity is full.
+                    return self.send({'id':'recorded-'+data['demo_id']},202)
                 else:
                     ids=data.get('ids')
                     if not isinstance(ids,list) or not 3<=len(ids)<=5 or any(not isinstance(i,str) for i in ids) or len(set(ids))!=len(ids): return self.send({'error':'Pick 3–5 different interests.'},400)
                     if any(i not in REGISTRY or VALID.get(i)!=True for i in ids): return self.send({'error':'Every pick needs to be checked first.'},400)
                     if not CLIENT.key: raise QlooError('No live key is configured. Choose a recorded round.','not_configured')
+                    if not self.live_limit('round',3,3600): return
                     token=uuid.uuid4().hex
-                    with LOCK: JOBS[token]={'created':time.monotonic(),'status':'working','message':'Calling the cultural witness stand.','progress':5}
+                    with LOCK:
+                        if sum(x['status']=='working' for x in JOBS.values())>=2 or len(JOBS)>=24:
+                            return self.send({'error':'Live rounds are busy. Play a recorded round.'},429)
+                        JOBS[token]={'created':time.monotonic(),'status':'working','message':'Calling the cultural witness stand.','progress':5}
                     WORKERS.submit(investigation_work if data.get('investigate') is True else work,token,[deepcopy(REGISTRY[i]) for i in ids])
                 return self.send({'id':token},202)
             return self.send({'error':'Not found.'},404)
@@ -207,6 +250,26 @@ class Handler(BaseHTTPRequestHandler):
 
 
 class LocalServer(ThreadingHTTPServer):
+    daemon_threads = True
+    request_queue_size = 32
+
+    def __init__(self, *args, **kwargs):
+        self.slots = threading.BoundedSemaphore(32)
+        super().__init__(*args, **kwargs)
+
+    def process_request(self, request, client_address):
+        if not self.slots.acquire(blocking=False):
+            self.shutdown_request(request)
+            return
+        try: super().process_request(request, client_address)
+        except Exception:
+            self.slots.release()
+            raise
+
+    def process_request_thread(self, request, client_address):
+        try: super().process_request_thread(request, client_address)
+        finally: self.slots.release()
+
     def service_actions(self):
         now=time.monotonic()
         with LOCK:

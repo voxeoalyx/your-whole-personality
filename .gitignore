@@ -34,3 +34,10 @@ Desktop.ini
 *.swo
 # Bulky per-run CSV exports can be rebuilt from archived JSON
 research/civilizr-research/**/runs/**/results.csv
+
+# Local durable budget files
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+public-export/

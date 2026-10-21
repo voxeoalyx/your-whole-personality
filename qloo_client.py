@@ -10,6 +10,7 @@ from urllib.error import HTTPError,URLError
 from urllib.parse import urlencode,urlsplit
 from urllib.request import Request,build_opener,HTTPRedirectHandler
 from signals import FIELDS,parameters
+from protection import provider_call,LimitReached
 
 ROOT=Path(__file__).resolve().parent
 TYPES={'artist','tv_show','movie','podcast','book','brand','videogame','person'}
@@ -78,6 +79,8 @@ class Client:
             if not self.key: raise QlooError('Live Qloo is not configured. A recorded round is ready below.','not_configured')
             if self.calls>=self.limit: raise QlooError('The local API budget is used up. Try a recorded round.','budget')
             if time.monotonic()<self.cooldown_until: raise QlooError('Qloo needs a short breather. Try again in a minute.','rate_limit')
+            try: provider_call("qloo")
+            except (LimitReached, OSError) as exc: raise QlooError("Live budget unavailable. Try a recorded round.","budget") from None
             self.calls+=1
             req=Request(self.base+route+'?'+urlencode(wire),headers={'X-Api-Key':self.key,'Accept':'application/json','User-Agent':'your-whole-personality-local/0.1'})
             try:

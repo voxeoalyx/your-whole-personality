@@ -1,3 +1,9 @@
+# Release preparation — October 21, 2026
+
+Deployment branch adds durable provider ceilings, visitor quotas, bounded HTTP connections, atomic admission, stateless recorded rounds, Docker/Render configuration, MIT source license with third-party exclusions, a clean-export allowlist, and Devpost materials. No public deployment, public source publication or Devpost submission is claimed. See docs/RELEASE_AUDIT.md and docs/DEPLOYMENT.md for current scope and blockers.
+
+The transfer notes below describe the earlier October 9 baseline.
+
 # Project status
 
 Transfer baseline: October 9, 2026. A working local prototype, with all earlier research retained. No public deployment or real-player study has been completed.

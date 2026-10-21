@@ -5,6 +5,7 @@ import time
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 from qloo_client import environment
+from protection import provider_call, LimitReached
 
 MODEL = 'nvidia/nemotron-3-super-120b-a12b'
 ENDPOINT = 'https://integrate.api.nvidia.com/v1/chat/completions'
@@ -37,6 +38,8 @@ class ModelClient:
         with self.lock:
             if self.calls >= self.limit:
                 raise ModelError('process_budget')
+            try: provider_call("nvidia")
+            except (LimitReached, OSError): raise ModelError("total_budget") from None
             self.calls += 1
         payload = {
             'model': self.model,

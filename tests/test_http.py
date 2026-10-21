@@ -20,6 +20,9 @@ class HTTPTests(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):cls.http.shutdown();cls.http.server_close()
 
+    def setUp(self):
+        server.VISITORS.windows.clear()
+
     def request(self,path,body=None,headers=None):
         req=Request(self.base+path,data=json.dumps(body).encode() if body is not None else None,headers={'Content-Type':'application/json',**(headers or {})})
         try:r=urlopen(req,timeout=3)
