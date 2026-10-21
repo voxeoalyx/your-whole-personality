@@ -1,0 +1,16 @@
+*
+!Dockerfile
+!server.py
+!serve_public.py
+!container_entrypoint.py
+!protection.py
+!game.py
+!investigator.py
+!model_client.py
+!qloo_client.py
+!scoring.py
+!signals.py
+!static/
+!static/**
+!data/
+!data/**

@@ -1,0 +1,11 @@
+# Scope of the source license
+
+The MIT license covers this project's original application source, original SVG favicon, original styling, tests, and original documentation. This is the entrant's project; no additional contributor ownership was identified in the single-commit source history. Confirm any outside contributor or employer ownership before publishing.
+
+There are no pip/npm runtime dependencies, bundled SDKs, vendored libraries, downloaded fonts, or bundled third-party artwork in the application. Python and the container's operating system retain their own licenses. The UI and exported cards use system fonts. `package.json` invokes Node's built-in test runner only.
+
+**Qloo API output is not MIT-licensed by this project.** This includes provider entity records in `data/catalog.json`, saved responses/rankings in `data/demos.json`, and raw verification/coverage fixtures under `research/`. Provider images are remote URLs, not project-owned assets. Qloo, NVIDIA, and referenced cultural titles/brands retain their respective rights. Use of APIs is governed by provider/account/event terms; access to this source does not grant an API credential or rights to redistribute provider data or images.
+
+Sources reviewed: https://www.qloo.com/legal/terms and https://qloo.devpost.com/rules . Qloo's public terms reserve rights in output and refer to additional account-specific terms. Public source availability does not resolve those additional terms. Confirm that event permission covers (1) the free public judge demo through November 16, 2026, (2) saved example responses and test fixtures in a public source repository, (3) short-lived in-memory caching, (4) remote image display, (5) explicit JSON exports of recommendation evidence. If not, remove or replace restricted material and update the tests and demo truthfully before publication.
+
+No claim is made that an MIT notice relicenses the archived research, Qloo output, third-party marks, remote images, provider services, or model weights. The entire existing private archive has not been cleared for public release. The clean-export tool limits the proposed submission package to application files and explicitly selected verification fixtures.

@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: your-whole-personality
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /healthz
+    autoDeployTrigger: off
+    disk:
+      name: request-budget
+      mountPath: /state
+      sizeGB: 1
+    envVars:
+      - key: BUDGET_DB
+        value: /state/budget.sqlite3
+      - key: QLOO_DISPLAY_APPROVED
+        value: "0"
+      - key: QLOO_API_KEY
+        sync: false
+      - key: NVIDIA_API_KEY
+        sync: false
+      - key: QLOO_TOTAL_LIMIT
+        value: "1000"
+      - key: NVIDIA_TOTAL_LIMIT
+        value: "500"
+      - key: QLOO_CALL_LIMIT
+        value: "1000"
+      - key: NVIDIA_CALL_LIMIT
+        value: "500"
