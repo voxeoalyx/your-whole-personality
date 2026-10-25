@@ -88,4 +88,12 @@ class ScoringTests(unittest.TestCase):
             for file in (ROOT/directory).rglob('*'):
                 if file.is_file() and '__pycache__' not in file.parts:self.assertNotIn(key.encode(),file.read_bytes(),str(file))
 
+    def test_all_mixed_profile_strict_scores_still_recompute_from_fixed_panels(self):
+        for path in sorted((ROOT/'research/prototype/activity-signals').glob('game_*.json')):
+            game=json.loads(path.read_text())
+            with self.subTest(profile=path.name):
+                actual=sensitivity([dict(e,name=e.get('label',e['name'])) for e in game['interests']],game['full'],game['ablations'])
+                expected={k:v for k,v in game['sensitivity'].items() if k!='signal_note'}
+                self.assertEqual(actual,expected)
+
 if __name__=='__main__':unittest.main()

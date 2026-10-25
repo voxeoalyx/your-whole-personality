@@ -5,6 +5,7 @@ Transfer baseline: October 9, 2026. A working local prototype, with all earlier 
 ## Working
 
 - Four-act taste game; three to five typed picks (entities, supported cultural tags, explicit hobby audiences), Qloo-backed cross-domain predictions, fixed-panel leave-one-out comparisons and deterministic verdicts.
+- Act III separates strict dominance, a qualified largest influence, shared/category-specific effects and insufficient evidence, with named recommendation movements. Act IV, copied text and PNG cards carry these same named findings and qualifications. Scoring and Act IV verdict rules are unchanged; [investigation and replay](ACT_III_FINDINGS.md) cover nine archived profiles.
 - Persistent NVIDIA Taste Investigator: six bounded structured actions, feedback-dependent queries/choices, five live questions, public evidence trace, visibly labeled fixed-Qloo fallback. No OpenAI key required.
 - Three offline recorded example profiles, six guesses each; PNG preview/export, copyable verdict and JSON session backup.
 - Server-only Qloo/NVIDIA keys, request budgets, timeouts, origin/host checks, in-memory expiry; no external packages, database or build step.
