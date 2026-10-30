@@ -1,10 +1,32 @@
 # Your Whole Personality
 
+The application now has an owner-private [ChatGPT Sites deployment](https://your-whole-personality.a-lyx.chatgpt.site), using the [Vinext/Workers/D1 runtime](sites/README.md) in `sites/`. See [release verification](docs/RELEASE_VERIFICATION.md) for source preparation, hosted browser/consent/export checks and remaining limitations. The Python setup below remains the reference implementation and scoring oracle. No public deployment has been performed; GitHub remains private.
+
 **You contain multitudes. The algorithm disagrees.**
 
-A playable four-act taste test with a persistent Taste Investigator. Vanilla HTML/CSS/JavaScript plus a Python standard-library server: no build step, SDK, database or package installation. Live investigation uses Qloo and NVIDIA's hosted model API; recorded rounds need neither.
+A playable four-act taste test with a persistent Taste Investigator. The supported hosted runtime is Vinext/Cloudflare Workers with D1, serving the existing HTML/CSS/JavaScript game. Live investigation uses Qloo and NVIDIA; recorded rounds need neither API. A buildless Python standard-library server is retained as the reference implementation.
 
-## Install and run
+## Run the supported Sites runtime
+
+Tested with Node 24, npm and Python 3.10+. Python is needed only for reference/parity tests, not the deployed Worker. From a fresh clone:
+
+```sh
+git clone https://github.com/voxeoalyx/your-whole-personality.git
+cd your-whole-personality
+python3 -m venv .venv
+cp .env.example .env
+chmod 600 .env
+# Edit .env locally with authorized Qloo and NVIDIA keys, or omit them for recorded play.
+cd sites
+npm ci
+npm run build
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_sudden_sheva_callister.sql
+npm start -- --port 8787
+```
+
+Open **http://127.0.0.1:8787/**. Apply the migration only once per new local database. See [Sites setup](sites/README.md) for development, tests and hosted binding/secrets configuration. Secrets stay server-side; no account is needed for local recorded play. The private hosted preview uses ChatGPT sign-in.
+
+## Run the Python reference
 
 Python 3.10+ and a browser are sufficient; there are no pip or npm dependencies. Git is needed to clone, and Node 18+ is needed only for JavaScript tests. See [MAC_SETUP.md](MAC_SETUP.md) for exact fresh-Mac commands and authentication.
 
@@ -25,7 +47,7 @@ The default binds to loopback and rejects other hosts/origins. Nothing has been 
 
 Live play reads `QLOO_API_KEY` from this checkout's `.env` or the process environment; process values take precedence. No sibling folder is required. The default host is `https://hackathon.api.qloo.com`. Add `NVIDIA_API_KEY` for the investigator; no OpenAI key is needed. Each line must be `NAME=value`, without quotes around the entire assignment. Keys never enter client responses, HTML or JavaScript. All actual env files are ignored by Git; `.env.example` contains blank credential fields.
 
-The tested model is `nvidia/nemotron-3-super-120b-a12b`. `QLOO_CALL_LIMIT=180` and `NVIDIA_CALL_LIMIT=150` bound new upstream requests per process; restarting resets these development budgets. Availability and limits depend on provider/account access. A missing, timed-out or rejected model request switches to a labeled fixed-Qloo fallback, with no paid-provider fallback.
+The release default model is `nvidia/nemotron-3.5-lightning-30b-a3b`. `QLOO_CALL_LIMIT=180` and `NVIDIA_CALL_LIMIT=150` bound new upstream requests per process; restarting resets these development budgets. Availability and limits depend on provider/account access. A missing, timed-out or rejected model request switches to a labeled fixed-Qloo fallback, with no paid-provider fallback.
 
 **No keys or unreliable internet?** Choose "Play a recorded round." Three installed example profiles contain actual Qloo responses collected on October 8, 2026. They need neither API nor local credentials and remain labeled on every act/export. Remote artwork may fail offline; text remains playable. They are example profiles, not predictions about your own picks.
 
@@ -62,7 +84,7 @@ Official references: [Qloo Search](https://raw.githubusercontent.com/qloo/docs-p
 
 ## Privacy and data
 
-Live search and selected interests go to Qloo. Live selections, candidate evidence, explicit reactions and concise hypothesis state go to NVIDIA for inference. Explicitly liked predictions may be added to later Qloo queries; rejected and unfamiliar predictions are never sent as positive signals. Live reactions are POSTed to this server and held in memory. Jobs expire after 30 minutes (an in-flight bounded operation may finish first); query/search cache expires after two hours. Reloading the tab abandons its UI but does not instantly erase the server job. Provider retention is governed by those services, not the local expiry. Recorded-round reactions stay in the tab. No analytics, cookies, accounts or localStorage are used, and access logs do not contain interests.
+Live search and selected interests go to Qloo. Live selections, candidate evidence, explicit reactions and concise hypothesis state go to NVIDIA for inference. Explicitly liked predictions may be added to later Qloo queries; rejected and unfamiliar predictions are never sent as positive signals. In the Sites runtime, live reactions are POSTed to the server and saved in temporary D1 round state. Rounds expire 30 minutes after creation, including working rounds; caches/search records expire after two hours. Expired rows are inaccessible and are physically removed by the next API cleanup. The Python reference instead uses process memory and an in-flight expiry exception. Reloading the tab abandons its UI but does not instantly erase the server job. Provider retention is governed by those services, not the local expiry. Recorded-round reactions stay in the tab. The game has no analytics, account database or localStorage. Private Sites access uses platform authentication/cookies and supplies basic account details, which the game does not store in round records. Hosting logs include request URLs, headers and connection metadata: search text in URLs may appear in those logs. Hosting backup/log retention and provider retention are separate from app expiry and remain unverified.
 
 The optional session JSON contains typed selections, exact signal parameters, shown predictions/reactions, separate metrics, source/timestamp and the investigator trace including Qloo request receipts. It excludes credentials and private reasoning. It is written only when the player chooses to download it. No consented research dataset is silently accumulated. Development probes use predefined public example interests and scripted responses, never real-player reactions.
 
@@ -70,10 +92,10 @@ The optional session JSON contains typed selections, exact signal parameters, sh
 
 ```sh
 python -m unittest discover -s tests -v
-node --test tests/logic.test.js
+node --test tests/*.test.js
 ```
 
-Node is needed only for the pure JavaScript tests; the app itself requires only Python and a browser. There are no npm dependencies. Python tests cover the original scoring and typed signals plus bounded actions, feedback isolation, duplicate submissions, discovery failures, schema validation, transport failures, fallback and credential exclusion. JavaScript tests cover unfamiliarity, sample sizes, Act IV verdict branches, recorded-mode share labeling, all Act III outcomes, partial evidence and tied-rank recommendation changes. Fixture-model tests verify plumbing; only separately labeled live NVIDIA runs provide evidence about model behavior.
+The Python reference requires no third-party Python packages. The hosted runtime uses the locked npm dependencies in `sites/`; Node is required for its build and tests. Python tests cover the original scoring and typed signals plus bounded actions, feedback isolation, duplicate submissions, discovery failures, schema validation, transport failures, fallback and credential exclusion. JavaScript tests cover unfamiliarity, sample sizes, Act IV verdict branches, recorded-mode share labeling, all Act III outcomes, partial evidence and tied-rank recommendation changes. Fixture-model tests verify plumbing; only separately labeled live NVIDIA runs provide evidence about model behavior.
 
 Run the controlled comparison without spending Qloo requests:
 
@@ -97,7 +119,7 @@ See `VERIFICATION.md` for browser checks and their limits. Live collection of th
 
 ## Before public hackathon submission
 
-The current backend is portable Python, not a ChatGPT Sites Worker. Our Sites capability investigation did not find native model inference; hosting in ChatGPT does not remove the NVIDIA requirement. No Sites deployment or backend rewrite was performed.
+The supported Sites backend now runs on Vinext/Workers/D1; the root Python backend remains the reference implementation. Hosting in ChatGPT does not remove the NVIDIA requirement. Private deployment does not satisfy public demo/source requirements or establish provider public-use rights. The Python proxy instructions below apply only to the reference server.
 
 For a small Python-capable HTTPS host, keep the app's `static/` and `data/demos.json` with the Python files, set both keys using the host's secret manager, and run behind its reverse proxy:
 
@@ -110,3 +132,17 @@ Replace the example with the exact real origin. The proxy must preserve that Hos
 Confirm the applicable Qloo agreement permits public use, output display/caching and the intended distribution; the existing research did not establish these rights. Review image usage and attribution requirements. Then host behind a production server with HTTPS, server-managed secrets, origin policy, per-user/global quotas, rate limiting, bounded concurrency and clear privacy disclosure. Recheck the actual hackathon's current rules. Complete mobile browser, accessibility and failure-path testing, and obtain feedback from actual players. Do not expose this development server directly.
 
 The three highest-impact next improvements are: (1) observe real players completing and voluntarily sharing a round; (2) improve entity coverage and test influence stability on independent candidate panels; (3) ship a rights-cleared HTTPS version with robust mobile sharing and API-budget controls. Public share links, if later justified, should be opt-in and store only the card content the player approves.
+
+## Optional Identity Reality Check
+
+After Act IV, optionally choose one or several original typed interests, none, decline, or a short unsupported interest. The reveal compares Qloo model sensitivity with self-reported attachment; identity transfer remains untested. Original verdicts, the investigator and scoring are unchanged, including “THE ALGORITHM HAS SEEN YOUR TYPE BEFORE.”
+
+Identity answers stay in tab memory and are never sent to Qloo/NVIDIA or the server. A separate unchecked permission includes them in copied text and PNG. Another unchecked consent enables a validated research JSON preview/download; nothing is uploaded. No storage service is required. Delete downloaded copies locally; separately shared files require a recipient's retention/deletion agreement. The original session JSON excludes these optional identity answers. See [research/privacy protocol](docs/IDENTITY_RESEARCH.md), [schema](docs/research-record.schema.json), [commercial pilot and opportunity assessment](docs/COMMERCIAL_VALIDATION.md), and [verification](docs/IDENTITY_VERIFICATION.md).
+
+### Release audit fixes (October 28, 2026)
+
+Local request/visitor quotas now renew, with bounded worker admission, separate recorded/live capacity and retained hard provider call ceilings. See [deployment limits](docs/DEPLOYMENT.md) for exact limits and proxy/multiple-instance restrictions. Final-model failure is labeled as fixed closing copy on the result, copied verdict, PNG and research metadata while preserving earlier AI decisions. Default model configuration matches the verified Nemotron 3.5 endpoint. Privacy text covers search-as-you-type, temporary abuse counters, in-flight retention exceptions and provider policies. Browser requests are bounded and failed polling/answers can retry the same round. These fixes do not constitute deployment readiness or provider authorization.
+
+## License and release scope
+
+Original application code and documentation use the [MIT license](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md) for retained component licenses and the separate status of Qloo data, remote artwork, archived captures and provider terms. Licensing the application does not relicense third-party data. The hosted preview is intended for hackathon judging; no automatic shutdown or provider migration is configured.

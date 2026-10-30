@@ -1,0 +1,4451 @@
+{
+  "overthinker": {
+    "version": 1,
+    "source": "recorded",
+    "generated_at": "2026-10-08T12:07:57.301077+00:00",
+    "interests": [
+      {
+        "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "type": "artist",
+        "detail": "Radiohead",
+        "image": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg",
+        "verified": true,
+        "alias": "radiohead"
+      },
+      {
+        "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+        "name": "Blue Bottle Coffee",
+        "type": "brand",
+        "detail": "Blue Bottle Coffee is a specialty coffee roaster and retailer known for fresh, high-quality coffee sourced from partners like Pedro Nel Trujillo.",
+        "image": "https://images.qloo.com/i/22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D-420x-auto.jpg",
+        "verified": true,
+        "alias": "blue_bottle"
+      },
+      {
+        "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+        "name": "Severance",
+        "type": "tv_show",
+        "detail": "2022",
+        "image": "https://images.qloo.com/i/569F8294-72DA-4935-B9F2-4FC697AB2A1E-420x-auto.jpg",
+        "verified": true,
+        "alias": "severance"
+      }
+    ],
+    "domains": [
+      "movie",
+      "videogame"
+    ],
+    "predictions": [
+      {
+        "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+        "name": "Moon",
+        "type": null,
+        "detail": "2009, Duncan Jones",
+        "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+        "score": 0.9214122017257635,
+        "domain": "movie",
+        "rank": 1
+      },
+      {
+        "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+        "name": "Control",
+        "type": null,
+        "detail": "2019-08-27, Remedy Entertainment",
+        "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+        "score": 0.8430831249218221,
+        "domain": "videogame",
+        "rank": 1
+      },
+      {
+        "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+        "name": "Children of Men",
+        "type": null,
+        "detail": "2006, Alfonso Cuarón",
+        "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+        "score": 0.9109698928711949,
+        "domain": "movie",
+        "rank": 2
+      },
+      {
+        "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+        "name": "The Outer Worlds",
+        "type": null,
+        "detail": "2019-10-25, Obsidian Entertainment",
+        "image": null,
+        "score": 0.8333912719713729,
+        "domain": "videogame",
+        "rank": 2
+      },
+      {
+        "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+        "name": "Gattaca",
+        "type": null,
+        "detail": "1997, Andrew Niccol",
+        "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+        "score": 0.909829122524936,
+        "domain": "movie",
+        "rank": 3
+      },
+      {
+        "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+        "name": "Prey",
+        "type": null,
+        "detail": "2017-05-05, Arkane Studios",
+        "image": null,
+        "score": 0.8300854897946056,
+        "domain": "videogame",
+        "rank": 3
+      }
+    ],
+    "full": {
+      "movie": [
+        {
+          "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+          "name": "Moon",
+          "type": null,
+          "detail": "2009, Duncan Jones",
+          "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+          "score": 0.9214122017257635
+        },
+        {
+          "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+          "name": "Children of Men",
+          "type": null,
+          "detail": "2006, Alfonso Cuarón",
+          "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+          "score": 0.9109698928711949
+        },
+        {
+          "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+          "name": "Gattaca",
+          "type": null,
+          "detail": "1997, Andrew Niccol",
+          "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+          "score": 0.909829122524936
+        },
+        {
+          "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+          "name": "Primer",
+          "type": null,
+          "detail": "2004, Shane Carruth",
+          "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+          "score": 0.9050818074256968
+        },
+        {
+          "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+          "name": "Ex Machina",
+          "type": null,
+          "detail": "2014, Alex Garland",
+          "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+          "score": 0.9021698507634591
+        },
+        {
+          "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+          "name": "Another Earth",
+          "type": null,
+          "detail": "2011, Mike Cahill",
+          "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+          "score": 0.8998968509940891
+        },
+        {
+          "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+          "name": "Mr. Nobody",
+          "type": null,
+          "detail": "2009, Jaco Van Dormael",
+          "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+          "score": 0.8996604622104757
+        },
+        {
+          "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+          "name": "Enemy",
+          "type": null,
+          "detail": "2013, Denis Villeneuve",
+          "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+          "score": 0.8970235099705482
+        },
+        {
+          "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+          "name": "Her",
+          "type": null,
+          "detail": "2013, Spike Jonze",
+          "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+          "score": 0.8964961891245796
+        },
+        {
+          "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+          "name": "I Origins",
+          "type": null,
+          "detail": "2014, Mike Cahill",
+          "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+          "score": 0.8928315302226351
+        },
+        {
+          "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+          "name": "Lost in Translation",
+          "type": null,
+          "detail": "2003, Sofia Coppola",
+          "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+          "score": 0.8908388083818256
+        },
+        {
+          "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+          "name": "Coherence",
+          "type": null,
+          "detail": "2013, James Ward Byrkit",
+          "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+          "score": 0.8895035778225568
+        },
+        {
+          "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+          "name": "Upstream Color",
+          "type": null,
+          "detail": "2013, Shane Carruth",
+          "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+          "score": 0.8889272439656057
+        },
+        {
+          "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+          "name": "The Lobster",
+          "type": null,
+          "detail": "2015, Yorgos Lanthimos",
+          "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+          "score": 0.8881255698682798
+        },
+        {
+          "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+          "name": "Dark City",
+          "type": null,
+          "detail": "1998, Alex Proyas",
+          "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+          "score": 0.8854199498172864
+        },
+        {
+          "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+          "name": "Sunshine",
+          "type": null,
+          "detail": "2007, Danny Boyle",
+          "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+          "score": 0.8854090542717226
+        },
+        {
+          "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+          "name": "Snowpiercer",
+          "type": null,
+          "detail": "2013, Bong Joon Ho",
+          "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+          "score": 0.8851184733708002
+        },
+        {
+          "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+          "name": "The Fountain",
+          "type": null,
+          "detail": "2006, Darren Aronofsky",
+          "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+          "score": 0.8848456298309603
+        },
+        {
+          "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+          "name": "K-PAX",
+          "type": null,
+          "detail": "2001, Iain Softley",
+          "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+          "score": 0.8843028459866211
+        },
+        {
+          "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+          "name": "The Man from Earth",
+          "type": null,
+          "detail": "2007, Richard Schenkman",
+          "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+          "score": 0.8840438701897545
+        }
+      ],
+      "videogame": [
+        {
+          "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+          "name": "Control",
+          "type": null,
+          "detail": "2019-08-27, Remedy Entertainment",
+          "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+          "score": 0.8430831249218221
+        },
+        {
+          "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+          "name": "The Outer Worlds",
+          "type": null,
+          "detail": "2019-10-25, Obsidian Entertainment",
+          "image": null,
+          "score": 0.8333912719713729
+        },
+        {
+          "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+          "name": "Prey",
+          "type": null,
+          "detail": "2017-05-05, Arkane Studios",
+          "image": null,
+          "score": 0.8300854897946056
+        },
+        {
+          "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+          "name": "Kingdom Come: Deliverance",
+          "type": null,
+          "detail": "2018-02-13, Warhorse Studios",
+          "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+          "score": 0.8261846859317639
+        },
+        {
+          "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+          "name": "Outer Wilds",
+          "type": null,
+          "detail": "2019-05-28, Mobius Digital, LLC",
+          "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+          "score": 0.8176157552539315
+        },
+        {
+          "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+          "name": "Children of Morta",
+          "type": null,
+          "detail": "2019-09-03, Dead Mage",
+          "image": null,
+          "score": 0.8131104010020502
+        },
+        {
+          "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+          "name": "Mortal Shell",
+          "type": null,
+          "detail": "2020-08-18, Cold Symmetry",
+          "image": null,
+          "score": 0.810766354849056
+        },
+        {
+          "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+          "name": "Sekiro: Shadows Die Twice",
+          "type": null,
+          "detail": "2019-03-22, From Software",
+          "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+          "score": 0.8072455080312901
+        },
+        {
+          "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+          "name": "Metro Exodus",
+          "type": null,
+          "detail": "2019-02-15, 4A Games",
+          "image": null,
+          "score": 0.8062284407502256
+        },
+        {
+          "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+          "name": "Generation Zero",
+          "type": null,
+          "detail": "2019-03-26, Avalanche Studios",
+          "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+          "score": 0.8057053254447427
+        },
+        {
+          "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+          "name": "Hob",
+          "type": null,
+          "detail": "2017-09-26, Runic Games",
+          "image": null,
+          "score": 0.8054033353368226
+        },
+        {
+          "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+          "name": "The Surge",
+          "type": null,
+          "detail": "2017-05-16, Deck 13",
+          "image": null,
+          "score": 0.8046154905481848
+        },
+        {
+          "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+          "name": "Disco Elysium",
+          "type": null,
+          "detail": "2019-10-15, ZA/UM",
+          "image": null,
+          "score": 0.8037984828532544
+        },
+        {
+          "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+          "name": "CrossCode",
+          "type": null,
+          "detail": "2020-07-09, Radical Fish Games",
+          "image": null,
+          "score": 0.8035553747654132
+        },
+        {
+          "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+          "name": "Hades",
+          "type": null,
+          "detail": "2018-12-06, Supergiant Games",
+          "image": null,
+          "score": 0.80344364201198
+        },
+        {
+          "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+          "name": "Half-Life: Alyx",
+          "type": null,
+          "detail": "2020-03-23, Valve Software",
+          "image": null,
+          "score": 0.802950846813116
+        },
+        {
+          "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+          "name": "Kenshi",
+          "type": null,
+          "detail": "2011-11-21, Lo-Fi Games",
+          "image": null,
+          "score": 0.8010801358300663
+        },
+        {
+          "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+          "name": "RAGE 2",
+          "type": null,
+          "detail": "2019-05-13, Avalanche Studios",
+          "image": null,
+          "score": 0.8007310026806825
+        },
+        {
+          "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+          "name": "Death Stranding",
+          "type": null,
+          "detail": "2019-11-08, Kojima Productions",
+          "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+          "score": 0.7993254839953339
+        },
+        {
+          "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+          "name": "Wasteland 3",
+          "type": null,
+          "detail": "2020-08-28, InXile Entertainment",
+          "image": null,
+          "score": 0.799208573495565
+        }
+      ]
+    },
+    "ablations": {
+      "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C": {
+        "movie": [
+          {
+            "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+            "name": "Ex Machina",
+            "type": null,
+            "detail": "2014, Alex Garland",
+            "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+            "score": 0.8948103698178039
+          },
+          {
+            "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+            "name": "I Origins",
+            "type": null,
+            "detail": "2014, Mike Cahill",
+            "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+            "score": 0.8836325052632091
+          },
+          {
+            "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+            "name": "Gattaca",
+            "type": null,
+            "detail": "1997, Andrew Niccol",
+            "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+            "score": 0.8786751925847213
+          },
+          {
+            "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+            "name": "Snowpiercer",
+            "type": null,
+            "detail": "2013, Bong Joon Ho",
+            "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+            "score": 0.8777336946054527
+          },
+          {
+            "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+            "name": "Another Earth",
+            "type": null,
+            "detail": "2011, Mike Cahill",
+            "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+            "score": 0.8765913156733683
+          },
+          {
+            "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+            "name": "Coherence",
+            "type": null,
+            "detail": "2013, James Ward Byrkit",
+            "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+            "score": 0.8727752038694562
+          },
+          {
+            "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+            "name": "Moon",
+            "type": null,
+            "detail": "2009, Duncan Jones",
+            "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+            "score": 0.872715894605294
+          },
+          {
+            "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+            "name": "Her",
+            "type": null,
+            "detail": "2013, Spike Jonze",
+            "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+            "score": 0.8623670973137131
+          },
+          {
+            "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+            "name": "Enemy",
+            "type": null,
+            "detail": "2013, Denis Villeneuve",
+            "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+            "score": 0.8614728343292875
+          },
+          {
+            "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+            "name": "Sunshine",
+            "type": null,
+            "detail": "2007, Danny Boyle",
+            "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+            "score": 0.8603443829502054
+          },
+          {
+            "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+            "name": "K-PAX",
+            "type": null,
+            "detail": "2001, Iain Softley",
+            "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+            "score": 0.8535912193989901
+          },
+          {
+            "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+            "name": "The Lobster",
+            "type": null,
+            "detail": "2015, Yorgos Lanthimos",
+            "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+            "score": 0.8534296045626872
+          },
+          {
+            "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+            "name": "Primer",
+            "type": null,
+            "detail": "2004, Shane Carruth",
+            "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+            "score": 0.8516236546694799
+          },
+          {
+            "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+            "name": "Mr. Nobody",
+            "type": null,
+            "detail": "2009, Jaco Van Dormael",
+            "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+            "score": 0.848555868703201
+          },
+          {
+            "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+            "name": "The Man from Earth",
+            "type": null,
+            "detail": "2007, Richard Schenkman",
+            "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+            "score": 0.8482780656440215
+          },
+          {
+            "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+            "name": "Children of Men",
+            "type": null,
+            "detail": "2006, Alfonso Cuarón",
+            "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+            "score": 0.84673771818368
+          },
+          {
+            "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+            "name": "Upstream Color",
+            "type": null,
+            "detail": "2013, Shane Carruth",
+            "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+            "score": 0.8410498115404873
+          },
+          {
+            "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+            "name": "Dark City",
+            "type": null,
+            "detail": "1998, Alex Proyas",
+            "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+            "score": 0.8352097265514108
+          },
+          {
+            "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+            "name": "The Fountain",
+            "type": null,
+            "detail": "2006, Darren Aronofsky",
+            "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+            "score": 0.8303291639704209
+          },
+          {
+            "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+            "name": "Lost in Translation",
+            "type": null,
+            "detail": "2003, Sofia Coppola",
+            "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+            "score": 0.8285422610894682
+          }
+        ],
+        "videogame": [
+          {
+            "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+            "name": "Control",
+            "type": null,
+            "detail": "2019-08-27, Remedy Entertainment",
+            "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+            "score": 0.8805922546112741
+          },
+          {
+            "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+            "name": "Death Stranding",
+            "type": null,
+            "detail": "2019-11-08, Kojima Productions",
+            "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+            "score": 0.8533111257261813
+          },
+          {
+            "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+            "name": "Sekiro: Shadows Die Twice",
+            "type": null,
+            "detail": "2019-03-22, From Software",
+            "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+            "score": 0.8415673623252063
+          },
+          {
+            "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+            "name": "Metro Exodus",
+            "type": null,
+            "detail": "2019-02-15, 4A Games",
+            "image": null,
+            "score": 0.8303699530493742
+          },
+          {
+            "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+            "name": "Kingdom Come: Deliverance",
+            "type": null,
+            "detail": "2018-02-13, Warhorse Studios",
+            "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+            "score": 0.8262681430319285
+          },
+          {
+            "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+            "name": "Generation Zero",
+            "type": null,
+            "detail": "2019-03-26, Avalanche Studios",
+            "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+            "score": 0.8258489089909448
+          },
+          {
+            "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+            "name": "RAGE 2",
+            "type": null,
+            "detail": "2019-05-13, Avalanche Studios",
+            "image": null,
+            "score": 0.824072070289576
+          },
+          {
+            "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+            "name": "Prey",
+            "type": null,
+            "detail": "2017-05-05, Arkane Studios",
+            "image": null,
+            "score": 0.8237013046809468
+          },
+          {
+            "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+            "name": "Mortal Shell",
+            "type": null,
+            "detail": "2020-08-18, Cold Symmetry",
+            "image": null,
+            "score": 0.8236848046975066
+          },
+          {
+            "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+            "name": "Half-Life: Alyx",
+            "type": null,
+            "detail": "2020-03-23, Valve Software",
+            "image": null,
+            "score": 0.8154485883293928
+          },
+          {
+            "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+            "name": "The Surge",
+            "type": null,
+            "detail": "2017-05-16, Deck 13",
+            "image": null,
+            "score": 0.8129223366008672
+          },
+          {
+            "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+            "name": "Outer Wilds",
+            "type": null,
+            "detail": "2019-05-28, Mobius Digital, LLC",
+            "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+            "score": 0.8078605683035671
+          },
+          {
+            "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+            "name": "Children of Morta",
+            "type": null,
+            "detail": "2019-09-03, Dead Mage",
+            "image": null,
+            "score": 0.8055943811753268
+          },
+          {
+            "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+            "name": "The Outer Worlds",
+            "type": null,
+            "detail": "2019-10-25, Obsidian Entertainment",
+            "image": null,
+            "score": 0.803439512429675
+          },
+          {
+            "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+            "name": "CrossCode",
+            "type": null,
+            "detail": "2020-07-09, Radical Fish Games",
+            "image": null,
+            "score": 0.7990391202449966
+          },
+          {
+            "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+            "name": "Hades",
+            "type": null,
+            "detail": "2018-12-06, Supergiant Games",
+            "image": null,
+            "score": 0.7977059916254265
+          },
+          {
+            "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+            "name": "Hob",
+            "type": null,
+            "detail": "2017-09-26, Runic Games",
+            "image": null,
+            "score": 0.7921674225180259
+          },
+          {
+            "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+            "name": "Wasteland 3",
+            "type": null,
+            "detail": "2020-08-28, InXile Entertainment",
+            "image": null,
+            "score": 0.772468753723492
+          },
+          {
+            "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+            "name": "Disco Elysium",
+            "type": null,
+            "detail": "2019-10-15, ZA/UM",
+            "image": null,
+            "score": 0.7658871236492928
+          },
+          {
+            "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+            "name": "Kenshi",
+            "type": null,
+            "detail": "2011-11-21, Lo-Fi Games",
+            "image": null,
+            "score": 0.7554064810417238
+          }
+        ]
+      },
+      "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D": {
+        "movie": [
+          {
+            "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+            "name": "Moon",
+            "type": null,
+            "detail": "2009, Duncan Jones",
+            "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+            "score": 0.9537320459318496
+          },
+          {
+            "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+            "name": "Primer",
+            "type": null,
+            "detail": "2004, Shane Carruth",
+            "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+            "score": 0.9414379744522156
+          },
+          {
+            "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+            "name": "Children of Men",
+            "type": null,
+            "detail": "2006, Alfonso Cuarón",
+            "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+            "score": 0.9399675014529963
+          },
+          {
+            "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+            "name": "Gattaca",
+            "type": null,
+            "detail": "1997, Andrew Niccol",
+            "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+            "score": 0.9367001924951693
+          },
+          {
+            "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+            "name": "Dark City",
+            "type": null,
+            "detail": "1998, Alex Proyas",
+            "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+            "score": 0.9346505650340764
+          },
+          {
+            "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+            "name": "K-PAX",
+            "type": null,
+            "detail": "2001, Iain Softley",
+            "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+            "score": 0.9267075513475138
+          },
+          {
+            "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+            "name": "Sunshine",
+            "type": null,
+            "detail": "2007, Danny Boyle",
+            "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+            "score": 0.9254991008238967
+          },
+          {
+            "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+            "name": "The Man from Earth",
+            "type": null,
+            "detail": "2007, Richard Schenkman",
+            "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+            "score": 0.9181905639153672
+          },
+          {
+            "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+            "name": "Another Earth",
+            "type": null,
+            "detail": "2011, Mike Cahill",
+            "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+            "score": 0.9136589990708224
+          },
+          {
+            "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+            "name": "Coherence",
+            "type": null,
+            "detail": "2013, James Ward Byrkit",
+            "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+            "score": 0.9130760292947779
+          },
+          {
+            "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+            "name": "The Fountain",
+            "type": null,
+            "detail": "2006, Darren Aronofsky",
+            "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+            "score": 0.9109054884432547
+          },
+          {
+            "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+            "name": "Mr. Nobody",
+            "type": null,
+            "detail": "2009, Jaco Van Dormael",
+            "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+            "score": 0.9042174931918049
+          },
+          {
+            "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+            "name": "Ex Machina",
+            "type": null,
+            "detail": "2014, Alex Garland",
+            "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+            "score": 0.9010870042364031
+          },
+          {
+            "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+            "name": "Enemy",
+            "type": null,
+            "detail": "2013, Denis Villeneuve",
+            "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+            "score": 0.899501981808912
+          },
+          {
+            "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+            "name": "Upstream Color",
+            "type": null,
+            "detail": "2013, Shane Carruth",
+            "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+            "score": 0.8993695793434324
+          },
+          {
+            "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+            "name": "I Origins",
+            "type": null,
+            "detail": "2014, Mike Cahill",
+            "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+            "score": 0.8911021696363572
+          },
+          {
+            "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+            "name": "Snowpiercer",
+            "type": null,
+            "detail": "2013, Bong Joon Ho",
+            "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+            "score": 0.8808033357367221
+          },
+          {
+            "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+            "name": "Lost in Translation",
+            "type": null,
+            "detail": "2003, Sofia Coppola",
+            "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+            "score": 0.8631525645984037
+          },
+          {
+            "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+            "name": "Her",
+            "type": null,
+            "detail": "2013, Spike Jonze",
+            "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+            "score": 0.8600182954296295
+          },
+          {
+            "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+            "name": "The Lobster",
+            "type": null,
+            "detail": "2015, Yorgos Lanthimos",
+            "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+            "score": 0.8574715279707845
+          }
+        ],
+        "videogame": [
+          {
+            "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+            "name": "Control",
+            "type": null,
+            "detail": "2019-08-27, Remedy Entertainment",
+            "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+            "score": 0.8354340811139093
+          },
+          {
+            "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+            "name": "The Outer Worlds",
+            "type": null,
+            "detail": "2019-10-25, Obsidian Entertainment",
+            "image": null,
+            "score": 0.8237907892551048
+          },
+          {
+            "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+            "name": "Disco Elysium",
+            "type": null,
+            "detail": "2019-10-15, ZA/UM",
+            "image": null,
+            "score": 0.8212446336177331
+          },
+          {
+            "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+            "name": "Outer Wilds",
+            "type": null,
+            "detail": "2019-05-28, Mobius Digital, LLC",
+            "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+            "score": 0.8195707088312048
+          },
+          {
+            "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+            "name": "Kingdom Come: Deliverance",
+            "type": null,
+            "detail": "2018-02-13, Warhorse Studios",
+            "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+            "score": 0.7985136546739963
+          },
+          {
+            "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+            "name": "Wasteland 3",
+            "type": null,
+            "detail": "2020-08-28, InXile Entertainment",
+            "image": null,
+            "score": 0.7972681748871653
+          },
+          {
+            "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+            "name": "Prey",
+            "type": null,
+            "detail": "2017-05-05, Arkane Studios",
+            "image": null,
+            "score": 0.7961053096944173
+          },
+          {
+            "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+            "name": "Children of Morta",
+            "type": null,
+            "detail": "2019-09-03, Dead Mage",
+            "image": null,
+            "score": 0.795227310521192
+          },
+          {
+            "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+            "name": "Hob",
+            "type": null,
+            "detail": "2017-09-26, Runic Games",
+            "image": null,
+            "score": 0.7880143622397707
+          },
+          {
+            "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+            "name": "Hades",
+            "type": null,
+            "detail": "2018-12-06, Supergiant Games",
+            "image": null,
+            "score": 0.7760730233184926
+          },
+          {
+            "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+            "name": "Kenshi",
+            "type": null,
+            "detail": "2011-11-21, Lo-Fi Games",
+            "image": null,
+            "score": 0.7631316796673407
+          },
+          {
+            "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+            "name": "Metro Exodus",
+            "type": null,
+            "detail": "2019-02-15, 4A Games",
+            "image": null,
+            "score": 0.7600544448945508
+          },
+          {
+            "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+            "name": "Mortal Shell",
+            "type": null,
+            "detail": "2020-08-18, Cold Symmetry",
+            "image": null,
+            "score": 0.7505786373190896
+          },
+          {
+            "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+            "name": "The Surge",
+            "type": null,
+            "detail": "2017-05-16, Deck 13",
+            "image": null,
+            "score": 0.7488654219003333
+          },
+          {
+            "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+            "name": "Death Stranding",
+            "type": null,
+            "detail": "2019-11-08, Kojima Productions",
+            "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+            "score": 0.748128183693028
+          },
+          {
+            "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+            "name": "Sekiro: Shadows Die Twice",
+            "type": null,
+            "detail": "2019-03-22, From Software",
+            "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+            "score": 0.7427704786656402
+          },
+          {
+            "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+            "name": "Generation Zero",
+            "type": null,
+            "detail": "2019-03-26, Avalanche Studios",
+            "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+            "score": 0.7418280453202741
+          },
+          {
+            "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+            "name": "CrossCode",
+            "type": null,
+            "detail": "2020-07-09, Radical Fish Games",
+            "image": null,
+            "score": 0.7407702806179656
+          },
+          {
+            "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+            "name": "RAGE 2",
+            "type": null,
+            "detail": "2019-05-13, Avalanche Studios",
+            "image": null,
+            "score": 0.7332188469998624
+          },
+          {
+            "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+            "name": "Half-Life: Alyx",
+            "type": null,
+            "detail": "2020-03-23, Valve Software",
+            "image": null,
+            "score": 0.7223376655819347
+          }
+        ]
+      },
+      "569F8294-72DA-4935-B9F2-4FC697AB2A1E": {
+        "movie": [
+          {
+            "id": "603C7E42-C952-45CB-8B6F-3B803FEFB2F7",
+            "name": "Lost in Translation",
+            "type": null,
+            "detail": "2003, Sofia Coppola",
+            "image": "https://images.qloo.com/i/603C7E42-C952-45CB-8B6F-3B803FEFB2F7-420x-auto.jpg",
+            "score": 0.919267407902576
+          },
+          {
+            "id": "4F8EBD51-46DB-4527-BC61-75B56472A50E",
+            "name": "Her",
+            "type": null,
+            "detail": "2013, Spike Jonze",
+            "image": "https://images.qloo.com/i/4F8EBD51-46DB-4527-BC61-75B56472A50E-420x-auto.jpg",
+            "score": 0.9086893607642123
+          },
+          {
+            "id": "A9EF0D90-2F4E-4023-9A8D-ACC057AE7612",
+            "name": "The Lobster",
+            "type": null,
+            "detail": "2015, Yorgos Lanthimos",
+            "image": "https://images.qloo.com/i/A9EF0D90-2F4E-4023-9A8D-ACC057AE7612-420x-auto.jpg",
+            "score": 0.897593900807955
+          },
+          {
+            "id": "A394E4F0-7367-4EEA-B067-ACA12AA4888B",
+            "name": "Mr. Nobody",
+            "type": null,
+            "detail": "2009, Jaco Van Dormael",
+            "image": "https://images.qloo.com/i/A394E4F0-7367-4EEA-B067-ACA12AA4888B-420x-auto.jpg",
+            "score": 0.8847819732955118
+          },
+          {
+            "id": "BB9AA6CE-8012-44B8-B554-54BE8A374A5E",
+            "name": "Children of Men",
+            "type": null,
+            "detail": "2006, Alfonso Cuarón",
+            "image": "https://images.qloo.com/i/BB9AA6CE-8012-44B8-B554-54BE8A374A5E-420x-auto.jpg",
+            "score": 0.879600966295333
+          },
+          {
+            "id": "1BCDAADD-43B5-4554-895F-D6497BFB536C",
+            "name": "Upstream Color",
+            "type": null,
+            "detail": "2013, Shane Carruth",
+            "image": "https://images.qloo.com/i/1BCDAADD-43B5-4554-895F-D6497BFB536C-420x-auto.jpg",
+            "score": 0.8705022760246789
+          },
+          {
+            "id": "6BBB34F4-9345-4459-82AE-10991FA35CD2",
+            "name": "Moon",
+            "type": null,
+            "detail": "2009, Duncan Jones",
+            "image": "https://images.qloo.com/i/6BBB34F4-9345-4459-82AE-10991FA35CD2-420x-auto.jpg",
+            "score": 0.8701587258897873
+          },
+          {
+            "id": "B465B55F-0A54-415B-A224-8CCD4D6009DC",
+            "name": "Enemy",
+            "type": null,
+            "detail": "2013, Denis Villeneuve",
+            "image": "https://images.qloo.com/i/B465B55F-0A54-415B-A224-8CCD4D6009DC-420x-auto.jpg",
+            "score": 0.8699977964680612
+          },
+          {
+            "id": "F2D38796-6AEC-489E-A13D-DFEBB8527CB9",
+            "name": "Primer",
+            "type": null,
+            "detail": "2004, Shane Carruth",
+            "image": "https://images.qloo.com/i/F2D38796-6AEC-489E-A13D-DFEBB8527CB9-420x-auto.jpg",
+            "score": 0.8580282107831975
+          },
+          {
+            "id": "6F7EF896-FEF5-4160-B179-1987620E650D",
+            "name": "Ex Machina",
+            "type": null,
+            "detail": "2014, Alex Garland",
+            "image": "https://images.qloo.com/i/6F7EF896-FEF5-4160-B179-1987620E650D-420x-auto.jpg",
+            "score": 0.8553017938712912
+          },
+          {
+            "id": "BC2A8103-D00B-4495-86AC-AF200690699C",
+            "name": "The Fountain",
+            "type": null,
+            "detail": "2006, Darren Aronofsky",
+            "image": "https://images.qloo.com/i/BC2A8103-D00B-4495-86AC-AF200690699C-420x-auto.jpg",
+            "score": 0.8547136246880179
+          },
+          {
+            "id": "55C44F6A-AA62-44B1-BFD2-19DD2AA0408B",
+            "name": "Another Earth",
+            "type": null,
+            "detail": "2011, Mike Cahill",
+            "image": "https://images.qloo.com/i/55C44F6A-AA62-44B1-BFD2-19DD2AA0408B-420x-auto.jpg",
+            "score": 0.8521719147436105
+          },
+          {
+            "id": "CC25B3AF-7540-4695-B926-48C94EF754BB",
+            "name": "Gattaca",
+            "type": null,
+            "detail": "1997, Andrew Niccol",
+            "image": "https://images.qloo.com/i/CC25B3AF-7540-4695-B926-48C94EF754BB-420x-auto.jpg",
+            "score": 0.8519194933890346
+          },
+          {
+            "id": "62E05907-9AF0-4362-88AF-9F03BC20675E",
+            "name": "I Origins",
+            "type": null,
+            "detail": "2014, Mike Cahill",
+            "image": "https://images.qloo.com/i/62E05907-9AF0-4362-88AF-9F03BC20675E-420x-auto.jpg",
+            "score": 0.8492662412235028
+          },
+          {
+            "id": "607689C0-0BB2-4E27-AF7D-FE7ACA53C62F",
+            "name": "Snowpiercer",
+            "type": null,
+            "detail": "2013, Bong Joon Ho",
+            "image": "https://images.qloo.com/i/607689C0-0BB2-4E27-AF7D-FE7ACA53C62F-420x-auto.jpg",
+            "score": 0.8462310018584783
+          },
+          {
+            "id": "E15DBB1E-79BB-480F-A101-01940778D6F6",
+            "name": "The Man from Earth",
+            "type": null,
+            "detail": "2007, Richard Schenkman",
+            "image": "https://images.qloo.com/i/E15DBB1E-79BB-480F-A101-01940778D6F6-420x-auto.jpg",
+            "score": 0.8286985382580493
+          },
+          {
+            "id": "E0D0E120-0132-40CE-B98E-61EFEE28496E",
+            "name": "Dark City",
+            "type": null,
+            "detail": "1998, Alex Proyas",
+            "image": "https://images.qloo.com/i/E0D0E120-0132-40CE-B98E-61EFEE28496E-420x-auto.jpg",
+            "score": 0.8282542840114175
+          },
+          {
+            "id": "C454A23F-414C-45E7-B485-EDD35832D56C",
+            "name": "Coherence",
+            "type": null,
+            "detail": "2013, James Ward Byrkit",
+            "image": "https://images.qloo.com/i/C454A23F-414C-45E7-B485-EDD35832D56C-420x-auto.jpg",
+            "score": 0.8281609446732938
+          },
+          {
+            "id": "DB987465-3836-4EA7-AFCE-9B202AAA86A7",
+            "name": "K-PAX",
+            "type": null,
+            "detail": "2001, Iain Softley",
+            "image": "https://images.qloo.com/i/DB987465-3836-4EA7-AFCE-9B202AAA86A7-420x-auto.jpg",
+            "score": 0.8180619700777755
+          },
+          {
+            "id": "AA37E33C-E21D-4FBB-A55C-8837EE400AE1",
+            "name": "Sunshine",
+            "type": null,
+            "detail": "2007, Danny Boyle",
+            "image": "https://images.qloo.com/i/AA37E33C-E21D-4FBB-A55C-8837EE400AE1-420x-auto.jpg",
+            "score": 0.8128626776112013
+          }
+        ],
+        "videogame": [
+          {
+            "id": "2EF14203-F7DD-4EAB-B025-964F916C8EE5",
+            "name": "Kenshi",
+            "type": null,
+            "detail": "2011-11-21, Lo-Fi Games",
+            "image": null,
+            "score": 0.8198495285272679
+          },
+          {
+            "id": "DBBE97B5-C1BD-42E2-B63F-359096C40AC3",
+            "name": "CrossCode",
+            "type": null,
+            "detail": "2020-07-09, Radical Fish Games",
+            "image": null,
+            "score": 0.7946901172866313
+          },
+          {
+            "id": "B32A4BFE-C5FA-4BB3-AC83-4A4EDBD57FE7",
+            "name": "The Outer Worlds",
+            "type": null,
+            "detail": "2019-10-25, Obsidian Entertainment",
+            "image": null,
+            "score": 0.7765664533726492
+          },
+          {
+            "id": "9DD86759-2BA0-4FEE-9E4C-28D32B95EF42",
+            "name": "Half-Life: Alyx",
+            "type": null,
+            "detail": "2020-03-23, Valve Software",
+            "image": null,
+            "score": 0.7691059961719826
+          },
+          {
+            "id": "524A59A0-4C58-44EB-B16D-9FEEE56AE3DE",
+            "name": "Kingdom Come: Deliverance",
+            "type": null,
+            "detail": "2018-02-13, Warhorse Studios",
+            "image": "https://images.qloo.com/i/524A59A0-4C58-44EB-B16D-9FEEE56AE3DE-420x-auto.jpg",
+            "score": 0.7607994633681323
+          },
+          {
+            "id": "9BC89FC9-A9E5-4EA1-B662-604278543A2E",
+            "name": "The Surge",
+            "type": null,
+            "detail": "2017-05-16, Deck 13",
+            "image": null,
+            "score": 0.7578104304971509
+          },
+          {
+            "id": "E35EE1C7-D1A2-41B1-A17A-83583ECB8D36",
+            "name": "Mortal Shell",
+            "type": null,
+            "detail": "2020-08-18, Cold Symmetry",
+            "image": null,
+            "score": 0.757216973707156
+          },
+          {
+            "id": "45125C1A-C0FD-4F93-A391-5AA00E7A6F3D",
+            "name": "Hob",
+            "type": null,
+            "detail": "2017-09-26, Runic Games",
+            "image": null,
+            "score": 0.7553984121386703
+          },
+          {
+            "id": "2C1D9464-2699-4FBB-9B09-8622191E90B4",
+            "name": "Prey",
+            "type": null,
+            "detail": "2017-05-05, Arkane Studios",
+            "image": null,
+            "score": 0.754237912942981
+          },
+          {
+            "id": "1760952E-27B8-47DA-BEE6-8CCBE77B0F47",
+            "name": "Children of Morta",
+            "type": null,
+            "detail": "2019-09-03, Dead Mage",
+            "image": null,
+            "score": 0.751056541214837
+          },
+          {
+            "id": "0C5B5C35-B953-445A-9667-3EB83408EAC9",
+            "name": "Generation Zero",
+            "type": null,
+            "detail": "2019-03-26, Avalanche Studios",
+            "image": "https://images.qloo.com/i/0C5B5C35-B953-445A-9667-3EB83408EAC9-420x-auto.jpg",
+            "score": 0.7505448101632393
+          },
+          {
+            "id": "D17029CF-5A4D-4C79-854B-CA9B2EF8967D",
+            "name": "Wasteland 3",
+            "type": null,
+            "detail": "2020-08-28, InXile Entertainment",
+            "image": null,
+            "score": 0.7484850353869559
+          },
+          {
+            "id": "BA00D00A-E4CD-48C0-A22E-CFC52039D618",
+            "name": "Hades",
+            "type": null,
+            "detail": "2018-12-06, Supergiant Games",
+            "image": null,
+            "score": 0.7436684003865729
+          },
+          {
+            "id": "BF4E74F3-8495-4962-B988-1F0E5BF28453",
+            "name": "Disco Elysium",
+            "type": null,
+            "detail": "2019-10-15, ZA/UM",
+            "image": null,
+            "score": 0.7386207363741193
+          },
+          {
+            "id": "8FFB583D-C18C-478B-A15A-EC0B9B3D6BEF",
+            "name": "RAGE 2",
+            "type": null,
+            "detail": "2019-05-13, Avalanche Studios",
+            "image": null,
+            "score": 0.7375971105873405
+          },
+          {
+            "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+            "name": "Outer Wilds",
+            "type": null,
+            "detail": "2019-05-28, Mobius Digital, LLC",
+            "image": "https://images.qloo.com/i/EA0D6B19-199B-439B-809D-B60B4412E405-420x-auto.jpg",
+            "score": 0.7306644529628857
+          },
+          {
+            "id": "08910533-E760-4683-9201-57B9B73A4F7F",
+            "name": "Sekiro: Shadows Die Twice",
+            "type": null,
+            "detail": "2019-03-22, From Software",
+            "image": "https://images.qloo.com/i/08910533-E760-4683-9201-57B9B73A4F7F-420x-auto.jpg",
+            "score": 0.7278935779704273
+          },
+          {
+            "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+            "name": "Metro Exodus",
+            "type": null,
+            "detail": "2019-02-15, 4A Games",
+            "image": null,
+            "score": 0.7114815710001952
+          },
+          {
+            "id": "108570A5-B892-46B4-87B8-B67A0E5C9C09",
+            "name": "Control",
+            "type": null,
+            "detail": "2019-08-27, Remedy Entertainment",
+            "image": "https://images.qloo.com/i/108570A5-B892-46B4-87B8-B67A0E5C9C09-420x-auto.jpg",
+            "score": 0.6922605371760464
+          },
+          {
+            "id": "B061B95F-B940-4871-B80A-C12365E7A2A1",
+            "name": "Death Stranding",
+            "type": null,
+            "detail": "2019-11-08, Kojima Productions",
+            "image": "https://images.qloo.com/i/B061B95F-B940-4871-B80A-C12365E7A2A1-420x-auto.jpg",
+            "score": 0.6836552425653218
+          }
+        ]
+      }
+    },
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+          "name": "Severance",
+          "domains": {
+            "movie": 0.26315789473684215,
+            "videogame": 0.5
+          },
+          "value": 0.3815789473684211,
+          "halves": [
+            0.3515151515151515,
+            0.4727272727272727
+          ]
+        },
+        {
+          "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "domains": {
+            "movie": 0.3330827067669173,
+            "videogame": 0.32781954887218046
+          },
+          "value": 0.3304511278195489,
+          "halves": [
+            0.37272727272727274,
+            0.26969696969696966
+          ]
+        },
+        {
+          "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "name": "Blue Bottle Coffee",
+          "domains": {
+            "movie": 0.34285714285714286,
+            "videogame": 0.22330827067669173
+          },
+          "value": 0.28308270676691727,
+          "halves": [
+            0.2848484848484848,
+            0.29393939393939394
+          ]
+        }
+      ],
+      "domains": [
+        "movie",
+        "videogame"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves"
+    },
+    "warnings": [],
+    "fixture": "overthinker",
+    "provenance": {
+      "kind": "Qloo live fixture recorded for this prototype",
+      "request_hashes": [
+        "6548160d52af3740085302bdf769c603b2d9bb503b4e1400d0314b0c839d79b9",
+        "9fa994900c242d7d418f209ca935e3172c4b988ef366148f084f0b30c14cd9f2",
+        "0347ebccaee4a56e0267672d2dc11a4f1d92f393a41c256d3ce0697201aca3a3",
+        "96b91d6c60b52bf12b9b8444178dcb16a18b60f7965a52fd5abcaf8b72ceb939",
+        "dd7113844b0fb6d43f492fd29de000837119e5cc7159f345c5c1474822a42d63",
+        "31e55882134364c5b896840347a3a092a426cdc42caad4ed29281db1bb9b0ab4",
+        "1ddb87597b6a1dc9742ecc2e631ad6e313967b5a36fa1d6e81547ab445c439e1",
+        "895ee95dc0e3f430dc70b929725268cabeb3a77bdc64fc5309d5ea4b7df3dd19",
+        "c29e56d61126e2adaa41986aa1ad7cced84ae1a34eb56926fcb78ec5c4033ed6",
+        "3427c751a182d6e057b69976e28917db89946bdef00e7de5d63c233cd0d8bbaa"
+      ]
+    }
+  },
+  "comfort": {
+    "version": 1,
+    "source": "recorded",
+    "generated_at": "2026-10-08T12:08:06.018532+00:00",
+    "interests": [
+      {
+        "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+        "name": "Taylor Swift",
+        "type": "artist",
+        "detail": "Taylor Swift",
+        "image": "https://images.qloo.com/i/4BBEF799-A0C4-4110-AB01-39216993C312-420x-auto.jpg",
+        "verified": true,
+        "alias": "taylor"
+      },
+      {
+        "id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+        "name": "Starbucks",
+        "type": "brand",
+        "detail": "Starbucks is a global coffee company known for its handcrafted beverages, coffee products, and café experience.",
+        "image": "https://images.qloo.com/i/B13C02E3-BA3C-4B39-85B4-ACF12FEBC892-420x-auto.jpg",
+        "verified": true,
+        "alias": "starbucks"
+      },
+      {
+        "id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+        "name": "Friends",
+        "type": "tv_show",
+        "detail": "1994,2004",
+        "image": "https://images.qloo.com/i/4E62202B-3672-4B2E-A21F-C5EA4A0BA01F-420x-auto.jpg",
+        "verified": true,
+        "alias": "friends"
+      }
+    ],
+    "domains": [
+      "movie",
+      "videogame"
+    ],
+    "predictions": [
+      {
+        "id": "74E3107A-108B-4339-B9FD-54C4B1D5ABB4",
+        "name": "Love, Rosie",
+        "type": null,
+        "detail": "2014, Christian Ditter",
+        "image": "https://images.qloo.com/i/74E3107A-108B-4339-B9FD-54C4B1D5ABB4-420x-auto.jpg",
+        "score": 0.9404576517820915,
+        "domain": "movie",
+        "rank": 1
+      },
+      {
+        "id": "2225FC45-A2BE-454C-8527-6EAF3F4BF3DB",
+        "name": "The Sims 4",
+        "type": null,
+        "detail": "2014-09-02, Maxis",
+        "image": "https://images.qloo.com/i/2225FC45-A2BE-454C-8527-6EAF3F4BF3DB-420x-auto.jpg",
+        "score": 0.8929554575800999,
+        "domain": "videogame",
+        "rank": 1
+      },
+      {
+        "id": "8E2814F5-4FAA-435B-A426-5A892452CC9E",
+        "name": "Me Before You",
+        "type": null,
+        "detail": "2016, Thea Sharrock",
+        "image": "https://images.qloo.com/i/8E2814F5-4FAA-435B-A426-5A892452CC9E-420x-auto.jpg",
+        "score": 0.9400700914489059,
+        "domain": "movie",
+        "rank": 2
+      },
+      {
+        "id": "0CB15734-6772-42E4-90E1-9BEE2529A592",
+        "name": "The Sims 3",
+        "type": null,
+        "detail": "2009-06-02, The Sims Studio",
+        "image": null,
+        "score": 0.8761217135623358,
+        "domain": "videogame",
+        "rank": 2
+      },
+      {
+        "id": "073A99FE-D113-4257-9B0E-FB71B728F39D",
+        "name": "Before We Go",
+        "type": null,
+        "detail": "2014, Chris Evans",
+        "image": "https://images.qloo.com/i/073A99FE-D113-4257-9B0E-FB71B728F39D-420x-auto.jpg",
+        "score": 0.932806386646735,
+        "domain": "movie",
+        "rank": 3
+      },
+      {
+        "id": "C774A6C9-9142-473E-80B8-F5DAF7249999",
+        "name": "Diner Dash",
+        "type": null,
+        "detail": "2007-05-23, Climax Studios",
+        "image": "https://images.qloo.com/i/C774A6C9-9142-473E-80B8-F5DAF7249999-420x-auto.jpg",
+        "score": 0.8618152040448436,
+        "domain": "videogame",
+        "rank": 3
+      }
+    ],
+    "full": {
+      "movie": [
+        {
+          "id": "74E3107A-108B-4339-B9FD-54C4B1D5ABB4",
+          "name": "Love, Rosie",
+          "type": null,
+          "detail": "2014, Christian Ditter",
+          "image": "https://images.qloo.com/i/74E3107A-108B-4339-B9FD-54C4B1D5ABB4-420x-auto.jpg",
+          "score": 0.9404576517820915
+        },
+        {
+          "id": "8E2814F5-4FAA-435B-A426-5A892452CC9E",
+          "name": "Me Before You",
+          "type": null,
+          "detail": "2016, Thea Sharrock",
+          "image": "https://images.qloo.com/i/8E2814F5-4FAA-435B-A426-5A892452CC9E-420x-auto.jpg",
+          "score": 0.9400700914489059
+        },
+        {
+          "id": "073A99FE-D113-4257-9B0E-FB71B728F39D",
+          "name": "Before We Go",
+          "type": null,
+          "detail": "2014, Chris Evans",
+          "image": "https://images.qloo.com/i/073A99FE-D113-4257-9B0E-FB71B728F39D-420x-auto.jpg",
+          "score": 0.932806386646735
+        },
+        {
+          "id": "61DA5CA1-E958-4637-A35D-0661BDF2DBFD",
+          "name": "How to Be Single",
+          "type": null,
+          "detail": "2016, Christian Ditter",
+          "image": "https://images.qloo.com/i/61DA5CA1-E958-4637-A35D-0661BDF2DBFD-420x-auto.jpg",
+          "score": 0.9217666818825145
+        },
+        {
+          "id": "B7DA3217-8637-4547-8ECE-E8FCE89EDDF4",
+          "name": "The Edge of Seventeen",
+          "type": null,
+          "detail": "2016, Kelly Fremon Craig",
+          "image": "https://images.qloo.com/i/B7DA3217-8637-4547-8ECE-E8FCE89EDDF4-420x-auto.jpg",
+          "score": 0.9208105913800099
+        },
+        {
+          "id": "253E6370-5F98-40CA-B19D-ED262214ECB2",
+          "name": "Stuck in Love.",
+          "type": null,
+          "detail": "2012, Josh Boone",
+          "image": "https://images.qloo.com/i/253E6370-5F98-40CA-B19D-ED262214ECB2-420x-auto.jpg",
+          "score": 0.9193625217574369
+        },
+        {
+          "id": "CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628",
+          "name": "The Fault in Our Stars",
+          "type": null,
+          "detail": "2014, Josh Boone",
+          "image": "https://images.qloo.com/i/CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628-420x-auto.jpg",
+          "score": 0.9157221479317466
+        },
+        {
+          "id": "191372C3-4C5B-4094-A3AD-B832E32B7677",
+          "name": "The Choice",
+          "type": null,
+          "detail": "2016, Ross Katz",
+          "image": "https://images.qloo.com/i/191372C3-4C5B-4094-A3AD-B832E32B7677-420x-auto.jpg",
+          "score": 0.9156943327159448
+        },
+        {
+          "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+          "name": "Begin Again",
+          "type": null,
+          "detail": "2013, John Carney",
+          "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+          "score": 0.9152234651781429
+        },
+        {
+          "id": "A2C71205-3C77-408A-8B68-4F169AF795D4",
+          "name": "To All the Boys I've Loved Before",
+          "type": null,
+          "detail": "2018, Susan Johnson",
+          "image": "https://images.qloo.com/i/A2C71205-3C77-408A-8B68-4F169AF795D4-420x-auto.jpg",
+          "score": 0.9139962490200769
+        },
+        {
+          "id": "DC3740F2-9F90-424A-A090-C09F1E5DF248",
+          "name": "The Age of Adaline",
+          "type": null,
+          "detail": "2015, Lee Toland Krieger",
+          "image": "https://images.qloo.com/i/DC3740F2-9F90-424A-A090-C09F1E5DF248-420x-auto.jpg",
+          "score": 0.9138327423193875
+        },
+        {
+          "id": "71B5200F-0BCB-4B52-A451-C12BF3ECEBCB",
+          "name": "About Time",
+          "type": null,
+          "detail": "2013, Richard Curtis",
+          "image": "https://images.qloo.com/i/71B5200F-0BCB-4B52-A451-C12BF3ECEBCB-420x-auto.jpg",
+          "score": 0.9138176567470906
+        },
+        {
+          "id": "5B157959-EB5B-4C38-85C2-B762F225BA9A",
+          "name": "Naomi and Ely's No Kiss List",
+          "type": null,
+          "detail": "2015, Kristin Hanggi",
+          "image": "https://images.qloo.com/i/5B157959-EB5B-4C38-85C2-B762F225BA9A-420x-auto.jpg",
+          "score": 0.9117272033856335
+        },
+        {
+          "id": "612718CD-DC53-4E3D-AE8C-5CA8E41356AF",
+          "name": "The Kissing Booth",
+          "type": null,
+          "detail": "2018, Vince Marcello",
+          "image": "https://images.qloo.com/i/612718CD-DC53-4E3D-AE8C-5CA8E41356AF-420x-auto.jpg",
+          "score": 0.911088620991329
+        },
+        {
+          "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+          "name": "Crazy Rich Asians",
+          "type": null,
+          "detail": "2018, Jon M. Chu",
+          "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+          "score": 0.9109461072277133
+        },
+        {
+          "id": "737672E4-8EF0-41E6-9F8D-804F5753DE12",
+          "name": "The First Time",
+          "type": null,
+          "detail": "2012, Jonathan Kasdan",
+          "image": "https://images.qloo.com/i/737672E4-8EF0-41E6-9F8D-804F5753DE12-420x-auto.jpg",
+          "score": 0.9105574690847936
+        },
+        {
+          "id": "17033B7C-081D-45E1-85AF-519AD6087E11",
+          "name": "Everything, Everything",
+          "type": null,
+          "detail": "2017, Stella Meghie",
+          "image": "https://images.qloo.com/i/17033B7C-081D-45E1-85AF-519AD6087E11-420x-auto.jpg",
+          "score": 0.9105503475887846
+        },
+        {
+          "id": "7C57785D-5E89-47ED-B99D-254E09ACC6B3",
+          "name": "Someone Great",
+          "type": null,
+          "detail": "2019, Jennifer Kaytin Robinson",
+          "image": "https://images.qloo.com/i/7C57785D-5E89-47ED-B99D-254E09ACC6B3-420x-auto.jpg",
+          "score": 0.9100667891955607
+        },
+        {
+          "id": "D06C0D5E-1747-426B-8C95-21678A9E44B4",
+          "name": "Mamma Mia! Here We Go Again",
+          "type": null,
+          "detail": "2018, Ol Parker",
+          "image": "https://images.qloo.com/i/D06C0D5E-1747-426B-8C95-21678A9E44B4-420x-auto.jpg",
+          "score": 0.9093880216483767
+        },
+        {
+          "id": "3D816796-AAFB-4969-82C5-40E2F7B0B60D",
+          "name": "Laggies",
+          "type": null,
+          "detail": "2014, Lynn Shelton",
+          "image": "https://images.qloo.com/i/3D816796-AAFB-4969-82C5-40E2F7B0B60D-420x-auto.jpg",
+          "score": 0.9087895689737526
+        }
+      ],
+      "videogame": [
+        {
+          "id": "2225FC45-A2BE-454C-8527-6EAF3F4BF3DB",
+          "name": "The Sims 4",
+          "type": null,
+          "detail": "2014-09-02, Maxis",
+          "image": "https://images.qloo.com/i/2225FC45-A2BE-454C-8527-6EAF3F4BF3DB-420x-auto.jpg",
+          "score": 0.8929554575800999
+        },
+        {
+          "id": "0CB15734-6772-42E4-90E1-9BEE2529A592",
+          "name": "The Sims 3",
+          "type": null,
+          "detail": "2009-06-02, The Sims Studio",
+          "image": null,
+          "score": 0.8761217135623358
+        },
+        {
+          "id": "C774A6C9-9142-473E-80B8-F5DAF7249999",
+          "name": "Diner Dash",
+          "type": null,
+          "detail": "2007-05-23, Climax Studios",
+          "image": "https://images.qloo.com/i/C774A6C9-9142-473E-80B8-F5DAF7249999-420x-auto.jpg",
+          "score": 0.8618152040448436
+        },
+        {
+          "id": "9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D",
+          "name": "ROBLOX (Game Client)",
+          "type": null,
+          "detail": "2016-01-27, ROBLOX, Inc.",
+          "image": "https://images.qloo.com/i/9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D-420x-auto.jpg",
+          "score": 0.8572292070604308
+        },
+        {
+          "id": "99B5CF23-CE73-4967-BA12-AFB7224BBB6F",
+          "name": "The Sims 2",
+          "type": null,
+          "detail": "2004-09-14, Maxis",
+          "image": "https://images.qloo.com/i/99B5CF23-CE73-4967-BA12-AFB7224BBB6F-420x-auto.jpg",
+          "score": 0.856730936741565
+        },
+        {
+          "id": "766D99BD-60A0-4F50-AE4C-A1619A6E42B7",
+          "name": "Candy Crush Saga",
+          "type": null,
+          "detail": "2012-11-14, King.com",
+          "image": null,
+          "score": 0.8559403099820851
+        },
+        {
+          "id": "3A45DD76-37F3-4D7C-9CA3-51A600F876E4",
+          "name": "Temple Run",
+          "type": null,
+          "detail": "2011-08-04, Imangi Studios, LLC",
+          "image": null,
+          "score": 0.8518426196199049
+        },
+        {
+          "id": "554397CB-81BE-4E04-A7B2-5A9834859F64",
+          "name": "The Sims 2: Castaway",
+          "type": null,
+          "detail": "2007-10-23, Maxis",
+          "image": null,
+          "score": 0.8483472899892476
+        },
+        {
+          "id": "ADE59476-AA98-4A38-8F5C-1266E7320036",
+          "name": "Youtubers Life",
+          "type": null,
+          "detail": "2017-02-02, U-Play Online",
+          "image": null,
+          "score": 0.8455760135551785
+        },
+        {
+          "id": "9E184634-7021-46A9-9DB1-3AE2D223811D",
+          "name": "The Sims Medieval",
+          "type": null,
+          "detail": "2011-03-22, The Sims Studio",
+          "image": null,
+          "score": 0.8427142748441152
+        },
+        {
+          "id": "2853706C-02E2-444F-8024-2CC2678E2D76",
+          "name": "Among Us",
+          "type": null,
+          "detail": "2018-11-16, Innersloth",
+          "image": "https://images.qloo.com/i/2853706C-02E2-444F-8024-2CC2678E2D76-420x-auto.jpg",
+          "score": 0.8399003248548843
+        },
+        {
+          "id": "0FAA0C22-CDA5-4481-8520-2C0CA35408D7",
+          "name": "Tomodachi Life",
+          "type": null,
+          "detail": "2014-06-06, Nintendo",
+          "image": null,
+          "score": 0.8385992331424827
+        },
+        {
+          "id": "1D6C260D-9BF8-4F8B-9A73-06342EB30E5C",
+          "name": "Animal Crossing: Pocket Camp",
+          "type": null,
+          "detail": "2017-11-21, Nintendo",
+          "image": "https://images.qloo.com/i/1D6C260D-9BF8-4F8B-9A73-06342EB30E5C-420x-auto.jpg",
+          "score": 0.8373638649249798
+        },
+        {
+          "id": "229E91BA-796C-4B00-948B-236152882DE4",
+          "name": "The Impossible Game",
+          "type": null,
+          "detail": "2014-05-08, Grip Games",
+          "image": null,
+          "score": 0.836837954138065
+        },
+        {
+          "id": "D6A88C77-31C0-4B62-B178-D9C373E159AA",
+          "name": "SimCity",
+          "type": null,
+          "detail": "2013-03-05, Maxis",
+          "image": null,
+          "score": 0.8365425305841377
+        },
+        {
+          "id": "33F8BDCD-176C-427F-ACA6-5A8C4131A939",
+          "name": "Animal Crossing: Wild World",
+          "type": null,
+          "detail": "2005-12-05, Nintendo",
+          "image": "https://images.qloo.com/i/33F8BDCD-176C-427F-ACA6-5A8C4131A939-420x-auto.jpg",
+          "score": 0.8341290731180316
+        },
+        {
+          "id": "CDBDE254-71F0-4640-8D04-5373BEAE5278",
+          "name": "Minecraft",
+          "type": null,
+          "detail": "2011-11-18, Mojang AB",
+          "image": "https://images.qloo.com/i/CDBDE254-71F0-4640-8D04-5373BEAE5278-420x-auto.jpg",
+          "score": 0.8308406922188984
+        },
+        {
+          "id": "009A775F-B1AB-4FAC-902E-A34DEA36D596",
+          "name": "Jetpack Joyride",
+          "type": null,
+          "detail": "2011-09-01, Halfbrick Studios",
+          "image": null,
+          "score": 0.8300802258143555
+        },
+        {
+          "id": "3FF67985-3AC2-4E92-92B1-3071F78240E8",
+          "name": "Disney Infinity",
+          "type": null,
+          "detail": "2013-08-18, Avalanche Software",
+          "image": null,
+          "score": 0.8281942347596124
+        },
+        {
+          "id": "170CBB63-24CE-4D25-B87E-C2C5259DA766",
+          "name": "Plants vs. Zombies",
+          "type": null,
+          "detail": "2009-05-05, PopCap",
+          "image": null,
+          "score": 0.8258448040695413
+        }
+      ]
+    },
+    "ablations": {
+      "4BBEF799-A0C4-4110-AB01-39216993C312": {
+        "movie": [
+          {
+            "id": "74E3107A-108B-4339-B9FD-54C4B1D5ABB4",
+            "name": "Love, Rosie",
+            "type": null,
+            "detail": "2014, Christian Ditter",
+            "image": "https://images.qloo.com/i/74E3107A-108B-4339-B9FD-54C4B1D5ABB4-420x-auto.jpg",
+            "score": 0.9258766519484729
+          },
+          {
+            "id": "7C57785D-5E89-47ED-B99D-254E09ACC6B3",
+            "name": "Someone Great",
+            "type": null,
+            "detail": "2019, Jennifer Kaytin Robinson",
+            "image": "https://images.qloo.com/i/7C57785D-5E89-47ED-B99D-254E09ACC6B3-420x-auto.jpg",
+            "score": 0.9227427619433018
+          },
+          {
+            "id": "073A99FE-D113-4257-9B0E-FB71B728F39D",
+            "name": "Before We Go",
+            "type": null,
+            "detail": "2014, Chris Evans",
+            "image": "https://images.qloo.com/i/073A99FE-D113-4257-9B0E-FB71B728F39D-420x-auto.jpg",
+            "score": 0.9208382325607263
+          },
+          {
+            "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+            "name": "Begin Again",
+            "type": null,
+            "detail": "2013, John Carney",
+            "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+            "score": 0.9186814305564898
+          },
+          {
+            "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+            "name": "Crazy Rich Asians",
+            "type": null,
+            "detail": "2018, Jon M. Chu",
+            "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+            "score": 0.9143255899507362
+          },
+          {
+            "id": "B7DA3217-8637-4547-8ECE-E8FCE89EDDF4",
+            "name": "The Edge of Seventeen",
+            "type": null,
+            "detail": "2016, Kelly Fremon Craig",
+            "image": "https://images.qloo.com/i/B7DA3217-8637-4547-8ECE-E8FCE89EDDF4-420x-auto.jpg",
+            "score": 0.9137850349290453
+          },
+          {
+            "id": "8E2814F5-4FAA-435B-A426-5A892452CC9E",
+            "name": "Me Before You",
+            "type": null,
+            "detail": "2016, Thea Sharrock",
+            "image": "https://images.qloo.com/i/8E2814F5-4FAA-435B-A426-5A892452CC9E-420x-auto.jpg",
+            "score": 0.9136244456598154
+          },
+          {
+            "id": "71B5200F-0BCB-4B52-A451-C12BF3ECEBCB",
+            "name": "About Time",
+            "type": null,
+            "detail": "2013, Richard Curtis",
+            "image": "https://images.qloo.com/i/71B5200F-0BCB-4B52-A451-C12BF3ECEBCB-420x-auto.jpg",
+            "score": 0.9131234892264205
+          },
+          {
+            "id": "253E6370-5F98-40CA-B19D-ED262214ECB2",
+            "name": "Stuck in Love.",
+            "type": null,
+            "detail": "2012, Josh Boone",
+            "image": "https://images.qloo.com/i/253E6370-5F98-40CA-B19D-ED262214ECB2-420x-auto.jpg",
+            "score": 0.9128059157367961
+          },
+          {
+            "id": "61DA5CA1-E958-4637-A35D-0661BDF2DBFD",
+            "name": "How to Be Single",
+            "type": null,
+            "detail": "2016, Christian Ditter",
+            "image": "https://images.qloo.com/i/61DA5CA1-E958-4637-A35D-0661BDF2DBFD-420x-auto.jpg",
+            "score": 0.9110664103588494
+          },
+          {
+            "id": "A2C71205-3C77-408A-8B68-4F169AF795D4",
+            "name": "To All the Boys I've Loved Before",
+            "type": null,
+            "detail": "2018, Susan Johnson",
+            "image": "https://images.qloo.com/i/A2C71205-3C77-408A-8B68-4F169AF795D4-420x-auto.jpg",
+            "score": 0.9063716541130068
+          },
+          {
+            "id": "3D816796-AAFB-4969-82C5-40E2F7B0B60D",
+            "name": "Laggies",
+            "type": null,
+            "detail": "2014, Lynn Shelton",
+            "image": "https://images.qloo.com/i/3D816796-AAFB-4969-82C5-40E2F7B0B60D-420x-auto.jpg",
+            "score": 0.9043976832953148
+          },
+          {
+            "id": "737672E4-8EF0-41E6-9F8D-804F5753DE12",
+            "name": "The First Time",
+            "type": null,
+            "detail": "2012, Jonathan Kasdan",
+            "image": "https://images.qloo.com/i/737672E4-8EF0-41E6-9F8D-804F5753DE12-420x-auto.jpg",
+            "score": 0.9016282661165737
+          },
+          {
+            "id": "5B157959-EB5B-4C38-85C2-B762F225BA9A",
+            "name": "Naomi and Ely's No Kiss List",
+            "type": null,
+            "detail": "2015, Kristin Hanggi",
+            "image": "https://images.qloo.com/i/5B157959-EB5B-4C38-85C2-B762F225BA9A-420x-auto.jpg",
+            "score": 0.901575579514596
+          },
+          {
+            "id": "D06C0D5E-1747-426B-8C95-21678A9E44B4",
+            "name": "Mamma Mia! Here We Go Again",
+            "type": null,
+            "detail": "2018, Ol Parker",
+            "image": "https://images.qloo.com/i/D06C0D5E-1747-426B-8C95-21678A9E44B4-420x-auto.jpg",
+            "score": 0.9009527928888008
+          },
+          {
+            "id": "612718CD-DC53-4E3D-AE8C-5CA8E41356AF",
+            "name": "The Kissing Booth",
+            "type": null,
+            "detail": "2018, Vince Marcello",
+            "image": "https://images.qloo.com/i/612718CD-DC53-4E3D-AE8C-5CA8E41356AF-420x-auto.jpg",
+            "score": 0.9000294766455802
+          },
+          {
+            "id": "191372C3-4C5B-4094-A3AD-B832E32B7677",
+            "name": "The Choice",
+            "type": null,
+            "detail": "2016, Ross Katz",
+            "image": "https://images.qloo.com/i/191372C3-4C5B-4094-A3AD-B832E32B7677-420x-auto.jpg",
+            "score": 0.8916443677723849
+          },
+          {
+            "id": "DC3740F2-9F90-424A-A090-C09F1E5DF248",
+            "name": "The Age of Adaline",
+            "type": null,
+            "detail": "2015, Lee Toland Krieger",
+            "image": "https://images.qloo.com/i/DC3740F2-9F90-424A-A090-C09F1E5DF248-420x-auto.jpg",
+            "score": 0.8895118855052823
+          },
+          {
+            "id": "CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628",
+            "name": "The Fault in Our Stars",
+            "type": null,
+            "detail": "2014, Josh Boone",
+            "image": "https://images.qloo.com/i/CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628-420x-auto.jpg",
+            "score": 0.888331189137771
+          },
+          {
+            "id": "17033B7C-081D-45E1-85AF-519AD6087E11",
+            "name": "Everything, Everything",
+            "type": null,
+            "detail": "2017, Stella Meghie",
+            "image": "https://images.qloo.com/i/17033B7C-081D-45E1-85AF-519AD6087E11-420x-auto.jpg",
+            "score": 0.8847835224951911
+          }
+        ],
+        "videogame": [
+          {
+            "id": "2225FC45-A2BE-454C-8527-6EAF3F4BF3DB",
+            "name": "The Sims 4",
+            "type": null,
+            "detail": "2014-09-02, Maxis",
+            "image": "https://images.qloo.com/i/2225FC45-A2BE-454C-8527-6EAF3F4BF3DB-420x-auto.jpg",
+            "score": 0.9082508087627066
+          },
+          {
+            "id": "9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D",
+            "name": "ROBLOX (Game Client)",
+            "type": null,
+            "detail": "2016-01-27, ROBLOX, Inc.",
+            "image": "https://images.qloo.com/i/9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D-420x-auto.jpg",
+            "score": 0.866407222099565
+          },
+          {
+            "id": "ADE59476-AA98-4A38-8F5C-1266E7320036",
+            "name": "Youtubers Life",
+            "type": null,
+            "detail": "2017-02-02, U-Play Online",
+            "image": null,
+            "score": 0.8663098718586748
+          },
+          {
+            "id": "2853706C-02E2-444F-8024-2CC2678E2D76",
+            "name": "Among Us",
+            "type": null,
+            "detail": "2018-11-16, Innersloth",
+            "image": "https://images.qloo.com/i/2853706C-02E2-444F-8024-2CC2678E2D76-420x-auto.jpg",
+            "score": 0.8626442523873494
+          },
+          {
+            "id": "0CB15734-6772-42E4-90E1-9BEE2529A592",
+            "name": "The Sims 3",
+            "type": null,
+            "detail": "2009-06-02, The Sims Studio",
+            "image": null,
+            "score": 0.8561275265938089
+          },
+          {
+            "id": "1D6C260D-9BF8-4F8B-9A73-06342EB30E5C",
+            "name": "Animal Crossing: Pocket Camp",
+            "type": null,
+            "detail": "2017-11-21, Nintendo",
+            "image": "https://images.qloo.com/i/1D6C260D-9BF8-4F8B-9A73-06342EB30E5C-420x-auto.jpg",
+            "score": 0.8424009902147366
+          },
+          {
+            "id": "0FAA0C22-CDA5-4481-8520-2C0CA35408D7",
+            "name": "Tomodachi Life",
+            "type": null,
+            "detail": "2014-06-06, Nintendo",
+            "image": null,
+            "score": 0.8416715832165991
+          },
+          {
+            "id": "554397CB-81BE-4E04-A7B2-5A9834859F64",
+            "name": "The Sims 2: Castaway",
+            "type": null,
+            "detail": "2007-10-23, Maxis",
+            "image": null,
+            "score": 0.8398162137886178
+          },
+          {
+            "id": "9E184634-7021-46A9-9DB1-3AE2D223811D",
+            "name": "The Sims Medieval",
+            "type": null,
+            "detail": "2011-03-22, The Sims Studio",
+            "image": null,
+            "score": 0.8340255443133892
+          },
+          {
+            "id": "99B5CF23-CE73-4967-BA12-AFB7224BBB6F",
+            "name": "The Sims 2",
+            "type": null,
+            "detail": "2004-09-14, Maxis",
+            "image": "https://images.qloo.com/i/99B5CF23-CE73-4967-BA12-AFB7224BBB6F-420x-auto.jpg",
+            "score": 0.8326039004905224
+          },
+          {
+            "id": "C774A6C9-9142-473E-80B8-F5DAF7249999",
+            "name": "Diner Dash",
+            "type": null,
+            "detail": "2007-05-23, Climax Studios",
+            "image": "https://images.qloo.com/i/C774A6C9-9142-473E-80B8-F5DAF7249999-420x-auto.jpg",
+            "score": 0.8292427413476015
+          },
+          {
+            "id": "D6A88C77-31C0-4B62-B178-D9C373E159AA",
+            "name": "SimCity",
+            "type": null,
+            "detail": "2013-03-05, Maxis",
+            "image": null,
+            "score": 0.8252083872652547
+          },
+          {
+            "id": "766D99BD-60A0-4F50-AE4C-A1619A6E42B7",
+            "name": "Candy Crush Saga",
+            "type": null,
+            "detail": "2012-11-14, King.com",
+            "image": null,
+            "score": 0.8238356471453322
+          },
+          {
+            "id": "CDBDE254-71F0-4640-8D04-5373BEAE5278",
+            "name": "Minecraft",
+            "type": null,
+            "detail": "2011-11-18, Mojang AB",
+            "image": "https://images.qloo.com/i/CDBDE254-71F0-4640-8D04-5373BEAE5278-420x-auto.jpg",
+            "score": 0.8172767650921455
+          },
+          {
+            "id": "229E91BA-796C-4B00-948B-236152882DE4",
+            "name": "The Impossible Game",
+            "type": null,
+            "detail": "2014-05-08, Grip Games",
+            "image": null,
+            "score": 0.8118701549404204
+          },
+          {
+            "id": "33F8BDCD-176C-427F-ACA6-5A8C4131A939",
+            "name": "Animal Crossing: Wild World",
+            "type": null,
+            "detail": "2005-12-05, Nintendo",
+            "image": "https://images.qloo.com/i/33F8BDCD-176C-427F-ACA6-5A8C4131A939-420x-auto.jpg",
+            "score": 0.805965908692568
+          },
+          {
+            "id": "3A45DD76-37F3-4D7C-9CA3-51A600F876E4",
+            "name": "Temple Run",
+            "type": null,
+            "detail": "2011-08-04, Imangi Studios, LLC",
+            "image": null,
+            "score": 0.8022227401485115
+          },
+          {
+            "id": "3FF67985-3AC2-4E92-92B1-3071F78240E8",
+            "name": "Disney Infinity",
+            "type": null,
+            "detail": "2013-08-18, Avalanche Software",
+            "image": null,
+            "score": 0.7953372848634171
+          },
+          {
+            "id": "170CBB63-24CE-4D25-B87E-C2C5259DA766",
+            "name": "Plants vs. Zombies",
+            "type": null,
+            "detail": "2009-05-05, PopCap",
+            "image": null,
+            "score": 0.7918514440112093
+          },
+          {
+            "id": "009A775F-B1AB-4FAC-902E-A34DEA36D596",
+            "name": "Jetpack Joyride",
+            "type": null,
+            "detail": "2011-09-01, Halfbrick Studios",
+            "image": null,
+            "score": 0.7884902855420475
+          }
+        ]
+      },
+      "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892": {
+        "movie": [
+          {
+            "id": "74E3107A-108B-4339-B9FD-54C4B1D5ABB4",
+            "name": "Love, Rosie",
+            "type": null,
+            "detail": "2014, Christian Ditter",
+            "image": "https://images.qloo.com/i/74E3107A-108B-4339-B9FD-54C4B1D5ABB4-420x-auto.jpg",
+            "score": 0.9577971898832411
+          },
+          {
+            "id": "253E6370-5F98-40CA-B19D-ED262214ECB2",
+            "name": "Stuck in Love.",
+            "type": null,
+            "detail": "2012, Josh Boone",
+            "image": "https://images.qloo.com/i/253E6370-5F98-40CA-B19D-ED262214ECB2-420x-auto.jpg",
+            "score": 0.9450191378504909
+          },
+          {
+            "id": "073A99FE-D113-4257-9B0E-FB71B728F39D",
+            "name": "Before We Go",
+            "type": null,
+            "detail": "2014, Chris Evans",
+            "image": "https://images.qloo.com/i/073A99FE-D113-4257-9B0E-FB71B728F39D-420x-auto.jpg",
+            "score": 0.9442197660432057
+          },
+          {
+            "id": "737672E4-8EF0-41E6-9F8D-804F5753DE12",
+            "name": "The First Time",
+            "type": null,
+            "detail": "2012, Jonathan Kasdan",
+            "image": "https://images.qloo.com/i/737672E4-8EF0-41E6-9F8D-804F5753DE12-420x-auto.jpg",
+            "score": 0.9426417176744928
+          },
+          {
+            "id": "8E2814F5-4FAA-435B-A426-5A892452CC9E",
+            "name": "Me Before You",
+            "type": null,
+            "detail": "2016, Thea Sharrock",
+            "image": "https://images.qloo.com/i/8E2814F5-4FAA-435B-A426-5A892452CC9E-420x-auto.jpg",
+            "score": 0.934013823757553
+          },
+          {
+            "id": "CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628",
+            "name": "The Fault in Our Stars",
+            "type": null,
+            "detail": "2014, Josh Boone",
+            "image": "https://images.qloo.com/i/CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628-420x-auto.jpg",
+            "score": 0.9321565485797106
+          },
+          {
+            "id": "61DA5CA1-E958-4637-A35D-0661BDF2DBFD",
+            "name": "How to Be Single",
+            "type": null,
+            "detail": "2016, Christian Ditter",
+            "image": "https://images.qloo.com/i/61DA5CA1-E958-4637-A35D-0661BDF2DBFD-420x-auto.jpg",
+            "score": 0.9318678835809874
+          },
+          {
+            "id": "3D816796-AAFB-4969-82C5-40E2F7B0B60D",
+            "name": "Laggies",
+            "type": null,
+            "detail": "2014, Lynn Shelton",
+            "image": "https://images.qloo.com/i/3D816796-AAFB-4969-82C5-40E2F7B0B60D-420x-auto.jpg",
+            "score": 0.9306979747666178
+          },
+          {
+            "id": "191372C3-4C5B-4094-A3AD-B832E32B7677",
+            "name": "The Choice",
+            "type": null,
+            "detail": "2016, Ross Katz",
+            "image": "https://images.qloo.com/i/191372C3-4C5B-4094-A3AD-B832E32B7677-420x-auto.jpg",
+            "score": 0.9289469945401767
+          },
+          {
+            "id": "71B5200F-0BCB-4B52-A451-C12BF3ECEBCB",
+            "name": "About Time",
+            "type": null,
+            "detail": "2013, Richard Curtis",
+            "image": "https://images.qloo.com/i/71B5200F-0BCB-4B52-A451-C12BF3ECEBCB-420x-auto.jpg",
+            "score": 0.9261725457493113
+          },
+          {
+            "id": "DC3740F2-9F90-424A-A090-C09F1E5DF248",
+            "name": "The Age of Adaline",
+            "type": null,
+            "detail": "2015, Lee Toland Krieger",
+            "image": "https://images.qloo.com/i/DC3740F2-9F90-424A-A090-C09F1E5DF248-420x-auto.jpg",
+            "score": 0.9218664071946804
+          },
+          {
+            "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+            "name": "Begin Again",
+            "type": null,
+            "detail": "2013, John Carney",
+            "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+            "score": 0.9212527178749166
+          },
+          {
+            "id": "5B157959-EB5B-4C38-85C2-B762F225BA9A",
+            "name": "Naomi and Ely's No Kiss List",
+            "type": null,
+            "detail": "2015, Kristin Hanggi",
+            "image": "https://images.qloo.com/i/5B157959-EB5B-4C38-85C2-B762F225BA9A-420x-auto.jpg",
+            "score": 0.9202674067389192
+          },
+          {
+            "id": "B7DA3217-8637-4547-8ECE-E8FCE89EDDF4",
+            "name": "The Edge of Seventeen",
+            "type": null,
+            "detail": "2016, Kelly Fremon Craig",
+            "image": "https://images.qloo.com/i/B7DA3217-8637-4547-8ECE-E8FCE89EDDF4-420x-auto.jpg",
+            "score": 0.9187360989152724
+          },
+          {
+            "id": "17033B7C-081D-45E1-85AF-519AD6087E11",
+            "name": "Everything, Everything",
+            "type": null,
+            "detail": "2017, Stella Meghie",
+            "image": "https://images.qloo.com/i/17033B7C-081D-45E1-85AF-519AD6087E11-420x-auto.jpg",
+            "score": 0.9089614381017879
+          },
+          {
+            "id": "612718CD-DC53-4E3D-AE8C-5CA8E41356AF",
+            "name": "The Kissing Booth",
+            "type": null,
+            "detail": "2018, Vince Marcello",
+            "image": "https://images.qloo.com/i/612718CD-DC53-4E3D-AE8C-5CA8E41356AF-420x-auto.jpg",
+            "score": 0.9073817868221925
+          },
+          {
+            "id": "7C57785D-5E89-47ED-B99D-254E09ACC6B3",
+            "name": "Someone Great",
+            "type": null,
+            "detail": "2019, Jennifer Kaytin Robinson",
+            "image": "https://images.qloo.com/i/7C57785D-5E89-47ED-B99D-254E09ACC6B3-420x-auto.jpg",
+            "score": 0.9005735302990606
+          },
+          {
+            "id": "A2C71205-3C77-408A-8B68-4F169AF795D4",
+            "name": "To All the Boys I've Loved Before",
+            "type": null,
+            "detail": "2018, Susan Johnson",
+            "image": "https://images.qloo.com/i/A2C71205-3C77-408A-8B68-4F169AF795D4-420x-auto.jpg",
+            "score": 0.8991567427463129
+          },
+          {
+            "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+            "name": "Crazy Rich Asians",
+            "type": null,
+            "detail": "2018, Jon M. Chu",
+            "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+            "score": 0.8803032252530623
+          },
+          {
+            "id": "D06C0D5E-1747-426B-8C95-21678A9E44B4",
+            "name": "Mamma Mia! Here We Go Again",
+            "type": null,
+            "detail": "2018, Ol Parker",
+            "image": "https://images.qloo.com/i/D06C0D5E-1747-426B-8C95-21678A9E44B4-420x-auto.jpg",
+            "score": 0.8789797050328826
+          }
+        ],
+        "videogame": [
+          {
+            "id": "0CB15734-6772-42E4-90E1-9BEE2529A592",
+            "name": "The Sims 3",
+            "type": null,
+            "detail": "2009-06-02, The Sims Studio",
+            "image": null,
+            "score": 0.8976109700994073
+          },
+          {
+            "id": "2225FC45-A2BE-454C-8527-6EAF3F4BF3DB",
+            "name": "The Sims 4",
+            "type": null,
+            "detail": "2014-09-02, Maxis",
+            "image": "https://images.qloo.com/i/2225FC45-A2BE-454C-8527-6EAF3F4BF3DB-420x-auto.jpg",
+            "score": 0.8830909473077725
+          },
+          {
+            "id": "99B5CF23-CE73-4967-BA12-AFB7224BBB6F",
+            "name": "The Sims 2",
+            "type": null,
+            "detail": "2004-09-14, Maxis",
+            "image": "https://images.qloo.com/i/99B5CF23-CE73-4967-BA12-AFB7224BBB6F-420x-auto.jpg",
+            "score": 0.8820070036124995
+          },
+          {
+            "id": "C774A6C9-9142-473E-80B8-F5DAF7249999",
+            "name": "Diner Dash",
+            "type": null,
+            "detail": "2007-05-23, Climax Studios",
+            "image": "https://images.qloo.com/i/C774A6C9-9142-473E-80B8-F5DAF7249999-420x-auto.jpg",
+            "score": 0.8736742502554112
+          },
+          {
+            "id": "3A45DD76-37F3-4D7C-9CA3-51A600F876E4",
+            "name": "Temple Run",
+            "type": null,
+            "detail": "2011-08-04, Imangi Studios, LLC",
+            "image": null,
+            "score": 0.862501387671331
+          },
+          {
+            "id": "554397CB-81BE-4E04-A7B2-5A9834859F64",
+            "name": "The Sims 2: Castaway",
+            "type": null,
+            "detail": "2007-10-23, Maxis",
+            "image": null,
+            "score": 0.8583293678047569
+          },
+          {
+            "id": "9E184634-7021-46A9-9DB1-3AE2D223811D",
+            "name": "The Sims Medieval",
+            "type": null,
+            "detail": "2011-03-22, The Sims Studio",
+            "image": null,
+            "score": 0.8576960590279729
+          },
+          {
+            "id": "766D99BD-60A0-4F50-AE4C-A1619A6E42B7",
+            "name": "Candy Crush Saga",
+            "type": null,
+            "detail": "2012-11-14, King.com",
+            "image": null,
+            "score": 0.8518529427350487
+          },
+          {
+            "id": "D6A88C77-31C0-4B62-B178-D9C373E159AA",
+            "name": "SimCity",
+            "type": null,
+            "detail": "2013-03-05, Maxis",
+            "image": null,
+            "score": 0.8377350959464098
+          },
+          {
+            "id": "3FF67985-3AC2-4E92-92B1-3071F78240E8",
+            "name": "Disney Infinity",
+            "type": null,
+            "detail": "2013-08-18, Avalanche Software",
+            "image": null,
+            "score": 0.8330257603054438
+          },
+          {
+            "id": "229E91BA-796C-4B00-948B-236152882DE4",
+            "name": "The Impossible Game",
+            "type": null,
+            "detail": "2014-05-08, Grip Games",
+            "image": null,
+            "score": 0.830212521958822
+          },
+          {
+            "id": "009A775F-B1AB-4FAC-902E-A34DEA36D596",
+            "name": "Jetpack Joyride",
+            "type": null,
+            "detail": "2011-09-01, Halfbrick Studios",
+            "image": null,
+            "score": 0.8284191371802648
+          },
+          {
+            "id": "33F8BDCD-176C-427F-ACA6-5A8C4131A939",
+            "name": "Animal Crossing: Wild World",
+            "type": null,
+            "detail": "2005-12-05, Nintendo",
+            "image": "https://images.qloo.com/i/33F8BDCD-176C-427F-ACA6-5A8C4131A939-420x-auto.jpg",
+            "score": 0.8244035455605309
+          },
+          {
+            "id": "170CBB63-24CE-4D25-B87E-C2C5259DA766",
+            "name": "Plants vs. Zombies",
+            "type": null,
+            "detail": "2009-05-05, PopCap",
+            "image": null,
+            "score": 0.8235831588044132
+          },
+          {
+            "id": "9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D",
+            "name": "ROBLOX (Game Client)",
+            "type": null,
+            "detail": "2016-01-27, ROBLOX, Inc.",
+            "image": "https://images.qloo.com/i/9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D-420x-auto.jpg",
+            "score": 0.8209297869942164
+          },
+          {
+            "id": "ADE59476-AA98-4A38-8F5C-1266E7320036",
+            "name": "Youtubers Life",
+            "type": null,
+            "detail": "2017-02-02, U-Play Online",
+            "image": null,
+            "score": 0.8182417483755844
+          },
+          {
+            "id": "0FAA0C22-CDA5-4481-8520-2C0CA35408D7",
+            "name": "Tomodachi Life",
+            "type": null,
+            "detail": "2014-06-06, Nintendo",
+            "image": null,
+            "score": 0.8112107281312729
+          },
+          {
+            "id": "1D6C260D-9BF8-4F8B-9A73-06342EB30E5C",
+            "name": "Animal Crossing: Pocket Camp",
+            "type": null,
+            "detail": "2017-11-21, Nintendo",
+            "image": "https://images.qloo.com/i/1D6C260D-9BF8-4F8B-9A73-06342EB30E5C-420x-auto.jpg",
+            "score": 0.808972852982521
+          },
+          {
+            "id": "CDBDE254-71F0-4640-8D04-5373BEAE5278",
+            "name": "Minecraft",
+            "type": null,
+            "detail": "2011-11-18, Mojang AB",
+            "image": "https://images.qloo.com/i/CDBDE254-71F0-4640-8D04-5373BEAE5278-420x-auto.jpg",
+            "score": 0.8084031271688487
+          },
+          {
+            "id": "2853706C-02E2-444F-8024-2CC2678E2D76",
+            "name": "Among Us",
+            "type": null,
+            "detail": "2018-11-16, Innersloth",
+            "image": "https://images.qloo.com/i/2853706C-02E2-444F-8024-2CC2678E2D76-420x-auto.jpg",
+            "score": 0.7932519354579087
+          }
+        ]
+      },
+      "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F": {
+        "movie": [
+          {
+            "id": "8E2814F5-4FAA-435B-A426-5A892452CC9E",
+            "name": "Me Before You",
+            "type": null,
+            "detail": "2016, Thea Sharrock",
+            "image": "https://images.qloo.com/i/8E2814F5-4FAA-435B-A426-5A892452CC9E-420x-auto.jpg",
+            "score": 0.9433103939070836
+          },
+          {
+            "id": "D06C0D5E-1747-426B-8C95-21678A9E44B4",
+            "name": "Mamma Mia! Here We Go Again",
+            "type": null,
+            "detail": "2018, Ol Parker",
+            "image": "https://images.qloo.com/i/D06C0D5E-1747-426B-8C95-21678A9E44B4-420x-auto.jpg",
+            "score": 0.92200861120428
+          },
+          {
+            "id": "F667BA0D-9B62-4F6E-A10F-8197122D710E",
+            "name": "Crazy Rich Asians",
+            "type": null,
+            "detail": "2018, Jon M. Chu",
+            "image": "https://images.qloo.com/i/F667BA0D-9B62-4F6E-A10F-8197122D710E-420x-auto.jpg",
+            "score": 0.9125645119106857
+          },
+          {
+            "id": "17033B7C-081D-45E1-85AF-519AD6087E11",
+            "name": "Everything, Everything",
+            "type": null,
+            "detail": "2017, Stella Meghie",
+            "image": "https://images.qloo.com/i/17033B7C-081D-45E1-85AF-519AD6087E11-420x-auto.jpg",
+            "score": 0.9113428418038063
+          },
+          {
+            "id": "74E3107A-108B-4339-B9FD-54C4B1D5ABB4",
+            "name": "Love, Rosie",
+            "type": null,
+            "detail": "2014, Christian Ditter",
+            "image": "https://images.qloo.com/i/74E3107A-108B-4339-B9FD-54C4B1D5ABB4-420x-auto.jpg",
+            "score": 0.9104810626489462
+          },
+          {
+            "id": "A2C71205-3C77-408A-8B68-4F169AF795D4",
+            "name": "To All the Boys I've Loved Before",
+            "type": null,
+            "detail": "2018, Susan Johnson",
+            "image": "https://images.qloo.com/i/A2C71205-3C77-408A-8B68-4F169AF795D4-420x-auto.jpg",
+            "score": 0.9096933119928533
+          },
+          {
+            "id": "073A99FE-D113-4257-9B0E-FB71B728F39D",
+            "name": "Before We Go",
+            "type": null,
+            "detail": "2014, Chris Evans",
+            "image": "https://images.qloo.com/i/073A99FE-D113-4257-9B0E-FB71B728F39D-420x-auto.jpg",
+            "score": 0.9067129701374061
+          },
+          {
+            "id": "DC3740F2-9F90-424A-A090-C09F1E5DF248",
+            "name": "The Age of Adaline",
+            "type": null,
+            "detail": "2015, Lee Toland Krieger",
+            "image": "https://images.qloo.com/i/DC3740F2-9F90-424A-A090-C09F1E5DF248-420x-auto.jpg",
+            "score": 0.9048339987237598
+          },
+          {
+            "id": "B7DA3217-8637-4547-8ECE-E8FCE89EDDF4",
+            "name": "The Edge of Seventeen",
+            "type": null,
+            "detail": "2016, Kelly Fremon Craig",
+            "image": "https://images.qloo.com/i/B7DA3217-8637-4547-8ECE-E8FCE89EDDF4-420x-auto.jpg",
+            "score": 0.9037010258616014
+          },
+          {
+            "id": "CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628",
+            "name": "The Fault in Our Stars",
+            "type": null,
+            "detail": "2014, Josh Boone",
+            "image": "https://images.qloo.com/i/CD5D743A-44D5-4FBF-A8C2-7BDFF3DE6628-420x-auto.jpg",
+            "score": 0.9012808274520052
+          },
+          {
+            "id": "191372C3-4C5B-4094-A3AD-B832E32B7677",
+            "name": "The Choice",
+            "type": null,
+            "detail": "2016, Ross Katz",
+            "image": "https://images.qloo.com/i/191372C3-4C5B-4094-A3AD-B832E32B7677-420x-auto.jpg",
+            "score": 0.9001274893014316
+          },
+          {
+            "id": "612718CD-DC53-4E3D-AE8C-5CA8E41356AF",
+            "name": "The Kissing Booth",
+            "type": null,
+            "detail": "2018, Vince Marcello",
+            "image": "https://images.qloo.com/i/612718CD-DC53-4E3D-AE8C-5CA8E41356AF-420x-auto.jpg",
+            "score": 0.8999329318948385
+          },
+          {
+            "id": "61DA5CA1-E958-4637-A35D-0661BDF2DBFD",
+            "name": "How to Be Single",
+            "type": null,
+            "detail": "2016, Christian Ditter",
+            "image": "https://images.qloo.com/i/61DA5CA1-E958-4637-A35D-0661BDF2DBFD-420x-auto.jpg",
+            "score": 0.8968939466516314
+          },
+          {
+            "id": "5B157959-EB5B-4C38-85C2-B762F225BA9A",
+            "name": "Naomi and Ely's No Kiss List",
+            "type": null,
+            "detail": "2015, Kristin Hanggi",
+            "image": "https://images.qloo.com/i/5B157959-EB5B-4C38-85C2-B762F225BA9A-420x-auto.jpg",
+            "score": 0.8892849489275175
+          },
+          {
+            "id": "7C57785D-5E89-47ED-B99D-254E09ACC6B3",
+            "name": "Someone Great",
+            "type": null,
+            "detail": "2019, Jennifer Kaytin Robinson",
+            "image": "https://images.qloo.com/i/7C57785D-5E89-47ED-B99D-254E09ACC6B3-420x-auto.jpg",
+            "score": 0.8839600515669175
+          },
+          {
+            "id": "AF99276B-B7F7-46D8-8441-7013944BA139",
+            "name": "Begin Again",
+            "type": null,
+            "detail": "2013, John Carney",
+            "image": "https://images.qloo.com/i/AF99276B-B7F7-46D8-8441-7013944BA139-420x-auto.jpg",
+            "score": 0.8826722074730554
+          },
+          {
+            "id": "71B5200F-0BCB-4B52-A451-C12BF3ECEBCB",
+            "name": "About Time",
+            "type": null,
+            "detail": "2013, Richard Curtis",
+            "image": "https://images.qloo.com/i/71B5200F-0BCB-4B52-A451-C12BF3ECEBCB-420x-auto.jpg",
+            "score": 0.8795437619962027
+          },
+          {
+            "id": "253E6370-5F98-40CA-B19D-ED262214ECB2",
+            "name": "Stuck in Love.",
+            "type": null,
+            "detail": "2012, Josh Boone",
+            "image": "https://images.qloo.com/i/253E6370-5F98-40CA-B19D-ED262214ECB2-420x-auto.jpg",
+            "score": 0.8764787483141666
+          },
+          {
+            "id": "3D816796-AAFB-4969-82C5-40E2F7B0B60D",
+            "name": "Laggies",
+            "type": null,
+            "detail": "2014, Lynn Shelton",
+            "image": "https://images.qloo.com/i/3D816796-AAFB-4969-82C5-40E2F7B0B60D-420x-auto.jpg",
+            "score": 0.8691422703794953
+          },
+          {
+            "id": "737672E4-8EF0-41E6-9F8D-804F5753DE12",
+            "name": "The First Time",
+            "type": null,
+            "detail": "2012, Jonathan Kasdan",
+            "image": "https://images.qloo.com/i/737672E4-8EF0-41E6-9F8D-804F5753DE12-420x-auto.jpg",
+            "score": 0.8638394805359677
+          }
+        ],
+        "videogame": [
+          {
+            "id": "766D99BD-60A0-4F50-AE4C-A1619A6E42B7",
+            "name": "Candy Crush Saga",
+            "type": null,
+            "detail": "2012-11-14, King.com",
+            "image": null,
+            "score": 0.8628365863059781
+          },
+          {
+            "id": "3A45DD76-37F3-4D7C-9CA3-51A600F876E4",
+            "name": "Temple Run",
+            "type": null,
+            "detail": "2011-08-04, Imangi Studios, LLC",
+            "image": null,
+            "score": 0.8623185424283045
+          },
+          {
+            "id": "2225FC45-A2BE-454C-8527-6EAF3F4BF3DB",
+            "name": "The Sims 4",
+            "type": null,
+            "detail": "2014-09-02, Maxis",
+            "image": "https://images.qloo.com/i/2225FC45-A2BE-454C-8527-6EAF3F4BF3DB-420x-auto.jpg",
+            "score": 0.8567036620269773
+          },
+          {
+            "id": "9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D",
+            "name": "ROBLOX (Game Client)",
+            "type": null,
+            "detail": "2016-01-27, ROBLOX, Inc.",
+            "image": "https://images.qloo.com/i/9B672F6C-FF11-4E1E-A00F-96B9EA0BC82D-420x-auto.jpg",
+            "score": 0.8553891891858937
+          },
+          {
+            "id": "C774A6C9-9142-473E-80B8-F5DAF7249999",
+            "name": "Diner Dash",
+            "type": null,
+            "detail": "2007-05-23, Climax Studios",
+            "image": "https://images.qloo.com/i/C774A6C9-9142-473E-80B8-F5DAF7249999-420x-auto.jpg",
+            "score": 0.8534221152988407
+          },
+          {
+            "id": "009A775F-B1AB-4FAC-902E-A34DEA36D596",
+            "name": "Jetpack Joyride",
+            "type": null,
+            "detail": "2011-09-01, Halfbrick Studios",
+            "image": null,
+            "score": 0.8462555457625877
+          },
+          {
+            "id": "33F8BDCD-176C-427F-ACA6-5A8C4131A939",
+            "name": "Animal Crossing: Wild World",
+            "type": null,
+            "detail": "2005-12-05, Nintendo",
+            "image": "https://images.qloo.com/i/33F8BDCD-176C-427F-ACA6-5A8C4131A939-420x-auto.jpg",
+            "score": 0.8462176877821499
+          },
+          {
+            "id": "0CB15734-6772-42E4-90E1-9BEE2529A592",
+            "name": "The Sims 3",
+            "type": null,
+            "detail": "2009-06-02, The Sims Studio",
+            "image": null,
+            "score": 0.8450570915227607
+          },
+          {
+            "id": "229E91BA-796C-4B00-948B-236152882DE4",
+            "name": "The Impossible Game",
+            "type": null,
+            "detail": "2014-05-08, Grip Games",
+            "image": null,
+            "score": 0.841334393020607
+          },
+          {
+            "id": "CDBDE254-71F0-4640-8D04-5373BEAE5278",
+            "name": "Minecraft",
+            "type": null,
+            "detail": "2011-11-18, Mojang AB",
+            "image": "https://images.qloo.com/i/CDBDE254-71F0-4640-8D04-5373BEAE5278-420x-auto.jpg",
+            "score": 0.8401444071446182
+          },
+          {
+            "id": "0FAA0C22-CDA5-4481-8520-2C0CA35408D7",
+            "name": "Tomodachi Life",
+            "type": null,
+            "detail": "2014-06-06, Nintendo",
+            "image": null,
+            "score": 0.8363353165230337
+          },
+          {
+            "id": "2853706C-02E2-444F-8024-2CC2678E2D76",
+            "name": "Among Us",
+            "type": null,
+            "detail": "2018-11-16, Innersloth",
+            "image": "https://images.qloo.com/i/2853706C-02E2-444F-8024-2CC2678E2D76-420x-auto.jpg",
+            "score": 0.8360891233053164
+          },
+          {
+            "id": "170CBB63-24CE-4D25-B87E-C2C5259DA766",
+            "name": "Plants vs. Zombies",
+            "type": null,
+            "detail": "2009-05-05, PopCap",
+            "image": null,
+            "score": 0.8344681124955943
+          },
+          {
+            "id": "1D6C260D-9BF8-4F8B-9A73-06342EB30E5C",
+            "name": "Animal Crossing: Pocket Camp",
+            "type": null,
+            "detail": "2017-11-21, Nintendo",
+            "image": "https://images.qloo.com/i/1D6C260D-9BF8-4F8B-9A73-06342EB30E5C-420x-auto.jpg",
+            "score": 0.83375060154204
+          },
+          {
+            "id": "3FF67985-3AC2-4E92-92B1-3071F78240E8",
+            "name": "Disney Infinity",
+            "type": null,
+            "detail": "2013-08-18, Avalanche Software",
+            "image": null,
+            "score": 0.8308914940903012
+          },
+          {
+            "id": "99B5CF23-CE73-4967-BA12-AFB7224BBB6F",
+            "name": "The Sims 2",
+            "type": null,
+            "detail": "2004-09-14, Maxis",
+            "image": "https://images.qloo.com/i/99B5CF23-CE73-4967-BA12-AFB7224BBB6F-420x-auto.jpg",
+            "score": 0.8268214548877817
+          },
+          {
+            "id": "ADE59476-AA98-4A38-8F5C-1266E7320036",
+            "name": "Youtubers Life",
+            "type": null,
+            "detail": "2017-02-02, U-Play Online",
+            "image": null,
+            "score": 0.8253897096044777
+          },
+          {
+            "id": "554397CB-81BE-4E04-A7B2-5A9834859F64",
+            "name": "The Sims 2: Castaway",
+            "type": null,
+            "detail": "2007-10-23, Maxis",
+            "image": null,
+            "score": 0.8195191718310227
+          },
+          {
+            "id": "D6A88C77-31C0-4B62-B178-D9C373E159AA",
+            "name": "SimCity",
+            "type": null,
+            "detail": "2013-03-05, Maxis",
+            "image": null,
+            "score": 0.8188365026827124
+          },
+          {
+            "id": "9E184634-7021-46A9-9DB1-3AE2D223811D",
+            "name": "The Sims Medieval",
+            "type": null,
+            "detail": "2011-03-22, The Sims Studio",
+            "image": null,
+            "score": 0.8098974233595788
+          }
+        ]
+      }
+    },
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+          "name": "Friends",
+          "domains": {
+            "movie": 0.3849624060150376,
+            "videogame": 0.3240601503759398
+          },
+          "value": 0.3545112781954887,
+          "halves": [
+            0.21515151515151515,
+            0.41515151515151516
+          ]
+        },
+        {
+          "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+          "name": "Taylor Swift",
+          "domains": {
+            "movie": 0.3180451127819549,
+            "videogame": 0.16390977443609023
+          },
+          "value": 0.24097744360902257,
+          "halves": [
+            0.17272727272727273,
+            0.3
+          ]
+        },
+        {
+          "id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+          "name": "Starbucks",
+          "domains": {
+            "movie": 0.19097744360902258,
+            "videogame": 0.20300751879699247
+          },
+          "value": 0.19699248120300752,
+          "halves": [
+            0.3333333333333333,
+            0.13030303030303028
+          ]
+        }
+      ],
+      "domains": [
+        "movie",
+        "videogame"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves"
+    },
+    "warnings": [],
+    "fixture": "comfort",
+    "provenance": {
+      "kind": "Qloo live fixture recorded for this prototype",
+      "request_hashes": [
+        "6548160d52af3740085302bdf769c603b2d9bb503b4e1400d0314b0c839d79b9",
+        "9fa994900c242d7d418f209ca935e3172c4b988ef366148f084f0b30c14cd9f2",
+        "0347ebccaee4a56e0267672d2dc11a4f1d92f393a41c256d3ce0697201aca3a3",
+        "96b91d6c60b52bf12b9b8444178dcb16a18b60f7965a52fd5abcaf8b72ceb939",
+        "dd7113844b0fb6d43f492fd29de000837119e5cc7159f345c5c1474822a42d63",
+        "31e55882134364c5b896840347a3a092a426cdc42caad4ed29281db1bb9b0ab4",
+        "1ddb87597b6a1dc9742ecc2e631ad6e313967b5a36fa1d6e81547ab445c439e1",
+        "895ee95dc0e3f430dc70b929725268cabeb3a77bdc64fc5309d5ea4b7df3dd19",
+        "c29e56d61126e2adaa41986aa1ad7cced84ae1a34eb56926fcb78ec5c4033ed6",
+        "3427c751a182d6e057b69976e28917db89946bdef00e7de5d63c233cd0d8bbaa",
+        "5b1dbb0cc11e0c58e870e754c7f42274bdf49d4ce583daba8b3e983032b0f1ac",
+        "3399f8476429eec894a35ff24436a3d83bb9cac480ac2bfd8e876ea59157c912",
+        "5842d32d67bb3b90f6b05637a4b3cc6675a7121de75190db46b9382ceb2f078c",
+        "61bd0b35ae06aa45125f5eb6e0c5e9929dd93f3786bbcffe4533305df42a56c0",
+        "f3d09a16c24e2a323974bf3c62746844d7a25eb9cdd933e10ebd6ef1d212136c",
+        "63e9b920838e16cf9a8c7b0c1e54fc859bdb856c27628ea15b27a67fa41787e0",
+        "7f9668201d4679e264eac278a116a3eabb9dc5080c83a196a2d84dd958f23c96",
+        "72f62dd4e35f825c6801123dc604de2fe3cc2e353e19d202798001425d279bca",
+        "2683a2cecb1df78d70f5d238398a923aec1bf5dadf9b0e9ef9e27d36832d2f1f",
+        "1d869ff5aef719687f677ef4f2a4cdfbf267e3bae22701a48119303db6dd9ac8"
+      ]
+    }
+  },
+  "sidequest": {
+    "version": 1,
+    "source": "recorded",
+    "generated_at": "2026-10-08T12:08:14.315903+00:00",
+    "interests": [
+      {
+        "id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+        "name": "Metallica",
+        "type": "artist",
+        "detail": "Metallica",
+        "image": "https://images.qloo.com/i/C445C761-CB38-4FEE-B085-D35F444A04DF-420x-auto.jpg",
+        "verified": true,
+        "alias": "metallica"
+      },
+      {
+        "id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+        "name": "Nike",
+        "type": "brand",
+        "detail": "Nike is a global brand specializing in athletic footwear, apparel, equipment, and accessories for men, women, and kids.",
+        "image": "https://images.qloo.com/i/C70CE2B8-0AD1-4150-BF18-5A6347F2E860-420x-auto.jpg",
+        "verified": true,
+        "alias": "nike"
+      },
+      {
+        "id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+        "name": "Elden Ring",
+        "type": "videogame",
+        "detail": "2022-02-25, From Software",
+        "image": "https://images.qloo.com/i/46CBADC5-F4A6-4E97-93B2-959066C9F608-420x-auto.jpg",
+        "verified": true,
+        "alias": "elden_ring"
+      }
+    ],
+    "domains": [
+      "tv_show",
+      "movie"
+    ],
+    "predictions": [
+      {
+        "id": "5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47",
+        "name": "Cobra Kai",
+        "type": null,
+        "detail": "2018,2025",
+        "image": "https://images.qloo.com/i/5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47-420x-auto.jpg",
+        "score": 0.9405798865390583,
+        "domain": "tv_show",
+        "rank": 1
+      },
+      {
+        "id": "813B0455-6AD2-4802-B4B5-314799249A9F",
+        "name": "Avengers: Endgame",
+        "type": null,
+        "detail": "2019",
+        "image": "https://images.qloo.com/i/813B0455-6AD2-4802-B4B5-314799249A9F-420x-auto.jpg",
+        "score": 0.9245834810789755,
+        "domain": "movie",
+        "rank": 1
+      },
+      {
+        "id": "C0FABEA5-D59D-4B63-B193-6636F61FBD67",
+        "name": "Better Call Saul",
+        "type": null,
+        "detail": "2015,2022",
+        "image": "https://images.qloo.com/i/C0FABEA5-D59D-4B63-B193-6636F61FBD67-420x-auto.jpg",
+        "score": 0.9374047727665138,
+        "domain": "tv_show",
+        "rank": 2
+      },
+      {
+        "id": "49237DE5-22CF-4856-84F8-25EF2C333FCC",
+        "name": "Spider-Man: Far from Home",
+        "type": null,
+        "detail": "2019, Jon Watts",
+        "image": "https://images.qloo.com/i/49237DE5-22CF-4856-84F8-25EF2C333FCC-420x-auto.jpg",
+        "score": 0.921107084529065,
+        "domain": "movie",
+        "rank": 2
+      },
+      {
+        "id": "9A1442B4-9FEA-4DB8-A692-60040E2203ED",
+        "name": "Tulsa King",
+        "type": null,
+        "detail": "2022",
+        "image": "https://images.qloo.com/i/9A1442B4-9FEA-4DB8-A692-60040E2203ED-420x-auto.jpg",
+        "score": 0.9336795940523268,
+        "domain": "tv_show",
+        "rank": 3
+      },
+      {
+        "id": "3B966649-E5F9-44AD-9D8B-35C67753ECBF",
+        "name": "Star Wars: Episode IX - The Rise of Skywalker",
+        "type": null,
+        "detail": "2019, J.J. Abrams",
+        "image": "https://images.qloo.com/i/3B966649-E5F9-44AD-9D8B-35C67753ECBF-420x-auto.jpg",
+        "score": 0.9138310906235791,
+        "domain": "movie",
+        "rank": 3
+      }
+    ],
+    "full": {
+      "tv_show": [
+        {
+          "id": "5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47",
+          "name": "Cobra Kai",
+          "type": null,
+          "detail": "2018,2025",
+          "image": "https://images.qloo.com/i/5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47-420x-auto.jpg",
+          "score": 0.9405798865390583
+        },
+        {
+          "id": "C0FABEA5-D59D-4B63-B193-6636F61FBD67",
+          "name": "Better Call Saul",
+          "type": null,
+          "detail": "2015,2022",
+          "image": "https://images.qloo.com/i/C0FABEA5-D59D-4B63-B193-6636F61FBD67-420x-auto.jpg",
+          "score": 0.9374047727665138
+        },
+        {
+          "id": "9A1442B4-9FEA-4DB8-A692-60040E2203ED",
+          "name": "Tulsa King",
+          "type": null,
+          "detail": "2022",
+          "image": "https://images.qloo.com/i/9A1442B4-9FEA-4DB8-A692-60040E2203ED-420x-auto.jpg",
+          "score": 0.9336795940523268
+        },
+        {
+          "id": "C34C0D66-0D26-44E1-8594-CB002AD7917B",
+          "name": "Kingdom",
+          "type": null,
+          "detail": "2014,2017",
+          "image": "https://images.qloo.com/i/C34C0D66-0D26-44E1-8594-CB002AD7917B-420x-auto.jpg",
+          "score": 0.9329498509481557
+        },
+        {
+          "id": "CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2",
+          "name": "Rake",
+          "type": null,
+          "detail": "2010,2018",
+          "image": "https://images.qloo.com/i/CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2-420x-auto.jpg",
+          "score": 0.931920607672831
+        },
+        {
+          "id": "D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D",
+          "name": "Mad Dogs",
+          "type": null,
+          "detail": "2015,2016",
+          "image": "https://images.qloo.com/i/D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D-420x-auto.jpg",
+          "score": 0.9309763825947309
+        },
+        {
+          "id": "4AD69F96-9270-47ED-BA80-EE84719931A3",
+          "name": "Mr Inbetween",
+          "type": null,
+          "detail": "2018,2021",
+          "image": "https://images.qloo.com/i/4AD69F96-9270-47ED-BA80-EE84719931A3-420x-auto.jpg",
+          "score": 0.9308929297677518
+        },
+        {
+          "id": "2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E",
+          "name": "JoJo's Bizarre Adventure",
+          "type": null,
+          "detail": "2012",
+          "image": "https://images.qloo.com/i/2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E-420x-auto.jpg",
+          "score": 0.9286589325495087
+        },
+        {
+          "id": "5DD524AB-9F0B-40AF-B291-63DD5D31F540",
+          "name": "The Red Road",
+          "type": null,
+          "detail": "2014,2015",
+          "image": "https://images.qloo.com/i/5DD524AB-9F0B-40AF-B291-63DD5D31F540-420x-auto.jpg",
+          "score": 0.9285726738831913
+        },
+        {
+          "id": "AD0059D1-5F9C-45F4-A372-4199A7FEB896",
+          "name": "Republic of Doyle",
+          "type": null,
+          "detail": "2010,2014",
+          "image": "https://images.qloo.com/i/AD0059D1-5F9C-45F4-A372-4199A7FEB896-420x-auto.jpg",
+          "score": 0.9285409199325234
+        },
+        {
+          "id": "5536C817-1FDC-4327-9BB3-0204D9F8C342",
+          "name": "The Righteous Gemstones",
+          "type": null,
+          "detail": "2019,2025",
+          "image": "https://images.qloo.com/i/5536C817-1FDC-4327-9BB3-0204D9F8C342-420x-auto.jpg",
+          "score": 0.9283370539433972
+        },
+        {
+          "id": "598F3CC9-016A-47C1-B3B7-38AD4854A823",
+          "name": "Last King of the Cross",
+          "type": null,
+          "detail": "2023",
+          "image": "https://images.qloo.com/i/598F3CC9-016A-47C1-B3B7-38AD4854A823-420x-auto.jpg",
+          "score": 0.9269171501942166
+        },
+        {
+          "id": "0F3CFDF0-912C-44CA-9F81-720986735F29",
+          "name": "Warrior",
+          "type": null,
+          "detail": "2019,2023",
+          "image": "https://images.qloo.com/i/0F3CFDF0-912C-44CA-9F81-720986735F29-420x-auto.jpg",
+          "score": 0.9264184398462085
+        },
+        {
+          "id": "E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB",
+          "name": "Outrageous Fortune",
+          "type": null,
+          "detail": "2005,2010",
+          "image": "https://images.qloo.com/i/E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB-420x-auto.jpg",
+          "score": 0.9263998640911618
+        },
+        {
+          "id": "E7B5DDB5-8766-4234-A70F-0DA541831EA2",
+          "name": "Reservation Dogs",
+          "type": null,
+          "detail": "2021,2023",
+          "image": "https://images.qloo.com/i/E7B5DDB5-8766-4234-A70F-0DA541831EA2-420x-auto.jpg",
+          "score": 0.9261236167677236
+        },
+        {
+          "id": "9665DE85-3418-4FCB-8776-B084C17802D8",
+          "name": "Ray Donovan",
+          "type": null,
+          "detail": "2013,2020",
+          "image": "https://images.qloo.com/i/9665DE85-3418-4FCB-8776-B084C17802D8-420x-auto.jpg",
+          "score": 0.9256044230216417
+        },
+        {
+          "id": "4F4BE043-71FB-4B49-9270-C7164E307C39",
+          "name": "The Glades",
+          "type": null,
+          "detail": "2010,2013",
+          "image": "https://images.qloo.com/i/4F4BE043-71FB-4B49-9270-C7164E307C39-420x-auto.jpg",
+          "score": 0.9250789164594588
+        },
+        {
+          "id": "B22660F9-EF96-4830-8EB5-810AF3FB2985",
+          "name": "Plunderer",
+          "type": null,
+          "detail": "2020,2020",
+          "image": "https://images.qloo.com/i/B22660F9-EF96-4830-8EB5-810AF3FB2985-420x-auto.jpg",
+          "score": 0.9247398121148892
+        },
+        {
+          "id": "536DBB8F-2FB0-4911-B3C1-BC9CEF177D47",
+          "name": "Run",
+          "type": null,
+          "detail": "2013,2013",
+          "image": "https://images.qloo.com/i/536DBB8F-2FB0-4911-B3C1-BC9CEF177D47-420x-auto.jpg",
+          "score": 0.9243385084988063
+        },
+        {
+          "id": "72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD",
+          "name": "Tower of God",
+          "type": null,
+          "detail": "2020,2024",
+          "image": "https://images.qloo.com/i/72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD-420x-auto.jpg",
+          "score": 0.9241905560615216
+        }
+      ],
+      "movie": [
+        {
+          "id": "813B0455-6AD2-4802-B4B5-314799249A9F",
+          "name": "Avengers: Endgame",
+          "type": null,
+          "detail": "2019",
+          "image": "https://images.qloo.com/i/813B0455-6AD2-4802-B4B5-314799249A9F-420x-auto.jpg",
+          "score": 0.9245834810789755
+        },
+        {
+          "id": "49237DE5-22CF-4856-84F8-25EF2C333FCC",
+          "name": "Spider-Man: Far from Home",
+          "type": null,
+          "detail": "2019, Jon Watts",
+          "image": "https://images.qloo.com/i/49237DE5-22CF-4856-84F8-25EF2C333FCC-420x-auto.jpg",
+          "score": 0.921107084529065
+        },
+        {
+          "id": "3B966649-E5F9-44AD-9D8B-35C67753ECBF",
+          "name": "Star Wars: Episode IX - The Rise of Skywalker",
+          "type": null,
+          "detail": "2019, J.J. Abrams",
+          "image": "https://images.qloo.com/i/3B966649-E5F9-44AD-9D8B-35C67753ECBF-420x-auto.jpg",
+          "score": 0.9138310906235791
+        },
+        {
+          "id": "7A5DD324-C74E-46D7-ABF8-4B09EB04928A",
+          "name": "Avengers: Infinity War",
+          "type": null,
+          "detail": "2018",
+          "image": "https://images.qloo.com/i/7A5DD324-C74E-46D7-ABF8-4B09EB04928A-420x-auto.jpg",
+          "score": 0.911539726446964
+        },
+        {
+          "id": "5FBD6E83-5887-41CC-B9D4-C6A2C8931448",
+          "name": "John Wick: Chapter 3 - Parabellum",
+          "type": null,
+          "detail": "2019, Chad Stahelski",
+          "image": "https://images.qloo.com/i/5FBD6E83-5887-41CC-B9D4-C6A2C8931448-420x-auto.jpg",
+          "score": 0.9105780880656432
+        },
+        {
+          "id": "D2DF5D6E-1233-4B1C-BB40-45FDD1382819",
+          "name": "Ford v Ferrari",
+          "type": null,
+          "detail": "2019, James Mangold",
+          "image": "https://images.qloo.com/i/D2DF5D6E-1233-4B1C-BB40-45FDD1382819-420x-auto.jpg",
+          "score": 0.9063192506474661
+        },
+        {
+          "id": "A79D1D11-0686-401E-8FFF-633E6A604929",
+          "name": "Captain Marvel",
+          "type": null,
+          "detail": "2019, Anna Boden",
+          "image": "https://images.qloo.com/i/A79D1D11-0686-401E-8FFF-633E6A604929-420x-auto.jpg",
+          "score": 0.9055872537659637
+        },
+        {
+          "id": "D5D711E5-14A8-4FC1-BA77-63B74B12557D",
+          "name": "Creed II",
+          "type": null,
+          "detail": "2018, Steven Caple Jr.",
+          "image": "https://images.qloo.com/i/D5D711E5-14A8-4FC1-BA77-63B74B12557D-420x-auto.jpg",
+          "score": 0.9047311395866879
+        },
+        {
+          "id": "D8F970E7-664D-4A16-A35D-02F847567C8B",
+          "name": "Star Wars: Episode VIII - The Last Jedi",
+          "type": null,
+          "detail": "2017, Rian Johnson",
+          "image": "https://images.qloo.com/i/D8F970E7-664D-4A16-A35D-02F847567C8B-420x-auto.jpg",
+          "score": 0.9032979657167759
+        },
+        {
+          "id": "B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE",
+          "name": "Deadpool 2",
+          "type": null,
+          "detail": "2018, David Leitch",
+          "image": "https://images.qloo.com/i/B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE-420x-auto.jpg",
+          "score": 0.9027322019559568
+        },
+        {
+          "id": "3C6380C8-8356-4ED6-AC6E-9BC22AF91615",
+          "name": "Venom",
+          "type": null,
+          "detail": "2018, Ruben Fleischer",
+          "image": "https://images.qloo.com/i/3C6380C8-8356-4ED6-AC6E-9BC22AF91615-420x-auto.jpg",
+          "score": 0.9025863038472717
+        },
+        {
+          "id": "5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0",
+          "name": "Joker",
+          "type": null,
+          "detail": "2019, Todd Phillips",
+          "image": "https://images.qloo.com/i/5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0-420x-auto.jpg",
+          "score": 0.9018729865718901
+        },
+        {
+          "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+          "name": "Once Upon a Time in... Hollywood",
+          "type": null,
+          "detail": "2019, Quentin Tarantino",
+          "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+          "score": 0.9018650922112171
+        },
+        {
+          "id": "DF4E5DAB-DB9F-41B9-844F-970A09C85BC0",
+          "name": "Solo: A Star Wars Story",
+          "type": null,
+          "detail": "2018, Ron Howard",
+          "image": "https://images.qloo.com/i/DF4E5DAB-DB9F-41B9-844F-970A09C85BC0-420x-auto.jpg",
+          "score": 0.901360083618124
+        },
+        {
+          "id": "B9538567-7081-4E2F-91C8-289D45CA9DA4",
+          "name": "Captain America: Civil War",
+          "type": null,
+          "detail": "2016",
+          "image": "https://images.qloo.com/i/B9538567-7081-4E2F-91C8-289D45CA9DA4-420x-auto.jpg",
+          "score": 0.8995824358591538
+        },
+        {
+          "id": "F296EF1A-3F7F-49BC-81A3-17A7CB73482B",
+          "name": "Batman v Superman: Dawn of Justice",
+          "type": null,
+          "detail": "2016, Zack Snyder",
+          "image": "https://images.qloo.com/i/F296EF1A-3F7F-49BC-81A3-17A7CB73482B-420x-auto.jpg",
+          "score": 0.8994090453050666
+        },
+        {
+          "id": "C48DF44E-CC69-473E-A017-713F08E74CE8",
+          "name": "Zack Snyder's Justice League",
+          "type": null,
+          "detail": "2021, Zack Snyder",
+          "image": "https://images.qloo.com/i/C48DF44E-CC69-473E-A017-713F08E74CE8-420x-auto.jpg",
+          "score": 0.8990684890515531
+        },
+        {
+          "id": "BF15346C-7226-4D4B-B101-73BA56CBA38D",
+          "name": "Fast & Furious Presents: Hobbs & Shaw",
+          "type": null,
+          "detail": "2019, David Leitch",
+          "image": "https://images.qloo.com/i/BF15346C-7226-4D4B-B101-73BA56CBA38D-420x-auto.jpg",
+          "score": 0.8980562248022176
+        },
+        {
+          "id": "D2B20701-E472-4F55-A945-06DD791CEDBF",
+          "name": "Thor: Ragnarok",
+          "type": null,
+          "detail": "2017, Taika Waititi",
+          "image": "https://images.qloo.com/i/D2B20701-E472-4F55-A945-06DD791CEDBF-420x-auto.jpg",
+          "score": 0.8966804719586277
+        },
+        {
+          "id": "2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE",
+          "name": "El Camino",
+          "type": null,
+          "detail": "2019, Vince Gilligan",
+          "image": "https://images.qloo.com/i/2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE-420x-auto.jpg",
+          "score": 0.8966137066955903
+        }
+      ]
+    },
+    "ablations": {
+      "C445C761-CB38-4FEE-B085-D35F444A04DF": {
+        "tv_show": [
+          {
+            "id": "5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47",
+            "name": "Cobra Kai",
+            "type": null,
+            "detail": "2018,2025",
+            "image": "https://images.qloo.com/i/5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47-420x-auto.jpg",
+            "score": 0.9358030077282186
+          },
+          {
+            "id": "AD0059D1-5F9C-45F4-A372-4199A7FEB896",
+            "name": "Republic of Doyle",
+            "type": null,
+            "detail": "2010,2014",
+            "image": "https://images.qloo.com/i/AD0059D1-5F9C-45F4-A372-4199A7FEB896-420x-auto.jpg",
+            "score": 0.9251287892518085
+          },
+          {
+            "id": "2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E",
+            "name": "JoJo's Bizarre Adventure",
+            "type": null,
+            "detail": "2012",
+            "image": "https://images.qloo.com/i/2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E-420x-auto.jpg",
+            "score": 0.9237512817933555
+          },
+          {
+            "id": "E7B5DDB5-8766-4234-A70F-0DA541831EA2",
+            "name": "Reservation Dogs",
+            "type": null,
+            "detail": "2021,2023",
+            "image": "https://images.qloo.com/i/E7B5DDB5-8766-4234-A70F-0DA541831EA2-420x-auto.jpg",
+            "score": 0.9222290330754015
+          },
+          {
+            "id": "5536C817-1FDC-4327-9BB3-0204D9F8C342",
+            "name": "The Righteous Gemstones",
+            "type": null,
+            "detail": "2019,2025",
+            "image": "https://images.qloo.com/i/5536C817-1FDC-4327-9BB3-0204D9F8C342-420x-auto.jpg",
+            "score": 0.9215585631900867
+          },
+          {
+            "id": "CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2",
+            "name": "Rake",
+            "type": null,
+            "detail": "2010,2018",
+            "image": "https://images.qloo.com/i/CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2-420x-auto.jpg",
+            "score": 0.9213905099074902
+          },
+          {
+            "id": "C0FABEA5-D59D-4B63-B193-6636F61FBD67",
+            "name": "Better Call Saul",
+            "type": null,
+            "detail": "2015,2022",
+            "image": "https://images.qloo.com/i/C0FABEA5-D59D-4B63-B193-6636F61FBD67-420x-auto.jpg",
+            "score": 0.919948984483072
+          },
+          {
+            "id": "4F4BE043-71FB-4B49-9270-C7164E307C39",
+            "name": "The Glades",
+            "type": null,
+            "detail": "2010,2013",
+            "image": "https://images.qloo.com/i/4F4BE043-71FB-4B49-9270-C7164E307C39-420x-auto.jpg",
+            "score": 0.9171591674973638
+          },
+          {
+            "id": "536DBB8F-2FB0-4911-B3C1-BC9CEF177D47",
+            "name": "Run",
+            "type": null,
+            "detail": "2013,2013",
+            "image": "https://images.qloo.com/i/536DBB8F-2FB0-4911-B3C1-BC9CEF177D47-420x-auto.jpg",
+            "score": 0.9155047762979497
+          },
+          {
+            "id": "D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D",
+            "name": "Mad Dogs",
+            "type": null,
+            "detail": "2015,2016",
+            "image": "https://images.qloo.com/i/D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D-420x-auto.jpg",
+            "score": 0.9152597599922078
+          },
+          {
+            "id": "4AD69F96-9270-47ED-BA80-EE84719931A3",
+            "name": "Mr Inbetween",
+            "type": null,
+            "detail": "2018,2021",
+            "image": "https://images.qloo.com/i/4AD69F96-9270-47ED-BA80-EE84719931A3-420x-auto.jpg",
+            "score": 0.9151716881792729
+          },
+          {
+            "id": "B22660F9-EF96-4830-8EB5-810AF3FB2985",
+            "name": "Plunderer",
+            "type": null,
+            "detail": "2020,2020",
+            "image": "https://images.qloo.com/i/B22660F9-EF96-4830-8EB5-810AF3FB2985-420x-auto.jpg",
+            "score": 0.9142340924465382
+          },
+          {
+            "id": "9A1442B4-9FEA-4DB8-A692-60040E2203ED",
+            "name": "Tulsa King",
+            "type": null,
+            "detail": "2022",
+            "image": "https://images.qloo.com/i/9A1442B4-9FEA-4DB8-A692-60040E2203ED-420x-auto.jpg",
+            "score": 0.9137842641074976
+          },
+          {
+            "id": "E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB",
+            "name": "Outrageous Fortune",
+            "type": null,
+            "detail": "2005,2010",
+            "image": "https://images.qloo.com/i/E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB-420x-auto.jpg",
+            "score": 0.9134195828370185
+          },
+          {
+            "id": "72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD",
+            "name": "Tower of God",
+            "type": null,
+            "detail": "2020,2024",
+            "image": "https://images.qloo.com/i/72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD-420x-auto.jpg",
+            "score": 0.9132303292375572
+          },
+          {
+            "id": "598F3CC9-016A-47C1-B3B7-38AD4854A823",
+            "name": "Last King of the Cross",
+            "type": null,
+            "detail": "2023",
+            "image": "https://images.qloo.com/i/598F3CC9-016A-47C1-B3B7-38AD4854A823-420x-auto.jpg",
+            "score": 0.9091155138677348
+          },
+          {
+            "id": "C34C0D66-0D26-44E1-8594-CB002AD7917B",
+            "name": "Kingdom",
+            "type": null,
+            "detail": "2014,2017",
+            "image": "https://images.qloo.com/i/C34C0D66-0D26-44E1-8594-CB002AD7917B-420x-auto.jpg",
+            "score": 0.9054057392204069
+          },
+          {
+            "id": "0F3CFDF0-912C-44CA-9F81-720986735F29",
+            "name": "Warrior",
+            "type": null,
+            "detail": "2019,2023",
+            "image": "https://images.qloo.com/i/0F3CFDF0-912C-44CA-9F81-720986735F29-420x-auto.jpg",
+            "score": 0.9053891912234261
+          },
+          {
+            "id": "5DD524AB-9F0B-40AF-B291-63DD5D31F540",
+            "name": "The Red Road",
+            "type": null,
+            "detail": "2014,2015",
+            "image": "https://images.qloo.com/i/5DD524AB-9F0B-40AF-B291-63DD5D31F540-420x-auto.jpg",
+            "score": 0.8970778930647957
+          },
+          {
+            "id": "9665DE85-3418-4FCB-8776-B084C17802D8",
+            "name": "Ray Donovan",
+            "type": null,
+            "detail": "2013,2020",
+            "image": "https://images.qloo.com/i/9665DE85-3418-4FCB-8776-B084C17802D8-420x-auto.jpg",
+            "score": 0.8884729322205513
+          }
+        ],
+        "movie": [
+          {
+            "id": "49237DE5-22CF-4856-84F8-25EF2C333FCC",
+            "name": "Spider-Man: Far from Home",
+            "type": null,
+            "detail": "2019, Jon Watts",
+            "image": "https://images.qloo.com/i/49237DE5-22CF-4856-84F8-25EF2C333FCC-420x-auto.jpg",
+            "score": 0.932775833479167
+          },
+          {
+            "id": "5FBD6E83-5887-41CC-B9D4-C6A2C8931448",
+            "name": "John Wick: Chapter 3 - Parabellum",
+            "type": null,
+            "detail": "2019, Chad Stahelski",
+            "image": "https://images.qloo.com/i/5FBD6E83-5887-41CC-B9D4-C6A2C8931448-420x-auto.jpg",
+            "score": 0.9286383539337245
+          },
+          {
+            "id": "D2DF5D6E-1233-4B1C-BB40-45FDD1382819",
+            "name": "Ford v Ferrari",
+            "type": null,
+            "detail": "2019, James Mangold",
+            "image": "https://images.qloo.com/i/D2DF5D6E-1233-4B1C-BB40-45FDD1382819-420x-auto.jpg",
+            "score": 0.9270423522890198
+          },
+          {
+            "id": "D5D711E5-14A8-4FC1-BA77-63B74B12557D",
+            "name": "Creed II",
+            "type": null,
+            "detail": "2018, Steven Caple Jr.",
+            "image": "https://images.qloo.com/i/D5D711E5-14A8-4FC1-BA77-63B74B12557D-420x-auto.jpg",
+            "score": 0.9242987798443426
+          },
+          {
+            "id": "813B0455-6AD2-4802-B4B5-314799249A9F",
+            "name": "Avengers: Endgame",
+            "type": null,
+            "detail": "2019",
+            "image": "https://images.qloo.com/i/813B0455-6AD2-4802-B4B5-314799249A9F-420x-auto.jpg",
+            "score": 0.922419459811103
+          },
+          {
+            "id": "BF15346C-7226-4D4B-B101-73BA56CBA38D",
+            "name": "Fast & Furious Presents: Hobbs & Shaw",
+            "type": null,
+            "detail": "2019, David Leitch",
+            "image": "https://images.qloo.com/i/BF15346C-7226-4D4B-B101-73BA56CBA38D-420x-auto.jpg",
+            "score": 0.9211087261849441
+          },
+          {
+            "id": "3B966649-E5F9-44AD-9D8B-35C67753ECBF",
+            "name": "Star Wars: Episode IX - The Rise of Skywalker",
+            "type": null,
+            "detail": "2019, J.J. Abrams",
+            "image": "https://images.qloo.com/i/3B966649-E5F9-44AD-9D8B-35C67753ECBF-420x-auto.jpg",
+            "score": 0.9204984200684673
+          },
+          {
+            "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+            "name": "Once Upon a Time in... Hollywood",
+            "type": null,
+            "detail": "2019, Quentin Tarantino",
+            "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+            "score": 0.9172173919945232
+          },
+          {
+            "id": "2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE",
+            "name": "El Camino",
+            "type": null,
+            "detail": "2019, Vince Gilligan",
+            "image": "https://images.qloo.com/i/2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE-420x-auto.jpg",
+            "score": 0.9146173174156256
+          },
+          {
+            "id": "3C6380C8-8356-4ED6-AC6E-9BC22AF91615",
+            "name": "Venom",
+            "type": null,
+            "detail": "2018, Ruben Fleischer",
+            "image": "https://images.qloo.com/i/3C6380C8-8356-4ED6-AC6E-9BC22AF91615-420x-auto.jpg",
+            "score": 0.912835092555988
+          },
+          {
+            "id": "A79D1D11-0686-401E-8FFF-633E6A604929",
+            "name": "Captain Marvel",
+            "type": null,
+            "detail": "2019, Anna Boden",
+            "image": "https://images.qloo.com/i/A79D1D11-0686-401E-8FFF-633E6A604929-420x-auto.jpg",
+            "score": 0.9118936966170592
+          },
+          {
+            "id": "5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0",
+            "name": "Joker",
+            "type": null,
+            "detail": "2019, Todd Phillips",
+            "image": "https://images.qloo.com/i/5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0-420x-auto.jpg",
+            "score": 0.9112331595499089
+          },
+          {
+            "id": "B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE",
+            "name": "Deadpool 2",
+            "type": null,
+            "detail": "2018, David Leitch",
+            "image": "https://images.qloo.com/i/B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE-420x-auto.jpg",
+            "score": 0.905628020902498
+          },
+          {
+            "id": "7A5DD324-C74E-46D7-ABF8-4B09EB04928A",
+            "name": "Avengers: Infinity War",
+            "type": null,
+            "detail": "2018",
+            "image": "https://images.qloo.com/i/7A5DD324-C74E-46D7-ABF8-4B09EB04928A-420x-auto.jpg",
+            "score": 0.9011538681357746
+          },
+          {
+            "id": "C48DF44E-CC69-473E-A017-713F08E74CE8",
+            "name": "Zack Snyder's Justice League",
+            "type": null,
+            "detail": "2021, Zack Snyder",
+            "image": "https://images.qloo.com/i/C48DF44E-CC69-473E-A017-713F08E74CE8-420x-auto.jpg",
+            "score": 0.9009532101483181
+          },
+          {
+            "id": "DF4E5DAB-DB9F-41B9-844F-970A09C85BC0",
+            "name": "Solo: A Star Wars Story",
+            "type": null,
+            "detail": "2018, Ron Howard",
+            "image": "https://images.qloo.com/i/DF4E5DAB-DB9F-41B9-844F-970A09C85BC0-420x-auto.jpg",
+            "score": 0.8924706260150256
+          },
+          {
+            "id": "D8F970E7-664D-4A16-A35D-02F847567C8B",
+            "name": "Star Wars: Episode VIII - The Last Jedi",
+            "type": null,
+            "detail": "2017, Rian Johnson",
+            "image": "https://images.qloo.com/i/D8F970E7-664D-4A16-A35D-02F847567C8B-420x-auto.jpg",
+            "score": 0.8916552116695797
+          },
+          {
+            "id": "D2B20701-E472-4F55-A945-06DD791CEDBF",
+            "name": "Thor: Ragnarok",
+            "type": null,
+            "detail": "2017, Taika Waititi",
+            "image": "https://images.qloo.com/i/D2B20701-E472-4F55-A945-06DD791CEDBF-420x-auto.jpg",
+            "score": 0.8897224788619117
+          },
+          {
+            "id": "F296EF1A-3F7F-49BC-81A3-17A7CB73482B",
+            "name": "Batman v Superman: Dawn of Justice",
+            "type": null,
+            "detail": "2016, Zack Snyder",
+            "image": "https://images.qloo.com/i/F296EF1A-3F7F-49BC-81A3-17A7CB73482B-420x-auto.jpg",
+            "score": 0.8763132529260196
+          },
+          {
+            "id": "B9538567-7081-4E2F-91C8-289D45CA9DA4",
+            "name": "Captain America: Civil War",
+            "type": null,
+            "detail": "2016",
+            "image": "https://images.qloo.com/i/B9538567-7081-4E2F-91C8-289D45CA9DA4-420x-auto.jpg",
+            "score": 0.8749760853032764
+          }
+        ]
+      },
+      "C70CE2B8-0AD1-4150-BF18-5A6347F2E860": {
+        "tv_show": [
+          {
+            "id": "5DD524AB-9F0B-40AF-B291-63DD5D31F540",
+            "name": "The Red Road",
+            "type": null,
+            "detail": "2014,2015",
+            "image": "https://images.qloo.com/i/5DD524AB-9F0B-40AF-B291-63DD5D31F540-420x-auto.jpg",
+            "score": 0.9346808783878713
+          },
+          {
+            "id": "2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E",
+            "name": "JoJo's Bizarre Adventure",
+            "type": null,
+            "detail": "2012",
+            "image": "https://images.qloo.com/i/2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E-420x-auto.jpg",
+            "score": 0.9338230291340929
+          },
+          {
+            "id": "D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D",
+            "name": "Mad Dogs",
+            "type": null,
+            "detail": "2015,2016",
+            "image": "https://images.qloo.com/i/D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D-420x-auto.jpg",
+            "score": 0.9328775387550875
+          },
+          {
+            "id": "C0FABEA5-D59D-4B63-B193-6636F61FBD67",
+            "name": "Better Call Saul",
+            "type": null,
+            "detail": "2015,2022",
+            "image": "https://images.qloo.com/i/C0FABEA5-D59D-4B63-B193-6636F61FBD67-420x-auto.jpg",
+            "score": 0.9321227257053974
+          },
+          {
+            "id": "CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2",
+            "name": "Rake",
+            "type": null,
+            "detail": "2010,2018",
+            "image": "https://images.qloo.com/i/CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2-420x-auto.jpg",
+            "score": 0.9308934452623052
+          },
+          {
+            "id": "5536C817-1FDC-4327-9BB3-0204D9F8C342",
+            "name": "The Righteous Gemstones",
+            "type": null,
+            "detail": "2019,2025",
+            "image": "https://images.qloo.com/i/5536C817-1FDC-4327-9BB3-0204D9F8C342-420x-auto.jpg",
+            "score": 0.9284272999539203
+          },
+          {
+            "id": "9665DE85-3418-4FCB-8776-B084C17802D8",
+            "name": "Ray Donovan",
+            "type": null,
+            "detail": "2013,2020",
+            "image": "https://images.qloo.com/i/9665DE85-3418-4FCB-8776-B084C17802D8-420x-auto.jpg",
+            "score": 0.9267617108806038
+          },
+          {
+            "id": "9A1442B4-9FEA-4DB8-A692-60040E2203ED",
+            "name": "Tulsa King",
+            "type": null,
+            "detail": "2022",
+            "image": "https://images.qloo.com/i/9A1442B4-9FEA-4DB8-A692-60040E2203ED-420x-auto.jpg",
+            "score": 0.9263743151325718
+          },
+          {
+            "id": "4AD69F96-9270-47ED-BA80-EE84719931A3",
+            "name": "Mr Inbetween",
+            "type": null,
+            "detail": "2018,2021",
+            "image": "https://images.qloo.com/i/4AD69F96-9270-47ED-BA80-EE84719931A3-420x-auto.jpg",
+            "score": 0.9254732049301206
+          },
+          {
+            "id": "E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB",
+            "name": "Outrageous Fortune",
+            "type": null,
+            "detail": "2005,2010",
+            "image": "https://images.qloo.com/i/E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB-420x-auto.jpg",
+            "score": 0.925163363558742
+          },
+          {
+            "id": "E7B5DDB5-8766-4234-A70F-0DA541831EA2",
+            "name": "Reservation Dogs",
+            "type": null,
+            "detail": "2021,2023",
+            "image": "https://images.qloo.com/i/E7B5DDB5-8766-4234-A70F-0DA541831EA2-420x-auto.jpg",
+            "score": 0.9231300278771813
+          },
+          {
+            "id": "72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD",
+            "name": "Tower of God",
+            "type": null,
+            "detail": "2020,2024",
+            "image": "https://images.qloo.com/i/72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD-420x-auto.jpg",
+            "score": 0.922690737927703
+          },
+          {
+            "id": "AD0059D1-5F9C-45F4-A372-4199A7FEB896",
+            "name": "Republic of Doyle",
+            "type": null,
+            "detail": "2010,2014",
+            "image": "https://images.qloo.com/i/AD0059D1-5F9C-45F4-A372-4199A7FEB896-420x-auto.jpg",
+            "score": 0.9222308918463481
+          },
+          {
+            "id": "4F4BE043-71FB-4B49-9270-C7164E307C39",
+            "name": "The Glades",
+            "type": null,
+            "detail": "2010,2013",
+            "image": "https://images.qloo.com/i/4F4BE043-71FB-4B49-9270-C7164E307C39-420x-auto.jpg",
+            "score": 0.9221365008354504
+          },
+          {
+            "id": "B22660F9-EF96-4830-8EB5-810AF3FB2985",
+            "name": "Plunderer",
+            "type": null,
+            "detail": "2020,2020",
+            "image": "https://images.qloo.com/i/B22660F9-EF96-4830-8EB5-810AF3FB2985-420x-auto.jpg",
+            "score": 0.9218122661763893
+          },
+          {
+            "id": "C34C0D66-0D26-44E1-8594-CB002AD7917B",
+            "name": "Kingdom",
+            "type": null,
+            "detail": "2014,2017",
+            "image": "https://images.qloo.com/i/C34C0D66-0D26-44E1-8594-CB002AD7917B-420x-auto.jpg",
+            "score": 0.9197642942844301
+          },
+          {
+            "id": "0F3CFDF0-912C-44CA-9F81-720986735F29",
+            "name": "Warrior",
+            "type": null,
+            "detail": "2019,2023",
+            "image": "https://images.qloo.com/i/0F3CFDF0-912C-44CA-9F81-720986735F29-420x-auto.jpg",
+            "score": 0.9160107064904004
+          },
+          {
+            "id": "5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47",
+            "name": "Cobra Kai",
+            "type": null,
+            "detail": "2018,2025",
+            "image": "https://images.qloo.com/i/5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47-420x-auto.jpg",
+            "score": 0.9156673414456361
+          },
+          {
+            "id": "536DBB8F-2FB0-4911-B3C1-BC9CEF177D47",
+            "name": "Run",
+            "type": null,
+            "detail": "2013,2013",
+            "image": "https://images.qloo.com/i/536DBB8F-2FB0-4911-B3C1-BC9CEF177D47-420x-auto.jpg",
+            "score": 0.915263691864604
+          },
+          {
+            "id": "598F3CC9-016A-47C1-B3B7-38AD4854A823",
+            "name": "Last King of the Cross",
+            "type": null,
+            "detail": "2023",
+            "image": "https://images.qloo.com/i/598F3CC9-016A-47C1-B3B7-38AD4854A823-420x-auto.jpg",
+            "score": 0.9146128057111944
+          }
+        ],
+        "movie": [
+          {
+            "id": "813B0455-6AD2-4802-B4B5-314799249A9F",
+            "name": "Avengers: Endgame",
+            "type": null,
+            "detail": "2019",
+            "image": "https://images.qloo.com/i/813B0455-6AD2-4802-B4B5-314799249A9F-420x-auto.jpg",
+            "score": 0.9261189308104645
+          },
+          {
+            "id": "49237DE5-22CF-4856-84F8-25EF2C333FCC",
+            "name": "Spider-Man: Far from Home",
+            "type": null,
+            "detail": "2019, Jon Watts",
+            "image": "https://images.qloo.com/i/49237DE5-22CF-4856-84F8-25EF2C333FCC-420x-auto.jpg",
+            "score": 0.9214854257592688
+          },
+          {
+            "id": "3B966649-E5F9-44AD-9D8B-35C67753ECBF",
+            "name": "Star Wars: Episode IX - The Rise of Skywalker",
+            "type": null,
+            "detail": "2019, J.J. Abrams",
+            "image": "https://images.qloo.com/i/3B966649-E5F9-44AD-9D8B-35C67753ECBF-420x-auto.jpg",
+            "score": 0.9187175382749815
+          },
+          {
+            "id": "C48DF44E-CC69-473E-A017-713F08E74CE8",
+            "name": "Zack Snyder's Justice League",
+            "type": null,
+            "detail": "2021, Zack Snyder",
+            "image": "https://images.qloo.com/i/C48DF44E-CC69-473E-A017-713F08E74CE8-420x-auto.jpg",
+            "score": 0.9114116088608307
+          },
+          {
+            "id": "7A5DD324-C74E-46D7-ABF8-4B09EB04928A",
+            "name": "Avengers: Infinity War",
+            "type": null,
+            "detail": "2018",
+            "image": "https://images.qloo.com/i/7A5DD324-C74E-46D7-ABF8-4B09EB04928A-420x-auto.jpg",
+            "score": 0.9098954065105306
+          },
+          {
+            "id": "A79D1D11-0686-401E-8FFF-633E6A604929",
+            "name": "Captain Marvel",
+            "type": null,
+            "detail": "2019, Anna Boden",
+            "image": "https://images.qloo.com/i/A79D1D11-0686-401E-8FFF-633E6A604929-420x-auto.jpg",
+            "score": 0.9061899497297786
+          },
+          {
+            "id": "DF4E5DAB-DB9F-41B9-844F-970A09C85BC0",
+            "name": "Solo: A Star Wars Story",
+            "type": null,
+            "detail": "2018, Ron Howard",
+            "image": "https://images.qloo.com/i/DF4E5DAB-DB9F-41B9-844F-970A09C85BC0-420x-auto.jpg",
+            "score": 0.9060362834563301
+          },
+          {
+            "id": "5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0",
+            "name": "Joker",
+            "type": null,
+            "detail": "2019, Todd Phillips",
+            "image": "https://images.qloo.com/i/5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0-420x-auto.jpg",
+            "score": 0.9024588096567014
+          },
+          {
+            "id": "D8F970E7-664D-4A16-A35D-02F847567C8B",
+            "name": "Star Wars: Episode VIII - The Last Jedi",
+            "type": null,
+            "detail": "2017, Rian Johnson",
+            "image": "https://images.qloo.com/i/D8F970E7-664D-4A16-A35D-02F847567C8B-420x-auto.jpg",
+            "score": 0.9009282856039862
+          },
+          {
+            "id": "3C6380C8-8356-4ED6-AC6E-9BC22AF91615",
+            "name": "Venom",
+            "type": null,
+            "detail": "2018, Ruben Fleischer",
+            "image": "https://images.qloo.com/i/3C6380C8-8356-4ED6-AC6E-9BC22AF91615-420x-auto.jpg",
+            "score": 0.8955579783516908
+          },
+          {
+            "id": "D2B20701-E472-4F55-A945-06DD791CEDBF",
+            "name": "Thor: Ragnarok",
+            "type": null,
+            "detail": "2017, Taika Waititi",
+            "image": "https://images.qloo.com/i/D2B20701-E472-4F55-A945-06DD791CEDBF-420x-auto.jpg",
+            "score": 0.8938814710979178
+          },
+          {
+            "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+            "name": "Once Upon a Time in... Hollywood",
+            "type": null,
+            "detail": "2019, Quentin Tarantino",
+            "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+            "score": 0.8932717865901344
+          },
+          {
+            "id": "B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE",
+            "name": "Deadpool 2",
+            "type": null,
+            "detail": "2018, David Leitch",
+            "image": "https://images.qloo.com/i/B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE-420x-auto.jpg",
+            "score": 0.8932363846519723
+          },
+          {
+            "id": "F296EF1A-3F7F-49BC-81A3-17A7CB73482B",
+            "name": "Batman v Superman: Dawn of Justice",
+            "type": null,
+            "detail": "2016, Zack Snyder",
+            "image": "https://images.qloo.com/i/F296EF1A-3F7F-49BC-81A3-17A7CB73482B-420x-auto.jpg",
+            "score": 0.8911849180976974
+          },
+          {
+            "id": "5FBD6E83-5887-41CC-B9D4-C6A2C8931448",
+            "name": "John Wick: Chapter 3 - Parabellum",
+            "type": null,
+            "detail": "2019, Chad Stahelski",
+            "image": "https://images.qloo.com/i/5FBD6E83-5887-41CC-B9D4-C6A2C8931448-420x-auto.jpg",
+            "score": 0.8901317815407526
+          },
+          {
+            "id": "B9538567-7081-4E2F-91C8-289D45CA9DA4",
+            "name": "Captain America: Civil War",
+            "type": null,
+            "detail": "2016",
+            "image": "https://images.qloo.com/i/B9538567-7081-4E2F-91C8-289D45CA9DA4-420x-auto.jpg",
+            "score": 0.8896479724299526
+          },
+          {
+            "id": "D2DF5D6E-1233-4B1C-BB40-45FDD1382819",
+            "name": "Ford v Ferrari",
+            "type": null,
+            "detail": "2019, James Mangold",
+            "image": "https://images.qloo.com/i/D2DF5D6E-1233-4B1C-BB40-45FDD1382819-420x-auto.jpg",
+            "score": 0.8851223313053822
+          },
+          {
+            "id": "2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE",
+            "name": "El Camino",
+            "type": null,
+            "detail": "2019, Vince Gilligan",
+            "image": "https://images.qloo.com/i/2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE-420x-auto.jpg",
+            "score": 0.8804382527406515
+          },
+          {
+            "id": "BF15346C-7226-4D4B-B101-73BA56CBA38D",
+            "name": "Fast & Furious Presents: Hobbs & Shaw",
+            "type": null,
+            "detail": "2019, David Leitch",
+            "image": "https://images.qloo.com/i/BF15346C-7226-4D4B-B101-73BA56CBA38D-420x-auto.jpg",
+            "score": 0.8770061647308014
+          },
+          {
+            "id": "D5D711E5-14A8-4FC1-BA77-63B74B12557D",
+            "name": "Creed II",
+            "type": null,
+            "detail": "2018, Steven Caple Jr.",
+            "image": "https://images.qloo.com/i/D5D711E5-14A8-4FC1-BA77-63B74B12557D-420x-auto.jpg",
+            "score": 0.8610594933004387
+          }
+        ]
+      },
+      "46CBADC5-F4A6-4E97-93B2-959066C9F608": {
+        "tv_show": [
+          {
+            "id": "C34C0D66-0D26-44E1-8594-CB002AD7917B",
+            "name": "Kingdom",
+            "type": null,
+            "detail": "2014,2017",
+            "image": "https://images.qloo.com/i/C34C0D66-0D26-44E1-8594-CB002AD7917B-420x-auto.jpg",
+            "score": 0.9487685112025077
+          },
+          {
+            "id": "5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47",
+            "name": "Cobra Kai",
+            "type": null,
+            "detail": "2018,2025",
+            "image": "https://images.qloo.com/i/5CB8ED0D-8BD8-4CF6-BFEF-EC0F05875B47-420x-auto.jpg",
+            "score": 0.9449739145782922
+          },
+          {
+            "id": "9665DE85-3418-4FCB-8776-B084C17802D8",
+            "name": "Ray Donovan",
+            "type": null,
+            "detail": "2013,2020",
+            "image": "https://images.qloo.com/i/9665DE85-3418-4FCB-8776-B084C17802D8-420x-auto.jpg",
+            "score": 0.9372500842391552
+          },
+          {
+            "id": "9A1442B4-9FEA-4DB8-A692-60040E2203ED",
+            "name": "Tulsa King",
+            "type": null,
+            "detail": "2022",
+            "image": "https://images.qloo.com/i/9A1442B4-9FEA-4DB8-A692-60040E2203ED-420x-auto.jpg",
+            "score": 0.9365221087070845
+          },
+          {
+            "id": "C0FABEA5-D59D-4B63-B193-6636F61FBD67",
+            "name": "Better Call Saul",
+            "type": null,
+            "detail": "2015,2022",
+            "image": "https://images.qloo.com/i/C0FABEA5-D59D-4B63-B193-6636F61FBD67-420x-auto.jpg",
+            "score": 0.9355605572420462
+          },
+          {
+            "id": "0F3CFDF0-912C-44CA-9F81-720986735F29",
+            "name": "Warrior",
+            "type": null,
+            "detail": "2019,2023",
+            "image": "https://images.qloo.com/i/0F3CFDF0-912C-44CA-9F81-720986735F29-420x-auto.jpg",
+            "score": 0.9337355900221193
+          },
+          {
+            "id": "598F3CC9-016A-47C1-B3B7-38AD4854A823",
+            "name": "Last King of the Cross",
+            "type": null,
+            "detail": "2023",
+            "image": "https://images.qloo.com/i/598F3CC9-016A-47C1-B3B7-38AD4854A823-420x-auto.jpg",
+            "score": 0.9326059613054678
+          },
+          {
+            "id": "5DD524AB-9F0B-40AF-B291-63DD5D31F540",
+            "name": "The Red Road",
+            "type": null,
+            "detail": "2014,2015",
+            "image": "https://images.qloo.com/i/5DD524AB-9F0B-40AF-B291-63DD5D31F540-420x-auto.jpg",
+            "score": 0.9298928672949665
+          },
+          {
+            "id": "4AD69F96-9270-47ED-BA80-EE84719931A3",
+            "name": "Mr Inbetween",
+            "type": null,
+            "detail": "2018,2021",
+            "image": "https://images.qloo.com/i/4AD69F96-9270-47ED-BA80-EE84719931A3-420x-auto.jpg",
+            "score": 0.9276014718820382
+          },
+          {
+            "id": "D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D",
+            "name": "Mad Dogs",
+            "type": null,
+            "detail": "2015,2016",
+            "image": "https://images.qloo.com/i/D9AB4F73-85A0-4F4A-9CE5-D93D8A63576D-420x-auto.jpg",
+            "score": 0.9206232163769262
+          },
+          {
+            "id": "CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2",
+            "name": "Rake",
+            "type": null,
+            "detail": "2010,2018",
+            "image": "https://images.qloo.com/i/CEF5D471-2608-4A23-8D8C-0FC2D0FBBEB2-420x-auto.jpg",
+            "score": 0.9191673807861906
+          },
+          {
+            "id": "536DBB8F-2FB0-4911-B3C1-BC9CEF177D47",
+            "name": "Run",
+            "type": null,
+            "detail": "2013,2013",
+            "image": "https://images.qloo.com/i/536DBB8F-2FB0-4911-B3C1-BC9CEF177D47-420x-auto.jpg",
+            "score": 0.918295829361272
+          },
+          {
+            "id": "E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB",
+            "name": "Outrageous Fortune",
+            "type": null,
+            "detail": "2005,2010",
+            "image": "https://images.qloo.com/i/E1CA8760-C1C1-4CA2-9FC1-165F9F4A54DB-420x-auto.jpg",
+            "score": 0.9166011830382349
+          },
+          {
+            "id": "B22660F9-EF96-4830-8EB5-810AF3FB2985",
+            "name": "Plunderer",
+            "type": null,
+            "detail": "2020,2020",
+            "image": "https://images.qloo.com/i/B22660F9-EF96-4830-8EB5-810AF3FB2985-420x-auto.jpg",
+            "score": 0.9144207950189138
+          },
+          {
+            "id": "AD0059D1-5F9C-45F4-A372-4199A7FEB896",
+            "name": "Republic of Doyle",
+            "type": null,
+            "detail": "2010,2014",
+            "image": "https://images.qloo.com/i/AD0059D1-5F9C-45F4-A372-4199A7FEB896-420x-auto.jpg",
+            "score": 0.9139507501369241
+          },
+          {
+            "id": "72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD",
+            "name": "Tower of God",
+            "type": null,
+            "detail": "2020,2024",
+            "image": "https://images.qloo.com/i/72CA5C91-9D4E-43EE-9AC4-EB7DCDD3C0BD-420x-auto.jpg",
+            "score": 0.912748414131655
+          },
+          {
+            "id": "4F4BE043-71FB-4B49-9270-C7164E307C39",
+            "name": "The Glades",
+            "type": null,
+            "detail": "2010,2013",
+            "image": "https://images.qloo.com/i/4F4BE043-71FB-4B49-9270-C7164E307C39-420x-auto.jpg",
+            "score": 0.9116027735499734
+          },
+          {
+            "id": "5536C817-1FDC-4327-9BB3-0204D9F8C342",
+            "name": "The Righteous Gemstones",
+            "type": null,
+            "detail": "2019,2025",
+            "image": "https://images.qloo.com/i/5536C817-1FDC-4327-9BB3-0204D9F8C342-420x-auto.jpg",
+            "score": 0.9107457320122125
+          },
+          {
+            "id": "E7B5DDB5-8766-4234-A70F-0DA541831EA2",
+            "name": "Reservation Dogs",
+            "type": null,
+            "detail": "2021,2023",
+            "image": "https://images.qloo.com/i/E7B5DDB5-8766-4234-A70F-0DA541831EA2-420x-auto.jpg",
+            "score": 0.9087637505924868
+          },
+          {
+            "id": "2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E",
+            "name": "JoJo's Bizarre Adventure",
+            "type": null,
+            "detail": "2012",
+            "image": "https://images.qloo.com/i/2C304BF1-3F1E-4DA8-AD8C-3B25E14FB36E-420x-auto.jpg",
+            "score": 0.9041243778229223
+          }
+        ],
+        "movie": [
+          {
+            "id": "B9538567-7081-4E2F-91C8-289D45CA9DA4",
+            "name": "Captain America: Civil War",
+            "type": null,
+            "detail": "2016",
+            "image": "https://images.qloo.com/i/B9538567-7081-4E2F-91C8-289D45CA9DA4-420x-auto.jpg",
+            "score": 0.9032479870799135
+          },
+          {
+            "id": "F296EF1A-3F7F-49BC-81A3-17A7CB73482B",
+            "name": "Batman v Superman: Dawn of Justice",
+            "type": null,
+            "detail": "2016, Zack Snyder",
+            "image": "https://images.qloo.com/i/F296EF1A-3F7F-49BC-81A3-17A7CB73482B-420x-auto.jpg",
+            "score": 0.9009669518178367
+          },
+          {
+            "id": "D5D711E5-14A8-4FC1-BA77-63B74B12557D",
+            "name": "Creed II",
+            "type": null,
+            "detail": "2018, Steven Caple Jr.",
+            "image": "https://images.qloo.com/i/D5D711E5-14A8-4FC1-BA77-63B74B12557D-420x-auto.jpg",
+            "score": 0.891288430356537
+          },
+          {
+            "id": "7A5DD324-C74E-46D7-ABF8-4B09EB04928A",
+            "name": "Avengers: Infinity War",
+            "type": null,
+            "detail": "2018",
+            "image": "https://images.qloo.com/i/7A5DD324-C74E-46D7-ABF8-4B09EB04928A-420x-auto.jpg",
+            "score": 0.8907101361699525
+          },
+          {
+            "id": "813B0455-6AD2-4802-B4B5-314799249A9F",
+            "name": "Avengers: Endgame",
+            "type": null,
+            "detail": "2019",
+            "image": "https://images.qloo.com/i/813B0455-6AD2-4802-B4B5-314799249A9F-420x-auto.jpg",
+            "score": 0.8893680372632216
+          },
+          {
+            "id": "D8F970E7-664D-4A16-A35D-02F847567C8B",
+            "name": "Star Wars: Episode VIII - The Last Jedi",
+            "type": null,
+            "detail": "2017, Rian Johnson",
+            "image": "https://images.qloo.com/i/D8F970E7-664D-4A16-A35D-02F847567C8B-420x-auto.jpg",
+            "score": 0.88618801478875
+          },
+          {
+            "id": "5FBD6E83-5887-41CC-B9D4-C6A2C8931448",
+            "name": "John Wick: Chapter 3 - Parabellum",
+            "type": null,
+            "detail": "2019, Chad Stahelski",
+            "image": "https://images.qloo.com/i/5FBD6E83-5887-41CC-B9D4-C6A2C8931448-420x-auto.jpg",
+            "score": 0.8759615335239289
+          },
+          {
+            "id": "B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE",
+            "name": "Deadpool 2",
+            "type": null,
+            "detail": "2018, David Leitch",
+            "image": "https://images.qloo.com/i/B3BDA0F6-8924-4BD5-84DE-8150A7E0EFDE-420x-auto.jpg",
+            "score": 0.8754967068976519
+          },
+          {
+            "id": "D2B20701-E472-4F55-A945-06DD791CEDBF",
+            "name": "Thor: Ragnarok",
+            "type": null,
+            "detail": "2017, Taika Waititi",
+            "image": "https://images.qloo.com/i/D2B20701-E472-4F55-A945-06DD791CEDBF-420x-auto.jpg",
+            "score": 0.8751113870493111
+          },
+          {
+            "id": "DF4E5DAB-DB9F-41B9-844F-970A09C85BC0",
+            "name": "Solo: A Star Wars Story",
+            "type": null,
+            "detail": "2018, Ron Howard",
+            "image": "https://images.qloo.com/i/DF4E5DAB-DB9F-41B9-844F-970A09C85BC0-420x-auto.jpg",
+            "score": 0.8737119640589301
+          },
+          {
+            "id": "49237DE5-22CF-4856-84F8-25EF2C333FCC",
+            "name": "Spider-Man: Far from Home",
+            "type": null,
+            "detail": "2019, Jon Watts",
+            "image": "https://images.qloo.com/i/49237DE5-22CF-4856-84F8-25EF2C333FCC-420x-auto.jpg",
+            "score": 0.8707470764514164
+          },
+          {
+            "id": "D2DF5D6E-1233-4B1C-BB40-45FDD1382819",
+            "name": "Ford v Ferrari",
+            "type": null,
+            "detail": "2019, James Mangold",
+            "image": "https://images.qloo.com/i/D2DF5D6E-1233-4B1C-BB40-45FDD1382819-420x-auto.jpg",
+            "score": 0.8694840194646075
+          },
+          {
+            "id": "3B966649-E5F9-44AD-9D8B-35C67753ECBF",
+            "name": "Star Wars: Episode IX - The Rise of Skywalker",
+            "type": null,
+            "detail": "2019, J.J. Abrams",
+            "image": "https://images.qloo.com/i/3B966649-E5F9-44AD-9D8B-35C67753ECBF-420x-auto.jpg",
+            "score": 0.86623855355997
+          },
+          {
+            "id": "3C6380C8-8356-4ED6-AC6E-9BC22AF91615",
+            "name": "Venom",
+            "type": null,
+            "detail": "2018, Ruben Fleischer",
+            "image": "https://images.qloo.com/i/3C6380C8-8356-4ED6-AC6E-9BC22AF91615-420x-auto.jpg",
+            "score": 0.8642822978041882
+          },
+          {
+            "id": "A79D1D11-0686-401E-8FFF-633E6A604929",
+            "name": "Captain Marvel",
+            "type": null,
+            "detail": "2019, Anna Boden",
+            "image": "https://images.qloo.com/i/A79D1D11-0686-401E-8FFF-633E6A604929-420x-auto.jpg",
+            "score": 0.8635906464733606
+          },
+          {
+            "id": "2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE",
+            "name": "El Camino",
+            "type": null,
+            "detail": "2019, Vince Gilligan",
+            "image": "https://images.qloo.com/i/2A4BED16-D77C-44BC-B46D-4CFED0DEFBFE-420x-auto.jpg",
+            "score": 0.8598860962044184
+          },
+          {
+            "id": "BF15346C-7226-4D4B-B101-73BA56CBA38D",
+            "name": "Fast & Furious Presents: Hobbs & Shaw",
+            "type": null,
+            "detail": "2019, David Leitch",
+            "image": "https://images.qloo.com/i/BF15346C-7226-4D4B-B101-73BA56CBA38D-420x-auto.jpg",
+            "score": 0.8596455830766646
+          },
+          {
+            "id": "555FBB24-3C84-4320-A7C2-07144B9BE0AA",
+            "name": "Once Upon a Time in... Hollywood",
+            "type": null,
+            "detail": "2019, Quentin Tarantino",
+            "image": "https://images.qloo.com/i/555FBB24-3C84-4320-A7C2-07144B9BE0AA-420x-auto.jpg",
+            "score": 0.8584320840077595
+          },
+          {
+            "id": "5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0",
+            "name": "Joker",
+            "type": null,
+            "detail": "2019, Todd Phillips",
+            "image": "https://images.qloo.com/i/5F98082A-A0AC-4453-8D8B-FCFBCB9ED4C0-420x-auto.jpg",
+            "score": 0.8566237605680656
+          },
+          {
+            "id": "C48DF44E-CC69-473E-A017-713F08E74CE8",
+            "name": "Zack Snyder's Justice League",
+            "type": null,
+            "detail": "2021, Zack Snyder",
+            "image": "https://images.qloo.com/i/C48DF44E-CC69-473E-A017-713F08E74CE8-420x-auto.jpg",
+            "score": 0.8515758662545982
+          }
+        ]
+      }
+    },
+    "sensitivity": {
+      "status": "complete",
+      "winner": null,
+      "rows": [
+        {
+          "id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+          "name": "Elden Ring",
+          "domains": {
+            "tv_show": 0.23909774436090225,
+            "movie": 0.3593984962406015
+          },
+          "value": 0.2992481203007519,
+          "halves": [
+            0.3,
+            0.35151515151515156
+          ]
+        },
+        {
+          "id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+          "name": "Nike",
+          "domains": {
+            "tv_show": 0.33233082706766914,
+            "movie": 0.2578947368421053
+          },
+          "value": 0.2951127819548872,
+          "halves": [
+            0.3090909090909091,
+            0.396969696969697
+          ]
+        },
+        {
+          "id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+          "name": "Metallica",
+          "domains": {
+            "tv_show": 0.36541353383458647,
+            "movie": 0.2218045112781955
+          },
+          "value": 0.293609022556391,
+          "halves": [
+            0.2363636363636364,
+            0.2545454545454545
+          ]
+        }
+      ],
+      "domains": [
+        "tv_show",
+        "movie"
+      ],
+      "method": "mean((1 - tie-aware Spearman rho) / 2), two fixed panels; same winner on disjoint halves"
+    },
+    "warnings": [],
+    "fixture": "sidequest",
+    "provenance": {
+      "kind": "Qloo live fixture recorded for this prototype",
+      "request_hashes": [
+        "6548160d52af3740085302bdf769c603b2d9bb503b4e1400d0314b0c839d79b9",
+        "9fa994900c242d7d418f209ca935e3172c4b988ef366148f084f0b30c14cd9f2",
+        "0347ebccaee4a56e0267672d2dc11a4f1d92f393a41c256d3ce0697201aca3a3",
+        "96b91d6c60b52bf12b9b8444178dcb16a18b60f7965a52fd5abcaf8b72ceb939",
+        "dd7113844b0fb6d43f492fd29de000837119e5cc7159f345c5c1474822a42d63",
+        "31e55882134364c5b896840347a3a092a426cdc42caad4ed29281db1bb9b0ab4",
+        "1ddb87597b6a1dc9742ecc2e631ad6e313967b5a36fa1d6e81547ab445c439e1",
+        "895ee95dc0e3f430dc70b929725268cabeb3a77bdc64fc5309d5ea4b7df3dd19",
+        "c29e56d61126e2adaa41986aa1ad7cced84ae1a34eb56926fcb78ec5c4033ed6",
+        "3427c751a182d6e057b69976e28917db89946bdef00e7de5d63c233cd0d8bbaa",
+        "5b1dbb0cc11e0c58e870e754c7f42274bdf49d4ce583daba8b3e983032b0f1ac",
+        "3399f8476429eec894a35ff24436a3d83bb9cac480ac2bfd8e876ea59157c912",
+        "5842d32d67bb3b90f6b05637a4b3cc6675a7121de75190db46b9382ceb2f078c",
+        "61bd0b35ae06aa45125f5eb6e0c5e9929dd93f3786bbcffe4533305df42a56c0",
+        "f3d09a16c24e2a323974bf3c62746844d7a25eb9cdd933e10ebd6ef1d212136c",
+        "63e9b920838e16cf9a8c7b0c1e54fc859bdb856c27628ea15b27a67fa41787e0",
+        "7f9668201d4679e264eac278a116a3eabb9dc5080c83a196a2d84dd958f23c96",
+        "72f62dd4e35f825c6801123dc604de2fe3cc2e353e19d202798001425d279bca",
+        "2683a2cecb1df78d70f5d238398a923aec1bf5dadf9b0e9ef9e27d36832d2f1f",
+        "1d869ff5aef719687f677ef4f2a4cdfbf267e3bae22701a48119303db6dd9ac8",
+        "a47f92429e41c1668b8826454afad48eb550be42dfacb91d38c89454a7648221",
+        "aba6604ae52f8a3aa35784d18151ac8acfc730885903988c0969f459dd47b51c",
+        "8dc0e3cd86a51e9c9fb1a0ec61d797709baa85ce3da983d514f31d535826c5e3",
+        "94ca15a6fc141cd4c94218e2ec2440987fcd3e19f9710c4cf6a1f103a1a05c56",
+        "be05f52ad0c3e4ec14a3243f37d0e3a258e4b1d6af77a2550bd6110ab1cc6825",
+        "62dda7718664065b4a68eeabcd2a1ac3b1daeefca5d1eb994caf5f93184ba87c",
+        "4a1267233485e99ec325de26d9d9af4762f43b7c93931603d132e34e9e61d58c",
+        "91c51078d260617ae31da045ba54b4ae05b8598ee42f37e99c2f0dd6b2a307ff",
+        "6d7b2e009f5caeb1abd9fe560132822de1237d17deae8204517c6cfe721255ac",
+        "a99089db8c38e91ccd0c9a399b9dfdaf4469fb4c6fd4c995dfd180ddd52d3535"
+      ]
+    }
+  }
+}

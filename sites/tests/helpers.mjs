@@ -1,0 +1,5 @@
+import {DatabaseSync} from 'node:sqlite';
+import {readFileSync,readdirSync} from 'node:fs';
+export function database(){const db=new DatabaseSync(':memory:');for(const file of readdirSync(new URL('../drizzle/',import.meta.url)).filter(f=>f.endsWith('.sql')).sort())db.exec(readFileSync(new URL('../drizzle/'+file,import.meta.url),'utf8'));
+ const wrapper={prepare(sql){let args=[];return {bind(...values){args=values;return this;},first(){return db.prepare(sql).get(...args)??null;},run(){const result=db.prepare(sql).run(...args);return {meta:{changes:Number(result.changes)}};}};},batch(statements){db.exec('BEGIN');try{const results=[];for(const s of statements)results.push(s.run());db.exec('COMMIT');return results;}catch(e){db.exec('ROLLBACK');throw e;}}};return {db:wrapper,close:()=>db.close(),raw:db};}
+export const action=(state,name='TEST_PREDICTION',id=state.candidates[0]?.id)=>({action:name,domain:name==='DELIVER_VERDICT'?'':state.candidates.find(p=>p.id===id)?.domain||'',candidate_id:name==='DELIVER_VERDICT'?'':id,basis:'original',observation:'The fixture is testing the evidence.',decision_summary:'Fixture choice from supplied evidence.',hypotheses:[]});

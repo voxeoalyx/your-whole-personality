@@ -23,7 +23,7 @@ export function summary(v, source) {
   const accuracy = v.stats.known ? `${v.stats.yes}/${v.stats.known} familiar guesses confirmed` : 'No familiar guesses to score';
   const influence = v.influence ? [v.influence.label, ...v.influence.entries.map(e => `${e.label}: ${e.names}`), v.influence.qualification, 'Ranking changes on these fixed shortlists, not shares of personality.'].join('\n') :
     v.winner ? 'Strongest ranking influence: ' + v.winner.name : v.sensitivityStatus === 'complete' ? 'No clear single influence.' : 'Ranking influence: insufficient evidence.';
-  return `YOUR WHOLE PERSONALITY\n${v.title}\n${v.roast}\n${accuracy}; ${v.stats.unknown} not tried.\n${influence}\n${source === 'recorded' ? 'Recorded Qloo demo round — not predictions from my own interests.\n' : ''}A tiny taste test, not a personality diagnosis.\nYour turn. Try Your Whole Personality.`;
+  return `YOUR WHOLE PERSONALITY\n${v.title}\n${v.roast}\n${accuracy}; ${v.stats.unknown} not tried.\n${influence}\n${v.identity ? `IDENTITY REALITY CHECK: ${v.identity.title}\nOUR RANKINGS: ${v.identity.model}\nI SAY: ${v.identity.self}\nSelf-report, not a psychological measurement.\n` : ''}${source === 'recorded' ? 'Recorded Qloo demo round — not predictions from my own interests.\n' : ''}A tiny taste test, not a personality diagnosis.\nYour turn. Try Your Whole Personality.`;
 }
 
 // Descriptive Act III findings. The original strict sensitivity and Act IV score
@@ -210,6 +210,13 @@ export function shareCardLayout(v, sourceLabel, measure) {
   add(v.influence.qualification, '22px Arial', 30, 10);
   add('Ranking changes on these fixed shortlists, not shares of personality.', '22px Arial', 30, 24);
   rule();
+  if (v.identity) {
+    add('IDENTITY REALITY CHECK: ' + v.identity.title, 'bold 28px Arial', 36, 10);
+    add('OUR RANKINGS: ' + v.identity.model, '22px Arial', 30, 8);
+    add('I SAY: ' + v.identity.self, 'bold 28px Arial', 36, 8);
+    add('Self-report, not a psychological measurement.', '22px Arial', 30, 20);
+    rule();
+  }
   y = Math.max(1160, y);
   add('YOUR FRIENDS ARE NEXT.  ↗', 'bold 28px Arial', 36, 20);
   add('A tiny taste test, not a personality diagnosis. Powered by Qloo.', '20px Arial', 28);

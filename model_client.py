@@ -5,8 +5,9 @@ import time
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 from qloo_client import environment
+from protections import check_deadline
 
-MODEL = 'nvidia/nemotron-3-super-120b-a12b'
+MODEL = 'nvidia/nemotron-3.5-lightning-30b-a3b'
 ENDPOINT = 'https://integrate.api.nvidia.com/v1/chat/completions'
 
 
@@ -32,6 +33,7 @@ class ModelClient:
         self.opener = build_opener(NoRedirect())
 
     def decide(self, instructions, state, schema):
+        check_deadline()
         if not self.key:
             raise ModelError('not_configured')
         with self.lock:
@@ -58,6 +60,7 @@ class ModelClient:
                 raw = response.read(262145)
                 if len(raw) > 262144:
                     raise ModelError('response_too_large')
+                check_deadline()
                 data = json.loads(raw)
             choice = data['choices'][0]
             calls = choice['message'].get('tool_calls', [])

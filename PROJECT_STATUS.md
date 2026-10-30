@@ -31,3 +31,11 @@ Transfer baseline: October 9, 2026. A working local prototype, with all earlier 
 4. Resolve data/display rights, public abuse limits and real-device sharing before deployment. Avoid a backend rewrite until that need is established.
 
 Transfer validation and secret-audit scope are recorded in [SECURITY_AUDIT.md](SECURITY_AUDIT.md). Historical browser evidence is in [VERIFICATION.md](VERIFICATION.md) and [INVESTIGATOR_RESULTS.md](INVESTIGATOR_RESULTS.md).
+
+## October 25: Identity Reality Check
+
+Implemented an optional post-verdict multi-select/self-report comparison, unsupported interest text, separately opted-in identity sharing, and a consent-gated reviewed research export with versioned schema. Identity stays in tab memory; no research collector or database. Existing strict dominance, scoring and NVIDIA adaptation remain intact. Consumer evidence remains uncollected: this is research infrastructure, not validation of psychological measurement or commercial identity transfer. [Protocol](docs/IDENTITY_RESEARCH.md) · [commercial hypotheses](docs/COMMERCIAL_VALIDATION.md) · [verification](docs/IDENTITY_VERIFICATION.md).
+
+## Sites migration — October 28, 2026
+
+A supported Vinext/Workers/D1 application lives in `sites/`, deployed owner-private at https://your-whole-personality.a-lyx.chatgpt.site. It preserves the game, strict scoring, influence reveals and investigator tools. Long work uses durable request-driven checkpoints instead of Python threads. Hosted live/recorded play, influence reveals, clipboard, consent/JSON exports and viewport checks passed; native download delivery retains a documented limitation. The release uses the validated free NVIDIA Lightning endpoint after Super timeouts. Complete source and the application MIT license are prepared for GitHub. See `docs/RELEASE_VERIFICATION.md` for current evidence and limits. GitHub and the Site remain private; no Devpost submission was made.

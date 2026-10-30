@@ -84,6 +84,24 @@ class InvestigatorTests(unittest.TestCase):
         self.assertEqual(snap['game']['investigator']['mode'],'fixed_qloo_fallback')
         self.assertEqual(e.fallback_reason,'rate_limit');self.assertTrue(e.finished);self.assertEqual(e.calls,1)
 
+    def test_final_call_failure_and_exhaustion_are_closing_only_fallbacks(self):
+        class FailClosing(FixtureModel):
+            def decide(self,instructions,state,schema):
+                if not state['questions_remaining']:raise ModelError('timeout')
+                return super().decide(instructions,state,schema)
+        for exhausted in [False,True]:
+            e=Investigator(demo(),FailClosing())
+            for n in range(5):e.advance();e.answer(e.predictions[-1]['id'],'yes',n)
+            if exhausted:e.calls=e.max_calls
+            e.advance();a=e.snapshot()['game']['investigator']
+            self.assertTrue(a['closing_fallback']);self.assertIsNone(a['fallback_reason'])
+            self.assertEqual(a['mode'],'agentic_qloo');self.assertEqual(len(e.predictions),5)
+            self.assertEqual(a['trace'][-1]['event'],'closing_fallback')
+
+    def test_fresh_configuration_uses_verified_model(self):
+        with patch('model_client.environment',return_value={'NVIDIA_API_KEY':'','NVIDIA_MODEL':'','NVIDIA_CALL_LIMIT':''}):
+            self.assertEqual(ModelClient().model,'nvidia/nemotron-3.5-lightning-30b-a3b')
+
     def test_round_budget_and_invalid_action_loops_are_bounded(self):
         class Invalid:
             def decide(self,*args):return {},{}

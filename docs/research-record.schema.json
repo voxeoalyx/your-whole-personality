@@ -1,0 +1,420 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Your Whole Personality voluntary research export v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "experiment_version": {
+      "const": "identity-reality-check-v1"
+    },
+    "consent_version": {
+      "const": "local-export-v1"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "consent": {
+      "type": "object",
+      "properties": {
+        "granted": {
+          "const": true
+        },
+        "timestamp": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "scope": {
+          "const": "reviewed_local_export"
+        }
+      },
+      "required": [
+        "granted",
+        "timestamp",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "enum": [
+        "live",
+        "recorded"
+      ]
+    },
+    "evidence_generated_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "model": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "fallback": {
+          "type": "boolean"
+        },
+        "closing_fallback": {
+          "type": "boolean"
+        },
+        "qloo_version": {
+          "const": "v2/insights"
+        },
+        "scoring_version": {
+          "const": "fixed-panel-loo-v1"
+        },
+        "influence_version": {
+          "const": "act-iii-v1"
+        }
+      },
+      "required": [
+        "provider",
+        "name",
+        "fallback",
+        "qloo_version",
+        "scoring_version",
+        "influence_version"
+      ],
+      "additionalProperties": false
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "taxonomy": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "supported": {
+            "const": true
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "taxonomy",
+          "supported"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "predictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "domain": {
+            "type": "string"
+          },
+          "sequence": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "response": {
+            "enum": [
+              "liked",
+              "disliked",
+              "unfamiliar",
+              null
+            ]
+          },
+          "in_original_inputs": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "domain",
+          "sequence",
+          "response",
+          "in_original_inputs"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "influence": {
+      "type": "object",
+      "properties": {
+        "classification": {
+          "enum": [
+            "dominant",
+            "largest",
+            "distributed",
+            "insufficient",
+            "pending"
+          ]
+        },
+        "detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "strict_status": {
+          "type": "string"
+        },
+        "strict_winner_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "measurements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "value": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "domains": {
+                "type": "object",
+                "additionalProperties": {
+                  "anyOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "halves": {
+                "type": "array",
+                "items": {
+                  "anyOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "id",
+              "value",
+              "domains",
+              "halves"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "classification",
+        "detail",
+        "strict_status",
+        "strict_winner_id",
+        "measurements"
+      ],
+      "additionalProperties": false
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "selected",
+            "none",
+            "declined",
+            "skipped"
+          ]
+        },
+        "ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unsupported": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 80
+                },
+                "supported": {
+                  "const": false
+                }
+              },
+              "required": [
+                "text",
+                "supported"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "ids",
+        "unsupported"
+      ],
+      "additionalProperties": false
+    },
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "classification": {
+          "enum": [
+            "agreement",
+            "disagreement",
+            "shared",
+            "insufficient",
+            null
+          ]
+        },
+        "model_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "overlap_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "classification",
+        "model_ids",
+        "overlap_ids"
+      ],
+      "additionalProperties": false
+    },
+    "denominators": {
+      "type": "object",
+      "properties": {
+        "yes": {
+          "type": "number"
+        },
+        "no": {
+          "type": "number"
+        },
+        "unknown": {
+          "type": "number"
+        },
+        "known": {
+          "type": "number"
+        },
+        "total": {
+          "type": "number"
+        },
+        "answered": {
+          "type": "number"
+        },
+        "rate": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "yes",
+        "no",
+        "unknown",
+        "known",
+        "total",
+        "answered",
+        "rate"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "experiment_version",
+    "consent_version",
+    "record_id",
+    "consent",
+    "source",
+    "evidence_generated_at",
+    "model",
+    "interests",
+    "predictions",
+    "influence",
+    "identity",
+    "comparison",
+    "denominators"
+  ],
+  "additionalProperties": false
+}

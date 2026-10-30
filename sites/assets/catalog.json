@@ -1,0 +1,173 @@
+[
+  {
+    "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "name": "Radiohead",
+    "type": "artist",
+    "detail": "Radiohead",
+    "image": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg",
+    "verified": true,
+    "alias": "radiohead"
+  },
+  {
+    "id": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+    "name": "Blue Bottle Coffee",
+    "type": "brand",
+    "detail": "Blue Bottle Coffee is a specialty coffee roaster and retailer known for fresh, high-quality coffee sourced from partners like Pedro Nel Trujillo.",
+    "image": "https://images.qloo.com/i/22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D-420x-auto.jpg",
+    "verified": true,
+    "alias": "blue_bottle"
+  },
+  {
+    "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+    "name": "Severance",
+    "type": "tv_show",
+    "detail": "2022",
+    "image": "https://images.qloo.com/i/569F8294-72DA-4935-B9F2-4FC697AB2A1E-420x-auto.jpg",
+    "verified": true,
+    "alias": "severance"
+  },
+  {
+    "id": "C0E17E3C-A232-466D-A741-E18A6E978C88",
+    "name": "Joe Rogan",
+    "type": "person",
+    "detail": "1967-08-11",
+    "image": "https://images.qloo.com/i/C0E17E3C-A232-466D-A741-E18A6E978C88-420x-auto.jpg",
+    "verified": true,
+    "alias": "joe_person"
+  },
+  {
+    "id": "2BBC8913-13CA-47A3-BCD0-B48E70D6B005",
+    "name": "The Joe Rogan Experience",
+    "type": "podcast",
+    "detail": "Comedian Joe Rogan hosts in-depth conversations with a variety of guests, exploring diverse topics and ideas.",
+    "image": "https://images.qloo.com/i/2BBC8913-13CA-47A3-BCD0-B48E70D6B005-420x-auto.jpg",
+    "verified": true,
+    "alias": "rogan"
+  },
+  {
+    "id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+    "name": "Huberman Lab",
+    "type": "podcast",
+    "detail": "Exploring neuroscience and science-based tools to understand brain function, behavior, and health.",
+    "image": "https://images.qloo.com/i/10E08FC9-04BB-4827-9331-7E9ABE1F7DB6-420x-auto.jpg",
+    "verified": true,
+    "alias": "huberman"
+  },
+  {
+    "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+    "name": "Taylor Swift",
+    "type": "artist",
+    "detail": "Taylor Swift",
+    "image": "https://images.qloo.com/i/4BBEF799-A0C4-4110-AB01-39216993C312-420x-auto.jpg",
+    "verified": true,
+    "alias": "taylor"
+  },
+  {
+    "id": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+    "name": "Starbucks",
+    "type": "brand",
+    "detail": "Starbucks is a global coffee company known for its handcrafted beverages, coffee products, and café experience.",
+    "image": "https://images.qloo.com/i/B13C02E3-BA3C-4B39-85B4-ACF12FEBC892-420x-auto.jpg",
+    "verified": true,
+    "alias": "starbucks"
+  },
+  {
+    "id": "4E62202B-3672-4B2E-A21F-C5EA4A0BA01F",
+    "name": "Friends",
+    "type": "tv_show",
+    "detail": "1994,2004",
+    "image": "https://images.qloo.com/i/4E62202B-3672-4B2E-A21F-C5EA4A0BA01F-420x-auto.jpg",
+    "verified": true,
+    "alias": "friends"
+  },
+  {
+    "id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+    "name": "Metallica",
+    "type": "artist",
+    "detail": "Metallica",
+    "image": "https://images.qloo.com/i/C445C761-CB38-4FEE-B085-D35F444A04DF-420x-auto.jpg",
+    "verified": true,
+    "alias": "metallica"
+  },
+  {
+    "id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+    "name": "Nike",
+    "type": "brand",
+    "detail": "Nike is a global brand specializing in athletic footwear, apparel, equipment, and accessories for men, women, and kids.",
+    "image": "https://images.qloo.com/i/C70CE2B8-0AD1-4150-BF18-5A6347F2E860-420x-auto.jpg",
+    "verified": true,
+    "alias": "nike"
+  },
+  {
+    "id": "46CBADC5-F4A6-4E97-93B2-959066C9F608",
+    "name": "Elden Ring",
+    "type": "videogame",
+    "detail": "2022-02-25, From Software",
+    "image": "https://images.qloo.com/i/46CBADC5-F4A6-4E97-93B2-959066C9F608-420x-auto.jpg",
+    "verified": true,
+    "alias": "elden_ring"
+  },
+  {
+    "id": "08663BD2-E267-4C7F-9895-86410F67867C",
+    "name": "Animal Crossing: New Horizons",
+    "type": "videogame",
+    "detail": "2020-03-20, Nintendo",
+    "image": "https://images.qloo.com/i/08663BD2-E267-4C7F-9895-86410F67867C-420x-auto.jpg",
+    "verified": true,
+    "alias": "animal_crossing"
+  },
+  {
+    "id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+    "name": "Patagonia",
+    "type": "brand",
+    "detail": "Patagonia is an outdoor apparel company known for sustainable clothing and gear for activities like climbing, surfing, skiing, and trail running.",
+    "image": "https://images.qloo.com/i/DB4CE34E-3A63-4947-946F-9D52502C5762-420x-auto.jpg",
+    "verified": true,
+    "alias": "patagonia"
+  },
+  {
+    "id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+    "name": "Lululemon",
+    "type": "brand",
+    "detail": "Lululemon is a brand specializing in technical athletic apparel and footwear, known for activewear and yoga gear for men and women.",
+    "image": "https://images.qloo.com/i/D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E-420x-auto.jpg",
+    "verified": true,
+    "alias": "lululemon"
+  },
+  {
+    "id": "8376EDE4-3EA9-440B-B424-6BBFB13EB6F0",
+    "name": "Monster Energy",
+    "type": "brand",
+    "detail": "Monster Energy is a brand known for its energy drinks, coffee, tea, and juice products, promoting an active lifestyle with the slogan 'Unleash the Beast'.",
+    "image": "https://images.qloo.com/i/8376EDE4-3EA9-440B-B424-6BBFB13EB6F0-420x-auto.jpg",
+    "verified": true,
+    "alias": "monster"
+  },
+  {
+    "id": "9BA85467-2189-46DC-BB98-4B25EE182A9D",
+    "name": "Dune (Dune, #1)",
+    "type": "book",
+    "detail": "1965, Frank Herbert",
+    "image": "https://images.qloo.com/i/9BA85467-2189-46DC-BB98-4B25EE182A9D-420x-auto.jpg",
+    "verified": false,
+    "alias": "dune"
+  },
+  {
+    "id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+    "name": "Björk",
+    "type": "artist",
+    "detail": "Björk",
+    "image": "https://images.qloo.com/i/01381184-B533-4E3C-B9DB-43A2FE326744-420x-auto.jpg",
+    "verified": true,
+    "alias": "bjork"
+  },
+  {
+    "id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+    "name": "Apple Inc",
+    "type": "brand",
+    "detail": "Apple Inc is a global technology company known for its innovative products like iPhone, iPad, Mac, and services including software updates and device trade-in programs.",
+    "image": "https://images.qloo.com/i/D5B78065-6DBB-4DDB-80DF-6495B9B1006B-420x-auto.jpg",
+    "verified": true,
+    "alias": "apple"
+  }
+]

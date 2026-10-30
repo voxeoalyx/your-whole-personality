@@ -283,7 +283,10 @@ class Investigator:
 
     def conclude(self):
         self.finished = True; self.stop_reason = 'Five-question budget reached.'
-        if self.mode == 'fixed_qloo' or self.fallback_reason or self.calls >= self.max_calls:
+        if self.mode == 'fixed_qloo' or self.fallback_reason:
+            return
+        if self.calls >= self.max_calls:
+            self.fixed_closing()
             return
         state = self.context(True)
         self.calls += 1
@@ -296,8 +299,11 @@ class Investigator:
             self.trace.append({'event': 'decision', 'known': {'feedback': state['feedback'], 'accuracy': state['accuracy']},
                                'action': action, 'model': meta, 'result': {'finished': True}})
         except (ModelError, ValueError, TypeError, KeyError):
-            self.observation = 'The evidence is in. My confidence has been appropriately reduced.'
-            self.trace.append({'event': 'closing_fallback', 'result': {'finished': True, 'deterministic_verdict': True}})
+            self.fixed_closing()
+
+    def fixed_closing(self):
+        self.observation = 'The evidence is in. My confidence has been appropriately reduced.'
+        self.trace.append({'event': 'closing_fallback', 'result': {'finished': True, 'deterministic_verdict': True}})
 
     def fallback(self, reason):
         self.fallback_reason = reason
@@ -338,6 +344,7 @@ class Investigator:
             game['predictions'] = deepcopy(self.predictions)
             game['investigator'] = {'mode': 'fixed_qloo_fallback' if self.fallback_reason else self.mode,
                 'provider': 'NVIDIA', 'model': getattr(self.model, 'model', None), 'fallback_reason': self.fallback_reason,
+                'closing_fallback': any(e.get('event') == 'closing_fallback' for e in self.trace),
                 'observation': self.observation, 'hypotheses': deepcopy(self.hypotheses),
                 'question_limit': self.question_limit, 'questions_remaining': self.question_limit - len(self.answers),
                 'model_calls': self.calls, 'model_call_limit': self.max_calls, 'discovery_queries': self.query_count,

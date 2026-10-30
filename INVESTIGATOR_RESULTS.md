@@ -18,6 +18,8 @@ Bounds: five questions, ten model calls, at most three model steps per turn, thr
 
 ## NVIDIA feasibility
 
+October 28 release configuration: the default and `.env.example` now use `nvidia/nemotron-3.5-super-vl-120b-a12b`, matching the latest verified local run. The older model results below are historical evidence, not the current setup default.
+
 Authenticated structured tool calls worked with `nvidia/nemotron-3-super-120b-a12b`, the selected default. The key is read on the Python server from environment / ignored `.env`; it never reaches the browser. There is no paid-provider fallback.
 
 NVIDIA advertises [free development endpoints](https://docs.api.nvidia.com/nim/docs/run-anywhere). [Nemotron Super's official page](https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b) identifies the hosted model. Availability and limits are service/account dependent; this is not an unlimited public-production entitlement. We did not inspect the user's account balance or promise a particular quota.

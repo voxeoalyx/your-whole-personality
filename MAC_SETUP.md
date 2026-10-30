@@ -24,7 +24,7 @@ Fill only the blank `QLOO_API_KEY` and `NVIDIA_API_KEY` fields; keep the documen
 ```sh
 git config core.hooksPath .githooks
 python -m unittest discover -s tests -v
-node --test tests/logic.test.js
+node --test tests/*.test.js
 python tools/audit_repository.py --history
 python server.py
 ```
@@ -43,3 +43,9 @@ python server.py
 Before your first commit, configure your own Git name/email (`git config user.name "Your Name"` and `git config user.email "YOUR_GITHUB_NOREPLY_EMAIL"`). Optional hooks are not automatically enabled by cloning. Run both test commands and the audit before pushing. Do not force-add env files, caches or new session captures. Review raw research additions for credentials and participant information first.
 
 Read [PROJECT_STATUS.md](PROJECT_STATUS.md), [README.md](README.md), and [research/ARCHIVE.md](research/ARCHIVE.md) before changing behavior. Deployment is documented in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). The repository carries the saved research; no laptop directory or previous checkout is needed.
+
+### Identity research extension
+
+No new dependencies, database, API key or hosting service is needed. Restart the Python server after updating: its explicit static allowlist now includes `identity.js` and `research-schema.js`. Reload the browser. The optional question is after the verdict; research uses a local, consent-gated export. Do not configure automatic research ingestion. See `docs/IDENTITY_RESEARCH.md` for privacy and schema rules.
+
+The example and server default use `nvidia/nemotron-3.5-lightning-30b-a3b`, validated against the game action schema after the prior Super endpoint timed out during release checks. Keep `NVIDIA_MODEL` configurable; provider availability and public-use permissions require separate confirmation.

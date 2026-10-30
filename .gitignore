@@ -34,3 +34,6 @@ Desktop.ini
 *.swo
 # Bulky per-run CSV exports can be rebuilt from archived JSON
 research/civilizr-research/**/runs/**/results.csv
+# Separate prototypes in this local workspace are not part of this release.
+/cult/
+/unshill/

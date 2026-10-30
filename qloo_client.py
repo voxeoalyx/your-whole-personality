@@ -10,6 +10,7 @@ from urllib.error import HTTPError,URLError
 from urllib.parse import urlencode,urlsplit
 from urllib.request import Request,build_opener,HTTPRedirectHandler
 from signals import FIELDS,parameters
+from protections import check_deadline
 
 ROOT=Path(__file__).resolve().parent
 TYPES={'artist','tv_show','movie','podcast','book','brand','videogame','person'}
@@ -72,7 +73,9 @@ class Client:
         if route not in {'/search','/v2/insights','/v2/tags','/v2/audiences'}: raise ValueError('Unknown endpoint')
         wire={k:','.join(map(str,v)) if isinstance(v,list) else str(v).lower() if isinstance(v,bool) else str(v) for k,v in sorted(params.items())}
         identity=json.dumps([route,wire],sort_keys=True); key=hashlib.sha256(identity.encode()).hexdigest()
+        check_deadline()
         with self.lock:
+            check_deadline()
             cached=self.cache.get(key)
             if cached and time.monotonic()-cached[0]<7200: return cached[1]
             if not self.key: raise QlooError('Live Qloo is not configured. A recorded round is ready below.','not_configured')
@@ -83,6 +86,7 @@ class Client:
             try:
                 with build_opener(NoRedirect()).open(req,timeout=15) as response:
                     raw=response.read(8*1024*1024+1)
+                check_deadline()
                 if len(raw)>8*1024*1024: raise QlooError('That response was too large. Try fewer interests.')
                 data=json.loads(raw)
             except HTTPError as exc:
