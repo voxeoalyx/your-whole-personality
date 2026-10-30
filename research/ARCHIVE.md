@@ -9,7 +9,7 @@ This directory makes the checkout self-contained. It preserves the earlier Civil
 - `../docs/verification/`: selected share-card/mobile screenshots.
 - `TRANSFER_MANIFEST.json`: relative paths, byte counts and SHA-256 hashes of retained evidence and omitted reproducible exports. Documentation portability edits are separately identified.
 
-Earlier READMEs describe runs as local/Git-ignored and mention a preexisting env file. Those are historical workflow descriptions: these curated response archives are now intentionally versioned in a private repository, and that env file is deliberately excluded. The live application reads only the root `.env` or process environment. Frozen research runners can receive `QLOO_API_KEY`/`QLOO_BASE_URL` via environment, or an explicitly selected ignored local env file; never put credentials into plans. Do not rerun completed experiments merely to validate the transfer.
+Earlier READMEs describe runs as local/Git-ignored and mention a preexisting env file. Those are historical workflow descriptions: these curated response archives were intentionally versioned during the private transfer and remain included with the public application source; that env file is deliberately excluded. The live application reads only the root `.env` or process environment. Frozen research runners can receive `QLOO_API_KEY`/`QLOO_BASE_URL` via environment, or an explicitly selected ignored local env file; never put credentials into plans. Do not rerun completed experiments merely to validate the transfer.
 
 ## Reproduce offline
 

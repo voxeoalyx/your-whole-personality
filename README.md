@@ -1,6 +1,8 @@
 # Your Whole Personality
 
-The application now has an owner-private [ChatGPT Sites deployment](https://your-whole-personality.a-lyx.chatgpt.site), using the [Vinext/Workers/D1 runtime](sites/README.md) in `sites/`. See [release verification](docs/RELEASE_VERIFICATION.md) for source preparation, hosted browser/consent/export checks and remaining limitations. The Python setup below remains the reference implementation and scoring oracle. No public deployment has been performed; GitHub remains private.
+**[Play Your Whole Personality](https://your-whole-personality.a-lyx.chatgpt.site)** · **[Source code](https://github.com/voxeoalyx/your-whole-personality)**
+
+The public ChatGPT Sites game uses the [Vinext/Workers/D1 runtime](sites/README.md) in `sites/`. This repository contains Your Whole Personality, its tests and supporting research archive; separate Unshill and Cult applications are not included. See [release verification](docs/RELEASE_VERIFICATION.md) for source preparation, hosted browser/consent/export checks and remaining limitations. That report records the private verification stage before public release. The Python setup below remains the reference implementation and scoring oracle.
 
 **You contain multitudes. The algorithm disagrees.**
 
@@ -24,7 +26,7 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 npm start -- --port 8787
 ```
 
-Open **http://127.0.0.1:8787/**. Apply the migration only once per new local database. See [Sites setup](sites/README.md) for development, tests and hosted binding/secrets configuration. Secrets stay server-side; no account is needed for local recorded play. The private hosted preview uses ChatGPT sign-in.
+Open **http://127.0.0.1:8787/**. Apply the migration only once per new local database. See [Sites setup](sites/README.md) for development, tests and hosted binding/secrets configuration. Secrets stay server-side; no account is needed for local recorded play or the public hosted game.
 
 ## Run the Python reference
 
@@ -43,7 +45,7 @@ python server.py
 
 Open **http://127.0.0.1:8765**. Keep the terminal running; Ctrl+C stops the server. On subsequent starts, `sh start.sh` uses this checkout's virtual environment when present. On Windows, run `py -3 -m venv .venv`, copy `.env.example` to `.env`, edit it locally, then run `.\start.ps1`. Neither launcher depends on a bundled laptop runtime. Use `python server.py --port 8766` if the port is occupied.
 
-The default binds to loopback and rejects other hosts/origins. Nothing has been publicly deployed. An explicit external bind and HTTPS origin are available behind a reverse proxy; see [deployment instructions](docs/DEPLOYMENT.md).
+The Python reference defaults to loopback and rejects other hosts/origins. The public game uses the Sites runtime instead. An explicit external Python bind and HTTPS origin are available behind a reverse proxy; see [deployment instructions](docs/DEPLOYMENT.md).
 
 Live play reads `QLOO_API_KEY` from this checkout's `.env` or the process environment; process values take precedence. No sibling folder is required. The default host is `https://hackathon.api.qloo.com`. Add `NVIDIA_API_KEY` for the investigator; no OpenAI key is needed. Each line must be `NAME=value`, without quotes around the entire assignment. Keys never enter client responses, HTML or JavaScript. All actual env files are ignored by Git; `.env.example` contains blank credential fields.
 
@@ -84,7 +86,7 @@ Official references: [Qloo Search](https://raw.githubusercontent.com/qloo/docs-p
 
 ## Privacy and data
 
-Live search and selected interests go to Qloo. Live selections, candidate evidence, explicit reactions and concise hypothesis state go to NVIDIA for inference. Explicitly liked predictions may be added to later Qloo queries; rejected and unfamiliar predictions are never sent as positive signals. In the Sites runtime, live reactions are POSTed to the server and saved in temporary D1 round state. Rounds expire 30 minutes after creation, including working rounds; caches/search records expire after two hours. Expired rows are inaccessible and are physically removed by the next API cleanup. The Python reference instead uses process memory and an in-flight expiry exception. Reloading the tab abandons its UI but does not instantly erase the server job. Provider retention is governed by those services, not the local expiry. Recorded-round reactions stay in the tab. The game has no analytics, account database or localStorage. Private Sites access uses platform authentication/cookies and supplies basic account details, which the game does not store in round records. Hosting logs include request URLs, headers and connection metadata: search text in URLs may appear in those logs. Hosting backup/log retention and provider retention are separate from app expiry and remain unverified.
+Live search and selected interests go to Qloo. Live selections, candidate evidence, explicit reactions and concise hypothesis state go to NVIDIA for inference. Explicitly liked predictions may be added to later Qloo queries; rejected and unfamiliar predictions are never sent as positive signals. In the Sites runtime, live reactions are POSTed to the server and saved in temporary D1 round state. Rounds expire 30 minutes after creation, including working rounds; caches/search records expire after two hours. Expired rows are inaccessible and are physically removed by the next API cleanup. The Python reference instead uses process memory and an in-flight expiry exception. Reloading the tab abandons its UI but does not instantly erase the server job. Provider retention is governed by those services, not the local expiry. Recorded-round reactions stay in the tab. The game has no analytics, account database or localStorage. The public hosted game does not require sign-in. Sites handles platform authentication/cookies when applicable; the game does not store basic account details in round records. Hosting logs include request URLs, headers and connection metadata: search text in URLs may appear in those logs. Hosting backup/log retention and provider retention are separate from app expiry and remain unverified.
 
 The optional session JSON contains typed selections, exact signal parameters, shown predictions/reactions, separate metrics, source/timestamp and the investigator trace including Qloo request receipts. It excludes credentials and private reasoning. It is written only when the player chooses to download it. No consented research dataset is silently accumulated. Development probes use predefined public example interests and scripted responses, never real-player reactions.
 

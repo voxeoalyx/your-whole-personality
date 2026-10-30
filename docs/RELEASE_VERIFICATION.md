@@ -1,5 +1,15 @@
 # Release source and hosted browser verification
 
+## Public release follow-up — October 30, 2026
+
+At the owner's request for public submission links, the existing GitHub repository and existing Sites version 9 were made public. No application code, scoring, keys or provider budgets changed. GitHub reports a public repository with the MIT license; the separate Unshill and Cult applications remain excluded. The supporting historical research archive remains included.
+
+Fresh requests with no cookies or authentication returned HTTP 200 for the GitHub page, GitHub public repository API, hosted game, `/api/config` and `/app.js`. An anonymous recorded-game POST returned 202; its subsequent poll returned 200 with a ready, correctly labeled recorded game containing six predictions. This check made no provider calls. The earlier signed-in live round remains the live-game evidence; a new anonymous live round was not run. Before publication, the 2,409-file index scan and the 2,078-object GitHub-bound history scan passed with no findings, including checks for both configured provider keys.
+
+Public links: [play](https://your-whole-personality.a-lyx.chatgpt.site/) · [source](https://github.com/voxeoalyx/your-whole-personality). The dated private-stage report below is retained as historical verification evidence. This access change did not submit a Devpost entry.
+
+---
+
 October 30, 2026. Scope: complete the GitHub release source and the previously deferred hosted browser checks. The app and GitHub remain private; no Devpost entry or public-access change was made.
 
 ## Release source
